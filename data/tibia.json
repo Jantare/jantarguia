@@ -35,7 +35,8 @@
      "quest": null,
      "tip": "Machado barato e fácil. Se o NPC vender, compre logo no level 8.",
      "wiki": "https://tibia.fandom.com/wiki/Battle_Axe",
-     "id": "knight-battle-axe"
+     "id": "knight-battle-axe",
+     "img": "img/itens/battle-axe.webp"
     },
     {
      "tier": "8–20",
@@ -66,7 +67,8 @@
      "quest": null,
      "tip": "Elfos dropam bastante e são fracos.",
      "wiki": "https://tibia.fandom.com/wiki/Longsword",
-     "id": "knight-longsword"
+     "id": "knight-longsword",
+     "img": "img/itens/longsword.webp"
     },
     {
      "tier": "8–20",
@@ -97,7 +99,8 @@
      "quest": null,
      "tip": "Minotauros também dropam chain armor.",
      "wiki": "https://tibia.fandom.com/wiki/Mace",
-     "id": "knight-mace"
+     "id": "knight-mace",
+     "img": "img/itens/mace.webp"
     },
     {
      "tier": "8–20",
@@ -128,7 +131,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Armor",
-     "id": "knight-brass-armor"
+     "id": "knight-brass-armor",
+     "img": "img/itens/brass-armor.webp"
     },
     {
      "tier": "8–20",
@@ -159,7 +163,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
-     "id": "knight-brass-legs"
+     "id": "knight-brass-legs",
+     "img": "img/itens/brass-legs.webp"
     },
     {
      "tier": "8–20",
@@ -190,7 +195,8 @@
      "quest": null,
      "tip": "O Dwarf Soldier também dropa o Dwarven Shield.",
      "wiki": "https://tibia.fandom.com/wiki/Soldier_Helmet",
-     "id": "knight-soldier-helmet"
+     "id": "knight-soldier-helmet",
+     "img": "img/itens/soldier-helmet.webp"
     },
     {
      "tier": "8–20",
@@ -221,7 +227,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Dwarven_Shield",
-     "id": "knight-dwarven-shield"
+     "id": "knight-dwarven-shield",
+     "img": "img/itens/dwarven-shield.webp"
     },
     {
      "tier": "8–20",
@@ -252,7 +259,8 @@
      "quest": null,
      "tip": "Dwarf Guard dropa em 40% das vezes.",
      "wiki": "https://tibia.fandom.com/wiki/Leather_Boots",
-     "id": "knight-leather-boots"
+     "id": "knight-leather-boots",
+     "img": "img/itens/leather-boots.webp"
     },
     {
      "tier": "20–35",
@@ -278,7 +286,8 @@
      "quest": null,
      "tip": "Caro (8k), mas tem 2 slots de imbuement e dura até o 50.",
      "wiki": "https://tibia.fandom.com/wiki/Spike_Sword",
-     "id": "knight-spike-sword"
+     "id": "knight-spike-sword",
+     "img": "img/itens/spike-sword.webp"
     },
     {
      "tier": "20–35",
@@ -300,7 +309,8 @@
      "quest": null,
      "tip": "Level 20. Compra no NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Clerical_Mace",
-     "id": "knight-clerical-mace"
+     "id": "knight-clerical-mace",
+     "img": "img/itens/clerical-mace.webp"
     },
     {
      "tier": "20–35",
@@ -322,7 +332,8 @@
      "quest": null,
      "tip": "Só por NPC na prática (quem dropa é monstro de level alto).",
      "wiki": "https://tibia.fandom.com/wiki/Barbarian_Axe",
-     "id": "knight-barbarian-axe"
+     "id": "knight-barbarian-axe",
+     "img": "img/itens/barbarian-axe.webp"
     },
     {
      "tier": "20–35",
@@ -357,7 +368,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Plate_Armor",
-     "id": "knight-plate-armor"
+     "id": "knight-plate-armor",
+     "img": "img/itens/plate-armor.webp"
     },
     {
      "tier": "20–35",
@@ -388,7 +400,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Steel_Helmet",
-     "id": "knight-steel-helmet"
+     "id": "knight-steel-helmet",
+     "img": "img/itens/steel-helmet.webp"
     },
     {
      "tier": "35–60",
@@ -406,7 +419,8 @@
      "quest": null,
      "tip": "Level 25. Drop raro.",
      "wiki": "https://tibia.fandom.com/wiki/Wyvern_Fang",
-     "id": "knight-wyvern-fang"
+     "id": "knight-wyvern-fang",
+     "img": "img/itens/wyvern-fang.webp"
     },
     {
      "tier": "35–60",
@@ -437,7 +451,8 @@
      "quest": null,
      "tip": "Level 50. Drop bom (~5,6%) e também vende no NPC.",
      "wiki": "https://tibia.fandom.com/wiki/War_Hammer",
-     "id": "knight-war-hammer"
+     "id": "knight-war-hammer",
+     "img": "img/itens/war-hammer.webp"
     },
     {
      "tier": "35–60",
@@ -460,7 +475,8 @@
      "quest": null,
      "tip": "Duas mãos = sem escudo. Se estiver apanhando muito, fique com arma de 1 mão + escudo.",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Halberd",
-     "id": "knight-zaoan-halberd"
+     "id": "knight-zaoan-halberd",
+     "img": "img/itens/zaoan-halberd.webp"
     },
     {
      "tier": "35–60",
@@ -478,7 +494,8 @@
      "quest": null,
      "tip": "Orc Warlord também dropa plate armor e dark helmet.",
      "wiki": "https://tibia.fandom.com/wiki/Plate_Legs",
-     "id": "knight-plate-legs"
+     "id": "knight-plate-legs",
+     "img": "img/itens/plate-legs.webp"
     },
     {
      "tier": "60–100",
@@ -496,7 +513,8 @@
      "quest": null,
      "tip": "Drop alto (~19%). O mesmo monstro dropa knight armor.",
      "wiki": "https://tibia.fandom.com/wiki/Crystal_Sword",
-     "id": "knight-crystal-sword"
+     "id": "knight-crystal-sword",
+     "img": "img/itens/crystal-sword.webp"
     },
     {
      "tier": "60–100",
@@ -514,7 +532,8 @@
      "quest": null,
      "tip": "Level 48, de 1 mão: dá pra usar escudo.",
      "wiki": "https://tibia.fandom.com/wiki/Deepling_Squelcher",
-     "id": "knight-deepling-squelcher"
+     "id": "knight-deepling-squelcher",
+     "img": "img/itens/deepling-squelcher.webp"
     },
     {
      "tier": "60–100",
@@ -532,7 +551,8 @@
      "quest": null,
      "tip": "Mesma hunt dos Zaoan Shoes: dá pra montar o set inteiro em Zao.",
      "wiki": "https://tibia.fandom.com/wiki/Drakinata",
-     "id": "knight-drakinata"
+     "id": "knight-drakinata",
+     "img": "img/itens/drakinata.webp"
     },
     {
      "tier": "60–100",
@@ -545,7 +565,8 @@
      "quest": "Arena de Svargrond (nível Scrapper)",
      "tip": "Recompensa da Arena de Svargrond (nível Scrapper). Combina com Tower Shield.",
      "wiki": "https://tibia.fandom.com/wiki/Heroic_Axe",
-     "id": "knight-heroic-axe"
+     "id": "knight-heroic-axe",
+     "img": "img/itens/heroic-axe.webp"
     },
     {
      "tier": "60–100",
@@ -563,7 +584,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Tower_Shield",
-     "id": "knight-tower-shield"
+     "id": "knight-tower-shield",
+     "img": "img/itens/tower-shield.webp"
     },
     {
      "tier": "60–100",
@@ -581,7 +603,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Armor",
-     "id": "knight-zaoan-armor"
+     "id": "knight-zaoan-armor",
+     "img": "img/itens/zaoan-armor.webp"
     },
     {
      "tier": "60–100",
@@ -599,7 +622,8 @@
      "quest": null,
      "tip": "O exemplo clássico: Zaoan Legs sai dos lizards de Zao.",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
-     "id": "knight-zaoan-legs"
+     "id": "knight-zaoan-legs",
+     "img": "img/itens/zaoan-legs.webp"
     },
     {
      "tier": "60–100",
@@ -621,7 +645,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Shoes",
-     "id": "knight-zaoan-shoes"
+     "id": "knight-zaoan-shoes",
+     "img": "img/itens/zaoan-shoes.webp"
     },
     {
      "tier": "100–150",
@@ -639,7 +664,8 @@
      "quest": null,
      "tip": "Level 55. Mesma hunt do Elite Draken Mail.",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Sword",
-     "id": "knight-zaoan-sword"
+     "id": "knight-zaoan-sword",
+     "img": "img/itens/zaoan-sword.webp"
     },
     {
      "tier": "100–150",
@@ -657,7 +683,8 @@
      "quest": null,
      "tip": "Level 60.",
      "wiki": "https://tibia.fandom.com/wiki/Abyss_Hammer",
-     "id": "knight-abyss-hammer"
+     "id": "knight-abyss-hammer",
+     "img": "img/itens/abyss-hammer.webp"
     },
     {
      "tier": "100–150",
@@ -675,7 +702,8 @@
      "quest": null,
      "tip": "Drop alto (~9%) para um item desse nível.",
      "wiki": "https://tibia.fandom.com/wiki/Guardian_Halberd",
-     "id": "knight-guardian-halberd"
+     "id": "knight-guardian-halberd",
+     "img": "img/itens/guardian-halberd.webp"
     },
     {
      "tier": "100–150",
@@ -693,7 +721,8 @@
      "quest": null,
      "tip": "Raro. Na mesma hunt sai o Draken Boots.",
      "wiki": "https://tibia.fandom.com/wiki/Elite_Draken_Mail",
-     "id": "knight-elite-draken-mail"
+     "id": "knight-elite-draken-mail",
+     "img": "img/itens/elite-draken-mail.webp"
     },
     {
      "tier": "100–150",
@@ -711,7 +740,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
-     "id": "knight-zaoan-helmet"
+     "id": "knight-zaoan-helmet",
+     "img": "img/itens/zaoan-helmet.webp"
     },
     {
      "tier": "100–150",
@@ -733,7 +763,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Draken_Boots",
-     "id": "knight-draken-boots"
+     "id": "knight-draken-boots",
+     "img": "img/itens/draken-boots.webp"
     }
    ]
   },
@@ -770,7 +801,8 @@
      "quest": null,
      "tip": "Valkyries dropam spear em mais da metade das kills.",
      "wiki": "https://tibia.fandom.com/wiki/Spear",
-     "id": "paladin-spear"
+     "id": "paladin-spear",
+     "img": "img/itens/spear.webp"
     },
     {
      "tier": "8–20",
@@ -805,7 +837,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Chain_Armor",
-     "id": "paladin-chain-armor"
+     "id": "paladin-chain-armor",
+     "img": "img/itens/chain-armor.webp"
     },
     {
      "tier": "8–20",
@@ -836,7 +869,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
-     "id": "paladin-brass-legs"
+     "id": "paladin-brass-legs",
+     "img": "img/itens/brass-legs.webp"
     },
     {
      "tier": "8–20",
@@ -867,7 +901,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Soldier_Helmet",
-     "id": "paladin-soldier-helmet"
+     "id": "paladin-soldier-helmet",
+     "img": "img/itens/soldier-helmet.webp"
     },
     {
      "tier": "8–20",
@@ -898,7 +933,8 @@
      "quest": null,
      "tip": "Paladino de spear pode usar escudo.",
      "wiki": "https://tibia.fandom.com/wiki/Dwarven_Shield",
-     "id": "paladin-dwarven-shield"
+     "id": "paladin-dwarven-shield",
+     "img": "img/itens/dwarven-shield.webp"
     },
     {
      "tier": "8–20",
@@ -929,7 +965,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Leather_Boots",
-     "id": "paladin-leather-boots"
+     "id": "paladin-leather-boots",
+     "img": "img/itens/leather-boots.webp"
     },
     {
      "tier": "20–35",
@@ -964,7 +1001,8 @@
      "quest": null,
      "tip": "Lança melhor; NPC vende barato.",
      "wiki": "https://tibia.fandom.com/wiki/Royal_Spear",
-     "id": "paladin-royal-spear"
+     "id": "paladin-royal-spear",
+     "img": "img/itens/royal-spear.webp"
     },
     {
      "tier": "20–35",
@@ -995,7 +1033,8 @@
      "quest": null,
      "tip": "Arco + flecha: mais dano à distância, sem escudo.",
      "wiki": "https://tibia.fandom.com/wiki/Bow",
-     "id": "paladin-bow"
+     "id": "paladin-bow",
+     "img": "img/itens/bow.webp"
     },
     {
      "tier": "20–35",
@@ -1026,7 +1065,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Sniper_Arrow",
-     "id": "paladin-sniper-arrow"
+     "id": "paladin-sniper-arrow",
+     "img": "img/itens/sniper-arrow.webp"
     },
     {
      "tier": "20–35",
@@ -1057,7 +1097,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Steel_Helmet",
-     "id": "paladin-steel-helmet"
+     "id": "paladin-steel-helmet",
+     "img": "img/itens/steel-helmet.webp"
     },
     {
      "tier": "35–60",
@@ -1083,7 +1124,8 @@
      "quest": null,
      "tip": "Compre no NPC; drop só em monstros de level alto.",
      "wiki": "https://tibia.fandom.com/wiki/Onyx_Arrow",
-     "id": "paladin-onyx-arrow"
+     "id": "paladin-onyx-arrow",
+     "img": "img/itens/onyx-arrow.webp"
     },
     {
      "tier": "35–60",
@@ -1101,7 +1143,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Composite_Hornbow",
-     "id": "paladin-composite-hornbow"
+     "id": "paladin-composite-hornbow",
+     "img": "img/itens/composite-hornbow.webp"
     },
     {
      "tier": "35–60",
@@ -1136,7 +1179,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Plate_Armor",
-     "id": "paladin-plate-armor"
+     "id": "paladin-plate-armor",
+     "img": "img/itens/plate-armor.webp"
     },
     {
      "tier": "35–60",
@@ -1154,7 +1198,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Plate_Legs",
-     "id": "paladin-plate-legs"
+     "id": "paladin-plate-legs",
+     "img": "img/itens/plate-legs.webp"
     },
     {
      "tier": "60–100",
@@ -1176,7 +1221,8 @@
      "quest": null,
      "tip": "Arma clássica de paladino nessa faixa; compra no NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Assassin_Star",
-     "id": "paladin-assassin-star"
+     "id": "paladin-assassin-star",
+     "img": "img/itens/assassin-star.webp"
     },
     {
      "tier": "60–100",
@@ -1194,7 +1240,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Armor",
-     "id": "paladin-zaoan-armor"
+     "id": "paladin-zaoan-armor",
+     "img": "img/itens/zaoan-armor.webp"
     },
     {
      "tier": "60–100",
@@ -1212,7 +1259,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
-     "id": "paladin-zaoan-legs"
+     "id": "paladin-zaoan-legs",
+     "img": "img/itens/zaoan-legs.webp"
     },
     {
      "tier": "60–100",
@@ -1230,7 +1278,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Metal_Spats",
-     "id": "paladin-metal-spats"
+     "id": "paladin-metal-spats",
+     "img": "img/itens/metal-spats.webp"
     },
     {
      "tier": "60–100",
@@ -1261,7 +1310,8 @@
      "quest": null,
      "tip": "A partir do level 90. Wiggler dropa bastante.",
      "wiki": "https://tibia.fandom.com/wiki/Crystalline_Arrow",
-     "id": "paladin-crystalline-arrow"
+     "id": "paladin-crystalline-arrow",
+     "img": "img/itens/crystalline-arrow.webp"
     },
     {
      "tier": "100–150",
@@ -1279,7 +1329,8 @@
      "quest": null,
      "tip": "Drop raro: vale guardar se cair.",
      "wiki": "https://tibia.fandom.com/wiki/Mycological_Bow",
-     "id": "paladin-mycological-bow"
+     "id": "paladin-mycological-bow",
+     "img": "img/itens/mycological-bow.webp"
     },
     {
      "tier": "100–150",
@@ -1297,7 +1348,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Elite_Draken_Mail",
-     "id": "paladin-elite-draken-mail"
+     "id": "paladin-elite-draken-mail",
+     "img": "img/itens/elite-draken-mail.webp"
     },
     {
      "tier": "100–150",
@@ -1315,7 +1367,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
-     "id": "paladin-zaoan-helmet"
+     "id": "paladin-zaoan-helmet",
+     "img": "img/itens/zaoan-helmet.webp"
     },
     {
      "tier": "100–150",
@@ -1333,7 +1386,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Draken_Boots",
-     "id": "paladin-draken-boots"
+     "id": "paladin-draken-boots",
+     "img": "img/itens/draken-boots.webp"
     }
    ]
   },
@@ -1365,7 +1419,8 @@
      "quest": null,
      "tip": "Primeira wand. Compra no NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Vortex",
-     "id": "sorcerer-wand-of-vortex"
+     "id": "sorcerer-wand-of-vortex",
+     "img": "img/itens/wand-of-vortex.webp"
     },
     {
      "tier": "8–20",
@@ -1396,7 +1451,8 @@
      "quest": null,
      "tip": "A partir do level 13.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Dragonbreath",
-     "id": "sorcerer-wand-of-dragonbreath"
+     "id": "sorcerer-wand-of-dragonbreath",
+     "img": "img/itens/wand-of-dragonbreath.webp"
     },
     {
      "tier": "8–20",
@@ -1414,7 +1470,8 @@
      "quest": null,
      "tip": "NPC vende. Dá +1 de magic level.",
      "wiki": "https://tibia.fandom.com/wiki/Spirit_Cloak",
-     "id": "sorcerer-spirit-cloak"
+     "id": "sorcerer-spirit-cloak",
+     "img": "img/itens/spirit-cloak.webp"
     },
     {
      "tier": "8–20",
@@ -1445,7 +1502,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
-     "id": "sorcerer-brass-legs"
+     "id": "sorcerer-brass-legs",
+     "img": "img/itens/brass-legs.webp"
     },
     {
      "tier": "8–20",
@@ -1476,7 +1534,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Spellbook",
-     "id": "sorcerer-spellbook"
+     "id": "sorcerer-spellbook",
+     "img": "img/itens/spellbook.webp"
     },
     {
      "tier": "8–20",
@@ -1507,7 +1566,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Leather_Boots",
-     "id": "sorcerer-leather-boots"
+     "id": "sorcerer-leather-boots",
+     "img": "img/itens/leather-boots.webp"
     },
     {
      "tier": "20–35",
@@ -1538,7 +1598,8 @@
      "quest": null,
      "tip": "Level 19.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Decay",
-     "id": "sorcerer-wand-of-decay"
+     "id": "sorcerer-wand-of-decay",
+     "img": "img/itens/wand-of-decay.webp"
     },
     {
      "tier": "20–35",
@@ -1573,7 +1634,8 @@
      "quest": null,
      "tip": "Level 26.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Cosmic_Energy",
-     "id": "sorcerer-wand-of-cosmic-energy"
+     "id": "sorcerer-wand-of-cosmic-energy",
+     "img": "img/itens/wand-of-cosmic-energy.webp"
     },
     {
      "tier": "20–35",
@@ -1595,7 +1657,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Magma_Monocle",
-     "id": "sorcerer-magma-monocle"
+     "id": "sorcerer-magma-monocle",
+     "img": "img/itens/magma-monocle.webp"
     },
     {
      "tier": "20–35",
@@ -1613,7 +1676,8 @@
      "quest": null,
      "tip": "A partir do level 30.",
      "wiki": "https://tibia.fandom.com/wiki/Spellbook_of_Enlightenment",
-     "id": "sorcerer-spellbook-of-enlightenment"
+     "id": "sorcerer-spellbook-of-enlightenment",
+     "img": "img/itens/spellbook-of-enlightenment.webp"
     },
     {
      "tier": "35–60",
@@ -1644,7 +1708,8 @@
      "quest": null,
      "tip": "Level 33.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Inferno",
-     "id": "sorcerer-wand-of-inferno"
+     "id": "sorcerer-wand-of-inferno",
+     "img": "img/itens/wand-of-inferno.webp"
     },
     {
      "tier": "35–60",
@@ -1670,7 +1735,8 @@
      "quest": null,
      "tip": "Level 37. NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Starstorm",
-     "id": "sorcerer-wand-of-starstorm"
+     "id": "sorcerer-wand-of-starstorm",
+     "img": "img/itens/wand-of-starstorm.webp"
     },
     {
      "tier": "35–60",
@@ -1696,7 +1762,8 @@
      "quest": null,
      "tip": "Level 42. NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Voodoo",
-     "id": "sorcerer-wand-of-voodoo"
+     "id": "sorcerer-wand-of-voodoo",
+     "img": "img/itens/wand-of-voodoo.webp"
     },
     {
      "tier": "35–60",
@@ -1714,7 +1781,8 @@
      "quest": null,
      "tip": "+1 de magic level.",
      "wiki": "https://tibia.fandom.com/wiki/Focus_Cape",
-     "id": "sorcerer-focus-cape"
+     "id": "sorcerer-focus-cape",
+     "img": "img/itens/focus-cape.webp"
     },
     {
      "tier": "35–60",
@@ -1732,7 +1800,8 @@
      "quest": null,
      "tip": "Dwarf Geomancer é monstro fraco; o drop é raro mas sai.",
      "wiki": "https://tibia.fandom.com/wiki/Terra_Boots",
-     "id": "sorcerer-terra-boots"
+     "id": "sorcerer-terra-boots",
+     "img": "img/itens/terra-boots.webp"
     },
     {
      "tier": "35–60",
@@ -1750,7 +1819,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Spellbook_of_Warding",
-     "id": "sorcerer-spellbook-of-warding"
+     "id": "sorcerer-spellbook-of-warding",
+     "img": "img/itens/spellbook-of-warding.webp"
     },
     {
      "tier": "60–100",
@@ -1768,7 +1838,8 @@
      "quest": null,
      "tip": "Level 65. Não tem no NPC: só drop.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Everblazing",
-     "id": "sorcerer-wand-of-everblazing"
+     "id": "sorcerer-wand-of-everblazing",
+     "img": "img/itens/wand-of-everblazing.webp"
     },
     {
      "tier": "60–100",
@@ -1786,7 +1857,8 @@
      "quest": null,
      "tip": "Level 65.",
      "wiki": "https://tibia.fandom.com/wiki/Wand_of_Defiance",
-     "id": "sorcerer-wand-of-defiance"
+     "id": "sorcerer-wand-of-defiance",
+     "img": "img/itens/wand-of-defiance.webp"
     },
     {
      "tier": "60–100",
@@ -1804,7 +1876,8 @@
      "quest": null,
      "tip": "Também em Zao, igual o set dos knights.",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Robe",
-     "id": "sorcerer-zaoan-robe"
+     "id": "sorcerer-zaoan-robe",
+     "img": "img/itens/zaoan-robe.webp"
     },
     {
      "tier": "60–100",
@@ -1826,7 +1899,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Lightning_Robe",
-     "id": "sorcerer-lightning-robe"
+     "id": "sorcerer-lightning-robe",
+     "img": "img/itens/lightning-robe.webp"
     },
     {
      "tier": "60–100",
@@ -1844,7 +1918,8 @@
      "quest": null,
      "tip": "A partir do level 70.",
      "wiki": "https://tibia.fandom.com/wiki/Rubber_Cap",
-     "id": "sorcerer-rubber-cap"
+     "id": "sorcerer-rubber-cap",
+     "img": "img/itens/rubber-cap.webp"
     },
     {
      "tier": "100–150",
@@ -1866,7 +1941,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Calopteryx_Cape",
-     "id": "sorcerer-calopteryx-cape"
+     "id": "sorcerer-calopteryx-cape",
+     "img": "img/itens/calopteryx-cape.webp"
     },
     {
      "tier": "100–150",
@@ -1888,7 +1964,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Oriental_Shoes",
-     "id": "sorcerer-oriental-shoes"
+     "id": "sorcerer-oriental-shoes",
+     "img": "img/itens/oriental-shoes.webp"
     }
    ]
   },
@@ -1920,7 +1997,8 @@
      "quest": null,
      "tip": "Primeiro rod. Compra no NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Snakebite_Rod",
-     "id": "druid-snakebite-rod"
+     "id": "druid-snakebite-rod",
+     "img": "img/itens/snakebite-rod.webp"
     },
     {
      "tier": "8–20",
@@ -1946,7 +2024,8 @@
      "quest": null,
      "tip": "Level 13. NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Moonlight_Rod",
-     "id": "druid-moonlight-rod"
+     "id": "druid-moonlight-rod",
+     "img": "img/itens/moonlight-rod.webp"
     },
     {
      "tier": "8–20",
@@ -1964,7 +2043,8 @@
      "quest": null,
      "tip": "NPC vende. Dá +1 de magic level.",
      "wiki": "https://tibia.fandom.com/wiki/Spirit_Cloak",
-     "id": "druid-spirit-cloak"
+     "id": "druid-spirit-cloak",
+     "img": "img/itens/spirit-cloak.webp"
     },
     {
      "tier": "8–20",
@@ -1995,7 +2075,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
-     "id": "druid-brass-legs"
+     "id": "druid-brass-legs",
+     "img": "img/itens/brass-legs.webp"
     },
     {
      "tier": "8–20",
@@ -2026,7 +2107,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Spellbook",
-     "id": "druid-spellbook"
+     "id": "druid-spellbook",
+     "img": "img/itens/spellbook.webp"
     },
     {
      "tier": "8–20",
@@ -2057,7 +2139,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Leather_Boots",
-     "id": "druid-leather-boots"
+     "id": "druid-leather-boots",
+     "img": "img/itens/leather-boots.webp"
     },
     {
      "tier": "20–35",
@@ -2088,7 +2171,8 @@
      "quest": null,
      "tip": "Level 19.",
      "wiki": "https://tibia.fandom.com/wiki/Necrotic_Rod",
-     "id": "druid-necrotic-rod"
+     "id": "druid-necrotic-rod",
+     "img": "img/itens/necrotic-rod.webp"
     },
     {
      "tier": "20–35",
@@ -2123,7 +2207,8 @@
      "quest": null,
      "tip": "Level 26.",
      "wiki": "https://tibia.fandom.com/wiki/Terra_Rod",
-     "id": "druid-terra-rod"
+     "id": "druid-terra-rod",
+     "img": "img/itens/terra-rod.webp"
     },
     {
      "tier": "20–35",
@@ -2145,7 +2230,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Magma_Monocle",
-     "id": "druid-magma-monocle"
+     "id": "druid-magma-monocle",
+     "img": "img/itens/magma-monocle.webp"
     },
     {
      "tier": "20–35",
@@ -2163,7 +2249,8 @@
      "quest": null,
      "tip": "A partir do level 30.",
      "wiki": "https://tibia.fandom.com/wiki/Spellbook_of_Enlightenment",
-     "id": "druid-spellbook-of-enlightenment"
+     "id": "druid-spellbook-of-enlightenment",
+     "img": "img/itens/spellbook-of-enlightenment.webp"
     },
     {
      "tier": "35–60",
@@ -2194,7 +2281,8 @@
      "quest": null,
      "tip": "Level 33. Crystal Wolf dropa ~7%: dá pra farmar em vez de pagar 15k.",
      "wiki": "https://tibia.fandom.com/wiki/Hailstorm_Rod",
-     "id": "druid-hailstorm-rod"
+     "id": "druid-hailstorm-rod",
+     "img": "img/itens/hailstorm-rod.webp"
     },
     {
      "tier": "35–60",
@@ -2225,7 +2313,8 @@
      "quest": null,
      "tip": "Level 37.",
      "wiki": "https://tibia.fandom.com/wiki/Springsprout_Rod",
-     "id": "druid-springsprout-rod"
+     "id": "druid-springsprout-rod",
+     "img": "img/itens/springsprout-rod.webp"
     },
     {
      "tier": "35–60",
@@ -2256,7 +2345,8 @@
      "quest": null,
      "tip": "Level 42.",
      "wiki": "https://tibia.fandom.com/wiki/Underworld_Rod",
-     "id": "druid-underworld-rod"
+     "id": "druid-underworld-rod",
+     "img": "img/itens/underworld-rod.webp"
     },
     {
      "tier": "35–60",
@@ -2274,7 +2364,8 @@
      "quest": null,
      "tip": "+1 de magic level.",
      "wiki": "https://tibia.fandom.com/wiki/Focus_Cape",
-     "id": "druid-focus-cape"
+     "id": "druid-focus-cape",
+     "img": "img/itens/focus-cape.webp"
     },
     {
      "tier": "35–60",
@@ -2292,7 +2383,8 @@
      "quest": null,
      "tip": "Dwarf Geomancer é monstro fraco; o drop é raro mas sai.",
      "wiki": "https://tibia.fandom.com/wiki/Terra_Boots",
-     "id": "druid-terra-boots"
+     "id": "druid-terra-boots",
+     "img": "img/itens/terra-boots.webp"
     },
     {
      "tier": "35–60",
@@ -2310,7 +2402,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Spellbook_of_Warding",
-     "id": "druid-spellbook-of-warding"
+     "id": "druid-spellbook-of-warding",
+     "img": "img/itens/spellbook-of-warding.webp"
     },
     {
      "tier": "60–100",
@@ -2328,7 +2421,8 @@
      "quest": null,
      "tip": "Level 65. Não tem no NPC: só drop.",
      "wiki": "https://tibia.fandom.com/wiki/Muck_Rod",
-     "id": "druid-muck-rod"
+     "id": "druid-muck-rod",
+     "img": "img/itens/muck-rod.webp"
     },
     {
      "tier": "60–100",
@@ -2346,7 +2440,8 @@
      "quest": null,
      "tip": "Level 65.",
      "wiki": "https://tibia.fandom.com/wiki/Glacial_Rod",
-     "id": "druid-glacial-rod"
+     "id": "druid-glacial-rod",
+     "img": "img/itens/glacial-rod.webp"
     },
     {
      "tier": "60–100",
@@ -2364,7 +2459,8 @@
      "quest": null,
      "tip": "Também em Zao, igual o set dos knights.",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Robe",
-     "id": "druid-zaoan-robe"
+     "id": "druid-zaoan-robe",
+     "img": "img/itens/zaoan-robe.webp"
     },
     {
      "tier": "60–100",
@@ -2386,7 +2482,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Lightning_Robe",
-     "id": "druid-lightning-robe"
+     "id": "druid-lightning-robe",
+     "img": "img/itens/lightning-robe.webp"
     },
     {
      "tier": "60–100",
@@ -2404,7 +2501,8 @@
      "quest": null,
      "tip": "A partir do level 70.",
      "wiki": "https://tibia.fandom.com/wiki/Rubber_Cap",
-     "id": "druid-rubber-cap"
+     "id": "druid-rubber-cap",
+     "img": "img/itens/rubber-cap.webp"
     },
     {
      "tier": "100–150",
@@ -2426,7 +2524,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Calopteryx_Cape",
-     "id": "druid-calopteryx-cape"
+     "id": "druid-calopteryx-cape",
+     "img": "img/itens/calopteryx-cape.webp"
     },
     {
      "tier": "100–150",
@@ -2448,7 +2547,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Oriental_Shoes",
-     "id": "druid-oriental-shoes"
+     "id": "druid-oriental-shoes",
+     "img": "img/itens/oriental-shoes.webp"
     }
    ]
   },
@@ -2472,7 +2572,8 @@
      "quest": null,
      "tip": "Compra no NPC dos monks.",
      "wiki": "https://tibia.fandom.com/wiki/Jo_Staff",
-     "id": "monk-jo-staff"
+     "id": "monk-jo-staff",
+     "img": "img/itens/jo-staff.webp"
     },
     {
      "tier": "8–20",
@@ -2490,7 +2591,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Plain_Monk_Robe",
-     "id": "monk-plain-monk-robe"
+     "id": "monk-plain-monk-robe",
+     "img": "img/itens/plain-monk-robe.webp"
     },
     {
      "tier": "8–20",
@@ -2508,7 +2610,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Harmony_Amulet",
-     "id": "monk-harmony-amulet"
+     "id": "monk-harmony-amulet",
+     "img": "img/itens/harmony-amulet.webp"
     },
     {
      "tier": "8–20",
@@ -2526,7 +2629,8 @@
      "quest": null,
      "tip": "Caro pro começo (8k): compre quando juntar.",
      "wiki": "https://tibia.fandom.com/wiki/Boots_of_Enlightenment",
-     "id": "monk-boots-of-enlightenment"
+     "id": "monk-boots-of-enlightenment",
+     "img": "img/itens/boots-of-enlightenment.webp"
     },
     {
      "tier": "8–20",
@@ -2544,7 +2648,8 @@
      "quest": null,
      "tip": "Drop raro (~1%) mas o monstro é fraco.",
      "wiki": "https://tibia.fandom.com/wiki/Light_Bandana",
-     "id": "monk-light-bandana"
+     "id": "monk-light-bandana",
+     "img": "img/itens/light-bandana.webp"
     },
     {
      "tier": "20–35",
@@ -2562,7 +2667,8 @@
      "quest": null,
      "tip": "Level 20.",
      "wiki": "https://tibia.fandom.com/wiki/Fists_of_Enlightenment",
-     "id": "monk-fists-of-enlightenment"
+     "id": "monk-fists-of-enlightenment",
+     "img": "img/itens/fists-of-enlightenment.webp"
     },
     {
      "tier": "35–60",
@@ -2580,7 +2686,8 @@
      "quest": null,
      "tip": "Level 40.",
      "wiki": "https://tibia.fandom.com/wiki/Legs_of_Enlightenment",
-     "id": "monk-legs-of-enlightenment"
+     "id": "monk-legs-of-enlightenment",
+     "img": "img/itens/legs-of-enlightenment.webp"
     },
     {
      "tier": "35–60",
@@ -2598,7 +2705,8 @@
      "quest": null,
      "tip": "Level 50.",
      "wiki": "https://tibia.fandom.com/wiki/Nunchaku_of_Enlightenment",
-     "id": "monk-nunchaku-of-enlightenment"
+     "id": "monk-nunchaku-of-enlightenment",
+     "img": "img/itens/nunchaku-of-enlightenment.webp"
     },
     {
      "tier": "35–60",
@@ -2616,7 +2724,8 @@
      "quest": null,
      "tip": "Level 50. Drop bem raro, monstro fraco.",
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Monk_Robe",
-     "id": "monk-zaoan-monk-robe"
+     "id": "monk-zaoan-monk-robe",
+     "img": "img/itens/zaoan-monk-robe.webp"
     },
     {
      "tier": "60–100",
@@ -2634,7 +2743,8 @@
      "quest": null,
      "tip": "Level 70.",
      "wiki": "https://tibia.fandom.com/wiki/Coned_Hat_of_Enlightenment",
-     "id": "monk-coned-hat-of-enlightenment"
+     "id": "monk-coned-hat-of-enlightenment",
+     "img": "img/itens/coned-hat-of-enlightenment.webp"
     },
     {
      "tier": "60–100",
@@ -2652,7 +2762,8 @@
      "quest": null,
      "tip": "Level 80.",
      "wiki": "https://tibia.fandom.com/wiki/Legs_of_Wisdom",
-     "id": "monk-legs-of-wisdom"
+     "id": "monk-legs-of-wisdom",
+     "img": "img/itens/legs-of-wisdom.webp"
     },
     {
      "tier": "100–150",
@@ -2670,7 +2781,8 @@
      "quest": null,
      "tip": "",
      "wiki": "https://tibia.fandom.com/wiki/Jade_Conical_Hat",
-     "id": "monk-jade-conical-hat"
+     "id": "monk-jade-conical-hat",
+     "img": "img/itens/jade-conical-hat.webp"
     },
     {
      "tier": "100–150",
@@ -2688,7 +2800,8 @@
      "quest": null,
      "tip": "Level 150. NPC (150k).",
      "wiki": "https://tibia.fandom.com/wiki/Robe_of_Enlightenment",
-     "id": "monk-robe-of-enlightenment"
+     "id": "monk-robe-of-enlightenment",
+     "img": "img/itens/robe-of-enlightenment.webp"
     }
    ]
   }
@@ -2703,7 +2816,8 @@
     "Jade Conical Hat"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Armadile",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Armadile"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Armadile",
+   "img": "img/monstros/armadile.gif"
   },
   "Bashmu": {
    "exp": 5000,
@@ -2714,7 +2828,8 @@
     "Guardian Halberd"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Bashmu",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bashmu"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bashmu",
+   "img": "img/monstros/bashmu.gif"
   },
   "Blood Priest": {
    "exp": 900,
@@ -2725,7 +2840,8 @@
     "Underworld Rod"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Blood_Priest",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Blood%20Priest"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Blood%20Priest",
+   "img": "img/monstros/blood-priest.gif"
   },
   "Bog Raider": {
    "exp": 800,
@@ -2736,7 +2852,8 @@
     "Springsprout Rod"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Bog_Raider",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bog%20Raider"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bog%20Raider",
+   "img": "img/monstros/bog-raider.gif"
   },
   "Bonebeast": {
    "exp": 580,
@@ -2747,7 +2864,8 @@
     "Plate Armor"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Bonebeast",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bonebeast"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bonebeast",
+   "img": "img/monstros/bonebeast.gif"
   },
   "Bonelord": {
    "exp": 170,
@@ -2759,7 +2877,8 @@
     "Terra Rod"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Bonelord",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bonelord"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bonelord",
+   "img": "img/monstros/bonelord.gif"
   },
   "Crystal Wolf": {
    "exp": 275,
@@ -2770,7 +2889,8 @@
     "Hailstorm Rod"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Crystal_Wolf",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Crystal%20Wolf"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Crystal%20Wolf",
+   "img": "img/monstros/crystal-wolf.gif"
   },
   "Dark Apprentice": {
    "exp": 100,
@@ -2781,7 +2901,8 @@
     "Wand of Dragonbreath"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Dark_Apprentice",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dark%20Apprentice"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dark%20Apprentice",
+   "img": "img/monstros/dark-apprentice.gif"
   },
   "Deepling Guard": {
    "exp": 2100,
@@ -2792,7 +2913,8 @@
     "Deepling Squelcher"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Deepling_Guard",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Deepling%20Guard"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Deepling%20Guard",
+   "img": "img/monstros/deepling-guard.gif"
   },
   "Diremaw": {
    "exp": 2770,
@@ -2803,7 +2925,8 @@
     "Mycological Bow"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Diremaw",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Diremaw"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Diremaw",
+   "img": "img/monstros/diremaw.gif"
   },
   "Draken Abomination": {
    "exp": 4500,
@@ -2815,7 +2938,8 @@
     "Zaoan Helmet"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Draken_Abomination",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Abomination"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Abomination",
+   "img": "img/monstros/draken-abomination.gif"
   },
   "Draken Elite": {
    "exp": 4750,
@@ -2828,7 +2952,8 @@
     "Zaoan Sword"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Draken_Elite",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Elite"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Elite",
+   "img": "img/monstros/draken-elite.gif"
   },
   "Dwarf Geomancer": {
    "exp": 265,
@@ -2839,7 +2964,8 @@
     "Terra Boots"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Dwarf_Geomancer",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Geomancer"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Geomancer",
+   "img": "img/monstros/dwarf-geomancer.gif"
   },
   "Dwarf Guard": {
    "exp": 165,
@@ -2850,7 +2976,8 @@
     "Leather Boots"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Dwarf_Guard",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Guard"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Guard",
+   "img": "img/monstros/dwarf-guard.gif"
   },
   "Dwarf Soldier": {
    "exp": 70,
@@ -2862,7 +2989,8 @@
     "Soldier Helmet"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Dwarf_Soldier",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Soldier"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Soldier",
+   "img": "img/monstros/dwarf-soldier.gif"
   },
   "Efreet": {
    "exp": 410,
@@ -2875,7 +3003,8 @@
     "Wand of Inferno"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Efreet",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Efreet"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Efreet",
+   "img": "img/monstros/efreet.gif"
   },
   "Elder Bonelord": {
    "exp": 280,
@@ -2886,7 +3015,8 @@
     "Sniper Arrow"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Elder_Bonelord",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elder%20Bonelord"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elder%20Bonelord",
+   "img": "img/monstros/elder-bonelord.gif"
   },
   "Elder Wyrm": {
    "exp": 2500,
@@ -2898,7 +3028,8 @@
     "Lightning Robe"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Elder_Wyrm",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elder%20Wyrm"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elder%20Wyrm",
+   "img": "img/monstros/elder-wyrm.gif"
   },
   "Elf": {
    "exp": 42,
@@ -2909,7 +3040,8 @@
     "Longsword"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Elf",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elf"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elf",
+   "img": "img/monstros/elf.gif"
   },
   "Elf Arcanist": {
    "exp": 175,
@@ -2920,7 +3052,8 @@
     "Wand of Cosmic Energy"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Elf_Arcanist",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elf%20Arcanist"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elf%20Arcanist",
+   "img": "img/monstros/elf-arcanist.gif"
   },
   "Frost Flower Asura": {
    "exp": 4200,
@@ -2931,7 +3064,8 @@
     "Oriental Shoes"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Frost_Flower_Asura",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Frost%20Flower%20Asura"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Frost%20Flower%20Asura",
+   "img": "img/monstros/frost-flower-asura.gif"
   },
   "Glooth Bandit": {
    "exp": 2000,
@@ -2942,7 +3076,8 @@
     "Rubber Cap"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Glooth_Bandit",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Glooth%20Bandit"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Glooth%20Bandit",
+   "img": "img/monstros/glooth-bandit.gif"
   },
   "Hand of Cursed Fate": {
    "exp": 5000,
@@ -2953,7 +3088,8 @@
     "Abyss Hammer"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Hand_of_Cursed_Fate",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Hand%20of%20Cursed%20Fate"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Hand%20of%20Cursed%20Fate",
+   "img": "img/monstros/hand-of-cursed-fate.gif"
   },
   "Humongous Fungus": {
    "exp": 2900,
@@ -2964,7 +3100,8 @@
     "Muck Rod"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Humongous_Fungus",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Humongous%20Fungus"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Humongous%20Fungus",
+   "img": "img/monstros/humongous-fungus.gif"
   },
   "Iks Aucar": {
    "exp": 1150,
@@ -2975,7 +3112,8 @@
     "War Hammer"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Iks_Aucar",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Iks%20Aucar"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Iks%20Aucar",
+   "img": "img/monstros/iks-aucar.webp"
   },
   "Iks Pututu": {
    "exp": 980,
@@ -2986,7 +3124,8 @@
     "Spellbook of Enlightenment"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Iks_Pututu",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Iks%20Pututu"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Iks%20Pututu",
+   "img": "img/monstros/iks-pututu.webp"
   },
   "Ironblight": {
    "exp": 5400,
@@ -2997,7 +3136,8 @@
     "Glacial Rod"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Ironblight",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Ironblight"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Ironblight",
+   "img": "img/monstros/ironblight.gif"
   },
   "Lizard Chosen": {
    "exp": 2200,
@@ -3008,7 +3148,8 @@
     "Zaoan Armor"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_Chosen",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Chosen"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Chosen",
+   "img": "img/monstros/lizard-chosen.gif"
   },
   "Lizard Dragon Priest": {
    "exp": 1320,
@@ -3019,7 +3160,8 @@
     "Zaoan Robe"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_Dragon_Priest",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Dragon%20Priest"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Dragon%20Priest",
+   "img": "img/monstros/lizard-dragon-priest.gif"
   },
   "Lizard High Guard": {
    "exp": 1450,
@@ -3030,7 +3172,8 @@
     "Tower Shield"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_High_Guard",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20High%20Guard"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20High%20Guard",
+   "img": "img/monstros/lizard-high-guard.gif"
   },
   "Lizard Legionnaire": {
    "exp": 1100,
@@ -3042,7 +3185,8 @@
     "Zaoan Shoes"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_Legionnaire",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Legionnaire"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Legionnaire",
+   "img": "img/monstros/lizard-legionnaire.gif"
   },
   "Lizard Snakecharmer": {
    "exp": 210,
@@ -3053,7 +3197,8 @@
     "Terra Rod"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_Snakecharmer",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Snakecharmer"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Snakecharmer",
+   "img": "img/monstros/lizard-snakecharmer.gif"
   },
   "Lizard Templar": {
    "exp": 155,
@@ -3064,7 +3209,8 @@
     "Zaoan Monk Robe"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_Templar",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Templar"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Templar",
+   "img": "img/monstros/lizard-templar.gif"
   },
   "Lizard Zaogun": {
    "exp": 1700,
@@ -3076,7 +3222,8 @@
     "Zaoan Shoes"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_Zaogun",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Zaogun"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Zaogun",
+   "img": "img/monstros/lizard-zaogun.gif"
   },
   "Magma Crawler": {
    "exp": 3900,
@@ -3087,7 +3234,8 @@
     "Wand of Everblazing"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Magma_Crawler",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Magma%20Crawler"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Magma%20Crawler",
+   "img": "img/monstros/magma-crawler.gif"
   },
   "Marid": {
    "exp": 410,
@@ -3099,7 +3247,8 @@
     "Royal Spear"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Marid",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Marid"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Marid",
+   "img": "img/monstros/marid.gif"
   },
   "Massive Energy Elemental": {
    "exp": 950,
@@ -3110,7 +3259,8 @@
     "Spellbook of Warding"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Massive_Energy_Elemental",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Massive%20Energy%20Elemental"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Massive%20Energy%20Elemental",
+   "img": "img/monstros/massive-energy-elemental.gif"
   },
   "Metal Gargoyle": {
    "exp": 1278,
@@ -3121,7 +3271,8 @@
     "Metal Spats"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Metal_Gargoyle",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Metal%20Gargoyle"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Metal%20Gargoyle",
+   "img": "img/monstros/metal-gargoyle.gif"
   },
   "Midnight Asura": {
    "exp": 4100,
@@ -3132,7 +3283,8 @@
     "Oriental Shoes"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Midnight_Asura",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Midnight%20Asura"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Midnight%20Asura",
+   "img": "img/monstros/midnight-asura.gif"
   },
   "Minotaur": {
    "exp": 50,
@@ -3144,7 +3296,8 @@
     "Mace"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Minotaur",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur",
+   "img": "img/monstros/minotaur.gif"
   },
   "Minotaur Guard": {
    "exp": 160,
@@ -3155,7 +3308,8 @@
     "Brass Armor"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Minotaur_Guard",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur%20Guard"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur%20Guard",
+   "img": "img/monstros/minotaur-guard.gif"
   },
   "Minotaur Mage": {
    "exp": 150,
@@ -3166,7 +3320,8 @@
     "Wand of Cosmic Energy"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Minotaur_Mage",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur%20Mage"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur%20Mage",
+   "img": "img/monstros/minotaur-mage.gif"
   },
   "Orc Berserker": {
    "exp": 195,
@@ -3177,7 +3332,8 @@
     "Battle Axe"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Orc_Berserker",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Berserker"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Berserker",
+   "img": "img/monstros/orc-berserker.gif"
   },
   "Orc Shaman": {
    "exp": 110,
@@ -3188,7 +3344,8 @@
     "Wand of Decay"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Orc_Shaman",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Shaman"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Shaman",
+   "img": "img/monstros/orc-shaman.gif"
   },
   "Orc Warlord": {
    "exp": 670,
@@ -3200,7 +3357,8 @@
     "Plate Legs"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Orc_Warlord",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Warlord"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Warlord",
+   "img": "img/monstros/orc-warlord.gif"
   },
   "Orc Warrior": {
    "exp": 50,
@@ -3211,7 +3369,8 @@
     "Light Bandana"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Orc_Warrior",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Warrior"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Warrior",
+   "img": "img/monstros/orc-warrior.gif"
   },
   "Pirat Cutthroat": {
    "exp": 1800,
@@ -3222,7 +3381,8 @@
     "Crystal Sword"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Pirat_Cutthroat",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Pirat%20Cutthroat"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Pirat%20Cutthroat",
+   "img": "img/monstros/pirat-cutthroat.gif"
   },
   "Poacher": {
    "exp": 70,
@@ -3233,7 +3393,8 @@
     "Bow"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Poacher",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Poacher"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Poacher",
+   "img": "img/monstros/poacher.gif"
   },
   "Seacrest Serpent": {
    "exp": 2900,
@@ -3244,7 +3405,8 @@
     "Wand of Defiance"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Seacrest_Serpent",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Seacrest%20Serpent"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Seacrest%20Serpent",
+   "img": "img/monstros/seacrest-serpent.gif"
   },
   "Spidris": {
    "exp": 2600,
@@ -3255,7 +3417,8 @@
     "Calopteryx Cape"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Spidris",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Spidris"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Spidris",
+   "img": "img/monstros/spidris.gif"
   },
   "Spidris Elite": {
    "exp": 4000,
@@ -3266,7 +3429,8 @@
     "Calopteryx Cape"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Spidris_Elite",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Spidris%20Elite"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Spidris%20Elite",
+   "img": "img/monstros/spidris-elite.gif"
   },
   "Tarantula": {
    "exp": 120,
@@ -3277,7 +3441,8 @@
     "Brass Legs"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Tarantula",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Tarantula"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Tarantula",
+   "img": "img/monstros/tarantula.gif"
   },
   "Valkyrie": {
    "exp": 85,
@@ -3289,7 +3454,8 @@
     "Spear"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Valkyrie",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Valkyrie"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Valkyrie",
+   "img": "img/monstros/valkyrie.gif"
   },
   "Wailing Widow": {
    "exp": 450,
@@ -3300,7 +3466,8 @@
     "Zaoan Halberd"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Wailing_Widow",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wailing%20Widow"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wailing%20Widow",
+   "img": "img/monstros/wailing-widow.gif"
   },
   "Warlock": {
    "exp": 4000,
@@ -3311,7 +3478,8 @@
     "Lightning Robe"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Warlock",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Warlock"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Warlock",
+   "img": "img/monstros/warlock.gif"
   },
   "Wiggler": {
    "exp": 900,
@@ -3322,7 +3490,8 @@
     "Crystalline Arrow"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Wiggler",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wiggler"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wiggler",
+   "img": "img/monstros/wiggler.gif"
   },
   "Witch": {
    "exp": 120,
@@ -3333,7 +3502,8 @@
     "Necrotic Rod"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Witch",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Witch"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Witch",
+   "img": "img/monstros/witch.gif"
   },
   "Wyrm": {
    "exp": 1550,
@@ -3345,7 +3515,8 @@
     "Focus Cape"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Wyrm",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wyrm"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wyrm",
+   "img": "img/monstros/wyrm.gif"
   },
   "Wyvern": {
    "exp": 515,
@@ -3356,7 +3527,8 @@
     "Wyvern Fang"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Wyvern",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wyvern"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wyvern",
+   "img": "img/monstros/wyvern.gif"
   },
   "Zombie": {
    "exp": 280,
@@ -3367,7 +3539,8 @@
     "Steel Helmet"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Zombie",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Zombie"
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Zombie",
+   "img": "img/monstros/zombie.gif"
   }
  }
 }

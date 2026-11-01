@@ -15,7 +15,10 @@
 <body>
 <header class="bar"><div class="wrap">
   <div class="top">
-    <a class="brand" href="#knight"><span class="brand-name">Jantar Guia</span><span class="by">por <b id="criador">Jantar</b></span></a>
+    <a class="brand" href="#knight">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="4" fill="#2b2a27"/><rect x="1" y="1" width="30" height="30" rx="4" fill="none" stroke="#b98a2a" stroke-width="2"/><path d="M16 6 24 9v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V9z" fill="#e3b75c"/><path d="M16 9.5 21 11.4v3.8c0 3.2-2.1 5.9-5 7.3-2.9-1.4-5-4.1-5-7.3v-3.8z" fill="#2b2a27"/></svg>
+      <span class="brand-txt"><span class="brand-name">Jantar Guia</span><span class="by">por <b id="criador">Jantar</b></span></span>
+    </a>
     <div class="ctrls">
       <label class="field" for="srv">Servidor
         <select id="srv"><option value="">Tibia (base)</option></select>
@@ -28,6 +31,14 @@
   <nav class="tabs" id="tabs" aria-label="Seções"></nav>
   <div class="chips" id="chips" hidden></div>
 </div></header>
+
+<section class="hero"><div class="wrap">
+  <div>
+    <h1>Qual equipamento usar em cada level, e onde ele dropa</h1>
+    <p>Para cada vocação: o que vestir do level 8 ao 150, qual monstro dropa cada item, a chance de drop e qual NPC vende. Com seções para servidores como o HeroOT.</p>
+  </div>
+  <div class="stats" id="stats"></div>
+</div></section>
 
 <main><div class="wrap" id="view"><p class="loading">Carregando o guia…</p></div></main>
 

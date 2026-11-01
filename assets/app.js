@@ -9,7 +9,7 @@
   const img = (src, cls) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : "";
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
-  const st = { view: "inicio", weapon: "todas", level: null, srv: "" };
+  const st = { view: "inicio", qfilter: "todas", weapon: "todas", level: null, srv: "" };
   let SITE, BASE, QUESTS, SERVERS = {};
 
   const store = {
@@ -124,12 +124,16 @@
   function questsView() {
     const itemImg = {};
     BASE.vocacoes.forEach(v => v.itens.forEach(i => { if (i.img) itemImg[i.item] = i.img; }));
+    const nOut = QUESTS.faixas.reduce((a, f) => a + f.quests.filter(q => q.outfit).length, 0);
+    const only = st.qfilter === "outfit";
     return `<div class="page-h"><h1>Quests por level</h1>
-      <p class="intro">As quests que os guias da comunidade mais recomendam, na ordem em que vale fazer. Cada uma mostra o que libera e quais itens do Jantar Guia vêm dela.</p></div>
-      ${QUESTS.faixas.map(f => `<section class="tier">
+      <p class="intro">As quests que os guias da comunidade mais recomendam, na ordem em que vale fazer. Cada uma mostra o que libera e quais itens do Jantar Guia vêm dela. As que dão outfit estão destacadas em dourado.</p></div>
+      <div class="chips"><button class="chip" type="button" data-q="todas" aria-pressed="${!only}">Todas as quests</button><button class="chip chip-outfit" type="button" data-q="outfit" aria-pressed="${only}">Só as que dão outfit (${nOut})</button></div>
+      ${QUESTS.faixas.map(f => ({ ...f, quests: only ? f.quests.filter(q => q.outfit) : f.quests })).filter(f => f.quests.length).map(f => `<section class="tier">
         <div class="tier-h"><span class="lvl-badge">${esc(f.faixa)}</span><span class="rule"></span></div>
         <p class="intro">${esc(f.desc)}</p>
-        <div class="grid">${f.quests.map(q => `<article class="card quest">
+        <div class="grid">${f.quests.map(q => `<article class="card quest${q.outfit ? " has-outfit" : ""}">
+          ${q.outfit ? `<div class="outfit-badge"><span class="outfit-ico" aria-hidden="true">✦</span><span><small>Dá a outfit</small><b>${esc(q.outfit)}</b></span></div>` : ""}
           <div class="q-head"><a class="name" href="${esc(q.wiki)}" target="_blank" rel="noopener">${esc(q.nome)}</a><span class="req">lvl ${esc(q.lvl)}</span></div>
           <div class="path-tags">${q.tags.map(t => `<span class="pill">${esc(t)}</span>`).join("")}</div>
           <p class="q-txt">${esc(q.txt)}</p>
@@ -221,6 +225,8 @@
   document.addEventListener("click", e => {
     const w = e.target.closest("[data-w]");
     if (w) { st.weapon = w.dataset.w; render(); }
+    const qf = e.target.closest("[data-q]");
+    if (qf) { st.qfilter = qf.dataset.q; render(); }
     if (e.target.closest("[data-go-base]")) {
       st.srv = ""; $("#srv").value = ""; store.set("srv", ""); render();
       const el = document.getElementById("vocacoes"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });

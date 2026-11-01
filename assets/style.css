@@ -154,3 +154,11 @@ a.name:hover{color:var(--gold)}
 .q-ico{width:24px;height:24px;image-rendering:pixelated}
 .foot-note{font-size:.85rem;color:var(--muted);margin:0}
 .grid:has(> .quest){align-items:start}
+
+/* quests com outfit */
+.quest.has-outfit{border-color:var(--gold-2);box-shadow:0 0 0 1px var(--gold-2),0 6px 24px -12px var(--gold-2);background:linear-gradient(180deg,var(--gold-soft),var(--panel) 90px)}
+.outfit-badge{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;background:var(--slot);border:1px solid var(--gold-2);color:#e3b75c}
+.outfit-badge small{display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:#a59a85}
+.outfit-badge b{font-family:var(--display);font-size:1.25rem;line-height:1.05}
+.outfit-ico{font-size:1.4rem;line-height:1}
+.chip-outfit[aria-pressed="true"]{background:var(--slot);color:#e3b75c;border-color:var(--gold-2)}

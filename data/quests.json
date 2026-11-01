@@ -119,7 +119,8 @@
       "Outfit"
      ],
      "txt": "Outfit Norseman e acesso a Formorgar, Helheim, Tyrsung e Inukaya.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Ice_Islands_Quest"
+     "wiki": "https://tibia.fandom.com/wiki/The_Ice_Islands_Quest",
+     "outfit": "Norseman"
     },
     {
      "nome": "The Explorer Society Quest",
@@ -138,16 +139,19 @@
       "Outfit"
      ],
      "txt": "Outfit Shaman e acesso às Forbidden Lands e à parte funda de Banuta.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Ape_City"
+     "wiki": "https://tibia.fandom.com/wiki/The_Ape_City",
+     "outfit": "Shaman"
     },
     {
      "nome": "Blood Brothers Quest",
      "lvl": "40+",
      "tags": [
-      "Acesso"
+      "Acesso",
+      "Outfit"
      ],
      "txt": "Acesso ao castelo de Vengoth.",
-     "wiki": "https://tibia.fandom.com/wiki/Blood_Brothers_Quest"
+     "wiki": "https://tibia.fandom.com/wiki/Blood_Brothers_Quest",
+     "outfit": "Yalaharian (addon)"
     },
     {
      "nome": "The New Frontier Quest",
@@ -162,7 +166,8 @@
       "Zaoan Shoes",
       "Drakinata"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_New_Frontier_Quest"
+     "wiki": "https://tibia.fandom.com/wiki/The_New_Frontier_Quest",
+     "outfit": "Warmaster"
     },
     {
      "nome": "The Svargrond Arena",
@@ -205,7 +210,8 @@
       "Zaoan Helmet",
       "Zaoan Sword"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Wrath_of_the_Emperor"
+     "wiki": "https://tibia.fandom.com/wiki/Wrath_of_the_Emperor",
+     "outfit": "Wayfarer"
     },
     {
      "nome": "Bigfoot's Burden Quest",
@@ -234,7 +240,8 @@
       "Bênçãos"
      ],
      "txt": "Outfit Demon Hunter e permite comprar as 5 bênçãos num lugar só.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Inquisition_Quest"
+     "wiki": "https://tibia.fandom.com/wiki/The_Inquisition_Quest",
+     "outfit": "Demon Hunter"
     },
     {
      "nome": "Dangerous Depths Quest",
@@ -278,7 +285,8 @@
       "Outfit"
      ],
      "txt": "Outfit Rift Warrior, vários bosses e chance do Ferumbras' Hat.",
-     "wiki": "https://tibia.fandom.com/wiki/Ferumbras%27_Ascension"
+     "wiki": "https://tibia.fandom.com/wiki/Ferumbras%27_Ascension",
+     "outfit": "Rift Warrior"
     },
     {
      "nome": "Heart of Destruction",
@@ -318,7 +326,8 @@
       "Dark Whispers",
       "Dark Vision Bandana"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_Dream_Courts"
+     "wiki": "https://tibia.fandom.com/wiki/The_Dream_Courts",
+     "outfit": "Dream Warrior"
     }
    ]
   },
@@ -339,7 +348,8 @@
       "Soulful Legs",
       "Jade Legs"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Feaster_of_Souls"
+     "wiki": "https://tibia.fandom.com/wiki/Feaster_of_Souls",
+     "outfit": "Poltergeist"
     },
     {
      "nome": "Grave Danger",
@@ -393,7 +403,8 @@
       "Falcon Rod",
       "Falcon Sai"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_Secret_Library"
+     "wiki": "https://tibia.fandom.com/wiki/The_Secret_Library",
+     "outfit": "Battle Mage"
     },
     {
      "nome": "The Order of the Lion",
@@ -466,7 +477,8 @@
       "Soulhexer",
       "Soulkamas"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Soul_War_Quest"
+     "wiki": "https://tibia.fandom.com/wiki/Soul_War_Quest",
+     "outfit": "Revenant"
     },
     {
      "nome": "Primal Ordeal Quest",

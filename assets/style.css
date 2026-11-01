@@ -1,22 +1,25 @@
 /* Layout: faixa de topo (marca + controles + abas) sobre uma coluna; cada faixa de level abre com um marcador de level e uma grade de fichas.
-   Cada ficha copia o "slot" de inventário do Tibia: quadrado escuro com borda chanfrada onde fica o item. */
+   Cada ficha copia o "slot" de inventário do Tibia: quadrado escuro com borda chanfrada onde fica o item.
+   Tema escuro por padrão; o botão do topo troca para o claro (data-theme="light"). */
 :root{
+  --bg:#16140f; --panel:#201d17; --panel-2:#2a261e; --ink:#ece4d2; --muted:#a59a85; --line:#3a3428;
+  --gold:#e3b75c; --gold-2:#c7973a; --gold-soft:#3a2f1a;
+  --slot:#100f0c; --slot-hi:#4a463d; --slot-lo:#060504;
+  --srv:#c7a6f2; --srv-soft:#2c2338;
+  --here:#82cfa2; --here-soft:#1c3226;
+  --common:#7ccb8f; --uncommon:#86b2f2; --rare:#f2b45c;
+  --display:"Alegreya SC",Georgia,serif; --body:"Alegreya Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+  color-scheme:dark;
+}
+:root[data-theme="light"]{
   --bg:#f3f0e8; --panel:#fffdf8; --panel-2:#ebe5d8; --ink:#231d14; --muted:#6a6152; --line:#d9d0bd;
   --gold:#8f6410; --gold-2:#b98a2a; --gold-soft:#f3e6c6;
   --slot:#2b2a27; --slot-hi:#57544d; --slot-lo:#141311;
   --srv:#6b3fa0; --srv-soft:#efe7f8;
   --here:#2f6b4f; --here-soft:#dcecdf;
   --common:#3f7d4f; --uncommon:#3567a8; --rare:#b06a10;
-  --display:"Alegreya SC",Georgia,serif; --body:"Alegreya Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
   color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root{
-  --bg:#16140f; --panel:#201d17; --panel-2:#2a261e; --ink:#ece4d2; --muted:#a59a85; --line:#3a3428;
-  --gold:#e3b75c; --gold-2:#c7973a; --gold-soft:#3a2f1a;
-  --slot:#100f0c; --slot-hi:#4a463d; --slot-lo:#060504;
-  --srv:#c7a6f2; --srv-soft:#2c2338;
-  --here:#82cfa2; --here-soft:#1c3226;
-  --common:#7ccb8f; --uncommon:#86b2f2; --rare:#f2b45c; color-scheme:dark}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
@@ -33,7 +36,11 @@ a{color:var(--gold)}
 .brand-txt{display:flex;flex-direction:column;line-height:1.05}
 .brand-name{font-family:var(--display);font-weight:700;font-size:1.45rem;letter-spacing:.02em}
 .by{font-size:.82rem;color:var(--muted)}.by b{color:var(--gold)}
-.ctrls{display:flex;gap:10px;flex-wrap:wrap}
+.ctrls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.theme{font:inherit;font-size:.85rem;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:6px 10px;cursor:pointer}
+.theme:hover{border-color:var(--gold-2)}
+.filter-note{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:.9rem;color:var(--muted);background:var(--panel);border:1px dashed var(--gold-2);border-radius:8px;padding:8px 12px}
+.filter-note button{font:inherit;font-size:.9rem;background:none;border:0;color:var(--gold);text-decoration:underline;cursor:pointer;padding:0}
 .field{display:flex;align-items:center;gap:6px;font-size:.88rem;color:var(--muted)}
 .field input,.field select{font:inherit;font-size:.95rem;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
 .field input{width:5.5em;font-family:var(--mono)}
@@ -46,7 +53,7 @@ a{color:var(--gold)}
 .tab.srv[aria-current="page"]{background:var(--srv);color:var(--panel)}
 .chip{padding:4px 12px;font-size:.9rem}
 .chip[aria-pressed="true"]{background:var(--gold-soft);border-color:var(--gold)}
-:is(.tab,.chip,input,select,a):focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+:is(.tab,.chip,.theme,input,select,a,button):focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 
 /* abertura */
 .hero{background:linear-gradient(180deg,var(--panel-2),transparent);border-bottom:1px solid var(--line)}
@@ -75,8 +82,6 @@ h1,h2{font-family:var(--display);margin:0;text-wrap:balance}
 .tier-h h2{font-size:1.15rem;color:var(--muted);font-weight:500}
 .rule{flex:1;height:1px;background:var(--line);min-width:20px}
 .here{font-size:.75rem;font-weight:700;color:var(--here);background:var(--here-soft);border-radius:999px;padding:3px 10px;letter-spacing:.05em;text-transform:uppercase}
-.tier.dim{opacity:.5}
-.tier.dim:hover{opacity:1}
 
 /* fichas */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}

@@ -79,14 +79,17 @@
     if (voc.id === "knight" && st.weapon !== "todas")
       items = items.filter(i => !i.slot.startsWith("Arma") || i.slot.includes(st.weapon));
     const cur = tierOf(st.level);
+    const curIdx = cur ? TIERS.findIndex(t => t[0] === cur) : 0;
+    const note = cur ? `<div class="filter-note"><span>Mostrando do level ${esc(cur)} em diante, para o level ${st.level}.</span><button type="button" data-clear-lvl>Ver todas as faixas</button></div>` : "";
     return `<div class="page-h"><h1>${esc(voc.nome)}: equipamento por level</h1>
       <p class="intro">Só aparece o que vale trocar em cada faixa; o resto você mantém da faixa anterior. Toque no nome do item para abrir a TibiaWiki.</p></div>
       ${serverBanner()}
       <div class="legend"><span><span class="dot common"></span> comum (5%+)</span><span><span class="dot uncommon"></span> incomum (1–5%)</span><span><span class="dot rare"></span> raro (&lt;1%)</span></div>
-      ${TIERS.map(([t]) => {
+      ${note}
+      ${TIERS.map(([t], idx) => {
         const its = items.filter(i => i.tier === t);
-        if (!its.length) return "";
-        return `<section class="tier${cur && cur !== t ? " dim" : ""}"><div class="tier-h"><span class="lvl-badge">Lvl ${t}</span><h2>${its.length} ${its.length === 1 ? "troca" : "trocas"}</h2>${cur === t ? '<span class="here">você está aqui</span>' : ""}<span class="rule"></span></div>
+        if (!its.length || idx < curIdx) return "";
+        return `<section class="tier"><div class="tier-h"><span class="lvl-badge">Lvl ${t}</span><h2>${its.length} ${its.length === 1 ? "troca" : "trocas"}</h2>${cur === t ? '<span class="here">você está aqui</span>' : ""}<span class="rule"></span></div>
           <div class="grid">${its.map(card).join("")}</div></section>`;
       }).join("")}`;
   }
@@ -144,10 +147,21 @@
   document.addEventListener("click", e => {
     const w = e.target.closest("[data-w]");
     if (w) { st.weapon = w.dataset.w; render(); }
+    if (e.target.closest("[data-clear-lvl]")) { st.level = null; $("#mylvl").value = ""; store.set("lvl", ""); render(); }
+    if (e.target.closest("#theme")) {
+      const light = document.documentElement.dataset.theme !== "light";
+      if (light) document.documentElement.dataset.theme = "light"; else delete document.documentElement.dataset.theme;
+      store.set("tema", light ? "light" : "dark"); themeLabel();
+    }
   });
   window.addEventListener("hashchange", () => { fromHash(); render(); window.scrollTo(0, 0); });
 
+  function themeLabel() {
+    $("#theme").textContent = document.documentElement.dataset.theme === "light" ? "Modo escuro" : "Modo claro";
+  }
+
   async function boot() {
+    themeLabel();
     try {
       const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
       [SITE, BASE] = await Promise.all([get("data/site.json"), get("data/tibia.json")]);

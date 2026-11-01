@@ -9,7 +9,7 @@
   const img = (src, cls) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : "";
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
-  const st = { view: "knight", weapon: "todas", level: null, srv: "" };
+  const st = { view: "inicio", weapon: "todas", level: null, srv: "" };
   let SITE, BASE, SERVERS = {};
 
   const store = {
@@ -23,8 +23,16 @@
     return lv >= 600 ? "500–600" : "8–20";
   }
 
+  const VOC_INFO = {
+    knight: { icon: "img/itens/heroic-axe.webp", txt: "Linha de frente. Aguenta o dano com escudo ou bate forte com arma de duas mãos. Guia separado para machado, espada e clava." },
+    paladin: { icon: "img/itens/falcon-bow.webp", txt: "Ataca de longe com arco, besta, lança ou estrela. Dano alto e boa defesa." },
+    sorcerer: { icon: "img/itens/wand-of-inferno.webp", txt: "Mago de dano. As magias mais fortes do jogo, mas com pouca vida." },
+    druid: { icon: "img/itens/hailstorm-rod.webp", txt: "Mago de suporte. Cura o time e também causa bastante dano." },
+    monk: { icon: "img/itens/jo-staff.webp", txt: "Luta corpo a corpo com punhos e bastões. A vocação mais nova do Tibia." }
+  };
+
   function views() {
-    const v = BASE.vocacoes.map(x => ({ id: x.id, nome: x.nome }));
+    const v = [{ id: "inicio", nome: "Início" }, ...BASE.vocacoes.map(x => ({ id: x.id, nome: x.nome }))];
     v.push({ id: "monstros", nome: "Monstros" });
     if (st.srv) v.push({ id: st.srv, nome: SERVERS[st.srv].nome, srv: true });
     return v;
@@ -120,10 +128,54 @@
       <div class="sys">${s.sistemas.map(x => `<article class="card"><span class="name">${esc(x.nome)}</span><p class="tip">${esc(x.texto)}</p></article>`).join("")}</div>`;
   }
 
+  function homeView() {
+    const nItens = new Set(BASE.vocacoes.flatMap(v => v.itens.map(i => i.item))).size;
+    const stats = [[BASE.vocacoes.length, "vocações"], [nItens, "itens"], [Object.keys(BASE.monstros).length, "monstros e bosses"]]
+      .map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+    const srvCards = Object.values(SERVERS).map(s => `
+      <a class="path srv-path" href="#${esc(s.id)}">
+        <span class="path-kicker">Servidor</span>
+        <span class="path-title">${esc(s.nome)}</span>
+        <span class="path-txt">${esc(s.resumo)}</span>
+        <span class="path-tags"><span class="pill srv">${esc(s.status)}</span>${s.sistemas.map(x => `<span class="pill">${esc(x.nome)}</span>`).join("")}</span>
+        <span class="path-go">Ver os sistemas do ${esc(s.nome)} →</span>
+      </a>`).join("");
+    return `<section class="home-hero">
+        <div class="home-hero-txt">
+          <h1>Qual equipamento usar em cada level, e onde ele dropa</h1>
+          <p>O que vestir do level 8 ao 600 em cada vocação, qual monstro ou boss dropa cada item, a chance de drop e qual NPC vende.</p>
+        </div>
+        <div class="stats">${stats}</div>
+      </section>
+      <section class="home-block">
+        <h2 class="block-h">Por onde começar</h2>
+        <div class="paths">
+          <button class="path" type="button" data-go-base>
+            <span class="path-kicker">Guia geral</span>
+            <span class="path-title">Tibia (base)</span>
+            <span class="path-txt">Equipamento por level das 5 vocações. Vale para o Tibia oficial e para qualquer servidor com o mapa do Tibia.</span>
+            <span class="path-go">Escolher vocação ↓</span>
+          </button>
+          ${srvCards}
+        </div>
+      </section>
+      <section class="home-block" id="vocacoes">
+        <h2 class="block-h">Escolha sua vocação</h2>
+        <div class="vocs">${BASE.vocacoes.map(v => {
+          const i = VOC_INFO[v.id] || {};
+          return `<a class="voc" href="#${esc(v.id)}">${slot(i.icon, true)}<span class="voc-txt"><span class="name">${esc(v.nome)}</span><span class="voc-desc">${esc(i.txt || "")}</span></span></a>`;
+        }).join("")}
+          <a class="voc" href="#monstros">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
+        </div>
+      </section>`;
+  }
+
   function render() {
     nav();
     const v = $("#view");
-    if (st.view === "monstros") v.innerHTML = monstersView();
+    document.body.classList.toggle("is-home", st.view === "inicio");
+    if (st.view === "inicio") v.innerHTML = homeView();
+    else if (st.view === "monstros") v.innerHTML = monstersView();
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
     else v.innerHTML = vocationView(BASE.vocacoes.find(x => x.id === st.view) || BASE.vocacoes[0]);
   }
@@ -147,6 +199,10 @@
   document.addEventListener("click", e => {
     const w = e.target.closest("[data-w]");
     if (w) { st.weapon = w.dataset.w; render(); }
+    if (e.target.closest("[data-go-base]")) {
+      st.srv = ""; $("#srv").value = ""; store.set("srv", ""); render();
+      const el = document.getElementById("vocacoes"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
     if (e.target.closest("[data-clear-lvl]")) { st.level = null; $("#mylvl").value = ""; store.set("lvl", ""); render(); }
     if (e.target.closest("#theme")) {
       const light = document.documentElement.dataset.theme !== "light";
@@ -172,15 +228,12 @@
       return;
     }
     $("#criador").textContent = SITE.criador;
-    const nItens = new Set(BASE.vocacoes.flatMap(v => v.itens.map(i => i.item))).size;
-    $("#stats").innerHTML = [[BASE.vocacoes.length, "vocações"], [nItens, "itens"], [Object.keys(BASE.monstros).length, "monstros"]]
-      .map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
     $("#srv").innerHTML = `<option value="">Tibia (base)</option>` + Object.values(SERVERS).map(s => `<option value="${esc(s.id)}">${esc(s.nome)}</option>`).join("");
     const savedSrv = store.get("srv"); if (savedSrv && SERVERS[savedSrv]) { st.srv = savedSrv; $("#srv").value = savedSrv; }
     const lv = parseInt(store.get("lvl")); if (lv > 0) { st.level = lv; $("#mylvl").value = lv; }
     $("#srv").addEventListener("change", e => {
       st.srv = e.target.value; store.set("srv", st.srv);
-      if (!st.srv && !views().some(v => v.id === st.view)) location.hash = "knight";
+      if (!st.srv && !views().some(v => v.id === st.view)) location.hash = "inicio";
       render();
     });
     $("#mylvl").addEventListener("input", e => {

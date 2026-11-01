@@ -7,7 +7,7 @@ Guia de Tibia por vocação e level: qual equipamento usar, qual monstro dropa, 
 | Arquivo | O que tem |
 |---|---|
 | `data/site.json` | Nome do site, criador, link do canal, código de streamer e lista de servidores |
-| `data/tibia.json` | Base do Tibia: itens por vocação e faixa de level, monstros, chances de drop, NPCs |
+| `data/tibia.json` | Base do Tibia: itens por vocação e faixa de level (8 a 600), monstros e bosses, chances de drop, NPCs e quests |
 | `data/servidores/heroot.json` | O que é diferente no HeroOT: sistemas próprios e diferenças conferidas em itens e monstros |
 
 O visual fica em `index.html` e `assets/`. Para atualizar o guia, só os arquivos de `data/` mudam.

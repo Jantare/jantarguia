@@ -1,5 +1,5 @@
 (() => {
-  const TIERS = [["8–20", 8, 20], ["20–35", 20, 35], ["35–60", 35, 60], ["60–100", 60, 100], ["100–150", 100, 150]];
+  const TIERS = [["8–20", 8, 20], ["20–35", 20, 35], ["35–60", 35, 60], ["60–100", 60, 100], ["100–150", 100, 150], ["150–200", 150, 200], ["200–300", 200, 300], ["300–400", 300, 400], ["400–500", 400, 500], ["500–600", 500, 600]];
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const num = n => Number(n).toLocaleString("pt-BR");
@@ -20,7 +20,7 @@
   function tierOf(lv) {
     if (!lv) return null;
     for (const t of TIERS) if (lv >= t[1] && lv < t[2]) return t[0];
-    return lv >= 150 ? "100–150" : "8–20";
+    return lv >= 600 ? "500–600" : "8–20";
   }
 
   function views() {
@@ -49,7 +49,7 @@
     const srcs = it.src.map(s => {
       const m = BASE.monstros[s.m];
       return `<div class="src">${img(m.img, "mon-ico") || "<span></span>"}<span class="m">${esc(s.m)}</span><span class="c"><span class="dot ${rarity(s.c)}" title="${rlabel(s.c)}"></span>${pct(s.c)}</span>` +
-        `<span class="w">caça a partir do lvl ${esc(m.lvl)} · ${m.loc ? esc(m.loc) : "local no Hunt Finder"}</span></div>`;
+        `<span class="w">${m.boss ? `<span class="boss-tag">boss</span> ${m.loc ? esc(m.loc) : "veja na TibiaWiki"}` : `caça a partir do lvl ${esc(m.lvl)} · ${m.loc ? esc(m.loc) : "local no Hunt Finder"}`}</span></div>`;
     }).join("");
     const npc = it.shop.length ? `<div class="line"><b>NPC:</b> ${it.shop.map(s => `${esc(s.n)} (${num(s.p)} gp)`).join(", ")}</div>` : "";
     const quest = it.quest ? `<div class="line"><b>Recompensa:</b> ${esc(it.quest)}</div>` : "";
@@ -102,10 +102,10 @@
       <div class="grid">${ms.map(([n, m]) => `<article class="card">
         <div class="head">${slot(m.img, true)}<div class="head-txt">
           <span class="name">${esc(n)}</span>
-          <div class="stats-line"><span class="req">caçar no lvl ${esc(m.lvl)}</span></div>
+          <div class="stats-line">${m.boss ? '<span class="boss-tag">boss</span>' : `<span class="req">caçar no lvl ${esc(m.lvl)}</span>`}</div>
           <span class="attr">${num(m.exp)} xp · ${num(m.hp)} hp</span>
         </div></div>
-        <div class="line"><b>Onde:</b> ${m.loc ? esc(m.loc) : "ver Hunt Finder"}</div>
+        <div class="line"><b>Onde:</b> ${m.loc ? esc(m.loc) : (m.boss ? "veja na TibiaWiki" : "ver Hunt Finder")}</div>
         <div class="line"><b>Dropa:</b> ${m.items.map(esc).join(", ")}</div>
         ${srvNote("monstros", n)}
         <div class="links"><a href="${esc(m.wiki)}" target="_blank" rel="noopener">TibiaWiki</a><a href="${esc(m.yt)}" target="_blank" rel="noopener">Vídeos no YouTube</a></div>

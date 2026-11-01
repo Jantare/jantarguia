@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-31",
+ "atualizado": "2026-11-01",
  "fonte": "Base de dados do Canary (OpenTibiaBR), espelho do Tibia 15.x, versão de 17/10/2026",
  "vocacoes": [
   {
@@ -11,7 +11,7 @@
      "slot": "Arma (Machado)",
      "item": "Battle Axe",
      "lv": null,
-     "attr": "Ataque 25",
+     "attr": "Ataque 25, Defesa 10",
      "src": [
       {
        "m": "Orc Berserker",
@@ -43,7 +43,7 @@
      "slot": "Arma (Espada)",
      "item": "Longsword",
      "lv": null,
-     "attr": "Ataque 17",
+     "attr": "Ataque 17, Defesa 14",
      "src": [
       {
        "m": "Elf",
@@ -75,7 +75,7 @@
      "slot": "Arma (Clava)",
      "item": "Mace",
      "lv": null,
-     "attr": "Ataque 16",
+     "attr": "Ataque 16, Defesa 11",
      "src": [
       {
        "m": "Minotaur",
@@ -267,7 +267,7 @@
      "slot": "Arma (Espada)",
      "item": "Spike Sword",
      "lv": null,
-     "attr": "Ataque 24, 2 slot(s) de imbuement",
+     "attr": "Ataque 24, Defesa 21, 2 slot(s) de imbuement",
      "src": [],
      "shop": [
       {
@@ -294,7 +294,7 @@
      "slot": "Arma (Clava)",
      "item": "Clerical Mace",
      "lv": 20,
-     "attr": "Ataque 28, 2 slot(s) de imbuement",
+     "attr": "Ataque 28, Defesa 15, 2 slot(s) de imbuement",
      "src": [],
      "shop": [
       {
@@ -317,7 +317,7 @@
      "slot": "Arma (Machado)",
      "item": "Barbarian Axe",
      "lv": 20,
-     "attr": "Ataque 28, 2 slot(s) de imbuement",
+     "attr": "Ataque 28, Defesa 18, 2 slot(s) de imbuement",
      "src": [],
      "shop": [
       {
@@ -408,7 +408,7 @@
      "slot": "Arma (Espada)",
      "item": "Wyvern Fang",
      "lv": 25,
-     "attr": "Ataque 32, 2 slot(s) de imbuement",
+     "attr": "Ataque 32, Defesa 19, 2 slot(s) de imbuement",
      "src": [
       {
        "m": "Wyvern",
@@ -427,7 +427,7 @@
      "slot": "Arma (Clava, 2 mãos)",
      "item": "War Hammer",
      "lv": 50,
-     "attr": "Ataque 45, 3 slot(s) de imbuement",
+     "attr": "Ataque 45, Defesa 10, 3 slot(s) de imbuement",
      "src": [
       {
        "m": "Iks Aucar",
@@ -459,7 +459,7 @@
      "slot": "Arma (Machado, 2 mãos)",
      "item": "Zaoan Halberd",
      "lv": 25,
-     "attr": "Ataque 37, 3 slot(s) de imbuement",
+     "attr": "Ataque 37, Defesa 15, 3 slot(s) de imbuement",
      "src": [
       {
        "m": "Wailing Widow",
@@ -502,7 +502,7 @@
      "slot": "Arma (Espada)",
      "item": "Crystal Sword",
      "lv": 25,
-     "attr": "Ataque 35",
+     "attr": "Ataque 35, Defesa 26",
      "src": [
       {
        "m": "Pirat Cutthroat",
@@ -521,7 +521,7 @@
      "slot": "Arma (Clava)",
      "item": "Deepling Squelcher",
      "lv": 48,
-     "attr": "Ataque 44, 2 slot(s) de imbuement",
+     "attr": "Ataque 44, Defesa 28, 2 slot(s) de imbuement",
      "src": [
       {
        "m": "Deepling Guard",
@@ -540,7 +540,7 @@
      "slot": "Arma (Machado, 2 mãos)",
      "item": "Drakinata",
      "lv": 60,
-     "attr": "Ataque 47, 3 slot(s) de imbuement",
+     "attr": "Ataque 47, Defesa 20, 3 slot(s) de imbuement",
      "src": [
       {
        "m": "Lizard Legionnaire",
@@ -559,7 +559,7 @@
      "slot": "Arma (Machado)",
      "item": "Heroic Axe",
      "lv": 60,
-     "attr": "Ataque 44, 2 slot(s) de imbuement",
+     "attr": "Ataque 44, Defesa 24, 2 slot(s) de imbuement",
      "src": [],
      "shop": [],
      "quest": "Arena de Svargrond (nível Scrapper)",
@@ -653,7 +653,7 @@
      "slot": "Arma (Espada)",
      "item": "Zaoan Sword",
      "lv": 55,
-     "attr": "Ataque 43, 2 slot(s) de imbuement",
+     "attr": "Ataque 43, Defesa 18, 2 slot(s) de imbuement",
      "src": [
       {
        "m": "Draken Elite",
@@ -672,7 +672,7 @@
      "slot": "Arma (Clava, 2 mãos)",
      "item": "Abyss Hammer",
      "lv": 60,
-     "attr": "Ataque 47, 3 slot(s) de imbuement",
+     "attr": "Ataque 47, Defesa 21, 3 slot(s) de imbuement",
      "src": [
       {
        "m": "Hand of Cursed Fate",
@@ -691,7 +691,7 @@
      "slot": "Arma (Machado, 2 mãos)",
      "item": "Guardian Halberd",
      "lv": 55,
-     "attr": "Ataque 46, 3 slot(s) de imbuement",
+     "attr": "Ataque 46, Defesa 15, 3 slot(s) de imbuement",
      "src": [
       {
        "m": "Bashmu",
@@ -765,6 +765,633 @@
      "wiki": "https://tibia.fandom.com/wiki/Draken_Boots",
      "id": "knight-draken-boots",
      "img": "img/itens/draken-boots.webp"
+    },
+    {
+     "id": "knight-phantasmal-axe",
+     "tier": "150–200",
+     "slot": "Arma (Machado)",
+     "item": "Phantasmal Axe",
+     "lv": 180,
+     "attr": "Ataque 5 físico + 49 de fogo, Defesa 32, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Brain Head",
+       "c": 3.7
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Drop de boss com chance boa (~3,7%).",
+     "wiki": "https://tibia.fandom.com/wiki/Phantasmal_Axe",
+     "img": "img/itens/phantasmal-axe.webp"
+    },
+    {
+     "id": "knight-winterblade",
+     "tier": "150–200",
+     "slot": "Arma (Espada)",
+     "item": "Winterblade",
+     "lv": 200,
+     "attr": "Ataque 10 físico + 40 de gelo, Defesa 22, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Izcandar the Banished",
+       "c": 6.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 200. Boss dos Dream Courts.",
+     "wiki": "https://tibia.fandom.com/wiki/Winterblade",
+     "img": "img/itens/winterblade.webp"
+    },
+    {
+     "id": "knight-jungle-flail",
+     "tier": "150–200",
+     "slot": "Arma (Clava)",
+     "item": "Jungle Flail",
+     "lv": 150,
+     "attr": "Ataque 52, Defesa 31, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Ratmiral Blackwhiskers",
+       "c": 0.89
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Jungle_Flail",
+     "img": "img/itens/jungle-flail.webp"
+    },
+    {
+     "id": "knight-ornate-legs",
+     "tier": "150–200",
+     "slot": "Pernas",
+     "item": "Ornate Legs",
+     "lv": 185,
+     "attr": "Armadura 8",
+     "src": [
+      {
+       "m": "Reflection of Obujos",
+       "c": 1.28
+      },
+      {
+       "m": "Jaul",
+       "c": 0.74
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Ornate_Legs",
+     "img": "img/itens/ornate-legs.webp"
+    },
+    {
+     "id": "knight-depth-calcei",
+     "tier": "150–200",
+     "slot": "Botas",
+     "item": "Depth Calcei",
+     "lv": 150,
+     "attr": "Armadura 3, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Jaul",
+       "c": 1.1
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Depth_Calcei",
+     "img": "img/itens/depth-calcei.webp"
+    },
+    {
+     "id": "knight-ectoplasmic-shield",
+     "tier": "150–200",
+     "slot": "Escudo",
+     "item": "Ectoplasmic Shield",
+     "lv": 180,
+     "attr": "Defesa 37, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Faceless Bane",
+       "c": 1.75
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Boss dos Dream Courts.",
+     "wiki": "https://tibia.fandom.com/wiki/Ectoplasmic_Shield",
+     "img": "img/itens/ectoplasmic-shield.webp"
+    },
+    {
+     "id": "knight-collar-of-red-plasma",
+     "tier": "150–200",
+     "slot": "Colar",
+     "item": "Collar of Red Plasma",
+     "lv": 150,
+     "attr": "",
+     "src": [
+      {
+       "m": "Arachnophobica",
+       "c": 10.59
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Monstro comum, ~10% de chance: um dos poucos itens dessa faixa que dá pra farmar em hunt.",
+     "wiki": "https://tibia.fandom.com/wiki/Collar_of_Red_Plasma",
+     "img": "img/itens/collar-of-red-plasma.webp"
+    },
+    {
+     "id": "knight-cobra-axe",
+     "tier": "200–300",
+     "slot": "Arma (Machado)",
+     "item": "Cobra Axe",
+     "lv": 220,
+     "attr": "Ataque 8 físico + 44 de gelo, Defesa 29, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Scarlett Etzel",
+       "c": 0.6
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Set Cobra: o mesmo boss dropa as 3 armas, o capacete e as botas.",
+     "wiki": "https://tibia.fandom.com/wiki/Cobra_Axe",
+     "img": "img/itens/cobra-axe.webp"
+    },
+    {
+     "id": "knight-cobra-sword",
+     "tier": "200–300",
+     "slot": "Arma (Espada)",
+     "item": "Cobra Sword",
+     "lv": 220,
+     "attr": "Ataque 52, Defesa 31, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Scarlett Etzel",
+       "c": 0.65
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Cobra_Sword",
+     "img": "img/itens/cobra-sword.webp"
+    },
+    {
+     "id": "knight-cobra-club",
+     "tier": "200–300",
+     "slot": "Arma (Clava)",
+     "item": "Cobra Club",
+     "lv": 220,
+     "attr": "Ataque 8 físico + 44 de fogo, Defesa 29, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Scarlett Etzel",
+       "c": 0.7
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Cobra_Club",
+     "img": "img/itens/cobra-club.webp"
+    },
+    {
+     "id": "knight-ornate-chestplate",
+     "tier": "200–300",
+     "slot": "Armadura",
+     "item": "Ornate Chestplate",
+     "lv": 200,
+     "attr": "Armadura 16, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Jaul",
+       "c": 0.65
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Ornate_Chestplate",
+     "img": "img/itens/ornate-chestplate.webp"
+    },
+    {
+     "id": "knight-cobra-hood",
+     "tier": "200–300",
+     "slot": "Capacete",
+     "item": "Cobra Hood",
+     "lv": 270,
+     "attr": "Armadura 9, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Scarlett Etzel",
+       "c": 0.4
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Cobra_Hood",
+     "img": "img/itens/cobra-hood.webp"
+    },
+    {
+     "id": "knight-fabulous-legs",
+     "tier": "200–300",
+     "slot": "Pernas",
+     "item": "Fabulous Legs",
+     "lv": 225,
+     "attr": "Armadura 9",
+     "src": [
+      {
+       "m": "The Unwelcome",
+       "c": 0.15
+      },
+      {
+       "m": "The Pale Worm",
+       "c": 0.15
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Fabulous_Legs",
+     "img": "img/itens/fabulous-legs.webp"
+    },
+    {
+     "id": "knight-cobra-boots",
+     "tier": "200–300",
+     "slot": "Botas",
+     "item": "Cobra Boots",
+     "lv": 220,
+     "attr": "Armadura 3, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Ugly Monster",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Cobra_Boots",
+     "img": "img/itens/cobra-boots.webp"
+    },
+    {
+     "id": "knight-gnome-shield",
+     "tier": "200–300",
+     "slot": "Escudo",
+     "item": "Gnome Shield",
+     "lv": 200,
+     "attr": "Defesa 38, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Count of the Core",
+       "c": 5.08
+      },
+      {
+       "m": "The Duke of the Depths",
+       "c": 4.17
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance alta (~5%) para item de boss.",
+     "wiki": "https://tibia.fandom.com/wiki/Gnome_Shield",
+     "img": "img/itens/gnome-shield.webp"
+    },
+    {
+     "id": "knight-falcon-battleaxe",
+     "tier": "300–400",
+     "slot": "Arma (Machado)",
+     "item": "Falcon Battleaxe",
+     "lv": 300,
+     "attr": "Ataque 10 físico + 47 de energia, Defesa 33, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.5
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Set Falcon: o boss dropa armas e armadura completa.",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Battleaxe",
+     "img": "img/itens/falcon-battleaxe.webp"
+    },
+    {
+     "id": "knight-amber-axe",
+     "tier": "300–400",
+     "slot": "Arma (Machado, alternativa)",
+     "item": "Amber Axe",
+     "lv": 330,
+     "attr": "Dano 46 de gelo, Defesa 32, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Rootkraken",
+       "c": 20.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance de 20%: o jeito mais fácil de ter arma de level 330.",
+     "wiki": "https://tibia.fandom.com/wiki/Amber_Axe",
+     "img": "img/itens/amber-axe.webp"
+    },
+    {
+     "id": "knight-falcon-longsword",
+     "tier": "300–400",
+     "slot": "Arma (Espada)",
+     "item": "Falcon Longsword",
+     "lv": 300,
+     "attr": "Ataque 56, Defesa 34, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.5
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Longsword",
+     "img": "img/itens/falcon-longsword.webp"
+    },
+    {
+     "id": "knight-falcon-mace",
+     "tier": "300–400",
+     "slot": "Arma (Clava)",
+     "item": "Falcon Mace",
+     "lv": 300,
+     "attr": "Ataque 11 físico + 41 de energia, Defesa 33, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.5
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Mace",
+     "img": "img/itens/falcon-mace.webp"
+    },
+    {
+     "id": "knight-falcon-plate",
+     "tier": "300–400",
+     "slot": "Armadura",
+     "item": "Falcon Plate",
+     "lv": 300,
+     "attr": "Armadura 18, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Plate",
+     "img": "img/itens/falcon-plate.webp"
+    },
+    {
+     "id": "knight-falcon-coif",
+     "tier": "300–400",
+     "slot": "Capacete",
+     "item": "Falcon Coif",
+     "lv": 300,
+     "attr": "Armadura 10, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Coif",
+     "img": "img/itens/falcon-coif.webp"
+    },
+    {
+     "id": "knight-falcon-greaves",
+     "tier": "300–400",
+     "slot": "Pernas",
+     "item": "Falcon Greaves",
+     "lv": 300,
+     "attr": "Armadura 10",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Greaves",
+     "img": "img/itens/falcon-greaves.webp"
+    },
+    {
+     "id": "knight-falcon-shield",
+     "tier": "300–400",
+     "slot": "Escudo",
+     "item": "Falcon Shield",
+     "lv": 300,
+     "attr": "Defesa 39, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Shield",
+     "img": "img/itens/falcon-shield.webp"
+    },
+    {
+     "id": "knight-soulbiter",
+     "tier": "400–500",
+     "slot": "Arma (Machado)",
+     "item": "Soulbiter",
+     "lv": 400,
+     "attr": "Ataque 7 físico + 45 de morte, Defesa 32, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "Soul War: as armas de alma são as melhores antes do level 600.",
+     "wiki": "https://tibia.fandom.com/wiki/Soulbiter",
+     "img": "img/itens/soulbiter.webp"
+    },
+    {
+     "id": "knight-soulcutter",
+     "tier": "400–500",
+     "slot": "Arma (Espada)",
+     "item": "Soulcutter",
+     "lv": 400,
+     "attr": "Ataque 7 físico + 45 de morte, Defesa 32, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulcutter",
+     "img": "img/itens/soulcutter.webp"
+    },
+    {
+     "id": "knight-soulcrusher",
+     "tier": "400–500",
+     "slot": "Arma (Clava)",
+     "item": "Soulcrusher",
+     "lv": 400,
+     "attr": "Ataque 6 físico + 46 de gelo, Defesa 33, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulcrusher",
+     "img": "img/itens/soulcrusher.webp"
+    },
+    {
+     "id": "knight-spiritthorn-armor",
+     "tier": "400–500",
+     "slot": "Armadura",
+     "item": "Spiritthorn Armor",
+     "lv": 400,
+     "attr": "Armadura 20, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Spiritthorn_Armor",
+     "img": "img/itens/spiritthorn-armor.webp"
+    },
+    {
+     "id": "knight-spiritthorn-helmet",
+     "tier": "400–500",
+     "slot": "Capacete",
+     "item": "Spiritthorn Helmet",
+     "lv": 400,
+     "attr": "Armadura 12, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Spiritthorn_Helmet",
+     "img": "img/itens/spiritthorn-helmet.webp"
+    },
+    {
+     "id": "knight-pair-of-soulwalkers",
+     "tier": "400–500",
+     "slot": "Botas",
+     "item": "Pair of Soulwalkers",
+     "lv": 400,
+     "attr": "Armadura 4, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Pair_of_Soulwalkers",
+     "img": "img/itens/pair-of-soulwalkers.webp"
+    },
+    {
+     "id": "knight-soulbastion",
+     "tier": "400–500",
+     "slot": "Escudo",
+     "item": "Soulbastion",
+     "lv": 400,
+     "attr": "Defesa 42, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulbastion",
+     "img": "img/itens/soulbastion.webp"
+    },
+    {
+     "id": "knight-spiritthorn-ring",
+     "tier": "400–500",
+     "slot": "Anel",
+     "item": "Spiritthorn Ring",
+     "lv": 400,
+     "attr": "",
+     "src": [],
+     "shop": [],
+     "quest": "Boss Magma Bubble (Primal Ordeal) dropa a versão carregada",
+     "tip": "Vem carregado (charged) do Magma Bubble.",
+     "wiki": "https://tibia.fandom.com/wiki/Spiritthorn_Ring",
+     "img": "img/itens/spiritthorn-ring.webp"
+    },
+    {
+     "id": "knight-sanguine-legs",
+     "tier": "500–600",
+     "slot": "Pernas",
+     "item": "Sanguine Legs",
+     "lv": 500,
+     "attr": "Armadura 12",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 500.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Legs",
+     "img": "img/itens/sanguine-legs.webp"
+    },
+    {
+     "id": "knight-sanguine-hatchet",
+     "tier": "500–600",
+     "slot": "Arma (Machado)",
+     "item": "Sanguine Hatchet",
+     "lv": 600,
+     "attr": "Ataque 8 físico + 46 de fogo, Defesa 32, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Hatchet",
+     "img": "img/itens/sanguine-hatchet.webp"
+    },
+    {
+     "id": "knight-sanguine-blade",
+     "tier": "500–600",
+     "slot": "Arma (Espada)",
+     "item": "Sanguine Blade",
+     "lv": 600,
+     "attr": "Ataque 8 físico + 46 de fogo, Defesa 32, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Blade",
+     "img": "img/itens/sanguine-blade.webp"
+    },
+    {
+     "id": "knight-sanguine-cudgel",
+     "tier": "500–600",
+     "slot": "Arma (Clava)",
+     "item": "Sanguine Cudgel",
+     "lv": 600,
+     "attr": "Ataque 8 físico + 46 de morte, Defesa 32, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Cudgel",
+     "img": "img/itens/sanguine-cudgel.webp"
     }
    ]
   },
@@ -1009,7 +1636,7 @@
      "slot": "Arma (2 mãos, alternativa)",
      "item": "Bow",
      "lv": null,
-     "attr": "-",
+     "attr": "",
      "src": [
       {
        "m": "Poacher",
@@ -1132,7 +1759,7 @@
      "slot": "Arma (2 mãos)",
      "item": "Composite Hornbow",
      "lv": 50,
-     "attr": "+3 de ataque (bônus do arco/besta), 3 slot(s) de imbuement",
+     "attr": "+3 de ataque, 3 slot(s) de imbuement",
      "src": [
       {
        "m": "Wyrm",
@@ -1318,7 +1945,7 @@
      "slot": "Arma (2 mãos)",
      "item": "Mycological Bow",
      "lv": 105,
-     "attr": "+4 de ataque (bônus do arco/besta), 3 slot(s) de imbuement",
+     "attr": "+4 de ataque, 3 slot(s) de imbuement",
      "src": [
       {
        "m": "Diremaw",
@@ -1388,6 +2015,459 @@
      "wiki": "https://tibia.fandom.com/wiki/Draken_Boots",
      "id": "paladin-draken-boots",
      "img": "img/itens/draken-boots.webp"
+    },
+    {
+     "id": "paladin-jungle-bow",
+     "tier": "150–200",
+     "slot": "Arma (2 mãos)",
+     "item": "Jungle Bow",
+     "lv": 150,
+     "attr": "+6 de ataque, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Ratmiral Blackwhiskers",
+       "c": 0.89
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Jungle_Bow",
+     "img": "img/itens/jungle-bow.webp"
+    },
+    {
+     "id": "paladin-depth-lorica",
+     "tier": "150–200",
+     "slot": "Armadura",
+     "item": "Depth Lorica",
+     "lv": 150,
+     "attr": "Armadura 16, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Jaul",
+       "c": 0.8
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Depth_Lorica",
+     "img": "img/itens/depth-lorica.webp"
+    },
+    {
+     "id": "paladin-dark-whispers",
+     "tier": "150–200",
+     "slot": "Capacete",
+     "item": "Dark Whispers",
+     "lv": 180,
+     "attr": "Armadura 7, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Nightmare Beast",
+       "c": 3.23
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Boss final dos Dream Courts.",
+     "wiki": "https://tibia.fandom.com/wiki/Dark_Whispers",
+     "img": "img/itens/dark-whispers.webp"
+    },
+    {
+     "id": "paladin-bast-legs",
+     "tier": "150–200",
+     "slot": "Pernas",
+     "item": "Bast Legs",
+     "lv": 150,
+     "attr": "Armadura 8",
+     "src": [
+      {
+       "m": "Ratmiral Blackwhiskers",
+       "c": 0.89
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Bast_Legs",
+     "img": "img/itens/bast-legs.webp"
+    },
+    {
+     "id": "paladin-collar-of-blue-plasma",
+     "tier": "150–200",
+     "slot": "Colar",
+     "item": "Collar of Blue Plasma",
+     "lv": 150,
+     "attr": "+2 magic level",
+     "src": [
+      {
+       "m": "Poisonous Carnisylvan",
+       "c": 4.97
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Monstro comum, ~5%: dá pra farmar em hunt.",
+     "wiki": "https://tibia.fandom.com/wiki/Collar_of_Blue_Plasma",
+     "img": "img/itens/collar-of-blue-plasma.webp"
+    },
+    {
+     "id": "paladin-living-vine-bow",
+     "tier": "200–300",
+     "slot": "Arma (2 mãos)",
+     "item": "Living Vine Bow",
+     "lv": 220,
+     "attr": "+6 de ataque, 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Plagueroot",
+       "c": 4.08
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance boa (~4%) para arco de boss.",
+     "wiki": "https://tibia.fandom.com/wiki/Living_Vine_Bow",
+     "img": "img/itens/living-vine-bow.webp"
+    },
+    {
+     "id": "paladin-cobra-crossbow",
+     "tier": "200–300",
+     "slot": "Arma (alternativa)",
+     "item": "Cobra Crossbow",
+     "lv": 220,
+     "attr": "+7 de ataque, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Scarlett Etzel",
+       "c": 0.6
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Cobra_Crossbow",
+     "img": "img/itens/cobra-crossbow.webp"
+    },
+    {
+     "id": "paladin-embrace-of-nature",
+     "tier": "200–300",
+     "slot": "Armadura",
+     "item": "Embrace of Nature",
+     "lv": 220,
+     "attr": "Armadura 16, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Earl Osam",
+       "c": 1.6
+      },
+      {
+       "m": "Sir Baeloc",
+       "c": 1.4
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Embrace_of_Nature",
+     "img": "img/itens/embrace-of-nature.webp"
+    },
+    {
+     "id": "paladin-lion-spangenhelm",
+     "tier": "200–300",
+     "slot": "Capacete",
+     "item": "Lion Spangenhelm",
+     "lv": 230,
+     "attr": "Armadura 7, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Drume",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Lion_Spangenhelm",
+     "img": "img/itens/lion-spangenhelm.webp"
+    },
+    {
+     "id": "paladin-fabulous-legs",
+     "tier": "200–300",
+     "slot": "Pernas",
+     "item": "Fabulous Legs",
+     "lv": 225,
+     "attr": "Armadura 9",
+     "src": [
+      {
+       "m": "The Unwelcome",
+       "c": 0.15
+      },
+      {
+       "m": "The Pale Worm",
+       "c": 0.15
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Fabulous_Legs",
+     "img": "img/itens/fabulous-legs.webp"
+    },
+    {
+     "id": "paladin-winged-boots",
+     "tier": "200–300",
+     "slot": "Botas",
+     "item": "Winged Boots",
+     "lv": 220,
+     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Urmahlullu the Weakened",
+       "c": 1.85
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Winged_Boots",
+     "img": "img/itens/winged-boots.webp"
+    },
+    {
+     "id": "paladin-falcon-bow",
+     "tier": "300–400",
+     "slot": "Arma (2 mãos)",
+     "item": "Falcon Bow",
+     "lv": 300,
+     "attr": "+7 de ataque, 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Bow",
+     "img": "img/itens/falcon-bow.webp"
+    },
+    {
+     "id": "paladin-amber-crossbow",
+     "tier": "300–400",
+     "slot": "Arma (alternativa)",
+     "item": "Amber Crossbow",
+     "lv": 330,
+     "attr": "+8 de ataque, 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Rootkraken",
+       "c": 20.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance de 20%.",
+     "wiki": "https://tibia.fandom.com/wiki/Amber_Crossbow",
+     "img": "img/itens/amber-crossbow.webp"
+    },
+    {
+     "id": "paladin-unerring-dragon-scale-armor",
+     "tier": "300–400",
+     "slot": "Armadura",
+     "item": "Unerring Dragon Scale Armor",
+     "lv": 300,
+     "attr": "Armadura 17, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dragon Hoard",
+       "c": 1.56
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Unerring_Dragon_Scale_Armor",
+     "img": "img/itens/unerring-dragon-scale-armor.webp"
+    },
+    {
+     "id": "paladin-falcon-coif",
+     "tier": "300–400",
+     "slot": "Capacete",
+     "item": "Falcon Coif",
+     "lv": 300,
+     "attr": "Armadura 10, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Coif",
+     "img": "img/itens/falcon-coif.webp"
+    },
+    {
+     "id": "paladin-falcon-greaves",
+     "tier": "300–400",
+     "slot": "Pernas",
+     "item": "Falcon Greaves",
+     "lv": 300,
+     "attr": "Armadura 10",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Greaves",
+     "img": "img/itens/falcon-greaves.webp"
+    },
+    {
+     "id": "paladin-feverbloom-boots",
+     "tier": "300–400",
+     "slot": "Botas",
+     "item": "Feverbloom Boots",
+     "lv": 270,
+     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Timira the Many-Headed",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Feverbloom_Boots",
+     "img": "img/itens/feverbloom-boots.webp"
+    },
+    {
+     "id": "paladin-soulbleeder",
+     "tier": "400–500",
+     "slot": "Arma (2 mãos)",
+     "item": "Soulbleeder",
+     "lv": 400,
+     "attr": "+8 de ataque, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulbleeder",
+     "img": "img/itens/soulbleeder.webp"
+    },
+    {
+     "id": "paladin-soulpiercer",
+     "tier": "400–500",
+     "slot": "Arma (alternativa)",
+     "item": "Soulpiercer",
+     "lv": 400,
+     "attr": "+9 de ataque, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulpiercer",
+     "img": "img/itens/soulpiercer.webp"
+    },
+    {
+     "id": "paladin-soulshell",
+     "tier": "400–500",
+     "slot": "Armadura",
+     "item": "Soulshell",
+     "lv": 400,
+     "attr": "Armadura 18, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulshell",
+     "img": "img/itens/soulshell.webp"
+    },
+    {
+     "id": "paladin-alicorn-headguard",
+     "tier": "400–500",
+     "slot": "Capacete",
+     "item": "Alicorn Headguard",
+     "lv": 400,
+     "attr": "Armadura 11, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Alicorn_Headguard",
+     "img": "img/itens/alicorn-headguard.webp"
+    },
+    {
+     "id": "paladin-pair-of-soulstalkers",
+     "tier": "400–500",
+     "slot": "Botas",
+     "item": "Pair of Soulstalkers",
+     "lv": 400,
+     "attr": "Armadura 3, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Pair_of_Soulstalkers",
+     "img": "img/itens/pair-of-soulstalkers.webp"
+    },
+    {
+     "id": "paladin-alicorn-quiver",
+     "tier": "400–500",
+     "slot": "Aljava",
+     "item": "Alicorn Quiver",
+     "lv": 400,
+     "attr": "+1 magic level",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Alicorn_Quiver",
+     "img": "img/itens/alicorn-quiver.webp"
+    },
+    {
+     "id": "paladin-sanguine-greaves",
+     "tier": "500–600",
+     "slot": "Pernas",
+     "item": "Sanguine Greaves",
+     "lv": 500,
+     "attr": "Armadura 11",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 500.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Greaves",
+     "img": "img/itens/sanguine-greaves.webp"
+    },
+    {
+     "id": "paladin-sanguine-bow",
+     "tier": "500–600",
+     "slot": "Arma (2 mãos)",
+     "item": "Sanguine Bow",
+     "lv": 600,
+     "attr": "+9 de ataque, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Bow",
+     "img": "img/itens/sanguine-bow.webp"
     }
    ]
   },
@@ -1400,7 +2480,7 @@
      "slot": "Arma",
      "item": "Wand of Vortex",
      "lv": 6,
-     "attr": "-",
+     "attr": "Dano 8–18 de energia",
      "src": [],
      "shop": [
       {
@@ -1427,7 +2507,7 @@
      "slot": "Arma",
      "item": "Wand of Dragonbreath",
      "lv": 13,
-     "attr": "2 slot(s) de imbuement",
+     "attr": "Dano 13–25 de fogo, 2 slot(s) de imbuement",
      "src": [
       {
        "m": "Dark Apprentice",
@@ -1574,7 +2654,7 @@
      "slot": "Arma",
      "item": "Wand of Decay",
      "lv": 19,
-     "attr": "-",
+     "attr": "Dano 23–37 de morte",
      "src": [
       {
        "m": "Orc Shaman",
@@ -1606,7 +2686,7 @@
      "slot": "Arma",
      "item": "Wand of Cosmic Energy",
      "lv": 26,
-     "attr": "-",
+     "attr": "Dano 37–53 de energia",
      "src": [
       {
        "m": "Elf Arcanist",
@@ -1684,7 +2764,7 @@
      "slot": "Arma",
      "item": "Wand of Inferno",
      "lv": 33,
-     "attr": "-",
+     "attr": "Dano 56–74 de fogo",
      "src": [
       {
        "m": "Efreet",
@@ -1716,7 +2796,7 @@
      "slot": "Arma",
      "item": "Wand of Starstorm",
      "lv": 37,
-     "attr": "2 slot(s) de imbuement",
+     "attr": "Dano 56–74 de energia, 2 slot(s) de imbuement",
      "src": [],
      "shop": [
       {
@@ -1743,7 +2823,7 @@
      "slot": "Arma",
      "item": "Wand of Voodoo",
      "lv": 42,
-     "attr": "2 slot(s) de imbuement",
+     "attr": "Dano 56–74 de morte, 2 slot(s) de imbuement",
      "src": [],
      "shop": [
       {
@@ -1827,7 +2907,7 @@
      "slot": "Arma",
      "item": "Wand of Everblazing",
      "lv": 65,
-     "attr": "+1 magic level",
+     "attr": "Dano 75–95 de fogo, +1 magic level",
      "src": [
       {
        "m": "Magma Crawler",
@@ -1846,7 +2926,7 @@
      "slot": "Arma (alternativa)",
      "item": "Wand of Defiance",
      "lv": 65,
-     "attr": "+1 magic level",
+     "attr": "Dano 75–95 de energia, +1 magic level",
      "src": [
       {
        "m": "Seacrest Serpent",
@@ -1966,6 +3046,422 @@
      "wiki": "https://tibia.fandom.com/wiki/Oriental_Shoes",
      "id": "sorcerer-oriental-shoes",
      "img": "img/itens/oriental-shoes.webp"
+    },
+    {
+     "id": "sorcerer-jungle-wand",
+     "tier": "150–200",
+     "slot": "Arma",
+     "item": "Jungle Wand",
+     "lv": 150,
+     "attr": "Dano 80–100 de terra, +1 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Ratmiral Blackwhiskers",
+       "c": 0.89
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Jungle_Wand",
+     "img": "img/itens/jungle-wand.webp"
+    },
+    {
+     "id": "sorcerer-dream-shroud",
+     "tier": "150–200",
+     "slot": "Armadura",
+     "item": "Dream Shroud",
+     "lv": 180,
+     "attr": "Armadura 12, +3 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Alptramun",
+       "c": 10.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance de 10% no boss dos Dream Courts.",
+     "wiki": "https://tibia.fandom.com/wiki/Dream_Shroud",
+     "img": "img/itens/dream-shroud.webp"
+    },
+    {
+     "id": "sorcerer-soulful-legs",
+     "tier": "150–200",
+     "slot": "Pernas",
+     "item": "Soulful Legs",
+     "lv": 180,
+     "attr": "Armadura 8, +1 magic level",
+     "src": [
+      {
+       "m": "The Unwelcome",
+       "c": 0.15
+      },
+      {
+       "m": "The Pale Worm",
+       "c": 0.15
+      }
+     ],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulful_Legs",
+     "img": "img/itens/soulful-legs.webp"
+    },
+    {
+     "id": "sorcerer-pair-of-dreamwalkers",
+     "tier": "150–200",
+     "slot": "Botas",
+     "item": "Pair of Dreamwalkers",
+     "lv": 180,
+     "attr": "Armadura 2, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Alptramun",
+       "c": 5.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Mesmo boss da Dream Shroud.",
+     "wiki": "https://tibia.fandom.com/wiki/Pair_of_Dreamwalkers",
+     "img": "img/itens/pair-of-dreamwalkers.webp"
+    },
+    {
+     "id": "sorcerer-spirit-guide",
+     "tier": "150–200",
+     "slot": "Escudo",
+     "item": "Spirit Guide",
+     "lv": 180,
+     "attr": "Defesa 17, +4 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Faceless Bane",
+       "c": 1.75
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Spirit_Guide",
+     "img": "img/itens/spirit-guide.webp"
+    },
+    {
+     "id": "sorcerer-collar-of-green-plasma",
+     "tier": "150–200",
+     "slot": "Colar",
+     "item": "Collar of Green Plasma",
+     "lv": 150,
+     "attr": "+3 magic level",
+     "src": [
+      {
+       "m": "Arachnophobica",
+       "c": 10.59
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Monstro comum, ~10%: dá pra farmar em hunt.",
+     "wiki": "https://tibia.fandom.com/wiki/Collar_of_Green_Plasma",
+     "img": "img/itens/collar-of-green-plasma.webp"
+    },
+    {
+     "id": "sorcerer-lion-wand",
+     "tier": "200–300",
+     "slot": "Arma",
+     "item": "Lion Wand",
+     "lv": 220,
+     "attr": "Dano 89–109 de gelo, +2 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Drume",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Lion_Wand",
+     "img": "img/itens/lion-wand.webp"
+    },
+    {
+     "id": "sorcerer-toga-mortis",
+     "tier": "200–300",
+     "slot": "Armadura",
+     "item": "Toga Mortis",
+     "lv": 220,
+     "attr": "Armadura 16, +4 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "King Zelos",
+       "c": 0.5
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Toga_Mortis",
+     "img": "img/itens/toga-mortis.webp"
+    },
+    {
+     "id": "sorcerer-gnome-helmet",
+     "tier": "200–300",
+     "slot": "Capacete",
+     "item": "Gnome Helmet",
+     "lv": 200,
+     "attr": "Armadura 8, +2 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Count of the Core",
+       "c": 3.39
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Gnome_Helmet",
+     "img": "img/itens/gnome-helmet.webp"
+    },
+    {
+     "id": "sorcerer-gnome-legs",
+     "tier": "200–300",
+     "slot": "Pernas",
+     "item": "Gnome Legs",
+     "lv": 200,
+     "attr": "Armadura 9, +2 magic level",
+     "src": [
+      {
+       "m": "The Duke of the Depths",
+       "c": 3.39
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Gnome_Legs",
+     "img": "img/itens/gnome-legs.webp"
+    },
+    {
+     "id": "sorcerer-lion-spellbook",
+     "tier": "200–300",
+     "slot": "Escudo",
+     "item": "Lion Spellbook",
+     "lv": 220,
+     "attr": "Defesa 20, +4 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Drume",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Lion_Spellbook",
+     "img": "img/itens/lion-spellbook.webp"
+    },
+    {
+     "id": "sorcerer-falcon-wand",
+     "tier": "300–400",
+     "slot": "Arma",
+     "item": "Falcon Wand",
+     "lv": 300,
+     "attr": "Dano 86–102 de energia, +3 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Wand",
+     "img": "img/itens/falcon-wand.webp"
+    },
+    {
+     "id": "sorcerer-arcane-dragon-robe",
+     "tier": "300–400",
+     "slot": "Armadura",
+     "item": "Arcane Dragon Robe",
+     "lv": 300,
+     "attr": "Armadura 15, +3 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dragon Hoard",
+       "c": 1.14
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Arcane_Dragon_Robe",
+     "img": "img/itens/arcane-dragon-robe.webp"
+    },
+    {
+     "id": "sorcerer-falcon-circlet",
+     "tier": "300–400",
+     "slot": "Capacete",
+     "item": "Falcon Circlet",
+     "lv": 300,
+     "attr": "Armadura 8, +2 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Circlet",
+     "img": "img/itens/falcon-circlet.webp"
+    },
+    {
+     "id": "sorcerer-dawnfire-pantaloons",
+     "tier": "300–400",
+     "slot": "Pernas",
+     "item": "Dawnfire Pantaloons",
+     "lv": 300,
+     "attr": "Armadura 8, +2 magic level",
+     "src": [
+      {
+       "m": "Timira the Many-Headed",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Dawnfire_Pantaloons",
+     "img": "img/itens/dawnfire-pantaloons.webp"
+    },
+    {
+     "id": "sorcerer-eldritch-folio",
+     "tier": "300–400",
+     "slot": "Escudo",
+     "item": "Eldritch Folio",
+     "lv": 300,
+     "attr": "Defesa 21, +4 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Brainstealer",
+       "c": 0.17
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Eldritch_Folio",
+     "img": "img/itens/eldritch-folio.webp"
+    },
+    {
+     "id": "sorcerer-soultainter",
+     "tier": "400–500",
+     "slot": "Arma",
+     "item": "Soultainter",
+     "lv": 400,
+     "attr": "Dano 100–120 de morte, +5 magic level, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soultainter",
+     "img": "img/itens/soultainter.webp"
+    },
+    {
+     "id": "sorcerer-soulmantle",
+     "tier": "400–500",
+     "slot": "Armadura",
+     "item": "Soulmantle",
+     "lv": 400,
+     "attr": "Armadura 17, +4 magic level, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulmantle",
+     "img": "img/itens/soulmantle.webp"
+    },
+    {
+     "id": "sorcerer-arcanomancer-regalia",
+     "tier": "400–500",
+     "slot": "Capacete",
+     "item": "Arcanomancer Regalia",
+     "lv": 400,
+     "attr": "Armadura 9, +3 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Arcanomancer_Regalia",
+     "img": "img/itens/arcanomancer-regalia.webp"
+    },
+    {
+     "id": "sorcerer-soulshanks",
+     "tier": "400–500",
+     "slot": "Pernas",
+     "item": "Soulshanks",
+     "lv": 400,
+     "attr": "Armadura 10, +3 magic level",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulshanks",
+     "img": "img/itens/soulshanks.webp"
+    },
+    {
+     "id": "sorcerer-arcanomancer-folio",
+     "tier": "400–500",
+     "slot": "Escudo",
+     "item": "Arcanomancer Folio",
+     "lv": 400,
+     "attr": "Defesa 22, +5 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Arcanomancer_Folio",
+     "img": "img/itens/arcanomancer-folio.webp"
+    },
+    {
+     "id": "sorcerer-sanguine-boots",
+     "tier": "500–600",
+     "slot": "Botas",
+     "item": "Sanguine Boots",
+     "lv": 500,
+     "attr": "Armadura 3, +2 magic level, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 500.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Boots",
+     "img": "img/itens/sanguine-boots.webp"
+    },
+    {
+     "id": "sorcerer-sanguine-coil",
+     "tier": "500–600",
+     "slot": "Arma",
+     "item": "Sanguine Coil",
+     "lv": 600,
+     "attr": "Dano 113–125 de energia, +5 magic level, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Coil",
+     "img": "img/itens/sanguine-coil.webp"
     }
    ]
   },
@@ -1978,7 +3474,7 @@
      "slot": "Arma",
      "item": "Snakebite Rod",
      "lv": 6,
-     "attr": "-",
+     "attr": "Dano 8–18 de terra",
      "src": [],
      "shop": [
       {
@@ -2005,7 +3501,7 @@
      "slot": "Arma",
      "item": "Moonlight Rod",
      "lv": 13,
-     "attr": "-",
+     "attr": "Dano 13–25 de gelo",
      "src": [],
      "shop": [
       {
@@ -2147,7 +3643,7 @@
      "slot": "Arma",
      "item": "Necrotic Rod",
      "lv": 19,
-     "attr": "-",
+     "attr": "Dano 23–37 de morte",
      "src": [
       {
        "m": "Witch",
@@ -2179,7 +3675,7 @@
      "slot": "Arma",
      "item": "Terra Rod",
      "lv": 26,
-     "attr": "-",
+     "attr": "Dano 37–53 de terra",
      "src": [
       {
        "m": "Lizard Snakecharmer",
@@ -2257,7 +3753,7 @@
      "slot": "Arma",
      "item": "Hailstorm Rod",
      "lv": 33,
-     "attr": "-",
+     "attr": "Dano 56–74 de gelo",
      "src": [
       {
        "m": "Crystal Wolf",
@@ -2289,7 +3785,7 @@
      "slot": "Arma",
      "item": "Springsprout Rod",
      "lv": 37,
-     "attr": "-",
+     "attr": "Dano 56–74 de terra",
      "src": [
       {
        "m": "Bog Raider",
@@ -2321,7 +3817,7 @@
      "slot": "Arma",
      "item": "Underworld Rod",
      "lv": 42,
-     "attr": "2 slot(s) de imbuement",
+     "attr": "Dano 56–74 de morte, 2 slot(s) de imbuement",
      "src": [
       {
        "m": "Blood Priest",
@@ -2410,7 +3906,7 @@
      "slot": "Arma",
      "item": "Muck Rod",
      "lv": 65,
-     "attr": "+1 magic level",
+     "attr": "Dano 75–95 de terra, +1 magic level",
      "src": [
       {
        "m": "Humongous Fungus",
@@ -2429,7 +3925,7 @@
      "slot": "Arma (alternativa)",
      "item": "Glacial Rod",
      "lv": 65,
-     "attr": "+1 magic level",
+     "attr": "Dano 75–95 de gelo, +1 magic level",
      "src": [
       {
        "m": "Ironblight",
@@ -2549,6 +4045,426 @@
      "wiki": "https://tibia.fandom.com/wiki/Oriental_Shoes",
      "id": "druid-oriental-shoes",
      "img": "img/itens/oriental-shoes.webp"
+    },
+    {
+     "id": "druid-energized-limb",
+     "tier": "150–200",
+     "slot": "Arma",
+     "item": "Energized Limb",
+     "lv": 180,
+     "attr": "Dano 88–108 de fogo, +2 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Maxxenius",
+       "c": 3.57
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance boa (~3,6%) no boss dos Dream Courts.",
+     "wiki": "https://tibia.fandom.com/wiki/Energized_Limb",
+     "img": "img/itens/energized-limb.webp"
+    },
+    {
+     "id": "druid-dream-shroud",
+     "tier": "150–200",
+     "slot": "Armadura",
+     "item": "Dream Shroud",
+     "lv": 180,
+     "attr": "Armadura 12, +3 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Alptramun",
+       "c": 10.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance de 10% no boss dos Dream Courts.",
+     "wiki": "https://tibia.fandom.com/wiki/Dream_Shroud",
+     "img": "img/itens/dream-shroud.webp"
+    },
+    {
+     "id": "druid-soulful-legs",
+     "tier": "150–200",
+     "slot": "Pernas",
+     "item": "Soulful Legs",
+     "lv": 180,
+     "attr": "Armadura 8, +1 magic level",
+     "src": [
+      {
+       "m": "The Unwelcome",
+       "c": 0.15
+      },
+      {
+       "m": "The Pale Worm",
+       "c": 0.15
+      }
+     ],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulful_Legs",
+     "img": "img/itens/soulful-legs.webp"
+    },
+    {
+     "id": "druid-pair-of-dreamwalkers",
+     "tier": "150–200",
+     "slot": "Botas",
+     "item": "Pair of Dreamwalkers",
+     "lv": 180,
+     "attr": "Armadura 2, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Alptramun",
+       "c": 5.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Pair_of_Dreamwalkers",
+     "img": "img/itens/pair-of-dreamwalkers.webp"
+    },
+    {
+     "id": "druid-spirit-guide",
+     "tier": "150–200",
+     "slot": "Escudo",
+     "item": "Spirit Guide",
+     "lv": 180,
+     "attr": "Defesa 17, +4 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Faceless Bane",
+       "c": 1.75
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Spirit_Guide",
+     "img": "img/itens/spirit-guide.webp"
+    },
+    {
+     "id": "druid-collar-of-green-plasma",
+     "tier": "150–200",
+     "slot": "Colar",
+     "item": "Collar of Green Plasma",
+     "lv": 150,
+     "attr": "+3 magic level",
+     "src": [
+      {
+       "m": "Arachnophobica",
+       "c": 10.59
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Monstro comum, ~10%: dá pra farmar em hunt.",
+     "wiki": "https://tibia.fandom.com/wiki/Collar_of_Green_Plasma",
+     "img": "img/itens/collar-of-green-plasma.webp"
+    },
+    {
+     "id": "druid-cobra-rod",
+     "tier": "200–300",
+     "slot": "Arma",
+     "item": "Cobra Rod",
+     "lv": 220,
+     "attr": "Dano 70–110 de terra, +2 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Scarlett Etzel",
+       "c": 0.65
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Cobra_Rod",
+     "img": "img/itens/cobra-rod.webp"
+    },
+    {
+     "id": "druid-bear-skin",
+     "tier": "200–300",
+     "slot": "Armadura",
+     "item": "Bear Skin",
+     "lv": 230,
+     "attr": "Armadura 16, +4 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Duke Krule",
+       "c": 1.8
+      },
+      {
+       "m": "Lord Azaram",
+       "c": 1.6
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Bear_Skin",
+     "img": "img/itens/bear-skin.webp"
+    },
+    {
+     "id": "druid-gnome-helmet",
+     "tier": "200–300",
+     "slot": "Capacete",
+     "item": "Gnome Helmet",
+     "lv": 200,
+     "attr": "Armadura 8, +2 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Count of the Core",
+       "c": 3.39
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Gnome_Helmet",
+     "img": "img/itens/gnome-helmet.webp"
+    },
+    {
+     "id": "druid-gnome-legs",
+     "tier": "200–300",
+     "slot": "Pernas",
+     "item": "Gnome Legs",
+     "lv": 200,
+     "attr": "Armadura 9, +2 magic level",
+     "src": [
+      {
+       "m": "The Duke of the Depths",
+       "c": 3.39
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Gnome_Legs",
+     "img": "img/itens/gnome-legs.webp"
+    },
+    {
+     "id": "druid-lion-spellbook",
+     "tier": "200–300",
+     "slot": "Escudo",
+     "item": "Lion Spellbook",
+     "lv": 220,
+     "attr": "Defesa 20, +4 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Drume",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Lion_Spellbook",
+     "img": "img/itens/lion-spellbook.webp"
+    },
+    {
+     "id": "druid-falcon-rod",
+     "tier": "300–400",
+     "slot": "Arma",
+     "item": "Falcon Rod",
+     "lv": 300,
+     "attr": "Dano 87–101 de terra, +3 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Rod",
+     "img": "img/itens/falcon-rod.webp"
+    },
+    {
+     "id": "druid-mystical-dragon-robe",
+     "tier": "300–400",
+     "slot": "Armadura",
+     "item": "Mystical Dragon Robe",
+     "lv": 300,
+     "attr": "Armadura 15, +3 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dragon Hoard",
+       "c": 1.28
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Mystical_Dragon_Robe",
+     "img": "img/itens/mystical-dragon-robe.webp"
+    },
+    {
+     "id": "druid-falcon-circlet",
+     "tier": "300–400",
+     "slot": "Capacete",
+     "item": "Falcon Circlet",
+     "lv": 300,
+     "attr": "Armadura 8, +2 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Circlet",
+     "img": "img/itens/falcon-circlet.webp"
+    },
+    {
+     "id": "druid-mutant-bone-kilt",
+     "tier": "300–400",
+     "slot": "Pernas",
+     "item": "Mutant Bone Kilt",
+     "lv": 300,
+     "attr": "Armadura 8, +2 magic level",
+     "src": [
+      {
+       "m": "The Monster",
+       "c": 0.45
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Mutant_Bone_Kilt",
+     "img": "img/itens/mutant-bone-kilt.webp"
+    },
+    {
+     "id": "druid-eldritch-tome",
+     "tier": "300–400",
+     "slot": "Escudo",
+     "item": "Eldritch Tome",
+     "lv": 300,
+     "attr": "Defesa 21, +4 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Brainstealer",
+       "c": 0.19
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Eldritch_Tome",
+     "img": "img/itens/eldritch-tome.webp"
+    },
+    {
+     "id": "druid-soulhexer",
+     "tier": "400–500",
+     "slot": "Arma",
+     "item": "Soulhexer",
+     "lv": 400,
+     "attr": "Dano 98–118 de gelo, +5 magic level, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulhexer",
+     "img": "img/itens/soulhexer.webp"
+    },
+    {
+     "id": "druid-soulshroud",
+     "tier": "400–500",
+     "slot": "Armadura",
+     "item": "Soulshroud",
+     "lv": 400,
+     "attr": "Armadura 17, +4 magic level, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulshroud",
+     "img": "img/itens/soulshroud.webp"
+    },
+    {
+     "id": "druid-arboreal-crown",
+     "tier": "400–500",
+     "slot": "Capacete",
+     "item": "Arboreal Crown",
+     "lv": 400,
+     "attr": "Armadura 9, +3 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Arboreal_Crown",
+     "img": "img/itens/arboreal-crown.webp"
+    },
+    {
+     "id": "druid-soulstrider",
+     "tier": "400–500",
+     "slot": "Pernas",
+     "item": "Soulstrider",
+     "lv": 400,
+     "attr": "Armadura 10, +3 magic level",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulstrider",
+     "img": "img/itens/soulstrider.webp"
+    },
+    {
+     "id": "druid-arboreal-tome",
+     "tier": "400–500",
+     "slot": "Escudo",
+     "item": "Arboreal Tome",
+     "lv": 400,
+     "attr": "Defesa 22, +5 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Arboreal_Tome",
+     "img": "img/itens/arboreal-tome.webp"
+    },
+    {
+     "id": "druid-sanguine-galoshes",
+     "tier": "500–600",
+     "slot": "Botas",
+     "item": "Sanguine Galoshes",
+     "lv": 500,
+     "attr": "Armadura 3, +2 magic level, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 500.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Galoshes",
+     "img": "img/itens/sanguine-galoshes.webp"
+    },
+    {
+     "id": "druid-sanguine-rod",
+     "tier": "500–600",
+     "slot": "Arma",
+     "item": "Sanguine Rod",
+     "lv": 600,
+     "attr": "Dano 100–124 de terra, +5 magic level, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Rod",
+     "img": "img/itens/sanguine-rod.webp"
     }
    ]
   },
@@ -2561,7 +4477,7 @@
      "slot": "Arma",
      "item": "Jo Staff",
      "lv": null,
-     "attr": "Ataque 18",
+     "attr": "Ataque 18, Defesa 12",
      "src": [],
      "shop": [
       {
@@ -2656,7 +4572,7 @@
      "slot": "Arma",
      "item": "Fists of Enlightenment",
      "lv": 20,
-     "attr": "Ataque 24",
+     "attr": "Ataque 24, Defesa 14",
      "src": [],
      "shop": [
       {
@@ -2694,7 +4610,7 @@
      "slot": "Arma",
      "item": "Nunchaku of Enlightenment",
      "lv": 50,
-     "attr": "Ataque 34",
+     "attr": "Ataque 34, Defesa 15",
      "src": [],
      "shop": [
       {
@@ -2802,6 +4718,361 @@
      "wiki": "https://tibia.fandom.com/wiki/Robe_of_Enlightenment",
      "id": "monk-robe-of-enlightenment",
      "img": "img/itens/robe-of-enlightenment.webp"
+    },
+    {
+     "id": "monk-depth-claws",
+     "tier": "150–200",
+     "slot": "Arma",
+     "item": "Depth Claws",
+     "lv": 135,
+     "attr": "Ataque 42, Defesa 18, +1 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Jaul",
+       "c": 0.65
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Depth_Claws",
+     "img": "img/itens/depth-claws.webp"
+    },
+    {
+     "id": "monk-gnomish-cuirass",
+     "tier": "150–200",
+     "slot": "Armadura",
+     "item": "Gnomish Cuirass",
+     "lv": 150,
+     "attr": "Armadura 8, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Duke of the Depths",
+       "c": 3.39
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance boa (~3,4%).",
+     "wiki": "https://tibia.fandom.com/wiki/Gnomish_Cuirass",
+     "img": "img/itens/gnomish-cuirass.webp"
+    },
+    {
+     "id": "monk-dark-vision-bandana",
+     "tier": "150–200",
+     "slot": "Capacete",
+     "item": "Dark Vision Bandana",
+     "lv": 180,
+     "attr": "Armadura 5, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Nightmare Beast",
+       "c": 4.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance boa (~4%) no boss final dos Dream Courts.",
+     "wiki": "https://tibia.fandom.com/wiki/Dark_Vision_Bandana",
+     "img": "img/itens/dark-vision-bandana.webp"
+    },
+    {
+     "id": "monk-collar-of-orange-plasma",
+     "tier": "150–200",
+     "slot": "Colar",
+     "item": "Collar of Orange Plasma",
+     "lv": 150,
+     "attr": "",
+     "src": [
+      {
+       "m": "Dreadful Disruptor",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Collar_of_Orange_Plasma",
+     "img": "img/itens/collar-of-orange-plasma.webp"
+    },
+    {
+     "id": "monk-cobra-bo",
+     "tier": "200–300",
+     "slot": "Arma",
+     "item": "Cobra Bo",
+     "lv": 250,
+     "attr": "Ataque 44, Defesa 20, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Scarlett Etzel",
+       "c": 0.6
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Cobra_Bo",
+     "img": "img/itens/cobra-bo.webp"
+    },
+    {
+     "id": "monk-lion-claws",
+     "tier": "200–300",
+     "slot": "Arma (alternativa)",
+     "item": "Lion Claws",
+     "lv": 270,
+     "attr": "Ataque 45, Defesa 19, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Drume",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Lion_Claws",
+     "img": "img/itens/lion-claws.webp"
+    },
+    {
+     "id": "monk-death-oyoroi",
+     "tier": "200–300",
+     "slot": "Armadura",
+     "item": "Death Oyoroi",
+     "lv": 230,
+     "attr": "Armadura 9, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "King Zelos",
+       "c": 0.5
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Death_Oyoroi",
+     "img": "img/itens/death-oyoroi.webp"
+    },
+    {
+     "id": "monk-jade-legs",
+     "tier": "200–300",
+     "slot": "Pernas",
+     "item": "Jade Legs",
+     "lv": 210,
+     "attr": "Armadura 5, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Pale Worm",
+       "c": 0.15
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Jade_Legs",
+     "img": "img/itens/jade-legs.webp"
+    },
+    {
+     "id": "monk-falcon-sai",
+     "tier": "300–400",
+     "slot": "Arma",
+     "item": "Falcon Sai",
+     "lv": 300,
+     "attr": "Ataque 45, Defesa 20, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Grand Master Oberon",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Sai",
+     "img": "img/itens/falcon-sai.webp"
+    },
+    {
+     "id": "monk-amber-kusarigama",
+     "tier": "300–400",
+     "slot": "Arma (alternativa)",
+     "item": "Amber Kusarigama",
+     "lv": 330,
+     "attr": "Ataque 46, Defesa 20, +1 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Rootkraken",
+       "c": 20.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Chance de 20%.",
+     "wiki": "https://tibia.fandom.com/wiki/Amber_Kusarigama",
+     "img": "img/itens/amber-kusarigama.webp"
+    },
+    {
+     "id": "monk-merudri-battle-mail",
+     "tier": "300–400",
+     "slot": "Armadura",
+     "item": "Merudri Battle Mail",
+     "lv": 300,
+     "attr": "Armadura 10, +1 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dragon Hoard",
+       "c": 1.28
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Merudri_Battle_Mail",
+     "img": "img/itens/merudri-battle-mail.webp"
+    },
+    {
+     "id": "monk-demon-mengu",
+     "tier": "300–400",
+     "slot": "Capacete",
+     "item": "Demon Mengu",
+     "lv": 300,
+     "attr": "Armadura 6, +1 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Arbaziloth",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Demon_Mengu",
+     "img": "img/itens/demon-mengu.webp"
+    },
+    {
+     "id": "monk-mutant-hide-trousers",
+     "tier": "300–400",
+     "slot": "Pernas",
+     "item": "Mutant Hide Trousers",
+     "lv": 300,
+     "attr": "Armadura 6, +1 magic level",
+     "src": [
+      {
+       "m": "The Monster",
+       "c": 0.4
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Mutant_Hide_Trousers",
+     "img": "img/itens/mutant-hide-trousers.webp"
+    },
+    {
+     "id": "monk-eldritch-monk-boots",
+     "tier": "300–400",
+     "slot": "Botas",
+     "item": "Eldritch Monk Boots",
+     "lv": 300,
+     "attr": "Armadura 2, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Brainstealer",
+       "c": 0.18
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Eldritch_Monk_Boots",
+     "img": "img/itens/eldritch-monk-boots.webp"
+    },
+    {
+     "id": "monk-soulkamas",
+     "tier": "400–500",
+     "slot": "Arma",
+     "item": "Soulkamas",
+     "lv": 400,
+     "attr": "Ataque 46, Defesa 21, +1 magic level, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulkamas",
+     "img": "img/itens/soulkamas.webp"
+    },
+    {
+     "id": "monk-soulgarb",
+     "tier": "400–500",
+     "slot": "Armadura",
+     "item": "Soulgarb",
+     "lv": 400,
+     "attr": "Armadura 11, +2 magic level, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulgarb",
+     "img": "img/itens/soulgarb.webp"
+    },
+    {
+     "id": "monk-ethereal-coned-hat",
+     "tier": "400–500",
+     "slot": "Capacete",
+     "item": "Ethereal Coned Hat",
+     "lv": 400,
+     "attr": "Armadura 7, +2 magic level, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Magma Bubble",
+       "c": 0.25
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Ethereal_Coned_Hat",
+     "img": "img/itens/ethereal-coned-hat.webp"
+    },
+    {
+     "id": "monk-soulsoles",
+     "tier": "400–500",
+     "slot": "Botas",
+     "item": "Soulsoles",
+     "lv": 400,
+     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soulsoles",
+     "img": "img/itens/soulsoles.webp"
+    },
+    {
+     "id": "monk-sanguine-trousers",
+     "tier": "500–600",
+     "slot": "Pernas",
+     "item": "Sanguine Trousers",
+     "lv": 500,
+     "attr": "Armadura 6, +2 magic level",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 500.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Trousers",
+     "img": "img/itens/sanguine-trousers.webp"
+    },
+    {
+     "id": "monk-sanguine-claws",
+     "tier": "500–600",
+     "slot": "Arma",
+     "item": "Sanguine Claws",
+     "lv": 600,
+     "attr": "Ataque 47, Defesa 21, +2 magic level, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Claws",
+     "img": "img/itens/sanguine-claws.webp"
     }
    ]
   }
@@ -3541,6 +5812,503 @@
    "wiki": "https://tibia.fandom.com/wiki/Zombie",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Zombie",
    "img": "img/monstros/zombie.gif"
+  },
+  "Brain Head": {
+   "exp": 0,
+   "hp": 0,
+   "lvl": "150+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Phantasmal Axe"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Brain_Head",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Brain%20Head",
+   "img": "img/monstros/brain-head.gif"
+  },
+  "Izcandar the Banished": {
+   "exp": 55000,
+   "hp": 320000,
+   "lvl": "150+",
+   "loc": "Dream Courts",
+   "boss": true,
+   "items": [
+    "Winterblade"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Izcandar_the_Banished",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Izcandar%20the%20Banished",
+   "img": "img/monstros/izcandar-the-banished.gif"
+  },
+  "Ratmiral Blackwhiskers": {
+   "exp": 50000,
+   "hp": 220000,
+   "lvl": "150+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Bast Legs",
+    "Jungle Bow",
+    "Jungle Flail",
+    "Jungle Wand"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Ratmiral_Blackwhiskers",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Ratmiral%20Blackwhiskers",
+   "img": "img/monstros/ratmiral-blackwhiskers.gif"
+  },
+  "Reflection of Obujos": {
+   "exp": 20000,
+   "hp": 35000,
+   "lvl": "150+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Ornate Legs"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Reflection_of_Obujos",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Reflection%20of%20Obujos",
+   "img": "img/monstros/reflection-of-obujos.gif"
+  },
+  "Jaul": {
+   "exp": 30000,
+   "hp": 90000,
+   "lvl": "150+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Depth Calcei",
+    "Depth Claws",
+    "Depth Lorica",
+    "Ornate Chestplate",
+    "Ornate Legs"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Jaul",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Jaul",
+   "img": "img/monstros/jaul.gif"
+  },
+  "Faceless Bane": {
+   "exp": 20000,
+   "hp": 35000,
+   "lvl": "150+",
+   "loc": "Dream Courts",
+   "boss": true,
+   "items": [
+    "Ectoplasmic Shield",
+    "Spirit Guide"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Faceless_Bane",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Faceless%20Bane",
+   "img": "img/monstros/faceless-bane.gif"
+  },
+  "Arachnophobica": {
+   "exp": 4700,
+   "hp": 5000,
+   "lvl": "150+",
+   "loc": "",
+   "boss": false,
+   "items": [
+    "Collar of Green Plasma",
+    "Collar of Red Plasma"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Arachnophobica",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Arachnophobica",
+   "img": "img/monstros/arachnophobica.gif"
+  },
+  "Scarlett Etzel": {
+   "exp": 20000,
+   "hp": 30000,
+   "lvl": "200+",
+   "loc": "Cobra Bastion",
+   "boss": true,
+   "items": [
+    "Cobra Axe",
+    "Cobra Bo",
+    "Cobra Club",
+    "Cobra Crossbow",
+    "Cobra Hood",
+    "Cobra Rod",
+    "Cobra Sword"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Scarlett_Etzel",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Scarlett%20Etzel",
+   "img": "img/monstros/scarlett-etzel.gif"
+  },
+  "The Unwelcome": {
+   "exp": 30000,
+   "hp": 300000,
+   "lvl": "200+",
+   "loc": "Feaster of Souls",
+   "boss": true,
+   "items": [
+    "Fabulous Legs",
+    "Soulful Legs"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Unwelcome",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Unwelcome",
+   "img": "img/monstros/the-unwelcome.gif"
+  },
+  "The Pale Worm": {
+   "exp": 30000,
+   "hp": 420000,
+   "lvl": "200+",
+   "loc": "Feaster of Souls",
+   "boss": true,
+   "items": [
+    "Fabulous Legs",
+    "Jade Legs",
+    "Soulful Legs"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Pale_Worm",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Pale%20Worm",
+   "img": "img/monstros/the-pale-worm.gif"
+  },
+  "Ugly Monster": {
+   "exp": 1000,
+   "hp": 10000,
+   "lvl": "200+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Cobra Boots"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Ugly_Monster",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Ugly%20Monster",
+   "img": "img/monstros/ugly-monster.gif"
+  },
+  "The Count of the Core": {
+   "exp": 300000,
+   "hp": 350000,
+   "lvl": "200+",
+   "loc": "Warzones (Dangerous Depths)",
+   "boss": true,
+   "items": [
+    "Gnome Helmet",
+    "Gnome Shield"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Count_of_the_Core",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Count%20of%20the%20Core",
+   "img": "img/monstros/the-count-of-the-core.gif"
+  },
+  "The Duke of the Depths": {
+   "exp": 300000,
+   "hp": 350000,
+   "lvl": "200+",
+   "loc": "Warzones (Dangerous Depths)",
+   "boss": true,
+   "items": [
+    "Gnome Legs",
+    "Gnome Shield",
+    "Gnomish Cuirass"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Duke_of_the_Depths",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Duke%20of%20the%20Depths",
+   "img": "img/monstros/the-duke-of-the-depths.gif"
+  },
+  "Grand Master Oberon": {
+   "exp": 20000,
+   "hp": 60000,
+   "lvl": "300+",
+   "loc": "Falcon Bastion (Edron)",
+   "boss": true,
+   "items": [
+    "Falcon Battleaxe",
+    "Falcon Bow",
+    "Falcon Circlet",
+    "Falcon Coif",
+    "Falcon Greaves",
+    "Falcon Longsword",
+    "Falcon Mace",
+    "Falcon Plate",
+    "Falcon Rod",
+    "Falcon Sai",
+    "Falcon Shield",
+    "Falcon Wand"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Grand_Master_Oberon",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Grand%20Master%20Oberon",
+   "img": "img/monstros/grand-master-oberon.gif"
+  },
+  "The Rootkraken": {
+   "exp": 600000,
+   "hp": 360000,
+   "lvl": "300+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Amber Axe",
+    "Amber Crossbow",
+    "Amber Kusarigama"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Rootkraken",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Rootkraken",
+   "img": "img/monstros/the-rootkraken.webp"
+  },
+  "Magma Bubble": {
+   "exp": 80000,
+   "hp": 450000,
+   "lvl": "400+",
+   "loc": "Primal Ordeal",
+   "boss": true,
+   "items": [
+    "Alicorn Headguard",
+    "Alicorn Quiver",
+    "Arboreal Crown",
+    "Arboreal Tome",
+    "Arcanomancer Folio",
+    "Arcanomancer Regalia",
+    "Ethereal Coned Hat",
+    "Spiritthorn Armor",
+    "Spiritthorn Helmet"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Magma_Bubble",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Magma%20Bubble",
+   "img": "img/monstros/magma-bubble.webp"
+  },
+  "The Nightmare Beast": {
+   "exp": 75000,
+   "hp": 850000,
+   "lvl": "150+",
+   "loc": "Dream Courts",
+   "boss": true,
+   "items": [
+    "Dark Vision Bandana",
+    "Dark Whispers"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Nightmare_Beast",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Nightmare%20Beast",
+   "img": "img/monstros/the-nightmare-beast.gif"
+  },
+  "Poisonous Carnisylvan": {
+   "exp": 4400,
+   "hp": 8000,
+   "lvl": "150+",
+   "loc": "",
+   "boss": false,
+   "items": [
+    "Collar of Blue Plasma"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Poisonous_Carnisylvan",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Poisonous%20Carnisylvan",
+   "img": "img/monstros/poisonous-carnisylvan.gif"
+  },
+  "Plagueroot": {
+   "exp": 55000,
+   "hp": 320000,
+   "lvl": "200+",
+   "loc": "Dream Courts",
+   "boss": true,
+   "items": [
+    "Living Vine Bow"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Plagueroot",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Plagueroot",
+   "img": "img/monstros/plagueroot.gif"
+  },
+  "Earl Osam": {
+   "exp": 55000,
+   "hp": 75000,
+   "lvl": "200+",
+   "loc": "Grave Danger",
+   "boss": true,
+   "items": [
+    "Embrace of Nature"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Earl_Osam",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Earl%20Osam",
+   "img": "img/monstros/earl-osam.gif"
+  },
+  "Sir Baeloc": {
+   "exp": 55000,
+   "hp": 75000,
+   "lvl": "200+",
+   "loc": "Grave Danger",
+   "boss": true,
+   "items": [
+    "Embrace of Nature"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Sir_Baeloc",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Sir%20Baeloc",
+   "img": "img/monstros/sir-baeloc.gif"
+  },
+  "Drume": {
+   "exp": 25000,
+   "hp": 80000,
+   "lvl": "200+",
+   "loc": "The Order of the Lion",
+   "boss": true,
+   "items": [
+    "Lion Claws",
+    "Lion Spangenhelm",
+    "Lion Spellbook",
+    "Lion Wand"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Drume",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Drume",
+   "img": "img/monstros/drume.gif"
+  },
+  "Urmahlullu the Weakened": {
+   "exp": 55000,
+   "hp": 512000,
+   "lvl": "200+",
+   "loc": "Kilmaresh",
+   "boss": true,
+   "items": [
+    "Winged Boots"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Urmahlullu_the_Weakened",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Urmahlullu%20the%20Weakened",
+   "img": "img/monstros/urmahlullu-the-weakened.gif"
+  },
+  "Dragon Hoard": {
+   "exp": 0,
+   "hp": 999999,
+   "lvl": "300+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Arcane Dragon Robe",
+    "Merudri Battle Mail",
+    "Mystical Dragon Robe",
+    "Unerring Dragon Scale Armor"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Dragon_Hoard",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Dragon%20Hoard",
+   "img": "img/monstros/dragon-hoard.webp"
+  },
+  "Timira the Many-Headed": {
+   "exp": 45500,
+   "hp": 75000,
+   "lvl": "300+",
+   "loc": "Marapur",
+   "boss": true,
+   "items": [
+    "Dawnfire Pantaloons",
+    "Feverbloom Boots"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Timira_the_Many-Headed",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Timira%20the%20Many-Headed",
+   "img": "img/monstros/timira-the-many-headed.webp"
+  },
+  "Alptramun": {
+   "exp": 55000,
+   "hp": 320000,
+   "lvl": "150+",
+   "loc": "Dream Courts",
+   "boss": true,
+   "items": [
+    "Dream Shroud",
+    "Pair of Dreamwalkers"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Alptramun",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Alptramun",
+   "img": "img/monstros/alptramun.gif"
+  },
+  "King Zelos": {
+   "exp": 75000,
+   "hp": 480000,
+   "lvl": "200+",
+   "loc": "Grave Danger",
+   "boss": true,
+   "items": [
+    "Death Oyoroi",
+    "Toga Mortis"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/King_Zelos",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20King%20Zelos",
+   "img": "img/monstros/king-zelos.gif"
+  },
+  "The Brainstealer": {
+   "exp": 72000,
+   "hp": 0,
+   "lvl": "300+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Eldritch Folio",
+    "Eldritch Monk Boots",
+    "Eldritch Tome"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Brainstealer",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Brainstealer",
+   "img": "img/monstros/the-brainstealer.gif"
+  },
+  "Maxxenius": {
+   "exp": 55000,
+   "hp": 320000,
+   "lvl": "150+",
+   "loc": "Dream Courts",
+   "boss": true,
+   "items": [
+    "Energized Limb"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Maxxenius",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Maxxenius",
+   "img": "img/monstros/maxxenius.gif"
+  },
+  "Duke Krule": {
+   "exp": 55000,
+   "hp": 75000,
+   "lvl": "200+",
+   "loc": "Grave Danger",
+   "boss": true,
+   "items": [
+    "Bear Skin"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Duke_Krule",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Duke%20Krule",
+   "img": "img/monstros/duke-krule.gif"
+  },
+  "Lord Azaram": {
+   "exp": 55000,
+   "hp": 300000,
+   "lvl": "200+",
+   "loc": "Grave Danger",
+   "boss": true,
+   "items": [
+    "Bear Skin"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lord_Azaram",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Lord%20Azaram",
+   "img": "img/monstros/lord-azaram.gif"
+  },
+  "The Monster": {
+   "exp": 30000,
+   "hp": 450000,
+   "lvl": "300+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Mutant Bone Kilt",
+    "Mutant Hide Trousers"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Monster",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Monster",
+   "img": "img/monstros/the-monster.webp"
+  },
+  "Dreadful Disruptor": {
+   "exp": 14000,
+   "hp": 14000,
+   "lvl": "150+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Collar of Orange Plasma"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Dreadful_Disruptor",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Dreadful%20Disruptor",
+   "img": "img/monstros/dreadful-disruptor.gif"
+  },
+  "Arbaziloth": {
+   "exp": 500000,
+   "hp": 360000,
+   "lvl": "300+",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Demon Mengu"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Arbaziloth",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Arbaziloth",
+   "img": "img/monstros/arbaziloth.webp"
   }
  }
 }

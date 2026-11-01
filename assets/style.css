@@ -107,6 +107,7 @@ a.name:hover{color:var(--gold)}
 .src .m{font-weight:700;min-width:0}
 .src .c{font-family:var(--mono);font-size:.82rem;display:flex;align-items:center;gap:5px;justify-self:end}
 .src .w{grid-column:2/-1;color:var(--muted);font-size:.84rem}
+.boss-tag{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#9b3b2f;border-radius:4px;padding:1px 6px;margin-right:2px;vertical-align:1px}
 .dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none}
 .common{background:var(--common)}.uncommon{background:var(--uncommon)}.rare{background:var(--rare)}
 .line{font-size:.9rem}.line b{font-weight:700}

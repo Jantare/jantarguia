@@ -143,3 +143,14 @@ a.name:hover{color:var(--gold)}
 .voc-txt{display:flex;flex-direction:column;gap:4px;min-width:0}
 .voc-desc{font-size:.92rem;color:var(--muted)}
 @media (max-width:520px){.home-hero h1{font-size:2rem}.stats{gap:18px}.vocs,.paths{grid-template-columns:1fr}}
+
+/* quests */
+.quest{gap:10px}
+.q-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.q-txt{margin:0;color:var(--ink)}
+.q-warn{font-size:.88rem;font-weight:700;color:var(--rare);border-left:3px solid var(--rare);padding-left:8px}
+.q-items{display:flex;flex-wrap:wrap;gap:6px}
+.q-item{display:inline-flex;align-items:center;gap:4px;font-size:.88rem;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px 2px 4px}
+.q-ico{width:24px;height:24px;image-rendering:pixelated}
+.foot-note{font-size:.85rem;color:var(--muted);margin:0}
+.grid:has(> .quest){align-items:start}

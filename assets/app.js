@@ -10,7 +10,7 @@
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
   const st = { view: "inicio", weapon: "todas", level: null, srv: "" };
-  let SITE, BASE, SERVERS = {};
+  let SITE, BASE, QUESTS, SERVERS = {};
 
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -33,6 +33,7 @@
 
   function views() {
     const v = [{ id: "inicio", nome: "Início" }, ...BASE.vocacoes.map(x => ({ id: x.id, nome: x.nome }))];
+    v.push({ id: "quests", nome: "Quests" });
     v.push({ id: "monstros", nome: "Monstros" });
     if (st.srv) v.push({ id: st.srv, nome: SERVERS[st.srv].nome, srv: true });
     return v;
@@ -120,6 +121,25 @@
       </article>`).join("")}</div>`;
   }
 
+  function questsView() {
+    const itemImg = {};
+    BASE.vocacoes.forEach(v => v.itens.forEach(i => { if (i.img) itemImg[i.item] = i.img; }));
+    return `<div class="page-h"><h1>Quests por level</h1>
+      <p class="intro">As quests que os guias da comunidade mais recomendam, na ordem em que vale fazer. Cada uma mostra o que libera e quais itens do Jantar Guia vêm dela.</p></div>
+      ${QUESTS.faixas.map(f => `<section class="tier">
+        <div class="tier-h"><span class="lvl-badge">${esc(f.faixa)}</span><span class="rule"></span></div>
+        <p class="intro">${esc(f.desc)}</p>
+        <div class="grid">${f.quests.map(q => `<article class="card quest">
+          <div class="q-head"><a class="name" href="${esc(q.wiki)}" target="_blank" rel="noopener">${esc(q.nome)}</a><span class="req">lvl ${esc(q.lvl)}</span></div>
+          <div class="path-tags">${q.tags.map(t => `<span class="pill">${esc(t)}</span>`).join("")}</div>
+          <p class="q-txt">${esc(q.txt)}</p>
+          ${q.limite ? `<div class="q-warn">${esc(q.limite)}</div>` : ""}
+          ${q.itens && q.itens.length ? `<div class="how"><span class="how-t">Itens do guia que vêm daqui</span><div class="q-items">${q.itens.map(n => `<span class="q-item">${img(itemImg[n], "q-ico")}${esc(n)}</span>`).join("")}</div></div>` : ""}
+        </article>`).join("")}</div>
+      </section>`).join("")}
+      <p class="foot-note">Fontes: ${QUESTS.fontes.map(esc).join(", ")}. Os levels são os recomendados pela comunidade; confira o mínimo de cada quest na TibiaWiki.</p>`;
+  }
+
   function serverView(s) {
     return `<div class="page-h"><h1>${esc(s.nome)}</h1>
       <p class="intro">${esc(s.resumo)}</p></div>
@@ -165,6 +185,7 @@
           const i = VOC_INFO[v.id] || {};
           return `<a class="voc" href="#${esc(v.id)}">${slot(i.icon, true)}<span class="voc-txt"><span class="name">${esc(v.nome)}</span><span class="voc-desc">${esc(i.txt || "")}</span></span></a>`;
         }).join("")}
+          <a class="voc" href="#quests">${slot("img/itens/falcon-shield.webp", true)}<span class="voc-txt"><span class="name">Quests por level</span><span class="voc-desc">As quests que mais valem a pena em cada faixa: acessos, descontos, bosses e itens.</span></span></a>
           <a class="voc" href="#monstros">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
         </div>
       </section>`;
@@ -175,6 +196,7 @@
     const v = $("#view");
     document.body.classList.toggle("is-home", st.view === "inicio");
     if (st.view === "inicio") v.innerHTML = homeView();
+    else if (st.view === "quests") v.innerHTML = questsView();
     else if (st.view === "monstros") v.innerHTML = monstersView();
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
     else v.innerHTML = vocationView(BASE.vocacoes.find(x => x.id === st.view) || BASE.vocacoes[0]);
@@ -220,7 +242,7 @@
     themeLabel();
     try {
       const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
-      [SITE, BASE] = await Promise.all([get("data/site.json"), get("data/tibia.json")]);
+      [SITE, BASE, QUESTS] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json")]);
       const list = await Promise.all(SITE.servidores.map(id => get(`data/servidores/${id}.json`)));
       list.forEach(s => SERVERS[s.id] = s);
     } catch (e) {

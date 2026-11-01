@@ -1,0 +1,508 @@
+{
+ "fontes": [
+  "Guia de quests recomendadas da comunidade r/TibiaMMO",
+  "TibiaQA (tibiaqa.com)",
+  "TibiaWiki"
+ ],
+ "faixas": [
+  {
+   "faixa": "Faça cedo (some depois)",
+   "desc": "Estas têm limite de level. Passou do level, perdeu a chance com esse personagem.",
+   "quests": [
+    {
+     "nome": "The Pilgrimage of Ashes",
+     "lvl": "até 25",
+     "tags": [
+      "Recompensa"
+     ],
+     "txt": "Quest curta de começo de jogo. A recompensa em dinheiro só é paga até o level 25.",
+     "limite": "Só até o level 25",
+     "wiki": "https://tibia.fandom.com/wiki/The_Pilgrimage_of_Ashes"
+    },
+    {
+     "nome": "Killing in the Name of...",
+     "lvl": "6+",
+     "tags": [
+      "Tasks",
+      "Bosses"
+     ],
+     "txt": "Tasks de caçar monstros (Grizzly Adams). Cada task tem faixa de level: dá pontos de task e acesso a bosses. Comece cedo para pegar as tasks fáceis.",
+     "limite": "Cada task tem level máximo",
+     "wiki": "https://tibia.fandom.com/wiki/Killing_in_the_Name_of..."
+    },
+    {
+     "nome": "The Turmoil of War",
+     "lvl": "até 39",
+     "tags": [
+      "Task"
+     ],
+     "txt": "Task dos minotauros. Precisa começar antes do level 40.",
+     "limite": "Começar antes do level 40",
+     "wiki": "https://tibia.fandom.com/wiki/The_Turmoil_of_War"
+    }
+   ]
+  },
+  {
+   "faixa": "Level 8–50",
+   "desc": "Quests simples que deixam o jogo mais barato e abrem lugares para vender loot.",
+   "quests": [
+    {
+     "nome": "The Postman Missions",
+     "lvl": "8+",
+     "tags": [
+      "Desconto"
+     ],
+     "txt": "Deixa encomendas, cartas e passagens de barco mais baratas pelo resto do jogo.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Postman_Missions"
+    },
+    {
+     "nome": "The Barbarian Test Quest",
+     "lvl": "8+",
+     "tags": [
+      "Acesso"
+     ],
+     "txt": "Cidadania de Svargrond e viagem pelo NPC Buddel. Abre o caminho das Ice Islands.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Barbarian_Test_Quest"
+    },
+    {
+     "nome": "The Travelling Trader Quest",
+     "lvl": "8+",
+     "tags": [
+      "Venda de loot"
+     ],
+     "txt": "Libera vender itens para o Rashid, um dos NPCs que mais compram loot.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Travelling_Trader_Quest"
+    },
+    {
+     "nome": "The Thieves Guild Quest",
+     "lvl": "8+",
+     "tags": [
+      "Venda de loot"
+     ],
+     "txt": "Libera negociar com o Black Bert.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Thieves_Guild_Quest"
+    },
+    {
+     "nome": "The Djinn War",
+     "lvl": "40+",
+     "tags": [
+      "Venda de loot",
+      "Acesso"
+     ],
+     "txt": "Escolha Marid ou Efreet para vender itens aos Djinns e caçar os do lado rival. No guia, os Djinns dropam Royal Spear e Magma Monocle.",
+     "itens": [
+      "Royal Spear",
+      "Magma Monocle"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/The_Djinn_War"
+    },
+    {
+     "nome": "The Shattered Isles",
+     "lvl": "35+",
+     "tags": [
+      "Acesso"
+     ],
+     "txt": "Viagem para Goroma e acesso a Meriana, Laguna, Nargor e Ramoa.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Shattered_Isles"
+    }
+   ]
+  },
+  {
+   "faixa": "Level 50–100",
+   "desc": "Aqui entram as quests que abrem as hunts da faixa média, inclusive Zao.",
+   "quests": [
+    {
+     "nome": "The Ice Islands Quest",
+     "lvl": "50+",
+     "tags": [
+      "Acesso",
+      "Outfit"
+     ],
+     "txt": "Outfit Norseman e acesso a Formorgar, Helheim, Tyrsung e Inukaya.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Ice_Islands_Quest"
+    },
+    {
+     "nome": "The Explorer Society Quest",
+     "lvl": "50+",
+     "tags": [
+      "Acesso"
+     ],
+     "txt": "Acesso a Calassa e à Frozen Trench, e teleportes úteis.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Explorer_Society_Quest"
+    },
+    {
+     "nome": "The Ape City",
+     "lvl": "60+",
+     "tags": [
+      "Acesso",
+      "Outfit"
+     ],
+     "txt": "Outfit Shaman e acesso às Forbidden Lands e à parte funda de Banuta.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Ape_City"
+    },
+    {
+     "nome": "Blood Brothers Quest",
+     "lvl": "40+",
+     "tags": [
+      "Acesso"
+     ],
+     "txt": "Acesso ao castelo de Vengoth.",
+     "wiki": "https://tibia.fandom.com/wiki/Blood_Brothers_Quest"
+    },
+    {
+     "nome": "The New Frontier Quest",
+     "lvl": "70+",
+     "tags": [
+      "Acesso",
+      "Outfit"
+     ],
+     "txt": "Outfit Warmaster e acesso ao sul e ao centro de Zao, onde ficam os lizards do guia.",
+     "itens": [
+      "Zaoan Legs",
+      "Zaoan Shoes",
+      "Drakinata"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/The_New_Frontier_Quest"
+    },
+    {
+     "nome": "The Svargrond Arena",
+     "lvl": "60+",
+     "tags": [
+      "Item"
+     ],
+     "txt": "No nível Scrapper, a recompensa inclui o Heroic Axe, uma boa arma de 1 mão para Knight.",
+     "itens": [
+      "Heroic Axe"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/The_Svargrond_Arena"
+    },
+    {
+     "nome": "The Annihilator Quest",
+     "lvl": "100",
+     "tags": [
+      "Item"
+     ],
+     "txt": "Quest clássica em grupo de 4. Dá a Demon Armor e uma arma à escolha.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Annihilator_Quest"
+    }
+   ]
+  },
+  {
+   "faixa": "Level 80–150",
+   "desc": "Abrem as hunts de dragão, demônio e draken, e várias das melhores lojas do jogo.",
+   "quests": [
+    {
+     "nome": "Wrath of the Emperor",
+     "lvl": "80+",
+     "tags": [
+      "Acesso",
+      "Outfit"
+     ],
+     "txt": "Outfit Wayfarer e acesso a Razachai e ao Rebel Camp. É onde ficam os draken do guia.",
+     "itens": [
+      "Elite Draken Mail",
+      "Draken Boots",
+      "Zaoan Helmet",
+      "Zaoan Sword"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Wrath_of_the_Emperor"
+    },
+    {
+     "nome": "Bigfoot's Burden Quest",
+     "lvl": "80+",
+     "tags": [
+      "Acesso"
+     ],
+     "txt": "Teleportes dos gnomos e Warzones 1 a 3. É o começo do caminho para os Warzones 4 a 6.",
+     "wiki": "https://tibia.fandom.com/wiki/Bigfoot%27s_Burden_Quest"
+    },
+    {
+     "nome": "The Pits of Inferno Quest",
+     "lvl": "80+",
+     "tags": [
+      "Item",
+      "Acesso"
+     ],
+     "txt": "Dá uma arma forte à escolha e é necessária para a Inquisition.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Pits_of_Inferno_Quest"
+    },
+    {
+     "nome": "The Inquisition Quest",
+     "lvl": "100+",
+     "tags": [
+      "Outfit",
+      "Bênçãos"
+     ],
+     "txt": "Outfit Demon Hunter e permite comprar as 5 bênçãos num lugar só.",
+     "wiki": "https://tibia.fandom.com/wiki/The_Inquisition_Quest"
+    },
+    {
+     "nome": "Dangerous Depths Quest",
+     "lvl": "100+",
+     "tags": [
+      "Acesso",
+      "Bosses"
+     ],
+     "txt": "Warzones 4 a 6, com os bosses que dropam o set Gnome.",
+     "itens": [
+      "Gnome Shield",
+      "Gnome Helmet",
+      "Gnome Legs",
+      "Gnomish Cuirass"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Dangerous_Depths_Quest"
+    },
+    {
+     "nome": "Rathleton Citizenship",
+     "lvl": "50+",
+     "tags": [
+      "Acesso"
+     ],
+     "txt": "Abre Oramond: teleportes, a hunt de Glooth Bandits (boa de lucro) e o Rubber Cap.",
+     "itens": [
+      "Rubber Cap"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Rathleton_Citizenship"
+    }
+   ]
+  },
+  {
+   "faixa": "Level 150–250",
+   "desc": "Bosses em grupo e imbuements fortes.",
+   "quests": [
+    {
+     "nome": "Ferumbras' Ascension",
+     "lvl": "150+",
+     "tags": [
+      "Bosses",
+      "Outfit"
+     ],
+     "txt": "Outfit Rift Warrior, vários bosses e chance do Ferumbras' Hat.",
+     "wiki": "https://tibia.fandom.com/wiki/Ferumbras%27_Ascension"
+    },
+    {
+     "nome": "Heart of Destruction",
+     "lvl": "150+",
+     "tags": [
+      "Bosses",
+      "Imbuement"
+     ],
+     "txt": "Vários bosses, a montaria Sparkion e imbuements fortes (Powerful Strike, Void, Vampirism, Epiphany).",
+     "wiki": "https://tibia.fandom.com/wiki/Heart_of_Destruction"
+    },
+    {
+     "nome": "Grimvale",
+     "lvl": "100+",
+     "tags": [
+      "Bosses"
+     ],
+     "txt": "Libera os bosses dos werecreatures.",
+     "wiki": "https://tibia.fandom.com/wiki/Grimvale"
+    },
+    {
+     "nome": "The Dream Courts",
+     "lvl": "200+",
+     "tags": [
+      "Bosses",
+      "Outfit"
+     ],
+     "txt": "Outfit Dream Warrior e os bosses das Cortes do Sonho, que dropam vários itens do guia na faixa 150–200.",
+     "itens": [
+      "Dream Shroud",
+      "Pair of Dreamwalkers",
+      "Spirit Guide",
+      "Ectoplasmic Shield",
+      "Winterblade",
+      "Energized Limb",
+      "Living Vine Bow",
+      "Dark Whispers",
+      "Dark Vision Bandana"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/The_Dream_Courts"
+    }
+   ]
+  },
+  {
+   "faixa": "Level 250+",
+   "desc": "Os bosses que dão os sets das faixas 200–400 do guia.",
+   "quests": [
+    {
+     "nome": "Feaster of Souls",
+     "lvl": "250+",
+     "tags": [
+      "Bosses",
+      "Outfit"
+     ],
+     "txt": "Outfit Poltergeist e bosses em grupo.",
+     "itens": [
+      "Fabulous Legs",
+      "Soulful Legs",
+      "Jade Legs"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Feaster_of_Souls"
+    },
+    {
+     "nome": "Grave Danger",
+     "lvl": "250+",
+     "tags": [
+      "Bosses"
+     ],
+     "txt": "Bosses como o King Zelos. Também abre a parte do Order of the Cobra.",
+     "itens": [
+      "Toga Mortis",
+      "Death Oyoroi",
+      "Embrace of Nature",
+      "Bear Skin"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Grave_Danger"
+    },
+    {
+     "nome": "The Order of the Cobra",
+     "lvl": "250+",
+     "tags": [
+      "Bosses"
+     ],
+     "txt": "Boss Scarlett Etzel, que dropa o set Cobra.",
+     "itens": [
+      "Cobra Axe",
+      "Cobra Sword",
+      "Cobra Club",
+      "Cobra Hood",
+      "Cobra Crossbow",
+      "Cobra Rod",
+      "Cobra Bo"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/The_Order_of_the_Cobra"
+    },
+    {
+     "nome": "The Secret Library",
+     "lvl": "250+",
+     "tags": [
+      "Acesso",
+      "Bosses",
+      "Outfit"
+     ],
+     "txt": "Outfit Battle Mage e acesso ao Falcon Bastion, onde fica o Grand Master Oberon.",
+     "itens": [
+      "Falcon Battleaxe",
+      "Falcon Longsword",
+      "Falcon Mace",
+      "Falcon Plate",
+      "Falcon Bow",
+      "Falcon Wand",
+      "Falcon Rod",
+      "Falcon Sai"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/The_Secret_Library"
+    },
+    {
+     "nome": "The Order of the Lion",
+     "lvl": "250+",
+     "tags": [
+      "Bosses"
+     ],
+     "txt": "Boss Drume, com chance do set Lion. Precisa fazer Cobra e Falcon antes.",
+     "itens": [
+      "Lion Spangenhelm",
+      "Lion Wand",
+      "Lion Spellbook",
+      "Lion Claws"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/The_Order_of_the_Lion"
+    },
+    {
+     "nome": "Within the Tides",
+     "lvl": "250+",
+     "tags": [
+      "Bosses"
+     ],
+     "txt": "Acesso ao boss Timira the Many-Headed. Precisa de grupo.",
+     "itens": [
+      "Feverbloom Boots",
+      "Dawnfire Pantaloons"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Within_the_Tides"
+    },
+    {
+     "nome": "Forgotten Knowledge",
+     "lvl": "250+",
+     "tags": [
+      "Bosses",
+      "Imbuement"
+     ],
+     "txt": "Os bosses dos portais de Thais. Matar cada um uma vez libera imbuement nível 3.",
+     "wiki": "https://tibia.fandom.com/wiki/Forgotten_Knowledge"
+    },
+    {
+     "nome": "Opticording Sphere",
+     "lvl": "200+",
+     "tags": [
+      "Utilidade"
+     ],
+     "txt": "O 'cubo': um teleporte grátis para o templo a cada 2 horas.",
+     "wiki": "https://tibia.fandom.com/wiki/Opticording_Sphere"
+    }
+   ]
+  },
+  {
+   "faixa": "Level 400+",
+   "desc": "Fim de jogo. Dão os melhores itens do guia.",
+   "quests": [
+    {
+     "nome": "Soul War Quest",
+     "lvl": "400+",
+     "tags": [
+      "Bosses",
+      "Outfit",
+      "Item"
+     ],
+     "txt": "Outfit Revenant e um item aleatório do set Soul ao terminar (boss Goshnar's Megalomania).",
+     "itens": [
+      "Soulbiter",
+      "Soulcutter",
+      "Soulcrusher",
+      "Soulbleeder",
+      "Soultainter",
+      "Soulhexer",
+      "Soulkamas"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Soul_War_Quest"
+    },
+    {
+     "nome": "Primal Ordeal Quest",
+     "lvl": "400+",
+     "tags": [
+      "Bosses"
+     ],
+     "txt": "Boss Magma Bubble, que dropa os sets Spiritthorn, Alicorn, Arcanomancer e Arboreal.",
+     "itens": [
+      "Spiritthorn Armor",
+      "Alicorn Headguard",
+      "Arcanomancer Regalia",
+      "Arboreal Crown",
+      "Ethereal Coned Hat"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Primal_Ordeal_Quest"
+    },
+    {
+     "nome": "Rotten Blood Quest",
+     "lvl": "500+",
+     "tags": [
+      "Bosses"
+     ],
+     "txt": "Boss Bakragore, que dá os itens Sanguine, os melhores do guia.",
+     "itens": [
+      "Sanguine Hatchet",
+      "Sanguine Blade",
+      "Sanguine Bow",
+      "Sanguine Coil",
+      "Sanguine Rod",
+      "Sanguine Claws",
+      "Sanguine Legs"
+     ],
+     "wiki": "https://tibia.fandom.com/wiki/Rotten_Blood_Quest"
+    }
+   ]
+  }
+ ]
+}

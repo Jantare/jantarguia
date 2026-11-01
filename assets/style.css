@@ -57,7 +57,12 @@ a.name:hover{text-decoration:underline}
 .attr{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
 .how{display:flex;flex-direction:column;gap:6px;border-top:1px dashed var(--line);padding-top:8px}
 .src{display:grid;grid-template-columns:1fr auto;gap:2px 10px;font-size:.92rem}
-.src .m{font-weight:700}
+.src .m{font-weight:700;display:flex;align-items:center;gap:6px;min-width:0}
+.head{display:flex;align-items:center;gap:12px;min-width:0}
+.head-txt{display:flex;flex-direction:column;gap:2px;min-width:0}
+.item-img,.mon-img{flex:none;width:48px;height:48px;object-fit:contain;image-rendering:pixelated;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:4px}
+.mon-img{width:64px;height:64px}
+.mon-ico{flex:none;width:28px;height:28px;object-fit:contain;image-rendering:pixelated}
 .src .c{font-family:var(--mono);font-size:.82rem;display:flex;align-items:center;gap:5px;justify-self:end}
 .src .w{grid-column:1/-1;color:var(--muted);font-size:.85rem}
 .dot{width:8px;height:8px;border-radius:50%;display:inline-block}

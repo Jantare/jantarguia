@@ -6,6 +6,8 @@
   const rarity = c => c >= 5 ? "common" : c >= 1 ? "uncommon" : "rare";
   const rlabel = c => c >= 5 ? "comum" : c >= 1 ? "incomum" : "raro";
   const pct = c => c.toFixed(2).replace(".", ",") + "%";
+  const imgUrl = name => "https://tibia.fandom.com/wiki/Special:FilePath/" + encodeURIComponent(name.replace(/ /g, "_")) + ".gif";
+  const sprite = (name, cls) => `<img class="${cls}" src="${imgUrl(name)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`;
 
   const st = { view: "knight", weapon: "todas", level: null, srv: "" };
   let SITE, BASE, SERVERS = {};
@@ -46,7 +48,7 @@
   function card(it) {
     const srcs = it.src.map(s => {
       const m = BASE.monstros[s.m];
-      return `<div class="src"><span class="m">${esc(s.m)}</span><span class="c"><span class="dot ${rarity(s.c)}" title="${rlabel(s.c)}"></span>${pct(s.c)}</span>` +
+      return `<div class="src"><span class="m">${sprite(s.m, "mon-ico")}${esc(s.m)}</span><span class="c"><span class="dot ${rarity(s.c)}" title="${rlabel(s.c)}"></span>${pct(s.c)}</span>` +
         `<span class="w">caça a partir do lvl ${esc(m.lvl)} · ${m.loc ? esc(m.loc) : "local no Hunt Finder"}</span></div>`;
     }).join("");
     const npc = it.shop.length ? `<div class="line"><b>NPC:</b> ${it.shop.map(s => `${esc(s.n)} (${num(s.p)} gp)`).join(", ")}</div>` : "";
@@ -54,8 +56,9 @@
     const onlyNpc = !it.src.length && it.shop.length ? `<p class="tip">Não dropa em monstro acessível: compre no NPC.</p>` : "";
     return `<article class="card">
       <div class="meta"><span>${esc(it.slot)}</span><span class="req">${it.lv ? "lvl " + it.lv : "sem level"}</span></div>
-      <a class="name" href="${esc(it.wiki)}" target="_blank" rel="noopener">${esc(it.item)}</a>
-      <div class="attr">${esc(it.attr)}</div>
+      <div class="head">${sprite(it.item, "item-img")}<div class="head-txt">
+        <a class="name" href="${esc(it.wiki)}" target="_blank" rel="noopener">${esc(it.item)}</a>
+        <div class="attr">${esc(it.attr)}</div></div></div>
       <div class="how">${srcs}${npc}${quest}${onlyNpc}</div>
       ${it.tip ? `<p class="tip">${esc(it.tip)}</p>` : ""}
       ${srvNote("itens", it.item)}
@@ -94,7 +97,7 @@
       ${serverBanner()}
       <div class="grid">${ms.map(([n, m]) => `<article class="card">
         <div class="meta"><span>${num(m.exp)} xp · ${num(m.hp)} hp</span><span class="req">lvl ${esc(m.lvl)}</span></div>
-        <span class="name">${esc(n)}</span>
+        <div class="head">${sprite(n, "mon-img")}<span class="name">${esc(n)}</span></div>
         <div class="line"><b>Onde:</b> ${m.loc ? esc(m.loc) : "ver Hunt Finder"}</div>
         <div class="line"><b>Dropa:</b> ${m.items.map(esc).join(", ")}</div>
         ${srvNote("monstros", n)}

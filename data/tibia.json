@@ -1,0 +1,3373 @@
+{
+ "atualizado": "2026-10-31",
+ "fonte": "Base de dados do Canary (OpenTibiaBR), espelho do Tibia 15.x, versão de 17/10/2026",
+ "vocacoes": [
+  {
+   "id": "knight",
+   "nome": "Knight",
+   "itens": [
+    {
+     "tier": "8–20",
+     "slot": "Arma (Machado)",
+     "item": "Battle Axe",
+     "lv": null,
+     "attr": "Ataque 25",
+     "src": [
+      {
+       "m": "Orc Berserker",
+       "c": 6.11
+      }
+     ],
+     "shop": [
+      {
+       "n": "Sam",
+       "p": 235
+      },
+      {
+       "n": "Brengus",
+       "p": 235
+      },
+      {
+       "n": "Baltim",
+       "p": 235
+      }
+     ],
+     "quest": null,
+     "tip": "Machado barato e fácil. Se o NPC vender, compre logo no level 8.",
+     "wiki": "https://tibia.fandom.com/wiki/Battle_Axe",
+     "id": "knight-battle-axe"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Arma (Espada)",
+     "item": "Longsword",
+     "lv": null,
+     "attr": "Ataque 17",
+     "src": [
+      {
+       "m": "Elf",
+       "c": 10.8
+      }
+     ],
+     "shop": [
+      {
+       "n": "Hardek",
+       "p": 160
+      },
+      {
+       "n": "Uzgod",
+       "p": 160
+      },
+      {
+       "n": "Gamel",
+       "p": 160
+      }
+     ],
+     "quest": null,
+     "tip": "Elfos dropam bastante e são fracos.",
+     "wiki": "https://tibia.fandom.com/wiki/Longsword",
+     "id": "knight-longsword"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Arma (Clava)",
+     "item": "Mace",
+     "lv": null,
+     "attr": "Ataque 16",
+     "src": [
+      {
+       "m": "Minotaur",
+       "c": 12.84
+      }
+     ],
+     "shop": [
+      {
+       "n": "Gamel",
+       "p": 90
+      },
+      {
+       "n": "Memech",
+       "p": 90
+      },
+      {
+       "n": "Rowenna",
+       "p": 90
+      }
+     ],
+     "quest": null,
+     "tip": "Minotauros também dropam chain armor.",
+     "wiki": "https://tibia.fandom.com/wiki/Mace",
+     "id": "knight-mace"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Armadura",
+     "item": "Brass Armor",
+     "lv": null,
+     "attr": "Armadura 8",
+     "src": [
+      {
+       "m": "Minotaur Guard",
+       "c": 4.39
+      }
+     ],
+     "shop": [
+      {
+       "n": "Shanar",
+       "p": 450
+      },
+      {
+       "n": "Memech",
+       "p": 450
+      },
+      {
+       "n": "Cedrik",
+       "p": 450
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Brass_Armor",
+     "id": "knight-brass-armor"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Pernas",
+     "item": "Brass Legs",
+     "lv": null,
+     "attr": "Armadura 5",
+     "src": [
+      {
+       "m": "Tarantula",
+       "c": 3.05
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rock In A Hard Place",
+       "p": 195
+      },
+      {
+       "n": "Sam",
+       "p": 195
+      },
+      {
+       "n": "Yanni",
+       "p": 195
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
+     "id": "knight-brass-legs"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Capacete",
+     "item": "Soldier Helmet",
+     "lv": null,
+     "attr": "Armadura 5",
+     "src": [
+      {
+       "m": "Dwarf Soldier",
+       "c": 12.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Yanni",
+       "p": 110
+      },
+      {
+       "n": "Sam",
+       "p": 110
+      },
+      {
+       "n": "Cornelia",
+       "p": 110
+      }
+     ],
+     "quest": null,
+     "tip": "O Dwarf Soldier também dropa o Dwarven Shield.",
+     "wiki": "https://tibia.fandom.com/wiki/Soldier_Helmet",
+     "id": "knight-soldier-helmet"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Escudo",
+     "item": "Dwarven Shield",
+     "lv": null,
+     "attr": "Defesa 26",
+     "src": [
+      {
+       "m": "Dwarf Soldier",
+       "c": 3.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rock In A Hard Place",
+       "p": 500
+      },
+      {
+       "n": "Flint",
+       "p": 500
+      },
+      {
+       "n": "Ulrik",
+       "p": 500
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Dwarven_Shield",
+     "id": "knight-dwarven-shield"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Botas",
+     "item": "Leather Boots",
+     "lv": null,
+     "attr": "Armadura 1, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dwarf Guard",
+       "c": 40.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rudolph",
+       "p": 2
+      },
+      {
+       "n": "Kroox",
+       "p": 10
+      },
+      {
+       "n": "Robert",
+       "p": 10
+      }
+     ],
+     "quest": null,
+     "tip": "Dwarf Guard dropa em 40% das vezes.",
+     "wiki": "https://tibia.fandom.com/wiki/Leather_Boots",
+     "id": "knight-leather-boots"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma (Espada)",
+     "item": "Spike Sword",
+     "lv": null,
+     "attr": "Ataque 24, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [
+      {
+       "n": "Baltim",
+       "p": 8000
+      },
+      {
+       "n": "Turvy",
+       "p": 8000
+      },
+      {
+       "n": "Robert",
+       "p": 8000
+      }
+     ],
+     "quest": null,
+     "tip": "Caro (8k), mas tem 2 slots de imbuement e dura até o 50.",
+     "wiki": "https://tibia.fandom.com/wiki/Spike_Sword",
+     "id": "knight-spike-sword"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma (Clava)",
+     "item": "Clerical Mace",
+     "lv": 20,
+     "attr": "Ataque 28, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [
+      {
+       "n": "Morpel",
+       "p": 540
+      },
+      {
+       "n": "Willard",
+       "p": 540
+      }
+     ],
+     "quest": null,
+     "tip": "Level 20. Compra no NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/Clerical_Mace",
+     "id": "knight-clerical-mace"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma (Machado)",
+     "item": "Barbarian Axe",
+     "lv": 20,
+     "attr": "Ataque 28, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [
+      {
+       "n": "Morpel",
+       "p": 590
+      },
+      {
+       "n": "Willard",
+       "p": 590
+      }
+     ],
+     "quest": null,
+     "tip": "Só por NPC na prática (quem dropa é monstro de level alto).",
+     "wiki": "https://tibia.fandom.com/wiki/Barbarian_Axe",
+     "id": "knight-barbarian-axe"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Armadura",
+     "item": "Plate Armor",
+     "lv": null,
+     "attr": "Armadura 10",
+     "src": [
+      {
+       "m": "Bonebeast",
+       "c": 8.0
+      },
+      {
+       "m": "Orc Warlord",
+       "c": 5.21
+      }
+     ],
+     "shop": [
+      {
+       "n": "Azil",
+       "p": 1200
+      },
+      {
+       "n": "Robert",
+       "p": 1200
+      },
+      {
+       "n": "Willard",
+       "p": 1200
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Plate_Armor",
+     "id": "knight-plate-armor"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Capacete",
+     "item": "Steel Helmet",
+     "lv": null,
+     "attr": "Armadura 6",
+     "src": [
+      {
+       "m": "Zombie",
+       "c": 4.6
+      }
+     ],
+     "shop": [
+      {
+       "n": "Cornelia",
+       "p": 580
+      },
+      {
+       "n": "Baltim",
+       "p": 580
+      },
+      {
+       "n": "Turvy",
+       "p": 580
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Steel_Helmet",
+     "id": "knight-steel-helmet"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma (Espada)",
+     "item": "Wyvern Fang",
+     "lv": 25,
+     "attr": "Ataque 32, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Wyvern",
+       "c": 0.41
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 25. Drop raro.",
+     "wiki": "https://tibia.fandom.com/wiki/Wyvern_Fang",
+     "id": "knight-wyvern-fang"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma (Clava, 2 mãos)",
+     "item": "War Hammer",
+     "lv": 50,
+     "attr": "Ataque 45, 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Iks Aucar",
+       "c": 5.62
+      }
+     ],
+     "shop": [
+      {
+       "n": "Romella",
+       "p": 10000
+      },
+      {
+       "n": "Cedrik",
+       "p": 10000
+      },
+      {
+       "n": "Rock In A Hard Place",
+       "p": 10000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 50. Drop bom (~5,6%) e também vende no NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/War_Hammer",
+     "id": "knight-war-hammer"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma (Machado, 2 mãos)",
+     "item": "Zaoan Halberd",
+     "lv": 25,
+     "attr": "Ataque 37, 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Wailing Widow",
+       "c": 2.21
+      }
+     ],
+     "shop": [
+      {
+       "n": "Esrik",
+       "p": 1200
+      }
+     ],
+     "quest": null,
+     "tip": "Duas mãos = sem escudo. Se estiver apanhando muito, fique com arma de 1 mão + escudo.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Halberd",
+     "id": "knight-zaoan-halberd"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Pernas",
+     "item": "Plate Legs",
+     "lv": null,
+     "attr": "Armadura 7",
+     "src": [
+      {
+       "m": "Orc Warlord",
+       "c": 4.28
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Orc Warlord também dropa plate armor e dark helmet.",
+     "wiki": "https://tibia.fandom.com/wiki/Plate_Legs",
+     "id": "knight-plate-legs"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma (Espada)",
+     "item": "Crystal Sword",
+     "lv": 25,
+     "attr": "Ataque 35",
+     "src": [
+      {
+       "m": "Pirat Cutthroat",
+       "c": 19.42
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Drop alto (~19%). O mesmo monstro dropa knight armor.",
+     "wiki": "https://tibia.fandom.com/wiki/Crystal_Sword",
+     "id": "knight-crystal-sword"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma (Clava)",
+     "item": "Deepling Squelcher",
+     "lv": 48,
+     "attr": "Ataque 44, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Deepling Guard",
+       "c": 0.75
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 48, de 1 mão: dá pra usar escudo.",
+     "wiki": "https://tibia.fandom.com/wiki/Deepling_Squelcher",
+     "id": "knight-deepling-squelcher"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma (Machado, 2 mãos)",
+     "item": "Drakinata",
+     "lv": 60,
+     "attr": "Ataque 47, 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Lizard Legionnaire",
+       "c": 0.71
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Mesma hunt dos Zaoan Shoes: dá pra montar o set inteiro em Zao.",
+     "wiki": "https://tibia.fandom.com/wiki/Drakinata",
+     "id": "knight-drakinata"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma (Machado)",
+     "item": "Heroic Axe",
+     "lv": 60,
+     "attr": "Ataque 44, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Arena de Svargrond (nível Scrapper)",
+     "tip": "Recompensa da Arena de Svargrond (nível Scrapper). Combina com Tower Shield.",
+     "wiki": "https://tibia.fandom.com/wiki/Heroic_Axe",
+     "id": "knight-heroic-axe"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Escudo (se usar 1 mão)",
+     "item": "Tower Shield",
+     "lv": null,
+     "attr": "Defesa 32, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Lizard High Guard",
+       "c": 1.04
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Tower_Shield",
+     "id": "knight-tower-shield"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Armadura",
+     "item": "Zaoan Armor",
+     "lv": 50,
+     "attr": "Armadura 13",
+     "src": [
+      {
+       "m": "Lizard Chosen",
+       "c": 0.98
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Armor",
+     "id": "knight-zaoan-armor"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Pernas",
+     "item": "Zaoan Legs",
+     "lv": null,
+     "attr": "Armadura 8",
+     "src": [
+      {
+       "m": "Lizard Zaogun",
+       "c": 1.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "O exemplo clássico: Zaoan Legs sai dos lizards de Zao.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+     "id": "knight-zaoan-legs"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Botas",
+     "item": "Zaoan Shoes",
+     "lv": null,
+     "attr": "Armadura 1, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Lizard Zaogun",
+       "c": 1.0
+      },
+      {
+       "m": "Lizard Legionnaire",
+       "c": 0.46
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Shoes",
+     "id": "knight-zaoan-shoes"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Arma (Espada)",
+     "item": "Zaoan Sword",
+     "lv": 55,
+     "attr": "Ataque 43, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Draken Elite",
+       "c": 0.55
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 55. Mesma hunt do Elite Draken Mail.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Sword",
+     "id": "knight-zaoan-sword"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Arma (Clava, 2 mãos)",
+     "item": "Abyss Hammer",
+     "lv": 60,
+     "attr": "Ataque 47, 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Hand of Cursed Fate",
+       "c": 0.49
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 60.",
+     "wiki": "https://tibia.fandom.com/wiki/Abyss_Hammer",
+     "id": "knight-abyss-hammer"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Arma (Machado, 2 mãos)",
+     "item": "Guardian Halberd",
+     "lv": 55,
+     "attr": "Ataque 46, 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Bashmu",
+       "c": 9.16
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Drop alto (~9%) para um item desse nível.",
+     "wiki": "https://tibia.fandom.com/wiki/Guardian_Halberd",
+     "id": "knight-guardian-halberd"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Armadura",
+     "item": "Elite Draken Mail",
+     "lv": 100,
+     "attr": "Armadura 15, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Draken Elite",
+       "c": 0.11
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Raro. Na mesma hunt sai o Draken Boots.",
+     "wiki": "https://tibia.fandom.com/wiki/Elite_Draken_Mail",
+     "id": "knight-elite-draken-mail"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Capacete",
+     "item": "Zaoan Helmet",
+     "lv": null,
+     "attr": "Armadura 9, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Draken Abomination",
+       "c": 0.56
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
+     "id": "knight-zaoan-helmet"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Botas",
+     "item": "Draken Boots",
+     "lv": 80,
+     "attr": "Armadura 3, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Draken Elite",
+       "c": 0.93
+      },
+      {
+       "m": "Draken Abomination",
+       "c": 0.54
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Draken_Boots",
+     "id": "knight-draken-boots"
+    }
+   ]
+  },
+  {
+   "id": "paladin",
+   "nome": "Paladin",
+   "itens": [
+    {
+     "tier": "8–20",
+     "slot": "Arma",
+     "item": "Spear",
+     "lv": null,
+     "attr": "Ataque 25",
+     "src": [
+      {
+       "m": "Valkyrie",
+       "c": 55.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Mugruu",
+       "p": 9
+      },
+      {
+       "n": "Brengus",
+       "p": 9
+      },
+      {
+       "n": "Isika",
+       "p": 9
+      }
+     ],
+     "quest": null,
+     "tip": "Valkyries dropam spear em mais da metade das kills.",
+     "wiki": "https://tibia.fandom.com/wiki/Spear",
+     "id": "paladin-spear"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Armadura",
+     "item": "Chain Armor",
+     "lv": null,
+     "attr": "Armadura 6, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Valkyrie",
+       "c": 10.0
+      },
+      {
+       "m": "Minotaur",
+       "c": 10.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Memech",
+       "p": 200
+      },
+      {
+       "n": "Shanar",
+       "p": 200
+      },
+      {
+       "n": "Cedrik",
+       "p": 200
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Chain_Armor",
+     "id": "paladin-chain-armor"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Pernas",
+     "item": "Brass Legs",
+     "lv": null,
+     "attr": "Armadura 5",
+     "src": [
+      {
+       "m": "Tarantula",
+       "c": 3.05
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rock In A Hard Place",
+       "p": 195
+      },
+      {
+       "n": "Sam",
+       "p": 195
+      },
+      {
+       "n": "Yanni",
+       "p": 195
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
+     "id": "paladin-brass-legs"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Capacete",
+     "item": "Soldier Helmet",
+     "lv": null,
+     "attr": "Armadura 5",
+     "src": [
+      {
+       "m": "Dwarf Soldier",
+       "c": 12.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Yanni",
+       "p": 110
+      },
+      {
+       "n": "Sam",
+       "p": 110
+      },
+      {
+       "n": "Cornelia",
+       "p": 110
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Soldier_Helmet",
+     "id": "paladin-soldier-helmet"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Escudo",
+     "item": "Dwarven Shield",
+     "lv": null,
+     "attr": "Defesa 26",
+     "src": [
+      {
+       "m": "Dwarf Soldier",
+       "c": 3.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rock In A Hard Place",
+       "p": 500
+      },
+      {
+       "n": "Flint",
+       "p": 500
+      },
+      {
+       "n": "Ulrik",
+       "p": 500
+      }
+     ],
+     "quest": null,
+     "tip": "Paladino de spear pode usar escudo.",
+     "wiki": "https://tibia.fandom.com/wiki/Dwarven_Shield",
+     "id": "paladin-dwarven-shield"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Botas",
+     "item": "Leather Boots",
+     "lv": null,
+     "attr": "Armadura 1, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dwarf Guard",
+       "c": 40.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rudolph",
+       "p": 2
+      },
+      {
+       "n": "Kroox",
+       "p": 10
+      },
+      {
+       "n": "Robert",
+       "p": 10
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Leather_Boots",
+     "id": "paladin-leather-boots"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma",
+     "item": "Royal Spear",
+     "lv": 25,
+     "attr": "Ataque 35",
+     "src": [
+      {
+       "m": "Efreet",
+       "c": 15.57
+      },
+      {
+       "m": "Marid",
+       "c": 15.5
+      }
+     ],
+     "shop": [
+      {
+       "n": "Vincent",
+       "p": 15
+      },
+      {
+       "n": "Eliyas",
+       "p": 15
+      },
+      {
+       "n": "Rock In A Hard Place",
+       "p": 15
+      }
+     ],
+     "quest": null,
+     "tip": "Lança melhor; NPC vende barato.",
+     "wiki": "https://tibia.fandom.com/wiki/Royal_Spear",
+     "id": "paladin-royal-spear"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma (2 mãos, alternativa)",
+     "item": "Bow",
+     "lv": null,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Poacher",
+       "c": 14.93
+      }
+     ],
+     "shop": [
+      {
+       "n": "Isika",
+       "p": 400
+      },
+      {
+       "n": "Vincent",
+       "p": 400
+      },
+      {
+       "n": "Maun",
+       "p": 400
+      }
+     ],
+     "quest": null,
+     "tip": "Arco + flecha: mais dano à distância, sem escudo.",
+     "wiki": "https://tibia.fandom.com/wiki/Bow",
+     "id": "paladin-bow"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Munição",
+     "item": "Sniper Arrow",
+     "lv": 20,
+     "attr": "Ataque 28",
+     "src": [
+      {
+       "m": "Elder Bonelord",
+       "c": 8.78
+      }
+     ],
+     "shop": [
+      {
+       "n": "Eliyas",
+       "p": 5
+      },
+      {
+       "n": "Rock In A Hard Place",
+       "p": 5
+      },
+      {
+       "n": "Isika",
+       "p": 5
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Sniper_Arrow",
+     "id": "paladin-sniper-arrow"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Capacete",
+     "item": "Steel Helmet",
+     "lv": null,
+     "attr": "Armadura 6",
+     "src": [
+      {
+       "m": "Zombie",
+       "c": 4.6
+      }
+     ],
+     "shop": [
+      {
+       "n": "Cornelia",
+       "p": 580
+      },
+      {
+       "n": "Baltim",
+       "p": 580
+      },
+      {
+       "n": "Turvy",
+       "p": 580
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Steel_Helmet",
+     "id": "paladin-steel-helmet"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Munição",
+     "item": "Onyx Arrow",
+     "lv": 40,
+     "attr": "Ataque 38",
+     "src": [],
+     "shop": [
+      {
+       "n": "Mugruu",
+       "p": 7
+      },
+      {
+       "n": "Perod",
+       "p": 7
+      },
+      {
+       "n": "Asnarus",
+       "p": 7
+      }
+     ],
+     "quest": null,
+     "tip": "Compre no NPC; drop só em monstros de level alto.",
+     "wiki": "https://tibia.fandom.com/wiki/Onyx_Arrow",
+     "id": "paladin-onyx-arrow"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma (2 mãos)",
+     "item": "Composite Hornbow",
+     "lv": 50,
+     "attr": "+3 de ataque (bônus do arco/besta), 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Wyrm",
+       "c": 0.95
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Composite_Hornbow",
+     "id": "paladin-composite-hornbow"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Armadura",
+     "item": "Plate Armor",
+     "lv": null,
+     "attr": "Armadura 10",
+     "src": [
+      {
+       "m": "Bonebeast",
+       "c": 8.0
+      },
+      {
+       "m": "Orc Warlord",
+       "c": 5.21
+      }
+     ],
+     "shop": [
+      {
+       "n": "Azil",
+       "p": 1200
+      },
+      {
+       "n": "Robert",
+       "p": 1200
+      },
+      {
+       "n": "Willard",
+       "p": 1200
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Plate_Armor",
+     "id": "paladin-plate-armor"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Pernas",
+     "item": "Plate Legs",
+     "lv": null,
+     "attr": "Armadura 7",
+     "src": [
+      {
+       "m": "Orc Warlord",
+       "c": 4.28
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Plate_Legs",
+     "id": "paladin-plate-legs"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma",
+     "item": "Assassin Star",
+     "lv": 80,
+     "attr": "Ataque 65",
+     "src": [],
+     "shop": [
+      {
+       "n": "Archery",
+       "p": 100
+      },
+      {
+       "n": "Atrad",
+       "p": 100
+      }
+     ],
+     "quest": null,
+     "tip": "Arma clássica de paladino nessa faixa; compra no NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/Assassin_Star",
+     "id": "paladin-assassin-star"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Armadura",
+     "item": "Zaoan Armor",
+     "lv": 50,
+     "attr": "Armadura 13",
+     "src": [
+      {
+       "m": "Lizard Chosen",
+       "c": 0.98
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Armor",
+     "id": "paladin-zaoan-armor"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Pernas",
+     "item": "Zaoan Legs",
+     "lv": null,
+     "attr": "Armadura 8",
+     "src": [
+      {
+       "m": "Lizard Zaogun",
+       "c": 1.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+     "id": "paladin-zaoan-legs"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Botas",
+     "item": "Metal Spats",
+     "lv": 50,
+     "attr": "Armadura 1, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Metal Gargoyle",
+       "c": 1.49
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Metal_Spats",
+     "id": "paladin-metal-spats"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Munição",
+     "item": "Crystalline Arrow",
+     "lv": 90,
+     "attr": "Ataque 65",
+     "src": [
+      {
+       "m": "Wiggler",
+       "c": 15.54
+      }
+     ],
+     "shop": [
+      {
+       "n": "Mugruu",
+       "p": 20
+      },
+      {
+       "n": "Robert",
+       "p": 20
+      },
+      {
+       "n": "Asnarus",
+       "p": 20
+      }
+     ],
+     "quest": null,
+     "tip": "A partir do level 90. Wiggler dropa bastante.",
+     "wiki": "https://tibia.fandom.com/wiki/Crystalline_Arrow",
+     "id": "paladin-crystalline-arrow"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Arma (2 mãos)",
+     "item": "Mycological Bow",
+     "lv": 105,
+     "attr": "+4 de ataque (bônus do arco/besta), 3 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Diremaw",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Drop raro: vale guardar se cair.",
+     "wiki": "https://tibia.fandom.com/wiki/Mycological_Bow",
+     "id": "paladin-mycological-bow"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Armadura",
+     "item": "Elite Draken Mail",
+     "lv": 100,
+     "attr": "Armadura 15, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Draken Elite",
+       "c": 0.11
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Elite_Draken_Mail",
+     "id": "paladin-elite-draken-mail"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Capacete",
+     "item": "Zaoan Helmet",
+     "lv": null,
+     "attr": "Armadura 9, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Draken Abomination",
+       "c": 0.56
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
+     "id": "paladin-zaoan-helmet"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Botas",
+     "item": "Draken Boots",
+     "lv": 80,
+     "attr": "Armadura 3, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Draken Elite",
+       "c": 0.93
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Draken_Boots",
+     "id": "paladin-draken-boots"
+    }
+   ]
+  },
+  {
+   "id": "sorcerer",
+   "nome": "Sorcerer",
+   "itens": [
+    {
+     "tier": "8–20",
+     "slot": "Arma",
+     "item": "Wand of Vortex",
+     "lv": 6,
+     "attr": "-",
+     "src": [],
+     "shop": [
+      {
+       "n": "Mordecai",
+       "p": 500
+      },
+      {
+       "n": "Frederik",
+       "p": 500
+      },
+      {
+       "n": "Frans",
+       "p": 500
+      }
+     ],
+     "quest": null,
+     "tip": "Primeira wand. Compra no NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Vortex",
+     "id": "sorcerer-wand-of-vortex"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Arma",
+     "item": "Wand of Dragonbreath",
+     "lv": 13,
+     "attr": "2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dark Apprentice",
+       "c": 1.98
+      }
+     ],
+     "shop": [
+      {
+       "n": "Nipuna",
+       "p": 1000
+      },
+      {
+       "n": "Xodet",
+       "p": 1000
+      },
+      {
+       "n": "Alexander",
+       "p": 1000
+      }
+     ],
+     "quest": null,
+     "tip": "A partir do level 13.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Dragonbreath",
+     "id": "sorcerer-wand-of-dragonbreath"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Armadura",
+     "item": "Spirit Cloak",
+     "lv": null,
+     "attr": "Armadura 8, +1 magic level",
+     "src": [],
+     "shop": [
+      {
+       "n": "Lailene",
+       "p": 1000
+      }
+     ],
+     "quest": null,
+     "tip": "NPC vende. Dá +1 de magic level.",
+     "wiki": "https://tibia.fandom.com/wiki/Spirit_Cloak",
+     "id": "sorcerer-spirit-cloak"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Pernas",
+     "item": "Brass Legs",
+     "lv": null,
+     "attr": "Armadura 5",
+     "src": [
+      {
+       "m": "Tarantula",
+       "c": 3.05
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rock In A Hard Place",
+       "p": 195
+      },
+      {
+       "n": "Sam",
+       "p": 195
+      },
+      {
+       "n": "Yanni",
+       "p": 195
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
+     "id": "sorcerer-brass-legs"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Escudo",
+     "item": "Spellbook",
+     "lv": null,
+     "attr": "Defesa 14, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Bonelord",
+       "c": 4.99
+      }
+     ],
+     "shop": [
+      {
+       "n": "Chuckles",
+       "p": 150
+      },
+      {
+       "n": "Siflind",
+       "p": 150
+      },
+      {
+       "n": "Shiriel",
+       "p": 150
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Spellbook",
+     "id": "sorcerer-spellbook"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Botas",
+     "item": "Leather Boots",
+     "lv": null,
+     "attr": "Armadura 1, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dwarf Guard",
+       "c": 40.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rudolph",
+       "p": 2
+      },
+      {
+       "n": "Kroox",
+       "p": 10
+      },
+      {
+       "n": "Robert",
+       "p": 10
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Leather_Boots",
+     "id": "sorcerer-leather-boots"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma",
+     "item": "Wand of Decay",
+     "lv": 19,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Orc Shaman",
+       "c": 1.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Mordecai",
+       "p": 5000
+      },
+      {
+       "n": "Frederik",
+       "p": 5000
+      },
+      {
+       "n": "Frans",
+       "p": 5000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 19.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Decay",
+     "id": "sorcerer-wand-of-decay"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma",
+     "item": "Wand of Cosmic Energy",
+     "lv": 26,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Elf Arcanist",
+       "c": 1.16
+      },
+      {
+       "m": "Minotaur Mage",
+       "c": 0.6
+      }
+     ],
+     "shop": [
+      {
+       "n": "Nipuna",
+       "p": 10000
+      },
+      {
+       "n": "Xodet",
+       "p": 10000
+      },
+      {
+       "n": "Alexander",
+       "p": 10000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 26.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Cosmic_Energy",
+     "id": "sorcerer-wand-of-cosmic-energy"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Capacete",
+     "item": "Magma Monocle",
+     "lv": null,
+     "attr": "Armadura 5",
+     "src": [
+      {
+       "m": "Efreet",
+       "c": 0.36
+      },
+      {
+       "m": "Marid",
+       "c": 0.32
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Magma_Monocle",
+     "id": "sorcerer-magma-monocle"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Escudo",
+     "item": "Spellbook of Enlightenment",
+     "lv": 30,
+     "attr": "Defesa 18, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Iks Pututu",
+       "c": 1.92
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "A partir do level 30.",
+     "wiki": "https://tibia.fandom.com/wiki/Spellbook_of_Enlightenment",
+     "id": "sorcerer-spellbook-of-enlightenment"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma",
+     "item": "Wand of Inferno",
+     "lv": 33,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Efreet",
+       "c": 0.39
+      }
+     ],
+     "shop": [
+      {
+       "n": "Siflind",
+       "p": 15000
+      },
+      {
+       "n": "Rabaz",
+       "p": 15000
+      },
+      {
+       "n": "Mordecai",
+       "p": 15000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 33.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Inferno",
+     "id": "sorcerer-wand-of-inferno"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma",
+     "item": "Wand of Starstorm",
+     "lv": 37,
+     "attr": "2 slot(s) de imbuement",
+     "src": [],
+     "shop": [
+      {
+       "n": "Tandros",
+       "p": 18000
+      },
+      {
+       "n": "Sundara",
+       "p": 18000
+      },
+      {
+       "n": "Mordecai",
+       "p": 18000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 37. NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Starstorm",
+     "id": "sorcerer-wand-of-starstorm"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma",
+     "item": "Wand of Voodoo",
+     "lv": 42,
+     "attr": "2 slot(s) de imbuement",
+     "src": [],
+     "shop": [
+      {
+       "n": "Tandros",
+       "p": 22000
+      },
+      {
+       "n": "Chuckles",
+       "p": 22000
+      },
+      {
+       "n": "Nelly",
+       "p": 22000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 42. NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Voodoo",
+     "id": "sorcerer-wand-of-voodoo"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Armadura",
+     "item": "Focus Cape",
+     "lv": null,
+     "attr": "Armadura 9, +1 magic level",
+     "src": [
+      {
+       "m": "Wyrm",
+       "c": 2.37
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "+1 de magic level.",
+     "wiki": "https://tibia.fandom.com/wiki/Focus_Cape",
+     "id": "sorcerer-focus-cape"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Botas",
+     "item": "Terra Boots",
+     "lv": 35,
+     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dwarf Geomancer",
+       "c": 0.47
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Dwarf Geomancer é monstro fraco; o drop é raro mas sai.",
+     "wiki": "https://tibia.fandom.com/wiki/Terra_Boots",
+     "id": "sorcerer-terra-boots"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Escudo",
+     "item": "Spellbook of Warding",
+     "lv": 40,
+     "attr": "Defesa 22, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Massive Energy Elemental",
+       "c": 0.36
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Spellbook_of_Warding",
+     "id": "sorcerer-spellbook-of-warding"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma",
+     "item": "Wand of Everblazing",
+     "lv": 65,
+     "attr": "+1 magic level",
+     "src": [
+      {
+       "m": "Magma Crawler",
+       "c": 0.69
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 65. Não tem no NPC: só drop.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Everblazing",
+     "id": "sorcerer-wand-of-everblazing"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma (alternativa)",
+     "item": "Wand of Defiance",
+     "lv": 65,
+     "attr": "+1 magic level",
+     "src": [
+      {
+       "m": "Seacrest Serpent",
+       "c": 0.67
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 65.",
+     "wiki": "https://tibia.fandom.com/wiki/Wand_of_Defiance",
+     "id": "sorcerer-wand-of-defiance"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Armadura",
+     "item": "Zaoan Robe",
+     "lv": 60,
+     "attr": "Armadura 11",
+     "src": [
+      {
+       "m": "Lizard Dragon Priest",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Também em Zao, igual o set dos knights.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Robe",
+     "id": "sorcerer-zaoan-robe"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Armadura (alternativa)",
+     "item": "Lightning Robe",
+     "lv": 50,
+     "attr": "Armadura 11",
+     "src": [
+      {
+       "m": "Warlock",
+       "c": 1.0
+      },
+      {
+       "m": "Elder Wyrm",
+       "c": 0.29
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Lightning_Robe",
+     "id": "sorcerer-lightning-robe"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Capacete",
+     "item": "Rubber Cap",
+     "lv": 70,
+     "attr": "Armadura 5, +1 magic level",
+     "src": [
+      {
+       "m": "Glooth Bandit",
+       "c": 2.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "A partir do level 70.",
+     "wiki": "https://tibia.fandom.com/wiki/Rubber_Cap",
+     "id": "sorcerer-rubber-cap"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Armadura",
+     "item": "Calopteryx Cape",
+     "lv": 80,
+     "attr": "Armadura 12, +1 magic level",
+     "src": [
+      {
+       "m": "Spidris",
+       "c": 0.37
+      },
+      {
+       "m": "Spidris Elite",
+       "c": 1.28
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Calopteryx_Cape",
+     "id": "sorcerer-calopteryx-cape"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Botas",
+     "item": "Oriental Shoes",
+     "lv": 80,
+     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Midnight Asura",
+       "c": 0.39
+      },
+      {
+       "m": "Frost Flower Asura",
+       "c": 0.34
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Oriental_Shoes",
+     "id": "sorcerer-oriental-shoes"
+    }
+   ]
+  },
+  {
+   "id": "druid",
+   "nome": "Druid",
+   "itens": [
+    {
+     "tier": "8–20",
+     "slot": "Arma",
+     "item": "Snakebite Rod",
+     "lv": 6,
+     "attr": "-",
+     "src": [],
+     "shop": [
+      {
+       "n": "Mordecai",
+       "p": 500
+      },
+      {
+       "n": "Frederik",
+       "p": 500
+      },
+      {
+       "n": "Frans",
+       "p": 500
+      }
+     ],
+     "quest": null,
+     "tip": "Primeiro rod. Compra no NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/Snakebite_Rod",
+     "id": "druid-snakebite-rod"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Arma",
+     "item": "Moonlight Rod",
+     "lv": 13,
+     "attr": "-",
+     "src": [],
+     "shop": [
+      {
+       "n": "Nipuna",
+       "p": 1000
+      },
+      {
+       "n": "Xodet",
+       "p": 1000
+      },
+      {
+       "n": "Alexander",
+       "p": 1000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 13. NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonlight_Rod",
+     "id": "druid-moonlight-rod"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Armadura",
+     "item": "Spirit Cloak",
+     "lv": null,
+     "attr": "Armadura 8, +1 magic level",
+     "src": [],
+     "shop": [
+      {
+       "n": "Lailene",
+       "p": 1000
+      }
+     ],
+     "quest": null,
+     "tip": "NPC vende. Dá +1 de magic level.",
+     "wiki": "https://tibia.fandom.com/wiki/Spirit_Cloak",
+     "id": "druid-spirit-cloak"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Pernas",
+     "item": "Brass Legs",
+     "lv": null,
+     "attr": "Armadura 5",
+     "src": [
+      {
+       "m": "Tarantula",
+       "c": 3.05
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rock In A Hard Place",
+       "p": 195
+      },
+      {
+       "n": "Sam",
+       "p": 195
+      },
+      {
+       "n": "Yanni",
+       "p": 195
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
+     "id": "druid-brass-legs"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Escudo",
+     "item": "Spellbook",
+     "lv": null,
+     "attr": "Defesa 14, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Bonelord",
+       "c": 4.99
+      }
+     ],
+     "shop": [
+      {
+       "n": "Chuckles",
+       "p": 150
+      },
+      {
+       "n": "Siflind",
+       "p": 150
+      },
+      {
+       "n": "Shiriel",
+       "p": 150
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Spellbook",
+     "id": "druid-spellbook"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Botas",
+     "item": "Leather Boots",
+     "lv": null,
+     "attr": "Armadura 1, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dwarf Guard",
+       "c": 40.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Rudolph",
+       "p": 2
+      },
+      {
+       "n": "Kroox",
+       "p": 10
+      },
+      {
+       "n": "Robert",
+       "p": 10
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Leather_Boots",
+     "id": "druid-leather-boots"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma",
+     "item": "Necrotic Rod",
+     "lv": 19,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Witch",
+       "c": 1.14
+      }
+     ],
+     "shop": [
+      {
+       "n": "Mordecai",
+       "p": 5000
+      },
+      {
+       "n": "Frederik",
+       "p": 5000
+      },
+      {
+       "n": "Frans",
+       "p": 5000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 19.",
+     "wiki": "https://tibia.fandom.com/wiki/Necrotic_Rod",
+     "id": "druid-necrotic-rod"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma",
+     "item": "Terra Rod",
+     "lv": 26,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Lizard Snakecharmer",
+       "c": 0.92
+      },
+      {
+       "m": "Bonelord",
+       "c": 0.51
+      }
+     ],
+     "shop": [
+      {
+       "n": "Nipuna",
+       "p": 10000
+      },
+      {
+       "n": "Xodet",
+       "p": 10000
+      },
+      {
+       "n": "Alexander",
+       "p": 10000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 26.",
+     "wiki": "https://tibia.fandom.com/wiki/Terra_Rod",
+     "id": "druid-terra-rod"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Capacete",
+     "item": "Magma Monocle",
+     "lv": null,
+     "attr": "Armadura 5",
+     "src": [
+      {
+       "m": "Efreet",
+       "c": 0.36
+      },
+      {
+       "m": "Marid",
+       "c": 0.32
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Magma_Monocle",
+     "id": "druid-magma-monocle"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Escudo",
+     "item": "Spellbook of Enlightenment",
+     "lv": 30,
+     "attr": "Defesa 18, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Iks Pututu",
+       "c": 1.92
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "A partir do level 30.",
+     "wiki": "https://tibia.fandom.com/wiki/Spellbook_of_Enlightenment",
+     "id": "druid-spellbook-of-enlightenment"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma",
+     "item": "Hailstorm Rod",
+     "lv": 33,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Crystal Wolf",
+       "c": 7.4
+      }
+     ],
+     "shop": [
+      {
+       "n": "Siflind",
+       "p": 15000
+      },
+      {
+       "n": "Rabaz",
+       "p": 15000
+      },
+      {
+       "n": "Mordecai",
+       "p": 15000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 33. Crystal Wolf dropa ~7%: dá pra farmar em vez de pagar 15k.",
+     "wiki": "https://tibia.fandom.com/wiki/Hailstorm_Rod",
+     "id": "druid-hailstorm-rod"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma",
+     "item": "Springsprout Rod",
+     "lv": 37,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Bog Raider",
+       "c": 1.02
+      }
+     ],
+     "shop": [
+      {
+       "n": "Tandros",
+       "p": 18000
+      },
+      {
+       "n": "Sundara",
+       "p": 18000
+      },
+      {
+       "n": "Mordecai",
+       "p": 18000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 37.",
+     "wiki": "https://tibia.fandom.com/wiki/Springsprout_Rod",
+     "id": "druid-springsprout-rod"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma",
+     "item": "Underworld Rod",
+     "lv": 42,
+     "attr": "2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Blood Priest",
+       "c": 0.47
+      }
+     ],
+     "shop": [
+      {
+       "n": "Tandros",
+       "p": 22000
+      },
+      {
+       "n": "Chuckles",
+       "p": 22000
+      },
+      {
+       "n": "Nelly",
+       "p": 22000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 42.",
+     "wiki": "https://tibia.fandom.com/wiki/Underworld_Rod",
+     "id": "druid-underworld-rod"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Armadura",
+     "item": "Focus Cape",
+     "lv": null,
+     "attr": "Armadura 9, +1 magic level",
+     "src": [
+      {
+       "m": "Wyrm",
+       "c": 2.37
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "+1 de magic level.",
+     "wiki": "https://tibia.fandom.com/wiki/Focus_Cape",
+     "id": "druid-focus-cape"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Botas",
+     "item": "Terra Boots",
+     "lv": 35,
+     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dwarf Geomancer",
+       "c": 0.47
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Dwarf Geomancer é monstro fraco; o drop é raro mas sai.",
+     "wiki": "https://tibia.fandom.com/wiki/Terra_Boots",
+     "id": "druid-terra-boots"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Escudo",
+     "item": "Spellbook of Warding",
+     "lv": 40,
+     "attr": "Defesa 22, +1 magic level, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Massive Energy Elemental",
+       "c": 0.36
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Spellbook_of_Warding",
+     "id": "druid-spellbook-of-warding"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma",
+     "item": "Muck Rod",
+     "lv": 65,
+     "attr": "+1 magic level",
+     "src": [
+      {
+       "m": "Humongous Fungus",
+       "c": 0.64
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 65. Não tem no NPC: só drop.",
+     "wiki": "https://tibia.fandom.com/wiki/Muck_Rod",
+     "id": "druid-muck-rod"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Arma (alternativa)",
+     "item": "Glacial Rod",
+     "lv": 65,
+     "attr": "+1 magic level",
+     "src": [
+      {
+       "m": "Ironblight",
+       "c": 0.96
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 65.",
+     "wiki": "https://tibia.fandom.com/wiki/Glacial_Rod",
+     "id": "druid-glacial-rod"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Armadura",
+     "item": "Zaoan Robe",
+     "lv": 60,
+     "attr": "Armadura 11",
+     "src": [
+      {
+       "m": "Lizard Dragon Priest",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Também em Zao, igual o set dos knights.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Robe",
+     "id": "druid-zaoan-robe"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Armadura (alternativa)",
+     "item": "Lightning Robe",
+     "lv": 50,
+     "attr": "Armadura 11",
+     "src": [
+      {
+       "m": "Warlock",
+       "c": 1.0
+      },
+      {
+       "m": "Elder Wyrm",
+       "c": 0.29
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Lightning_Robe",
+     "id": "druid-lightning-robe"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Capacete",
+     "item": "Rubber Cap",
+     "lv": 70,
+     "attr": "Armadura 5, +1 magic level",
+     "src": [
+      {
+       "m": "Glooth Bandit",
+       "c": 2.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "A partir do level 70.",
+     "wiki": "https://tibia.fandom.com/wiki/Rubber_Cap",
+     "id": "druid-rubber-cap"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Armadura",
+     "item": "Calopteryx Cape",
+     "lv": 80,
+     "attr": "Armadura 12, +1 magic level",
+     "src": [
+      {
+       "m": "Spidris",
+       "c": 0.37
+      },
+      {
+       "m": "Spidris Elite",
+       "c": 1.28
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Calopteryx_Cape",
+     "id": "druid-calopteryx-cape"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Botas",
+     "item": "Oriental Shoes",
+     "lv": 80,
+     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Midnight Asura",
+       "c": 0.39
+      },
+      {
+       "m": "Frost Flower Asura",
+       "c": 0.34
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Oriental_Shoes",
+     "id": "druid-oriental-shoes"
+    }
+   ]
+  },
+  {
+   "id": "monk",
+   "nome": "Monk",
+   "itens": [
+    {
+     "tier": "8–20",
+     "slot": "Arma",
+     "item": "Jo Staff",
+     "lv": null,
+     "attr": "Ataque 18",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 500
+      }
+     ],
+     "quest": null,
+     "tip": "Compra no NPC dos monks.",
+     "wiki": "https://tibia.fandom.com/wiki/Jo_Staff",
+     "id": "monk-jo-staff"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Armadura",
+     "item": "Plain Monk Robe",
+     "lv": null,
+     "attr": "Armadura 6",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 450
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Plain_Monk_Robe",
+     "id": "monk-plain-monk-robe"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Amuleto",
+     "item": "Harmony Amulet",
+     "lv": 8,
+     "attr": "Armadura 2",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 1000
+      }
+     ],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Harmony_Amulet",
+     "id": "monk-harmony-amulet"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Botas",
+     "item": "Boots of Enlightenment",
+     "lv": 8,
+     "attr": "Armadura 1",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 8000
+      }
+     ],
+     "quest": null,
+     "tip": "Caro pro começo (8k): compre quando juntar.",
+     "wiki": "https://tibia.fandom.com/wiki/Boots_of_Enlightenment",
+     "id": "monk-boots-of-enlightenment"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Capacete",
+     "item": "Light Bandana",
+     "lv": null,
+     "attr": "Armadura 3",
+     "src": [
+      {
+       "m": "Orc Warrior",
+       "c": 0.95
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Drop raro (~1%) mas o monstro é fraco.",
+     "wiki": "https://tibia.fandom.com/wiki/Light_Bandana",
+     "id": "monk-light-bandana"
+    },
+    {
+     "tier": "20–35",
+     "slot": "Arma",
+     "item": "Fists of Enlightenment",
+     "lv": 20,
+     "attr": "Ataque 24",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 20000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 20.",
+     "wiki": "https://tibia.fandom.com/wiki/Fists_of_Enlightenment",
+     "id": "monk-fists-of-enlightenment"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Pernas",
+     "item": "Legs of Enlightenment",
+     "lv": 40,
+     "attr": "Armadura 4",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 40000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 40.",
+     "wiki": "https://tibia.fandom.com/wiki/Legs_of_Enlightenment",
+     "id": "monk-legs-of-enlightenment"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Arma",
+     "item": "Nunchaku of Enlightenment",
+     "lv": 50,
+     "attr": "Ataque 34",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 50000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 50.",
+     "wiki": "https://tibia.fandom.com/wiki/Nunchaku_of_Enlightenment",
+     "id": "monk-nunchaku-of-enlightenment"
+    },
+    {
+     "tier": "35–60",
+     "slot": "Armadura",
+     "item": "Zaoan Monk Robe",
+     "lv": 50,
+     "attr": "Armadura 7",
+     "src": [
+      {
+       "m": "Lizard Templar",
+       "c": 0.1
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 50. Drop bem raro, monstro fraco.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Monk_Robe",
+     "id": "monk-zaoan-monk-robe"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Capacete",
+     "item": "Coned Hat of Enlightenment",
+     "lv": 70,
+     "attr": "Armadura 4, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 70000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 70.",
+     "wiki": "https://tibia.fandom.com/wiki/Coned_Hat_of_Enlightenment",
+     "id": "monk-coned-hat-of-enlightenment"
+    },
+    {
+     "tier": "60–100",
+     "slot": "Pernas",
+     "item": "Legs of Wisdom",
+     "lv": 80,
+     "attr": "Armadura 4",
+     "src": [
+      {
+       "m": "Elder Wyrm",
+       "c": 0.6
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 80.",
+     "wiki": "https://tibia.fandom.com/wiki/Legs_of_Wisdom",
+     "id": "monk-legs-of-wisdom"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Capacete",
+     "item": "Jade Conical Hat",
+     "lv": 35,
+     "attr": "Armadura 5, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Armadile",
+       "c": 1.15
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "",
+     "wiki": "https://tibia.fandom.com/wiki/Jade_Conical_Hat",
+     "id": "monk-jade-conical-hat"
+    },
+    {
+     "tier": "100–150",
+     "slot": "Armadura",
+     "item": "Robe of Enlightenment",
+     "lv": 150,
+     "attr": "Armadura 8, +1 magic level, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [
+      {
+       "n": "Enpa-Deia Pema",
+       "p": 150000
+      }
+     ],
+     "quest": null,
+     "tip": "Level 150. NPC (150k).",
+     "wiki": "https://tibia.fandom.com/wiki/Robe_of_Enlightenment",
+     "id": "monk-robe-of-enlightenment"
+    }
+   ]
+  }
+ ],
+ "monstros": {
+  "Armadile": {
+   "exp": 3200,
+   "hp": 3800,
+   "lvl": "100+",
+   "loc": "",
+   "items": [
+    "Jade Conical Hat"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Armadile",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Armadile"
+  },
+  "Bashmu": {
+   "exp": 5000,
+   "hp": 8200,
+   "lvl": "150+",
+   "loc": "Kilmaresh",
+   "items": [
+    "Guardian Halberd"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Bashmu",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bashmu"
+  },
+  "Blood Priest": {
+   "exp": 900,
+   "hp": 820,
+   "lvl": "60+",
+   "loc": "",
+   "items": [
+    "Underworld Rod"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Blood_Priest",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Blood%20Priest"
+  },
+  "Bog Raider": {
+   "exp": 800,
+   "hp": 1300,
+   "lvl": "50+",
+   "loc": "",
+   "items": [
+    "Springsprout Rod"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Bog_Raider",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bog%20Raider"
+  },
+  "Bonebeast": {
+   "exp": 580,
+   "hp": 515,
+   "lvl": "30+",
+   "loc": "Tumbas / Drefia",
+   "items": [
+    "Plate Armor"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Bonebeast",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bonebeast"
+  },
+  "Bonelord": {
+   "exp": 170,
+   "hp": 260,
+   "lvl": "15+",
+   "loc": "",
+   "items": [
+    "Spellbook",
+    "Terra Rod"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Bonelord",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bonelord"
+  },
+  "Crystal Wolf": {
+   "exp": 275,
+   "hp": 750,
+   "lvl": "30+",
+   "loc": "",
+   "items": [
+    "Hailstorm Rod"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Crystal_Wolf",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Crystal%20Wolf"
+  },
+  "Dark Apprentice": {
+   "exp": 100,
+   "hp": 225,
+   "lvl": "8+",
+   "loc": "",
+   "items": [
+    "Wand of Dragonbreath"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Dark_Apprentice",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dark%20Apprentice"
+  },
+  "Deepling Guard": {
+   "exp": 2100,
+   "hp": 1900,
+   "lvl": "80+",
+   "loc": "",
+   "items": [
+    "Deepling Squelcher"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Deepling_Guard",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Deepling%20Guard"
+  },
+  "Diremaw": {
+   "exp": 2770,
+   "hp": 3600,
+   "lvl": "100+",
+   "loc": "",
+   "items": [
+    "Mycological Bow"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Diremaw",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Diremaw"
+  },
+  "Draken Abomination": {
+   "exp": 4500,
+   "hp": 6250,
+   "lvl": "130+",
+   "loc": "Zao",
+   "items": [
+    "Draken Boots",
+    "Zaoan Helmet"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Draken_Abomination",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Abomination"
+  },
+  "Draken Elite": {
+   "exp": 4750,
+   "hp": 5550,
+   "lvl": "130+",
+   "loc": "Zao",
+   "items": [
+    "Draken Boots",
+    "Elite Draken Mail",
+    "Zaoan Sword"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Draken_Elite",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Elite"
+  },
+  "Dwarf Geomancer": {
+   "exp": 265,
+   "hp": 380,
+   "lvl": "20+",
+   "loc": "Minas de Kazordoon",
+   "items": [
+    "Terra Boots"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Dwarf_Geomancer",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Geomancer"
+  },
+  "Dwarf Guard": {
+   "exp": 165,
+   "hp": 245,
+   "lvl": "15+",
+   "loc": "Minas de Kazordoon",
+   "items": [
+    "Leather Boots"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Dwarf_Guard",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Guard"
+  },
+  "Dwarf Soldier": {
+   "exp": 70,
+   "hp": 135,
+   "lvl": "8+",
+   "loc": "Minas de Kazordoon",
+   "items": [
+    "Dwarven Shield",
+    "Soldier Helmet"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Dwarf_Soldier",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dwarf%20Soldier"
+  },
+  "Efreet": {
+   "exp": 410,
+   "hp": 550,
+   "lvl": "30+",
+   "loc": "Mal'ouquah, Ankrahmun (precisa da Djinn quest)",
+   "items": [
+    "Magma Monocle",
+    "Royal Spear",
+    "Wand of Inferno"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Efreet",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Efreet"
+  },
+  "Elder Bonelord": {
+   "exp": 280,
+   "hp": 500,
+   "lvl": "25+",
+   "loc": "",
+   "items": [
+    "Sniper Arrow"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Elder_Bonelord",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elder%20Bonelord"
+  },
+  "Elder Wyrm": {
+   "exp": 2500,
+   "hp": 2700,
+   "lvl": "80+",
+   "loc": "Liberty Bay / Drefia",
+   "items": [
+    "Legs of Wisdom",
+    "Lightning Robe"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Elder_Wyrm",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elder%20Wyrm"
+  },
+  "Elf": {
+   "exp": 42,
+   "hp": 100,
+   "lvl": "8+",
+   "loc": "Elvenbane (Ab'Dendriel)",
+   "items": [
+    "Longsword"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Elf",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elf"
+  },
+  "Elf Arcanist": {
+   "exp": 175,
+   "hp": 220,
+   "lvl": "15+",
+   "loc": "",
+   "items": [
+    "Wand of Cosmic Energy"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Elf_Arcanist",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Elf%20Arcanist"
+  },
+  "Frost Flower Asura": {
+   "exp": 4200,
+   "hp": 3500,
+   "lvl": "120+",
+   "loc": "Asura Palace",
+   "items": [
+    "Oriental Shoes"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Frost_Flower_Asura",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Frost%20Flower%20Asura"
+  },
+  "Glooth Bandit": {
+   "exp": 2000,
+   "hp": 2600,
+   "lvl": "70+",
+   "loc": "Oramond (Rathleton)",
+   "items": [
+    "Rubber Cap"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Glooth_Bandit",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Glooth%20Bandit"
+  },
+  "Hand of Cursed Fate": {
+   "exp": 5000,
+   "hp": 6600,
+   "lvl": "150+",
+   "loc": "",
+   "items": [
+    "Abyss Hammer"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Hand_of_Cursed_Fate",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Hand%20of%20Cursed%20Fate"
+  },
+  "Humongous Fungus": {
+   "exp": 2900,
+   "hp": 3400,
+   "lvl": "100+",
+   "loc": "",
+   "items": [
+    "Muck Rod"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Humongous_Fungus",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Humongous%20Fungus"
+  },
+  "Iks Aucar": {
+   "exp": 1150,
+   "hp": 1520,
+   "lvl": "50+",
+   "loc": "Iksupan (Port Hope)",
+   "items": [
+    "War Hammer"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Iks_Aucar",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Iks%20Aucar"
+  },
+  "Iks Pututu": {
+   "exp": 980,
+   "hp": 1310,
+   "lvl": "40+",
+   "loc": "Iksupan (Port Hope)",
+   "items": [
+    "Spellbook of Enlightenment"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Iks_Pututu",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Iks%20Pututu"
+  },
+  "Ironblight": {
+   "exp": 5400,
+   "hp": 6600,
+   "lvl": "120+",
+   "loc": "",
+   "items": [
+    "Glacial Rod"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Ironblight",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Ironblight"
+  },
+  "Lizard Chosen": {
+   "exp": 2200,
+   "hp": 3050,
+   "lvl": "90+",
+   "loc": "Zao",
+   "items": [
+    "Zaoan Armor"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lizard_Chosen",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Chosen"
+  },
+  "Lizard Dragon Priest": {
+   "exp": 1320,
+   "hp": 1450,
+   "lvl": "70+",
+   "loc": "Zao",
+   "items": [
+    "Zaoan Robe"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lizard_Dragon_Priest",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Dragon%20Priest"
+  },
+  "Lizard High Guard": {
+   "exp": 1450,
+   "hp": 1800,
+   "lvl": "70+",
+   "loc": "Zao",
+   "items": [
+    "Tower Shield"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lizard_High_Guard",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20High%20Guard"
+  },
+  "Lizard Legionnaire": {
+   "exp": 1100,
+   "hp": 1400,
+   "lvl": "60+",
+   "loc": "Zao",
+   "items": [
+    "Drakinata",
+    "Zaoan Shoes"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lizard_Legionnaire",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Legionnaire"
+  },
+  "Lizard Snakecharmer": {
+   "exp": 210,
+   "hp": 325,
+   "lvl": "20+",
+   "loc": "",
+   "items": [
+    "Terra Rod"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lizard_Snakecharmer",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Snakecharmer"
+  },
+  "Lizard Templar": {
+   "exp": 155,
+   "hp": 410,
+   "lvl": "20+",
+   "loc": "",
+   "items": [
+    "Zaoan Monk Robe"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lizard_Templar",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Templar"
+  },
+  "Lizard Zaogun": {
+   "exp": 1700,
+   "hp": 2955,
+   "lvl": "80+",
+   "loc": "Zao",
+   "items": [
+    "Zaoan Legs",
+    "Zaoan Shoes"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lizard_Zaogun",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Zaogun"
+  },
+  "Magma Crawler": {
+   "exp": 3900,
+   "hp": 4800,
+   "lvl": "100+",
+   "loc": "",
+   "items": [
+    "Wand of Everblazing"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Magma_Crawler",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Magma%20Crawler"
+  },
+  "Marid": {
+   "exp": 410,
+   "hp": 550,
+   "lvl": "30+",
+   "loc": "Ashta'daramai, Ankrahmun (precisa da Djinn quest)",
+   "items": [
+    "Magma Monocle",
+    "Royal Spear"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Marid",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Marid"
+  },
+  "Massive Energy Elemental": {
+   "exp": 950,
+   "hp": 1100,
+   "lvl": "50+",
+   "loc": "",
+   "items": [
+    "Spellbook of Warding"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Massive_Energy_Elemental",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Massive%20Energy%20Elemental"
+  },
+  "Metal Gargoyle": {
+   "exp": 1278,
+   "hp": 2100,
+   "lvl": "70+",
+   "loc": "",
+   "items": [
+    "Metal Spats"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Metal_Gargoyle",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Metal%20Gargoyle"
+  },
+  "Midnight Asura": {
+   "exp": 4100,
+   "hp": 3100,
+   "lvl": "120+",
+   "loc": "Asura Palace",
+   "items": [
+    "Oriental Shoes"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Midnight_Asura",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Midnight%20Asura"
+  },
+  "Minotaur": {
+   "exp": 50,
+   "hp": 100,
+   "lvl": "8+",
+   "loc": "Mintwallin / arredores de Thais",
+   "items": [
+    "Chain Armor",
+    "Mace"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Minotaur",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur"
+  },
+  "Minotaur Guard": {
+   "exp": 160,
+   "hp": 185,
+   "lvl": "15+",
+   "loc": "Mintwallin / minotauros de Darashia",
+   "items": [
+    "Brass Armor"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Minotaur_Guard",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur%20Guard"
+  },
+  "Minotaur Mage": {
+   "exp": 150,
+   "hp": 155,
+   "lvl": "15+",
+   "loc": "Mintwallin",
+   "items": [
+    "Wand of Cosmic Energy"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Minotaur_Mage",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Minotaur%20Mage"
+  },
+  "Orc Berserker": {
+   "exp": 195,
+   "hp": 210,
+   "lvl": "15+",
+   "loc": "Orc Fortress",
+   "items": [
+    "Battle Axe"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Orc_Berserker",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Berserker"
+  },
+  "Orc Shaman": {
+   "exp": 110,
+   "hp": 115,
+   "lvl": "8+",
+   "loc": "",
+   "items": [
+    "Wand of Decay"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Orc_Shaman",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Shaman"
+  },
+  "Orc Warlord": {
+   "exp": 670,
+   "hp": 950,
+   "lvl": "40+",
+   "loc": "Orc Fortress",
+   "items": [
+    "Plate Armor",
+    "Plate Legs"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Orc_Warlord",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Warlord"
+  },
+  "Orc Warrior": {
+   "exp": 50,
+   "hp": 125,
+   "lvl": "8+",
+   "loc": "Orc Fortress / Ulderek's Rock",
+   "items": [
+    "Light Bandana"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Orc_Warrior",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Warrior"
+  },
+  "Pirat Cutthroat": {
+   "exp": 1800,
+   "hp": 2600,
+   "lvl": "70+",
+   "loc": "",
+   "items": [
+    "Crystal Sword"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Pirat_Cutthroat",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Pirat%20Cutthroat"
+  },
+  "Poacher": {
+   "exp": 70,
+   "hp": 90,
+   "lvl": "8+",
+   "loc": "",
+   "items": [
+    "Bow"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Poacher",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Poacher"
+  },
+  "Seacrest Serpent": {
+   "exp": 2900,
+   "hp": 3000,
+   "lvl": "100+",
+   "loc": "",
+   "items": [
+    "Wand of Defiance"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Seacrest_Serpent",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Seacrest%20Serpent"
+  },
+  "Spidris": {
+   "exp": 2600,
+   "hp": 3700,
+   "lvl": "100+",
+   "loc": "",
+   "items": [
+    "Calopteryx Cape"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Spidris",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Spidris"
+  },
+  "Spidris Elite": {
+   "exp": 4000,
+   "hp": 5000,
+   "lvl": "120+",
+   "loc": "",
+   "items": [
+    "Calopteryx Cape"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Spidris_Elite",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Spidris%20Elite"
+  },
+  "Tarantula": {
+   "exp": 120,
+   "hp": 225,
+   "lvl": "15+",
+   "loc": "Port Hope (Tiquanda)",
+   "items": [
+    "Brass Legs"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Tarantula",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Tarantula"
+  },
+  "Valkyrie": {
+   "exp": 85,
+   "hp": 190,
+   "lvl": "8+",
+   "loc": "Amazon Camp (Venore)",
+   "items": [
+    "Chain Armor",
+    "Spear"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Valkyrie",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Valkyrie"
+  },
+  "Wailing Widow": {
+   "exp": 450,
+   "hp": 850,
+   "lvl": "40+",
+   "loc": "Zao",
+   "items": [
+    "Zaoan Halberd"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Wailing_Widow",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wailing%20Widow"
+  },
+  "Warlock": {
+   "exp": 4000,
+   "hp": 3500,
+   "lvl": "90+",
+   "loc": "",
+   "items": [
+    "Lightning Robe"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Warlock",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Warlock"
+  },
+  "Wiggler": {
+   "exp": 900,
+   "hp": 1200,
+   "lvl": "80+",
+   "loc": "",
+   "items": [
+    "Crystalline Arrow"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Wiggler",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wiggler"
+  },
+  "Witch": {
+   "exp": 120,
+   "hp": 300,
+   "lvl": "15+",
+   "loc": "",
+   "items": [
+    "Necrotic Rod"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Witch",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Witch"
+  },
+  "Wyrm": {
+   "exp": 1550,
+   "hp": 1825,
+   "lvl": "50+",
+   "loc": "Liberty Bay / Drefia",
+   "items": [
+    "Composite Hornbow",
+    "Focus Cape"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Wyrm",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wyrm"
+  },
+  "Wyvern": {
+   "exp": 515,
+   "hp": 795,
+   "lvl": "35+",
+   "loc": "",
+   "items": [
+    "Wyvern Fang"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Wyvern",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wyvern"
+  },
+  "Zombie": {
+   "exp": 280,
+   "hp": 500,
+   "lvl": "25+",
+   "loc": "",
+   "items": [
+    "Steel Helmet"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Zombie",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Zombie"
+  }
+ }
+}

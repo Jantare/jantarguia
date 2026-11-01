@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Jantar Guia</title>
+<meta name="description" content="Guia de Tibia por vocação e level: qual equipamento usar, qual monstro dropa, chance de drop e NPC que vende. Com seções para servidores como o HeroOT.">
+<meta property="og:title" content="Jantar Guia">
+<meta property="og:description" content="Qual equipamento usar em cada level do Tibia e onde ele dropa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="bar"><div class="wrap">
+  <div class="top">
+    <a class="brand" href="#knight"><span class="brand-name">Jantar Guia</span><span class="by">por <b id="criador">Jantar</b></span></a>
+    <div class="ctrls">
+      <label class="field" for="srv">Servidor
+        <select id="srv"><option value="">Tibia (base)</option></select>
+      </label>
+      <label class="field" for="mylvl">Seu level
+        <input id="mylvl" type="number" inputmode="numeric" min="1" max="3000" placeholder="ex: 92">
+      </label>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs" aria-label="Seções"></nav>
+  <div class="chips" id="chips" hidden></div>
+</div></header>
+
+<main><div class="wrap" id="view"><p class="loading">Carregando o guia…</p></div></main>
+
+<footer class="foot"><div class="wrap" id="foot"></div></footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+ "id": "heroot",
+ "nome": "HeroOT",
+ "site": "https://hero-ot.com",
+ "status": "Beta em 06/11/2026",
+ "resumo": "Servidor com mapa do Tibia oficial e experiência por estágios: sobe rápido no começo e vai desacelerando com o level.",
+ "sistemas": [
+  {
+   "nome": "Hunt Finder",
+   "texto": "Mostra onde caçar de acordo com o seu level. Use junto com esta página: o Hunt Finder diz onde caçar, o Jantar Guia mostra o que vestir e de onde vem cada item."
+  },
+  {
+   "nome": "RTC (auto-uso)",
+   "texto": "Sistema do próprio cliente que usa poção, cura e magias de forma automática. Guia de configuração por vocação em breve."
+  },
+  {
+   "nome": "Outfits com bônus",
+   "texto": "Algumas outfits dão buff. Lista de outfits, bônus e como conseguir em breve, conferido no beta."
+  },
+  {
+   "nome": "Sistema de treino",
+   "texto": "Sistema próprio de treino de skills. Detalhes em breve, conferido no beta."
+  }
+ ],
+ "itens": {},
+ "monstros": {}
+}

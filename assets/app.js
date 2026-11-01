@@ -9,8 +9,8 @@
   const img = (src, cls) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : "";
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
-  const st = { view: "inicio", qfilter: "todas", weapon: "todas", level: null, srv: "" };
-  let SITE, BASE, QUESTS, SERVERS = {};
+  const st = { view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "todas", level: null, srv: "" };
+  let SITE, BASE, QUESTS, LOOK, SERVERS = {};
 
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -34,6 +34,7 @@
   function views() {
     const v = [{ id: "inicio", nome: "Início" }, ...BASE.vocacoes.map(x => ({ id: x.id, nome: x.nome }))];
     v.push({ id: "quests", nome: "Quests" });
+    v.push({ id: "outfits", nome: "Outfits e montarias" });
     v.push({ id: "monstros", nome: "Monstros" });
     if (st.srv) v.push({ id: st.srv, nome: SERVERS[st.srv].nome, srv: true });
     return v;
@@ -124,24 +125,60 @@
   function questsView() {
     const itemImg = {};
     BASE.vocacoes.forEach(v => v.itens.forEach(i => { if (i.img) itemImg[i.item] = i.img; }));
-    const nOut = QUESTS.faixas.reduce((a, f) => a + f.quests.filter(q => q.outfit).length, 0);
+    const nOut = QUESTS.faixas.reduce((a, f) => a + f.quests.filter(q => q.outfit || q.montaria).length, 0);
     const only = st.qfilter === "outfit";
     return `<div class="page-h"><h1>Quests por level</h1>
-      <p class="intro">As quests que os guias da comunidade mais recomendam, na ordem em que vale fazer. Cada uma mostra o que libera e quais itens do Jantar Guia vêm dela. As que dão outfit estão destacadas em dourado.</p></div>
-      <div class="chips"><button class="chip" type="button" data-q="todas" aria-pressed="${!only}">Todas as quests</button><button class="chip chip-outfit" type="button" data-q="outfit" aria-pressed="${only}">Só as que dão outfit (${nOut})</button></div>
-      ${QUESTS.faixas.map(f => ({ ...f, quests: only ? f.quests.filter(q => q.outfit) : f.quests })).filter(f => f.quests.length).map(f => `<section class="tier">
+      <p class="intro">As quests que os guias da comunidade mais recomendam, na ordem em que vale fazer. Cada uma mostra o que libera e quais itens do Jantar Guia vêm dela. As que dão outfit ou montaria estão destacadas em dourado, com a imagem.</p></div>
+      <div class="chips"><button class="chip" type="button" data-q="todas" aria-pressed="${!only}">Todas as quests</button><button class="chip chip-outfit" type="button" data-q="outfit" aria-pressed="${only}">Só as que dão outfit ou montaria (${nOut})</button></div>
+      ${QUESTS.faixas.map(f => ({ ...f, quests: only ? f.quests.filter(q => q.outfit || q.montaria) : f.quests })).filter(f => f.quests.length).map(f => `<section class="tier">
         <div class="tier-h"><span class="lvl-badge">${esc(f.faixa)}</span><span class="rule"></span></div>
         <p class="intro">${esc(f.desc)}</p>
-        <div class="grid">${f.quests.map(q => `<article class="card quest${q.outfit ? " has-outfit" : ""}">
-          ${q.outfit ? `<div class="outfit-badge"><span class="outfit-ico" aria-hidden="true">✦</span><span><small>Dá a outfit</small><b>${esc(q.outfit)}</b></span></div>` : ""}
-          <div class="q-head"><a class="name" href="${esc(q.wiki)}" target="_blank" rel="noopener">${esc(q.nome)}</a><span class="req">lvl ${esc(q.lvl)}</span></div>
+        <div class="grid">${f.quests.map(q => `<article class="card quest${q.outfit || q.montaria ? " has-outfit" : ""}">
+          ${q.outfit ? `<div class="outfit-badge">${q.outfit_img ? `<span class="badge-pic">${img(q.outfit_img)}</span>` : `<span class="outfit-ico" aria-hidden="true">✦</span>`}<span><small>Dá a outfit</small><b>${esc(q.outfit)}</b></span></div>` : ""}
+          ${q.montaria ? `<div class="outfit-badge mount-badge">${q.montaria_img ? `<span class="badge-pic">${img(q.montaria_img)}</span>` : ""}<span><small>Dá a montaria</small><b>${esc(q.montaria)}</b><em>${esc(q.montaria_como || "")}</em></span></div>` : ""}
+          <div class="q-head"><span class="name">${esc(q.nome)}</span><span class="req">lvl ${esc(q.lvl)}</span></div>
           <div class="path-tags">${q.tags.map(t => `<span class="pill">${esc(t)}</span>`).join("")}</div>
           <p class="q-txt">${esc(q.txt)}</p>
           ${q.limite ? `<div class="q-warn">${esc(q.limite)}</div>` : ""}
+          ${q.det ? `<details class="q-det"><summary>Ver detalhes da quest</summary><dl>
+            <div><dt>Level mínimo</dt><dd>${esc(q.det.min)}</dd></div>
+            <div><dt>Recomendado</dt><dd>${esc(q.det.rec)}</dd></div>
+            <div><dt>Premium</dt><dd>${esc(q.det.prem)}</dd></div>
+            <div class="wide"><dt>Onde é</dt><dd>${esc(q.det.onde)}</dd></div>
+            <div class="wide"><dt>Recompensa</dt><dd>${esc(q.det.recompensa)}</dd></div>
+            <div class="wide"><dt>O que você vai enfrentar</dt><dd>${esc(q.det.perigos)}</dd></div>
+          </dl></details>` : ""}
           ${q.itens && q.itens.length ? `<div class="how"><span class="how-t">Itens do guia que vêm daqui</span><div class="q-items">${q.itens.map(n => `<span class="q-item">${img(itemImg[n], "q-ico")}${esc(n)}</span>`).join("")}</div></div>` : ""}
         </article>`).join("")}</div>
       </section>`).join("")}
-      <p class="foot-note">Fontes: ${QUESTS.fontes.map(esc).join(", ")}. Os levels são os recomendados pela comunidade; confira o mínimo de cada quest na TibiaWiki.</p>`;
+      <p class="foot-note">Fontes: ${QUESTS.fontes.map(esc).join(", ")}. O level do selo é o recomendado; o mínimo oficial está em "Ver detalhes da quest".</p>`;
+  }
+
+  function lookView() {
+    const isM = st.look === "montarias";
+    const list = isM ? LOOK.montarias : LOOK.outfits;
+    const cats = isM ? ["todas", ...new Set(list.map(x => x.cat))] : ["todas", "Quest", "Especial", "Premium", "Básica", "Loja"];
+    const key = isM ? "cat" : "grupo";
+    const q = st.lookQ.trim().toLowerCase();
+    let items = list.filter(x => (st.lookCat === "todas" ? (isM || x.grupo !== "Loja") : x[key] === st.lookCat) && (!q || x.nome.toLowerCase().includes(q) || x.como.toLowerCase().includes(q)));
+    const labels = { todas: isM ? "Todas" : "Todas (sem loja)", Quest: "De quest", Especial: "Especiais", Premium: "Premium", "Básica": "Básicas", Loja: "Loja (Tibia Coins)" };
+    const count = c => c === "todas" ? (isM ? list.length : list.filter(x => x.grupo !== "Loja").length) : list.filter(x => x[key] === c).length;
+    return `<div class="page-h"><h1>Outfits e montarias</h1>
+      <p class="intro">Como conseguir cada montaria e cada outfit jogando. As da loja ficam separadas, para você ver primeiro o que dá para conseguir sem gastar Tibia Coins.</p></div>
+      <div class="chips look-switch"><button class="chip" type="button" data-look="montarias" aria-pressed="${isM}">Montarias (${LOOK.montarias.length})</button><button class="chip" type="button" data-look="outfits" aria-pressed="${!isM}">Outfits (${LOOK.outfits.length})</button></div>
+      <div class="look-bar">
+        <div class="chips">${cats.map(c => `<button class="chip" type="button" data-lcat="${esc(c)}" aria-pressed="${st.lookCat === c}">${esc(labels[c] || c)} (${count(c)})</button>`).join("")}</div>
+        <label class="field look-search" for="lookq">Buscar <input id="lookq" type="search" placeholder="${isM ? "ex: Draptor" : "ex: Norseman"}" value="${esc(st.lookQ)}"></label>
+      </div>
+      ${items.length ? `<div class="grid look-grid">${items.map(x => `<article class="card look">
+        <div class="head"><span class="slot big look-slot">${img(x.img)}</span><div class="head-txt">
+          <span class="meta">${esc(isM ? x.cat : (x.grupo === "Loja" ? "Loja" : "Outfit " + x.grupo.toLowerCase()))}${!isM && x.premium ? " · Premium" : ""}</span>
+          <span class="name">${esc(x.nome)}</span>
+        </div></div>
+        <p class="q-txt">${esc(x.como)}</p>
+        ${!isM && x.achievement && x.achievement !== "None" ? `<div class="line"><b>Achievement:</b> ${esc(x.achievement)}</div>` : ""}
+      </article>`).join("")}</div>` : `<p class="intro">Nada encontrado com esse filtro.</p>`}
+      <p class="foot-note">Fonte: ${esc(LOOK.fonte)}.</p>`;
   }
 
   function serverView(s) {
@@ -190,6 +227,7 @@
           return `<a class="voc" href="#${esc(v.id)}">${slot(i.icon, true)}<span class="voc-txt"><span class="name">${esc(v.nome)}</span><span class="voc-desc">${esc(i.txt || "")}</span></span></a>`;
         }).join("")}
           <a class="voc" href="#quests">${slot("img/itens/falcon-shield.webp", true)}<span class="voc-txt"><span class="name">Quests por level</span><span class="voc-desc">As quests que mais valem a pena em cada faixa: acessos, descontos, bosses e itens.</span></span></a>
+          <a class="voc" href="#outfits">${slot("img/montarias/draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
           <a class="voc" href="#monstros">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
         </div>
       </section>`;
@@ -201,6 +239,7 @@
     document.body.classList.toggle("is-home", st.view === "inicio");
     if (st.view === "inicio") v.innerHTML = homeView();
     else if (st.view === "quests") v.innerHTML = questsView();
+    else if (st.view === "outfits") v.innerHTML = lookView();
     else if (st.view === "monstros") v.innerHTML = monstersView();
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
     else v.innerHTML = vocationView(BASE.vocacoes.find(x => x.id === st.view) || BASE.vocacoes[0]);
@@ -225,6 +264,10 @@
   document.addEventListener("click", e => {
     const w = e.target.closest("[data-w]");
     if (w) { st.weapon = w.dataset.w; render(); }
+    const lk = e.target.closest("[data-look]");
+    if (lk) { st.look = lk.dataset.look; st.lookCat = "todas"; render(); }
+    const lc = e.target.closest("[data-lcat]");
+    if (lc) { st.lookCat = lc.dataset.lcat; render(); }
     const qf = e.target.closest("[data-q]");
     if (qf) { st.qfilter = qf.dataset.q; render(); }
     if (e.target.closest("[data-go-base]")) {
@@ -248,7 +291,7 @@
     themeLabel();
     try {
       const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
-      [SITE, BASE, QUESTS] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json")]);
+      [SITE, BASE, QUESTS, LOOK] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json")]);
       const list = await Promise.all(SITE.servidores.map(id => get(`data/servidores/${id}.json`)));
       list.forEach(s => SERVERS[s.id] = s);
     } catch (e) {
@@ -263,6 +306,11 @@
       st.srv = e.target.value; store.set("srv", st.srv);
       if (!st.srv && !views().some(v => v.id === st.view)) location.hash = "inicio";
       render();
+    });
+    document.addEventListener("input", e => {
+      if (e.target.id !== "lookq") return;
+      st.lookQ = e.target.value; const pos = e.target.selectionStart; render();
+      const el = $("#lookq"); if (el) { el.focus(); el.setSelectionRange(pos, pos); }
     });
     $("#mylvl").addEventListener("input", e => {
       const v = parseInt(e.target.value); st.level = v > 0 ? v : null; store.set("lvl", st.level || ""); render();

@@ -1,8 +1,8 @@
 {
  "fontes": [
+  "TibiaWiki (resumo traduzido)",
   "Guia de quests recomendadas da comunidade r/TibiaMMO",
-  "TibiaQA (tibiaqa.com)",
-  "TibiaWiki"
+  "TibiaQA"
  ],
  "faixas": [
   {
@@ -17,7 +17,14 @@
      ],
      "txt": "Quest curta de começo de jogo. A recompensa em dinheiro só é paga até o level 25.",
      "limite": "Só até o level 25",
-     "wiki": "https://tibia.fandom.com/wiki/The_Pilgrimage_of_Ashes"
+     "det": {
+      "min": "—",
+      "rec": "15",
+      "prem": "Sim",
+      "onde": "Começa com o guia de qualquer cidade e passa por vários lugares do Tibia.",
+      "recompensa": "Todas as bênçãos com 1.000 gold de desconto (só uma vez) e 20 platinum coins.",
+      "perigos": "Rats, wolves, spiders, dwarves, dwarf soldiers e campos de fogo."
+     }
     },
     {
      "nome": "Killing in the Name of...",
@@ -28,17 +35,14 @@
      ],
      "txt": "Tasks de caçar monstros (Grizzly Adams). Cada task tem faixa de level: dá pontos de task e acesso a bosses. Comece cedo para pegar as tasks fáceis.",
      "limite": "Cada task tem level máximo",
-     "wiki": "https://tibia.fandom.com/wiki/Killing_in_the_Name_of..."
-    },
-    {
-     "nome": "The Turmoil of War",
-     "lvl": "até 39",
-     "tags": [
-      "Task"
-     ],
-     "txt": "Task dos minotauros. Precisa começar antes do level 40.",
-     "limite": "Começar antes do level 40",
-     "wiki": "https://tibia.fandom.com/wiki/The_Turmoil_of_War"
+     "det": {
+      "min": "varia",
+      "rec": "varia",
+      "prem": "Sim",
+      "onde": "Com o NPC Grizzly Adams; as caças são em vários lugares.",
+      "recompensa": "Experiência e dinheiro, acesso a bosses, poder negociar com o Grizzly Adams, viagem para Tiquanda com o Lorek, o Holy Icon e 31 achievements.",
+      "perigos": "Muitos monstros do mesmo tipo por task."
+     }
     }
    ]
   },
@@ -53,7 +57,14 @@
       "Desconto"
      ],
      "txt": "Deixa encomendas, cartas e passagens de barco mais baratas pelo resto do jogo.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Postman_Missions"
+     "det": {
+      "min": "—",
+      "rec": "25",
+      "prem": "Sim",
+      "onde": "Começa no escritório do Kevin, sede dos Correios do Tibia, e passa pelo mapa todo.",
+      "recompensa": "Encomenda a 10 gp, carta a 5 gp e barco 10 gp mais barato; 6 mil de desconto na Thieves Guild; uso de caixas de correio trancadas, Post Officer's Hat, Post Horn e o achievement Archpostman.",
+      "perigos": "Pouco risco até o final: goblins, esqueletos, criaturas das Ice Islands, dwarves, trolls, orcs e minotauros."
+     }
     },
     {
      "nome": "The Barbarian Test Quest",
@@ -62,7 +73,14 @@
       "Acesso"
      ],
      "txt": "Cidadania de Svargrond e viagem pelo NPC Buddel. Abre o caminho das Ice Islands.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Barbarian_Test_Quest"
+     "det": {
+      "min": "—",
+      "rec": "25",
+      "prem": "Sim",
+      "onde": "Svargrond.",
+      "recompensa": "Mead Horn, poder lutar na Arena de Svargrond, virar cidadão de Svargrond, viajar com o Buddel e começar a Ice Islands Quest.",
+      "perigos": "Pinguins, winter wolves, polar bears e mammoths."
+     }
     },
     {
      "nome": "The Travelling Trader Quest",
@@ -71,7 +89,14 @@
       "Venda de loot"
      ],
      "txt": "Libera vender itens para o Rashid, um dos NPCs que mais compram loot.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Travelling_Trader_Quest"
+     "det": {
+      "min": "—",
+      "rec": "50",
+      "prem": "Sim",
+      "onde": "Svargrond, Liberty Bay, Port Hope, Ankrahmun, Darashia, Edron e Carlin, com missões no Outlaw Camp, Kazordoon, Ab'Dendriel e Tiquanda.",
+      "recompensa": "Poder negociar com o Rashid e o achievement Recognised Trader.",
+      "perigos": "Muda conforme o dia: smugglers, wild warriors, bandits, nomads e criaturas de Tiquanda."
+     }
     },
     {
      "nome": "The Thieves Guild Quest",
@@ -80,7 +105,14 @@
       "Venda de loot"
      ],
      "txt": "Libera negociar com o Black Bert.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Thieves_Guild_Quest"
+     "det": {
+      "min": "—",
+      "rec": "70",
+      "prem": "Sim",
+      "onde": "Thais, Carlin, Outlaw Camp, Venore, Port Hope, Liberty Bay e Dark Cathedral.",
+      "recompensa": "Poder negociar com o Black Bert e um item à escolha: Modified Crossbow, Spellbook of Warding ou Assassin Dagger.",
+      "perigos": "Ghouls, elephants, smugglers, bandits, tarantulas, assassins, dark monks, witches, ghosts, mummies e dark magicians."
+     }
     },
     {
      "nome": "The Djinn War",
@@ -94,16 +126,33 @@
       "Royal Spear",
       "Magma Monocle"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_Djinn_War"
+     "det": {
+      "min": "40",
+      "rec": "50",
+      "prem": "Sim",
+      "onde": "Ashta'daramai, a fortaleza dos Djinns azuis (lado Marid). O lado Efreet é parecido.",
+      "recompensa": "3 Small Sapphires, Gemmed Lamp, poder negociar com Nah'Bob e Haroun, caçar os Djinns do lado rival em Ankrahmun e Yalahar e fazer a task deles.",
+      "perigos": "Green djinns, efreets, dragon, orc warlords e leaders, gargoyles, stone golems e um wyvern no caminho."
+     }
     },
     {
      "nome": "The Shattered Isles",
      "lvl": "35+",
      "tags": [
-      "Acesso"
+      "Acesso",
+      "Outfit"
      ],
      "txt": "Viagem para Goroma e acesso a Meriana, Laguna, Nargor e Ramoa.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Shattered_Isles"
+     "det": {
+      "min": "20",
+      "rec": "65",
+      "prem": "Sim",
+      "onde": "Liberty Bay, Meriana, Goroma, Nargor e Edron.",
+      "recompensa": "Viagem a Goroma e acesso a Meriana, Laguna, Nargor, Ramoa, Talahu, Malada, ao covil do Morgaroth e à cidadela do Ferumbras; Model Ship e outfit Pirate.",
+      "perigos": "Piratas de todos os tipos, witches, bonelords, thornback tortoises, tarantulas e island trolls."
+     },
+     "outfit": "Pirate",
+     "outfit_img": "img/outfits/pirate.webp"
     }
    ]
   },
@@ -119,8 +168,16 @@
       "Outfit"
      ],
      "txt": "Outfit Norseman e acesso a Formorgar, Helheim, Tyrsung e Inukaya.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Ice_Islands_Quest",
-     "outfit": "Norseman"
+     "outfit": "Norseman",
+     "det": {
+      "min": "—",
+      "rec": "130",
+      "prem": "Sim",
+      "onde": "Svargrond.",
+      "recompensa": "Outfit Norseman, acesso às Formorgar Mines, Helheim e Tyrsung, trenó de Nibelor a Inukaya e cidadania de Svargrond.",
+      "perigos": "Criaturas das Ice Islands, cultistas e, no fim, muitos demônios."
+     },
+     "outfit_img": "img/outfits/norseman.webp"
     },
     {
      "nome": "The Explorer Society Quest",
@@ -129,7 +186,14 @@
       "Acesso"
      ],
      "txt": "Acesso a Calassa e à Frozen Trench, e teleportes úteis.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Explorer_Society_Quest"
+     "det": {
+      "min": "—",
+      "rec": "110",
+      "prem": "Sim",
+      "onde": "Começa em Port Hope ou Northport e passa pelo mapa todo.",
+      "recompensa": "Ice Pick, Spectral Stone, 6 Orichalcum Pearls, Crown Backpack e 5.250 gp; teleportes Port Hope ↔ Northport e Liberty Bay ↔ Svargrond; viagem para Calassa e Frozen Trench e caça embaixo d'água.",
+      "perigos": "Rats, dwarves, orcs, minotauros, lizards, apes, priestesses, demon skeletons e muitos outros."
+     }
     },
     {
      "nome": "The Ape City",
@@ -139,8 +203,16 @@
       "Outfit"
      ],
      "txt": "Outfit Shaman e acesso às Forbidden Lands e à parte funda de Banuta.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Ape_City",
-     "outfit": "Shaman"
+     "outfit": "Shaman",
+     "det": {
+      "min": "—",
+      "rec": "130",
+      "prem": "Sim",
+      "onde": "Começa em Tiquanda e passa por vários lugares.",
+      "recompensa": "Cura com o Hairycles, comprar bananas, as 3 Monkey Statues, outfit Shaman e acesso às Forbidden Lands e à Banuta profunda.",
+      "perigos": "Dworcs, apes, lizards, ghouls, fire devils, scarabs, carniphilas, gargoyles, stone golems, bonelords e demônios no final."
+     },
+     "outfit_img": "img/outfits/shaman.webp"
     },
     {
      "nome": "Blood Brothers Quest",
@@ -150,8 +222,16 @@
       "Outfit"
      ],
      "txt": "Acesso ao castelo de Vengoth.",
-     "wiki": "https://tibia.fandom.com/wiki/Blood_Brothers_Quest",
-     "outfit": "Yalaharian (addon)"
+     "outfit": "Yalaharian (addon)",
+     "det": {
+      "min": "40",
+      "rec": "70",
+      "prem": "Sim",
+      "onde": "Yalahar e Vengoth.",
+      "recompensa": "Acesso a Vengoth e ao castelo, Vampiric Crest ou addon da outfit Yalaharian, 13.200 de experiência e um Blood Goblet.",
+      "perigos": "Vampiros, scorpions, tarantulas, haunted treelings, demon skeletons, bonelords, banshees, giant spiders e hellspawns."
+     },
+     "outfit_img": "img/outfits/yalaharian.webp"
     },
     {
      "nome": "The New Frontier Quest",
@@ -166,12 +246,20 @@
       "Zaoan Shoes",
       "Drakinata"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_New_Frontier_Quest",
-     "outfit": "Warmaster"
+     "outfit": "Warmaster",
+     "det": {
+      "min": "77 (só na última missão)",
+      "rec": "110",
+      "prem": "Sim",
+      "onde": "Farmine, Zao, Kazordoon, Edron, Venore, Thais, Port Hope e Isle of Strife.",
+      "recompensa": "Tome of Knowledge, Piggy Bank, 2 Gold Ingots, 3 poções especiais, acesso ao sul e ao centro de Zao e a outfit Warmaster.",
+      "perigos": "Wolves, stone golems, sandcrawlers, insect swarms, dragon hatchlings e lizards."
+     },
+     "outfit_img": "img/outfits/warmaster.webp"
     },
     {
      "nome": "The Svargrond Arena",
-     "lvl": "60+",
+     "lvl": "30+",
      "tags": [
       "Item"
      ],
@@ -179,16 +267,33 @@
      "itens": [
       "Heroic Axe"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_Svargrond_Arena"
+     "det": {
+      "min": "—",
+      "rec": "30",
+      "prem": "Sim",
+      "onde": "Svargrond (precisa da Barbarian Test Quest).",
+      "recompensa": "Em cada dificuldade (Greenhorn, Scrapper e Warlord), um prêmio à escolha entre 5, mais um troféu. O Heroic Axe é uma das opções do Scrapper.",
+      "perigos": "Os campeões da arena: Frostfur, Bloodpaw, Bovinus, Achad, Colerian, Cursed Gladiator, Orcus the Cruel e outros."
+     }
     },
     {
      "nome": "The Annihilator Quest",
      "lvl": "100",
      "tags": [
-      "Item"
+      "Item",
+      "Outfit"
      ],
-     "txt": "Quest clássica em grupo de 4. Dá a Demon Armor e uma arma à escolha.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Annihilator_Quest"
+     "txt": "Quest clássica em grupo de 4. Dá a outfit Demon e um prêmio à escolha, entre eles a Demon Armor e a Magic Sword.",
+     "det": {
+      "min": "100",
+      "rec": "130",
+      "prem": "Sim",
+      "onde": "Hero Cave, em Edron. Precisa de grupo de 4.",
+      "recompensa": "Outfit Demon e um prêmio à escolha: Magic Sword, Demon Armor, Stonecutter Axe ou uma caixa com o Annihilation Bear. Achievement Annihilator.",
+      "perigos": "Hunters, demon skeletons, wild warriors e heroes no caminho; na sala final, angry demons e fire elementals."
+     },
+     "outfit": "Demon",
+     "outfit_img": "img/outfits/demon.webp"
     }
    ]
   },
@@ -210,8 +315,16 @@
       "Zaoan Helmet",
       "Zaoan Sword"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Wrath_of_the_Emperor",
-     "outfit": "Wayfarer"
+     "outfit": "Wayfarer",
+     "det": {
+      "min": "80 (porta na missão 8)",
+      "rec": "130",
+      "prem": "Sim",
+      "onde": "Zao (Rebel Camp e Razachai) e Banuta.",
+      "recompensa": "Um item à escolha (Elite Draken Helmet, Royal Draken Mail, Royal Scale Robe ou Merudri Scale Mail), vários itens de valor, acesso e teleportes para Razachai, Rebel Camp e Inner Sanctum, e a outfit Wayfarer.",
+      "perigos": "Lizards fortes, drakens, undead e ghastly dragons, dragon lords, demons e serpent spawns."
+     },
+     "outfit_img": "img/outfits/wayfarer.webp"
     },
     {
      "nome": "Bigfoot's Burden Quest",
@@ -220,7 +333,14 @@
       "Acesso"
      ],
      "txt": "Teleportes dos gnomos e Warzones 1 a 3. É o começo do caminho para os Warzones 4 a 6.",
-     "wiki": "https://tibia.fandom.com/wiki/Bigfoot%27s_Burden_Quest"
+     "det": {
+      "min": "80",
+      "rec": "120",
+      "prem": "Parcial",
+      "onde": "Gnomegate e Gnomebase Alpha.",
+      "recompensa": "Teleportes de cristal dos gnomos, acesso às áreas de caça deles e aos Warzones, 24 achievements e tokens para trocar por prêmios.",
+      "perigos": "Wyverns, earth elementals, crystal crushers, wigglers, fire elementals, wyrms e vulcongras."
+     }
     },
     {
      "nome": "The Pits of Inferno Quest",
@@ -230,7 +350,14 @@
       "Acesso"
      ],
      "txt": "Dá uma arma forte à escolha e é necessária para a Inquisition.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Pits_of_Inferno_Quest"
+     "det": {
+      "min": "80",
+      "rec": "130",
+      "prem": "Sim",
+      "onde": "Pits of Inferno, embaixo das Plains of Havoc, perto da Necromant House.",
+      "recompensa": "Atalho do Hub, poder terminar a Inquisition, 100 platinum coins, Soft Boots, Backpack of Holding com emblemas, Frozen Starlight e uma arma à escolha (como Arcane Staff ou Avenger).",
+      "perigos": "Spectres, hand of cursed fate, demons, dark torturers, hellhounds, defilers, destroyers, lost souls e plaguesmiths."
+     }
     },
     {
      "nome": "The Inquisition Quest",
@@ -240,8 +367,16 @@
       "Bênçãos"
      ],
      "txt": "Outfit Demon Hunter e permite comprar as 5 bênçãos num lugar só.",
-     "wiki": "https://tibia.fandom.com/wiki/The_Inquisition_Quest",
-     "outfit": "Demon Hunter"
+     "outfit": "Demon Hunter",
+     "det": {
+      "min": "100",
+      "rec": "150",
+      "prem": "Parcial",
+      "onde": "Começa em Thais e passa por vários lugares.",
+      "recompensa": "Outfit Demon Hunter com addons, acesso às áreas fundas da Demon Forge, comprar a Blessing of the Inquisition, 3 achievements e uma arma à escolha (como Emerald Sword, Hellforged Axe, Obsidian Truncheon, Warsinger Bow ou Royal Crossbow).",
+      "perigos": "Juggernauts, lost souls, dark torturers, demons, behemoths, undead dragons, hellhounds e quaras."
+     },
+     "outfit_img": "img/outfits/demon-hunter.webp"
     },
     {
      "nome": "Dangerous Depths Quest",
@@ -257,7 +392,14 @@
       "Gnome Legs",
       "Gnomish Cuirass"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Dangerous_Depths_Quest"
+     "det": {
+      "min": "100",
+      "rec": "200",
+      "prem": "Sim",
+      "onde": "Gnome Deep Hub.",
+      "recompensa": "Imbuement Powerful Featherweight e achievements dos bosses dos Warzones 4 a 6, que dropam o set Gnome.",
+      "perigos": "Moles, lava lurkers, deepworms, drillworms, diremaws, cave devourers, lost exiles, elder wyrms e tunnel tyrants."
+     }
     },
     {
      "nome": "Rathleton Citizenship",
@@ -269,7 +411,14 @@
      "itens": [
       "Rubber Cap"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Rathleton_Citizenship"
+     "det": {
+      "min": "—",
+      "rec": "150",
+      "prem": "Sim",
+      "onde": "Rathleton (Oramond).",
+      "recompensa": "Votar nas decisões da cidade, teleportes dentro de Oramond, barco para Oramond saindo de mais cidades e 4 achievements.",
+      "perigos": "Nenhum."
+     }
     }
    ]
   },
@@ -282,21 +431,44 @@
      "lvl": "150+",
      "tags": [
       "Bosses",
-      "Outfit"
+      "Outfit",
+      "Montaria"
      ],
      "txt": "Outfit Rift Warrior, vários bosses e chance do Ferumbras' Hat.",
-     "wiki": "https://tibia.fandom.com/wiki/Ferumbras%27_Ascension",
-     "outfit": "Rift Warrior"
+     "outfit": "Rift Warrior",
+     "det": {
+      "min": "150",
+      "rec": "250",
+      "prem": "Sim",
+      "onde": "Darashia e as masmorras dos Ruthless Seven.",
+      "recompensa": "Outfit Rift Warrior, 5 Silver Tokens, decorações e 10 Crystal Coins, além da chance do Ferumbras' Hat no Ferumbras.",
+      "perigos": "Vexclaws, hellflayers, grimeleeches, plaguesmiths, phantasms, furies, juggernauts e destroyers."
+     },
+     "outfit_img": "img/outfits/rift-warrior.webp",
+     "montaria": "Rift Runner",
+     "montaria_como": "Use o Mysterious Scroll, que pode cair do Ferumbras.",
+     "montaria_img": "img/montarias/rift-runner.webp"
     },
     {
      "nome": "Heart of Destruction",
      "lvl": "150+",
      "tags": [
       "Bosses",
-      "Imbuement"
+      "Imbuement",
+      "Montaria"
      ],
      "txt": "Vários bosses, a montaria Sparkion e imbuements fortes (Powerful Strike, Void, Vampirism, Epiphany).",
-     "wiki": "https://tibia.fandom.com/wiki/Heart_of_Destruction"
+     "det": {
+      "min": "150",
+      "rec": "250",
+      "prem": "Sim",
+      "onde": "O Otherworld, pelos vórtices na Zao Steppe, Ankrahmun e Svargrond.",
+      "recompensa": "5 Gold Tokens, 200 mil gold, decorações, a montaria Sparkion e os imbuements Powerful Strike, Void, Vampirism e Epiphany.",
+      "perigos": "Breach broods, dread intruders, reality reavers, sparkions e os bosses do Otherworld."
+     },
+     "montaria": "Sparkion",
+     "montaria_como": "Use o Vibrant Egg que vem na recompensa.",
+     "montaria_img": "img/montarias/sparkion.webp"
     },
     {
      "nome": "Grimvale",
@@ -305,7 +477,14 @@
       "Bosses"
      ],
      "txt": "Libera os bosses dos werecreatures.",
-     "wiki": "https://tibia.fandom.com/wiki/Grimvale"
+     "det": {
+      "min": "—",
+      "rec": "100",
+      "prem": "Sim",
+      "onde": "Grimvale, Edron, Venore, Cormaya, Darashia, Lion Sanctum, Ankrahmun e Oskayaat.",
+      "recompensa": "Lutar contra a Feroxa, o Foxtail Amulet, atalhos para o Lion Sanctum, negociar com o Domizian e decorações.",
+      "perigos": "Werecreatures: werebadger, werebear, wereboar, werewolf, werefox e a Feroxa."
+     }
     },
     {
      "nome": "The Dream Courts",
@@ -326,8 +505,16 @@
       "Dark Whispers",
       "Dark Vision Bandana"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_Dream_Courts",
-     "outfit": "Dream Warrior"
+     "outfit": "Dream Warrior",
+     "det": {
+      "min": "250",
+      "rec": "250",
+      "prem": "Sim",
+      "onde": "Edron, Feyrist, Tyrsung, Tiquanda, Outlaw Camp, Darama, as Cortes de Verão e Inverno e o Dream Labyrinth.",
+      "recompensa": "Acesso às Cortes de Verão e Inverno e ao Dream Labyrinth, imbuement Powerful Vibrancy nas botas, 5 achievements e a outfit Dream Warrior.",
+      "perigos": "Crazed summer e winter rearguards e vanguards, insane sirens, soul-broken harbingers e ripper spectres."
+     },
+     "outfit_img": "img/outfits/dream-warrior.webp"
     }
    ]
   },
@@ -348,14 +535,23 @@
       "Soulful Legs",
       "Jade Legs"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Feaster_of_Souls",
-     "outfit": "Poltergeist"
+     "outfit": "Poltergeist",
+     "det": {
+      "min": "250",
+      "rec": "300",
+      "prem": "Sim",
+      "onde": "Brain Grounds, Netherworld, Barren Drift e Zarganash.",
+      "recompensa": "Outfit Poltergeist e 2 achievements.",
+      "perigos": "Lost souls de vários tipos, evil e cursed prospectors e os minibosses da quest."
+     },
+     "outfit_img": "img/outfits/poltergeist.webp"
     },
     {
      "nome": "Grave Danger",
      "lvl": "250+",
      "tags": [
-      "Bosses"
+      "Bosses",
+      "Outfit"
      ],
      "txt": "Bosses como o King Zelos. Também abre a parte do Order of the Cobra.",
      "itens": [
@@ -364,7 +560,16 @@
       "Embrace of Nature",
       "Bear Skin"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Grave_Danger"
+     "det": {
+      "min": "250",
+      "rec": "300",
+      "prem": "Sim",
+      "onde": "Thais, Kilmaresh, Cobra Bastion e outros.",
+      "recompensa": "Outfit Hand of the Inquisition e o achievement Inquisition's Hand.",
+      "perigos": "As criaturas de Kilmaresh, os membros da Ordem da Cobra e vários bosses."
+     },
+     "outfit": "Hand of the Inquisition",
+     "outfit_img": "img/outfits/hand-of-the-inquisition.webp"
     },
     {
      "nome": "The Order of the Cobra",
@@ -382,7 +587,14 @@
       "Cobra Rod",
       "Cobra Bo"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_Order_of_the_Cobra"
+     "det": {
+      "min": "250",
+      "rec": "300",
+      "prem": "Sim",
+      "onde": "Cobra Bastion. Faz parte da Grave Danger: não precisa terminar a quest inteira para enfrentar a Scarlett.",
+      "recompensa": "Acesso à hunt e à boss Scarlett Etzel, que dropa o set Cobra.",
+      "perigos": "Cobra scouts, assassins e viziers, e os líderes Gaffir, Custodian e Guard Captain Quaid."
+     }
     },
     {
      "nome": "The Secret Library",
@@ -403,8 +615,16 @@
       "Falcon Rod",
       "Falcon Sai"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_Secret_Library",
-     "outfit": "Battle Mage"
+     "outfit": "Battle Mage",
+     "det": {
+      "min": "250",
+      "rec": "500 para os bosses da biblioteca",
+      "prem": "Sim",
+      "onde": "Cormaya, Asura Palace, Ancient Ancestorial Grounds, Falcon Bastion, Deep Desert, Extension Site e a Secret Library.",
+      "recompensa": "Acesso ao Falcon Bastion, Deep Desert, Deathlings, Extension Site, Asura Palace subterrâneo e à Secret Library, além da outfit Battle Mage.",
+      "perigos": "Asuras, deathlings, membros da Ordem do Falcão, skeleton elite warriors, retching horrors e hellhounds."
+     },
+     "outfit_img": "img/outfits/battle-mage.webp"
     },
     {
      "nome": "The Order of the Lion",
@@ -419,20 +639,38 @@
       "Lion Spellbook",
       "Lion Claws"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/The_Order_of_the_Lion"
+     "det": {
+      "min": "250",
+      "rec": "250",
+      "prem": "Sim",
+      "onde": "Bounac.",
+      "recompensa": "Achievement Lionheart, o título Hero of Bounac e poder matar os bosses que dropam o set Lion.",
+      "perigos": "Os membros da Ordem do Leão."
+     }
     },
     {
      "nome": "Within the Tides",
-     "lvl": "250+",
+     "lvl": "150+",
      "tags": [
-      "Bosses"
+      "Bosses",
+      "Montaria"
      ],
-     "txt": "Acesso ao boss Timira the Many-Headed. Precisa de grupo.",
+     "txt": "Acesso a Marapur, onde fica a boss Timira the Many-Headed (precisa de grupo).",
      "itens": [
       "Feverbloom Boots",
       "Dawnfire Pantaloons"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Within_the_Tides"
+     "det": {
+      "min": "—",
+      "rec": "150",
+      "prem": "Sim",
+      "onde": "Asura Palace e Marapur.",
+      "recompensa": "Acesso a Marapur (onde fica a Timira), Colourful Water Lily para domar o Giant Beaver, Lilypad Backpack e Naga Nest.",
+      "perigos": "Jungle moas, parders, foam stalkers, two-headed turtles, nagas e makaras."
+     },
+     "montaria": "Giant Beaver",
+     "montaria_como": "Use a Colourful Water Lily da recompensa em um Giant Beaver.",
+     "montaria_img": "img/montarias/giant-beaver.webp"
     },
     {
      "nome": "Forgotten Knowledge",
@@ -442,7 +680,14 @@
       "Imbuement"
      ],
      "txt": "Os bosses dos portais de Thais. Matar cada um uma vez libera imbuement nível 3.",
-     "wiki": "https://tibia.fandom.com/wiki/Forgotten_Knowledge"
+     "det": {
+      "min": "—",
+      "rec": "200",
+      "prem": "Sim",
+      "onde": "Halls of Hope e seis portais espalhados pelo Tibia.",
+      "recompensa": "Libera fazer imbuements e os imbuements fortes de proteção e dano elemental, skill, mana leech, life leech e crítico.",
+      "perigos": "Um tipo diferente em cada portal, como servants, necromancers, liches e undead gladiators."
+     }
     },
     {
      "nome": "Opticording Sphere",
@@ -451,7 +696,14 @@
       "Utilidade"
      ],
      "txt": "O 'cubo': um teleporte grátis para o templo a cada 2 horas.",
-     "wiki": "https://tibia.fandom.com/wiki/Opticording_Sphere"
+     "det": {
+      "min": "100",
+      "rec": "150",
+      "prem": "Sim",
+      "onde": "Ab'Dendriel, Horestis Tomb, Venore, Fiehonja, Gnomebase Alpha, Krailos, Gnome Deep Hub e The Cube.",
+      "recompensa": "The Supreme Cube (teleporte grátis a cada 2 horas), Lightsphere, Mysterious Metal Egg e o título Planegazer.",
+      "perigos": "Deeplings, wigglers, breach broods, ogros e servant replicas."
+     }
     }
    ]
   },
@@ -461,11 +713,12 @@
    "quests": [
     {
      "nome": "Soul War Quest",
-     "lvl": "400+",
+     "lvl": "250 (rec. 600)",
      "tags": [
       "Bosses",
       "Outfit",
-      "Item"
+      "Item",
+      "Montaria"
      ],
      "txt": "Outfit Revenant e um item aleatório do set Soul ao terminar (boss Goshnar's Megalomania).",
      "itens": [
@@ -477,16 +730,29 @@
       "Soulhexer",
       "Soulkamas"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Soul_War_Quest",
-     "outfit": "Revenant"
+     "outfit": "Revenant",
+     "det": {
+      "min": "250",
+      "rec": "600",
+      "prem": "Sim",
+      "onde": "Zarganash e as 5 áreas da quest (Claustrophobic Inferno, Rotten Wasteland, Ebb and Flow, Furious Crater e Mirrored Nightmare).",
+      "recompensa": "Um item aleatório do set Soul, a outfit Revenant e o achievement Soul Mender.",
+      "perigos": "Brachiodemons, infernal demons e phantoms e os bosses Goshnar."
+     },
+     "outfit_img": "img/outfits/revenant.webp",
+     "montaria": "Phantasmal Jade",
+     "montaria_como": "Depois da quest, junte as ferraduras, o tack e a sela espectrais.",
+     "montaria_img": "img/montarias/phantasmal-jade.webp"
     },
     {
      "nome": "Primal Ordeal Quest",
      "lvl": "400+",
      "tags": [
-      "Bosses"
+      "Bosses",
+      "Outfit",
+      "Montaria"
      ],
-     "txt": "Boss Magma Bubble, que dropa os sets Spiritthorn, Alicorn, Arcanomancer e Arboreal.",
+     "txt": "Boss Magma Bubble, que dropa os sets Spiritthorn, Alicorn, Arcanomancer e Arboreal. Dá a outfit Fire-Fighter e, nos níveis de perigo altos, a montaria Ripptor.",
      "itens": [
       "Spiritthorn Armor",
       "Alicorn Headguard",
@@ -494,13 +760,27 @@
       "Arboreal Crown",
       "Ethereal Coned Hat"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Primal_Ordeal_Quest"
+     "det": {
+      "min": "250",
+      "rec": "400",
+      "prem": "Sim",
+      "onde": "Gnomprona, Monster Graveyard, Crystal Enigma e Sparkling Pools.",
+      "recompensa": "Outfit Fire-Fighter. Nos níveis de perigo mais altos: a montaria Ripptor e um item aleatório do set Primal.",
+      "perigos": "Headpeckers, mantosaurus, mercurial menaces, ripptors, sulphiders e nighthunters."
+     },
+     "outfit": "Fire-Fighter",
+     "outfit_img": "img/outfits/fire-fighter.webp",
+     "montaria": "Ripptor",
+     "montaria_como": "Libere o nível de perigo 6 em Gnomprona.",
+     "montaria_img": "img/montarias/ripptor.webp"
     },
     {
      "nome": "Rotten Blood Quest",
-     "lvl": "500+",
+     "lvl": "250 (rec. 800)",
      "tags": [
-      "Bosses"
+      "Bosses",
+      "Outfit",
+      "Montaria"
      ],
      "txt": "Boss Bakragore, que dá os itens Sanguine, os melhores do guia.",
      "itens": [
@@ -512,7 +792,19 @@
       "Sanguine Claws",
       "Sanguine Legs"
      ],
-     "wiki": "https://tibia.fandom.com/wiki/Rotten_Blood_Quest"
+     "det": {
+      "min": "250",
+      "rec": "800",
+      "prem": "Sim",
+      "onde": "Blood Vestibule, Jaded Roots, Putrefactory, Gloom Pillars e Darklight Core.",
+      "recompensa": "Permissão para fazer Crimson Offerings e a outfit Decaying Defender. O boss Bakragore dá os itens Sanguine.",
+      "perigos": "Corpus, mycobiontic beetles, bloated man-maggots e as criaturas Darklight."
+     },
+     "outfit": "Decaying Defender",
+     "outfit_img": "img/outfits/decaying-defender.webp",
+     "montaria": "Spirit of Purity",
+     "montaria_como": "Use 4 Spiritual Horseshoes dos bosses depois de matar o Bakragore.",
+     "montaria_img": "img/montarias/spirit-of-purity.webp"
     }
    ]
   }

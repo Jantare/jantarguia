@@ -1,0 +1,1593 @@
+{
+ "fonte": "TibiaWiki (traduzido)",
+ "montarias": [
+  {
+   "nome": "Alpha Demonosaur",
+   "como": "Use um Demon in a Golden Box.",
+   "cat": "Item especial",
+   "img": "img/montarias/alpha-demonosaur.webp"
+  },
+  {
+   "nome": "Antelope",
+   "como": "Na tela de tasks (Hunting Task Shop), trocando 145.000 Hunting Task Points.",
+   "cat": "Task points",
+   "img": "img/montarias/antelope.webp"
+  },
+  {
+   "nome": "Ashen Coast Predator",
+   "como": "Na tela de tasks (Hunting Task Shop), trocando 145.000 Hunting Task Points.",
+   "cat": "Task points",
+   "img": "img/montarias/ashen-coast-predator.webp"
+  },
+  {
+   "nome": "Battlefrazzle",
+   "como": "Use Marinated Sturgeon em um Tamed Frazzlemaw.",
+   "cat": "Domar",
+   "img": "img/montarias/battlefrazzle.webp"
+  },
+  {
+   "nome": "Black Sheep",
+   "como": "Use Reins em um Black Sheep.",
+   "cat": "Domar",
+   "img": "img/montarias/black-sheep.webp"
+  },
+  {
+   "nome": "Blazebringer",
+   "como": "No evento Lightbearer, acenda as 10 bacias e peça um presente especial ao Santa Claus.",
+   "cat": "Evento",
+   "img": "img/montarias/blazebringer.webp"
+  },
+  {
+   "nome": "Blue Rolling Barrel",
+   "como": "Use um Beer Tap em um Super Cask com um Decorative Blue Sheet na mochila.",
+   "cat": "Domar",
+   "img": "img/montarias/blue-rolling-barrel.webp"
+  },
+  {
+   "nome": "Bright Percht Sleigh Variant",
+   "como": "Peça ao Frosty para melhorar o Bright Percht Sleigh entregando outra Percht Skull.",
+   "cat": "Evento",
+   "img": "img/montarias/bright-percht-sleigh-variant.webp"
+  },
+  {
+   "nome": "Bright Percht Sleigh",
+   "como": "Entregue uma Percht Skull ao Frosty.",
+   "cat": "Evento",
+   "img": "img/montarias/bright-percht-sleigh.webp"
+  },
+  {
+   "nome": "Cold Percht Sleigh Variant",
+   "como": "Peça ao Frosty para melhorar o Cold Percht Sleigh entregando outra Percht Skull.",
+   "cat": "Evento",
+   "img": "img/montarias/cold-percht-sleigh-variant.webp"
+  },
+  {
+   "nome": "Cold Percht Sleigh",
+   "como": "Entregue uma Percht Skull ao Frosty.",
+   "cat": "Evento",
+   "img": "img/montarias/cold-percht-sleigh.webp"
+  },
+  {
+   "nome": "Crimson Bay Predator",
+   "como": "Na tela de tasks (Hunting Task Shop), trocando 145.000 Hunting Task Points.",
+   "cat": "Task points",
+   "img": "img/montarias/crimson-bay-predator.webp"
+  },
+  {
+   "nome": "Crystal Wolf",
+   "como": "Use Diapason em um Crystal Wolf.",
+   "cat": "Domar",
+   "img": "img/montarias/crystal-wolf.webp"
+  },
+  {
+   "nome": "Dark Percht Sleigh Variant",
+   "como": "Peça ao Frosty para melhorar o Dark Percht Sleigh entregando outra Percht Skull.",
+   "cat": "Evento",
+   "img": "img/montarias/dark-percht-sleigh-variant.webp"
+  },
+  {
+   "nome": "Dark Percht Sleigh",
+   "como": "Entregue uma Percht Skull ao Frosty.",
+   "cat": "Evento",
+   "img": "img/montarias/dark-percht-sleigh.webp"
+  },
+  {
+   "nome": "Donkey",
+   "como": "Use um Bag of Apple Slices em uma criatura transformada em Donkey.",
+   "cat": "Item especial",
+   "img": "img/montarias/donkey.webp"
+  },
+  {
+   "nome": "Dragonling",
+   "como": "Use um Decorative Ribbon (ou uma Music Box) em um Dragonling.",
+   "cat": "Domar",
+   "img": "img/montarias/dragonling.webp"
+  },
+  {
+   "nome": "Draptor",
+   "como": "Use Harness (ou uma Music Box) em um Draptor.",
+   "cat": "Domar",
+   "img": "img/montarias/draptor.webp"
+  },
+  {
+   "nome": "Dromedary",
+   "como": "Use um Fist on a Stick em um Dromedary.",
+   "cat": "NPC",
+   "img": "img/montarias/dromedary.webp"
+  },
+  {
+   "nome": "Finished Bright Percht Sleigh",
+   "como": "Peça ao Frosty para melhorar a versão Variant entregando mais uma Percht Skull.",
+   "cat": "Evento",
+   "img": "img/montarias/finished-bright-percht-sleigh.webp"
+  },
+  {
+   "nome": "Finished Cold Percht Sleigh",
+   "como": "Peça ao Frosty para melhorar a versão Variant entregando mais uma Percht Skull.",
+   "cat": "Evento",
+   "img": "img/montarias/finished-cold-percht-sleigh.webp"
+  },
+  {
+   "nome": "Finished Dark Percht Sleigh",
+   "como": "Peça ao Frosty para melhorar a versão Variant entregando mais uma Percht Skull.",
+   "cat": "Evento",
+   "img": "img/montarias/finished-dark-percht-sleigh.webp"
+  },
+  {
+   "nome": "Fleeting Knowledge",
+   "como": "Use Library Ticket em um Flying Book.",
+   "cat": "Domar",
+   "img": "img/montarias/fleeting-knowledge.webp"
+  },
+  {
+   "nome": "Foxmouse",
+   "como": "Use Toy Ball em um Foxmouse.",
+   "cat": "Domar",
+   "img": "img/montarias/foxmouse.webp"
+  },
+  {
+   "nome": "Giant Beaver",
+   "como": "Use uma Colourful Water Lily em um Giant Beaver (a Water Lily vem da Within the Tides).",
+   "cat": "Domar",
+   "img": "img/montarias/giant-beaver.webp"
+  },
+  {
+   "nome": "Gloom Maw",
+   "como": "Terminando a Bloody Tusks Quest.",
+   "cat": "Quest ou boss",
+   "img": "img/montarias/gloom-maw.webp"
+  },
+  {
+   "nome": "Glooth Glider",
+   "como": "Junte as 7 peças, termine 4 tasks da Oramond Quest e fale com o NPC Peremin.",
+   "cat": "Quest ou boss",
+   "img": "img/montarias/glooth-glider.webp"
+  },
+  {
+   "nome": "Gloothomotive",
+   "como": "Use Wind-Up Key em um Wind-Up Loco.",
+   "cat": "Domar",
+   "img": "img/montarias/gloothomotive.webp"
+  },
+  {
+   "nome": "Gnarlhound",
+   "como": "Use Golem Wrench em um Modified Gnarlhound.",
+   "cat": "Domar",
+   "img": "img/montarias/gnarlhound.webp"
+  },
+  {
+   "nome": "Green Rolling Barrel",
+   "como": "Use um Beer Tap em um Super Cask com um Decorative Green Sheet na mochila.",
+   "cat": "Domar",
+   "img": "img/montarias/green-rolling-barrel.webp"
+  },
+  {
+   "nome": "Gryphon",
+   "como": "Use The Regalia of Suon em um Gryphon usando a Gryphon Mask.",
+   "cat": "Domar",
+   "img": "img/montarias/gryphon.webp"
+  },
+  {
+   "nome": "Haze",
+   "como": "Use um Spectral Scrap of Cloth.",
+   "cat": "Item especial",
+   "img": "img/montarias/haze.webp"
+  },
+  {
+   "nome": "Hibernal Moth",
+   "como": "Use Purple Tendril Lantern em um Hibernal Moth.",
+   "cat": "Domar",
+   "img": "img/montarias/hibernal-moth.webp"
+  },
+  {
+   "nome": "Ironblight",
+   "como": "Use Iron Loadstone (ou uma Music Box) em um Ironblight.",
+   "cat": "Domar",
+   "img": "img/montarias/ironblight.webp"
+  },
+  {
+   "nome": "Jaracal",
+   "como": "Use um Skewered Fish em um Jaracal.",
+   "cat": "Domar",
+   "img": "img/montarias/jaracal.webp"
+  },
+  {
+   "nome": "Kingly Deer",
+   "como": "Use Golden Fir Cone (ou uma Music Box) em um Enraged White Deer.",
+   "cat": "Domar",
+   "img": "img/montarias/kingly-deer.webp"
+  },
+  {
+   "nome": "Krakoloss",
+   "como": "Derrote a Tentugly's Head durante a A Pirate's Tail Quest.",
+   "cat": "Quest ou boss",
+   "img": "img/montarias/krakoloss.webp"
+  },
+  {
+   "nome": "Lacewing Moth",
+   "como": "Use Turquoise Tendril Lantern em um Lacewing Moth.",
+   "cat": "Domar",
+   "img": "img/montarias/lacewing-moth.webp"
+  },
+  {
+   "nome": "Lady Bug",
+   "como": "Use Four-Leaf Clover em um Ladybug.",
+   "cat": "Domar",
+   "img": "img/montarias/lady-bug.webp"
+  },
+  {
+   "nome": "Magma Crawler",
+   "como": "Use Glow Wine (ou uma Music Box) em um Magma Crawler.",
+   "cat": "Domar",
+   "img": "img/montarias/magma-crawler.webp"
+  },
+  {
+   "nome": "Manta Ray",
+   "como": "Use Foxtail em um Manta Ray.",
+   "cat": "Domar",
+   "img": "img/montarias/manta-ray.webp"
+  },
+  {
+   "nome": "Midnight Panther",
+   "como": "Use Leather Whip (ou uma Music Box) em um Midnight Panther.",
+   "cat": "Domar",
+   "img": "img/montarias/midnight-panther.webp"
+  },
+  {
+   "nome": "Mole",
+   "como": "Use Candle Stump em um Mole.",
+   "cat": "Domar",
+   "img": "img/montarias/mole.webp"
+  },
+  {
+   "nome": "Mutated Abomination",
+   "como": "Depois de derrotar The Monster, use a alavanca na sala ao sul do Geoffray, no laboratório do Doctor Marrow.",
+   "cat": "Quest ou boss",
+   "img": "img/montarias/mutated-abomination.webp"
+  },
+  {
+   "nome": "Mystic Jaguar",
+   "como": "Use Polished Idol of Tukh em um Mystic Jaguar.",
+   "cat": "Domar",
+   "img": "img/montarias/mystic-jaguar.webp"
+  },
+  {
+   "nome": "Neon Sparkid",
+   "como": "Use um Crackling Egg e a montaria vem automaticamente.",
+   "cat": "Item especial",
+   "img": "img/montarias/neon-sparkid.webp"
+  },
+  {
+   "nome": "Noble Lion",
+   "como": "Use The Lion's Heart em um Noble Lion.",
+   "cat": "Domar",
+   "img": "img/montarias/noble-lion.webp"
+  },
+  {
+   "nome": "Pegasus",
+   "como": "Use uma Pegasus Feather.",
+   "cat": "Item especial",
+   "img": "img/montarias/pegasus.webp"
+  },
+  {
+   "nome": "Phant",
+   "como": "Troque 8.000 Drome Points com um NPC do Tibiadrome.",
+   "cat": "NPC",
+   "img": "img/montarias/phant.webp"
+  },
+  {
+   "nome": "Phantasmal Jade",
+   "como": "Depois de terminar a Soul War Quest, use 4 Spectral Horseshoes, um Spectral Horse Tack e um Spectral Saddle.",
+   "cat": "Quest ou boss",
+   "img": "img/montarias/phantasmal-jade.webp"
+  },
+  {
+   "nome": "Primal Demonosaur",
+   "como": "Use um Demon in a Green Box.",
+   "cat": "Item especial",
+   "img": "img/montarias/primal-demonosaur.webp"
+  },
+  {
+   "nome": "Racing Bird",
+   "como": "Use Carrot em um Stick on a Terror Bird.",
+   "cat": "Domar",
+   "img": "img/montarias/racing-bird.webp"
+  },
+  {
+   "nome": "Radiant Nimbus",
+   "como": "Use um Cloud in a Bottle.",
+   "cat": "Item especial",
+   "img": "img/montarias/radiant-nimbus.webp"
+  },
+  {
+   "nome": "Rapid Boar",
+   "como": "Use Hunting Horn em um Boar.",
+   "cat": "Domar",
+   "img": "img/montarias/rapid-boar.webp"
+  },
+  {
+   "nome": "Red Rolling Barrel",
+   "como": "Use um Beer Tap em um Super Cask com um Decorative Red Sheet na mochila.",
+   "cat": "Domar",
+   "img": "img/montarias/red-rolling-barrel.webp"
+  },
+  {
+   "nome": "Reliable Ram",
+   "como": "Use um Bunch of Turnips em um Ram, em Targuna.",
+   "cat": "Domar",
+   "img": "img/montarias/reliable-ram.webp"
+  },
+  {
+   "nome": "Rented Horse",
+   "como": "Alugue com o Appaloosa (Venore) ou o Palomino (Thais).",
+   "cat": "NPC",
+   "img": "img/montarias/rented-horse.webp"
+  },
+  {
+   "nome": "Rift Runner",
+   "como": "Use um Mysterious Scroll (dropa do Ferumbras).",
+   "cat": "Quest ou boss",
+   "img": "img/montarias/rift-runner.webp"
+  },
+  {
+   "nome": "Ripptor",
+   "como": "Libere o nível de perigo 6 em Gnomprona e peça a montaria ao Gnomadness.",
+   "cat": "Quest ou boss",
+   "img": "img/montarias/ripptor.webp"
+  },
+  {
+   "nome": "Scorpion King",
+   "como": "Use Scorpion Sceptre em um Sandstone Scorpion.",
+   "cat": "Domar",
+   "img": "img/montarias/scorpion-king.webp"
+  },
+  {
+   "nome": "Shellodon",
+   "como": "Entregue um Eldritch Crystal ao Gnomevisor.",
+   "cat": "NPC",
+   "img": "img/montarias/shellodon.webp"
+  },
+  {
+   "nome": "Shock Head",
+   "como": "Use Nightmare Horn em um Shock Head.",
+   "cat": "Domar",
+   "img": "img/montarias/shock-head.webp"
+  },
+  {
+   "nome": "Singeing Steed",
+   "como": "Use 4 Fiery Horseshoes.",
+   "cat": "Item especial",
+   "img": "img/montarias/singeing-steed.webp"
+  },
+  {
+   "nome": "Sparkion",
+   "como": "Use um Vibrant Egg (recompensa da Heart of Destruction).",
+   "cat": "Item especial",
+   "img": "img/montarias/sparkion.webp"
+  },
+  {
+   "nome": "Spirit of Purity",
+   "como": "Depois de derrotar o Bakragore pelo menos uma vez, use 4 Spiritual Horseshoes, que dropam dos bosses da Rotten Blood Quest.",
+   "cat": "Quest ou boss",
+   "img": "img/montarias/spirit-of-purity.webp"
+  },
+  {
+   "nome": "Stampor",
+   "como": "Entregue 30 Hollow Stampor Hoof, 50 Stampor Horn e 100 Stampor Talons ao Chondur, em Meriana.",
+   "cat": "NPC",
+   "img": "img/montarias/stampor.webp"
+  },
+  {
+   "nome": "Stone Rhino",
+   "como": "Use Astral Shaper Rune em um Stone Rhino.",
+   "cat": "Domar",
+   "img": "img/montarias/stone-rhino.webp"
+  },
+  {
+   "nome": "Tamed Panda",
+   "como": "Use Bamboo Leaves (ou uma Music Box) em um Panda.",
+   "cat": "Domar",
+   "img": "img/montarias/tamed-panda.webp"
+  },
+  {
+   "nome": "The Hellgrip",
+   "como": "Use Nail Case em um Gravedigger.",
+   "cat": "Domar",
+   "img": "img/montarias/the-hellgrip.webp"
+  },
+  {
+   "nome": "Tidal Seawater Predator",
+   "como": "Na tela de tasks (Hunting Task Shop), trocando 145.000 Hunting Task Points.",
+   "cat": "Task points",
+   "img": "img/montarias/tidal-seawater-predator.webp"
+  },
+  {
+   "nome": "Tiger Slug",
+   "como": "Use Slug Drug em um Slug.",
+   "cat": "Domar",
+   "img": "img/montarias/tiger-slug.webp"
+  },
+  {
+   "nome": "Tin Lizzard",
+   "como": "Use uma Tin Key em um Tin Lizzard parado.",
+   "cat": "Domar",
+   "img": "img/montarias/tin-lizzard.webp"
+  },
+  {
+   "nome": "Titanica",
+   "como": "Use Giant Shrimp em um Crustacea Gigantica.",
+   "cat": "Domar",
+   "img": "img/montarias/titanica.webp"
+  },
+  {
+   "nome": "Undead Cavebear",
+   "como": "Use Maxilla Maximus em um Undead Cavebear.",
+   "cat": "Domar",
+   "img": "img/montarias/undead-cavebear.webp"
+  },
+  {
+   "nome": "Uniwheel",
+   "como": "Use uma Golden Can of Oil em um Uniwheel parado.",
+   "cat": "Domar",
+   "img": "img/montarias/uniwheel.webp"
+  },
+  {
+   "nome": "Ursagrodon",
+   "como": "Use Melting Horn em um Half-Frozen Ursagrodon.",
+   "cat": "Domar",
+   "img": "img/montarias/ursagrodon.webp"
+  },
+  {
+   "nome": "Vortexion",
+   "como": "Use um Menacing Egg e a montaria vem automaticamente.",
+   "cat": "Item especial",
+   "img": "img/montarias/vortexion.webp"
+  },
+  {
+   "nome": "Walker",
+   "como": "Use Control Unit em um Walker.",
+   "cat": "Domar",
+   "img": "img/montarias/walker.webp"
+  },
+  {
+   "nome": "War Bear",
+   "como": "Use Slingshot em um Bear.",
+   "cat": "Domar",
+   "img": "img/montarias/war-bear.webp"
+  },
+  {
+   "nome": "War Horse",
+   "como": "Use Sugar Oat (ou uma Music Box) em um Wild Horse.",
+   "cat": "Domar",
+   "img": "img/montarias/war-horse.webp"
+  },
+  {
+   "nome": "Water Buffalo",
+   "como": "Use Leech em um Water Buffalo.",
+   "cat": "Domar",
+   "img": "img/montarias/water-buffalo.webp"
+  },
+  {
+   "nome": "White Lion",
+   "como": "Use uma Red Silk Flower em um dos White Lions na entrada do Lion Sanctum.",
+   "cat": "Domar",
+   "img": "img/montarias/white-lion.webp"
+  },
+  {
+   "nome": "Widow Queen",
+   "como": "Use Sweet Smelling Bait (ou uma Music Box) em um Wailing Widow.",
+   "cat": "Domar",
+   "img": "img/montarias/widow-queen.webp"
+  }
+ ],
+ "outfits": [
+  {
+   "nome": "Aerial Disciple",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/aerial-disciple.webp"
+  },
+  {
+   "nome": "Afflicted",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Afflicted Outfits Quest.",
+   "premium": true,
+   "achievement": "Beak Doctor",
+   "img": "img/outfits/afflicted.webp"
+  },
+  {
+   "nome": "Ancient Aucar",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Ancient Aucar Outfits Quest.",
+   "premium": true,
+   "achievement": "Warrior of the Iks",
+   "img": "img/outfits/ancient-aucar.webp"
+  },
+  {
+   "nome": "Arbalester",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/arbalester.webp"
+  },
+  {
+   "nome": "Arena Champion",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/arena-champion.webp"
+  },
+  {
+   "nome": "Armoured Archer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/armoured-archer.webp"
+  },
+  {
+   "nome": "Assassin",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Assassin Outfits Quest.",
+   "premium": true,
+   "achievement": "Swift Death",
+   "img": "img/outfits/assassin.webp"
+  },
+  {
+   "nome": "Barbarian",
+   "grupo": "Premium",
+   "como": "Liberada para quem tem Premium Account. Os addons saem em quests de addon com NPCs.",
+   "premium": true,
+   "achievement": "Brutal Politeness",
+   "img": "img/outfits/barbarian.webp"
+  },
+  {
+   "nome": "Bat Knight",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/bat-knight.webp"
+  },
+  {
+   "nome": "Battle Mage",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Battle Mage Outfits Quest.",
+   "premium": true,
+   "achievement": "Exalted Battle Mage",
+   "img": "img/outfits/battle-mage.webp"
+  },
+  {
+   "nome": "Beastmaster",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/beastmaster.webp"
+  },
+  {
+   "nome": "Beekeeper",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/beekeeper.webp"
+  },
+  {
+   "nome": "Beggar",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Beggar Outfits Quest.",
+   "premium": true,
+   "achievement": "Life on the Streets",
+   "img": "img/outfits/beggar.webp"
+  },
+  {
+   "nome": "Blade Dancer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/blade-dancer.webp"
+  },
+  {
+   "nome": "Breezy Garb",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/breezy-garb.webp"
+  },
+  {
+   "nome": "Brotherhood",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Brotherhood Outfits Quest.",
+   "premium": true,
+   "achievement": "Skull and Bones",
+   "img": "img/outfits/brotherhood.webp"
+  },
+  {
+   "nome": "Captains",
+   "grupo": "Quest",
+   "como": "Outfit e addons: The Great Expedition.",
+   "premium": true,
+   "achievement": "Aye-aye, Captain!",
+   "img": "img/outfits/captains.webp"
+  },
+  {
+   "nome": "Cave Explorer",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Cave Explorer Outfits Quest.",
+   "premium": true,
+   "achievement": "Cave Completionist",
+   "img": "img/outfits/cave-explorer.webp"
+  },
+  {
+   "nome": "Celestial Avenger",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/celestial-avenger.webp"
+  },
+  {
+   "nome": "Ceremonial Garb",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/ceremonial-garb.webp"
+  },
+  {
+   "nome": "Champion",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 570 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/champion.webp"
+  },
+  {
+   "nome": "Chaos Acolyte",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 900 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/chaos-acolyte.webp"
+  },
+  {
+   "nome": "Citizen",
+   "grupo": "Básica",
+   "como": "Todo personagem já começa com ela.",
+   "premium": false,
+   "achievement": "Exemplary Citizen",
+   "img": "img/outfits/citizen.webp"
+  },
+  {
+   "nome": "Citizen of Issavi",
+   "grupo": "Quest",
+   "como": "Outfit: Kilmaresh Quest. Addons: Citizen of Issavi Outfits Quest.",
+   "premium": true,
+   "achievement": "Citizen of Issavi",
+   "img": "img/outfits/citizen-of-issavi.webp"
+  },
+  {
+   "nome": "Conjurer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 720 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/conjurer.webp"
+  },
+  {
+   "nome": "Crystal Warlord",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Crystal Warlord Outfits Quest.",
+   "premium": true,
+   "achievement": "Crystal Clear",
+   "img": "img/outfits/crystal-warlord.webp"
+  },
+  {
+   "nome": "Darklight Evoker",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 1500 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/darklight-evoker.webp"
+  },
+  {
+   "nome": "Death Herald",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/death-herald.webp"
+  },
+  {
+   "nome": "Decaying Defender",
+   "grupo": "Quest",
+   "como": "Outfit: Rotten Blood Quest. Addons: Decaying Defender Outfits Quest.",
+   "premium": true,
+   "achievement": "Fully Decayed",
+   "img": "img/outfits/decaying-defender.webp"
+  },
+  {
+   "nome": "Deepling",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Liquid Black Quest.",
+   "premium": true,
+   "achievement": "Spolium Profundis",
+   "img": "img/outfits/deepling.webp"
+  },
+  {
+   "nome": "Demon Hunter",
+   "grupo": "Quest",
+   "como": "Outfit e addons: The Inquisition Quest.",
+   "premium": true,
+   "achievement": "Demonbane",
+   "img": "img/outfits/demon-hunter.webp"
+  },
+  {
+   "nome": "Demon",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Demon Outfits Quest.",
+   "premium": true,
+   "achievement": "True Dedication",
+   "img": "img/outfits/demon.webp"
+  },
+  {
+   "nome": "Discoverer",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Measuring Tibia Quest.",
+   "premium": true,
+   "achievement": "Measuring the World",
+   "img": "img/outfits/discoverer.webp"
+  },
+  {
+   "nome": "Doom Knight",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/doom-knight.webp"
+  },
+  {
+   "nome": "Draccoon Herald",
+   "grupo": "Quest",
+   "como": "Outfit: 20 Years a Cook Quest. Addons: Draccoon Herald Outfits Quest.",
+   "premium": true,
+   "achievement": "The Rule of Raccool",
+   "img": "img/outfits/draccoon-herald.webp"
+  },
+  {
+   "nome": "Dragon Knight",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/dragon-knight.webp"
+  },
+  {
+   "nome": "Dragon Slayer",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Dragon Slayer Outfits Quest.",
+   "premium": true,
+   "achievement": "None",
+   "img": "img/outfits/dragon-slayer.webp"
+  },
+  {
+   "nome": "Dream Warden",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Dream Warden Outfits Quest.",
+   "premium": true,
+   "achievement": "Dream Warden",
+   "img": "img/outfits/dream-warden.webp"
+  },
+  {
+   "nome": "Dream Warrior",
+   "grupo": "Quest",
+   "como": "Outfit: The Dream Courts Quest (Premium). Addons: Dream Warrior Outfits Quest.",
+   "premium": true,
+   "achievement": "Dream Warrior",
+   "img": "img/outfits/dream-warrior.webp"
+  },
+  {
+   "nome": "Druid",
+   "grupo": "Premium",
+   "como": "Liberada para quem tem Premium Account. Os addons saem em quests de addon com NPCs.",
+   "premium": true,
+   "achievement": "Of Wolves and Bears",
+   "img": "img/outfits/druid.webp"
+  },
+  {
+   "nome": "Elementalist",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Elementalist Outfits Quest.",
+   "premium": true,
+   "achievement": "Mystic Fabric Magic",
+   "img": "img/outfits/elementalist.webp"
+  },
+  {
+   "nome": "Entrepreneur",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/entrepreneur.webp"
+  },
+  {
+   "nome": "Evoker",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 840 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/evoker.webp"
+  },
+  {
+   "nome": "Falconer",
+   "grupo": "Especial",
+   "como": "A outfit base sai trocando 100.000 Hunting Task Points na Hunting Task Shop. Os addons vêm da Falconer Outfits Quest.",
+   "premium": false,
+   "achievement": "Falconer",
+   "img": "img/outfits/falconer.webp"
+  },
+  {
+   "nome": "Fencer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/fencer.webp"
+  },
+  {
+   "nome": "Feral Trapper",
+   "grupo": "Especial",
+   "como": "A outfit base sai trocando 100.000 Hunting Task Points na Hunting Task Shop. Os addons vêm da Feral Trappers Quest.",
+   "premium": false,
+   "achievement": "Feral Trapper",
+   "img": "img/outfits/feral-trapper.webp"
+  },
+  {
+   "nome": "Festive",
+   "grupo": "Quest",
+   "como": "Outfit: First Dragon Quest. Addons: Festive Outfits Quest.",
+   "premium": true,
+   "achievement": "Reason to Celebrate",
+   "img": "img/outfits/festive.webp"
+  },
+  {
+   "nome": "Field Surgeon",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/field-surgeon.webp"
+  },
+  {
+   "nome": "Fiend Slayer",
+   "grupo": "Quest",
+   "como": "Outfit: No Rest for the Wicked Quest. Addons: Fiend Slayer Outfits Quest.",
+   "premium": true,
+   "achievement": "Fiend Slayer",
+   "img": "img/outfits/fiend-slayer.webp"
+  },
+  {
+   "nome": "Fire-Fighter",
+   "grupo": "Quest",
+   "como": "Outfit: Primal Ordeal Quest. Addons: Fire-Fighter Outfits Quest.",
+   "premium": true,
+   "achievement": "Friendly Fire",
+   "img": "img/outfits/fire-fighter.webp"
+  },
+  {
+   "nome": "Flamefury Mage",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/flamefury-mage.webp"
+  },
+  {
+   "nome": "Forest Warden",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/forest-warden.webp"
+  },
+  {
+   "nome": "Formal Dress",
+   "grupo": "Quest",
+   "como": "Outfit: 25 Years of Tibia Quest. Addons: Formal Dress Outfits Quest.",
+   "premium": true,
+   "achievement": "Sharp Dressed",
+   "img": "img/outfits/formal-dress.webp"
+  },
+  {
+   "nome": "Frost Tracer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/frost-tracer.webp"
+  },
+  {
+   "nome": "Ghost Blade",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/ghost-blade.webp"
+  },
+  {
+   "nome": "Glooth Engineer",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Glooth Engineer Outfits Quest.",
+   "premium": true,
+   "achievement": "Glooth Engineer",
+   "img": "img/outfits/glooth-engineer.webp"
+  },
+  {
+   "nome": "Golden",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Golden Outfits Quest.",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/golden.webp"
+  },
+  {
+   "nome": "Grove Keeper",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/grove-keeper.webp"
+  },
+  {
+   "nome": "Guidon Bearer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/guidon-bearer.webp"
+  },
+  {
+   "nome": "Hand of the Inquisition",
+   "grupo": "Quest",
+   "como": "Outfit: Grave Danger Quest. Addons: Hand of the Inquisition Outfits Quest.",
+   "premium": true,
+   "achievement": "Inquisition's Arm",
+   "img": "img/outfits/hand-of-the-inquisition.webp"
+  },
+  {
+   "nome": "Herbalist",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/herbalist.webp"
+  },
+  {
+   "nome": "Herder",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/herder.webp"
+  },
+  {
+   "nome": "Hunter",
+   "grupo": "Básica",
+   "como": "Todo personagem já começa com ela.",
+   "premium": false,
+   "achievement": "Hunting with Style",
+   "img": "img/outfits/hunter.webp"
+  },
+  {
+   "nome": "Illuminated Warrior",
+   "grupo": "Quest",
+   "como": "Outfit: Make Believe Quest. Addons: Illuminated Warrior Outfits Quest.",
+   "premium": true,
+   "achievement": "Enlightened, Indeed",
+   "img": "img/outfits/illuminated-warrior.webp"
+  },
+  {
+   "nome": "Illuminator",
+   "grupo": "Quest",
+   "como": "Outfit: Between the Lines Quest. Addons: Illuminator Outfits Quest.",
+   "premium": true,
+   "achievement": "Illuminator",
+   "img": "img/outfits/illuminator.webp"
+  },
+  {
+   "nome": "Insectoid",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Insectoid Outfits Quest.",
+   "premium": true,
+   "achievement": "Bane of the Hive",
+   "img": "img/outfits/insectoid.webp"
+  },
+  {
+   "nome": "Jersey",
+   "grupo": "Especial",
+   "como": "Só aparece durante as Copas do Mundo, como evento.",
+   "premium": true,
+   "achievement": "None",
+   "img": "img/outfits/jersey.webp"
+  },
+  {
+   "nome": "Jester",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Jester Outfits Quest.",
+   "premium": true,
+   "achievement": "Fool at Heart",
+   "img": "img/outfits/jester.webp"
+  },
+  {
+   "nome": "Jouster",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/jouster.webp"
+  },
+  {
+   "nome": "Knight",
+   "grupo": "Básica",
+   "como": "Todo personagem já começa com ela.",
+   "premium": false,
+   "achievement": "In Shining Armor",
+   "img": "img/outfits/knight.webp"
+  },
+  {
+   "nome": "Lion of War",
+   "grupo": "Especial",
+   "como": "Compre com 12.500 Drome Points em um NPC do Tibiadrome.",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/lion-of-war.webp"
+  },
+  {
+   "nome": "Lupine Warden",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 840 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/lupine-warden.webp"
+  },
+  {
+   "nome": "Mage",
+   "grupo": "Básica",
+   "como": "Todo personagem já começa com ela.",
+   "premium": false,
+   "achievement": "Alumni",
+   "img": "img/outfits/mage.webp"
+  },
+  {
+   "nome": "Makeshift Warrior",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Makeshift Warrior Outfits Quest.",
+   "premium": true,
+   "achievement": "Cobbled and Patched",
+   "img": "img/outfits/makeshift-warrior.webp"
+  },
+  {
+   "nome": "Martial Artist",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/martial-artist.webp"
+  },
+  {
+   "nome": "Mercenary",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/mercenary.webp"
+  },
+  {
+   "nome": "Merry Garb",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/merry-garb.webp"
+  },
+  {
+   "nome": "Monk",
+   "grupo": "Básica",
+   "como": "Todo personagem já começa com ela.",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/monk.webp"
+  },
+  {
+   "nome": "Moon Guardian",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/moon-guardian.webp"
+  },
+  {
+   "nome": "Moth Cape",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/moth-cape.webp"
+  },
+  {
+   "nome": "Necromancer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/necromancer.webp"
+  },
+  {
+   "nome": "Newly Wed",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Marriage.",
+   "premium": false,
+   "achievement": "None",
+   "img": "img/outfits/newly-wed.webp"
+  },
+  {
+   "nome": "Nightmare",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Nightmare Outfits Quest.",
+   "premium": true,
+   "achievement": "Nightmare Walker",
+   "img": "img/outfits/nightmare.webp"
+  },
+  {
+   "nome": "Nobleman",
+   "grupo": "Premium",
+   "como": "Liberada para quem tem Premium Account. Os addons saem em quests de addon com NPCs.",
+   "premium": true,
+   "achievement": "Aristocrat",
+   "img": "img/outfits/nobleman.webp"
+  },
+  {
+   "nome": "Nordic Chieftain",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/nordic-chieftain.webp"
+  },
+  {
+   "nome": "Norseman",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Norseman Outfits Quest.",
+   "premium": true,
+   "achievement": "Out in the Snowstorm",
+   "img": "img/outfits/norseman.webp"
+  },
+  {
+   "nome": "Orcsoberfest Garb",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Orcsoberfest.",
+   "premium": true,
+   "achievement": "Traditionalist",
+   "img": "img/outfits/orcsoberfest-garb.webp"
+  },
+  {
+   "nome": "Oriental",
+   "grupo": "Premium",
+   "como": "Liberada para quem tem Premium Account. Os addons saem em quests de addon com NPCs.",
+   "premium": true,
+   "achievement": "One Thousand and One",
+   "img": "img/outfits/oriental.webp"
+  },
+  {
+   "nome": "Owl Keeper",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/owl-keeper.webp"
+  },
+  {
+   "nome": "Percht Raider",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Winterlight Solstice.",
+   "premium": true,
+   "achievement": "Raider in the Dark",
+   "img": "img/outfits/percht-raider.webp"
+  },
+  {
+   "nome": "Pharaoh",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/pharaoh.webp"
+  },
+  {
+   "nome": "Philosopher",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/philosopher.webp"
+  },
+  {
+   "nome": "Phoenix Evoker",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/phoenix-evoker.webp"
+  },
+  {
+   "nome": "Pirate",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Pirate Outfits Quest.",
+   "premium": true,
+   "achievement": "Swashbuckler",
+   "img": "img/outfits/pirate.webp"
+  },
+  {
+   "nome": "Poltergeist",
+   "grupo": "Quest",
+   "como": "Outfit: Feaster of Souls Quest. Addons: Poltergeist Outfits Quest.",
+   "premium": true,
+   "achievement": "Mainstreet Nightmare",
+   "img": "img/outfits/poltergeist.webp"
+  },
+  {
+   "nome": "Pumpkin Mummy",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/pumpkin-mummy.webp"
+  },
+  {
+   "nome": "Puppeteer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/puppeteer.webp"
+  },
+  {
+   "nome": "Ranger",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/ranger.webp"
+  },
+  {
+   "nome": "Rascoohan",
+   "grupo": "Quest",
+   "como": "Outfit: A Pirate's Tail Quest. Addons: Rascoohan Outfits Quest.",
+   "premium": true,
+   "achievement": "Honorary Rascoohan",
+   "img": "img/outfits/rascoohan.webp"
+  },
+  {
+   "nome": "Recruiter",
+   "grupo": "Especial",
+   "como": "Prêmio da promoção de convidar amigos (Recruiter) da CipSoft.",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/recruiter.webp"
+  },
+  {
+   "nome": "Retro Citizen",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/retro-citizen.webp"
+  },
+  {
+   "nome": "Retro Hunter",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/retro-hunter.webp"
+  },
+  {
+   "nome": "Retro Knight",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/retro-knight.webp"
+  },
+  {
+   "nome": "Retro Mage",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/retro-mage.webp"
+  },
+  {
+   "nome": "Retro Nobleman",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/retro-nobleman.webp"
+  },
+  {
+   "nome": "Retro Summoner",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/retro-summoner.webp"
+  },
+  {
+   "nome": "Retro Warrior",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/retro-warrior.webp"
+  },
+  {
+   "nome": "Revenant",
+   "grupo": "Quest",
+   "como": "Outfit: Soul War Quest. Addons: Revenant Outfits Quest.",
+   "premium": true,
+   "achievement": "Unleash the Beast",
+   "img": "img/outfits/revenant.webp"
+  },
+  {
+   "nome": "Rift Warrior",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Rift Warrior Outfits Quest.",
+   "premium": true,
+   "achievement": "Rift Warrior",
+   "img": "img/outfits/rift-warrior.webp"
+  },
+  {
+   "nome": "Rootwalker",
+   "grupo": "Quest",
+   "como": "Outfit: Podzilla Quest. Addons: Rootwalker Outfits Quest.",
+   "premium": true,
+   "achievement": "The Rootwalker",
+   "img": "img/outfits/rootwalker.webp"
+  },
+  {
+   "nome": "Royal Bounacean Advisor",
+   "grupo": "Quest",
+   "como": "Outfit: Adventures of Galthen Quest. Addons: Royal Bounacean Advisor Outfits Quest.",
+   "premium": true,
+   "achievement": "King's Council",
+   "img": "img/outfits/royal-bounacean-advisor.webp"
+  },
+  {
+   "nome": "Royal Costume",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Royal Costume Outfits Quest.",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/royal-costume.webp"
+  },
+  {
+   "nome": "Royal Pumpkin",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 840 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/royal-pumpkin.webp"
+  },
+  {
+   "nome": "Rune Master",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/rune-master.webp"
+  },
+  {
+   "nome": "Sea Dog",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/sea-dog.webp"
+  },
+  {
+   "nome": "Seaweaver",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 570 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/seaweaver.webp"
+  },
+  {
+   "nome": "Shadowlotus Disciple",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/shadowlotus-disciple.webp"
+  },
+  {
+   "nome": "Shaman",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Shaman Outfits Quest.",
+   "premium": true,
+   "achievement": "Way of the Shaman",
+   "img": "img/outfits/shaman.webp"
+  },
+  {
+   "nome": "Siege Master",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/siege-master.webp"
+  },
+  {
+   "nome": "Sinister Archer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/sinister-archer.webp"
+  },
+  {
+   "nome": "Soil Guardian",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Soil Guardian Outfits Quest.",
+   "premium": true,
+   "achievement": "Funghitastic",
+   "img": "img/outfits/soil-guardian.webp"
+  },
+  {
+   "nome": "Spirit Caller",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/spirit-caller.webp"
+  },
+  {
+   "nome": "Summoner",
+   "grupo": "Premium",
+   "como": "Liberada para quem tem Premium Account. Os addons saem em quests de addon com NPCs.",
+   "premium": true,
+   "achievement": "Ritualist",
+   "img": "img/outfits/summoner.webp"
+  },
+  {
+   "nome": "Sun Priest",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/sun-priest.webp"
+  },
+  {
+   "nome": "Trailblazer",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 600 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/trailblazer.webp"
+  },
+  {
+   "nome": "Trophy Hunter",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/trophy-hunter.webp"
+  },
+  {
+   "nome": "Vampire Noble",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/vampire-noble.webp"
+  },
+  {
+   "nome": "Veteran Paladin",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/veteran-paladin.webp"
+  },
+  {
+   "nome": "Void Master",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 750 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/void-master.webp"
+  },
+  {
+   "nome": "Warmaster",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Warmaster Outfits Quest.",
+   "premium": true,
+   "achievement": "Master of War",
+   "img": "img/outfits/warmaster.webp"
+  },
+  {
+   "nome": "Warrior",
+   "grupo": "Premium",
+   "como": "Liberada para quem tem Premium Account. Os addons saem em quests de addon com NPCs.",
+   "premium": true,
+   "achievement": "Wild Warrior (Achievement)",
+   "img": "img/outfits/warrior.webp"
+  },
+  {
+   "nome": "Wayfarer",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Wayfarer Outfits Quest.",
+   "premium": true,
+   "achievement": "Peazzekeeper",
+   "img": "img/outfits/wayfarer.webp"
+  },
+  {
+   "nome": "Winged Druid",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/winged-druid.webp"
+  },
+  {
+   "nome": "Winter Warden",
+   "grupo": "Loja",
+   "como": "Loja do Tibia: 870 Tibia Coins (outfit completa).",
+   "premium": false,
+   "achievement": "",
+   "img": "img/outfits/winter-warden.webp"
+  },
+  {
+   "nome": "Wizard",
+   "grupo": "Premium",
+   "como": "Liberada para quem tem Premium Account. Os addons saem em quests de addon com NPCs.",
+   "premium": true,
+   "achievement": "Warlock (Achievement)",
+   "img": "img/outfits/wizard.webp"
+  },
+  {
+   "nome": "Yalaharian",
+   "grupo": "Quest",
+   "como": "Outfit e addons: Yalaharian Outfits Quest.",
+   "premium": true,
+   "achievement": "None",
+   "img": "img/outfits/yalaharian.webp"
+  }
+ ]
+}

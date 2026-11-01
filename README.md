@@ -33,3 +33,7 @@ Em `data/servidores/heroot.json`, use o nome do item ou monstro exatamente como 
 ## Fonte dos dados
 
 Drops, XP, vida, level dos itens e NPCs vêm da base de dados do [Canary (OpenTibiaBR)](https://github.com/opentibiabr/canary), que espelha o Tibia 15.x. Tibia é marca da CipSoft GmbH; este é um site de fã.
+
+### Depois de mudar o visual
+
+Quando `assets/app.js` ou `assets/style.css` mudarem, troque o número `?v=` desses dois arquivos no `index.html` (ex.: a data e a hora). Isso faz o navegador de quem já visitou o site baixar a versão nova.

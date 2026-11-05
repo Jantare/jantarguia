@@ -1129,7 +1129,7 @@
        "nota": "Áreas do Rotten Blood: o loot paga o Sanguine.",
        "exp": 21570,
        "hp": 31700,
-       "img": null,
+       "img": "img/monstros/bloated-man-maggot.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bloated%20Man-Maggot%20hunt%20500"
       },
       {
@@ -1139,7 +1139,7 @@
        "nota": "Hunt forte para Knight com Spiritthorn.",
        "exp": 21175,
        "hp": 30200,
-       "img": null,
+       "img": "img/monstros/mycobiontic-beetle.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mycobiontic%20Beetle%20hunt%20500"
       },
       {
@@ -1149,7 +1149,7 @@
        "nota": "Use proteção de morte e terra.",
        "exp": 20600,
        "hp": 28700,
-       "img": null,
+       "img": "img/monstros/oozing-corpus.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Oozing%20Corpus%20hunt%20550"
       }
      ],
@@ -2220,7 +2220,7 @@
        "nota": "O loot ajuda a pagar o Sanguine.",
        "exp": 21570,
        "hp": 31700,
-       "img": null,
+       "img": "img/monstros/bloated-man-maggot.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloated%20Man-Maggot%20hunt%20500"
       },
       {
@@ -2230,7 +2230,7 @@
        "nota": "Hunt forte para Paladin com o BiS.",
        "exp": 21175,
        "hp": 30200,
-       "img": null,
+       "img": "img/monstros/mycobiontic-beetle.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Mycobiontic%20Beetle%20hunt%20500"
       },
       {
@@ -2240,7 +2240,7 @@
        "nota": "Use proteção de morte e terra.",
        "exp": 20600,
        "hp": 28700,
-       "img": null,
+       "img": "img/monstros/oozing-corpus.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Oozing%20Corpus%20hunt%20550"
       }
      ],
@@ -3482,7 +3482,7 @@
        "nota": "Do vídeo: confortável, 4kk/h, pouco profit.",
        "exp": 5200,
        "hp": 6100,
-       "img": null,
+       "img": "img/monstros/white-weretiger.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20white%20weretiger%20hunt"
       },
       {
@@ -3546,7 +3546,7 @@
        "nota": "Do vídeo (Miguelnutt): sem acesso, 4,5 a 4,8kk/h com Thunderstorm.",
        "exp": 5890,
        "hp": 5530,
-       "img": null,
+       "img": "img/monstros/naga-warrior.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20naga%20marapur%20hunt"
       },
       {
@@ -3645,7 +3645,7 @@
        "nota": "Do vídeo: 5,4kk/h e o profit mais estável (1,7kk/h). Rotação de morte.",
        "exp": 4580,
        "hp": 4620,
-       "img": null,
+       "img": "img/monstros/mitmah-seer.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20mitmah%20hunt"
       }
      ],
@@ -4861,7 +4861,7 @@
        "nota": "Do vídeo: 5kk/h de XP, mas muito pesada. Só a partir do 400.",
        "exp": 5890,
        "hp": 5530,
-       "img": null,
+       "img": "img/monstros/naga-warrior.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20naga%20marapur%20hunt"
       }
      ],
@@ -4968,7 +4968,7 @@
        "nota": "Áreas do Rotten Blood.",
        "exp": 21570,
        "hp": 31700,
-       "img": null,
+       "img": "img/monstros/bloated-man-maggot.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20rotten%20blood%20hunt"
       },
       {
@@ -4978,7 +4978,7 @@
        "nota": "Use proteção de morte e terra.",
        "exp": 20600,
        "hp": 28700,
-       "img": null,
+       "img": "img/monstros/oozing-corpus.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20oozing%20corpus%20hunt"
       }
      ],
@@ -5795,7 +5795,7 @@
        "nota": "Do vídeo: boa com a Cobra Bo, melhor ainda na lua cheia.",
        "exp": 5200,
        "hp": 6100,
-       "img": null,
+       "img": "img/monstros/white-weretiger.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20white%20weretiger%20hunt"
       },
       {
@@ -5865,7 +5865,7 @@
        "nota": "Do vídeo: META. Faça o boss no fim (meio kk de XP com boost); use Prismatic Ring e Necklace.",
        "exp": 4580,
        "hp": 4620,
-       "img": null,
+       "img": "img/monstros/mitmah-seer.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20mitmah%20hunt"
       },
       {

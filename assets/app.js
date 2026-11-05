@@ -138,7 +138,7 @@
 
   function huntRow(h) {
     const meta = [`lvl ${esc(h.lv)}`, h.exp ? `${num(h.exp)} xp` : "", h.hp ? `${num(h.hp)} hp` : ""].filter(Boolean).join(" · ");
-    return `<div class="hrow">${slot(h.img)}<div class="hrow-txt"><span class="meta">${meta}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
+    return `<div class="hrow">${h.img ? slot(h.img) : `<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
   }
 
   function spellRows(list) {

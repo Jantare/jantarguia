@@ -262,3 +262,14 @@ a.name:hover{color:var(--gold)}
 .imbu-lv > div{display:flex;flex-direction:column;gap:1px}
 .imbu-items{font-size:.84rem;color:var(--muted)}
 @media (max-width:640px){.imbu-info{grid-template-columns:1fr}}
+
+/* fundo com a arte do Jantar Guia (só no tema escuro) */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(rgb(22 20 15/.82),rgb(22 20 15/.93)),url(../img/bg.webp) center top/cover no-repeat}
+body.is-home::before{background:linear-gradient(rgb(22 20 15/.25),rgb(22 20 15/.55) 45%,rgb(22 20 15/.9) 85%),url(../img/bg.webp) center top/cover no-repeat}
+@media (max-width:760px){
+  body::before{background:linear-gradient(rgb(22 20 15/.82),rgb(22 20 15/.93)),url(../img/bg-sm.webp) center top/180% auto no-repeat,var(--bg)}
+  body.is-home::before{background:linear-gradient(rgb(22 20 15/.15) 190px,rgb(22 20 15/.7) 420px,var(--bg) 560px),url(../img/bg-sm.webp) center 190px/200% auto no-repeat,var(--bg)}
+}
+:root[data-theme="light"] body::before{display:none}
+.is-home .home-hero h1,.is-home .home-hero p{text-shadow:0 2px 12px rgb(0 0 0/.7)}

@@ -10,8 +10,8 @@
   const ytq = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
-  const st = { view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
-  let SITE, BASE, QUESTS, LOOK, ROTAS, SERVERS = {};
+  const st = { imbuVoc: "knight", view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
+  let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, SERVERS = {};
 
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -35,6 +35,7 @@
   function views() {
     const v = [{ id: "inicio", nome: "Início" }, ...BASE.vocacoes.map(x => ({ id: x.id, nome: x.nome }))];
     v.push({ id: "quests", nome: "Quests" });
+    v.push({ id: "imbuements", nome: "Imbuements" });
     v.push({ id: "outfits", nome: "Outfits e montarias" });
     v.push({ id: "monstros", nome: "Monstros" });
     if (st.srv) v.push({ id: st.srv, nome: SERVERS[st.srv].nome, srv: true });
@@ -235,6 +236,32 @@
       <p class="foot-note">Fontes: ${QUESTS.fontes.map(esc).join(", ")}. O level do selo é o recomendado; o mínimo oficial está em "Ver detalhes da quest".</p>`;
   }
 
+  function imbuView() {
+    const vocs = Object.entries(IMBU.rec);
+    const cur = IMBU.rec[st.imbuVoc] ? st.imbuVoc : "knight";
+    const r = IMBU.rec[cur];
+    const groups = ["Ataque", "Proteção", "Skill", "Suporte"];
+    return `<div class="page-h"><h1>Imbuements</h1>
+      <p class="intro">O que colocar em cada item da sua vocação e do que você precisa para fazer cada imbuement. Imbuement faz muita diferença no gasto de potion e na XP: não cace sem.</p></div>
+      <section class="resumo">
+        <div class="resumo-h"><span class="path-kicker">Recomendado por vocação</span><h2>${esc(r.nome)}</h2></div>
+        <div class="chips">${vocs.map(([id, v]) => `<button class="chip" type="button" data-imbu="${id}" aria-pressed="${id === cur}">${esc(v.nome)}</button>`).join("")}</div>
+        <div class="imbu-rec">${r.slots.map(([sl, im, tip]) => `<div class="rbox"><span class="how-t">${esc(sl)}</span><b class="imbu-what">${esc(im)}</b>${tip ? `<p>${esc(tip)}</p>` : ""}</div>`).join("")}</div>
+      </section>
+      <section class="home-block"><h2 class="block-h">Como funciona</h2>
+        <div class="imbu-info"><div class="rbox"><span class="how-t">Custo na máquina</span><ul>${IMBU.custos.map(([a, b]) => `<li><b>${esc(a)}:</b> ${esc(b)}</li>`).join("")}</ul></div>
+        <div class="rbox"><span class="how-t">Dicas</span><ul>${IMBU.dicas.map(d => `<li>${esc(d)}</li>`).join("")}</ul></div></div>
+        <a class="hrow-yt" href="${esc(IMBU.video)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver o guia em vídeo</a>
+      </section>
+      ${groups.map(g => `<section class="tier"><div class="tier-h"><span class="lvl-badge">${esc(g)}</span><span class="rule"></span></div>
+        <div class="grid">${IMBU.lista.filter(x => x.grupo === g).map(x => `<article class="card imbu">
+          <div class="q-head"><span class="name">${esc(x.nome)}</span><span class="req">${esc(x.efeito)}</span></div>
+          <div class="line"><b>Onde:</b> ${esc(x.onde)}</div>
+          <div class="imbu-lv">${x.niveis.map((n, i) => `<div><span class="how-t">${esc(n.n)}</span><b>${esc(n.v)}</b><span class="imbu-items">${x.itens[i].map(esc).join(" + ")}</span></div>`).join("")}</div>
+        </article>`).join("")}</div></section>`).join("")}
+      <p class="foot-note">${esc(IMBU.fonte)}</p>`;
+  }
+
   function lookView() {
     const isM = st.look === "montarias";
     const list = isM ? LOOK.montarias : LOOK.outfits;
@@ -308,6 +335,7 @@
           return `<a class="voc" href="#${esc(v.id)}">${slot(i.icon, true)}<span class="voc-txt"><span class="name">${esc(v.nome)}</span><span class="voc-desc">${esc(i.txt || "")}</span></span></a>`;
         }).join("")}
           <a class="voc" href="#quests">${slot("img/itens/falcon-shield.webp", true)}<span class="voc-txt"><span class="name">Quests por level</span><span class="voc-desc">As quests que mais valem a pena em cada faixa: acessos, descontos, bosses e itens.</span></span></a>
+          <a class="voc" href="#imbuements">${slot("img/itens/soulbiter.webp", true)}<span class="voc-txt"><span class="name">Imbuements</span><span class="voc-desc">O que imbuir em cada item da sua vocação e os materiais de cada imbuement.</span></span></a>
           <a class="voc" href="#outfits">${slot("img/montarias/draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
           <a class="voc" href="#monstros">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
         </div>
@@ -320,6 +348,7 @@
     document.body.classList.toggle("is-home", st.view === "inicio");
     if (st.view === "inicio") v.innerHTML = homeView();
     else if (st.view === "quests") v.innerHTML = questsView();
+    else if (st.view === "imbuements") v.innerHTML = imbuView();
     else if (st.view === "outfits") v.innerHTML = lookView();
     else if (st.view === "monstros") v.innerHTML = monstersView();
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
@@ -356,6 +385,8 @@
       const el = document.getElementById("etapa-" + (idx < 0 ? TIERS.length - 1 : idx));
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }
+    const ib = e.target.closest("[data-imbu]");
+    if (ib) { st.imbuVoc = ib.dataset.imbu; render(); }
     const qf = e.target.closest("[data-q]");
     if (qf) { st.qfilter = qf.dataset.q; render(); }
     if (e.target.closest("[data-go-base]")) {
@@ -379,7 +410,7 @@
     themeLabel();
     try {
       const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
-      [SITE, BASE, QUESTS, LOOK, ROTAS] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json")]);
+      [SITE, BASE, QUESTS, LOOK, ROTAS, IMBU] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json"), get("data/imbuements.json")]);
       const list = await Promise.all(SITE.servidores.map(id => get(`data/servidores/${id}.json`)));
       list.forEach(s => SERVERS[s.id] = s);
     } catch (e) {

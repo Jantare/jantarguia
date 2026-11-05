@@ -1,0 +1,1015 @@
+{
+ "fonte": "Dados: TibiaWiki (página Imbuing). Recomendações: guia de imbuements do Mtp e os guias de cada vocação usados nas rotas (Pacifista Tibiano, Neutrinho TV, BredTibia e Keke De Patinete).",
+ "custos": [
+  [
+   "Basic",
+   "7.500 gp"
+  ],
+  [
+   "Intricate",
+   "60.000 gp"
+  ],
+  [
+   "Powerful",
+   "250.000 gp"
+  ],
+  [
+   "Limpar imbuement",
+   "15.000 gp"
+  ]
+ ],
+ "dicas": [
+  "Libere com a primeira parte da Forgotten Knowledge Quest (basic e intricate). O powerful precisa de mais quests.",
+  "Cada imbuement dura 20 horas de uso. Os de combate só gastam em combate; Swiftness e Featherweight gastam o tempo todo.",
+  "Strike, Vampirism e Void podem ser feitos com Gold Tokens no NPC: 2 (basic), 4 (intricate) ou 6 (powerful). Às vezes sai mais barato.",
+  "Imbuement Scroll: imbua no pergaminho e aplique depois no item. Não dá para fazer basic em scroll.",
+  "Não cace sem imbuement: no mínimo coloque o basic para testar. A diferença em potion e XP é grande.",
+  "A proteção elemental depende da hunt: veja o elemento que mais bate no Hunt Finder ou no bestiary."
+ ],
+ "lista": [
+  {
+   "nome": "Strike",
+   "efeito": "Crítico",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+5% chance, +5% dano"
+    },
+    {
+     "n": "Intricate",
+     "v": "+5% chance, +15% dano"
+    },
+    {
+     "n": "Powerful",
+     "v": "+5% chance, +40% dano"
+    }
+   ],
+   "itens": [
+    [
+     "20 Protective Charm"
+    ],
+    [
+     "20 Protective Charm",
+     "25 Sabretooth"
+    ],
+    [
+     "20 Protective Charm",
+     "25 Sabretooth",
+     "5 Vexclaw Talon"
+    ]
+   ],
+   "onde": "Todas as armas",
+   "grupo": "Ataque"
+  },
+  {
+   "nome": "Vampirism",
+   "efeito": "Life leech (rouba vida)",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "5%"
+    },
+    {
+     "n": "Intricate",
+     "v": "10%"
+    },
+    {
+     "n": "Powerful",
+     "v": "25%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Vampire Teeth"
+    ],
+    [
+     "25 Vampire Teeth",
+     "15 Bloody Pincers"
+    ],
+    [
+     "25 Vampire Teeth",
+     "15 Bloody Pincers",
+     "5 Piece of Dead Brain"
+    ]
+   ],
+   "onde": "Armas e armaduras",
+   "grupo": "Ataque"
+  },
+  {
+   "nome": "Void",
+   "efeito": "Mana leech (rouba mana)",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "3%"
+    },
+    {
+     "n": "Intricate",
+     "v": "5%"
+    },
+    {
+     "n": "Powerful",
+     "v": "8%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Rope Belt"
+    ],
+    [
+     "25 Rope Belt",
+     "25 Silencer Claws"
+    ],
+    [
+     "25 Rope Belt",
+     "25 Silencer Claws",
+     "5 Some Grimeleech Wings"
+    ]
+   ],
+   "onde": "Armas e capacetes",
+   "grupo": "Ataque"
+  },
+  {
+   "nome": "Scorch",
+   "efeito": "Dano de fogo",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "10% do físico vira fogo"
+    },
+    {
+     "n": "Intricate",
+     "v": "25%"
+    },
+    {
+     "n": "Powerful",
+     "v": "50%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Fiery Heart"
+    ],
+    [
+     "25 Fiery Heart",
+     "5 Green Dragon Scale"
+    ],
+    [
+     "25 Fiery Heart",
+     "5 Green Dragon Scale",
+     "5 Demon Horn"
+    ]
+   ],
+   "onde": "Armas corpo a corpo, arcos e bestas",
+   "grupo": "Ataque"
+  },
+  {
+   "nome": "Venom",
+   "efeito": "Dano de terra",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "10% do físico vira terra"
+    },
+    {
+     "n": "Intricate",
+     "v": "25%"
+    },
+    {
+     "n": "Powerful",
+     "v": "50%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Swamp Grass"
+    ],
+    [
+     "25 Swamp Grass",
+     "20 Poisonous Slime"
+    ],
+    [
+     "25 Swamp Grass",
+     "20 Poisonous Slime",
+     "2 Slime Heart"
+    ]
+   ],
+   "onde": "Armas corpo a corpo, arcos e bestas",
+   "grupo": "Ataque"
+  },
+  {
+   "nome": "Frost",
+   "efeito": "Dano de gelo",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "10% do físico vira gelo"
+    },
+    {
+     "n": "Intricate",
+     "v": "25%"
+    },
+    {
+     "n": "Powerful",
+     "v": "50%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Frosty Heart"
+    ],
+    [
+     "25 Frosty Heart",
+     "10 Seacrest Hair"
+    ],
+    [
+     "25 Frosty Heart",
+     "10 Seacrest Hair",
+     "5 Polar Bear Paw"
+    ]
+   ],
+   "onde": "Armas corpo a corpo, arcos e bestas",
+   "grupo": "Ataque"
+  },
+  {
+   "nome": "Electrify",
+   "efeito": "Dano de energia",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "10% do físico vira energia"
+    },
+    {
+     "n": "Intricate",
+     "v": "25%"
+    },
+    {
+     "n": "Powerful",
+     "v": "50%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Rorc Feather"
+    ],
+    [
+     "25 Rorc Feather",
+     "5 Peacock Feather Fan"
+    ],
+    [
+     "25 Rorc Feather",
+     "5 Peacock Feather Fan",
+     "1 Energy Vein"
+    ]
+   ],
+   "onde": "Armas corpo a corpo, arcos e bestas",
+   "grupo": "Ataque"
+  },
+  {
+   "nome": "Reap",
+   "efeito": "Dano de morte",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "10% do físico vira morte"
+    },
+    {
+     "n": "Intricate",
+     "v": "25%"
+    },
+    {
+     "n": "Powerful",
+     "v": "50%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Pile of Grave Earth"
+    ],
+    [
+     "25 Pile of Grave Earth",
+     "20 Demonic Skeletal Hand"
+    ],
+    [
+     "25 Pile of Grave Earth",
+     "20 Demonic Skeletal Hand",
+     "5 Petrified Scream"
+    ]
+   ],
+   "onde": "Armas corpo a corpo, arcos e bestas",
+   "grupo": "Ataque"
+  },
+  {
+   "nome": "Lich Shroud",
+   "efeito": "Proteção contra morte",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "2%"
+    },
+    {
+     "n": "Intricate",
+     "v": "5%"
+    },
+    {
+     "n": "Powerful",
+     "v": "10%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Flask of Embalming Fluid"
+    ],
+    [
+     "25 Flask of Embalming Fluid",
+     "20 Gloom Wolf Fur"
+    ],
+    [
+     "25 Flask of Embalming Fluid",
+     "20 Gloom Wolf Fur",
+     "5 Mystical Hourglass"
+    ]
+   ],
+   "onde": "Armaduras, escudos e spellbooks",
+   "grupo": "Proteção"
+  },
+  {
+   "nome": "Snake Skin",
+   "efeito": "Proteção contra terra",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "3%"
+    },
+    {
+     "n": "Intricate",
+     "v": "8%"
+    },
+    {
+     "n": "Powerful",
+     "v": "15%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Piece of Swampling Wood"
+    ],
+    [
+     "25 Piece of Swampling Wood",
+     "20 Snake Skin"
+    ],
+    [
+     "25 Piece of Swampling Wood",
+     "20 Snake Skin",
+     "10 Brimstone Fangs"
+    ]
+   ],
+   "onde": "Armaduras, escudos e spellbooks",
+   "grupo": "Proteção"
+  },
+  {
+   "nome": "Dragon Hide",
+   "efeito": "Proteção contra fogo",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "3%"
+    },
+    {
+     "n": "Intricate",
+     "v": "8%"
+    },
+    {
+     "n": "Powerful",
+     "v": "15%"
+    }
+   ],
+   "itens": [
+    [
+     "20 Green Dragon Leather"
+    ],
+    [
+     "20 Green Dragon Leather",
+     "10 Blazing Bone"
+    ],
+    [
+     "20 Green Dragon Leather",
+     "10 Blazing Bone",
+     "5 Draken Sulphur"
+    ]
+   ],
+   "onde": "Armaduras, escudos e spellbooks",
+   "grupo": "Proteção"
+  },
+  {
+   "nome": "Quara Scale",
+   "efeito": "Proteção contra gelo",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "3%"
+    },
+    {
+     "n": "Intricate",
+     "v": "8%"
+    },
+    {
+     "n": "Powerful",
+     "v": "15%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Winter Wolf Fur"
+    ],
+    [
+     "25 Winter Wolf Fur",
+     "15 Thick Fur"
+    ],
+    [
+     "25 Winter Wolf Fur",
+     "15 Thick Fur",
+     "10 Deepling Warts"
+    ]
+   ],
+   "onde": "Armaduras, escudos e spellbooks",
+   "grupo": "Proteção"
+  },
+  {
+   "nome": "Cloud Fabric",
+   "efeito": "Proteção contra energia",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "3%"
+    },
+    {
+     "n": "Intricate",
+     "v": "8%"
+    },
+    {
+     "n": "Powerful",
+     "v": "15%"
+    }
+   ],
+   "itens": [
+    [
+     "20 Wyvern Talisman"
+    ],
+    [
+     "20 Wyvern Talisman",
+     "15 Crawler Head Plating"
+    ],
+    [
+     "20 Wyvern Talisman",
+     "15 Crawler Head Plating",
+     "10 Wyrm Scale"
+    ]
+   ],
+   "onde": "Armaduras, escudos e spellbooks",
+   "grupo": "Proteção"
+  },
+  {
+   "nome": "Demon Presence",
+   "efeito": "Proteção contra sagrado",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "3%"
+    },
+    {
+     "n": "Intricate",
+     "v": "8%"
+    },
+    {
+     "n": "Powerful",
+     "v": "15%"
+    }
+   ],
+   "itens": [
+    [
+     "25 Cultish Robe"
+    ],
+    [
+     "25 Cultish Robe",
+     "25 Cultish Mask"
+    ],
+    [
+     "25 Cultish Robe",
+     "25 Cultish Mask",
+     "20 Hellspawn Tail"
+    ]
+   ],
+   "onde": "Armaduras, escudos e spellbooks",
+   "grupo": "Proteção"
+  },
+  {
+   "nome": "Vibrancy",
+   "efeito": "Tira paralyze",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "15% de chance"
+    },
+    {
+     "n": "Intricate",
+     "v": "25%"
+    },
+    {
+     "n": "Powerful",
+     "v": "50%"
+    }
+   ],
+   "itens": [
+    [
+     "20 Wereboar Hooves"
+    ],
+    [
+     "20 Wereboar Hooves",
+     "15 Crystallized Anger"
+    ],
+    [
+     "20 Wereboar Hooves",
+     "15 Crystallized Anger",
+     "5 Quill"
+    ]
+   ],
+   "onde": "Botas",
+   "grupo": "Proteção"
+  },
+  {
+   "nome": "Swiftness",
+   "efeito": "Velocidade",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+10"
+    },
+    {
+     "n": "Intricate",
+     "v": "+15"
+    },
+    {
+     "n": "Powerful",
+     "v": "+30"
+    }
+   ],
+   "itens": [
+    [
+     "15 Damselfly Wing"
+    ],
+    [
+     "15 Damselfly Wing",
+     "25 Compass"
+    ],
+    [
+     "15 Damselfly Wing",
+     "25 Compass",
+     "20 Waspoid Wing"
+    ]
+   ],
+   "onde": "Botas",
+   "grupo": "Suporte"
+  },
+  {
+   "nome": "Featherweight",
+   "efeito": "Capacidade (cap)",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+3%"
+    },
+    {
+     "n": "Intricate",
+     "v": "+8%"
+    },
+    {
+     "n": "Powerful",
+     "v": "+15%"
+    }
+   ],
+   "itens": [
+    [
+     "20 Fairy Wings"
+    ],
+    [
+     "20 Fairy Wings",
+     "10 Little Bowl of Myrrh"
+    ],
+    [
+     "20 Fairy Wings",
+     "10 Little Bowl of Myrrh",
+     "5 Goosebump Leather"
+    ]
+   ],
+   "onde": "Mochilas",
+   "grupo": "Suporte"
+  },
+  {
+   "nome": "Epiphany",
+   "efeito": "Magic level",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+1"
+    },
+    {
+     "n": "Intricate",
+     "v": "+2"
+    },
+    {
+     "n": "Powerful",
+     "v": "+4"
+    }
+   ],
+   "itens": [
+    [
+     "25 Elvish Talisman"
+    ],
+    [
+     "25 Elvish Talisman",
+     "15 Broken Shamanic Staff"
+    ],
+    [
+     "25 Elvish Talisman",
+     "15 Broken Shamanic Staff",
+     "15 Strand of Medusa Hair"
+    ]
+   ],
+   "onde": "Wands, rods e capacetes de mago",
+   "grupo": "Skill"
+  },
+  {
+   "nome": "Punch",
+   "efeito": "Fist fighting",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+1"
+    },
+    {
+     "n": "Intricate",
+     "v": "+2"
+    },
+    {
+     "n": "Powerful",
+     "v": "+4"
+    }
+   ],
+   "itens": [
+    [
+     "25 Tarantula Egg"
+    ],
+    [
+     "25 Tarantula Egg",
+     "20 Mantassin Tail"
+    ],
+    [
+     "25 Tarantula Egg",
+     "20 Mantassin Tail",
+     "15 Gold-Brocaded Cloth"
+    ]
+   ],
+   "onde": "Capacetes e armas de punho",
+   "grupo": "Skill"
+  },
+  {
+   "nome": "Chop",
+   "efeito": "Axe fighting",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+1"
+    },
+    {
+     "n": "Intricate",
+     "v": "+2"
+    },
+    {
+     "n": "Powerful",
+     "v": "+4"
+    }
+   ],
+   "itens": [
+    [
+     "20 Orc Tooth"
+    ],
+    [
+     "20 Orc Tooth",
+     "25 Battle Stone"
+    ],
+    [
+     "20 Orc Tooth",
+     "25 Battle Stone",
+     "20 Moohtant Horn"
+    ]
+   ],
+   "onde": "Capacetes e machados",
+   "grupo": "Skill"
+  },
+  {
+   "nome": "Slash",
+   "efeito": "Sword fighting",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+1"
+    },
+    {
+     "n": "Intricate",
+     "v": "+2"
+    },
+    {
+     "n": "Powerful",
+     "v": "+4"
+    }
+   ],
+   "itens": [
+    [
+     "25 Lion's Mane"
+    ],
+    [
+     "25 Lion's Mane",
+     "25 Mooh'tah Shell"
+    ],
+    [
+     "25 Lion's Mane",
+     "25 Mooh'tah Shell",
+     "5 War Crystal"
+    ]
+   ],
+   "onde": "Capacetes e espadas",
+   "grupo": "Skill"
+  },
+  {
+   "nome": "Bash",
+   "efeito": "Club fighting",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+1"
+    },
+    {
+     "n": "Intricate",
+     "v": "+2"
+    },
+    {
+     "n": "Powerful",
+     "v": "+4"
+    }
+   ],
+   "itens": [
+    [
+     "20 Cyclops Toe"
+    ],
+    [
+     "20 Cyclops Toe",
+     "15 Ogre Nose Ring"
+    ],
+    [
+     "20 Cyclops Toe",
+     "15 Ogre Nose Ring",
+     "10 Warmaster's Wristguards"
+    ]
+   ],
+   "onde": "Capacetes e clavas",
+   "grupo": "Skill"
+  },
+  {
+   "nome": "Precision",
+   "efeito": "Distance fighting",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+1"
+    },
+    {
+     "n": "Intricate",
+     "v": "+2"
+    },
+    {
+     "n": "Powerful",
+     "v": "+4"
+    }
+   ],
+   "itens": [
+    [
+     "25 Elven Scouting Glass"
+    ],
+    [
+     "25 Elven Scouting Glass",
+     "20 Elven Hoof"
+    ],
+    [
+     "25 Elven Scouting Glass",
+     "20 Elven Hoof",
+     "10 Metal Spike"
+    ]
+   ],
+   "onde": "Capacetes, arcos e bestas",
+   "grupo": "Skill"
+  },
+  {
+   "nome": "Blockade",
+   "efeito": "Shielding",
+   "niveis": [
+    {
+     "n": "Basic",
+     "v": "+1"
+    },
+    {
+     "n": "Intricate",
+     "v": "+2"
+    },
+    {
+     "n": "Powerful",
+     "v": "+4"
+    }
+   ],
+   "itens": [
+    [
+     "20 Piece of Scarab Shell"
+    ],
+    [
+     "20 Piece of Scarab Shell",
+     "25 Brimstone Shell"
+    ],
+    [
+     "20 Piece of Scarab Shell",
+     "25 Brimstone Shell",
+     "25 Frazzle Skin"
+    ]
+   ],
+   "onde": "Capacetes, escudos e spellbooks",
+   "grupo": "Skill"
+  }
+ ],
+ "rec": {
+  "knight": {
+   "nome": "Knight",
+   "slots": [
+    [
+     "Arma de 3 slots",
+     "Strike + Vampirism + Void",
+     "A configuração do Knight a partir do lvl 70 (Rift Lance, Berserker, Heavy Mace)."
+    ],
+    [
+     "Arma de 2 slots",
+     "Strike + Vampirism",
+     "Se a arma já tiver life leech na proficiência, troque o Vampirism por Void."
+    ],
+    [
+     "Capacete",
+     "Void + skill da arma (Chop, Slash ou Bash)",
+     "Mana leech e +4 de skill no powerful."
+    ],
+    [
+     "Armadura",
+     "Proteção do elemento da hunt",
+     "Se tiver 2 slots, coloque Vampirism no outro."
+    ],
+    [
+     "Escudo (1 mão)",
+     "Proteção do elemento da hunt",
+     ""
+    ],
+    [
+     "Botas",
+     "Swiftness",
+     "Em hunt com paralyze, troque por Vibrancy."
+    ]
+   ]
+  },
+  "paladin": {
+   "nome": "Paladin",
+   "slots": [
+    [
+     "Arco ou besta",
+     "Strike + Vampirism + Void",
+     "O Icicle Bow do lvl 8 já vale imbuir no powerful. No Rending Inferniarch não precisa de Strike (o crítico vem da proficiência)."
+    ],
+    [
+     "Capacete",
+     "Void + Precision",
+     ""
+    ],
+    [
+     "Armadura",
+     "Proteção do elemento da hunt + Vampirism",
+     "Com a Ghost Chestplate (2 slots), tenha uma de morte e outra de terra."
+    ],
+    [
+     "Botas",
+     "Swiftness",
+     "Ou Vibrancy em hunt com paralyze."
+    ],
+    [
+     "Mochila",
+     "Featherweight",
+     "Ajuda a ficar mais tempo na hunt."
+    ]
+   ]
+  },
+  "sorcerer": {
+   "nome": "Sorcerer",
+   "slots": [
+    [
+     "Wand",
+     "Strike + Void",
+     "A Lion Wand já vem com life leech. Wands abaixo do lvl 150 não pegam Strike powerful."
+    ],
+    [
+     "Capacete",
+     "Void + Epiphany",
+     "Mana leech e +4 de magic level."
+    ],
+    [
+     "Armadura",
+     "Vampirism + proteção do elemento da hunt",
+     ""
+    ],
+    [
+     "Spellbook",
+     "Proteção do elemento da hunt",
+     ""
+    ],
+    [
+     "Botas",
+     "Swiftness ou Vibrancy",
+     ""
+    ],
+    [
+     "Mochila",
+     "Featherweight",
+     "Mago tem pouca cap: faz diferença."
+    ]
+   ]
+  },
+  "druid": {
+   "nome": "Druid",
+   "slots": [
+    [
+     "Rod",
+     "Strike + Void",
+     "A Cobra Rod já vem com vampirismo. Rods abaixo do lvl 150 não pegam Strike powerful."
+    ],
+    [
+     "Capacete",
+     "Void + Epiphany",
+     "Mana leech e +4 de magic level."
+    ],
+    [
+     "Armadura",
+     "Vampirism + proteção do elemento da hunt",
+     "Em hunt pesada use os dois, como no guia."
+    ],
+    [
+     "Spellbook",
+     "Proteção do elemento da hunt",
+     ""
+    ],
+    [
+     "Botas",
+     "Swiftness ou Vibrancy",
+     ""
+    ],
+    [
+     "Mochila",
+     "Featherweight",
+     "Mago tem pouca cap: faz diferença."
+    ]
+   ]
+  },
+  "monk": {
+   "nome": "Monk",
+   "slots": [
+    [
+     "Arma de 2 slots",
+     "Strike + Void",
+     "Falcon Sai e Cobra Bo já têm life na proficiência. Lion Claws não aceita Strike."
+    ],
+    [
+     "Arma de 3 slots (BiS)",
+     "Strike + Vampirism + Void",
+     ""
+    ],
+    [
+     "Capacete",
+     "Void + Punch",
+     ""
+    ],
+    [
+     "Armadura",
+     "Proteção do elemento da hunt",
+     "Na Stoic Iks Robe (2 slots), coloque uma segunda proteção."
+    ],
+    [
+     "Botas",
+     "Swiftness",
+     ""
+    ]
+   ]
+  }
+ },
+ "video": "https://www.youtube.com/watch?v=zC0CVpmAxzw"
+}

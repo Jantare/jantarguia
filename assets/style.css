@@ -254,3 +254,11 @@ a.name:hover{color:var(--gold)}
 .yt-mini:hover{text-decoration:underline}
 .quest .hrow-yt{margin-top:0}
 .slot.place svg{width:22px;height:22px;color:var(--gold)}
+.imbu-rec{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.imbu-what{color:var(--gold);font-size:1.02rem}
+.imbu-info{display:grid;grid-template-columns:minmax(220px,1fr) 2fr;gap:12px}
+.imbu-info ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:.93rem}
+.imbu-lv{display:flex;flex-direction:column;gap:8px;border-top:1px dashed var(--line);padding-top:10px}
+.imbu-lv > div{display:flex;flex-direction:column;gap:1px}
+.imbu-items{font-size:.84rem;color:var(--muted)}
+@media (max-width:640px){.imbu-info{grid-template-columns:1fr}}

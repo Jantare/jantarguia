@@ -218,7 +218,8 @@
        "nota": "Primeira hunt: XP e gold constantes, dano baixo.",
        "exp": 40,
        "hp": 65,
-       "img": "img/monstros/rotworm.gif"
+       "img": "img/monstros/rotworm.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Rotworm%20hunt%208"
       },
       {
        "m": "Troll",
@@ -227,7 +228,8 @@
        "nota": "Bom para upar skill no começo.",
        "exp": 20,
        "hp": 50,
-       "img": "img/monstros/troll.gif"
+       "img": "img/monstros/troll.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Troll%20hunt%208"
       },
       {
        "m": "Minotaur",
@@ -236,7 +238,8 @@
        "nota": "Mais XP, comece com os archers longe.",
        "exp": 50,
        "hp": 100,
-       "img": "img/monstros/minotaur.gif"
+       "img": "img/monstros/minotaur.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Minotaur%20hunt%2012"
       }
      ],
      "magias": [
@@ -417,7 +420,8 @@
        "nota": "Clássica de Knight: aguenta bem e dá loot.",
        "exp": 150,
        "hp": 260,
-       "img": "img/monstros/cyclops.gif"
+       "img": "img/monstros/cyclops.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cyclops%20hunt%2020"
       },
       {
        "m": "Dwarf Soldier",
@@ -426,7 +430,8 @@
        "nota": "Fácil e perto do depot.",
        "exp": 70,
        "hp": 135,
-       "img": "img/monstros/dwarf-soldier.gif"
+       "img": "img/monstros/dwarf-soldier.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Dwarf%20Soldier%20hunt%2020"
       },
       {
        "m": "Orc Berserker",
@@ -435,7 +440,8 @@
        "nota": "Muita XP para quem já tem a arma do lvl 30.",
        "exp": 195,
        "hp": 210,
-       "img": "img/monstros/orc-berserker.gif"
+       "img": "img/monstros/orc-berserker.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20orc%20fortress%20hunt"
       }
      ],
      "magias": [
@@ -530,7 +536,8 @@
        "nota": "A hunt do Knight nessa faixa. Use proteção de fogo.",
        "exp": 700,
        "hp": 1000,
-       "img": "img/monstros/dragon.gif"
+       "img": "img/monstros/dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Dragon%20hunt%2040"
       },
       {
        "m": "Ancient Scarab",
@@ -539,7 +546,8 @@
        "nota": "Boa XP e pouco dano.",
        "exp": 720,
        "hp": 1000,
-       "img": "img/monstros/ancient-scarab.gif"
+       "img": "img/monstros/ancient-scarab.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Scarab%20hunt%2040"
       },
       {
        "m": "Wyvern",
@@ -548,7 +556,8 @@
        "nota": "Leve antídoto ou Cure Poison.",
        "exp": 515,
        "hp": 795,
-       "img": "img/monstros/wyvern.gif"
+       "img": "img/monstros/wyvern.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Wyvern%20hunt%2040"
       },
       {
        "m": "Bonebeast",
@@ -557,7 +566,8 @@
        "nota": "Junta em box com Exori.",
        "exp": 580,
        "hp": 515,
-       "img": "img/monstros/bonebeast.gif"
+       "img": "img/monstros/bonebeast.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bonebeast%20hunt%2045"
       }
      ],
      "magias": [
@@ -652,7 +662,8 @@
        "nota": "Muita XP, puxe em box pequena.",
        "exp": 1200,
        "hp": 1400,
-       "img": "img/monstros/hero.gif"
+       "img": "img/monstros/hero.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20hero%20cave%20edron%20hunt"
       },
       {
        "m": "Mutated Tiger",
@@ -661,7 +672,8 @@
        "nota": "Rápido de matar com a arma de 3 slots do 70.",
        "exp": 750,
        "hp": 1100,
-       "img": "img/monstros/mutated-tiger.gif"
+       "img": "img/monstros/mutated-tiger.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mutated%20Tiger%20hunt%2060"
       },
       {
        "m": "Lizard Legionnaire",
@@ -670,7 +682,8 @@
        "nota": "Dropa itens Zaoan.",
        "exp": 1100,
        "hp": 1400,
-       "img": "img/monstros/lizard-legionnaire.gif"
+       "img": "img/monstros/lizard-legionnaire.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Lizard%20Legionnaire%20hunt%2070"
       },
       {
        "m": "Werewolf",
@@ -679,7 +692,8 @@
        "nota": "Ótima XP. Precisa do acesso de Grimvale.",
        "exp": 1900,
        "hp": 1955,
-       "img": "img/monstros/werewolf.gif"
+       "img": "img/monstros/werewolf.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werewolf%20hunt%2080"
       }
      ],
      "magias": [
@@ -756,7 +770,8 @@
        "nota": "Dropa Zaoan Legs e Zaoan Helmet.",
        "exp": 2200,
        "hp": 3050,
-       "img": "img/monstros/lizard-chosen.gif"
+       "img": "img/monstros/lizard-chosen.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Lizard%20Chosen%20hunt%20100"
       },
       {
        "m": "Glooth Bandit",
@@ -765,7 +780,8 @@
        "nota": "Também dropa a Beastslayer Axe (machado).",
        "exp": 2000,
        "hp": 2600,
-       "img": "img/monstros/glooth-bandit.gif"
+       "img": "img/monstros/glooth-bandit.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Glooth%20Bandit%20hunt%20100"
       },
       {
        "m": "Frost Dragon",
@@ -774,7 +790,8 @@
        "nota": "Use proteção de gelo.",
        "exp": 2100,
        "hp": 1800,
-       "img": "img/monstros/frost-dragon.gif"
+       "img": "img/monstros/frost-dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Frost%20Dragon%20hunt%20110"
       },
       {
        "m": "Werebear",
@@ -783,7 +800,8 @@
        "nota": "Junto com wereboars e werebadgers.",
        "exp": 2100,
        "hp": 2400,
-       "img": "img/monstros/werebear.gif"
+       "img": "img/monstros/werebear.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werebear%20hunt%20110"
       }
      ],
      "magias": [
@@ -838,7 +856,8 @@
        "nota": "Com arma de fogo (Phantasmal Axe) rende muito.",
        "exp": 2200,
        "hp": 2700,
-       "img": "img/monstros/werehyaena.gif"
+       "img": "img/monstros/werehyaena.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werehyaena%20hunt%20150"
       },
       {
        "m": "Ghastly Dragon",
@@ -847,7 +866,8 @@
        "nota": "Dropa Guardian Boots e Zaoan Helmet.",
        "exp": 4600,
        "hp": 7800,
-       "img": "img/monstros/ghastly-dragon.gif"
+       "img": "img/monstros/ghastly-dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ghastly%20Dragon%20hunt%20150"
       },
       {
        "m": "Dawnfire Asura",
@@ -856,7 +876,8 @@
        "nota": "Box grande em time; solo, puxe aos poucos.",
        "exp": 4100,
        "hp": 2900,
-       "img": "img/monstros/dawnfire-asura.gif"
+       "img": "img/monstros/dawnfire-asura.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20asura%20palace%20hunt"
       }
      ],
      "magias": [
@@ -897,7 +918,8 @@
        "nota": "Junto com Silencers. Use proteção de morte.",
        "exp": 3740,
        "hp": 4100,
-       "img": "img/monstros/frazzlemaw.gif"
+       "img": "img/monstros/frazzlemaw.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Frazzlemaw%20hunt%20200"
       },
       {
        "m": "Werelion",
@@ -906,7 +928,8 @@
        "nota": "Muito loot. Leve a arma de gelo (Cobra).",
        "exp": 2200,
        "hp": 2800,
-       "img": "img/monstros/werelion.gif"
+       "img": "img/monstros/werelion.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werelion%20hunt%20200"
       },
       {
        "m": "Cobra Assassin",
@@ -915,7 +938,8 @@
        "nota": "Requer a quest The Order of the Cobra.",
        "exp": 6980,
        "hp": 8200,
-       "img": "img/monstros/cobra-assassin.gif"
+       "img": "img/monstros/cobra-assassin.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20cobra%20bastion%20hunt"
       },
       {
        "m": "Venerable Girtablilu",
@@ -924,7 +948,8 @@
        "nota": "XP alta, dano físico e de terra.",
        "exp": 5300,
        "hp": 8500,
-       "img": "img/monstros/venerable-girtablilu.gif"
+       "img": "img/monstros/venerable-girtablilu.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Venerable%20Girtablilu%20hunt%20250"
       }
      ],
      "magias": [
@@ -965,7 +990,8 @@
        "nota": "Dropa o set Falcon. Precisa da quest de acesso.",
        "exp": 6300,
        "hp": 9000,
-       "img": "img/monstros/falcon-knight.gif"
+       "img": "img/monstros/falcon-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20falcon%20bastion%20hunt"
       },
       {
        "m": "Ancient Lion Knight",
@@ -974,7 +1000,8 @@
        "nota": "Dropa a Lion Axe e o Lion Hammer.",
        "exp": 8100,
        "hp": 9100,
-       "img": "img/monstros/ancient-lion-knight.gif"
+       "img": "img/monstros/ancient-lion-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Lion%20Knight%20hunt%20300"
       },
       {
        "m": "Hellflayer",
@@ -983,7 +1010,8 @@
        "nota": "Dano alto: use a Dauntless e proteção de fogo.",
        "exp": 11720,
        "hp": 14000,
-       "img": "img/monstros/hellflayer.gif"
+       "img": "img/monstros/hellflayer.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Hellflayer%20hunt%20350"
       },
       {
        "m": "Juggernaut",
@@ -992,7 +1020,8 @@
        "nota": "Muita XP para Knight bem equipado.",
        "exp": 11200,
        "hp": 18000,
-       "img": "img/monstros/juggernaut.gif"
+       "img": "img/monstros/juggernaut.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Juggernaut%20hunt%20350"
       }
      ],
      "magias": [
@@ -1053,7 +1082,8 @@
        "nota": "Começo do Soul War. Use a arma de Soul assim que tiver.",
        "exp": 19470,
        "hp": 24000,
-       "img": "img/monstros/bony-sea-devil.gif"
+       "img": "img/monstros/bony-sea-devil.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bony%20Sea%20Devil%20hunt%20400"
       },
       {
        "m": "Cloak of Terror",
@@ -1062,7 +1092,8 @@
        "nota": "Muito dano de morte.",
        "exp": 19700,
        "hp": 28000,
-       "img": "img/monstros/cloak-of-terror.gif"
+       "img": "img/monstros/cloak-of-terror.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cloak%20of%20Terror%20hunt%20400"
       },
       {
        "m": "Brachiodemon",
@@ -1071,7 +1102,8 @@
        "nota": "Junto com Infernal Demons. Vá em time no começo.",
        "exp": 15770,
        "hp": 25000,
-       "img": "img/monstros/brachiodemon.gif"
+       "img": "img/monstros/brachiodemon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Brachiodemon%20hunt%20450"
       }
      ],
      "magias": []
@@ -1097,7 +1129,8 @@
        "nota": "Áreas do Rotten Blood: o loot paga o Sanguine.",
        "exp": 21570,
        "hp": 31700,
-       "img": null
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bloated%20Man-Maggot%20hunt%20500"
       },
       {
        "m": "Mycobiontic Beetle",
@@ -1106,7 +1139,8 @@
        "nota": "Hunt forte para Knight com Spiritthorn.",
        "exp": 21175,
        "hp": 30200,
-       "img": null
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mycobiontic%20Beetle%20hunt%20500"
       },
       {
        "m": "Oozing Corpus",
@@ -1115,7 +1149,8 @@
        "nota": "Use proteção de morte e terra.",
        "exp": 20600,
        "hp": 28700,
-       "img": null
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Oozing%20Corpus%20hunt%20550"
       }
      ],
      "magias": []
@@ -1206,7 +1241,8 @@
        "nota": "Primeira hunt: fácil de kitar.",
        "exp": 40,
        "hp": 65,
-       "img": "img/monstros/rotworm.gif"
+       "img": "img/monstros/rotworm.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Rotworm%20hunt%208"
       },
       {
        "m": "Amazon",
@@ -1215,7 +1251,8 @@
        "nota": "Boa XP e loot para começar.",
        "exp": 60,
        "hp": 110,
-       "img": "img/monstros/amazon.gif"
+       "img": "img/monstros/amazon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Amazon%20hunt%2010"
       },
       {
        "m": "Minotaur",
@@ -1224,7 +1261,8 @@
        "nota": "Kite e não deixe juntar muitos.",
        "exp": 50,
        "hp": 100,
-       "img": "img/monstros/minotaur.gif"
+       "img": "img/monstros/minotaur.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Minotaur%20hunt%2012"
       }
      ],
      "magias": [
@@ -1441,7 +1479,8 @@
        "nota": "Lentos: dá para kitar sem tomar dano.",
        "exp": 150,
        "hp": 260,
-       "img": "img/monstros/cyclops.gif"
+       "img": "img/monstros/cyclops.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cyclops%20hunt%2020"
       },
       {
        "m": "Dwarf Soldier",
@@ -1450,7 +1489,8 @@
        "nota": "Fácil e perto do depot.",
        "exp": 70,
        "hp": 135,
-       "img": "img/monstros/dwarf-soldier.gif"
+       "img": "img/monstros/dwarf-soldier.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dwarf%20Soldier%20hunt%2020"
       },
       {
        "m": "Orc Berserker",
@@ -1459,7 +1499,8 @@
        "nota": "Muita XP; mantenha distância.",
        "exp": 195,
        "hp": 210,
-       "img": "img/monstros/orc-berserker.gif"
+       "img": "img/monstros/orc-berserker.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Orc%20Berserker%20hunt%2030"
       }
      ],
      "magias": [
@@ -1610,7 +1651,8 @@
        "nota": "A hunt clássica do Paladin nessa faixa.",
        "exp": 700,
        "hp": 1000,
-       "img": "img/monstros/dragon.gif"
+       "img": "img/monstros/dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dragon%20hunt%2035"
       },
       {
        "m": "Ancient Scarab",
@@ -1619,7 +1661,8 @@
        "nota": "Boa XP, leve Cure Poison.",
        "exp": 720,
        "hp": 1000,
-       "img": "img/monstros/ancient-scarab.gif"
+       "img": "img/monstros/ancient-scarab.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ancient%20Scarab%20hunt%2040"
       },
       {
        "m": "Wyvern",
@@ -1628,7 +1671,8 @@
        "nota": "Kite e use Divine Caldera no 50.",
        "exp": 515,
        "hp": 795,
-       "img": "img/monstros/wyvern.gif"
+       "img": "img/monstros/wyvern.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Wyvern%20hunt%2040"
       }
      ],
      "magias": [
@@ -1731,7 +1775,8 @@
        "nota": "Ótima XP e dropa o Bow.",
        "exp": 1200,
        "hp": 1400,
-       "img": "img/monstros/hero.gif"
+       "img": "img/monstros/hero.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hero%20hunt%2060"
       },
       {
        "m": "Mutated Tiger",
@@ -1740,7 +1785,8 @@
        "nota": "Junte e use Divine Caldera.",
        "exp": 750,
        "hp": 1100,
-       "img": "img/monstros/mutated-tiger.gif"
+       "img": "img/monstros/mutated-tiger.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Mutated%20Tiger%20hunt%2060"
       },
       {
        "m": "Werewolf",
@@ -1749,7 +1795,8 @@
        "nota": "Muita XP. Precisa do acesso de Grimvale.",
        "exp": 1900,
        "hp": 1955,
-       "img": "img/monstros/werewolf.gif"
+       "img": "img/monstros/werewolf.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Werewolf%20hunt%2080"
       }
      ],
      "magias": [
@@ -1836,7 +1883,8 @@
        "nota": "Feche box com o Mycological Bow.",
        "exp": 2000,
        "hp": 2600,
-       "img": "img/monstros/glooth-bandit.gif"
+       "img": "img/monstros/glooth-bandit.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Glooth%20Bandit%20hunt%20100"
       },
       {
        "m": "Lizard Chosen",
@@ -1845,7 +1893,8 @@
        "nota": "Dropa itens Zaoan.",
        "exp": 2200,
        "hp": 3050,
-       "img": "img/monstros/lizard-chosen.gif"
+       "img": "img/monstros/lizard-chosen.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Lizard%20Chosen%20hunt%20100"
       },
       {
        "m": "Frost Dragon",
@@ -1854,7 +1903,8 @@
        "nota": "Use proteção de gelo.",
        "exp": 2100,
        "hp": 1800,
-       "img": "img/monstros/frost-dragon.gif"
+       "img": "img/monstros/frost-dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Frost%20Dragon%20hunt%20110"
       },
       {
        "m": "Hydra",
@@ -1863,7 +1913,8 @@
        "nota": "Box grande com Divine Caldera.",
        "exp": 2100,
        "hp": 2350,
-       "img": "img/monstros/hydra.gif"
+       "img": "img/monstros/hydra.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hydra%20hunt%20120"
       }
      ],
      "magias": [
@@ -1896,7 +1947,8 @@
        "nota": "Bate morte: leve proteção de morte.",
        "exp": 2200,
        "hp": 2700,
-       "img": "img/monstros/werehyaena.gif"
+       "img": "img/monstros/werehyaena.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Werehyaena%20hunt%20150"
       },
       {
        "m": "Dawnfire Asura",
@@ -1905,7 +1957,8 @@
        "nota": "Bate morte. Muito boa XP.",
        "exp": 4100,
        "hp": 2900,
-       "img": "img/monstros/dawnfire-asura.gif"
+       "img": "img/monstros/dawnfire-asura.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dawnfire%20Asura%20hunt%20170"
       },
       {
        "m": "Ghastly Dragon",
@@ -1914,7 +1967,8 @@
        "nota": "Dropa Guardian Boots.",
        "exp": 4600,
        "hp": 7800,
-       "img": "img/monstros/ghastly-dragon.gif"
+       "img": "img/monstros/ghastly-dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ghastly%20Dragon%20hunt%20150"
       }
      ],
      "magias": [
@@ -1938,39 +1992,73 @@
      "hunts": [
       {
        "m": "Medusa",
-       "onde": "Medusa Tower e Banuta",
+       "onde": "Medusa Tower",
        "lv": "200+",
-       "nota": "Bate terra: hora de usar o Sleep Shawl.",
+       "nota": "Bate terra: hora de usar o Sleep Shawl. Uma das melhores hunts da faixa.",
        "exp": 4050,
        "hp": 4500,
-       "img": "img/monstros/medusa.gif"
+       "img": "img/monstros/medusa.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20medusa%20tower%20hunt"
       },
       {
-       "m": "Werelion",
-       "onde": "Grimvale e Darashia",
+       "m": "Serpent Spawn",
+       "onde": "Banuta (Medusas, Serpent Spawns e Hydras)",
        "lv": "200+",
-       "nota": "Muito loot.",
-       "exp": 2200,
-       "hp": 2800,
-       "img": "img/monstros/werelion.gif"
+       "nota": "Bate terra: Sleep Shawl de novo.",
+       "exp": 3050,
+       "hp": 3000,
+       "img": "img/monstros/serpent-spawn.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20banuta%20hunt"
       },
       {
-       "m": "Frazzlemaw",
-       "onde": "Roshamuul",
+       "m": null,
+       "onde": "Warzone 5 e 6 (Bigfoot's Burden)",
+       "lv": "200+",
+       "nota": "Também bate terra e é das melhores hunts dessa faixa.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20warzone%205%206%20hunt"
+      },
+      {
+       "m": "Burster Spectre",
+       "onde": "Hunt de Burster Spectres",
        "lv": "220+",
-       "nota": "Junto com Silencers. Use proteção de morte.",
-       "exp": 3740,
-       "hp": 4100,
-       "img": "img/monstros/frazzlemaw.gif"
+       "nota": "Bate gelo: use a Embrace of Nature.",
+       "exp": 6000,
+       "hp": 6500,
+       "img": "img/monstros/burster-spectre.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20burster%20spectre%20hunt"
       },
       {
        "m": "Dawnfire Asura",
        "onde": "Asura Palace",
        "lv": "230+",
-       "nota": "Com o Bow of Cataclysm rende ainda mais.",
+       "nota": "Bate morte: use o Bow of Cataclysm e a Ghost Chestplate de morte.",
        "exp": 4100,
        "hp": 2900,
-       "img": "img/monstros/dawnfire-asura.gif"
+       "img": "img/monstros/dawnfire-asura.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20asura%20palace%20hunt"
+      },
+      {
+       "m": "Grim Reaper",
+       "onde": "Grim Reapers (Drefia e Oramond)",
+       "lv": "230+",
+       "nota": "Bate morte: Bow of Cataclysm.",
+       "exp": 5500,
+       "hp": 3900,
+       "img": "img/monstros/grim-reaper.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20grim%20reaper%20hunt"
+      },
+      {
+       "m": "Werehyaena",
+       "onde": "Grimvale",
+       "lv": "230+",
+       "nota": "Bate morte: Bow of Cataclysm.",
+       "exp": 2200,
+       "hp": 2700,
+       "img": "img/monstros/werehyaena.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20werehyaena%20hunt"
       }
      ],
      "magias": [
@@ -2007,13 +2095,24 @@
      "treino": "Teste as duas estâncias (Sharpshooter e a defensiva de Holy). Faça charms e o Wheel.",
      "hunts": [
       {
+       "m": "Bashmu",
+       "onde": "Kilmaresh (Bashmu)",
+       "lv": "300+",
+       "nota": "Bate energia: com a Gnome Armor você economiza imbuement.",
+       "exp": 5000,
+       "hp": 8200,
+       "img": "img/monstros/bashmu.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20bashmu%20hunt"
+      },
+      {
        "m": "Falcon Knight",
        "onde": "Falcon Bastion (Edron)",
        "lv": "300+",
        "nota": "Dropa o set Falcon e o Falcon Bow.",
        "exp": 6300,
        "hp": 9000,
-       "img": "img/monstros/falcon-knight.gif"
+       "img": "img/monstros/falcon-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20falcon%20bastion%20hunt"
       },
       {
        "m": "Cobra Assassin",
@@ -2022,7 +2121,8 @@
        "nota": "Requer a quest The Order of the Cobra.",
        "exp": 6980,
        "hp": 8200,
-       "img": "img/monstros/cobra-assassin.gif"
+       "img": "img/monstros/cobra-assassin.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20cobra%20bastion%20hunt"
       },
       {
        "m": "Hellflayer",
@@ -2031,7 +2131,8 @@
        "nota": "Dano alto de fogo: Falcon Coif ajuda.",
        "exp": 11720,
        "hp": 14000,
-       "img": "img/monstros/hellflayer.gif"
+       "img": "img/monstros/hellflayer.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20hellflayer%20hunt"
       }
      ],
      "magias": [
@@ -2080,7 +2181,8 @@
        "nota": "Começo do Soul War.",
        "exp": 19470,
        "hp": 24000,
-       "img": "img/monstros/bony-sea-devil.gif"
+       "img": "img/monstros/bony-sea-devil.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bony%20Sea%20Devil%20hunt%20400"
       },
       {
        "m": "Cloak of Terror",
@@ -2089,7 +2191,8 @@
        "nota": "Muito dano de morte.",
        "exp": 19700,
        "hp": 28000,
-       "img": "img/monstros/cloak-of-terror.gif"
+       "img": "img/monstros/cloak-of-terror.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cloak%20of%20Terror%20hunt%20400"
       },
       {
        "m": "Brachiodemon",
@@ -2098,7 +2201,8 @@
        "nota": "Junto com Infernal Demons.",
        "exp": 15770,
        "hp": 25000,
-       "img": "img/monstros/brachiodemon.gif"
+       "img": "img/monstros/brachiodemon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Brachiodemon%20hunt%20450"
       }
      ],
      "magias": []
@@ -2116,7 +2220,8 @@
        "nota": "O loot ajuda a pagar o Sanguine.",
        "exp": 21570,
        "hp": 31700,
-       "img": null
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloated%20Man-Maggot%20hunt%20500"
       },
       {
        "m": "Mycobiontic Beetle",
@@ -2125,7 +2230,8 @@
        "nota": "Hunt forte para Paladin com o BiS.",
        "exp": 21175,
        "hp": 30200,
-       "img": null
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Mycobiontic%20Beetle%20hunt%20500"
       },
       {
        "m": "Oozing Corpus",
@@ -2134,7 +2240,8 @@
        "nota": "Use proteção de morte e terra.",
        "exp": 20600,
        "hp": 28700,
-       "img": null
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Oozing%20Corpus%20hunt%20550"
       }
      ],
      "magias": []

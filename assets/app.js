@@ -9,7 +9,7 @@
   const img = (src, cls) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : "";
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
-  const st = { view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", vmode: "rota", level: null, srv: "" };
+  const st = { view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
   let SITE, BASE, QUESTS, LOOK, ROTAS, SERVERS = {};
 
   const store = {
@@ -94,10 +94,6 @@
     return [...items].sort((x, y) => rank(x.slot) - rank(y.slot));
   }
 
-  function modeSwitch() {
-    return `<div class="chips mode-switch"><button class="chip" type="button" data-vmode="rota" aria-pressed="${st.vmode === "rota"}">Rota passo a passo</button><button class="chip" type="button" data-vmode="itens" aria-pressed="${st.vmode === "itens"}">Só os itens</button></div>`;
-  }
-
   function lvlNote(cur) {
     return cur ? `<div class="filter-note"><span>Mostrando do level ${esc(cur)} em diante, para o level ${st.level}.</span><button type="button" data-clear-lvl>Ver todas as faixas</button></div>` : "";
   }
@@ -140,7 +136,8 @@
   }
 
   function huntRow(h) {
-    return `<div class="hrow">${slot(h.img)}<div class="hrow-txt"><span class="meta">lvl ${esc(h.lv)} · ${num(h.exp)} xp · ${num(h.hp)} hp</span><b>${esc(h.m)}</b><span class="hrow-onde">${esc(h.onde)}</span>${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${srvNote("monstros", h.m)}</div></div>`;
+    const meta = [`lvl ${esc(h.lv)}`, h.exp ? `${num(h.exp)} xp` : "", h.hp ? `${num(h.hp)} hp` : ""].filter(Boolean).join(" · ");
+    return `<div class="hrow">${slot(h.img)}<div class="hrow-txt"><span class="meta">${meta}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
   }
 
   function spellRows(list) {
@@ -181,24 +178,9 @@
   function vocationView(voc) {
     const title = voc.id === "knight" && st.weapon !== "todas" ? "Knight de " + st.weapon.toLowerCase() : voc.nome;
     return `<div class="page-h"><h1>${esc(title)}: rota do level 8 ao 600</h1>
-      <p class="intro">${st.vmode === "rota" ? "Cada etapa mostra onde caçar, o que comprar, quais magias pegar, as quests e o que treinar. Digite seu level no topo para pular direto para a sua etapa." : "Só aparece o que vale trocar em cada faixa; o resto você mantém da faixa anterior. Toque no nome do item para abrir a TibiaWiki."}</p></div>
+      <p class="intro">Cada etapa mostra onde caçar (com vídeos de cada hunt), o que comprar, quais magias pegar, as quests e o que treinar. Digite seu level no topo para pular direto para a sua etapa.</p></div>
       ${serverBanner()}
-      ${modeSwitch()}
-      ${st.vmode === "rota" ? routeView(voc) : itemsView(voc)}`;
-  }
-
-  function itemsView(voc) {
-    const items = vocItems(voc);
-    const cur = tierOf(st.level);
-    const curIdx = cur ? TIERS.findIndex(t => t[0] === cur) : 0;
-    return `<div class="legend"><span><span class="dot common"></span> comum (5%+)</span><span><span class="dot uncommon"></span> incomum (1–5%)</span><span><span class="dot rare"></span> raro (&lt;1%)</span></div>
-      ${lvlNote(cur)}
-      ${TIERS.map(([t], idx) => {
-        const its = items.filter(i => i.tier === t);
-        if (!its.length || idx < curIdx) return "";
-        return `<section class="tier"><div class="tier-h"><span class="lvl-badge">Lvl ${t}</span><h2>${its.length} ${its.length === 1 ? "troca" : "trocas"}</h2>${cur === t ? '<span class="here">você está aqui</span>' : ""}<span class="rule"></span></div>
-          <div class="grid">${its.map(card).join("")}</div></section>`;
-      }).join("")}`;
+      ${routeView(voc)}`;
   }
 
   function monstersView() {
@@ -365,8 +347,6 @@
     if (lk) { st.look = lk.dataset.look; st.lookCat = "todas"; render(); }
     const lc = e.target.closest("[data-lcat]");
     if (lc) { st.lookCat = lc.dataset.lcat; render(); }
-    const vm = e.target.closest("[data-vmode]");
-    if (vm) { st.vmode = vm.dataset.vmode; store.set("vmode", st.vmode); render(); }
     const jp = e.target.closest("[data-jump]");
     if (jp) {
       e.preventDefault();
@@ -407,7 +387,6 @@
     $("#criador").textContent = SITE.criador;
     $("#srv").innerHTML = `<option value="">Tibia (base)</option>` + Object.values(SERVERS).map(s => `<option value="${esc(s.id)}">${esc(s.nome)}</option>`).join("");
     const savedSrv = store.get("srv"); if (savedSrv && SERVERS[savedSrv]) { st.srv = savedSrv; $("#srv").value = savedSrv; }
-    if (store.get("vmode") === "itens") st.vmode = "itens";
     const lv = parseInt(store.get("lvl")); if (lv > 0) { st.level = lv; $("#mylvl").value = lv; }
     $("#srv").addEventListener("change", e => {
       st.srv = e.target.value; store.set("srv", st.srv);

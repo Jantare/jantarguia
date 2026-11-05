@@ -246,3 +246,6 @@ a.name:hover{color:var(--gold)}
 .step-obj .obj-w + .obj-w{margin-top:3px}
 .step-obj .obj-w b{color:var(--gold)}
 .linha-w{font-family:var(--display);font-weight:700;color:var(--gold);margin-top:4px}
+.hrow-yt{display:inline-flex;align-items:center;gap:5px;align-self:flex-start;margin-top:4px;font-size:.84rem;font-weight:600;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:2px 10px 2px 7px}
+.hrow-yt svg{width:14px;height:14px;color:#e5483b}
+.hrow-yt:hover{border-color:var(--gold-2);color:var(--gold)}

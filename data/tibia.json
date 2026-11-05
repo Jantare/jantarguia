@@ -3603,7 +3603,7 @@
     },
     {
      "tier": "60–100",
-     "slot": "Arma",
+     "slot": "Arma (alternativa)",
      "item": "Muck Rod",
      "lv": 65,
      "attr": "Dano 75–95 de terra, +1 magic level",
@@ -3622,7 +3622,7 @@
     },
     {
      "tier": "60–100",
-     "slot": "Arma (alternativa)",
+     "slot": "Arma",
      "item": "Glacial Rod",
      "lv": 65,
      "attr": "Dano 75–95 de gelo, +1 magic level",
@@ -3634,7 +3634,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "Level 65.",
+     "tip": "Ótima rod de level baixo: a 3ª perk da proficiência dá 30 de mana por criatura morta.",
      "wiki": "https://tibia.fandom.com/wiki/Glacial_Rod",
      "id": "druid-glacial-rod",
      "img": "img/itens/glacial-rod.webp"
@@ -3680,25 +3680,6 @@
      "wiki": "https://tibia.fandom.com/wiki/Lightning_Robe",
      "id": "druid-lightning-robe",
      "img": "img/itens/lightning-robe.webp"
-    },
-    {
-     "tier": "60–100",
-     "slot": "Capacete",
-     "item": "Rubber Cap",
-     "lv": 70,
-     "attr": "Armadura 5, +1 magic level",
-     "src": [
-      {
-       "m": "Glooth Bandit",
-       "c": 2.0
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "A partir do level 70.",
-     "wiki": "https://tibia.fandom.com/wiki/Rubber_Cap",
-     "id": "druid-rubber-cap",
-     "img": "img/itens/rubber-cap.webp"
     },
     {
      "tier": "100–150",
@@ -3822,7 +3803,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "As botas do set: escolha pela proteção elemental que a hunt pede.",
      "wiki": "https://tibia.fandom.com/wiki/Pair_of_Dreamwalkers",
      "img": "img/itens/pair-of-dreamwalkers.webp"
     },
@@ -3879,32 +3860,9 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "A rod do Druid solo até o 400: já vem com vampirismo. Imbua crítico e mana. É barata. Em time, dá para escolher outra.",
      "wiki": "https://tibia.fandom.com/wiki/Cobra_Rod",
      "img": "img/itens/cobra-rod.webp"
-    },
-    {
-     "id": "druid-bear-skin",
-     "tier": "200–300",
-     "slot": "Armadura",
-     "item": "Bear Skin",
-     "lv": 230,
-     "attr": "Armadura 16, +4 magic level, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Duke Krule",
-       "c": 1.8
-      },
-      {
-       "m": "Lord Azaram",
-       "c": 1.6
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Bear_Skin",
-     "img": "img/itens/bear-skin.webp"
     },
     {
      "id": "druid-gnome-helmet",
@@ -3921,7 +3879,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "+3% de proteção física, ótimo para solo, mas caro. Opção mais barata: Eldritch Hood.",
      "wiki": "https://tibia.fandom.com/wiki/Gnome_Helmet",
      "img": "img/itens/gnome-helmet.webp"
     },
@@ -3959,14 +3917,14 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "3% de proteção física: quem caça solo apanha muito físico.",
      "wiki": "https://tibia.fandom.com/wiki/Lion_Spellbook",
      "img": "img/itens/lion-spellbook.webp"
     },
     {
      "id": "druid-falcon-rod",
      "tier": "300–400",
-     "slot": "Arma",
+     "slot": "Arma (alternativa, time)",
      "item": "Falcon Rod",
      "lv": 300,
      "attr": "Dano 87–101 de terra, +3 magic level, 2 slot(s) de imbuement",
@@ -3983,44 +3941,6 @@
      "img": "img/itens/falcon-rod.webp"
     },
     {
-     "id": "druid-mystical-dragon-robe",
-     "tier": "300–400",
-     "slot": "Armadura",
-     "item": "Mystical Dragon Robe",
-     "lv": 300,
-     "attr": "Armadura 15, +3 magic level, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Dragon Hoard",
-       "c": 1.28
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Mystical_Dragon_Robe",
-     "img": "img/itens/mystical-dragon-robe.webp"
-    },
-    {
-     "id": "druid-falcon-circlet",
-     "tier": "300–400",
-     "slot": "Capacete",
-     "item": "Falcon Circlet",
-     "lv": 300,
-     "attr": "Armadura 8, +2 magic level, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Grand Master Oberon",
-       "c": 0.35
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Falcon_Circlet",
-     "img": "img/itens/falcon-circlet.webp"
-    },
-    {
      "id": "druid-mutant-bone-kilt",
      "tier": "300–400",
      "slot": "Pernas",
@@ -4035,7 +3955,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "3% de proteção física. Fecha o set solo do vídeo.",
      "wiki": "https://tibia.fandom.com/wiki/Mutant_Bone_Kilt",
      "img": "img/itens/mutant-bone-kilt.webp"
     },
@@ -4165,6 +4085,58 @@
      "tip": "Level 600.",
      "wiki": "https://tibia.fandom.com/wiki/Sanguine_Rod",
      "img": "img/itens/sanguine-rod.webp"
+    },
+    {
+     "id": "druid-yalahari-mask",
+     "tier": "60–100",
+     "slot": "Capacete",
+     "item": "Yalahari Mask",
+     "lv": 80,
+     "attr": "Armadura 5, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Capacete de level baixo do vídeo: +2 magic level. Compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Yalahari_Mask",
+     "img": "img/itens/yalahari-mask.webp"
+    },
+    {
+     "id": "druid-eldritch-hood",
+     "tier": "200–300",
+     "slot": "Capacete (alternativa)",
+     "item": "Eldritch Hood",
+     "lv": 250,
+     "attr": "Armadura 7, proteção 7% poison, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Brainstealer",
+       "c": 0.23
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Mais barato que o Gnome Helmet: +2 magic level. Coloque Void e mana nele.",
+     "wiki": "https://tibia.fandom.com/wiki/Eldritch_Hood",
+     "img": "img/itens/eldritch-hood.webp"
+    },
+    {
+     "id": "druid-midnight-tunic",
+     "tier": "300–400",
+     "slot": "Armadura",
+     "item": "Midnight Tunic",
+     "lv": 300,
+     "attr": "Armadura 16, proteção 3% física, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Timira the Many-Headed",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "+4 magic level e 3% de proteção física: a armadura do Druid solo.",
+     "wiki": "https://tibia.fandom.com/wiki/Midnight_Tunic",
+     "img": "img/itens/midnight-tunic.webp"
     }
    ]
   },
@@ -5665,8 +5637,7 @@
    "items": [
     "Arcane Dragon Robe",
     "Dauntless Dragon Scale Armor",
-    "Merudri Battle Mail",
-    "Mystical Dragon Robe"
+    "Merudri Battle Mail"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Dragon_Hoard",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Dragon%20Hoard",
@@ -5679,7 +5650,8 @@
    "loc": "Marapur",
    "boss": true,
    "items": [
-    "Dawnfire Pantaloons"
+    "Dawnfire Pantaloons",
+    "Midnight Tunic"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Timira_the_Many-Headed",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Timira%20the%20Many-Headed",
@@ -5722,6 +5694,7 @@
    "boss": true,
    "items": [
     "Eldritch Folio",
+    "Eldritch Hood",
     "Eldritch Monk Boots",
     "Eldritch Tome"
    ],
@@ -5749,9 +5722,7 @@
    "lvl": "200+",
    "loc": "Grave Danger",
    "boss": true,
-   "items": [
-    "Bear Skin"
-   ],
+   "items": [],
    "wiki": "https://tibia.fandom.com/wiki/Duke_Krule",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Duke%20Krule",
    "img": "img/monstros/duke-krule.gif"
@@ -5762,9 +5733,7 @@
    "lvl": "200+",
    "loc": "Grave Danger",
    "boss": true,
-   "items": [
-    "Bear Skin"
-   ],
+   "items": [],
    "wiki": "https://tibia.fandom.com/wiki/Lord_Azaram",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Lord%20Azaram",
    "img": "img/monstros/lord-azaram.gif"

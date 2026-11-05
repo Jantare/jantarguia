@@ -3260,15 +3260,86 @@
    ]
   },
   "druid": {
-   "pronta": false,
-   "resumo": null,
+   "pronta": true,
+   "resumo": {
+    "titulo": "Druid (solo)",
+    "papel": "Mago de gelo e terra. Solo, o maior dano que você toma é físico: o set do vídeo foca em proteção física.",
+    "skills": "Magic level. Na Roda, pegue o ponto que reduz o cooldown das forks. Gemas pequenas: vida e cap.",
+    "imbuements": [
+     "Rod: crítico e mana (a Cobra Rod já vem com vampirismo)",
+     "Capacete: Void e mana",
+     "Armadura: proteção do elemento da hunt"
+    ],
+    "rtc": "RTC: fork principal da hunt, depois a runa para 10+ monstros, depois a fork secundária. Cura: Exura Gran e Exura Vita; em hunt pesada, só Exura Vita. Alvo na letra C (o monstro com menos vida).",
+    "linha": [
+     [
+      "65",
+      "Glacial Rod"
+     ],
+     [
+      "80",
+      "Yalahari Mask"
+     ],
+     [
+      "100",
+      "Ponto de cooldown das forks na Roda"
+     ],
+     [
+      "180",
+      "Set Dream (Shroud, Soulful Legs, Dreamwalkers)"
+     ],
+     [
+      "200",
+      "Gnome Helmet (ou Eldritch Hood no 250)"
+     ],
+     [
+      "220",
+      "Cobra Rod + Lion Spellbook"
+     ],
+     [
+      "300",
+      "Midnight Tunic + Mutant Bone Kilt"
+     ],
+     [
+      "400",
+      "BiS: Soulhexer + Soulshroud"
+     ],
+     [
+      "600",
+      "Sanguine Rod"
+     ]
+    ],
+    "fonte": "Set, RTC, Roda e hunts do 100 ao 400 baseados no vídeo de BredTibia sobre Druid no RubinOT (2026), adaptados para o HeroOT.",
+    "video": "https://www.youtube.com/watch?v=pnskXEbfO6Q"
+   },
    "etapas": [
     {
      "faixa": "8–20",
-     "objetivo": null,
+     "objetivo": "Sair da ilha com rods e Spellbook, e aprender a kitar.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Magic level é tudo: treine ML offline e use as runas que você mesmo faz.",
+     "hunts": [
+      {
+       "m": "Rotworm",
+       "onde": "Caves de rotworm (Thais, Darashia, Ab'Dendriel)",
+       "lv": "8+",
+       "nota": "Primeira hunt com runas e Strike.",
+       "exp": 40,
+       "hp": 65,
+       "img": "img/monstros/rotworm.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20rotworm%20hunt"
+      },
+      {
+       "m": "Troll",
+       "onde": "Ao redor de Thais e Carlin",
+       "lv": "8+",
+       "nota": "Fácil para aprender a kitar.",
+       "exp": 20,
+       "hp": 50,
+       "img": "img/monstros/troll.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20troll%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Chill Out",
@@ -3690,10 +3761,31 @@
     },
     {
      "faixa": "20–35",
-     "objetivo": null,
+     "objetivo": "Terra Rod e Magma Monocle. Juntar gold para as runas.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Continue no ML. Pegue as magias de cura em grupo cedo.",
+     "hunts": [
+      {
+       "m": "Cyclops",
+       "onde": "Cyclopolis (Edron) e Mount Sternum (Thais)",
+       "lv": "20+",
+       "nota": "Lentos: kite e use runas.",
+       "exp": 150,
+       "hp": 260,
+       "img": "img/monstros/cyclops.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20cyclops%20hunt"
+      },
+      {
+       "m": "Dwarf Soldier",
+       "onde": "Minas de Kazordoon",
+       "lv": "20+",
+       "nota": "Perto do depot.",
+       "exp": 70,
+       "hp": 135,
+       "img": "img/monstros/dwarf-soldier.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20dwarf%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Blank Rune",
@@ -4011,10 +4103,31 @@
     },
     {
      "faixa": "35–60",
-     "objetivo": null,
+     "objetivo": "Hailstorm ou Underworld Rod e Terra Boots.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Avalanche e Stone Shower nas boxes. ML sobe usando mana.",
+     "hunts": [
+      {
+       "m": "Ancient Scarab",
+       "onde": "Tumbas de Ankrahmun",
+       "lv": "40+",
+       "nota": "Boa XP para mago.",
+       "exp": 720,
+       "hp": 1000,
+       "img": "img/monstros/ancient-scarab.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20ancient%20scarab%20hunt"
+      },
+      {
+       "m": "Dragon",
+       "onde": "Dragon lairs de Darashia e Thais",
+       "lv": "45+",
+       "nota": "Use gelo: dragões são fracos a gelo.",
+       "exp": 700,
+       "hp": 1000,
+       "img": "img/monstros/dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20dragon%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Invisibility",
@@ -4136,10 +4249,31 @@
     },
     {
      "faixa": "60–100",
-     "objetivo": null,
+     "objetivo": "Glacial Rod no 65 e Yalahari Mask no 80.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Glacial Rod: a 3ª perk dá mana por monstro morto. Upe a proficiência dela.",
+     "hunts": [
+      {
+       "m": "Mutated Human",
+       "onde": "Alchemist Quarter (Yalahar)",
+       "lv": "60+",
+       "nota": "Junte e use as runas de área.",
+       "exp": 150,
+       "hp": 240,
+       "img": "img/monstros/mutated-human.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20yalahar%20mutated%20hunt"
+      },
+      {
+       "m": "Wyvern",
+       "onde": "Wyvern Mountain (Edron)",
+       "lv": "70+",
+       "nota": "Gelo bate bem.",
+       "exp": 515,
+       "hp": 795,
+       "img": "img/monstros/wyvern.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20wyvern%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Eternal Winter",
@@ -4197,10 +4331,21 @@
     },
     {
      "faixa": "100–150",
-     "objetivo": null,
+     "objetivo": "Caçar com as duas forks e montar a Roda com o ponto de cooldown.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Na Roda: pegue o ponto que diminui o cooldown das forks (a partir do 100). Com ele você alterna fork de gelo e de terra.",
+     "hunts": [
+      {
+       "m": "Hero",
+       "onde": "Hero Cave (Edron)",
+       "lv": "100+",
+       "nota": "Do vídeo: hunt boa para o level 100 e pouco caçando com as duas forks.",
+       "exp": 1200,
+       "hp": 1400,
+       "img": "img/monstros/hero.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20hero%20cave%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Ultimate Ice Strike",
@@ -4218,18 +4363,70 @@
     },
     {
      "faixa": "150–200",
-     "objetivo": null,
+     "objetivo": "Set de sonho (Dream Shroud, Soulful Legs, Pair of Dreamwalkers) e Warzone em time.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Gemas pequenas: vida e cap são as melhores para mago. Não gaste muito abrindo gema.",
+     "hunts": [
+      {
+       "m": null,
+       "onde": "Warzone (Bigfoot's Burden)",
+       "lv": "150+",
+       "nota": "Do vídeo: vá em time e faça sempre que puder.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%20hunt"
+      }
+     ],
      "magias": []
     },
     {
      "faixa": "200–300",
-     "objetivo": null,
+     "objetivo": "Set solo do vídeo: Cobra Rod, Lion Spellbook e Gnome Helmet (ou Eldritch Hood). Tudo com proteção física.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Asura e Grim Reaper não rendem para Druid (monstros invisíveis e terra não bate). Prefira Wyrms e Gazers.",
+     "hunts": [
+      {
+       "m": "Gazer Spectre",
+       "onde": "Hunt de Gazer Spectres",
+       "lv": "200+",
+       "nota": "Do vídeo: hunt pequena e disputada, mas muito boa (3kk/h de XP).",
+       "exp": 4200,
+       "hp": 4500,
+       "img": "img/monstros/gazer-spectre.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20gazer%20spectre%20hunt"
+      },
+      {
+       "m": null,
+       "onde": "Warzone 4 (as minhocas)",
+       "lv": "250+",
+       "nota": "Do vídeo: profit bom no 260, mas a fork de terra quase não bate.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%204%20hunt"
+      },
+      {
+       "m": "Wyrm",
+       "onde": "Wyrms e Elder Wyrms",
+       "lv": "260+",
+       "nota": "Do vídeo: hunt excelente para Druid. Fork de gelo principal, avalanche para 10+ monstros, depois a fork de terra.",
+       "exp": 1550,
+       "hp": 1825,
+       "img": "img/monstros/wyrm.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20wyrm%20hunt"
+      },
+      {
+       "m": "Burster Spectre",
+       "onde": "Hunt de Burster Spectres",
+       "lv": "300+",
+       "nota": "Do vídeo: dano alto e XP fraca. Só para bestiary ou bounty. Use summon para segurar dano.",
+       "exp": 6000,
+       "hp": 6500,
+       "img": "img/monstros/burster-spectre.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20burster%20spectre%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Summon Druid Familiar",
@@ -4249,10 +4446,31 @@
     },
     {
      "faixa": "300–400",
-     "objetivo": null,
+     "objetivo": "Midnight Tunic e Mutant Bone Kilt fecham o set solo até o 400.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Use summon (Demon Skeleton) para segurar dano e puxar monstros para perto das forks.",
+     "hunts": [
+      {
+       "m": "Falcon Knight",
+       "onde": "Falcon Bastion (Edron)",
+       "lv": "380+",
+       "nota": "Do vídeo: Druid caça muito bem aqui, mas no 380 ainda é arriscado. Defesa física faz falta.",
+       "exp": 6300,
+       "hp": 9000,
+       "img": "img/monstros/falcon-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20falcon%20bastion%20hunt"
+      },
+      {
+       "m": "Naga Warrior",
+       "onde": "Nagas (Marapur)",
+       "lv": "400+",
+       "nota": "Do vídeo: 5kk/h de XP, mas muito pesada. Só a partir do 400.",
+       "exp": 5890,
+       "hp": 5530,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20naga%20marapur%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Avatar of Nature",
@@ -4316,18 +4534,60 @@
     },
     {
      "faixa": "400–500",
-     "objetivo": null,
+     "objetivo": "BiS: Soulhexer, Soulshroud, Arboreal Crown, Soulstrider e Arboreal Tome.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Comece o BiS e os tiers. Exercise todo dia.",
+     "hunts": [
+      {
+       "m": "Bony Sea Devil",
+       "onde": "Soul War (Ebb and Flow)",
+       "lv": "400+",
+       "nota": "Começo do Soul War.",
+       "exp": 19470,
+       "hp": 24000,
+       "img": "img/monstros/bony-sea-devil.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20soul%20war%20hunt"
+      },
+      {
+       "m": "Cloak of Terror",
+       "onde": "Soul War",
+       "lv": "400+",
+       "nota": "Muito dano de morte.",
+       "exp": 19700,
+       "hp": 28000,
+       "img": "img/monstros/cloak-of-terror.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20cloak%20of%20terror%20hunt"
+      }
+     ],
      "magias": []
     },
     {
      "faixa": "500–600",
-     "objetivo": null,
+     "objetivo": "Sanguine Galoshes e Sanguine Rod.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Foco em tier nos itens principais.",
+     "hunts": [
+      {
+       "m": "Bloated Man-Maggot",
+       "onde": "Rotten Blood",
+       "lv": "500+",
+       "nota": "Áreas do Rotten Blood.",
+       "exp": 21570,
+       "hp": 31700,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20rotten%20blood%20hunt"
+      },
+      {
+       "m": "Oozing Corpus",
+       "onde": "Rotten Blood",
+       "lv": "550+",
+       "nota": "Use proteção de morte e terra.",
+       "exp": 20600,
+       "hp": 28700,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20oozing%20corpus%20hunt"
+      }
+     ],
      "magias": []
     }
    ]

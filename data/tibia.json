@@ -2683,25 +2683,6 @@
      "img": "img/itens/lightning-robe.webp"
     },
     {
-     "tier": "60–100",
-     "slot": "Capacete",
-     "item": "Rubber Cap",
-     "lv": 70,
-     "attr": "Armadura 5, +1 magic level",
-     "src": [
-      {
-       "m": "Glooth Bandit",
-       "c": 2.0
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "A partir do level 70.",
-     "wiki": "https://tibia.fandom.com/wiki/Rubber_Cap",
-     "id": "sorcerer-rubber-cap",
-     "img": "img/itens/rubber-cap.webp"
-    },
-    {
      "tier": "100–150",
      "slot": "Armadura",
      "item": "Calopteryx Cape",
@@ -2880,7 +2861,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "A wand do MS solo: já vem com life leech. Imbua mana e crítico.",
      "wiki": "https://tibia.fandom.com/wiki/Lion_Wand",
      "img": "img/itens/lion-wand.webp"
     },
@@ -2918,7 +2899,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "3% de proteção física: o melhor capacete para solo, mas caro.",
      "wiki": "https://tibia.fandom.com/wiki/Gnome_Helmet",
      "img": "img/itens/gnome-helmet.webp"
     },
@@ -2956,14 +2937,14 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Proteção física. No começo do servidor é caro, depois baixa.",
      "wiki": "https://tibia.fandom.com/wiki/Lion_Spellbook",
      "img": "img/itens/lion-spellbook.webp"
     },
     {
      "id": "sorcerer-falcon-wand",
      "tier": "300–400",
-     "slot": "Arma",
+     "slot": "Arma (alternativa)",
      "item": "Falcon Wand",
      "lv": 300,
      "attr": "Dano 86–102 de energia, +3 magic level, 2 slot(s) de imbuement",
@@ -2999,25 +2980,6 @@
      "img": "img/itens/arcane-dragon-robe.webp"
     },
     {
-     "id": "sorcerer-falcon-circlet",
-     "tier": "300–400",
-     "slot": "Capacete",
-     "item": "Falcon Circlet",
-     "lv": 300,
-     "attr": "Armadura 8, +2 magic level, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Grand Master Oberon",
-       "c": 0.35
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Falcon_Circlet",
-     "img": "img/itens/falcon-circlet.webp"
-    },
-    {
      "id": "sorcerer-dawnfire-pantaloons",
      "tier": "300–400",
      "slot": "Pernas",
@@ -3032,7 +2994,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "+2 magic level e proteção física. Dropa da Timira, que muita gente faz.",
      "wiki": "https://tibia.fandom.com/wiki/Dawnfire_Pantaloons",
      "img": "img/itens/dawnfire-pantaloons.webp"
     },
@@ -3065,7 +3027,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "A melhor wand para quem caça solo.",
      "wiki": "https://tibia.fandom.com/wiki/Soultainter",
      "img": "img/itens/soultainter.webp"
     },
@@ -3079,7 +3041,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "A armadura com proteção física do BiS.",
      "wiki": "https://tibia.fandom.com/wiki/Soulmantle",
      "img": "img/itens/soulmantle.webp"
     },
@@ -3162,6 +3124,44 @@
      "tip": "Level 600.",
      "wiki": "https://tibia.fandom.com/wiki/Sanguine_Coil",
      "img": "img/itens/sanguine-coil.webp"
+    },
+    {
+     "id": "sorcerer-pair-of-nightmare-boots",
+     "tier": "150–200",
+     "slot": "Botas (alternativa)",
+     "item": "Pair of Nightmare Boots",
+     "lv": 140,
+     "attr": "Armadura 2, proteção 6% energia, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Dread Maiden",
+       "c": 0.73
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Bota barata com magic level. Outra opção: Pair of Dreamwalkers.",
+     "wiki": "https://tibia.fandom.com/wiki/Pair_of_Nightmare_Boots",
+     "img": "img/itens/pair-of-nightmare-boots.webp"
+    },
+    {
+     "id": "sorcerer-galea-mortis",
+     "tier": "200–300",
+     "slot": "Capacete (alternativa)",
+     "item": "Galea Mortis",
+     "lv": 220,
+     "attr": "Armadura 7, proteção 6% morte, -3% sagrado, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "King Zelos",
+       "c": 0.55
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Mais barato que o Gnome Helmet e com proteção de morte.",
+     "wiki": "https://tibia.fandom.com/wiki/Galea_Mortis",
+     "img": "img/itens/galea-mortis.webp"
     }
    ]
   },
@@ -4952,8 +4952,7 @@
    "lvl": "70+",
    "loc": "Oramond (Rathleton)",
    "items": [
-    "Beastslayer Axe",
-    "Rubber Cap"
+    "Beastslayer Axe"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Glooth_Bandit",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Glooth%20Bandit",
@@ -5507,7 +5506,6 @@
    "items": [
     "Falcon Battleaxe",
     "Falcon Bow",
-    "Falcon Circlet",
     "Falcon Coif",
     "Falcon Greaves",
     "Falcon Longsword",
@@ -5680,6 +5678,7 @@
    "items": [
     "Bow of Cataclysm",
     "Death Oyoroi",
+    "Galea Mortis",
     "Toga Mortis"
    ],
    "wiki": "https://tibia.fandom.com/wiki/King_Zelos",
@@ -6003,6 +6002,19 @@
    "wiki": "https://tibia.fandom.com/wiki/Gnomevil",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Gnomevil",
    "img": "img/monstros/gnomevil.gif"
+  },
+  "The Dread Maiden": {
+   "exp": 72000,
+   "hp": 300000,
+   "lvl": "",
+   "loc": "boss do Dream Courts",
+   "boss": true,
+   "items": [
+    "Pair of Nightmare Boots"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Dread_Maiden",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Dread%20Maiden",
+   "img": null
   }
  }
 }

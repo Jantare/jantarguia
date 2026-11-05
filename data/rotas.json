@@ -2249,15 +2249,100 @@
    ]
   },
   "sorcerer": {
-   "pronta": false,
-   "resumo": null,
+   "pronta": true,
+   "resumo": {
+    "titulo": "Sorcerer (solo)",
+    "papel": "Mago de dano. Solo, o maior dano que você toma é físico e não dá para imbuir proteção física: priorize itens com ela.",
+    "skills": "Magic level. Na Roda, o Death Echo (por volta do 275) e pontos de vida para caçar solo.",
+    "imbuements": [
+     "Wand: mana e crítico (a Lion Wand já vem com life leech)",
+     "Capacete: Void e mana",
+     "Armadura: proteção do elemento da hunt"
+    ],
+    "rtc": "RTC solo: Death Echo e runa (GFB, Avalanche ou Thunderstorm), conforme a fraqueza da hunt. Magias de frente só em casos raros.",
+    "linha": [
+     [
+      "65",
+      "Wand of Everblazing"
+     ],
+     [
+      "180",
+      "Set Dream (Shroud, Soulful Legs, Dreamwalkers)"
+     ],
+     [
+      "200",
+      "Gnome Helmet (ou Galea Mortis)"
+     ],
+     [
+      "220",
+      "Lion Wand + Lion Spellbook"
+     ],
+     [
+      "275",
+      "Death Echo na Roda"
+     ],
+     [
+      "300",
+      "Dawnfire Pantaloons"
+     ],
+     [
+      "400",
+      "Soultainter + Soulmantle"
+     ],
+     [
+      "500",
+      "Sanguine Boots"
+     ],
+     [
+      "600",
+      "Sanguine Coil"
+     ]
+    ],
+    "fonte": "Set, RTC e hunts até o 400 baseados no vídeo de BredTibia (MS no RubinOT, 2026); hunts do 400+ dos vídeos de Miguelnutt e Doc Galaxy. Adaptado para o HeroOT.",
+    "video": "https://www.youtube.com/watch?v=Wk6lEBoLCz4",
+    "videos": [
+     [
+      "BredTibia (0 ao 400)",
+      "https://www.youtube.com/watch?v=Wk6lEBoLCz4"
+     ],
+     [
+      "Miguelnutt (400+)",
+      "https://www.youtube.com/watch?v=3Bu4JJKlL1c"
+     ],
+     [
+      "Doc Galaxy (600)",
+      "https://www.youtube.com/watch?v=EdmagRs14lc"
+     ]
+    ]
+   },
    "etapas": [
     {
      "faixa": "8–20",
-     "objetivo": null,
+     "objetivo": "Sair da ilha com wand e Spellbook, e aprender a kitar.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Magic level é tudo: treine ML offline e use as runas que você faz.",
+     "hunts": [
+      {
+       "m": "Rotworm",
+       "onde": "Caves de rotworm (Thais, Darashia, Ab'Dendriel)",
+       "lv": "8+",
+       "nota": "Primeira hunt com runas.",
+       "exp": 40,
+       "hp": 65,
+       "img": "img/monstros/rotworm.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20rotworm%20hunt"
+      },
+      {
+       "m": "Troll",
+       "onde": "Ao redor de Thais e Carlin",
+       "lv": "8+",
+       "nota": "Fácil para aprender a kitar.",
+       "exp": 20,
+       "hp": 50,
+       "img": "img/monstros/troll.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20troll%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Buzz",
@@ -2613,10 +2698,31 @@
     },
     {
      "faixa": "20–35",
-     "objetivo": null,
+     "objetivo": "Wand of Cosmic Energy e Magma Monocle.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Continue no ML e aprenda a kitar em volta dos monstros.",
+     "hunts": [
+      {
+       "m": "Cyclops",
+       "onde": "Cyclopolis (Edron) e Mount Sternum (Thais)",
+       "lv": "20+",
+       "nota": "Lentos: kite e use runas.",
+       "exp": 150,
+       "hp": 260,
+       "img": "img/monstros/cyclops.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cyclops%20hunt"
+      },
+      {
+       "m": "Dwarf Soldier",
+       "onde": "Minas de Kazordoon",
+       "lv": "20+",
+       "nota": "Perto do depot.",
+       "exp": 70,
+       "hp": 135,
+       "img": "img/monstros/dwarf-soldier.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20dwarf%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Blank Rune",
@@ -2928,10 +3034,31 @@
     },
     {
      "faixa": "35–60",
-     "objetivo": null,
+     "objetivo": "Wand of Inferno ou Voodoo e Terra Boots.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "GFB nas boxes. ML sobe usando mana.",
+     "hunts": [
+      {
+       "m": "Ancient Scarab",
+       "onde": "Tumbas de Ankrahmun",
+       "lv": "40+",
+       "nota": "Boa XP para mago.",
+       "exp": 720,
+       "hp": 1000,
+       "img": "img/monstros/ancient-scarab.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ancient%20scarab%20hunt"
+      },
+      {
+       "m": "Dragon",
+       "onde": "Dragon lairs de Darashia e Thais",
+       "lv": "45+",
+       "nota": "Kite e use GFB.",
+       "exp": 700,
+       "hp": 1000,
+       "img": "img/monstros/dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20dragon%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Invisibility",
@@ -3045,10 +3172,31 @@
     },
     {
      "faixa": "60–100",
-     "objetivo": null,
+     "objetivo": "Wand of Everblazing no 65 e Zaoan Robe.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Não gaste com tier nem com itens caros: o set troca rápido.",
+     "hunts": [
+      {
+       "m": "Mutated Human",
+       "onde": "Alchemist Quarter (Yalahar)",
+       "lv": "60+",
+       "nota": "Junte e use GFB.",
+       "exp": 150,
+       "hp": 240,
+       "img": "img/monstros/mutated-human.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20yalahar%20hunt"
+      },
+      {
+       "m": "Hero",
+       "onde": "Hero Cave (Edron)",
+       "lv": "70+",
+       "nota": "Boa XP com magias de fogo.",
+       "exp": 1200,
+       "hp": 1400,
+       "img": "img/monstros/hero.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20hero%20cave%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Hell's Core",
@@ -3120,10 +3268,31 @@
     },
     {
      "faixa": "100–150",
-     "objetivo": null,
+     "objetivo": "Calopteryx Cape e Oriental Shoes.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "O mago agora segura dano na mana: com 25% da mana + 10x o dano tomado, você tanka na mana.",
+     "hunts": [
+      {
+       "m": "Glooth Bandit",
+       "onde": "Glooth Factory (Oramond)",
+       "lv": "100+",
+       "nota": "Box com GFB.",
+       "exp": 2000,
+       "hp": 2600,
+       "img": "img/monstros/glooth-bandit.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20glooth%20bandit%20hunt"
+      },
+      {
+       "m": "Lizard Chosen",
+       "onde": "Temple of Equilibrium (Zao)",
+       "lv": "100+",
+       "nota": "Boa XP e loot.",
+       "exp": 2200,
+       "hp": 3050,
+       "img": "img/monstros/lizard-chosen.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20lizard%20chosen%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Ultimate Energy Strike",
@@ -3141,18 +3310,90 @@
     },
     {
      "faixa": "150–200",
-     "objetivo": null,
+     "objetivo": "Set de sonho (Dream Shroud, Soulful Legs, Dreamwalkers) e as hunts de Oramond.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Para solo, prefira Death Echo + runa a ficar girando o personagem com as magias de frente.",
+     "hunts": [
+      {
+       "m": "War Golem",
+       "onde": "Invasão de War Golems (Oramond)",
+       "lv": "150+",
+       "nota": "Do vídeo: se pegar vazia, faz XP e uns 2kk/h de profit.",
+       "exp": 2310,
+       "hp": 4300,
+       "img": "img/monstros/war-golem.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20war%20golem%20oramond%20hunt"
+      },
+      {
+       "m": "Minotaur Hunter",
+       "onde": "Minotauros de Oramond",
+       "lv": "180+",
+       "nota": "Do vídeo: perto de 3kk/h no 180–190 com runa e Death Echo.",
+       "exp": 1700,
+       "hp": 1400,
+       "img": "img/monstros/minotaur-hunter.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20minotaur%20oramond%20hunt"
+      },
+      {
+       "m": "Quara Mantassin",
+       "onde": "Quaras a oeste de Oramond",
+       "lv": "180+",
+       "nota": "Do vídeo: alternativa com muito bestiary.",
+       "exp": 600,
+       "hp": 800,
+       "img": "img/monstros/quara-mantassin.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20quara%20oramond%20hunt"
+      }
+     ],
      "magias": []
     },
     {
      "faixa": "200–300",
-     "objetivo": null,
+     "objetivo": "Set solo com proteção física: Lion Wand, Lion Spellbook e Gnome Helmet (ou Galea Mortis).",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Use as posturas (energia, fogo, morte): a magia seguinte vira do elemento da postura.",
+     "hunts": [
+      {
+       "m": "Elder Wyrm",
+       "onde": "Elder Wyrms",
+       "lv": "200+",
+       "nota": "Do vídeo: boa para todas as vocações, 3kk/h no 200 e pouco.",
+       "exp": 2500,
+       "hp": 2700,
+       "img": "img/monstros/elder-wyrm.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20elder%20wyrm%20hunt"
+      },
+      {
+       "m": null,
+       "onde": "The Spike (Kazordoon), último andar",
+       "lv": "230+",
+       "nota": "Do vídeo: alternativa grande, uns 3kk/h. Precisa se mexer bastante.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20spike%20kazordoon%20hunt"
+      },
+      {
+       "m": null,
+       "onde": "Warzone 4",
+       "lv": "250+",
+       "nota": "Do vídeo: 3kk/h e mais relaxada que a Spike.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%204%20hunt"
+      },
+      {
+       "m": "Grim Reaper",
+       "onde": "Grim Reapers (Drefia e Oramond)",
+       "lv": "250+",
+       "nota": "Do vídeo: dá uns 4kk/h, mas mago rende menos que as outras vocações.",
+       "exp": 5500,
+       "hp": 3900,
+       "img": "img/monstros/grim-reaper.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20grim%20reaper%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Summon Sorcerer Familiar",
@@ -3200,10 +3441,61 @@
     },
     {
      "faixa": "300–400",
-     "objetivo": null,
+     "objetivo": "Dawnfire Pantaloons e Death Echo na Roda. Sphinx vira a melhor hunt.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Na Roda: pegue o Death Echo assim que der (por volta do 275) e os dois pontos dele.",
+     "hunts": [
+      {
+       "m": "Sphinx",
+       "onde": "Sphinx (Kilmaresh)",
+       "lv": "300+",
+       "nota": "Do vídeo: 5,5kk/h no 300 e até 9kk/h no 400. Bate muito morte: Death Echo.",
+       "exp": 7500,
+       "hp": 8500,
+       "img": "img/monstros/sphinx.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20sphinx%20hunt"
+      },
+      {
+       "m": null,
+       "onde": "Warzone (o cristal)",
+       "lv": "350+",
+       "nota": "Do vídeo: postura de fogo, 5,6kk/h no 363. Bate muito gelo: leve proteção.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%20crystal%20hunt"
+      },
+      {
+       "m": "True Dawnfire Asura",
+       "onde": "Asura Mirror",
+       "lv": "350+",
+       "nota": "Do vídeo (Doc Galaxy): sem risco, 5,2kk/h com energia.",
+       "exp": 7475,
+       "hp": 8500,
+       "img": "img/monstros/true-dawnfire-asura.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20asura%20mirror%20hunt"
+      },
+      {
+       "m": "White Weretiger",
+       "onde": "White Weretigers",
+       "lv": "330+",
+       "nota": "Do vídeo: confortável, 4kk/h, pouco profit.",
+       "exp": 5200,
+       "hp": 6100,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20white%20weretiger%20hunt"
+      },
+      {
+       "m": null,
+       "onde": "Usurpers na entrada do Drume (Bounac)",
+       "lv": "360+",
+       "nota": "Do vídeo: apanham muito de morte. 5kk/h no 368. Batem forte.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20usurper%20drume%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Avatar of Storm",
@@ -3243,18 +3535,120 @@
     },
     {
      "faixa": "400–500",
-     "objetivo": null,
+     "objetivo": "BiS: Soultainter e Soulmantle primeiro. Depois Arcanomancer e Soulshanks.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Na Roda: pontos de vida (dedication) para aguentar solo. Troque primeiro os itens mais baratos.",
+     "hunts": [
+      {
+       "m": "Naga Warrior",
+       "onde": "Nagas (Marapur)",
+       "lv": "400+",
+       "nota": "Do vídeo (Miguelnutt): sem acesso, 4,5 a 4,8kk/h com Thunderstorm.",
+       "exp": 5890,
+       "hp": 5530,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20naga%20marapur%20hunt"
+      },
+      {
+       "m": "Cobra Vizier",
+       "onde": "Cobra Bastion (andar de baixo)",
+       "lv": "400+",
+       "nota": "Do vídeo: mais de 5kk/h. Use o snake flask no caldeirão. Cuidado se colar.",
+       "exp": 7650,
+       "hp": 8500,
+       "img": "img/monstros/cobra-vizier.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cobra%20bastion%20hunt"
+      },
+      {
+       "m": "Cursed Book",
+       "onde": "Biblioteca de Edron (-4)",
+       "lv": "400+",
+       "nota": "Do vídeo: mais de 5kk/h. Precisa do acesso (Between the Lines).",
+       "exp": 13345,
+       "hp": 20000,
+       "img": "img/monstros/cursed-book.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20edron%20library%20book%20hunt"
+      },
+      {
+       "m": "Crypt Warrior",
+       "onde": "Crypt Warriors (acesso do Drume)",
+       "lv": "420+",
+       "nota": "Do vídeo: imunes a morte, só GFB. Uns 4,5kk/h.",
+       "exp": 6050,
+       "hp": 7800,
+       "img": "img/monstros/crypt-warrior.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20crypt%20warrior%20hunt"
+      },
+      {
+       "m": null,
+       "onde": "Ingol (-5)",
+       "lv": "480+",
+       "nota": "Do vídeo: mais de 5kk/h. Bate energia: Void Boots ou Prismatic Ring.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ingol%20hunt"
+      }
+     ],
      "magias": []
     },
     {
      "faixa": "500–600",
-     "objetivo": null,
+     "objetivo": "Sanguine Boots no 500 e Sanguine Coil no 600.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Runic Mastery e Focus Mastery rendem muito nas hunts cheias. Faça bestiary e proficiência nelas.",
+     "hunts": [
+      {
+       "m": "Falcon Knight",
+       "onde": "Falcon Bastion (Edron)",
+       "lv": "500+",
+       "nota": "Do vídeo (Doc Galaxy): 6,5kk/h no 600. Batem muito.",
+       "exp": 6300,
+       "hp": 9000,
+       "img": "img/monstros/falcon-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20falcon%20bastion%20600%20hunt"
+      },
+      {
+       "m": "Cobra Vizier",
+       "onde": "Cobra Bastion",
+       "lv": "500+",
+       "nota": "Do vídeo: 6 a 7kk/h, profit acima de 1,2kk/h. Postura de morte.",
+       "exp": 7650,
+       "hp": 8500,
+       "img": "img/monstros/cobra-vizier.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cobra%20bastion%20600%20hunt"
+      },
+      {
+       "m": "Sphinx",
+       "onde": "Sphinx (Kilmaresh)",
+       "lv": "500+",
+       "nota": "Do vídeo: 6kk/h com rotação de morte (são 130% fracas a morte).",
+       "exp": 7500,
+       "hp": 8500,
+       "img": "img/monstros/sphinx.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20sphinx%20600%20hunt"
+      },
+      {
+       "m": "Crypt Warrior",
+       "onde": "Crypt Warriors",
+       "lv": "500+",
+       "nota": "Do vídeo: 5,8kk/h e mais de 1000 monstros por hora (bom para bestiary).",
+       "exp": 6050,
+       "hp": 7800,
+       "img": "img/monstros/crypt-warrior.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20crypt%20warrior%20600%20hunt"
+      },
+      {
+       "m": "Mitmah Seer",
+       "onde": "Mitmahs (Iksupan)",
+       "lv": "500+",
+       "nota": "Do vídeo: 5,4kk/h e o profit mais estável (1,7kk/h). Rotação de morte.",
+       "exp": 4580,
+       "hp": 4620,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20mitmah%20hunt"
+      }
+     ],
      "magias": []
     }
    ]

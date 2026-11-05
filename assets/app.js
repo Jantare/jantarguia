@@ -123,7 +123,7 @@
       </div>
       <div class="linha-wrap"><span class="how-t">Ordem de compra resumida</span>
         ${r.linhaHtml || linhaList(r.linha)}</div>
-      <p class="foot-note">${esc(r.fonte)}${r.video ? ` <a href="${esc(r.video)}" target="_blank" rel="noopener">Ver o vídeo</a>.` : ""}</p>
+      <p class="foot-note">${esc(r.fonte)}${r.videos ? ` Vídeos: ${r.videos.map(([l, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join(", ")}.` : r.video ? ` <a href="${esc(r.video)}" target="_blank" rel="noopener">Ver o vídeo</a>.` : ""}</p>
     </section>`;
   }
 

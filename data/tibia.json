@@ -1349,36 +1349,50 @@
    "nome": "Paladin",
    "itens": [
     {
+     "id": "paladin-bow",
      "tier": "8–20",
-     "slot": "Arma",
-     "item": "Spear",
+     "slot": "Arma (2 mãos)",
+     "item": "Bow",
      "lv": null,
-     "attr": "Ataque 25",
+     "attr": "-",
      "src": [
       {
-       "m": "Valkyrie",
-       "c": 55.0
+       "m": "Hero",
+       "c": 13.3
       }
      ],
      "shop": [
       {
-       "n": "Mugruu",
-       "p": 9
+       "n": "Edoch",
+       "p": 400
       },
       {
-       "n": "Brengus",
-       "p": 9
+       "n": "Rock In A Hard Place",
+       "p": 400
       },
       {
-       "n": "Isika",
-       "p": 9
+       "n": "Perac",
+       "p": 400
       }
      ],
      "quest": null,
-     "tip": "Valkyries dropam spear em mais da metade das kills.",
-     "wiki": "https://tibia.fandom.com/wiki/Spear",
-     "id": "paladin-spear",
-     "img": "img/itens/spear.webp"
+     "tip": "Arco básico para começar. Compre no NPC.",
+     "wiki": "https://tibia.fandom.com/wiki/Bow",
+     "img": "img/itens/bow.webp"
+    },
+    {
+     "id": "paladin-icicle-bow",
+     "tier": "8–20",
+     "slot": "Arma (2 mãos)",
+     "item": "Icicle Bow",
+     "lv": null,
+     "attr": "+1 de ataque, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Imbua no modo powerful e use até o lvl 50 ou mais. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Icicle_Bow",
+     "img": "img/itens/icicle-bow.webp"
     },
     {
      "tier": "8–20",
@@ -1417,100 +1431,50 @@
      "img": "img/itens/chain-armor.webp"
     },
     {
-     "tier": "8–20",
-     "slot": "Pernas",
-     "item": "Brass Legs",
-     "lv": null,
-     "attr": "Armadura 5",
-     "src": [
-      {
-       "m": "Tarantula",
-       "c": 3.05
-      }
-     ],
-     "shop": [
-      {
-       "n": "Rock In A Hard Place",
-       "p": 195
-      },
-      {
-       "n": "Sam",
-       "p": 195
-      },
-      {
-       "n": "Yanni",
-       "p": 195
-      }
-     ],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
-     "id": "paladin-brass-legs",
-     "img": "img/itens/brass-legs.webp"
-    },
-    {
+     "id": "paladin-zaoan-helmet",
      "tier": "8–20",
      "slot": "Capacete",
-     "item": "Soldier Helmet",
+     "item": "Zaoan Helmet",
      "lv": null,
-     "attr": "Armadura 5",
+     "attr": "Armadura 9, proteção 5% física, 1 slot(s) de imbuement",
      "src": [
       {
-       "m": "Dwarf Soldier",
-       "c": 12.0
-      }
-     ],
-     "shop": [
-      {
-       "n": "Yanni",
-       "p": 110
+       "m": "Ethershreck",
+       "c": 13.0
       },
       {
-       "n": "Sam",
-       "p": 110
-      },
-      {
-       "n": "Cornelia",
-       "p": 110
+       "m": "Lizard Chosen",
+       "c": 0.14
       }
      ],
+     "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Soldier_Helmet",
-     "id": "paladin-soldier-helmet",
-     "img": "img/itens/soldier-helmet.webp"
+     "tip": "Compre no market logo no começo (não pede level).",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
+     "img": "img/itens/zaoan-helmet.webp"
     },
     {
+     "id": "paladin-zaoan-legs",
      "tier": "8–20",
-     "slot": "Escudo",
-     "item": "Dwarven Shield",
+     "slot": "Pernas",
+     "item": "Zaoan Legs",
      "lv": null,
-     "attr": "Defesa 26",
+     "attr": "Armadura 8, proteção 2% física",
      "src": [
       {
-       "m": "Dwarf Soldier",
-       "c": 3.0
-      }
-     ],
-     "shop": [
-      {
-       "n": "Rock In A Hard Place",
-       "p": 500
+       "m": "Fazzrah",
+       "c": 6.25
       },
       {
-       "n": "Flint",
-       "p": 500
-      },
-      {
-       "n": "Ulrik",
-       "p": 500
+       "m": "Lizard Chosen",
+       "c": 0.94
       }
      ],
+     "shop": [],
      "quest": null,
-     "tip": "Paladino de spear pode usar escudo.",
-     "wiki": "https://tibia.fandom.com/wiki/Dwarven_Shield",
-     "id": "paladin-dwarven-shield",
-     "img": "img/itens/dwarven-shield.webp"
+     "tip": "Compre no market junto com o Zaoan Helmet.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+     "img": "img/itens/zaoan-legs.webp"
     },
     {
      "tier": "8–20",
@@ -1546,74 +1510,6 @@
     },
     {
      "tier": "20–35",
-     "slot": "Arma",
-     "item": "Royal Spear",
-     "lv": 25,
-     "attr": "Ataque 35",
-     "src": [
-      {
-       "m": "Efreet",
-       "c": 15.57
-      },
-      {
-       "m": "Marid",
-       "c": 15.5
-      }
-     ],
-     "shop": [
-      {
-       "n": "Vincent",
-       "p": 15
-      },
-      {
-       "n": "Eliyas",
-       "p": 15
-      },
-      {
-       "n": "Rock In A Hard Place",
-       "p": 15
-      }
-     ],
-     "quest": null,
-     "tip": "Lança melhor; NPC vende barato.",
-     "wiki": "https://tibia.fandom.com/wiki/Royal_Spear",
-     "id": "paladin-royal-spear",
-     "img": "img/itens/royal-spear.webp"
-    },
-    {
-     "tier": "20–35",
-     "slot": "Arma (2 mãos, alternativa)",
-     "item": "Bow",
-     "lv": null,
-     "attr": "",
-     "src": [
-      {
-       "m": "Poacher",
-       "c": 14.93
-      }
-     ],
-     "shop": [
-      {
-       "n": "Isika",
-       "p": 400
-      },
-      {
-       "n": "Vincent",
-       "p": 400
-      },
-      {
-       "n": "Maun",
-       "p": 400
-      }
-     ],
-     "quest": null,
-     "tip": "Arco + flecha: mais dano à distância, sem escudo.",
-     "wiki": "https://tibia.fandom.com/wiki/Bow",
-     "id": "paladin-bow",
-     "img": "img/itens/bow.webp"
-    },
-    {
-     "tier": "20–35",
      "slot": "Munição",
      "item": "Sniper Arrow",
      "lv": 20,
@@ -1645,38 +1541,6 @@
      "img": "img/itens/sniper-arrow.webp"
     },
     {
-     "tier": "20–35",
-     "slot": "Capacete",
-     "item": "Steel Helmet",
-     "lv": null,
-     "attr": "Armadura 6",
-     "src": [
-      {
-       "m": "Zombie",
-       "c": 4.6
-      }
-     ],
-     "shop": [
-      {
-       "n": "Cornelia",
-       "p": 580
-      },
-      {
-       "n": "Baltim",
-       "p": 580
-      },
-      {
-       "n": "Turvy",
-       "p": 580
-      }
-     ],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Steel_Helmet",
-     "id": "paladin-steel-helmet",
-     "img": "img/itens/steel-helmet.webp"
-    },
-    {
      "tier": "35–60",
      "slot": "Munição",
      "item": "Onyx Arrow",
@@ -1704,6 +1568,7 @@
      "img": "img/itens/onyx-arrow.webp"
     },
     {
+     "id": "paladin-composite-hornbow",
      "tier": "35–60",
      "slot": "Arma (2 mãos)",
      "item": "Composite Hornbow",
@@ -1717,10 +1582,23 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "No 50, com a Divine Caldera, você caça mais em área. Use se o Icicle Bow não estiver imbuído no powerful.",
      "wiki": "https://tibia.fandom.com/wiki/Composite_Hornbow",
-     "id": "paladin-composite-hornbow",
      "img": "img/itens/composite-hornbow.webp"
+    },
+    {
+     "id": "paladin-dwarven-legs",
+     "tier": "35–60",
+     "slot": "Pernas",
+     "item": "Dwarven Legs",
+     "lv": null,
+     "attr": "Armadura 7, proteção 3% física",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Mais proteção física para quem caça em box. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Dwarven_Legs",
+     "img": "img/itens/dwarven-legs.webp"
     },
     {
      "tier": "35–60",
@@ -1759,46 +1637,32 @@
      "img": "img/itens/plate-armor.webp"
     },
     {
-     "tier": "35–60",
-     "slot": "Pernas",
-     "item": "Plate Legs",
-     "lv": null,
-     "attr": "Armadura 7",
-     "src": [
-      {
-       "m": "Orc Warlord",
-       "c": 4.28
-      }
-     ],
+     "id": "paladin-warsinger-bow",
+     "tier": "60–100",
+     "slot": "Arma (2 mãos)",
+     "item": "Warsinger Bow",
+     "lv": 80,
+     "attr": "+3 de ataque, 3 slot(s) de imbuement",
+     "src": [],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Plate_Legs",
-     "id": "paladin-plate-legs",
-     "img": "img/itens/plate-legs.webp"
+     "tip": "Excelente arco do lvl 80: dano extra pelo seu distance. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Warsinger_Bow",
+     "img": "img/itens/warsinger-bow.webp"
     },
     {
+     "id": "paladin-yalahari-leg-piece",
      "tier": "60–100",
-     "slot": "Arma",
-     "item": "Assassin Star",
+     "slot": "Pernas (alternativa)",
+     "item": "Yalahari Leg Piece",
      "lv": 80,
-     "attr": "Ataque 65",
+     "attr": "Armadura 8, +2 distance, proteção 5% morte",
      "src": [],
-     "shop": [
-      {
-       "n": "Archery",
-       "p": 100
-      },
-      {
-       "n": "Atrad",
-       "p": 100
-      }
-     ],
+     "shop": [],
      "quest": null,
-     "tip": "Arma clássica de paladino nessa faixa; compra no NPC.",
-     "wiki": "https://tibia.fandom.com/wiki/Assassin_Star",
-     "id": "paladin-assassin-star",
-     "img": "img/itens/assassin-star.webp"
+     "tip": "+2 distance. Só troque se você caça mais puxando (kitando); em box, fique com as Dwarven Legs.",
+     "wiki": "https://tibia.fandom.com/wiki/Yalahari_Leg_Piece",
+     "img": "img/itens/yalahari-leg-piece.webp"
     },
     {
      "tier": "60–100",
@@ -1818,44 +1682,6 @@
      "wiki": "https://tibia.fandom.com/wiki/Zaoan_Armor",
      "id": "paladin-zaoan-armor",
      "img": "img/itens/zaoan-armor.webp"
-    },
-    {
-     "tier": "60–100",
-     "slot": "Pernas",
-     "item": "Zaoan Legs",
-     "lv": null,
-     "attr": "Armadura 8",
-     "src": [
-      {
-       "m": "Lizard Zaogun",
-       "c": 1.0
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
-     "id": "paladin-zaoan-legs",
-     "img": "img/itens/zaoan-legs.webp"
-    },
-    {
-     "tier": "60–100",
-     "slot": "Botas",
-     "item": "Metal Spats",
-     "lv": 50,
-     "attr": "Armadura 1, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Metal Gargoyle",
-       "c": 1.49
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Metal_Spats",
-     "id": "paladin-metal-spats",
-     "img": "img/itens/metal-spats.webp"
     },
     {
      "tier": "60–100",
@@ -1890,6 +1716,7 @@
      "img": "img/itens/crystalline-arrow.webp"
     },
     {
+     "id": "paladin-mycological-bow",
      "tier": "100–150",
      "slot": "Arma (2 mãos)",
      "item": "Mycological Bow",
@@ -1897,229 +1724,113 @@
      "attr": "+4 de ataque, 3 slot(s) de imbuement",
      "src": [
       {
-       "m": "Diremaw",
-       "c": 0.2
+       "m": "Deathstrike",
+       "c": 11.43
+      },
+      {
+       "m": "Gnomevil",
+       "c": 8.4
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "Drop raro: vale guardar se cair.",
+     "tip": "O melhor amigo do Paladin do 105 ao 200: +10 de dano com o monstro colado, ótimo para fechar box.",
      "wiki": "https://tibia.fandom.com/wiki/Mycological_Bow",
-     "id": "paladin-mycological-bow",
      "img": "img/itens/mycological-bow.webp"
     },
     {
+     "id": "paladin-prismatic-armor",
      "tier": "100–150",
      "slot": "Armadura",
-     "item": "Elite Draken Mail",
-     "lv": 100,
-     "attr": "Armadura 15, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Draken Elite",
-       "c": 0.11
-      }
-     ],
+     "item": "Prismatic Armor",
+     "lv": 120,
+     "attr": "Armadura 15, proteção 5% física, 1 slot(s) de imbuement",
+     "src": [],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Elite_Draken_Mail",
-     "id": "paladin-elite-draken-mail",
-     "img": "img/itens/elite-draken-mail.webp"
+     "tip": "Daqui em diante você caça em área e precisa de proteção física. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Prismatic_Armor",
+     "img": "img/itens/prismatic-armor.webp"
     },
     {
-     "tier": "100–150",
-     "slot": "Capacete",
-     "item": "Zaoan Helmet",
-     "lv": null,
-     "attr": "Armadura 9, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Draken Abomination",
-       "c": 0.56
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
-     "id": "paladin-zaoan-helmet",
-     "img": "img/itens/zaoan-helmet.webp"
-    },
-    {
+     "id": "paladin-guardian-boots",
      "tier": "100–150",
      "slot": "Botas",
-     "item": "Draken Boots",
-     "lv": 80,
-     "attr": "Armadura 3, 1 slot(s) de imbuement",
+     "item": "Guardian Boots",
+     "lv": 70,
+     "attr": "Armadura 3, proteção 2% física, -2% sagrado, 1 slot(s) de imbuement",
      "src": [
       {
-       "m": "Draken Elite",
-       "c": 0.93
+       "m": "Ghastly Dragon",
+       "c": 1.01
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Draken_Boots",
-     "id": "paladin-draken-boots",
-     "img": "img/itens/draken-boots.webp"
+     "tip": "Junto com a Prismatic Armor. Se for colocar tier antes do 400, é nela e na Prismatic Legs.",
+     "wiki": "https://tibia.fandom.com/wiki/Guardian_Boots",
+     "img": "img/itens/guardian-boots.webp"
     },
     {
-     "id": "paladin-jungle-bow",
-     "tier": "150–200",
-     "slot": "Arma (2 mãos)",
-     "item": "Jungle Bow",
-     "lv": 150,
-     "attr": "+6 de ataque, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Ratmiral Blackwhiskers",
-       "c": 0.89
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Jungle_Bow",
-     "img": "img/itens/jungle-bow.webp"
-    },
-    {
-     "id": "paladin-depth-lorica",
-     "tier": "150–200",
-     "slot": "Armadura",
-     "item": "Depth Lorica",
-     "lv": 150,
-     "attr": "Armadura 16, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Jaul",
-       "c": 0.8
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Depth_Lorica",
-     "img": "img/itens/depth-lorica.webp"
-    },
-    {
-     "id": "paladin-dark-whispers",
-     "tier": "150–200",
-     "slot": "Capacete",
-     "item": "Dark Whispers",
-     "lv": 180,
-     "attr": "Armadura 7, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "The Nightmare Beast",
-       "c": 3.23
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Boss final dos Dream Courts.",
-     "wiki": "https://tibia.fandom.com/wiki/Dark_Whispers",
-     "img": "img/itens/dark-whispers.webp"
-    },
-    {
-     "id": "paladin-bast-legs",
+     "id": "paladin-prismatic-legs",
      "tier": "150–200",
      "slot": "Pernas",
-     "item": "Bast Legs",
+     "item": "Prismatic Legs",
      "lv": 150,
-     "attr": "Armadura 8",
-     "src": [
-      {
-       "m": "Ratmiral Blackwhiskers",
-       "c": 0.89
-      }
-     ],
+     "attr": "Armadura 8, +2 distance, proteção 3% física",
+     "src": [],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Bast_Legs",
-     "img": "img/itens/bast-legs.webp"
+     "tip": "Upgrade que dura muito tempo. Um dos poucos itens que vale ter com tier antes do 400. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Prismatic_Legs",
+     "img": "img/itens/prismatic-legs.webp"
     },
     {
-     "id": "paladin-collar-of-blue-plasma",
+     "id": "paladin-sleep-shawl",
      "tier": "150–200",
      "slot": "Colar",
-     "item": "Collar of Blue Plasma",
-     "lv": 150,
-     "attr": "+2 magic level",
-     "src": [
-      {
-       "m": "Poisonous Carnisylvan",
-       "c": 4.97
-      }
-     ],
+     "item": "Sleep Shawl",
+     "lv": 180,
+     "attr": "-",
+     "src": [],
      "shop": [],
      "quest": null,
-     "tip": "Monstro comum, ~5%: dá pra farmar em hunt.",
-     "wiki": "https://tibia.fandom.com/wiki/Collar_of_Blue_Plasma",
-     "img": "img/itens/collar-of-blue-plasma.webp"
+     "tip": "Um dos itens mais roubados do Paladin: 24% de terra, 7% física e +3 distance. Custa pouco e carrega com Silver Tokens. Muito bom do 200 em diante.",
+     "wiki": "https://tibia.fandom.com/wiki/Sleep_Shawl",
+     "img": "img/itens/sleep-shawl.webp"
     },
     {
-     "id": "paladin-living-vine-bow",
+     "id": "paladin-bow-of-destruction",
      "tier": "200–300",
      "slot": "Arma (2 mãos)",
-     "item": "Living Vine Bow",
-     "lv": 220,
-     "attr": "+6 de ataque, 3 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Plagueroot",
-       "c": 4.08
-      }
-     ],
+     "item": "Bow of Destruction",
+     "lv": 200,
+     "attr": "+5 de ataque, 3 slot(s) de imbuement",
+     "src": [],
      "shop": [],
      "quest": null,
-     "tip": "Chance boa (~4%) para arco de boss.",
-     "wiki": "https://tibia.fandom.com/wiki/Living_Vine_Bow",
-     "img": "img/itens/living-vine-bow.webp"
+     "tip": "A primeira grande virada. Proficiência muito forte; dá para personalizar e até colocar tier. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Bow_of_Destruction",
+     "img": "img/itens/bow-of-destruction.webp"
     },
     {
-     "id": "paladin-cobra-crossbow",
+     "id": "paladin-bow-of-cataclysm",
      "tier": "200–300",
-     "slot": "Arma (alternativa)",
-     "item": "Cobra Crossbow",
-     "lv": 220,
-     "attr": "+7 de ataque, 2 slot(s) de imbuement",
+     "slot": "Arma (situacional, morte)",
+     "item": "Bow of Cataclysm",
+     "lv": 250,
+     "attr": "+6 de ataque, +2 distance, proteção 4% morte, 3 slot(s) de imbuement",
      "src": [
       {
-       "m": "Scarlett Etzel",
+       "m": "King Zelos",
        "c": 0.6
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Cobra_Crossbow",
-     "img": "img/itens/cobra-crossbow.webp"
-    },
-    {
-     "id": "paladin-embrace-of-nature",
-     "tier": "200–300",
-     "slot": "Armadura",
-     "item": "Embrace of Nature",
-     "lv": 220,
-     "attr": "Armadura 16, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Earl Osam",
-       "c": 1.6
-      },
-      {
-       "m": "Sir Baeloc",
-       "c": 1.4
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Embrace_of_Nature",
-     "img": "img/itens/embrace-of-nature.webp"
+     "tip": "Upe a proficiência dele: dá proteção de morte e buff de holy. Ótimo em Asura, Grim Reaper e Werehyaena.",
+     "wiki": "https://tibia.fandom.com/wiki/Bow_of_Cataclysm",
+     "img": "img/itens/bow-of-cataclysm.webp"
     },
     {
      "id": "paladin-lion-spangenhelm",
@@ -2127,8 +1838,12 @@
      "slot": "Capacete",
      "item": "Lion Spangenhelm",
      "lv": 230,
-     "attr": "Armadura 7, 2 slot(s) de imbuement",
+     "attr": "Armadura 7, +2 distance, proteção 3% física, 5% poison, 2 slot(s) de imbuement",
      "src": [
+      {
+       "m": "Ancient Lion Knight",
+       "c": 0.04
+      },
       {
        "m": "Drume",
        "c": 0.3
@@ -2136,17 +1851,17 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Entra no set do 230 junto com Ghost Chestplate, Fabulous Legs e Winged Boots.",
      "wiki": "https://tibia.fandom.com/wiki/Lion_Spangenhelm",
      "img": "img/itens/lion-spangenhelm.webp"
     },
     {
-     "id": "paladin-fabulous-legs",
+     "id": "paladin-ghost-chestplate",
      "tier": "200–300",
-     "slot": "Pernas",
-     "item": "Fabulous Legs",
-     "lv": 225,
-     "attr": "Armadura 9",
+     "slot": "Armadura",
+     "item": "Ghost Chestplate",
+     "lv": 230,
+     "attr": "Armadura 17, +2 distance, proteção 3% física, 2 slot(s) de imbuement",
      "src": [
       {
        "m": "The Unwelcome",
@@ -2159,7 +1874,30 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Tenha duas: uma imbuída de morte e outra de terra, e Vampirism no outro slot. Vale mais que montar vários sets.",
+     "wiki": "https://tibia.fandom.com/wiki/Ghost_Chestplate",
+     "img": "img/itens/ghost-chestplate.webp"
+    },
+    {
+     "id": "paladin-fabulous-legs",
+     "tier": "200–300",
+     "slot": "Pernas",
+     "item": "Fabulous Legs",
+     "lv": 225,
+     "attr": "Armadura 9, +2 distance, proteção 4% física, 2% fogo",
+     "src": [
+      {
+       "m": "The Unwelcome",
+       "c": 0.15
+      },
+      {
+       "m": "The Pale Worm",
+       "c": 0.15
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Do set do 230.",
      "wiki": "https://tibia.fandom.com/wiki/Fabulous_Legs",
      "img": "img/itens/fabulous-legs.webp"
     },
@@ -2169,7 +1907,7 @@
      "slot": "Botas",
      "item": "Winged Boots",
      "lv": 220,
-     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "attr": "Armadura 2, +1 distance, proteção 7% poison, 1 slot(s) de imbuement",
      "src": [
       {
        "m": "Urmahlullu the Weakened",
@@ -2178,66 +1916,51 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Do set do 230.",
      "wiki": "https://tibia.fandom.com/wiki/Winged_Boots",
      "img": "img/itens/winged-boots.webp"
     },
     {
-     "id": "paladin-falcon-bow",
-     "tier": "300–400",
-     "slot": "Arma (2 mãos)",
-     "item": "Falcon Bow",
-     "lv": 300,
-     "attr": "+7 de ataque, 3 slot(s) de imbuement",
+     "id": "paladin-gnome-armor",
+     "tier": "200–300",
+     "slot": "Armadura (alternativa, energia)",
+     "item": "Gnome Armor",
+     "lv": 200,
+     "attr": "Armadura 17, +3 distance, proteção 4% física, -2% gelo, 8% energia, 2 slot(s) de imbuement",
      "src": [
       {
-       "m": "Grand Master Oberon",
-       "c": 0.35
+       "m": "The Baron from Below",
+       "c": 3.39
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Falcon_Bow",
-     "img": "img/itens/falcon-bow.webp"
+     "tip": "Deixe para quando caçar criaturas que batem energia: a proteção dela economiza imbuement.",
+     "wiki": "https://tibia.fandom.com/wiki/Gnome_Armor",
+     "img": "img/itens/gnome-armor.webp"
     },
     {
-     "id": "paladin-amber-crossbow",
-     "tier": "300–400",
-     "slot": "Arma (alternativa)",
-     "item": "Amber Crossbow",
-     "lv": 330,
-     "attr": "+8 de ataque, 3 slot(s) de imbuement",
+     "id": "paladin-embrace-of-nature",
+     "tier": "200–300",
+     "slot": "Armadura (alternativa, gelo)",
+     "item": "Embrace of Nature",
+     "lv": 220,
+     "attr": "Armadura 16, +4 distance, proteção 11% gelo, -3% energia, 1 slot(s) de imbuement",
      "src": [
       {
-       "m": "The Rootkraken",
-       "c": 20.0
+       "m": "Earl Osam",
+       "c": 1.6
+      },
+      {
+       "m": "Sir Baeloc",
+       "c": 1.4
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "Chance de 20%.",
-     "wiki": "https://tibia.fandom.com/wiki/Amber_Crossbow",
-     "img": "img/itens/amber-crossbow.webp"
-    },
-    {
-     "id": "paladin-unerring-dragon-scale-armor",
-     "tier": "300–400",
-     "slot": "Armadura",
-     "item": "Unerring Dragon Scale Armor",
-     "lv": 300,
-     "attr": "Armadura 17, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Dragon Hoard",
-       "c": 1.56
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Unerring_Dragon_Scale_Armor",
-     "img": "img/itens/unerring-dragon-scale-armor.webp"
+     "tip": "Para hunts de gelo, como Burster Spectre.",
+     "wiki": "https://tibia.fandom.com/wiki/Embrace_of_Nature",
+     "img": "img/itens/embrace-of-nature.webp"
     },
     {
      "id": "paladin-falcon-coif",
@@ -2254,7 +1977,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Essencial no 300: proteção física e de fogo e buff de distance.",
      "wiki": "https://tibia.fandom.com/wiki/Falcon_Coif",
      "img": "img/itens/falcon-coif.webp"
     },
@@ -2273,28 +1996,56 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Essencial no 300: proteção física e de gelo. Se só der para um upgrade, faça este primeiro.",
      "wiki": "https://tibia.fandom.com/wiki/Falcon_Greaves",
      "img": "img/itens/falcon-greaves.webp"
     },
     {
-     "id": "paladin-feverbloom-boots",
+     "id": "paladin-rending-inferniarch-bow",
      "tier": "300–400",
-     "slot": "Botas",
-     "item": "Feverbloom Boots",
-     "lv": 270,
-     "attr": "Armadura 2, 1 slot(s) de imbuement",
+     "slot": "Arma (2 mãos)",
+     "item": "Rending Inferniarch Bow",
+     "lv": 300,
+     "attr": "+7 de ataque, +2 distance, proteção 5% terra, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "O meta do 300: quase BiS, com 58% de crítico na proficiência (não precisa imbuir crítico). Caro. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Rending_Inferniarch_Bow",
+     "img": "img/itens/rending-inferniarch-bow.webp"
+    },
+    {
+     "id": "paladin-falcon-bow",
+     "tier": "300–400",
+     "slot": "Arma (alternativa)",
+     "item": "Falcon Bow",
+     "lv": 300,
+     "attr": "+7 de ataque, 3 slot(s) de imbuement",
      "src": [
       {
-       "m": "Timira the Many-Headed",
-       "c": 0.2
+       "m": "Grand Master Oberon",
+       "c": 0.35
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Feverbloom_Boots",
-     "img": "img/itens/feverbloom-boots.webp"
+     "tip": "Opção mais barata ao Rending Inferniarch. Precisa personalizar a proficiência.",
+     "wiki": "https://tibia.fandom.com/wiki/Falcon_Bow",
+     "img": "img/itens/falcon-bow.webp"
+    },
+    {
+     "id": "paladin-pendulet",
+     "tier": "300–400",
+     "slot": "Colar",
+     "item": "Pendulet",
+     "lv": 180,
+     "attr": "-",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Do 300 em diante, para as hunts mais fortes. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Pendulet",
+     "img": "img/itens/pendulet.webp"
     },
     {
      "id": "paladin-soulbleeder",
@@ -2306,37 +2057,9 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "Comece o BiS por ele. Ordem: Soulbleeder → Alicorn Headguard → Soulstalkers → Alicorn Quiver → Alicorn Ring → Soulshell. Tier só a partir daqui.",
      "wiki": "https://tibia.fandom.com/wiki/Soulbleeder",
      "img": "img/itens/soulbleeder.webp"
-    },
-    {
-     "id": "paladin-soulpiercer",
-     "tier": "400–500",
-     "slot": "Arma (alternativa)",
-     "item": "Soulpiercer",
-     "lv": 400,
-     "attr": "+9 de ataque, 3 slot(s) de imbuement",
-     "src": [],
-     "shop": [],
-     "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Soulpiercer",
-     "img": "img/itens/soulpiercer.webp"
-    },
-    {
-     "id": "paladin-soulshell",
-     "tier": "400–500",
-     "slot": "Armadura",
-     "item": "Soulshell",
-     "lv": 400,
-     "attr": "Armadura 18, 2 slot(s) de imbuement",
-     "src": [],
-     "shop": [],
-     "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Soulshell",
-     "img": "img/itens/soulshell.webp"
     },
     {
      "id": "paladin-alicorn-headguard",
@@ -2353,7 +2076,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Segundo item do BiS. Proteção absurda.",
      "wiki": "https://tibia.fandom.com/wiki/Alicorn_Headguard",
      "img": "img/itens/alicorn-headguard.webp"
     },
@@ -2367,7 +2090,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "Terceiro item do BiS.",
      "wiki": "https://tibia.fandom.com/wiki/Pair_of_Soulstalkers",
      "img": "img/itens/pair-of-soulstalkers.webp"
     },
@@ -2386,9 +2109,37 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Quarto item do BiS. Dá para esperar por ela sem usar outra aljava antes.",
      "wiki": "https://tibia.fandom.com/wiki/Alicorn_Quiver",
      "img": "img/itens/alicorn-quiver.webp"
+    },
+    {
+     "id": "paladin-alicorn-ring",
+     "tier": "400–500",
+     "slot": "Anel",
+     "item": "Alicorn Ring",
+     "lv": 400,
+     "attr": "proteção 4% fogo, 4% terra, 4% energia, 4% gelo",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Quinto item do BiS. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Alicorn_Ring",
+     "img": "img/itens/alicorn-ring.webp"
+    },
+    {
+     "id": "paladin-soulshell",
+     "tier": "400–500",
+     "slot": "Armadura",
+     "item": "Soulshell",
+     "lv": 400,
+     "attr": "Armadura 18, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Soul War (boss Goshnar's Megalomania)",
+     "tip": "O item do BiS que menos muda: deixe por último.",
+     "wiki": "https://tibia.fandom.com/wiki/Soulshell",
+     "img": "img/itens/soulshell.webp"
     },
     {
      "id": "paladin-sanguine-greaves",
@@ -2414,7 +2165,7 @@
      "src": [],
      "shop": [],
      "quest": "Rotten Blood (boss Bakragore)",
-     "tip": "Level 600.",
+     "tip": "Indispensável no 600: buffs e crítico fazem total diferença.",
      "wiki": "https://tibia.fandom.com/wiki/Sanguine_Bow",
      "img": "img/itens/sanguine-bow.webp"
     }
@@ -5112,43 +4863,6 @@
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dark%20Apprentice",
    "img": "img/monstros/dark-apprentice.gif"
   },
-  "Diremaw": {
-   "exp": 2770,
-   "hp": 3600,
-   "lvl": "100+",
-   "loc": "",
-   "items": [
-    "Mycological Bow"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Diremaw",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Diremaw",
-   "img": "img/monstros/diremaw.gif"
-  },
-  "Draken Abomination": {
-   "exp": 4500,
-   "hp": 6250,
-   "lvl": "130+",
-   "loc": "Zao",
-   "items": [
-    "Zaoan Helmet"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Draken_Abomination",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Abomination",
-   "img": "img/monstros/draken-abomination.gif"
-  },
-  "Draken Elite": {
-   "exp": 4750,
-   "hp": 5550,
-   "lvl": "130+",
-   "loc": "Zao",
-   "items": [
-    "Draken Boots",
-    "Elite Draken Mail"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Draken_Elite",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Elite",
-   "img": "img/monstros/draken-elite.gif"
-  },
   "Dwarf Geomancer": {
    "exp": 265,
    "hp": 380,
@@ -5193,7 +4907,6 @@
    "loc": "Mal'ouquah, Ankrahmun (precisa da Djinn quest)",
    "items": [
     "Magma Monocle",
-    "Royal Spear",
     "Wand of Inferno"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Efreet",
@@ -5372,18 +5085,6 @@
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Templar",
    "img": "img/monstros/lizard-templar.gif"
   },
-  "Lizard Zaogun": {
-   "exp": 1700,
-   "hp": 2955,
-   "lvl": "80+",
-   "loc": "Zao",
-   "items": [
-    "Zaoan Legs"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Lizard_Zaogun",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Zaogun",
-   "img": "img/monstros/lizard-zaogun.gif"
-  },
   "Magma Crawler": {
    "exp": 3900,
    "hp": 4800,
@@ -5402,8 +5103,7 @@
    "lvl": "30+",
    "loc": "Ashta'daramai, Ankrahmun (precisa da Djinn quest)",
    "items": [
-    "Magma Monocle",
-    "Royal Spear"
+    "Magma Monocle"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Marid",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Marid",
@@ -5420,18 +5120,6 @@
    "wiki": "https://tibia.fandom.com/wiki/Massive_Energy_Elemental",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Massive%20Energy%20Elemental",
    "img": "img/monstros/massive-energy-elemental.gif"
-  },
-  "Metal Gargoyle": {
-   "exp": 1278,
-   "hp": 2100,
-   "lvl": "70+",
-   "loc": "",
-   "items": [
-    "Metal Spats"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Metal_Gargoyle",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Metal%20Gargoyle",
-   "img": "img/monstros/metal-gargoyle.gif"
   },
   "Midnight Asura": {
    "exp": 4100,
@@ -5531,18 +5219,6 @@
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Warrior",
    "img": "img/monstros/orc-warrior.gif"
   },
-  "Poacher": {
-   "exp": 70,
-   "hp": 90,
-   "lvl": "8+",
-   "loc": "",
-   "items": [
-    "Bow"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Poacher",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Poacher",
-   "img": "img/monstros/poacher.gif"
-  },
   "Seacrest Serpent": {
    "exp": 2900,
    "hp": 3000,
@@ -5597,8 +5273,7 @@
    "lvl": "8+",
    "loc": "Amazon Camp (Venore)",
    "items": [
-    "Chain Armor",
-    "Spear"
+    "Chain Armor"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Valkyrie",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Valkyrie",
@@ -5710,8 +5385,6 @@
    "loc": "",
    "boss": true,
    "items": [
-    "Bast Legs",
-    "Jungle Bow",
     "Jungle Flail",
     "Jungle Wand"
    ],
@@ -5741,7 +5414,6 @@
    "items": [
     "Depth Calcei",
     "Depth Claws",
-    "Depth Lorica",
     "Ornate Legs"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Jaul",
@@ -5786,7 +5458,6 @@
     "Cobra Axe",
     "Cobra Bo",
     "Cobra Club",
-    "Cobra Crossbow",
     "Cobra Hood",
     "Cobra Rod",
     "Cobra Sword"
@@ -5803,6 +5474,7 @@
    "boss": true,
    "items": [
     "Fabulous Legs",
+    "Ghost Chestplate",
     "Soulful Legs"
    ],
    "wiki": "https://tibia.fandom.com/wiki/The_Unwelcome",
@@ -5817,6 +5489,7 @@
    "boss": true,
    "items": [
     "Fabulous Legs",
+    "Ghost Chestplate",
     "Jade Legs",
     "Soulful Legs"
    ],
@@ -5883,7 +5556,6 @@
    "loc": "",
    "boss": true,
    "items": [
-    "Amber Crossbow",
     "Amber Kusarigama"
    ],
    "wiki": "https://tibia.fandom.com/wiki/The_Rootkraken",
@@ -5918,38 +5590,11 @@
    "loc": "Dream Courts",
    "boss": true,
    "items": [
-    "Dark Vision Bandana",
-    "Dark Whispers"
+    "Dark Vision Bandana"
    ],
    "wiki": "https://tibia.fandom.com/wiki/The_Nightmare_Beast",
    "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Nightmare%20Beast",
    "img": "img/monstros/the-nightmare-beast.gif"
-  },
-  "Poisonous Carnisylvan": {
-   "exp": 4400,
-   "hp": 8000,
-   "lvl": "150+",
-   "loc": "",
-   "boss": false,
-   "items": [
-    "Collar of Blue Plasma"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Poisonous_Carnisylvan",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20Poisonous%20Carnisylvan",
-   "img": "img/monstros/poisonous-carnisylvan.gif"
-  },
-  "Plagueroot": {
-   "exp": 55000,
-   "hp": 320000,
-   "lvl": "200+",
-   "loc": "Dream Courts",
-   "boss": true,
-   "items": [
-    "Living Vine Bow"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Plagueroot",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20Plagueroot",
-   "img": "img/monstros/plagueroot.gif"
   },
   "Earl Osam": {
    "exp": 55000,
@@ -6021,8 +5666,7 @@
     "Arcane Dragon Robe",
     "Dauntless Dragon Scale Armor",
     "Merudri Battle Mail",
-    "Mystical Dragon Robe",
-    "Unerring Dragon Scale Armor"
+    "Mystical Dragon Robe"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Dragon_Hoard",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Dragon%20Hoard",
@@ -6035,8 +5679,7 @@
    "loc": "Marapur",
    "boss": true,
    "items": [
-    "Dawnfire Pantaloons",
-    "Feverbloom Boots"
+    "Dawnfire Pantaloons"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Timira_the_Many-Headed",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Timira%20the%20Many-Headed",
@@ -6063,6 +5706,7 @@
    "loc": "Grave Danger",
    "boss": true,
    "items": [
+    "Bow of Cataclysm",
     "Death Oyoroi",
     "Toga Mortis"
    ],
@@ -6225,6 +5869,7 @@
    "boss": true,
    "items": [
     "Crystal Mace",
+    "Gnome Armor",
     "Gnome Sword"
    ],
    "wiki": "https://tibia.fandom.com/wiki/The_Baron_From_Below",
@@ -6318,7 +5963,8 @@
    "boss": false,
    "items": [
     "Lion Axe",
-    "Lion Hammer"
+    "Lion Hammer",
+    "Lion Spangenhelm"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Ancient_Lion_Knight",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Ancient%20Lion%20Knight",
@@ -6349,6 +5995,45 @@
    "wiki": "https://tibia.fandom.com/wiki/Mitmah_Vanguard",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Mitmah%20Vanguard",
    "img": null
+  },
+  "Hero": {
+   "exp": 1200,
+   "hp": 1400,
+   "lvl": "60+",
+   "loc": "Hero Cave (Edron)",
+   "boss": false,
+   "items": [
+    "Bow"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Hero",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Hero",
+   "img": "img/monstros/hero.gif"
+  },
+  "Deathstrike": {
+   "exp": 40000,
+   "hp": 200000,
+   "lvl": "100+",
+   "loc": "boss do Bigfoot's Burden",
+   "boss": true,
+   "items": [
+    "Mycological Bow"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Deathstrike",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Deathstrike",
+   "img": "img/monstros/deathstrike.gif"
+  },
+  "Gnomevil": {
+   "exp": 400000,
+   "hp": 250000,
+   "lvl": "100+",
+   "loc": "boss do Bigfoot's Burden",
+   "boss": true,
+   "items": [
+    "Mycological Bow"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Gnomevil",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Gnomevil",
+   "img": "img/monstros/gnomevil.gif"
   }
  }
 }

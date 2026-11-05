@@ -1123,15 +1123,110 @@
    ]
   },
   "paladin": {
-   "pronta": false,
-   "resumo": null,
+   "pronta": true,
+   "resumo": {
+    "titulo": "Paladin",
+    "papel": "Ataca de longe com arco de duas mãos desde o começo. Do 50 em diante caça em área e fecha box.",
+    "skills": "Distance Fighting. Magic level (holy) ajuda nas magias e na estância defensiva.",
+    "imbuements": [
+     "Arco: crítico, life leech e mana leech (Icicle Bow no modo powerful)",
+     "Ghost Chestplate: elemento da hunt + Vampirism",
+     "Capacete e botas: mana leech e velocidade"
+    ],
+    "rtc": "No RTC: Salvation (exura gran san) e potion de vida em uns 50%; mana potion quando a mana cair.",
+    "tier": "Só invista em tier do 400 em diante, junto com o BiS. Exceções: Prismatic Legs + Guardian Boots e o Bow of Destruction.",
+    "linha": [
+     [
+      "8",
+      "Icicle Bow + Zaoan Helmet e Legs"
+     ],
+     [
+      "50",
+      "Composite Hornbow + Dwarven Legs"
+     ],
+     [
+      "80",
+      "Warsinger Bow"
+     ],
+     [
+      "105",
+      "Mycological Bow"
+     ],
+     [
+      "120",
+      "Prismatic Armor + Guardian Boots"
+     ],
+     [
+      "150",
+      "Prismatic Legs"
+     ],
+     [
+      "180",
+      "Sleep Shawl"
+     ],
+     [
+      "200",
+      "Bow of Destruction"
+     ],
+     [
+      "230",
+      "Lion Spangenhelm + Ghost Chestplate + Fabulous Legs + Winged Boots"
+     ],
+     [
+      "300",
+      "Falcon Greaves + Falcon Coif + Rending Inferniarch Bow"
+     ],
+     [
+      "400",
+      "Soulbleeder → Alicorn → Soulstalkers → Quiver → Ring → Soulshell"
+     ],
+     [
+      "500",
+      "Sanguine Greaves"
+     ],
+     [
+      "600",
+      "Sanguine Bow"
+     ]
+    ],
+    "fonte": "Ordem de itens baseada no vídeo de Neutrinho TV sobre Paladin depois do balanceamento (2026), adaptada para o HeroOT.",
+    "video": "https://www.youtube.com/watch?v=_3tDlgcTE0o"
+   },
    "etapas": [
     {
      "faixa": "8–20",
-     "objetivo": null,
+     "objetivo": "Bow ou Icicle Bow imbuído, mais Zaoan Helmet e Zaoan Legs.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Foque em Distance Fighting. Conjure flechas quando puder e treine offline nas pausas.",
+     "hunts": [
+      {
+       "m": "Rotworm",
+       "onde": "Caves de rotworm (Thais, Darashia, Ab'Dendriel)",
+       "lv": "8+",
+       "nota": "Primeira hunt: fácil de kitar.",
+       "exp": 40,
+       "hp": 65,
+       "img": "img/monstros/rotworm.gif"
+      },
+      {
+       "m": "Amazon",
+       "onde": "Amazon Camp (Venore)",
+       "lv": "10+",
+       "nota": "Boa XP e loot para começar.",
+       "exp": 60,
+       "hp": 110,
+       "img": "img/monstros/amazon.gif"
+      },
+      {
+       "m": "Minotaur",
+       "onde": "Mintwallin e minotauros ao norte de Thais",
+       "lv": "12+",
+       "nota": "Kite e não deixe juntar muitos.",
+       "exp": 50,
+       "hp": 100,
+       "img": "img/monstros/minotaur.gif"
+      }
+     ],
      "magias": [
       {
        "n": "Arrow Call",
@@ -1144,7 +1239,7 @@
         "Dario",
         "Elane"
        ],
-       "ess": false,
+       "ess": true,
        "g": "support"
       },
       {
@@ -1158,7 +1253,7 @@
         "Elane",
         "Irea"
        ],
-       "ess": false,
+       "ess": true,
        "g": "attack"
       },
       {
@@ -1172,7 +1267,7 @@
         "Azalea",
         "Barnabas Dee"
        ],
-       "ess": false,
+       "ess": true,
        "g": "healing"
       },
       {
@@ -1214,7 +1309,7 @@
         "Azalea",
         "Barnabas Dee"
        ],
-       "ess": false,
+       "ess": true,
        "g": "healing"
       },
       {
@@ -1228,7 +1323,7 @@
         "Barnabas Dee",
         "Charlotta"
        ],
-       "ess": false,
+       "ess": true,
        "g": "support"
       },
       {
@@ -1242,7 +1337,7 @@
         "Azalea",
         "Barnabas Dee"
        ],
-       "ess": true,
+       "ess": false,
        "g": "healing"
       },
       {
@@ -1270,7 +1365,7 @@
         "Dario",
         "Elane"
        ],
-       "ess": false,
+       "ess": true,
        "g": "support"
       },
       {
@@ -1298,7 +1393,7 @@
         "Barnabas Dee",
         "Charlotta"
        ],
-       "ess": false,
+       "ess": true,
        "g": "support"
       },
       {
@@ -1335,10 +1430,38 @@
     },
     {
      "faixa": "20–35",
-     "objetivo": null,
+     "objetivo": "Manter o set do 8 e juntar gold. Sniper Arrow no 20.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Distance sobe rápido caçando. Não gaste com tier: o equipamento do Paladin troca muito no começo.",
+     "hunts": [
+      {
+       "m": "Cyclops",
+       "onde": "Cyclopolis (Edron) e Mount Sternum (Thais)",
+       "lv": "20+",
+       "nota": "Lentos: dá para kitar sem tomar dano.",
+       "exp": 150,
+       "hp": 260,
+       "img": "img/monstros/cyclops.gif"
+      },
+      {
+       "m": "Dwarf Soldier",
+       "onde": "Minas de Kazordoon",
+       "lv": "20+",
+       "nota": "Fácil e perto do depot.",
+       "exp": 70,
+       "hp": 135,
+       "img": "img/monstros/dwarf-soldier.gif"
+      },
+      {
+       "m": "Orc Berserker",
+       "onde": "Orc Fortress",
+       "lv": "30+",
+       "nota": "Muita XP; mantenha distância.",
+       "exp": 195,
+       "hp": 210,
+       "img": "img/monstros/orc-berserker.gif"
+      }
+     ],
      "magias": [
       {
        "n": "Blank Rune",
@@ -1476,10 +1599,38 @@
     },
     {
      "faixa": "35–60",
-     "objetivo": null,
+     "objetivo": "No 50: Composite Hornbow e Dwarven Legs para caçar em área.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "No 50 entra a Divine Caldera: comece a caçar em área e fechar box.",
+     "hunts": [
+      {
+       "m": "Dragon",
+       "onde": "Dragon lairs de Darashia e Thais",
+       "lv": "35+",
+       "nota": "A hunt clássica do Paladin nessa faixa.",
+       "exp": 700,
+       "hp": 1000,
+       "img": "img/monstros/dragon.gif"
+      },
+      {
+       "m": "Ancient Scarab",
+       "onde": "Tumbas de Ankrahmun",
+       "lv": "40+",
+       "nota": "Boa XP, leve Cure Poison.",
+       "exp": 720,
+       "hp": 1000,
+       "img": "img/monstros/ancient-scarab.gif"
+      },
+      {
+       "m": "Wyvern",
+       "onde": "Wyvern Mountain (Edron)",
+       "lv": "40+",
+       "nota": "Kite e use Divine Caldera no 50.",
+       "exp": 515,
+       "hp": 795,
+       "img": "img/monstros/wyvern.gif"
+      }
+     ],
      "magias": [
       {
        "n": "Divine Healing",
@@ -1562,17 +1713,45 @@
         "Ethan",
         "Hawkyr"
        ],
-       "ess": false,
+       "ess": true,
        "g": "support"
       }
      ]
     },
     {
      "faixa": "60–100",
-     "objetivo": null,
+     "objetivo": "No 80: Warsinger Bow (e Yalahari Leg Piece se você kita mais).",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Upe a proficiência do arco (perks de autoataque). Distance 70+.",
+     "hunts": [
+      {
+       "m": "Hero",
+       "onde": "Hero Cave (Edron)",
+       "lv": "60+",
+       "nota": "Ótima XP e dropa o Bow.",
+       "exp": 1200,
+       "hp": 1400,
+       "img": "img/monstros/hero.gif"
+      },
+      {
+       "m": "Mutated Tiger",
+       "onde": "Alchemist Quarter (Yalahar)",
+       "lv": "60+",
+       "nota": "Junte e use Divine Caldera.",
+       "exp": 750,
+       "hp": 1100,
+       "img": "img/monstros/mutated-tiger.gif"
+      },
+      {
+       "m": "Werewolf",
+       "onde": "Grimvale e Darashia",
+       "lv": "80+",
+       "nota": "Muita XP. Precisa do acesso de Grimvale.",
+       "exp": 1900,
+       "hp": 1955,
+       "img": "img/monstros/werewolf.gif"
+      }
+     ],
      "magias": [
       {
        "n": "Salvation",
@@ -1597,7 +1776,7 @@
        "npc": [
         "Zoltan"
        ],
-       "ess": false,
+       "ess": true,
        "g": "support"
       },
       {
@@ -1625,7 +1804,7 @@
         "Ethan",
         "Hawkyr"
        ],
-       "ess": true,
+       "ess": false,
        "g": "healing"
       },
       {
@@ -1646,10 +1825,47 @@
     },
     {
      "faixa": "100–150",
-     "objetivo": null,
+     "objetivo": "Mycological Bow no 105, Prismatic Armor no 120 e Guardian Boots.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "A partir daqui você caça mais em área: priorize proteção física.",
+     "hunts": [
+      {
+       "m": "Glooth Bandit",
+       "onde": "Glooth Factory (Oramond)",
+       "lv": "100+",
+       "nota": "Feche box com o Mycological Bow.",
+       "exp": 2000,
+       "hp": 2600,
+       "img": "img/monstros/glooth-bandit.gif"
+      },
+      {
+       "m": "Lizard Chosen",
+       "onde": "Temple of Equilibrium (Zao)",
+       "lv": "100+",
+       "nota": "Dropa itens Zaoan.",
+       "exp": 2200,
+       "hp": 3050,
+       "img": "img/monstros/lizard-chosen.gif"
+      },
+      {
+       "m": "Frost Dragon",
+       "onde": "Okolnir (Svargrond)",
+       "lv": "110+",
+       "nota": "Use proteção de gelo.",
+       "exp": 2100,
+       "hp": 1800,
+       "img": "img/monstros/frost-dragon.gif"
+      },
+      {
+       "m": "Hydra",
+       "onde": "Talahu e Forbidden Lands",
+       "lv": "120+",
+       "nota": "Box grande com Divine Caldera.",
+       "exp": 2100,
+       "hp": 2350,
+       "img": "img/monstros/hydra.gif"
+      }
+     ],
      "magias": [
       {
        "n": "Intense Recovery",
@@ -1669,10 +1885,38 @@
     },
     {
      "faixa": "150–200",
-     "objetivo": null,
+     "objetivo": "Prismatic Legs no 150 e Sleep Shawl no 180.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Se for colocar tier antes do 400, só na Prismatic Legs e na Guardian Boots.",
+     "hunts": [
+      {
+       "m": "Werehyaena",
+       "onde": "Grimvale (andares de baixo)",
+       "lv": "150+",
+       "nota": "Bate morte: leve proteção de morte.",
+       "exp": 2200,
+       "hp": 2700,
+       "img": "img/monstros/werehyaena.gif"
+      },
+      {
+       "m": "Dawnfire Asura",
+       "onde": "Asura Palace",
+       "lv": "170+",
+       "nota": "Bate morte. Muito boa XP.",
+       "exp": 4100,
+       "hp": 2900,
+       "img": "img/monstros/dawnfire-asura.gif"
+      },
+      {
+       "m": "Ghastly Dragon",
+       "onde": "Razachai (Zao)",
+       "lv": "150+",
+       "nota": "Dropa Guardian Boots.",
+       "exp": 4600,
+       "hp": 7800,
+       "img": "img/monstros/ghastly-dragon.gif"
+      }
+     ],
      "magias": [
       {
        "n": "Conjure Royal Star",
@@ -1688,10 +1932,47 @@
     },
     {
      "faixa": "200–300",
-     "objetivo": null,
+     "objetivo": "Bow of Destruction e, no 230, Lion Spangenhelm, Ghost Chestplate, Fabulous Legs e Winged Boots.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Upe a proficiência do Bow of Destruction e também a do Bow of Cataclysm para hunts de morte.",
+     "hunts": [
+      {
+       "m": "Medusa",
+       "onde": "Medusa Tower e Banuta",
+       "lv": "200+",
+       "nota": "Bate terra: hora de usar o Sleep Shawl.",
+       "exp": 4050,
+       "hp": 4500,
+       "img": "img/monstros/medusa.gif"
+      },
+      {
+       "m": "Werelion",
+       "onde": "Grimvale e Darashia",
+       "lv": "200+",
+       "nota": "Muito loot.",
+       "exp": 2200,
+       "hp": 2800,
+       "img": "img/monstros/werelion.gif"
+      },
+      {
+       "m": "Frazzlemaw",
+       "onde": "Roshamuul",
+       "lv": "220+",
+       "nota": "Junto com Silencers. Use proteção de morte.",
+       "exp": 3740,
+       "hp": 4100,
+       "img": "img/monstros/frazzlemaw.gif"
+      },
+      {
+       "m": "Dawnfire Asura",
+       "onde": "Asura Palace",
+       "lv": "230+",
+       "nota": "Com o Bow of Cataclysm rende ainda mais.",
+       "exp": 4100,
+       "hp": 2900,
+       "img": "img/monstros/dawnfire-asura.gif"
+      }
+     ],
      "magias": [
       {
        "n": "Summon Paladin Familiar",
@@ -1714,17 +1995,45 @@
        "p": null,
        "prem": true,
        "npc": [],
-       "ess": false,
+       "ess": true,
        "g": "support"
       }
      ]
     },
     {
      "faixa": "300–400",
-     "objetivo": null,
+     "objetivo": "Falcon Greaves e Falcon Coif. Arco: Rending Inferniarch (meta) ou Falcon Bow (mais barato).",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Teste as duas estâncias (Sharpshooter e a defensiva de Holy). Faça charms e o Wheel.",
+     "hunts": [
+      {
+       "m": "Falcon Knight",
+       "onde": "Falcon Bastion (Edron)",
+       "lv": "300+",
+       "nota": "Dropa o set Falcon e o Falcon Bow.",
+       "exp": 6300,
+       "hp": 9000,
+       "img": "img/monstros/falcon-knight.gif"
+      },
+      {
+       "m": "Cobra Assassin",
+       "onde": "Cobra Bastion",
+       "lv": "300+",
+       "nota": "Requer a quest The Order of the Cobra.",
+       "exp": 6980,
+       "hp": 8200,
+       "img": "img/monstros/cobra-assassin.gif"
+      },
+      {
+       "m": "Hellflayer",
+       "onde": "Ferumbras' Citadel",
+       "lv": "350+",
+       "nota": "Dano alto de fogo: Falcon Coif ajuda.",
+       "exp": 11720,
+       "hp": 14000,
+       "img": "img/monstros/hellflayer.gif"
+      }
+     ],
      "magias": [
       {
        "n": "Avatar of Light",
@@ -1733,7 +2042,7 @@
        "p": null,
        "prem": true,
        "npc": [],
-       "ess": false,
+       "ess": true,
        "g": "support"
       },
       {
@@ -1743,7 +2052,7 @@
        "p": null,
        "prem": true,
        "npc": [],
-       "ess": false,
+       "ess": true,
        "g": "support"
       },
       {
@@ -1753,25 +2062,81 @@
        "p": null,
        "prem": true,
        "npc": [],
-       "ess": false,
+       "ess": true,
        "g": "attack"
       }
      ]
     },
     {
      "faixa": "400–500",
-     "objetivo": null,
+     "objetivo": "BiS na ordem: Soulbleeder, Alicorn Headguard, Soulstalkers, Alicorn Quiver, Alicorn Ring e Soulshell.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Tier começa a valer agora, junto com o BiS. Exercise weapons todo dia.",
+     "hunts": [
+      {
+       "m": "Bony Sea Devil",
+       "onde": "Soul War (Ebb and Flow)",
+       "lv": "400+",
+       "nota": "Começo do Soul War.",
+       "exp": 19470,
+       "hp": 24000,
+       "img": "img/monstros/bony-sea-devil.gif"
+      },
+      {
+       "m": "Cloak of Terror",
+       "onde": "Soul War",
+       "lv": "400+",
+       "nota": "Muito dano de morte.",
+       "exp": 19700,
+       "hp": 28000,
+       "img": "img/monstros/cloak-of-terror.gif"
+      },
+      {
+       "m": "Brachiodemon",
+       "onde": "Soul War (áreas do inferno)",
+       "lv": "450+",
+       "nota": "Junto com Infernal Demons.",
+       "exp": 15770,
+       "hp": 25000,
+       "img": "img/monstros/brachiodemon.gif"
+      }
+     ],
      "magias": []
     },
     {
      "faixa": "500–600",
-     "objetivo": null,
+     "objetivo": "Sanguine Greaves no 500 e Sanguine Bow no 600.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Personalize as perks do arco e foque em tier nos itens principais.",
+     "hunts": [
+      {
+       "m": "Bloated Man-Maggot",
+       "onde": "Rotten Blood",
+       "lv": "500+",
+       "nota": "O loot ajuda a pagar o Sanguine.",
+       "exp": 21570,
+       "hp": 31700,
+       "img": null
+      },
+      {
+       "m": "Mycobiontic Beetle",
+       "onde": "Rotten Blood (Jaded Roots)",
+       "lv": "500+",
+       "nota": "Hunt forte para Paladin com o BiS.",
+       "exp": 21175,
+       "hp": 30200,
+       "img": null
+      },
+      {
+       "m": "Oozing Corpus",
+       "onde": "Rotten Blood",
+       "lv": "550+",
+       "nota": "Use proteção de morte e terra.",
+       "exp": 20600,
+       "hp": 28700,
+       "img": null
+      }
+     ],
      "magias": []
     }
    ]

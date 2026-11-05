@@ -63,7 +63,8 @@
     }).join("");
     const npc = it.shop.length ? `<div class="line"><b>NPC:</b> ${it.shop.map(s => `${esc(s.n)} (${num(s.p)} gp)`).join(", ")}</div>` : "";
     const quest = it.quest ? `<div class="line"><b>Recompensa:</b> ${esc(it.quest)}</div>` : "";
-    const onlyNpc = !it.src.length && it.shop.length ? `<p class="tip">Não dropa em monstro acessível: compre no NPC.</p>` : "";
+    const onlyNpc = !it.src.length && it.shop.length ? `<p class="tip">Não dropa em monstro acessível: compre no NPC.</p>` :
+      !it.src.length && !it.quest && !(it.tip || "").includes("market") ? `<div class="line"><b>Market:</b> não dropa de monstro comum.</div>` : "";
     return `<article class="card">
       <div class="head">${slot(it.img)}<div class="head-txt">
         <span class="meta">${esc(it.slot)}</span>
@@ -89,7 +90,7 @@
     if (voc.id === "knight" && st.weapon !== "todas")
       items = items.filter(i => !/^Arma( |$)/.test(i.slot) || i.slot.includes(st.weapon));
     const ord = ["Arma", "Armadura", "Capacete", "Pernas", "Botas", "Colar", "Amuleto", "Anel", "Escudo"];
-    const rank = sl => { const i = ord.findIndex(o => sl === o || sl.startsWith(o + " ")); return i < 0 ? 5 : i; };
+    const rank = sl => { const i = ord.findIndex(o => sl === o || sl.startsWith(o + " ")); return (i < 0 ? 5 : i) + (/alternativa|situacional/.test(sl) ? 20 : 0); };
     return [...items].sort((x, y) => rank(x.slot) - rank(y.slot));
   }
 
@@ -122,6 +123,7 @@
         <div class="rbox"><span class="how-t">Skills</span><p>${esc(r.skills)}</p></div>
         <div class="rbox"><span class="how-t">Imbuements</span><ul>${r.imbuements.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
         <div class="rbox"><span class="how-t">RTC (auto-uso)</span><p>${esc(r.rtc)}</p></div>
+        ${r.tier ? `<div class="rbox"><span class="how-t">Tier</span><p>${esc(r.tier)}</p></div>` : ""}
       </div>
       <div class="linha-wrap"><span class="how-t">Ordem de compra resumida</span>
         ${r.linhaHtml || linhaList(r.linha)}</div>

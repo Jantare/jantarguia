@@ -7,6 +7,7 @@
   const rlabel = c => c >= 5 ? "comum" : c >= 1 ? "incomum" : "raro";
   const pct = c => c.toFixed(2).replace(".", ",") + "%";
   const img = (src, cls) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+  const ytq = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
   const st = { view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
@@ -59,7 +60,7 @@
     const srcs = it.src.map(s => {
       const m = BASE.monstros[s.m];
       return `<div class="src">${img(m.img, "mon-ico") || "<span></span>"}<span class="m">${esc(s.m)}</span><span class="c"><span class="dot ${rarity(s.c)}" title="${rlabel(s.c)}"></span>${pct(s.c)}</span>` +
-        `<span class="w">${m.boss ? `<span class="boss-tag">boss</span> ${m.loc ? esc(m.loc) : "veja na TibiaWiki"}` : `caça a partir do lvl ${esc(m.lvl)} · ${m.loc ? esc(m.loc) : "local no Hunt Finder"}`}</span></div>`;
+        `<span class="w">${m.boss ? `<span class="boss-tag">boss</span> ${m.loc ? esc(m.loc) : "veja na TibiaWiki"} · <a class="yt-mini" href="${ytq("tibia boss " + s.m)}" target="_blank" rel="noopener">vídeo do boss</a>` : `caça a partir do lvl ${esc(m.lvl)} · ${m.loc ? esc(m.loc) : "local no Hunt Finder"}`}</span></div>`;
     }).join("");
     const npc = it.shop.length ? `<div class="line"><b>NPC:</b> ${it.shop.map(s => `${esc(s.n)} (${num(s.p)} gp)`).join(", ")}</div>` : "";
     const quest = it.quest ? `<div class="line"><b>Recompensa:</b> ${esc(it.quest)}</div>` : "";
@@ -218,6 +219,7 @@
           <div class="q-head"><span class="name">${esc(q.nome)}</span><span class="req">lvl ${esc(q.lvl)}</span></div>
           <div class="path-tags">${q.tags.map(t => `<span class="pill">${esc(t)}</span>`).join("")}</div>
           <p class="q-txt">${esc(q.txt)}</p>
+          <a class="hrow-yt" href="${ytq("tibia " + q.nome + " quest guia")}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos da quest</a>
           ${q.limite ? `<div class="q-warn">${esc(q.limite)}</div>` : ""}
           ${q.det ? `<details class="q-det"><summary>Ver detalhes da quest</summary><dl>
             <div><dt>Level mínimo</dt><dd>${esc(q.det.min)}</dd></div>

@@ -551,7 +551,7 @@
       },
       {
        "m": "Wyvern",
-       "onde": "Wyvern Mountain (Edron) e Ankrahmun",
+       "onde": "Folda e Vega (Carlin), Ferngrims Gate e Drillworm Caves",
        "lv": "40+",
        "nota": "Leve antídoto ou Cure Poison.",
        "exp": 515,
@@ -561,7 +561,7 @@
       },
       {
        "m": "Bonebeast",
-       "onde": "Drefia (Darashia)",
+       "onde": "Tumbas de Ankrahmun e Lion's Rock",
        "lv": "45+",
        "nota": "Junta em box com Exori.",
        "exp": 580,
@@ -677,7 +677,7 @@
       },
       {
        "m": "Lizard Legionnaire",
-       "onde": "Lizard City (Zao)",
+       "onde": "Zzaion e Zao Palace",
        "lv": "70+",
        "nota": "Dropa itens Zaoan.",
        "exp": 1100,
@@ -687,9 +687,9 @@
       },
       {
        "m": "Werewolf",
-       "onde": "Grimvale e Darashia",
+       "onde": "Grimvale, Vengoth e Edron (Lycanthropes Cave)",
        "lv": "80+",
-       "nota": "Ótima XP. Precisa do acesso de Grimvale.",
+       "nota": "Ótima XP.",
        "exp": 1900,
        "hp": 1955,
        "img": "img/monstros/werewolf.gif",
@@ -775,7 +775,7 @@
       },
       {
        "m": "Glooth Bandit",
-       "onde": "Glooth Factory (Oramond)",
+       "onde": "Underground Glooth Factory (Oramond)",
        "lv": "100+",
        "nota": "Também dropa a Beastslayer Axe (machado).",
        "exp": 2000,
@@ -851,7 +851,7 @@
      "hunts": [
       {
        "m": "Werehyaena",
-       "onde": "Grimvale (andares de baixo)",
+       "onde": "Hyaena Lairs e Darashia Wyrm Hills (à noite)",
        "lv": "150+",
        "nota": "Com arma de fogo (Phantasmal Axe) rende muito.",
        "exp": 2200,
@@ -923,7 +923,7 @@
       },
       {
        "m": "Werelion",
-       "onde": "Grimvale e Darashia",
+       "onde": "Lion Sanctum (Bounac)",
        "lv": "200+",
        "nota": "Muito loot. Leve a arma de gelo (Cobra).",
        "exp": 2200,
@@ -943,7 +943,7 @@
       },
       {
        "m": "Venerable Girtablilu",
-       "onde": "Kilmaresh (Issavi)",
+       "onde": "Ruins of Nuur (Kilmaresh)",
        "lv": "250+",
        "nota": "XP alta, dano físico e de terra.",
        "exp": 5300,
@@ -1005,7 +1005,7 @@
       },
       {
        "m": "Hellflayer",
-       "onde": "Ferumbras' Citadel",
+       "onde": "Grounds of Destruction (áreas do Ferumbras' Ascension)",
        "lv": "350+",
        "nota": "Dano alto: use a Dauntless e proteção de fogo.",
        "exp": 11720,
@@ -1087,7 +1087,7 @@
       },
       {
        "m": "Cloak of Terror",
-       "onde": "Soul War",
+       "onde": "Soul War (Furious Crater)",
        "lv": "400+",
        "nota": "Muito dano de morte.",
        "exp": 19700,
@@ -1097,7 +1097,7 @@
       },
       {
        "m": "Brachiodemon",
-       "onde": "Soul War (áreas do inferno)",
+       "onde": "Soul War (Claustrophobic Inferno)",
        "lv": "450+",
        "nota": "Junto com Infernal Demons. Vá em time no começo.",
        "exp": 15770,
@@ -1124,7 +1124,7 @@
      "hunts": [
       {
        "m": "Bloated Man-Maggot",
-       "onde": "Rotten Blood",
+       "onde": "Rotten Blood (Jaded Roots)",
        "lv": "500+",
        "nota": "Áreas do Rotten Blood: o loot paga o Sanguine.",
        "exp": 21570,
@@ -1144,7 +1144,7 @@
       },
       {
        "m": "Oozing Corpus",
-       "onde": "Rotten Blood",
+       "onde": "Rotten Blood (Jaded Roots)",
        "lv": "550+",
        "nota": "Use proteção de morte e terra.",
        "exp": 20600,
@@ -1666,7 +1666,7 @@
       },
       {
        "m": "Wyvern",
-       "onde": "Wyvern Mountain (Edron)",
+       "onde": "Folda e Vega (Carlin), Ferngrims Gate e Drillworm Caves",
        "lv": "40+",
        "nota": "Kite e use Divine Caldera no 50.",
        "exp": 515,
@@ -1790,9 +1790,9 @@
       },
       {
        "m": "Werewolf",
-       "onde": "Grimvale e Darashia",
+       "onde": "Grimvale, Vengoth e Edron (Lycanthropes Cave)",
        "lv": "80+",
-       "nota": "Muita XP. Precisa do acesso de Grimvale.",
+       "nota": "Muita XP.",
        "exp": 1900,
        "hp": 1955,
        "img": "img/monstros/werewolf.gif",
@@ -1878,7 +1878,7 @@
      "hunts": [
       {
        "m": "Glooth Bandit",
-       "onde": "Glooth Factory (Oramond)",
+       "onde": "Underground Glooth Factory (Oramond)",
        "lv": "100+",
        "nota": "Feche box com o Mycological Bow.",
        "exp": 2000,
@@ -1908,7 +1908,7 @@
       },
       {
        "m": "Hydra",
-       "onde": "Talahu e Forbidden Lands",
+       "onde": "Hydra Mountain (Tiquanda), Forbidden Lands e Deeper Banuta",
        "lv": "120+",
        "nota": "Box grande com Divine Caldera.",
        "exp": 2100,
@@ -1942,7 +1942,7 @@
      "hunts": [
       {
        "m": "Werehyaena",
-       "onde": "Grimvale (andares de baixo)",
+       "onde": "Hyaena Lairs e Darashia Wyrm Hills (à noite)",
        "lv": "150+",
        "nota": "Bate morte: leve proteção de morte.",
        "exp": 2200,
@@ -2022,7 +2022,7 @@
       },
       {
        "m": "Burster Spectre",
-       "onde": "Hunt de Burster Spectres",
+       "onde": "Haunted Tomb (oeste de Darashia)",
        "lv": "220+",
        "nota": "Bate gelo: use a Embrace of Nature.",
        "exp": 6000,
@@ -2052,7 +2052,7 @@
       },
       {
        "m": "Werehyaena",
-       "onde": "Grimvale",
+       "onde": "Hyaena Lairs e Darashia Wyrm Hills (à noite)",
        "lv": "230+",
        "nota": "Bate morte: Bow of Cataclysm.",
        "exp": 2200,
@@ -2096,7 +2096,7 @@
      "hunts": [
       {
        "m": "Bashmu",
-       "onde": "Kilmaresh (Bashmu)",
+       "onde": "Salt Caves (Kilmaresh)",
        "lv": "300+",
        "nota": "Bate energia: com a Gnome Armor você economiza imbuement.",
        "exp": 5000,
@@ -2126,7 +2126,7 @@
       },
       {
        "m": "Hellflayer",
-       "onde": "Ferumbras' Citadel",
+       "onde": "Grounds of Destruction (áreas do Ferumbras' Ascension)",
        "lv": "350+",
        "nota": "Dano alto de fogo: Falcon Coif ajuda.",
        "exp": 11720,
@@ -2186,7 +2186,7 @@
       },
       {
        "m": "Cloak of Terror",
-       "onde": "Soul War",
+       "onde": "Soul War (Furious Crater)",
        "lv": "400+",
        "nota": "Muito dano de morte.",
        "exp": 19700,
@@ -2196,7 +2196,7 @@
       },
       {
        "m": "Brachiodemon",
-       "onde": "Soul War (áreas do inferno)",
+       "onde": "Soul War (Claustrophobic Inferno)",
        "lv": "450+",
        "nota": "Junto com Infernal Demons.",
        "exp": 15770,
@@ -2215,7 +2215,7 @@
      "hunts": [
       {
        "m": "Bloated Man-Maggot",
-       "onde": "Rotten Blood",
+       "onde": "Rotten Blood (Jaded Roots)",
        "lv": "500+",
        "nota": "O loot ajuda a pagar o Sanguine.",
        "exp": 21570,
@@ -2235,7 +2235,7 @@
       },
       {
        "m": "Oozing Corpus",
-       "onde": "Rotten Blood",
+       "onde": "Rotten Blood (Jaded Roots)",
        "lv": "550+",
        "nota": "Use proteção de morte e terra.",
        "exp": 20600,
@@ -3274,7 +3274,7 @@
      "hunts": [
       {
        "m": "Glooth Bandit",
-       "onde": "Glooth Factory (Oramond)",
+       "onde": "Underground Glooth Factory (Oramond)",
        "lv": "100+",
        "nota": "Box com GFB.",
        "exp": 2000,
@@ -3316,7 +3316,7 @@
      "hunts": [
       {
        "m": "War Golem",
-       "onde": "Invasão de War Golems (Oramond)",
+       "onde": "Factory Quarter (Yalahar)",
        "lv": "150+",
        "nota": "Do vídeo: se pegar vazia, faz XP e uns 2kk/h de profit.",
        "exp": 2310,
@@ -3335,13 +3335,13 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20minotaur%20oramond%20hunt"
       },
       {
-       "m": "Quara Mantassin",
-       "onde": "Quaras a oeste de Oramond",
+       "m": "Quara Predator",
+       "onde": "Seacrest Grounds (perto de Oramond)",
        "lv": "180+",
        "nota": "Do vídeo: alternativa com muito bestiary.",
-       "exp": 600,
-       "hp": 800,
-       "img": "img/monstros/quara-mantassin.gif",
+       "exp": 1850,
+       "hp": 2200,
+       "img": "img/monstros/quara-predator.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20quara%20oramond%20hunt"
       }
      ],
@@ -3355,7 +3355,7 @@
      "hunts": [
       {
        "m": "Elder Wyrm",
-       "onde": "Elder Wyrms",
+       "onde": "Drefia Wyrm Lair, Vandura e Warzone 4",
        "lv": "200+",
        "nota": "Do vídeo: boa para todas as vocações, 3kk/h no 200 e pouco.",
        "exp": 2500,
@@ -3477,7 +3477,7 @@
       },
       {
        "m": "White Weretiger",
-       "onde": "White Weretigers",
+       "onde": "Oskayaat (Marapur)",
        "lv": "330+",
        "nota": "Do vídeo: confortável, 4kk/h, pouco profit.",
        "exp": 5200,
@@ -3541,7 +3541,7 @@
      "hunts": [
       {
        "m": "Naga Warrior",
-       "onde": "Nagas (Marapur)",
+       "onde": "Temple of the Moon Goddess (Marapur)",
        "lv": "400+",
        "nota": "Do vídeo (Miguelnutt): sem acesso, 4,5 a 4,8kk/h com Thunderstorm.",
        "exp": 5890,
@@ -3560,13 +3560,13 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cobra%20bastion%20hunt"
       },
       {
-       "m": "Cursed Book",
+       "m": null,
        "onde": "Biblioteca de Edron (-4)",
        "lv": "400+",
        "nota": "Do vídeo: mais de 5kk/h. Precisa do acesso (Between the Lines).",
-       "exp": 13345,
-       "hp": 20000,
-       "img": "img/monstros/cursed-book.gif",
+       "exp": null,
+       "hp": null,
+       "img": null,
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20edron%20library%20book%20hunt"
       },
       {
@@ -4659,7 +4659,7 @@
       },
       {
        "m": "Wyvern",
-       "onde": "Wyvern Mountain (Edron)",
+       "onde": "Folda e Vega (Carlin), Ferngrims Gate e Drillworm Caves",
        "lv": "70+",
        "nota": "Gelo bate bem.",
        "exp": 515,
@@ -4782,7 +4782,7 @@
      "hunts": [
       {
        "m": "Gazer Spectre",
-       "onde": "Hunt de Gazer Spectres",
+       "onde": "Haunted Temple",
        "lv": "200+",
        "nota": "Do vídeo: hunt pequena e disputada, mas muito boa (3kk/h de XP).",
        "exp": 4200,
@@ -4802,7 +4802,7 @@
       },
       {
        "m": "Wyrm",
-       "onde": "Wyrms e Elder Wyrms",
+       "onde": "Drefia Wyrm Lair e Vandura",
        "lv": "260+",
        "nota": "Do vídeo: hunt excelente para Druid. Fork de gelo principal, avalanche para 10+ monstros, depois a fork de terra.",
        "exp": 1550,
@@ -4812,7 +4812,7 @@
       },
       {
        "m": "Burster Spectre",
-       "onde": "Hunt de Burster Spectres",
+       "onde": "Haunted Tomb (oeste de Darashia)",
        "lv": "300+",
        "nota": "Do vídeo: dano alto e XP fraca. Só para bestiary ou bounty. Use summon para segurar dano.",
        "exp": 6000,
@@ -4856,7 +4856,7 @@
       },
       {
        "m": "Naga Warrior",
-       "onde": "Nagas (Marapur)",
+       "onde": "Temple of the Moon Goddess (Marapur)",
        "lv": "400+",
        "nota": "Do vídeo: 5kk/h de XP, mas muito pesada. Só a partir do 400.",
        "exp": 5890,
@@ -4944,7 +4944,7 @@
       },
       {
        "m": "Cloak of Terror",
-       "onde": "Soul War",
+       "onde": "Soul War (Furious Crater)",
        "lv": "400+",
        "nota": "Muito dano de morte.",
        "exp": 19700,
@@ -4963,7 +4963,7 @@
      "hunts": [
       {
        "m": "Bloated Man-Maggot",
-       "onde": "Rotten Blood",
+       "onde": "Rotten Blood (Jaded Roots)",
        "lv": "500+",
        "nota": "Áreas do Rotten Blood.",
        "exp": 21570,
@@ -4973,7 +4973,7 @@
       },
       {
        "m": "Oozing Corpus",
-       "onde": "Rotten Blood",
+       "onde": "Rotten Blood (Jaded Roots)",
        "lv": "550+",
        "nota": "Use proteção de morte e terra.",
        "exp": 20600,
@@ -5306,7 +5306,7 @@
      "hunts": [
       {
        "m": "Stone Golem",
-       "onde": "Stone Golems",
+       "onde": "Maze of Lost Souls e Ashta'daramai",
        "lv": "20+",
        "nota": "Do vídeo: dá bastante ponto de task, mas a cave tem pouco respawn.",
        "exp": 160,
@@ -5316,7 +5316,7 @@
       },
       {
        "m": "Thornback Tortoise",
-       "onde": "Thornback Tortoises",
+       "onde": "Laguna Islands e Meriana",
        "lv": "25+",
        "nota": "Do vídeo: boa XP e as tasks andam mais rápido.",
        "exp": 150,
@@ -5446,7 +5446,7 @@
      "hunts": [
       {
        "m": "Thornback Tortoise",
-       "onde": "Thornback Tortoises",
+       "onde": "Laguna Islands e Meriana",
        "lv": "35+",
        "nota": "Do vídeo: continue aqui até ter a corrente (lvl 70).",
        "exp": 150,
@@ -5501,18 +5501,18 @@
      "treino": "No 70 entra a corrente (dano em área) e no 90 a rotação completa. Use a virtude de Harmonia para fazer XP e a de Sustain para segurar dano.",
      "hunts": [
       {
-       "m": "Lion",
+       "m": null,
        "onde": "Lion's Rock",
        "lv": "70+",
        "nota": "Do vídeo: no 70, com a corrente, a XP dispara. Precisa do acesso de Lion's Rock.",
-       "exp": 30,
-       "hp": 80,
-       "img": "img/monstros/lion.gif",
+       "exp": null,
+       "hp": null,
+       "img": null,
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lions%20rock%20hunt"
       },
       {
        "m": "Quara Predator",
-       "onde": "Quaras de Yalahar",
+       "onde": "Sunken Quarter (Yalahar)",
        "lv": "80+",
        "nota": "Do vídeo: com arma de energia, é a melhor até o 90. Use Werewolf Amulet e Dwarven Legs (o dano físico é alto).",
        "exp": 1850,
@@ -5522,7 +5522,7 @@
       },
       {
        "m": "Cult Believer",
-       "onde": "Cultos de Carlin",
+       "onde": "Forbidden Temple (Carlin)",
        "lv": "90+",
        "nota": "Do vídeo: a melhor hunt para Monk até o 100. As boxes fecham fácil de costas para a parede.",
        "exp": 850,
@@ -5590,7 +5590,7 @@
      "hunts": [
       {
        "m": "Cult Enforcer",
-       "onde": "Cultos de Carlin (andares de baixo)",
+       "onde": "Forbidden Temple (Carlin), andares de baixo",
        "lv": "100+",
        "nota": "Desça os andares conforme fica mais forte.",
        "exp": 1000,
@@ -5642,7 +5642,7 @@
      "hunts": [
       {
        "m": "Barkless Devotee",
-       "onde": "Barkless",
+       "onde": "Barkless Cult (embaixo de Ab'Dendriel)",
        "lv": "180+",
        "nota": "Do vídeo: só XP, quase sem profit. Use arma física (Destruction).",
        "exp": 2200,
@@ -5790,7 +5790,7 @@
      "hunts": [
       {
        "m": "White Weretiger",
-       "onde": "White Weretigers",
+       "onde": "Oskayaat (Marapur)",
        "lv": "300+",
        "nota": "Do vídeo: boa com a Cobra Bo, melhor ainda na lua cheia.",
        "exp": 5200,
@@ -5810,7 +5810,7 @@
       },
       {
        "m": "Pirate Corsair",
-       "onde": "Piratas (no barco)",
+       "onde": "Nargor (no barco)",
        "lv": "250+",
        "nota": "Do vídeo: no barco ela fica boa. Vá logo que pegar a Cobra Bo.",
        "exp": 350,
@@ -5820,7 +5820,7 @@
       },
       {
        "m": "Burster Spectre",
-       "onde": "Burster e Gazer Spectres",
+       "onde": "Haunted Tomb (Darashia) e Haunted Temple",
        "lv": "300+",
        "nota": "Do vídeo: OK entre o 300 e o 400. Antes disso é pesado demais.",
        "exp": 6000,
@@ -5879,13 +5879,13 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%203%20hunt"
       },
       {
-       "m": "Cursed Book",
-       "onde": "Biblioteca",
+       "m": null,
+       "onde": "Biblioteca (Secret Library)",
        "lv": "400+",
        "nota": "Do vídeo: boa e perto do depot.",
-       "exp": 13345,
-       "hp": 20000,
-       "img": "img/monstros/cursed-book.gif",
+       "exp": null,
+       "hp": null,
+       "img": null,
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20library%20hunt"
       },
       {

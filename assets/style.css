@@ -249,3 +249,7 @@ a.name:hover{color:var(--gold)}
 .hrow-yt{display:inline-flex;align-items:center;gap:5px;align-self:flex-start;margin-top:4px;font-size:.84rem;font-weight:600;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:2px 10px 2px 7px}
 .hrow-yt svg{width:14px;height:14px;color:#e5483b}
 .hrow-yt:hover{border-color:var(--gold-2);color:var(--gold)}
+.yt-mini{color:var(--gold);font-weight:600;text-decoration:none;white-space:nowrap}
+.yt-mini::before{content:"▶ ";color:#e5483b;font-size:.8em}
+.yt-mini:hover{text-decoration:underline}
+.quest .hrow-yt{margin-top:0}

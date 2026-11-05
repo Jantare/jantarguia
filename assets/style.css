@@ -333,3 +333,4 @@ a.name:hover{color:var(--gold)}
 .promo-btn{display:flex;align-items:center;justify-content:center;background:var(--gold);color:#1a1712;font-weight:700;font-size:1.05rem;text-decoration:none;border-radius:10px;padding:10px 20px}
 .promo-btn:hover{filter:brightness(1.08)}
 @media (max-width:640px){.promo-act,.promo-code,.promo-btn{width:100%}.promo.big h2{font-size:1.3rem}}
+.promo-bonus{color:var(--gold)}

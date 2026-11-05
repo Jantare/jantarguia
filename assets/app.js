@@ -326,10 +326,24 @@
       <p class="foot-note">Fonte: ${esc(LOOK.fonte)}.</p>`;
   }
 
+  function promoBox(big) {
+    if (!SITE.codigo_streamer) return "";
+    return `<section class="promo${big ? " big" : ""}">
+      <div class="promo-txt"><span class="path-kicker">Parceiro: ${esc(SITE.servidor_parceiro)}</span>
+        <h2>Jogue no ${esc(SITE.servidor_parceiro)} com o cupom do ${esc(SITE.criador)}</h2>
+        <p>Use o cupom na hora de criar a conta e apoie o canal.</p></div>
+      <div class="promo-act">
+        <button class="promo-code" type="button" data-copy="${esc(SITE.codigo_streamer)}" title="Copiar cupom"><span>Cupom</span><b>${esc(SITE.codigo_streamer)}</b><span class="copy-lbl">Copiar</span></button>
+        ${SITE.link_cadastro ? `<a class="promo-btn" href="${esc(SITE.link_cadastro)}" target="_blank" rel="noopener">Criar conta no ${esc(SITE.servidor_parceiro)} →</a>` : ""}
+      </div>
+    </section>`;
+  }
+
   function serverView(s) {
     return `<div class="page-h"><h1>${esc(s.nome)}</h1>
       <p class="intro">${esc(s.resumo)}</p></div>
       <div class="notice"><span><b>${esc(s.status)}</b></span><span>Site oficial: <a href="${esc(s.site)}" target="_blank" rel="noopener">${esc(s.site.replace(/^https?:\/\//, ""))}</a></span></div>
+      ${s.nome === SITE.servidor_parceiro ? promoBox(false) : ""}
       <h2>Sistemas próprios</h2>
       <div class="sys">${s.sistemas.map(x => `<article class="card"><span class="name">${esc(x.nome)}</span><p class="tip">${esc(x.texto)}</p></article>`).join("")}</div>`;
   }
@@ -353,6 +367,7 @@
         </div>
         <div class="stats">${stats}</div>
       </section>
+      ${promoBox(true)}
       <section class="home-block">
         <h2 class="block-h">Por onde começar</h2>
         <div class="paths">
@@ -395,7 +410,9 @@
   function footer() {
     const parts = [`Feito por <b>${esc(SITE.criador)}</b>.`];
     if (SITE.canal) parts.push(`<a href="${esc(SITE.canal)}" target="_blank" rel="noopener">Canal do ${esc(SITE.criador)}</a>`);
-    if (SITE.codigo_streamer) parts.push(`Código de streamer: <b>${esc(SITE.codigo_streamer)}</b>`);
+    if (SITE.codigo_streamer) parts.push(`Cupom ${esc(SITE.servidor_parceiro)}: <b>${esc(SITE.codigo_streamer)}</b>${SITE.link_cadastro ? ` (<a href="${esc(SITE.link_cadastro)}" target="_blank" rel="noopener">criar conta</a>)` : ""}`);
+    const tb = $("#topcupom");
+    if (tb && SITE.codigo_streamer) { tb.hidden = false; tb.innerHTML = `<div class="wrap"><span>Jogue no <b>${esc(SITE.servidor_parceiro)}</b> com o cupom <button class="tb-code" type="button" data-copy="${esc(SITE.codigo_streamer)}">${esc(SITE.codigo_streamer)}</button></span>${SITE.link_cadastro ? `<a href="${esc(SITE.link_cadastro)}" target="_blank" rel="noopener">Criar conta →</a>` : ""}</div>`; }
     $("#foot").innerHTML = `<span>${parts.join(" · ")}</span>
       <span>Dados de drop, XP e NPC: ${esc(BASE.fonte)}. Servidores podem mudar drops; o que foi conferido em cada servidor aparece marcado. Atualizado em ${esc(BASE.atualizado.split("-").reverse().join("/"))}.</span>
       <span>Tibia é marca da CipSoft GmbH. Este é um site de fã, sem ligação com a CipSoft.</span>`;
@@ -428,6 +445,11 @@
     if (mf) { st.monF = mf.dataset.monf; render(); }
     const ig = e.target.closest("[data-imbu-go]");
     if (ig) { e.preventDefault(); const el = document.getElementById(ig.dataset.imbuGo); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    const cp = e.target.closest("[data-copy]");
+    if (cp) {
+      const t = cp.dataset.copy, done = () => { cp.classList.add("copied"); const l = cp.querySelector(".copy-lbl"); const old = l ? l.textContent : ""; if (l) l.textContent = "Copiado!"; setTimeout(() => { cp.classList.remove("copied"); if (l) l.textContent = old; }, 1600); };
+      try { navigator.clipboard.writeText(t).then(done, done); } catch (_) { done(); }
+    }
     const qf = e.target.closest("[data-q]");
     if (qf) { st.qfilter = qf.dataset.q; render(); }
     if (e.target.closest("[data-go-base]")) {

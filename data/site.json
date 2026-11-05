@@ -2,8 +2,10 @@
  "nome": "Jantar Guia",
  "criador": "Jantar",
  "canal": "",
- "codigo_streamer": "",
+ "codigo_streamer": "JANTAR10",
  "servidores": [
   "heroot"
- ]
+ ],
+ "link_cadastro": "https://hero-ot.com/r/JANTAR10",
+ "servidor_parceiro": "HeroOT"
 }

@@ -242,3 +242,7 @@ a.name:hover{color:var(--gold)}
 .pill-gold{border-color:var(--gold-2);color:var(--gold)}
 .step-treino{margin:0;font-size:.95rem}
 @media (max-width:520px){.step-grid{grid-template-columns:1fr}.resumo{padding:14px}.step{scroll-margin-top:230px}}
+.step-obj .obj-w{display:block;font-weight:500}
+.step-obj .obj-w + .obj-w{margin-top:3px}
+.step-obj .obj-w b{color:var(--gold)}
+.linha-w{font-family:var(--display);font-weight:700;color:var(--gold);margin-top:4px}

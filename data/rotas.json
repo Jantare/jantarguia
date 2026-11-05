@@ -61,62 +61,155 @@
   "knight": {
    "pronta": true,
    "resumo": {
-    "titulo": "Knight de machado",
-    "papel": "Linha de frente: puxa os monstros e segura o dano. Do lvl 70 em diante usa machado de duas mãos.",
-    "skills": "Axe Fighting e Shielding. Magic level baixo, não precisa treinar.",
+    "papel": "Linha de frente: puxa os monstros e segura o dano. Do lvl 70 em diante usa arma de duas mãos com 3 imbuements.",
     "imbuements": [
      "Arma: crítico (Strike), life leech (Vampirism) e mana leech (Void)",
      "Armadura: proteção do elemento da hunt",
-     "Capacete: mana leech ou skill de Axe",
+     "Capacete: mana leech ou skill da arma",
      "Botas: velocidade (Swiftness)"
     ],
     "rtc": "No RTC: Exura Med Ico com uns 30% de vida junto da supreme potion; mana potion quando a mana cair.",
-    "linha": [
-     [
-      "8",
-      "Set básico + Zaoan Helmet e Legs"
-     ],
-     [
-      "30",
-      "Beastslayer Axe"
-     ],
-     [
-      "70",
-      "Rift Lance + Guardian Boots"
-     ],
-     [
-      "120",
-      "Prismatic Armor"
-     ],
-     [
-      "180",
-      "Phantasmal Axe (fogo)"
-     ],
-     [
-      "220",
-      "Cobra Axe (gelo)"
-     ],
-     [
-      "300",
-      "Falcon Battleaxe + Dauntless + Terra Helmet T3"
-     ],
-     [
-      "400",
-      "Soulbiter + Spiritthorn"
-     ],
-     [
-      "500",
-      "Sanguine Legs"
-     ]
-    ],
     "fonte": "Ordem de itens baseada no vídeo de Pacifista Tibiano sobre Elite Knight no RubinOT (2026), adaptada para o HeroOT.",
-    "video": "https://www.youtube.com/watch?v=4DM2PSFHM7s"
+    "video": "https://www.youtube.com/watch?v=4DM2PSFHM7s",
+    "armas": {
+     "Machado": {
+      "titulo": "Knight de machado",
+      "skills": "Axe Fighting e Shielding. Magic level baixo, não precisa treinar.",
+      "linha": [
+       [
+        "8",
+        "Set básico + Zaoan Helmet e Legs"
+       ],
+       [
+        "30",
+        "Beastslayer Axe"
+       ],
+       [
+        "70",
+        "Rift Lance + Guardian Boots"
+       ],
+       [
+        "120",
+        "Prismatic Armor"
+       ],
+       [
+        "180",
+        "Phantasmal Axe (fogo)"
+       ],
+       [
+        "220",
+        "Cobra Axe (gelo)"
+       ],
+       [
+        "300",
+        "Falcon Battleaxe + Dauntless + Terra Helmet T3"
+       ],
+       [
+        "400",
+        "Soulbiter + Spiritthorn"
+       ],
+       [
+        "500",
+        "Sanguine Legs"
+       ]
+      ]
+     },
+     "Espada": {
+      "titulo": "Knight de espada",
+      "skills": "Sword Fighting e Shielding. Magic level baixo, não precisa treinar.",
+      "linha": [
+       [
+        "8",
+        "Set básico + Zaoan Helmet e Legs"
+       ],
+       [
+        "35",
+        "Wyvern Fang"
+       ],
+       [
+        "65",
+        "Berserker + Guardian Boots"
+       ],
+       [
+        "120",
+        "Prismatic Armor"
+       ],
+       [
+        "200",
+        "Winterblade (gelo)"
+       ],
+       [
+        "220",
+        "Cobra Sword (gelo) e Gnome Sword (energia)"
+       ],
+       [
+        "300",
+        "Falcon Longsword + Dauntless + Terra Helmet T3"
+       ],
+       [
+        "400",
+        "Soulcutter + Spiritthorn"
+       ],
+       [
+        "500",
+        "Sanguine Legs"
+       ]
+      ]
+     },
+     "Clava": {
+      "titulo": "Knight de clava",
+      "skills": "Club Fighting e Shielding. Magic level baixo, não precisa treinar.",
+      "linha": [
+       [
+        "8",
+        "Set básico + Zaoan Helmet e Legs"
+       ],
+       [
+        "35",
+        "Crystal Mace"
+       ],
+       [
+        "70",
+        "Heavy Mace + Guardian Boots"
+       ],
+       [
+        "120",
+        "Prismatic Armor"
+       ],
+       [
+        "150",
+        "Jungle Flail (terra)"
+       ],
+       [
+        "220",
+        "Cobra Club (gelo) e Resizer"
+       ],
+       [
+        "300",
+        "Falcon Mace + Dauntless + Terra Helmet T3"
+       ],
+       [
+        "400",
+        "Soulcrusher + Spiritthorn"
+       ],
+       [
+        "500",
+        "Sanguine Legs"
+       ]
+      ]
+     }
+    }
    },
    "etapas": [
     {
      "faixa": "8–20",
      "objetivo": "Sair de Rookgaard ou da ilha inicial, montar o set básico e já imbuir.",
-     "treino": "Foque em Axe Fighting e Shielding. Caçando com escudo, o Shielding sobe sozinho; deslogue treinando offline para não perder tempo.",
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Foque em {skill} e Shielding. Caçando com escudo, o Shielding sobe sozinho; deslogue treinando offline para não perder tempo.",
      "hunts": [
       {
        "m": "Rotworm",
@@ -305,8 +398,17 @@
     },
     {
      "faixa": "20–35",
-     "objetivo": "Pegar a Beastslayer Axe no 30 e o set Zaoan (capacete e pernas).",
-     "treino": "Continue em Axe e Shielding. Use o sistema de treino do servidor nas pausas.",
+     "objetivo": {
+      "Machado": "Pegar a Beastslayer Axe no 30 e o set Zaoan (capacete e pernas).",
+      "Espada": "Pegar a Spike Sword e o set Zaoan (capacete e pernas).",
+      "Clava": "Pegar a Clerical Mace e o set Zaoan (capacete e pernas)."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Continue em {skill} e Shielding. Use o sistema de treino do servidor nas pausas.",
      "hunts": [
       {
        "m": "Cyclops",
@@ -330,7 +432,7 @@
        "m": "Orc Berserker",
        "onde": "Orc Fortress",
        "lv": "30+",
-       "nota": "Muita XP para quem já tem Beastslayer Axe.",
+       "nota": "Muita XP para quem já tem a arma do lvl 30.",
        "exp": 195,
        "hp": 210,
        "img": "img/monstros/orc-berserker.gif"
@@ -409,8 +511,17 @@
     },
     {
      "faixa": "35–60",
-     "objetivo": "Upar em dragões e juntar gold para o pulo do lvl 70.",
-     "treino": "Axe chega perto de 70. Use Exori em box para treinar e matar mais rápido.",
+     "objetivo": {
+      "Machado": "Upar em dragões com a Beastslayer e juntar gold para o pulo do lvl 70.",
+      "Espada": "Wyvern Fang no 35 e upar em dragões juntando gold para o lvl 70.",
+      "Clava": "Crystal Mace no 35 e upar em dragões juntando gold para o lvl 70."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "{skill} chega perto de 70. Use Exori em box para treinar e matar mais rápido.",
      "hunts": [
       {
        "m": "Dragon",
@@ -522,8 +633,17 @@
     },
     {
      "faixa": "60–100",
-     "objetivo": "No 70: Guardian Boots e Rift Lance com 3 imbuements (crítico, life e mana).",
-     "treino": "Com a Rift Lance (duas mãos), o Shielding para de subir caçando. Treine Shielding offline e foque o Axe nas hunts.",
+     "objetivo": {
+      "Machado": "No 70: Guardian Boots e Rift Lance com 3 imbuements (crítico, life e mana).",
+      "Espada": "No 65–70: Berserker (ou Demonrage Sword) com 3 imbuements e Guardian Boots.",
+      "Clava": "No 70: Heavy Mace com 3 imbuements (crítico, life e mana) e Guardian Boots."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Com a arma de duas mãos do 70, o Shielding para de subir caçando. Treine Shielding offline e foque {skill} nas hunts.",
      "hunts": [
       {
        "m": "Hero",
@@ -538,7 +658,7 @@
        "m": "Mutated Tiger",
        "onde": "Alchemist Quarter (Yalahar)",
        "lv": "60+",
-       "nota": "Rápido de matar com a Rift Lance.",
+       "nota": "Rápido de matar com a arma de 3 slots do 70.",
        "exp": 750,
        "hp": 1100,
        "img": "img/monstros/mutated-tiger.gif"
@@ -622,7 +742,12 @@
     {
      "faixa": "100–150",
      "objetivo": "No 120: Prismatic Armor, que fecha o set básico e dura muito.",
-     "treino": "Axe 80+. Comece a imbuir também a armadura (proteção do elemento da hunt).",
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "{skill} 80+. Comece a imbuir também a armadura (proteção do elemento da hunt).",
      "hunts": [
       {
        "m": "Lizard Chosen",
@@ -637,7 +762,7 @@
        "m": "Glooth Bandit",
        "onde": "Glooth Factory (Oramond)",
        "lv": "100+",
-       "nota": "Também dropa a Beastslayer Axe.",
+       "nota": "Também dropa a Beastslayer Axe (machado).",
        "exp": 2000,
        "hp": 2600,
        "img": "img/monstros/glooth-bandit.gif"
@@ -694,14 +819,23 @@
     },
     {
      "faixa": "150–200",
-     "objetivo": "Primeira arma elemental (Phantasmal Axe), Ornate Legs, Depth Calcei e Red Plasma.",
+     "objetivo": {
+      "Machado": "Primeira arma elemental (Phantasmal Axe, fogo), Ornate Legs, Depth Calcei e Red Plasma.",
+      "Espada": "Primeira arma elemental (Winterblade, gelo, no 200), Ornate Legs, Depth Calcei e Red Plasma.",
+      "Clava": "Primeira arma elemental (Jungle Flail, terra), Ornate Legs, Depth Calcei e Red Plasma."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
      "treino": "Monte uma arma por elemento e imbua cada uma. Bestiary começa a dar bônus bons.",
      "hunts": [
       {
        "m": "Werehyaena",
        "onde": "Grimvale (andares de baixo)",
        "lv": "150+",
-       "nota": "Com a Phantasmal Axe (fogo) rende muito.",
+       "nota": "Com arma de fogo (Phantasmal Axe) rende muito.",
        "exp": 2200,
        "hp": 2700,
        "img": "img/monstros/werehyaena.gif"
@@ -744,8 +878,17 @@
     },
     {
      "faixa": "200–300",
-     "objetivo": "Uma arma por elemento (Cobra Axe, Lion Axe) e o set intermediário (Cobra Hood, Stoic Iks Culet).",
-     "treino": "Axe 100+. Faça charms (Low Blow e Parry) e o Wheel of Destiny.",
+     "objetivo": {
+      "Machado": "Uma arma por elemento (Cobra Axe, Lion Axe) e o set intermediário (Cobra Hood, Stoic Iks Culet).",
+      "Espada": "Uma arma por elemento (Cobra Sword, Gnome Sword, Tagralt Blade) e o set intermediário (Cobra Hood, Stoic Iks Culet).",
+      "Clava": "Uma arma por elemento (Cobra Club, Lion Hammer, Resizer) e o set intermediário (Cobra Hood, Stoic Iks Culet)."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "{skill} 100+. Faça charms (Low Blow e Parry) e o Wheel of Destiny.",
      "hunts": [
       {
        "m": "Frazzlemaw",
@@ -760,7 +903,7 @@
        "m": "Werelion",
        "onde": "Grimvale e Darashia",
        "lv": "200+",
-       "nota": "Muito loot. Leve a Cobra Axe.",
+       "nota": "Muito loot. Leve a arma de gelo (Cobra).",
        "exp": 2200,
        "hp": 2800,
        "img": "img/monstros/werelion.gif"
@@ -803,8 +946,17 @@
     },
     {
      "faixa": "300–400",
-     "objetivo": "Falcon Battleaxe, Dauntless Dragon Scale e Terra Helmet T3.",
-     "treino": "Hora dos tiers: Terra Helmet T3 primeiro. Mantenha o Axe subindo com exercise weapons.",
+     "objetivo": {
+      "Machado": "Falcon Battleaxe, Dauntless Dragon Scale e Terra Helmet T3.",
+      "Espada": "Falcon Longsword, Dauntless Dragon Scale e Terra Helmet T3.",
+      "Clava": "Falcon Mace, Dauntless Dragon Scale e Terra Helmet T3."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Hora dos tiers: Terra Helmet T3 primeiro. Mantenha {skill} subindo com exercise weapons.",
      "hunts": [
       {
        "m": "Falcon Knight",
@@ -819,7 +971,7 @@
        "m": "Ancient Lion Knight",
        "onde": "Lion Sanctum (Bounac)",
        "lv": "300+",
-       "nota": "Dropa a Lion Axe.",
+       "nota": "Dropa a Lion Axe e o Lion Hammer.",
        "exp": 8100,
        "hp": 9100,
        "img": "img/monstros/ancient-lion-knight.gif"
@@ -882,14 +1034,23 @@
     },
     {
      "faixa": "400–500",
-     "objetivo": "Soulbiter (ou uma arma de Crypt) e o set Spiritthorn.",
+     "objetivo": {
+      "Machado": "Soulbiter (ou uma arma de Crypt) e o set Spiritthorn.",
+      "Espada": "Soulcutter (ou uma arma de Crypt) e o set Spiritthorn.",
+      "Clava": "Soulcrusher (ou uma arma de Crypt) e o set Spiritthorn."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
      "treino": "Exercise weapons todo dia. O Wheel começa a fazer muita diferença.",
      "hunts": [
       {
        "m": "Bony Sea Devil",
        "onde": "Soul War (Ebb and Flow)",
        "lv": "400+",
-       "nota": "Começo do Soul War. Use a Soulbiter assim que tiver.",
+       "nota": "Começo do Soul War. Use a arma de Soul assim que tiver.",
        "exp": 19470,
        "hp": 24000,
        "img": "img/monstros/bony-sea-devil.gif"
@@ -917,7 +1078,16 @@
     },
     {
      "faixa": "500–600",
-     "objetivo": "Sanguine Legs e itens com tier alto: o BiS do Knight.",
+     "objetivo": {
+      "Machado": "Sanguine Legs, Sanguine Hatchet e itens com tier alto: o BiS do Knight.",
+      "Espada": "Sanguine Legs, Sanguine Blade e itens com tier alto: o BiS do Knight.",
+      "Clava": "Sanguine Legs, Sanguine Cudgel e itens com tier alto: o BiS do Knight."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
      "treino": "Foco em BiS: Sanguine Legs e Spiritthorn Helmet T3+. Tiers mais altos nos itens principais.",
      "hunts": [
       {
@@ -959,6 +1129,7 @@
     {
      "faixa": "8–20",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1165,6 +1336,7 @@
     {
      "faixa": "20–35",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1305,6 +1477,7 @@
     {
      "faixa": "35–60",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1397,6 +1570,7 @@
     {
      "faixa": "60–100",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1473,6 +1647,7 @@
     {
      "faixa": "100–150",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1495,6 +1670,7 @@
     {
      "faixa": "150–200",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1513,6 +1689,7 @@
     {
      "faixa": "200–300",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1545,6 +1722,7 @@
     {
      "faixa": "300–400",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1583,6 +1761,7 @@
     {
      "faixa": "400–500",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -1590,6 +1769,7 @@
     {
      "faixa": "500–600",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -1603,6 +1783,7 @@
     {
      "faixa": "8–20",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -1961,6 +2142,7 @@
     {
      "faixa": "20–35",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -2275,6 +2457,7 @@
     {
      "faixa": "35–60",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -2391,6 +2574,7 @@
     {
      "faixa": "60–100",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -2465,6 +2649,7 @@
     {
      "faixa": "100–150",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -2485,6 +2670,7 @@
     {
      "faixa": "150–200",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -2492,6 +2678,7 @@
     {
      "faixa": "200–300",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -2542,6 +2729,7 @@
     {
      "faixa": "300–400",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -2584,6 +2772,7 @@
     {
      "faixa": "400–500",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -2591,6 +2780,7 @@
     {
      "faixa": "500–600",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -2604,6 +2794,7 @@
     {
      "faixa": "8–20",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3028,6 +3219,7 @@
     {
      "faixa": "20–35",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3348,6 +3540,7 @@
     {
      "faixa": "35–60",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3472,6 +3665,7 @@
     {
      "faixa": "60–100",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3532,6 +3726,7 @@
     {
      "faixa": "100–150",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3552,6 +3747,7 @@
     {
      "faixa": "150–200",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -3559,6 +3755,7 @@
     {
      "faixa": "200–300",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3581,6 +3778,7 @@
     {
      "faixa": "300–400",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3647,6 +3845,7 @@
     {
      "faixa": "400–500",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -3654,6 +3853,7 @@
     {
      "faixa": "500–600",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -3667,6 +3867,7 @@
     {
      "faixa": "8–20",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3881,6 +4082,7 @@
     {
      "faixa": "20–35",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -3999,6 +4201,7 @@
     {
      "faixa": "35–60",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -4033,6 +4236,7 @@
     {
      "faixa": "60–100",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -4089,6 +4293,7 @@
     {
      "faixa": "100–150",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -4119,6 +4324,7 @@
     {
      "faixa": "150–200",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -4175,6 +4381,7 @@
     {
      "faixa": "200–300",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -4203,6 +4410,7 @@
     {
      "faixa": "300–400",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": [
@@ -4221,6 +4429,7 @@
     {
      "faixa": "400–500",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []
@@ -4228,6 +4437,7 @@
     {
      "faixa": "500–600",
      "objetivo": null,
+     "skill": null,
      "treino": null,
      "hunts": [],
      "magias": []

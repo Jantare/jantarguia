@@ -703,7 +703,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "Level 200. Boss dos Dream Courts.",
+     "tip": "Espada de gelo: a primeira arma elemental de quem joga de espada.",
      "wiki": "https://tibia.fandom.com/wiki/Winterblade",
      "img": "img/itens/winterblade.webp"
     },
@@ -722,7 +722,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Clava de terra: a primeira arma elemental de quem joga de clava.",
      "wiki": "https://tibia.fandom.com/wiki/Jungle_Flail",
      "img": "img/itens/jungle-flail.webp"
     },
@@ -840,7 +840,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Espada de gelo de uma mão. Custa algo como 1 a 2kk no market.",
      "wiki": "https://tibia.fandom.com/wiki/Cobra_Sword",
      "img": "img/itens/cobra-sword.webp"
     },
@@ -859,7 +859,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Clava de gelo de uma mão. Custa algo como 1 a 2kk no market.",
      "wiki": "https://tibia.fandom.com/wiki/Cobra_Club",
      "img": "img/itens/cobra-club.webp"
     },
@@ -927,6 +927,48 @@
      "tip": "Arma de terra. Ter uma arma de cada elemento ajuda muito no bestiary.",
      "wiki": "https://tibia.fandom.com/wiki/Lion_Axe",
      "img": "img/itens/lion-axe.webp"
+    },
+    {
+     "id": "knight-lion-hammer",
+     "tier": "200–300",
+     "slot": "Arma (Clava, terra)",
+     "item": "Lion Hammer",
+     "lv": 270,
+     "attr": "Ataque 8 físico + 44 de terra, Defesa 31, +3 de skill, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Ancient Lion Knight",
+       "c": 0.04
+      },
+      {
+       "m": "Drume",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Clava de terra, par da Lion Axe. Ajuda muito no bestiary.",
+     "wiki": "https://tibia.fandom.com/wiki/Lion_Hammer",
+     "img": "img/itens/lion-hammer.webp"
+    },
+    {
+     "id": "knight-tagralt-blade",
+     "tier": "200–300",
+     "slot": "Arma (Espada, física)",
+     "item": "Tagralt Blade",
+     "lv": 250,
+     "attr": "Ataque 7 físico + 49 de terra, Defesa 32, +3 de skill, 2 slot(s) de imbuement, duas mãos",
+     "src": [
+      {
+       "m": "Urmahlullu the Weakened",
+       "c": 1.85
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Espada física forte para hunts sem fraqueza a elemento.",
+     "wiki": "https://tibia.fandom.com/wiki/Tagralt_Blade",
+     "img": "img/itens/tagralt-blade.webp"
     },
     {
      "id": "knight-gnome-sword",
@@ -1019,7 +1061,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Espada de energia, muito forte. Segura até a Soulcutter.",
      "wiki": "https://tibia.fandom.com/wiki/Falcon_Longsword",
      "img": "img/itens/falcon-longsword.webp"
     },
@@ -1038,7 +1080,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Clava de energia, muito forte. Segura até a Soulcrusher.",
      "wiki": "https://tibia.fandom.com/wiki/Falcon_Mace",
      "img": "img/itens/falcon-mace.webp"
     },
@@ -1146,7 +1188,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "Se der, pule direto para uma arma de Crypt. Senão, a Soulcutter ajuda a farmar até ela.",
      "wiki": "https://tibia.fandom.com/wiki/Soulcutter",
      "img": "img/itens/soulcutter.webp"
     },
@@ -1160,7 +1202,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "Se der, pule direto para uma arma de Crypt. Senão, a Soulcrusher ajuda a farmar até ela.",
      "wiki": "https://tibia.fandom.com/wiki/Soulcrusher",
      "img": "img/itens/soulcrusher.webp"
     },
@@ -5946,6 +5988,7 @@
    "items": [
     "Lion Axe",
     "Lion Claws",
+    "Lion Hammer",
     "Lion Spangenhelm",
     "Lion Spellbook",
     "Lion Wand"
@@ -5961,6 +6004,7 @@
    "loc": "Kilmaresh",
    "boss": true,
    "items": [
+    "Tagralt Blade",
     "Winged Boots"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Urmahlullu_the_Weakened",
@@ -6273,7 +6317,8 @@
    "loc": "Bounac, Lion Sanctum",
    "boss": false,
    "items": [
-    "Lion Axe"
+    "Lion Axe",
+    "Lion Hammer"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Ancient_Lion_Knight",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Ancient%20Lion%20Knight",

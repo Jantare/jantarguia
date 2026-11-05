@@ -101,8 +101,20 @@
     return cur ? `<div class="filter-note"><span>Mostrando do level ${esc(cur)} em diante, para o level ${st.level}.</span><button type="button" data-clear-lvl>Ver todas as faixas</button></div>` : "";
   }
 
+  const WSKILL = { Machado: "Axe Fighting", Espada: "Sword Fighting", Clava: "Club Fighting" };
+  const linhaList = l => `<ol class="linha">${l.map(([lv, t]) => `<li><a href="#" data-jump="${esc(lv)}"><b>${esc(lv)}</b><span>${esc(t)}</span></a></li>`).join("")}</ol>`;
+  function pickW(v) {
+    if (!v || typeof v === "string") return v ? esc(v) : "";
+    if (st.weapon !== "todas" && v[st.weapon]) return esc(v[st.weapon]);
+    return Object.entries(v).map(([w, t]) => `<span class="obj-w"><b>${esc(w)}:</b> ${esc(t)}</span>`).join("");
+  }
   function resumoBlock(r) {
     if (!r) return "";
+    if (r.armas) {
+      const one = st.weapon !== "todas" && r.armas[st.weapon];
+      r = { ...r, titulo: one ? one.titulo : "Knight: machado, espada ou clava", skills: one ? one.skills : "A skill da sua arma (Axe, Sword ou Club Fighting) e Shielding. Magic level baixo, não precisa treinar.",
+        linhaHtml: one ? linhaList(one.linha) : Object.entries(r.armas).map(([w, a]) => `<span class="linha-w">${esc(w)}</span>${linhaList(a.linha)}`).join("") };
+    }
     return `<section class="resumo">
       <div class="resumo-h"><span class="path-kicker">Resumo</span><h2>${esc(r.titulo)}</h2></div>
       <div class="resumo-grid">
@@ -112,7 +124,7 @@
         <div class="rbox"><span class="how-t">RTC (auto-uso)</span><p>${esc(r.rtc)}</p></div>
       </div>
       <div class="linha-wrap"><span class="how-t">Ordem de compra resumida</span>
-        <ol class="linha">${r.linha.map(([lv, t]) => `<li><a href="#" data-jump="${esc(lv)}"><b>${esc(lv)}</b><span>${esc(t)}</span></a></li>`).join("")}</ol></div>
+        ${r.linhaHtml || linhaList(r.linha)}</div>
       <p class="foot-note">${esc(r.fonte)}${r.video ? ` <a href="${esc(r.video)}" target="_blank" rel="noopener">Ver o vídeo</a>.` : ""}</p>
     </section>`;
   }
@@ -149,7 +161,7 @@
         const qs = (ROTAS.quests[e.faixa] || []);
         return `<section class="step${cur === e.faixa ? " is-here" : ""}" id="etapa-${idx}" data-lo="${TIERS[idx][1]}">
           <div class="step-h"><span class="step-n">${idx + 1}</span><span class="lvl-badge">Lvl ${esc(e.faixa)}</span>${cur === e.faixa ? '<span class="here">você está aqui</span>' : ""}<span class="rule"></span></div>
-          ${e.objetivo ? `<p class="step-obj">${esc(e.objetivo)}</p>` : ""}
+          ${e.objetivo ? `<p class="step-obj">${pickW(e.objetivo)}</p>` : ""}
           <div class="step-grid">
             <div class="sbox"><span class="how-t">Onde caçar</span>${e.hunts.length ? e.hunts.map(huntRow).join("") : `<p class="muted">Use o Hunt Finder para ver as hunts desta faixa.</p>`}</div>
             <div class="sbox"><span class="how-t">O que comprar ou trocar${its.length ? ` (${its.length})` : ""}</span>${its.length ? its.map(itemRow).join("") : `<p class="muted">Nada novo: mantenha o equipamento da faixa anterior e junte gold.</p>`}</div>
@@ -157,7 +169,7 @@
           <div class="step-grid">
             <div class="sbox"><span class="how-t">Magias para comprar</span>${ess.length || rest.length ? `${spellRows(ess)}${rest.length ? `<details class="more"><summary>Outras magias desta faixa (${rest.length})</summary>${spellRows(rest)}</details>` : ""}` : `<p class="muted">Nenhuma magia nova nesta faixa.</p>`}</div>
             <div class="sbox"><span class="how-t">Quests</span>${qs.length ? `<div class="q-links">${qs.map(n => `<a class="pill${qlvl[n] && (qlvl[n].outfit || qlvl[n].montaria) ? " pill-gold" : ""}" href="#quests">${esc(n)}${qlvl[n] ? ` <small>${esc(qlvl[n].lvl)}</small>` : ""}</a>`).join("")}</div>` : `<p class="muted">Sem quest essencial nesta faixa.</p>`}
-              ${e.treino ? `<span class="how-t t2">Treino</span><p class="step-treino">${esc(e.treino)}</p>` : ""}</div>
+              ${e.treino ? `<span class="how-t t2">Treino</span><p class="step-treino">${esc(e.treino.replace(/\{skill\}/g, WSKILL[st.weapon] || "a skill da arma").replace(/(^|\. )a skill/g, "$1A skill"))}</p>` : ""}</div>
           </div>
         </section>`;
       }).join("")}</div>
@@ -165,7 +177,7 @@
   }
 
   function vocationView(voc) {
-    const title = voc.id === "knight" && st.weapon === "Machado" ? "Knight de machado" : voc.nome;
+    const title = voc.id === "knight" && st.weapon !== "todas" ? "Knight de " + st.weapon.toLowerCase() : voc.nome;
     return `<div class="page-h"><h1>${esc(title)}: rota do level 8 ao 600</h1>
       <p class="intro">${st.vmode === "rota" ? "Cada etapa mostra onde caçar, o que comprar, quais magias pegar, as quests e o que treinar. Digite seu level no topo para pular direto para a sua etapa." : "Só aparece o que vale trocar em cada faixa; o resto você mantém da faixa anterior. Toque no nome do item para abrir a TibiaWiki."}</p></div>
       ${serverBanner()}

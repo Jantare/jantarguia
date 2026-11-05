@@ -299,3 +299,10 @@ a.name:hover{color:var(--gold)}
 .imbu-it b{color:var(--gold);font-family:var(--display);margin-right:2px}
 .imbu-it.novo::after{content:"novo";margin-left:6px;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--bg);background:var(--gold);border-radius:4px;padding:0 4px;vertical-align:1px}
 .imbu-lv > div:first-child .imbu-it.novo::after{display:none}
+.rec-cost{display:flex;flex-direction:column;gap:8px;border-top:1px dashed var(--line);padding-top:8px;margin-top:2px}
+.rec-line{display:flex;flex-direction:column;gap:2px}
+.rec-line > a{font-size:.82rem;font-weight:700;color:var(--gold);text-decoration:none;text-transform:uppercase;letter-spacing:.05em}
+.rec-line > a:hover{text-decoration:underline}
+.rec-note{font-size:.84rem;color:var(--muted)}
+.imbu-it.gt{background:var(--slot);border-style:dashed;color:var(--muted)}
+.card.imbu,.tier{scroll-margin-top:130px}

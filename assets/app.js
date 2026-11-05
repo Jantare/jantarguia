@@ -10,7 +10,7 @@
   const ytq = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
-  const st = { imbuVoc: "knight", view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
+  const st = { monF: "todos", monQ: "", imbuVoc: "knight", view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
   let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, SERVERS = {};
 
   const store = {
@@ -186,11 +186,18 @@
   }
 
   function monstersView() {
-    const ms = Object.entries(BASE.monstros).sort((a, b) => parseInt(a[1].lvl) - parseInt(b[1].lvl));
+    const all = Object.entries(BASE.monstros).sort((a, b) => parseInt(a[1].lvl) - parseInt(b[1].lvl));
+    const ms = all.filter(([, m]) => st.monF === "todos" || (st.monF === "boss" ? m.boss : !m.boss));
+    const nb = all.filter(([, m]) => m.boss).length;
     return `<div class="page-h"><h1>Monstros</h1>
-      <p class="intro">Todos os monstros da rota, do mais fácil ao mais difícil. O level é uma estimativa pelo XP e pela vida: confirme no jogo.</p></div>
+      <p class="intro">Todos os monstros e bosses do guia, do mais fácil ao mais difícil. Busque pelo nome, pelo lugar ou pelo item que você quer.</p></div>
       ${serverBanner()}
-      <div class="grid">${ms.map(([n, m]) => `<article class="card">
+      <div class="look-bar">
+        <div class="chips">${[["todos", `Todos (${all.length})`], ["monstros", `Monstros (${all.length - nb})`], ["boss", `Bosses (${nb})`]].map(([k, l]) => `<button class="chip" type="button" data-monf="${k}" aria-pressed="${st.monF === k}">${l}</button>`).join("")}</div>
+        <label class="field look-search" for="monq">Buscar <input id="monq" type="search" placeholder="ex: Dragon, Zao, Soulbiter" value="${esc(st.monQ)}" autocomplete="off"></label>
+      </div>
+      <p class="intro mon-empty" hidden>Nada encontrado com essa busca.</p>
+      <div class="grid mon-grid">${ms.map(([n, m]) => `<article class="card" data-s="${esc([n, m.loc, ...m.items].join(" ").toLowerCase())}">
         <div class="head">${slot(m.img, true)}<div class="head-txt">
           <span class="name">${esc(n)}</span>
           <div class="stats-line">${m.boss ? '<span class="boss-tag">boss</span>' : `<span class="req">caçar no lvl ${esc(m.lvl)}</span>`}</div>
@@ -260,6 +267,13 @@
           <div class="imbu-lv">${x.niveis.map((n, i) => `<div><span class="how-t">${esc(n.n)}</span><b>${esc(n.v)}</b><span class="imbu-items">${x.itens[i].map(esc).join(" + ")}</span></div>`).join("")}</div>
         </article>`).join("")}</div></section>`).join("")}
       <p class="foot-note">${esc(IMBU.fonte)}</p>`;
+  }
+
+  function filterMon() {
+    const q = st.monQ.trim().toLowerCase();
+    let n = 0;
+    document.querySelectorAll(".mon-grid > .card").forEach(c => { const ok = !q || c.dataset.s.includes(q); c.hidden = !ok; if (ok) n++; });
+    const e = $(".mon-empty"); if (e) e.hidden = n > 0;
   }
 
   function lookView() {
@@ -350,7 +364,7 @@
     else if (st.view === "quests") v.innerHTML = questsView();
     else if (st.view === "imbuements") v.innerHTML = imbuView();
     else if (st.view === "outfits") v.innerHTML = lookView();
-    else if (st.view === "monstros") v.innerHTML = monstersView();
+    else if (st.view === "monstros") { v.innerHTML = monstersView(); filterMon(); }
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
     else v.innerHTML = vocationView(BASE.vocacoes.find(x => x.id === st.view) || BASE.vocacoes[0]);
   }
@@ -387,6 +401,8 @@
     }
     const ib = e.target.closest("[data-imbu]");
     if (ib) { st.imbuVoc = ib.dataset.imbu; render(); }
+    const mf = e.target.closest("[data-monf]");
+    if (mf) { st.monF = mf.dataset.monf; render(); }
     const qf = e.target.closest("[data-q]");
     if (qf) { st.qfilter = qf.dataset.q; render(); }
     if (e.target.closest("[data-go-base]")) {
@@ -427,6 +443,7 @@
       render();
     });
     document.addEventListener("input", e => {
+      if (e.target.id === "monq") { st.monQ = e.target.value; filterMon(); return; }
       if (e.target.id !== "lookq") return;
       st.lookQ = e.target.value; const pos = e.target.selectionStart; render();
       const el = $("#lookq"); if (el) { el.focus(); el.setSelectionRange(pos, pos); }

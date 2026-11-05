@@ -4215,7 +4215,7 @@
       }
      ],
      "quest": null,
-     "tip": "Caro pro começo (8k): compre quando juntar.",
+     "tip": "Bota da quest inicial do Monk: serve muito bem no começo.",
      "wiki": "https://tibia.fandom.com/wiki/Boots_of_Enlightenment",
      "id": "monk-boots-of-enlightenment",
      "img": "img/itens/boots-of-enlightenment.webp"
@@ -4329,14 +4329,14 @@
       }
      ],
      "quest": null,
-     "tip": "Level 70.",
+     "tip": "O melhor capacete até o BiS: +6% de dano base na Chain Penance (usada 2x por ciclo). Vale colocar tier 1 (reduz recarga).",
      "wiki": "https://tibia.fandom.com/wiki/Coned_Hat_of_Enlightenment",
      "id": "monk-coned-hat-of-enlightenment",
      "img": "img/itens/coned-hat-of-enlightenment.webp"
     },
     {
      "tier": "60–100",
-     "slot": "Pernas",
+     "slot": "Pernas (alternativa)",
      "item": "Legs of Wisdom",
      "lv": 80,
      "attr": "Armadura 4",
@@ -4348,14 +4348,14 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "Level 80.",
+     "tip": "Alternativa da quest. A Jade Legs é melhor.",
      "wiki": "https://tibia.fandom.com/wiki/Legs_of_Wisdom",
      "id": "monk-legs-of-wisdom",
      "img": "img/itens/legs-of-wisdom.webp"
     },
     {
      "tier": "100–150",
-     "slot": "Capacete",
+     "slot": "Capacete (alternativa)",
      "item": "Jade Conical Hat",
      "lv": 35,
      "attr": "Armadura 5, 1 slot(s) de imbuement",
@@ -4367,7 +4367,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Testado com tier 2: o Coned Hat T1 ainda é melhor.",
      "wiki": "https://tibia.fandom.com/wiki/Jade_Conical_Hat",
      "id": "monk-jade-conical-hat",
      "img": "img/itens/jade-conical-hat.webp"
@@ -4386,29 +4386,10 @@
       }
      ],
      "quest": null,
-     "tip": "Level 150. NPC (150k).",
+     "tip": "Armadura da quest: melhor que a Demon Armor.",
      "wiki": "https://tibia.fandom.com/wiki/Robe_of_Enlightenment",
      "id": "monk-robe-of-enlightenment",
      "img": "img/itens/robe-of-enlightenment.webp"
-    },
-    {
-     "id": "monk-depth-claws",
-     "tier": "150–200",
-     "slot": "Arma",
-     "item": "Depth Claws",
-     "lv": 135,
-     "attr": "Ataque 42, Defesa 18, +1 magic level, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Jaul",
-       "c": 0.65
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Depth_Claws",
-     "img": "img/itens/depth-claws.webp"
     },
     {
      "id": "monk-gnomish-cuirass",
@@ -4425,28 +4406,9 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "Chance boa (~3,4%).",
+     "tip": "A melhor armadura do começo: 2% de proteção física (rara no Monk). Troque com tokens da Warzone.",
      "wiki": "https://tibia.fandom.com/wiki/Gnomish_Cuirass",
      "img": "img/itens/gnomish-cuirass.webp"
-    },
-    {
-     "id": "monk-dark-vision-bandana",
-     "tier": "150–200",
-     "slot": "Capacete",
-     "item": "Dark Vision Bandana",
-     "lv": 180,
-     "attr": "Armadura 5, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "The Nightmare Beast",
-       "c": 4.35
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Chance boa (~4%) no boss final dos Dream Courts.",
-     "wiki": "https://tibia.fandom.com/wiki/Dark_Vision_Bandana",
-     "img": "img/itens/dark-vision-bandana.webp"
     },
     {
      "id": "monk-collar-of-orange-plasma",
@@ -4463,7 +4425,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Muita skill. Você usa por muito tempo, até depois do BiS em hunts mais leves.",
      "wiki": "https://tibia.fandom.com/wiki/Collar_of_Orange_Plasma",
      "img": "img/itens/collar-of-orange-plasma.webp"
     },
@@ -4482,7 +4444,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Melhor arma de terra antes do BiS. Já tem life na proficiência: imbua mana e crítico.",
      "wiki": "https://tibia.fandom.com/wiki/Cobra_Bo",
      "img": "img/itens/cobra-bo.webp"
     },
@@ -4501,28 +4463,9 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Opção, mas não aceita imbuement de crítico: perde muito dano crítico. Prefira Cobra Bo, Gilded ou Falcon.",
      "wiki": "https://tibia.fandom.com/wiki/Lion_Claws",
      "img": "img/itens/lion-claws.webp"
-    },
-    {
-     "id": "monk-death-oyoroi",
-     "tier": "200–300",
-     "slot": "Armadura",
-     "item": "Death Oyoroi",
-     "lv": 230,
-     "attr": "Armadura 9, +1 magic level, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "King Zelos",
-       "c": 0.5
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Death_Oyoroi",
-     "img": "img/itens/death-oyoroi.webp"
     },
     {
      "id": "monk-jade-legs",
@@ -4539,7 +4482,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "A melhor calça dessa faixa: mantra e +1 magic level, que ajuda no sustento.",
      "wiki": "https://tibia.fandom.com/wiki/Jade_Legs",
      "img": "img/itens/jade-legs.webp"
     },
@@ -4558,47 +4501,9 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Melhor arma física antes do BiS: +4 fist. Imbua crítico e mana (life vem na proficiência).",
      "wiki": "https://tibia.fandom.com/wiki/Falcon_Sai",
      "img": "img/itens/falcon-sai.webp"
-    },
-    {
-     "id": "monk-amber-kusarigama",
-     "tier": "300–400",
-     "slot": "Arma (alternativa)",
-     "item": "Amber Kusarigama",
-     "lv": 330,
-     "attr": "Ataque 46, Defesa 20, +1 magic level, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "The Rootkraken",
-       "c": 20.0
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Chance de 20%.",
-     "wiki": "https://tibia.fandom.com/wiki/Amber_Kusarigama",
-     "img": "img/itens/amber-kusarigama.webp"
-    },
-    {
-     "id": "monk-merudri-battle-mail",
-     "tier": "300–400",
-     "slot": "Armadura",
-     "item": "Merudri Battle Mail",
-     "lv": 300,
-     "attr": "Armadura 10, +1 magic level, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Dragon Hoard",
-       "c": 1.28
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Merudri_Battle_Mail",
-     "img": "img/itens/merudri-battle-mail.webp"
     },
     {
      "id": "monk-demon-mengu",
@@ -4615,7 +4520,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Upgrade de capacete se estiver barato (proteção física e de morte). Senão, fique no Coned Hat T1.",
      "wiki": "https://tibia.fandom.com/wiki/Demon_Mengu",
      "img": "img/itens/demon-mengu.webp"
     },
@@ -4634,28 +4539,9 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "A 'Falcon Greaves do Monk': proteção física e de terra. Use até a calça BiS.",
      "wiki": "https://tibia.fandom.com/wiki/Mutant_Hide_Trousers",
      "img": "img/itens/mutant-hide-trousers.webp"
-    },
-    {
-     "id": "monk-eldritch-monk-boots",
-     "tier": "300–400",
-     "slot": "Botas",
-     "item": "Eldritch Monk Boots",
-     "lv": 300,
-     "attr": "Armadura 2, +1 magic level, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "The Brainstealer",
-       "c": 0.18
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Eldritch_Monk_Boots",
-     "img": "img/itens/eldritch-monk-boots.webp"
     },
     {
      "id": "monk-soulkamas",
@@ -4667,7 +4553,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "Primeira arma BiS (energia): 3 slots, imbua life, mana e crítico.",
      "wiki": "https://tibia.fandom.com/wiki/Soulkamas",
      "img": "img/itens/soulkamas.webp"
     },
@@ -4681,7 +4567,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "Armadura BiS: mais defesa e magic level que a Stag. Proteção física e de gelo.",
      "wiki": "https://tibia.fandom.com/wiki/Soulgarb",
      "img": "img/itens/soulgarb.webp"
     },
@@ -4700,7 +4586,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Capacete BiS: 4% físico e 8% fogo.",
      "wiki": "https://tibia.fandom.com/wiki/Ethereal_Coned_Hat",
      "img": "img/itens/ethereal-coned-hat.webp"
     },
@@ -4714,7 +4600,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "",
+     "tip": "Bota BiS defensiva: 3% físico, 6% gelo e +20 de speed.",
      "wiki": "https://tibia.fandom.com/wiki/Soulsoles",
      "img": "img/itens/soulsoles.webp"
     },
@@ -4728,7 +4614,7 @@
      "src": [],
      "shop": [],
      "quest": "Rotten Blood (boss Bakragore)",
-     "tip": "Level 500.",
+     "tip": "A calça suprema do Monk: +8% de dano crítico na Chain Penance.",
      "wiki": "https://tibia.fandom.com/wiki/Sanguine_Trousers",
      "img": "img/itens/sanguine-trousers.webp"
     },
@@ -4742,9 +4628,310 @@
      "src": [],
      "shop": [],
      "quest": "Rotten Blood (boss Bakragore)",
-     "tip": "Level 600.",
+     "tip": "Arma de terra fortíssima. Poucas hunts usam terra, mas nelas ela destrói.",
      "wiki": "https://tibia.fandom.com/wiki/Sanguine_Claws",
      "img": "img/itens/sanguine-claws.webp"
+    },
+    {
+     "id": "monk-demon-helmet",
+     "tier": "8–20",
+     "slot": "Capacete (se tiver gold)",
+     "item": "Demon Helmet",
+     "lv": null,
+     "attr": "Armadura 10, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Lloyd",
+       "c": 5.13
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Set inicial do vídeo: muita armadura. Compre no market e não gaste com imbuement agora.",
+     "wiki": "https://tibia.fandom.com/wiki/Demon_Helmet",
+     "img": "img/itens/demon-helmet.webp"
+    },
+    {
+     "id": "monk-demon-armor",
+     "tier": "8–20",
+     "slot": "Armadura (se tiver gold)",
+     "item": "Demon Armor",
+     "lv": null,
+     "attr": "Armadura 16, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Muita armadura no começo, quando o dano físico é o que mais pega. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Demon_Armor",
+     "img": "img/itens/demon-armor.webp"
+    },
+    {
+     "id": "monk-dwarven-legs",
+     "tier": "8–20",
+     "slot": "Pernas (se tiver gold)",
+     "item": "Dwarven Legs",
+     "lv": null,
+     "attr": "Armadura 7, proteção 3% física",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "3% de proteção física, coisa difícil de achar no Monk. Não dropa de monstro comum: compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Dwarven_Legs",
+     "img": "img/itens/dwarven-legs.webp"
+    },
+    {
+     "id": "monk-enchanted-werewolf-amulet",
+     "tier": "8–20",
+     "slot": "Colar",
+     "item": "Enchanted Werewolf Amulet",
+     "lv": null,
+     "attr": "-",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "6% físico e +3 de armadura. Barato: recarregue com Moonlight Crystal.",
+     "wiki": "https://tibia.fandom.com/wiki/Enchanted_Werewolf_Amulet",
+     "img": "img/itens/enchanted-werewolf-amulet.webp"
+    },
+    {
+     "id": "monk-power-ring",
+     "tier": "8–20",
+     "slot": "Anel",
+     "item": "Power Ring",
+     "lv": null,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Fernfang",
+       "c": 40.0
+      }
+     ],
+     "shop": [
+      {
+       "n": "Haroun",
+       "p": 100
+      },
+      {
+       "n": "Zuma Magehide",
+       "p": 100
+      }
+     ],
+     "quest": null,
+     "tip": "+6 fist fighting: ajuda muito a subir skill no começo.",
+     "wiki": "https://tibia.fandom.com/wiki/Power_Ring",
+     "img": "img/itens/power-ring.webp"
+    },
+    {
+     "id": "monk-pair-of-iron-fists",
+     "tier": "60–100",
+     "slot": "Arma",
+     "item": "Pair of Iron Fists",
+     "lv": 10,
+     "attr": "Ataque 23, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Orclops Doomhauler",
+       "c": 15.29
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Arma física com imbuement de vida e mana: dá para usar até o 250–300.",
+     "wiki": "https://tibia.fandom.com/wiki/Pair_of_Iron_Fists",
+     "img": "img/itens/pair-of-iron-fists.webp"
+    },
+    {
+     "id": "monk-yalahari-footwraps",
+     "tier": "60–100",
+     "slot": "Botas",
+     "item": "Yalahari Footwraps",
+     "lv": 80,
+     "attr": "Armadura 1, proteção 3% física, 6% gelo, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Da quest de Yalahar: +2 fist e proteção de morte.",
+     "wiki": "https://tibia.fandom.com/wiki/Yalahari_Footwraps",
+     "img": "img/itens/yalahari-footwraps.webp"
+    },
+    {
+     "id": "monk-ring-of-orange-plasma",
+     "tier": "100–150",
+     "slot": "Anel",
+     "item": "Ring of Orange Plasma",
+     "lv": 100,
+     "attr": "-",
+     "src": [
+      {
+       "m": "Dreadful Disruptor",
+       "c": 0.35
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Muita skill e 2% de proteção física.",
+     "wiki": "https://tibia.fandom.com/wiki/Ring_of_Orange_Plasma",
+     "img": "img/itens/ring-of-orange-plasma.webp"
+    },
+    {
+     "id": "monk-gnomish-footwraps",
+     "tier": "150–200",
+     "slot": "Botas",
+     "item": "Gnomish Footwraps",
+     "lv": 150,
+     "attr": "Armadura 1, proteção 2% física, 3% terra, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "A melhor bota da faixa: proteção física. Dropa de boss, então pode estar cara.",
+     "wiki": "https://tibia.fandom.com/wiki/Gnomish_Footwraps",
+     "img": "img/itens/gnomish-footwraps.webp"
+    },
+    {
+     "id": "monk-jungle-survivor-legs",
+     "tier": "150–200",
+     "slot": "Pernas (alternativa)",
+     "item": "Jungle Survivor Legs",
+     "lv": 130,
+     "attr": "Armadura 5, proteção 4% fogo",
+     "src": [
+      {
+       "m": "Ratmiral Blackwhiskers",
+       "c": 0.89
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Opção com proteção de fogo, mas sem magic level.",
+     "wiki": "https://tibia.fandom.com/wiki/Jungle_Survivor_Legs",
+     "img": "img/itens/jungle-survivor-legs.webp"
+    },
+    {
+     "id": "monk-nunchaku-of-destruction",
+     "tier": "200–300",
+     "slot": "Arma",
+     "item": "Nunchaku of Destruction",
+     "lv": 200,
+     "attr": "Ataque 42, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Única arma de 3 slots antes do BiS. Ótima em servidor novo (troca com Gold Tokens).",
+     "wiki": "https://tibia.fandom.com/wiki/Nunchaku_of_Destruction",
+     "img": "img/itens/nunchaku-of-destruction.webp"
+    },
+    {
+     "id": "monk-gilded-eldritch-crescent-moon-spade",
+     "tier": "200–300",
+     "slot": "Arma (energia)",
+     "item": "Gilded Eldritch Crescent Moon Spade",
+     "lv": 250,
+     "attr": "Ataque 44, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Brainstealer",
+       "c": 0.06
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Melhor arma de energia antes do BiS: +2 magic level e 30% de dano crítico no autoataque.",
+     "wiki": "https://tibia.fandom.com/wiki/Gilded_Eldritch_Crescent_Moon_Spade",
+     "img": "img/itens/gilded-eldritch-crescent-moon-spade.webp"
+    },
+    {
+     "id": "monk-stoic-iks-robe",
+     "tier": "200–300",
+     "slot": "Armadura",
+     "item": "Stoic Iks Robe",
+     "lv": 250,
+     "attr": "Armadura 9, proteção 2% física, 5% energia, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Mitmah Vanguard",
+       "c": 0.55
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "A armadura do mid game: barata, proteção física e de energia, e +8% de cura no Spirit Mend.",
+     "wiki": "https://tibia.fandom.com/wiki/Stoic_Iks_Robe",
+     "img": "img/itens/stoic-iks-robe.webp"
+    },
+    {
+     "id": "monk-iks-footwraps",
+     "tier": "200–300",
+     "slot": "Botas",
+     "item": "Iks Footwraps",
+     "lv": 250,
+     "attr": "Armadura 2, proteção 4% fogo, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "+8% de dano base no Greater Flurry of Blows e 4% de fogo.",
+     "wiki": "https://tibia.fandom.com/wiki/Iks_Footwraps",
+     "img": "img/itens/iks-footwraps.webp"
+    },
+    {
+     "id": "monk-norcferatu-bonehood",
+     "tier": "200–300",
+     "slot": "Capacete (alternativa)",
+     "item": "Norcferatu Bonehood",
+     "lv": 230,
+     "attr": "Armadura 5, proteção 2% física, 5% gelo, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Proteção física. Só se estiver barato; senão, fique no Coned Hat T1.",
+     "wiki": "https://tibia.fandom.com/wiki/Norcferatu_Bonehood",
+     "img": "img/itens/norcferatu-bonehood.webp"
+    },
+    {
+     "id": "monk-naga-tanko",
+     "tier": "200–300",
+     "slot": "Armadura (alternativa)",
+     "item": "Naga Tanko",
+     "lv": 270,
+     "attr": "Armadura 10, proteção 2% física, 6% fogo, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Timira the Many-Headed",
+       "c": 0.2
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Boa defesa de fogo, mas perde a cura extra da Stoic Iks Robe.",
+     "wiki": "https://tibia.fandom.com/wiki/Naga_Tanko",
+     "img": "img/itens/naga-tanko.webp"
+    },
+    {
+     "id": "monk-enchanted-merudri-brooch",
+     "tier": "400–500",
+     "slot": "Colar",
+     "item": "Enchanted Merudri Brooch",
+     "lv": 220,
+     "attr": "-",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Colar BiS: 4% físico e 15% fogo. Recarrega com Silver Token (caro).",
+     "wiki": "https://tibia.fandom.com/wiki/Enchanted_Merudri_Brooch",
+     "img": "img/itens/enchanted-merudri-brooch.webp"
+    },
+    {
+     "id": "monk-ethereal-ring",
+     "tier": "400–500",
+     "slot": "Anel",
+     "item": "Ethereal Ring",
+     "lv": 400,
+     "attr": "proteção 1% física, 4% fogo, 4% terra, 4% energia, 4% gelo",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Anel BiS: 4% em quase todos os elementos. Recarrega com Silver Token.",
+     "wiki": "https://tibia.fandom.com/wiki/Ethereal_Ring",
+     "img": "img/itens/ethereal-ring.webp"
     }
    ]
   }
@@ -5357,6 +5544,7 @@
    "boss": true,
    "items": [
     "Jungle Flail",
+    "Jungle Survivor Legs",
     "Jungle Wand"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Ratmiral_Blackwhiskers",
@@ -5384,7 +5572,6 @@
    "boss": true,
    "items": [
     "Depth Calcei",
-    "Depth Claws",
     "Ornate Legs"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Jaul",
@@ -5525,9 +5712,7 @@
    "lvl": "300+",
    "loc": "",
    "boss": true,
-   "items": [
-    "Amber Kusarigama"
-   ],
+   "items": [],
    "wiki": "https://tibia.fandom.com/wiki/The_Rootkraken",
    "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Rootkraken",
    "img": "img/monstros/the-rootkraken.webp"
@@ -5559,9 +5744,7 @@
    "lvl": "150+",
    "loc": "Dream Courts",
    "boss": true,
-   "items": [
-    "Dark Vision Bandana"
-   ],
+   "items": [],
    "wiki": "https://tibia.fandom.com/wiki/The_Nightmare_Beast",
    "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Nightmare%20Beast",
    "img": "img/monstros/the-nightmare-beast.gif"
@@ -5634,8 +5817,7 @@
    "boss": true,
    "items": [
     "Arcane Dragon Robe",
-    "Dauntless Dragon Scale Armor",
-    "Merudri Battle Mail"
+    "Dauntless Dragon Scale Armor"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Dragon_Hoard",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Dragon%20Hoard",
@@ -5649,7 +5831,8 @@
    "boss": true,
    "items": [
     "Dawnfire Pantaloons",
-    "Midnight Tunic"
+    "Midnight Tunic",
+    "Naga Tanko"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Timira_the_Many-Headed",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Timira%20the%20Many-Headed",
@@ -5677,7 +5860,6 @@
    "boss": true,
    "items": [
     "Bow of Cataclysm",
-    "Death Oyoroi",
     "Galea Mortis",
     "Toga Mortis"
    ],
@@ -5694,8 +5876,8 @@
    "items": [
     "Eldritch Folio",
     "Eldritch Hood",
-    "Eldritch Monk Boots",
-    "Eldritch Tome"
+    "Eldritch Tome",
+    "Gilded Eldritch Crescent Moon Spade"
    ],
    "wiki": "https://tibia.fandom.com/wiki/The_Brainstealer",
    "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Brainstealer",
@@ -5758,7 +5940,8 @@
    "loc": "",
    "boss": true,
    "items": [
-    "Collar of Orange Plasma"
+    "Collar of Orange Plasma",
+    "Ring of Orange Plasma"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Dreadful_Disruptor",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Dreadful%20Disruptor",
@@ -5958,7 +6141,8 @@
    "loc": "boss de Iksupan",
    "boss": true,
    "items": [
-    "Stoic Iks Culet"
+    "Stoic Iks Culet",
+    "Stoic Iks Robe"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Mitmah_Vanguard",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Mitmah%20Vanguard",
@@ -6014,6 +6198,45 @@
    ],
    "wiki": "https://tibia.fandom.com/wiki/The_Dread_Maiden",
    "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Dread%20Maiden",
+   "img": null
+  },
+  "Lloyd": {
+   "exp": 50000,
+   "hp": 64000,
+   "lvl": "",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Demon Helmet"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Lloyd",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Lloyd",
+   "img": null
+  },
+  "Fernfang": {
+   "exp": 600,
+   "hp": 400,
+   "lvl": "",
+   "loc": "",
+   "boss": true,
+   "items": [
+    "Power Ring"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Fernfang",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Fernfang",
+   "img": null
+  },
+  "Orclops Doomhauler": {
+   "exp": 1450,
+   "hp": 1700,
+   "lvl": "",
+   "loc": "Orc Fortress / Zao (orclops)",
+   "boss": false,
+   "items": [
+    "Pair of Iron Fists"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Orclops_Doomhauler",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Orclops%20Doomhauler",
    "img": null
   }
  }

@@ -4987,15 +4987,108 @@
    ]
   },
   "monk": {
-   "pronta": false,
-   "resumo": null,
+   "pronta": true,
+   "resumo": {
+    "titulo": "Monk",
+    "papel": "Corpo a corpo com punhos e bastões. Bate de costas para a parede e fecha box. Proteção física em % é rara: valorize cada item que tiver.",
+    "skills": "Fist Fighting e um pouco de magic level (ajuda no sustento).",
+    "imbuements": [
+     "Arma de 2 slots: mana e crítico (life vem na proficiência)",
+     "Arma de 3 slots (BiS): life, mana e crítico",
+     "Armadura: proteção do elemento da hunt"
+    ],
+    "rtc": "Rotação: magias que geram harmonia, depois a que gasta. Cura principal: Spirit Mend.",
+    "linha": [
+     [
+      "8",
+      "Demon Helmet + Demon Armor + Dwarven Legs (market)"
+     ],
+     [
+      "70",
+      "Coned Hat + corrente"
+     ],
+     [
+      "80",
+      "Pair of Iron Fists + Yalahari Footwraps"
+     ],
+     [
+      "100",
+      "Orange Plasma (anel e colar)"
+     ],
+     [
+      "150",
+      "Gnomish Cuirass + Footwraps"
+     ],
+     [
+      "250",
+      "Cobra Bo + Stoic Iks Robe + Iks Footwraps"
+     ],
+     [
+      "300",
+      "Falcon Sai + Mutant Hide Trousers"
+     ],
+     [
+      "400",
+      "Soulkamas + Soulgarb + Ethereal Coned Hat"
+     ],
+     [
+      "500",
+      "Sanguine Trousers"
+     ],
+     [
+      "600",
+      "Sanguine Claws"
+     ]
+    ],
+    "fonte": "Itens baseados no vídeo de Keke De Patinete (Monk pós-balanceamento no RubinOT). Hunts dos vídeos de Tibia MetaGameplay (0 ao 100) e Alypaz (200 ao 600). Adaptado para o HeroOT.",
+    "video": "https://www.youtube.com/watch?v=AWtaSBO77zg",
+    "videos": [
+     [
+      "Keke De Patinete (itens)",
+      "https://www.youtube.com/watch?v=AWtaSBO77zg"
+     ],
+     [
+      "Tibia MetaGameplay (0 ao 100)",
+      "https://www.youtube.com/watch?v=Oz1wVxWkecY"
+     ],
+     [
+      "Alypaz (200 ao 400)",
+      "https://www.youtube.com/watch?v=wapXrgokP1A"
+     ],
+     [
+      "Alypaz (400 ao 600)",
+      "https://www.youtube.com/watch?v=SaJFBno-dlI"
+     ]
+    ]
+   },
    "etapas": [
     {
      "faixa": "8–20",
-     "objetivo": null,
+     "objetivo": "Set da quest inicial ou, se tiver gold, Demon Helmet, Demon Armor, Dwarven Legs, Werewolf Amulet e Power Ring.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Fist fighting. O Monk muda a cada 10 levels: armas e magias novas.",
+     "hunts": [
+      {
+       "m": "Rotworm",
+       "onde": "Caves de rotworm (Thais, Darashia, Ab'Dendriel)",
+       "lv": "8+",
+       "nota": "Primeira hunt: o Monk no começo bate em um alvo só.",
+       "exp": 40,
+       "hp": 65,
+       "img": "img/monstros/rotworm.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20rotworm%20hunt"
+      },
+      {
+       "m": "Troll",
+       "onde": "Ao redor de Thais e Carlin",
+       "lv": "8+",
+       "nota": "Fácil para subir fist.",
+       "exp": 20,
+       "hp": 50,
+       "img": "img/monstros/troll.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20troll%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Magic Patch",
@@ -5207,10 +5300,31 @@
     },
     {
      "faixa": "20–35",
-     "objetivo": null,
+     "objetivo": "Fists of Enlightenment e as tasks de Port Hope.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Faça as tasks para liberar o barco de Port Hope cedo.",
+     "hunts": [
+      {
+       "m": "Stone Golem",
+       "onde": "Stone Golems",
+       "lv": "20+",
+       "nota": "Do vídeo: dá bastante ponto de task, mas a cave tem pouco respawn.",
+       "exp": 160,
+       "hp": 270,
+       "img": "img/monstros/stone-golem.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20stone%20golem%20hunt"
+      },
+      {
+       "m": "Thornback Tortoise",
+       "onde": "Thornback Tortoises",
+       "lv": "25+",
+       "nota": "Do vídeo: boa XP e as tasks andam mais rápido.",
+       "exp": 150,
+       "hp": 300,
+       "img": "img/monstros/thornback-tortoise.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20thornback%20tortoise%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Intense Healing",
@@ -5326,10 +5440,31 @@
     },
     {
      "faixa": "35–60",
-     "objetivo": null,
+     "objetivo": "Nunchaku e Zaoan Monk Robe.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Não gaste com imbuement nem tier no set inicial.",
+     "hunts": [
+      {
+       "m": "Thornback Tortoise",
+       "onde": "Thornback Tortoises",
+       "lv": "35+",
+       "nota": "Do vídeo: continue aqui até ter a corrente (lvl 70).",
+       "exp": 150,
+       "hp": 300,
+       "img": "img/monstros/thornback-tortoise.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20tortoise%20hunt"
+      },
+      {
+       "m": "Water Elemental",
+       "onde": "Water Elementals (Port Hope, porta do lvl 50)",
+       "lv": "50+",
+       "nota": "Do vídeo: XP perto da dos leões, mas muito pesada para o level.",
+       "exp": 650,
+       "hp": 550,
+       "img": "img/monstros/water-elemental.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20water%20elemental%20port%20hope%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Flurry of Blows",
@@ -5361,10 +5496,41 @@
     },
     {
      "faixa": "60–100",
-     "objetivo": null,
+     "objetivo": "Coned Hat of Enlightenment, Pair of Iron Fists e Yalahari Footwraps.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "No 70 entra a corrente (dano em área) e no 90 a rotação completa. Use a virtude de Harmonia para fazer XP e a de Sustain para segurar dano.",
+     "hunts": [
+      {
+       "m": "Lion",
+       "onde": "Lion's Rock",
+       "lv": "70+",
+       "nota": "Do vídeo: no 70, com a corrente, a XP dispara. Precisa do acesso de Lion's Rock.",
+       "exp": 30,
+       "hp": 80,
+       "img": "img/monstros/lion.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lions%20rock%20hunt"
+      },
+      {
+       "m": "Quara Predator",
+       "onde": "Quaras de Yalahar",
+       "lv": "80+",
+       "nota": "Do vídeo: com arma de energia, é a melhor até o 90. Use Werewolf Amulet e Dwarven Legs (o dano físico é alto).",
+       "exp": 1850,
+       "hp": 2200,
+       "img": "img/monstros/quara-predator.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20quara%20yalahar%20hunt"
+      },
+      {
+       "m": "Cult Believer",
+       "onde": "Cultos de Carlin",
+       "lv": "90+",
+       "nota": "Do vídeo: a melhor hunt para Monk até o 100. As boxes fecham fácil de costas para a parede.",
+       "exp": 850,
+       "hp": 975,
+       "img": "img/monstros/cult-believer.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cult%20carlin%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Sweeping Takedown",
@@ -5418,10 +5584,31 @@
     },
     {
      "faixa": "100–150",
-     "objetivo": null,
+     "objetivo": "Robe of Enlightenment e os Orange Plasma (colar e anel).",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Agora sim comece os imbuements (vida e mana na arma).",
+     "hunts": [
+      {
+       "m": "Cult Enforcer",
+       "onde": "Cultos de Carlin (andares de baixo)",
+       "lv": "100+",
+       "nota": "Desça os andares conforme fica mais forte.",
+       "exp": 1000,
+       "hp": 1150,
+       "img": "img/monstros/cult-enforcer.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cult%20carlin%20100%20hunt"
+      },
+      {
+       "m": "Glooth Golem",
+       "onde": "Glooth Tower (Oramond)",
+       "lv": "120+",
+       "nota": "Do vídeo (Alypaz): acesso fácil, dá para vir cedo com a Drachaku (energia). Muito bestiary.",
+       "exp": 1606,
+       "hp": 2700,
+       "img": "img/monstros/glooth-golem.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20glooth%20tower%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Forceful Uppercut",
@@ -5449,10 +5636,31 @@
     },
     {
      "faixa": "150–200",
-     "objetivo": null,
+     "objetivo": "Gnomish Cuirass e Gnomish Footwraps: proteção física.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Proteção física em % é rara no Monk: priorize itens com ela.",
+     "hunts": [
+      {
+       "m": "Barkless Devotee",
+       "onde": "Barkless",
+       "lv": "180+",
+       "nota": "Do vídeo: só XP, quase sem profit. Use arma física (Destruction).",
+       "exp": 2200,
+       "hp": 2800,
+       "img": "img/monstros/barkless-devotee.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20barkless%20hunt"
+      },
+      {
+       "m": "Glooth Golem",
+       "onde": "Glooth Tower (Oramond)",
+       "lv": "150+",
+       "nota": "Do vídeo: hunt OK para bestiary.",
+       "exp": 1606,
+       "hp": 2700,
+       "img": "img/monstros/glooth-golem.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20glooth%20tower%20150%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Focus Serenity",
@@ -5506,10 +5714,51 @@
     },
     {
      "faixa": "200–300",
-     "objetivo": null,
+     "objetivo": "Jade Legs, Stoic Iks Robe, Iks Footwraps e Cobra Bo (ou Gilded Crescent Moon).",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "As três armas principais antes do BiS: Cobra Bo (terra), Gilded Crescent Moon (energia) e Falcon Sai (físico).",
+     "hunts": [
+      {
+       "m": null,
+       "onde": "Warzone 5",
+       "lv": "250+",
+       "nota": "Do vídeo: META. Depois da Cobra Bo fica muito boa e dá muito profit (Suspicious Device).",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%205%20hunt"
+      },
+      {
+       "m": "Grim Reaper",
+       "onde": "Grim Reapers (Drefia e Oramond)",
+       "lv": "270+",
+       "nota": "Do vídeo: META de XP a partir do 270 com Lion Claws. Use gema de vida para não tomar hit forte.",
+       "exp": 5500,
+       "hp": 3900,
+       "img": "img/monstros/grim-reaper.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20grim%20reaper%20hunt"
+      },
+      {
+       "m": "Medusa",
+       "onde": "Medusa Tower e Deeper Banuta",
+       "lv": "250+",
+       "nota": "Do vídeo: boa (XP, profit e bestiary). Deeper Banuta é melhor com level mais alto.",
+       "exp": 4050,
+       "hp": 4500,
+       "img": "img/monstros/medusa.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20medusa%20tower%20hunt"
+      },
+      {
+       "m": "Fury",
+       "onde": "Furies de Oramond",
+       "lv": "250+",
+       "nota": "Do vídeo: boa, mas o acesso precisa de 4 pessoas. Use Lion Claws.",
+       "exp": 3600,
+       "hp": 4100,
+       "img": "img/monstros/fury.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20fury%20oramond%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Monk familiar",
@@ -5535,10 +5784,51 @@
     },
     {
      "faixa": "300–400",
-     "objetivo": null,
+     "objetivo": "Falcon Sai e Mutant Hide Trousers.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Coloque tier 1 no Coned Hat: reduz recarga das magias.",
+     "hunts": [
+      {
+       "m": "White Weretiger",
+       "onde": "White Weretigers",
+       "lv": "300+",
+       "nota": "Do vídeo: boa com a Cobra Bo, melhor ainda na lua cheia.",
+       "exp": 5200,
+       "hp": 6100,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20white%20weretiger%20hunt"
+      },
+      {
+       "m": "Dawnfire Asura",
+       "onde": "Asura Palace",
+       "lv": "300+",
+       "nota": "Do vídeo: XP boa, no limite entre OK e boa.",
+       "exp": 4100,
+       "hp": 2900,
+       "img": "img/monstros/dawnfire-asura.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20asura%20palace%20hunt"
+      },
+      {
+       "m": "Pirate Corsair",
+       "onde": "Piratas (no barco)",
+       "lv": "250+",
+       "nota": "Do vídeo: no barco ela fica boa. Vá logo que pegar a Cobra Bo.",
+       "exp": 350,
+       "hp": 675,
+       "img": "img/monstros/pirate-corsair.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20pirate%20ship%20hunt"
+      },
+      {
+       "m": "Burster Spectre",
+       "onde": "Burster e Gazer Spectres",
+       "lv": "300+",
+       "nota": "Do vídeo: OK entre o 300 e o 400. Antes disso é pesado demais.",
+       "exp": 6000,
+       "hp": 6500,
+       "img": "img/monstros/burster-spectre.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20burster%20spectre%20hunt"
+      }
+     ],
      "magias": [
       {
        "n": "Avatar of Balance",
@@ -5554,18 +5844,110 @@
     },
     {
      "faixa": "400–500",
-     "objetivo": null,
+     "objetivo": "BiS: Soulkamas, Soulgarb, Ethereal Coned Hat, Soulsoles, Merudri Brooch e Ethereal Ring.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "BiS: imbua life, mana e crítico nas armas de 3 slots.",
+     "hunts": [
+      {
+       "m": "True Dawnfire Asura",
+       "onde": "Asura Mirror",
+       "lv": "400+",
+       "nota": "Do vídeo: META. Funciona com Soulkamas e com arma física.",
+       "exp": 7475,
+       "hp": 8500,
+       "img": "img/monstros/true-dawnfire-asura.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20asura%20mirror%20hunt"
+      },
+      {
+       "m": "Mitmah Seer",
+       "onde": "Mitmahs (Iksupan)",
+       "lv": "400+",
+       "nota": "Do vídeo: META. Faça o boss no fim (meio kk de XP com boost); use Prismatic Ring e Necklace.",
+       "exp": 4580,
+       "hp": 4620,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20mitmah%20hunt"
+      },
+      {
+       "m": null,
+       "onde": "Warzone 3",
+       "lv": "450+",
+       "nota": "Do vídeo: META, mas pesada. Muitos itens de weekly task.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%203%20hunt"
+      },
+      {
+       "m": "Cursed Book",
+       "onde": "Biblioteca",
+       "lv": "400+",
+       "nota": "Do vídeo: boa e perto do depot.",
+       "exp": 13345,
+       "hp": 20000,
+       "img": "img/monstros/cursed-book.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20library%20hunt"
+      },
+      {
+       "m": "Ancient Lion Knight",
+       "onde": "Lion Sanctum (Bounac)",
+       "lv": "400+",
+       "nota": "Do vídeo: profit bem constante.",
+       "exp": 8100,
+       "hp": 9100,
+       "img": "img/monstros/ancient-lion-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lion%20sanctum%20hunt"
+      }
+     ],
      "magias": []
     },
     {
      "faixa": "500–600",
-     "objetivo": null,
+     "objetivo": "Sanguine Trousers no 500 e Sanguine Claws no 600.",
      "skill": null,
-     "treino": null,
-     "hunts": [],
+     "treino": "Escolha entre Stag e Soul (botas e armadura): ataque ou defesa.",
+     "hunts": [
+      {
+       "m": "Cobra Vizier",
+       "onde": "Cobra Bastion",
+       "lv": "500+",
+       "nota": "Do vídeo: META, mas perigosa. Melhor com a Soulkamas.",
+       "exp": 7650,
+       "hp": 8500,
+       "img": "img/monstros/cobra-vizier.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cobra%20bastion%20hunt"
+      },
+      {
+       "m": "Frazzlemaw",
+       "onde": "Roshamuul (norte)",
+       "lv": "500+",
+       "nota": "Do vídeo: boa, mas antes do 500 é pesada.",
+       "exp": 3740,
+       "hp": 4100,
+       "img": "img/monstros/frazzlemaw.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20roshamuul%20hunt"
+      },
+      {
+       "m": "Dark Torturer",
+       "onde": "Catacombs",
+       "lv": "500+",
+       "nota": "Do vídeo: com Crypt Spike (físico) fica muito boa.",
+       "exp": 4650,
+       "hp": 7350,
+       "img": "img/monstros/dark-torturer.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20catacombs%20hunt"
+      },
+      {
+       "m": null,
+       "onde": "Inferniarch",
+       "lv": "500+",
+       "nota": "Do vídeo: boa XP e três bestiaries rápidos. Adianta o acesso das Catacombs.",
+       "exp": null,
+       "hp": null,
+       "img": null,
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20inferniarch%20hunt"
+      }
+     ],
      "magias": []
     }
    ]

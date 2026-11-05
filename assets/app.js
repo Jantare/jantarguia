@@ -270,7 +270,7 @@
         <div class="rbox"><span class="how-t">Dicas</span><ul>${IMBU.dicas.map(d => `<li>${esc(d)}</li>`).join("")}</ul></div></div>
         <a class="hrow-yt" href="${esc(IMBU.video)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver o guia em vídeo</a>
       </section>
-      <p class="foot-note imbu-leg">Nas receitas, <span class="imbu-it novo"><b>5x</b> item</span> em dourado é o que entra de novo naquele nível; os apagados você já precisava no nível anterior.</p>
+      <p class="foot-note imbu-leg">Cada nível mostra todos os itens que você precisa juntar. A etiqueta "novo" marca o item que entra a partir daquele nível.</p>
       ${groups.map(g => `<section class="tier"><div class="tier-h"><span class="lvl-badge">${esc(g)}</span><span class="rule"></span></div>
         <div class="grid">${IMBU.lista.filter(x => x.grupo === g).map(x => `<article class="card imbu">
           <div class="q-head"><span class="name">${esc(x.nome)}</span><span class="req">${esc(x.efeito)}</span></div>

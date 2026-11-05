@@ -295,7 +295,7 @@ a.name:hover{color:var(--gold)}
   .tab{padding:8px 8px 10px}
 }
 .imbu-items{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
-.imbu-it{font-size:.85rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;line-height:1.35}
+.imbu-it{font-size:.85rem;color:var(--ink);background:var(--gold-soft);border:1px solid var(--gold-2);border-radius:6px;padding:2px 8px;line-height:1.35}
 .imbu-it b{color:var(--gold);font-family:var(--display);margin-right:2px}
-.imbu-it.novo{border-color:var(--gold-2);background:var(--gold-soft)}
-.imbu-it:not(.novo){opacity:.75}
+.imbu-it.novo::after{content:"novo";margin-left:6px;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--bg);background:var(--gold);border-radius:4px;padding:0 4px;vertical-align:1px}
+.imbu-lv > div:first-child .imbu-it.novo::after{display:none}

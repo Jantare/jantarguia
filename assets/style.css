@@ -306,3 +306,9 @@ a.name:hover{color:var(--gold)}
 .rec-note{font-size:.84rem;color:var(--muted)}
 .imbu-it.gt{background:var(--slot);border-style:dashed;color:var(--muted)}
 .card.imbu,.tier{scroll-margin-top:130px}
+.rec-cost{flex-direction:row;flex-wrap:wrap;gap:6px}
+.rec-chip{display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:var(--ink);background:var(--bg);border:1px solid var(--gold-2);border-radius:6px;padding:3px 8px;font-size:.86rem}
+.rec-chip:hover{background:var(--gold-soft)}
+.rec-chip b{color:var(--gold)}
+.gt-n{font-weight:600}
+.rec-see{color:var(--muted)}

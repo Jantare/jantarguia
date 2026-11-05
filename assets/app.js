@@ -255,11 +255,13 @@
 
   const GT = { Strike: 6, Vampirism: 6, Void: 6 };
   function recCost(txt) {
+    const id = n => n.replace(/ /g, "-");
     const found = IMBU.lista.filter(x => new RegExp("\\b" + x.nome + "\\b").test(txt));
     const prot = /proteção do elemento/i.test(txt);
-    return (found.length || prot) ? `<div class="rec-cost">${found.map(x => `<div class="rec-line"><a href="#imbu-${esc(x.nome.replace(/ /g, "-"))}" data-imbu-go="${esc(x.nome.replace(/ /g, "-"))}">${esc(x.nome)}</a>
-      <span class="imbu-items">${x.itens[2].map(t => { const m = t.match(/^(\d+) (.+)$/); return `<span class="imbu-it"><b>${esc(m[1])}x</b> ${esc(m[2])}</span>`; }).join("")}${GT[x.nome] ? `<span class="imbu-it gt">ou <b>${GT[x.nome]}</b> Gold Tokens</span>` : ""}</span></div>`).join("")}
-      ${prot ? `<div class="rec-line"><a href="#imbu-Proteção" data-imbu-go="grp-Proteção">Proteções elementais</a><span class="rec-note">Fogo: Dragon Hide · Terra: Snake Skin · Gelo: Quara Scale · Energia: Cloud Fabric · Morte: Lich Shroud · Sagrado: Demon Presence</span></div>` : ""}</div>` : "";
+    if (!found.length && !prot) return "";
+    const PROT = [["Fogo", "Dragon Hide"], ["Terra", "Snake Skin"], ["Gelo", "Quara Scale"], ["Energia", "Cloud Fabric"], ["Morte", "Lich Shroud"], ["Sagrado", "Demon Presence"]];
+    return `<div class="rec-cost">${found.map(x => `<a class="rec-chip" href="#" data-imbu-go="${esc(id(x.nome))}"><b>${esc(x.nome)}</b>${GT[x.nome] ? `<span class="gt-n">${GT[x.nome]} Gold Tokens</span>` : `<span class="rec-see">ver receita →</span>`}</a>`).join("")}
+      ${prot ? PROT.map(([el, n]) => `<a class="rec-chip" href="#" data-imbu-go="${esc(id(n))}"><b>${esc(el)}</b><span class="rec-see">${esc(n)} →</span></a>`).join("") : ""}</div>`;
   }
 
   function imbuView() {
@@ -273,7 +275,7 @@
         <div class="resumo-h"><span class="path-kicker">Recomendado por vocação</span><h2>${esc(r.nome)}</h2></div>
         <div class="chips">${vocs.map(([id, v]) => `<button class="chip" type="button" data-imbu="${id}" aria-pressed="${id === cur}">${esc(v.nome)}</button>`).join("")}</div>
         <div class="imbu-rec">${r.slots.map(([sl, im, tip]) => `<div class="rbox"><span class="how-t">${esc(sl)}</span><b class="imbu-what">${esc(im)}</b>${tip ? `<p>${esc(tip)}</p>` : ""}${recCost(im)}</div>`).join("")}</div>
-        <p class="foot-note">Custo mostrado: nível Powerful (mais 250k de taxa na máquina). Strike, Vampirism e Void também saem por Gold Tokens no NPC.</p>
+        <p class="foot-note">Gold Tokens: preço do Powerful no NPC (só Strike, Vampirism e Void). Nos outros, clique para ver a receita com os itens.</p>
       </section>
       <section class="home-block"><h2 class="block-h">Como funciona</h2>
         <div class="imbu-info"><div class="rbox"><span class="how-t">Custo na máquina</span><ul>${IMBU.custos.map(([a, b]) => `<li><b>${esc(a)}:</b> ${esc(b)}</li>`).join("")}</ul></div>

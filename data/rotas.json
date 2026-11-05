@@ -1,0 +1,4238 @@
+{
+ "quests": {
+  "8–20": [
+   "The Pilgrimage of Ashes",
+   "Killing in the Name of...",
+   "The Postman Missions",
+   "The Barbarian Test Quest"
+  ],
+  "20–35": [
+   "The Travelling Trader Quest",
+   "The Thieves Guild Quest",
+   "The Svargrond Arena"
+  ],
+  "35–60": [
+   "The Djinn War",
+   "The Shattered Isles",
+   "Blood Brothers Quest",
+   "The Ice Islands Quest",
+   "The Explorer Society Quest"
+  ],
+  "60–100": [
+   "The Ape City",
+   "The New Frontier Quest",
+   "Rathleton Citizenship",
+   "Wrath of the Emperor",
+   "Bigfoot's Burden Quest",
+   "The Pits of Inferno Quest"
+  ],
+  "100–150": [
+   "The Annihilator Quest",
+   "The Inquisition Quest",
+   "Dangerous Depths Quest",
+   "Grimvale"
+  ],
+  "150–200": [
+   "Ferumbras' Ascension",
+   "Heart of Destruction",
+   "Within the Tides"
+  ],
+  "200–300": [
+   "The Dream Courts",
+   "Opticording Sphere",
+   "Feaster of Souls",
+   "Grave Danger",
+   "The Order of the Cobra"
+  ],
+  "300–400": [
+   "The Secret Library",
+   "The Order of the Lion",
+   "Forgotten Knowledge"
+  ],
+  "400–500": [
+   "Soul War Quest",
+   "Primal Ordeal Quest"
+  ],
+  "500–600": [
+   "Rotten Blood Quest"
+  ]
+ },
+ "vocacoes": {
+  "knight": {
+   "pronta": true,
+   "resumo": {
+    "titulo": "Knight de machado",
+    "papel": "Linha de frente: puxa os monstros e segura o dano. Do lvl 70 em diante usa machado de duas mãos.",
+    "skills": "Axe Fighting e Shielding. Magic level baixo, não precisa treinar.",
+    "imbuements": [
+     "Arma: crítico (Strike), life leech (Vampirism) e mana leech (Void)",
+     "Armadura: proteção do elemento da hunt",
+     "Capacete: mana leech ou skill de Axe",
+     "Botas: velocidade (Swiftness)"
+    ],
+    "rtc": "No RTC: Exura Med Ico com uns 30% de vida junto da supreme potion; mana potion quando a mana cair.",
+    "linha": [
+     [
+      "8",
+      "Set básico + Zaoan Helmet e Legs"
+     ],
+     [
+      "30",
+      "Beastslayer Axe"
+     ],
+     [
+      "70",
+      "Rift Lance + Guardian Boots"
+     ],
+     [
+      "120",
+      "Prismatic Armor"
+     ],
+     [
+      "180",
+      "Phantasmal Axe (fogo)"
+     ],
+     [
+      "220",
+      "Cobra Axe (gelo)"
+     ],
+     [
+      "300",
+      "Falcon Battleaxe + Dauntless + Terra Helmet T3"
+     ],
+     [
+      "400",
+      "Soulbiter + Spiritthorn"
+     ],
+     [
+      "500",
+      "Sanguine Legs"
+     ]
+    ],
+    "fonte": "Ordem de itens baseada no vídeo de Pacifista Tibiano sobre Elite Knight no RubinOT (2026), adaptada para o HeroOT.",
+    "video": "https://www.youtube.com/watch?v=4DM2PSFHM7s"
+   },
+   "etapas": [
+    {
+     "faixa": "8–20",
+     "objetivo": "Sair de Rookgaard ou da ilha inicial, montar o set básico e já imbuir.",
+     "treino": "Foque em Axe Fighting e Shielding. Caçando com escudo, o Shielding sobe sozinho; deslogue treinando offline para não perder tempo.",
+     "hunts": [
+      {
+       "m": "Rotworm",
+       "onde": "Caves de rotworm (Thais, Darashia, Ab'Dendriel)",
+       "lv": "8+",
+       "nota": "Primeira hunt: XP e gold constantes, dano baixo.",
+       "exp": 40,
+       "hp": 65,
+       "img": "img/monstros/rotworm.gif"
+      },
+      {
+       "m": "Troll",
+       "onde": "Ao redor de Thais e Carlin",
+       "lv": "8+",
+       "nota": "Bom para upar skill no começo.",
+       "exp": 20,
+       "hp": 50,
+       "img": "img/monstros/troll.gif"
+      },
+      {
+       "m": "Minotaur",
+       "onde": "Mintwallin e minotauros ao norte de Thais",
+       "lv": "12+",
+       "nota": "Mais XP, comece com os archers longe.",
+       "exp": 50,
+       "hp": 100,
+       "img": "img/monstros/minotaur.gif"
+      }
+     ],
+     "magias": [
+      {
+       "n": "Bruise Bane",
+       "w": "exura infir ico",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Graham",
+        "Gregor"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Lesser Front Sweep",
+       "w": "exori infir min",
+       "lv": 1,
+       "p": 0,
+       "prem": true,
+       "npc": [
+        "Asrak",
+        "Graham",
+        "Gregor"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Find Person",
+       "w": "exiva",
+       "lv": 8,
+       "p": 80,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light",
+       "w": "utevo lux",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Wound Cleansing",
+       "w": "exura ico",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Duria",
+        "Graham"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Magic Rope",
+       "w": "exani tera",
+       "lv": 9,
+       "p": 200,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "support"
+      },
+      {
+       "n": "Cure Poison",
+       "w": "exana pox",
+       "lv": 10,
+       "p": 150,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Levitate",
+       "w": "exani hur",
+       "lv": 12,
+       "p": 500,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Great Light",
+       "w": "utevo gran lux",
+       "lv": 13,
+       "p": 500,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Haste",
+       "w": "utani hur",
+       "lv": 14,
+       "p": 600,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "support"
+      },
+      {
+       "n": "Brutal Strike",
+       "w": "exori ico",
+       "lv": 16,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "20–35",
+     "objetivo": "Pegar a Beastslayer Axe no 30 e o set Zaoan (capacete e pernas).",
+     "treino": "Continue em Axe e Shielding. Use o sistema de treino do servidor nas pausas.",
+     "hunts": [
+      {
+       "m": "Cyclops",
+       "onde": "Cyclopolis (Edron) e Mount Sternum (Thais)",
+       "lv": "20+",
+       "nota": "Clássica de Knight: aguenta bem e dá loot.",
+       "exp": 150,
+       "hp": 260,
+       "img": "img/monstros/cyclops.gif"
+      },
+      {
+       "m": "Dwarf Soldier",
+       "onde": "Minas de Kazordoon",
+       "lv": "20+",
+       "nota": "Fácil e perto do depot.",
+       "exp": 70,
+       "hp": 135,
+       "img": "img/monstros/dwarf-soldier.gif"
+      },
+      {
+       "m": "Orc Berserker",
+       "onde": "Orc Fortress",
+       "lv": "30+",
+       "nota": "Muita XP para quem já tem Beastslayer Axe.",
+       "exp": 195,
+       "hp": 210,
+       "img": "img/monstros/orc-berserker.gif"
+      }
+     ],
+     "magias": [
+      {
+       "n": "Charge",
+       "w": "utani tempo hur",
+       "lv": 25,
+       "p": 1300,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "support"
+      },
+      {
+       "n": "Find Fiend",
+       "w": "exiva moe res",
+       "lv": 25,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Whirlwind Throw",
+       "w": "exori hur",
+       "lv": 28,
+       "p": 1500,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Train Party",
+       "w": "utito mas sio",
+       "lv": 32,
+       "p": 4000,
+       "prem": true,
+       "npc": [
+        "Eliza"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Groundshaker",
+       "w": "exori mas",
+       "lv": 33,
+       "p": 1500,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "35–60",
+     "objetivo": "Upar em dragões e juntar gold para o pulo do lvl 70.",
+     "treino": "Axe chega perto de 70. Use Exori em box para treinar e matar mais rápido.",
+     "hunts": [
+      {
+       "m": "Dragon",
+       "onde": "Dragon lairs de Darashia e Thais",
+       "lv": "40+",
+       "nota": "A hunt do Knight nessa faixa. Use proteção de fogo.",
+       "exp": 700,
+       "hp": 1000,
+       "img": "img/monstros/dragon.gif"
+      },
+      {
+       "m": "Ancient Scarab",
+       "onde": "Tumbas de Ankrahmun",
+       "lv": "40+",
+       "nota": "Boa XP e pouco dano.",
+       "exp": 720,
+       "hp": 1000,
+       "img": "img/monstros/ancient-scarab.gif"
+      },
+      {
+       "m": "Wyvern",
+       "onde": "Wyvern Mountain (Edron) e Ankrahmun",
+       "lv": "40+",
+       "nota": "Leve antídoto ou Cure Poison.",
+       "exp": 515,
+       "hp": 795,
+       "img": "img/monstros/wyvern.gif"
+      },
+      {
+       "m": "Bonebeast",
+       "onde": "Drefia (Darashia)",
+       "lv": "45+",
+       "nota": "Junta em box com Exori.",
+       "exp": 580,
+       "hp": 515,
+       "img": "img/monstros/bonebeast.gif"
+      }
+     ],
+     "magias": [
+      {
+       "n": "Berserk",
+       "w": "exori",
+       "lv": 35,
+       "p": 2500,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Inflict Wound",
+       "w": "utori kor",
+       "lv": 40,
+       "p": 2500,
+       "prem": false,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Cure Bleeding",
+       "w": "exana kor",
+       "lv": 45,
+       "p": 2500,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Graham"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Recovery",
+       "w": "utura",
+       "lv": 50,
+       "p": 4000,
+       "prem": false,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Graham"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Protector",
+       "w": "utamo tempo",
+       "lv": 55,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "60–100",
+     "objetivo": "No 70: Guardian Boots e Rift Lance com 3 imbuements (crítico, life e mana).",
+     "treino": "Com a Rift Lance (duas mãos), o Shielding para de subir caçando. Treine Shielding offline e foque o Axe nas hunts.",
+     "hunts": [
+      {
+       "m": "Hero",
+       "onde": "Hero Cave (Edron)",
+       "lv": "60+",
+       "nota": "Muita XP, puxe em box pequena.",
+       "exp": 1200,
+       "hp": 1400,
+       "img": "img/monstros/hero.gif"
+      },
+      {
+       "m": "Mutated Tiger",
+       "onde": "Alchemist Quarter (Yalahar)",
+       "lv": "60+",
+       "nota": "Rápido de matar com a Rift Lance.",
+       "exp": 750,
+       "hp": 1100,
+       "img": "img/monstros/mutated-tiger.gif"
+      },
+      {
+       "m": "Lizard Legionnaire",
+       "onde": "Lizard City (Zao)",
+       "lv": "70+",
+       "nota": "Dropa itens Zaoan.",
+       "exp": 1100,
+       "hp": 1400,
+       "img": "img/monstros/lizard-legionnaire.gif"
+      },
+      {
+       "m": "Werewolf",
+       "onde": "Grimvale e Darashia",
+       "lv": "80+",
+       "nota": "Ótima XP. Precisa do acesso de Grimvale.",
+       "exp": 1900,
+       "hp": 1955,
+       "img": "img/monstros/werewolf.gif"
+      }
+     ],
+     "magias": [
+      {
+       "n": "Blood Rage",
+       "w": "utito tempo",
+       "lv": 60,
+       "p": 8000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "support"
+      },
+      {
+       "n": "Front Sweep",
+       "w": "exori min",
+       "lv": 70,
+       "p": 4000,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Intense Wound Cleansing",
+       "w": "exura gran ico",
+       "lv": 80,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Fierce Berserk",
+       "w": "exori gran",
+       "lv": 90,
+       "p": 7500,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "100–150",
+     "objetivo": "No 120: Prismatic Armor, que fecha o set básico e dura muito.",
+     "treino": "Axe 80+. Comece a imbuir também a armadura (proteção do elemento da hunt).",
+     "hunts": [
+      {
+       "m": "Lizard Chosen",
+       "onde": "Temple of Equilibrium (Zao)",
+       "lv": "100+",
+       "nota": "Dropa Zaoan Legs e Zaoan Helmet.",
+       "exp": 2200,
+       "hp": 3050,
+       "img": "img/monstros/lizard-chosen.gif"
+      },
+      {
+       "m": "Glooth Bandit",
+       "onde": "Glooth Factory (Oramond)",
+       "lv": "100+",
+       "nota": "Também dropa a Beastslayer Axe.",
+       "exp": 2000,
+       "hp": 2600,
+       "img": "img/monstros/glooth-bandit.gif"
+      },
+      {
+       "m": "Frost Dragon",
+       "onde": "Okolnir (Svargrond)",
+       "lv": "110+",
+       "nota": "Use proteção de gelo.",
+       "exp": 2100,
+       "hp": 1800,
+       "img": "img/monstros/frost-dragon.gif"
+      },
+      {
+       "m": "Werebear",
+       "onde": "Grimvale",
+       "lv": "110+",
+       "nota": "Junto com wereboars e werebadgers.",
+       "exp": 2100,
+       "hp": 2400,
+       "img": "img/monstros/werebear.gif"
+      }
+     ],
+     "magias": [
+      {
+       "n": "Intense Recovery",
+       "w": "utura gran",
+       "lv": 100,
+       "p": 10000,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Graham"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Annihilation",
+       "w": "exori gran ico",
+       "lv": 110,
+       "p": 20000,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "150–200",
+     "objetivo": "Primeira arma elemental (Phantasmal Axe), Ornate Legs, Depth Calcei e Red Plasma.",
+     "treino": "Monte uma arma por elemento e imbua cada uma. Bestiary começa a dar bônus bons.",
+     "hunts": [
+      {
+       "m": "Werehyaena",
+       "onde": "Grimvale (andares de baixo)",
+       "lv": "150+",
+       "nota": "Com a Phantasmal Axe (fogo) rende muito.",
+       "exp": 2200,
+       "hp": 2700,
+       "img": "img/monstros/werehyaena.gif"
+      },
+      {
+       "m": "Ghastly Dragon",
+       "onde": "Razachai (Zao)",
+       "lv": "150+",
+       "nota": "Dropa Guardian Boots e Zaoan Helmet.",
+       "exp": 4600,
+       "hp": 7800,
+       "img": "img/monstros/ghastly-dragon.gif"
+      },
+      {
+       "m": "Dawnfire Asura",
+       "onde": "Asura Palace",
+       "lv": "170+",
+       "nota": "Box grande em time; solo, puxe aos poucos.",
+       "exp": 4100,
+       "hp": 2900,
+       "img": "img/monstros/dawnfire-asura.gif"
+      }
+     ],
+     "magias": [
+      {
+       "n": "Chivalrous Challenge",
+       "w": "exeta amp res",
+       "lv": 150,
+       "p": 250000,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "200–300",
+     "objetivo": "Uma arma por elemento (Cobra Axe, Lion Axe) e o set intermediário (Cobra Hood, Stoic Iks Culet).",
+     "treino": "Axe 100+. Faça charms (Low Blow e Parry) e o Wheel of Destiny.",
+     "hunts": [
+      {
+       "m": "Frazzlemaw",
+       "onde": "Roshamuul",
+       "lv": "200+",
+       "nota": "Junto com Silencers. Use proteção de morte.",
+       "exp": 3740,
+       "hp": 4100,
+       "img": "img/monstros/frazzlemaw.gif"
+      },
+      {
+       "m": "Werelion",
+       "onde": "Grimvale e Darashia",
+       "lv": "200+",
+       "nota": "Muito loot. Leve a Cobra Axe.",
+       "exp": 2200,
+       "hp": 2800,
+       "img": "img/monstros/werelion.gif"
+      },
+      {
+       "m": "Cobra Assassin",
+       "onde": "Cobra Bastion",
+       "lv": "250+",
+       "nota": "Requer a quest The Order of the Cobra.",
+       "exp": 6980,
+       "hp": 8200,
+       "img": "img/monstros/cobra-assassin.gif"
+      },
+      {
+       "m": "Venerable Girtablilu",
+       "onde": "Kilmaresh (Issavi)",
+       "lv": "250+",
+       "nota": "XP alta, dano físico e de terra.",
+       "exp": 5300,
+       "hp": 8500,
+       "img": "img/monstros/venerable-girtablilu.gif"
+      }
+     ],
+     "magias": [
+      {
+       "n": "Summon Knight Familiar",
+       "w": "utevo gran res eq",
+       "lv": 200,
+       "p": 50000,
+       "prem": false,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "300–400",
+     "objetivo": "Falcon Battleaxe, Dauntless Dragon Scale e Terra Helmet T3.",
+     "treino": "Hora dos tiers: Terra Helmet T3 primeiro. Mantenha o Axe subindo com exercise weapons.",
+     "hunts": [
+      {
+       "m": "Falcon Knight",
+       "onde": "Falcon Bastion (Edron)",
+       "lv": "300+",
+       "nota": "Dropa o set Falcon. Precisa da quest de acesso.",
+       "exp": 6300,
+       "hp": 9000,
+       "img": "img/monstros/falcon-knight.gif"
+      },
+      {
+       "m": "Ancient Lion Knight",
+       "onde": "Lion Sanctum (Bounac)",
+       "lv": "300+",
+       "nota": "Dropa a Lion Axe.",
+       "exp": 8100,
+       "hp": 9100,
+       "img": "img/monstros/ancient-lion-knight.gif"
+      },
+      {
+       "m": "Hellflayer",
+       "onde": "Ferumbras' Citadel",
+       "lv": "350+",
+       "nota": "Dano alto: use a Dauntless e proteção de fogo.",
+       "exp": 11720,
+       "hp": 14000,
+       "img": "img/monstros/hellflayer.gif"
+      },
+      {
+       "m": "Juggernaut",
+       "onde": "Pits of Inferno / Roshamuul",
+       "lv": "350+",
+       "nota": "Muita XP para Knight bem equipado.",
+       "exp": 11200,
+       "hp": 18000,
+       "img": "img/monstros/juggernaut.gif"
+      }
+     ],
+     "magias": [
+      {
+       "n": "Avatar of Steel",
+       "w": "uteta res eq",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": true,
+       "g": "support"
+      },
+      {
+       "n": "Executioner's Throw",
+       "w": "exori amp kor",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Fair Wound Cleansing",
+       "w": "exura med ico",
+       "lv": 300,
+       "p": 500000,
+       "prem": true,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "healing"
+      }
+     ]
+    },
+    {
+     "faixa": "400–500",
+     "objetivo": "Soulbiter (ou uma arma de Crypt) e o set Spiritthorn.",
+     "treino": "Exercise weapons todo dia. O Wheel começa a fazer muita diferença.",
+     "hunts": [
+      {
+       "m": "Bony Sea Devil",
+       "onde": "Soul War (Ebb and Flow)",
+       "lv": "400+",
+       "nota": "Começo do Soul War. Use a Soulbiter assim que tiver.",
+       "exp": 19470,
+       "hp": 24000,
+       "img": "img/monstros/bony-sea-devil.gif"
+      },
+      {
+       "m": "Cloak of Terror",
+       "onde": "Soul War",
+       "lv": "400+",
+       "nota": "Muito dano de morte.",
+       "exp": 19700,
+       "hp": 28000,
+       "img": "img/monstros/cloak-of-terror.gif"
+      },
+      {
+       "m": "Brachiodemon",
+       "onde": "Soul War (áreas do inferno)",
+       "lv": "450+",
+       "nota": "Junto com Infernal Demons. Vá em time no começo.",
+       "exp": 15770,
+       "hp": 25000,
+       "img": "img/monstros/brachiodemon.gif"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "500–600",
+     "objetivo": "Sanguine Legs e itens com tier alto: o BiS do Knight.",
+     "treino": "Foco em BiS: Sanguine Legs e Spiritthorn Helmet T3+. Tiers mais altos nos itens principais.",
+     "hunts": [
+      {
+       "m": "Bloated Man-Maggot",
+       "onde": "Rotten Blood",
+       "lv": "500+",
+       "nota": "Áreas do Rotten Blood: o loot paga o Sanguine.",
+       "exp": 21570,
+       "hp": 31700,
+       "img": null
+      },
+      {
+       "m": "Mycobiontic Beetle",
+       "onde": "Rotten Blood (Jaded Roots)",
+       "lv": "500+",
+       "nota": "Hunt forte para Knight com Spiritthorn.",
+       "exp": 21175,
+       "hp": 30200,
+       "img": null
+      },
+      {
+       "m": "Oozing Corpus",
+       "onde": "Rotten Blood",
+       "lv": "550+",
+       "nota": "Use proteção de morte e terra.",
+       "exp": 20600,
+       "hp": 28700,
+       "img": null
+      }
+     ],
+     "magias": []
+    }
+   ]
+  },
+  "paladin": {
+   "pronta": false,
+   "resumo": null,
+   "etapas": [
+    {
+     "faixa": "8–20",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Arrow Call",
+       "w": "exevo infir con",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Dario",
+        "Elane"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Lesser Ethereal Spear",
+       "w": "exori infir con",
+       "lv": 1,
+       "p": 0,
+       "prem": true,
+       "npc": [
+        "Asrak",
+        "Elane",
+        "Irea"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Magic Patch",
+       "w": "exura infir",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Find Person",
+       "w": "exiva",
+       "lv": 8,
+       "p": 80,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light",
+       "w": "utevo lux",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light Healing",
+       "w": "exura",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Magic Rope",
+       "w": "exani tera",
+       "lv": 9,
+       "p": 200,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cure Poison",
+       "w": "exana pox",
+       "lv": 10,
+       "p": 150,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Levitate",
+       "w": "exani hur",
+       "lv": 12,
+       "p": 500,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Conjure Arrow",
+       "w": "exevo con",
+       "lv": 13,
+       "p": 450,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Dario",
+        "Elane"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Great Light",
+       "w": "utevo gran lux",
+       "lv": 13,
+       "p": 500,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Haste",
+       "w": "utani hur",
+       "lv": 14,
+       "p": 600,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Conjure Poisoned Arrow",
+       "w": "exevo con pox",
+       "lv": 16,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Conjure Bolt",
+       "w": "exevo con mort",
+       "lv": 17,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Destroy Field Rune",
+       "w": "adito grav",
+       "lv": 17,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "20–35",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Blank Rune",
+       "w": "adori blank",
+       "lv": 20,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Intense Healing",
+       "w": "exura gran",
+       "lv": 20,
+       "p": 350,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Disintegrate Rune",
+       "w": "adito tera",
+       "lv": 21,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Ethereal Spear",
+       "w": "exori con",
+       "lv": 23,
+       "p": 1100,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Conjure Sniper Arrow",
+       "w": "exevo con hur",
+       "lv": 24,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Conjure Explosive Arrow",
+       "w": "exevo con flam",
+       "lv": 25,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Dario",
+        "Elane"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Find Fiend",
+       "w": "exiva moe res",
+       "lv": 25,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cancel Invisibility",
+       "w": "exana ina",
+       "lv": 26,
+       "p": 1600,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Holy Missile Rune",
+       "w": "adori san",
+       "lv": 27,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Protect Party",
+       "w": "utamo mas sio",
+       "lv": 32,
+       "p": 4000,
+       "prem": true,
+       "npc": [
+        "Eliza"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Conjure Piercing Bolt",
+       "w": "exevo con grav",
+       "lv": 33,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "35–60",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Divine Healing",
+       "w": "exura san",
+       "lv": 35,
+       "p": 3000,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Dario",
+        "Elane"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Divine Missile",
+       "w": "exori san",
+       "lv": 40,
+       "p": 1800,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Enchant Spear",
+       "w": "exeta con",
+       "lv": 45,
+       "p": 2000,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Divine Caldera",
+       "w": "exevo mas san",
+       "lv": 50,
+       "p": 3000,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Recovery",
+       "w": "utura",
+       "lv": 50,
+       "p": 4000,
+       "prem": false,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Graham"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Swift Foot",
+       "w": "utamo tempo san",
+       "lv": 55,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "60–100",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Salvation",
+       "w": "exura gran san",
+       "lv": 60,
+       "p": 8000,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Sharpshooter",
+       "w": "utito tempo san",
+       "lv": 60,
+       "p": 8000,
+       "prem": false,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Holy Flash",
+       "w": "utori san",
+       "lv": 70,
+       "p": 7500,
+       "prem": false,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Cure Curse",
+       "w": "exana mort",
+       "lv": 80,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Strong Ethereal Spear",
+       "w": "exori gran con",
+       "lv": 90,
+       "p": 10000,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "100–150",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Intense Recovery",
+       "w": "utura gran",
+       "lv": 100,
+       "p": 10000,
+       "prem": true,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Graham"
+       ],
+       "ess": true,
+       "g": "healing"
+      }
+     ]
+    },
+    {
+     "faixa": "150–200",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Conjure Royal Star",
+       "w": "exevo gran con grav",
+       "lv": 150,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "200–300",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Summon Paladin Familiar",
+       "w": "utevo gran res sac",
+       "lv": 200,
+       "p": 50000,
+       "prem": false,
+       "npc": [
+        "Dario",
+        "Ethan",
+        "Hawkyr"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Divine Dazzle",
+       "w": "exana amp res",
+       "lv": 250,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "300–400",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Avatar of Light",
+       "w": "uteta res sac",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Divine Empowerment",
+       "w": "utevo grav san",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Divine Grenade",
+       "w": "exevo tempo mas san",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "400–500",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    },
+    {
+     "faixa": "500–600",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    }
+   ]
+  },
+  "sorcerer": {
+   "pronta": false,
+   "resumo": null,
+   "etapas": [
+    {
+     "faixa": "8–20",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Buzz",
+       "w": "exori infir vis",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Chatterbone",
+        "Etzel"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Light Stone Shower Rune",
+       "w": "adori infir mas tera",
+       "lv": 1,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Lightest Missile Rune",
+       "w": "adori infir vis",
+       "lv": 1,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Magic Patch",
+       "w": "exura infir",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Scorch",
+       "w": "exevo infir flam hur",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Chatterbone",
+        "Etzel"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Apprentice's Strike",
+       "w": "exori min flam",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Find Person",
+       "w": "exiva",
+       "lv": 8,
+       "p": 80,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light",
+       "w": "utevo lux",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light Healing",
+       "w": "exura",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Magic Rope",
+       "w": "exani tera",
+       "lv": 9,
+       "p": 200,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cure Poison",
+       "w": "exana pox",
+       "lv": 10,
+       "p": 150,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Energy Strike",
+       "w": "exori vis",
+       "lv": 12,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Levitate",
+       "w": "exani hur",
+       "lv": 12,
+       "p": 500,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Great Light",
+       "w": "utevo gran lux",
+       "lv": 13,
+       "p": 500,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Terra Strike",
+       "w": "exori tera",
+       "lv": 13,
+       "p": 800,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Cancel Magic Shield",
+       "w": "exana vita",
+       "lv": 14,
+       "p": 450,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Flame Strike",
+       "w": "exori flam",
+       "lv": 14,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Haste",
+       "w": "utani hur",
+       "lv": 14,
+       "p": 600,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Magic Shield",
+       "w": "utamo vita",
+       "lv": 14,
+       "p": 450,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Poison Field Rune",
+       "w": "adevo grav pox",
+       "lv": 14,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Fire Field Rune",
+       "w": "adevo grav flam",
+       "lv": 15,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Ice Strike",
+       "w": "exori frigo",
+       "lv": 15,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Light Magic Missile Rune",
+       "w": "adori min vis",
+       "lv": 15,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Death Strike",
+       "w": "exori mort",
+       "lv": 16,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Barnabas Dee",
+        "Malunga",
+        "Myra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Destroy Field Rune",
+       "w": "adito grav",
+       "lv": 17,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Energy Field Rune",
+       "w": "adevo grav vis",
+       "lv": 18,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Fire Wave",
+       "w": "exevo flam hur",
+       "lv": 18,
+       "p": 850,
+       "prem": true,
+       "npc": [
+        "Barnabas Dee",
+        "Chatterbone",
+        "Etzel"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "20–35",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Blank Rune",
+       "w": "adori blank",
+       "lv": 20,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Intense Healing",
+       "w": "exura gran",
+       "lv": 20,
+       "p": 350,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Strong Haste",
+       "w": "utani gran hur",
+       "lv": 20,
+       "p": 1300,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Disintegrate Rune",
+       "w": "adito tera",
+       "lv": 21,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Creature Illusion",
+       "w": "utevo res ina",
+       "lv": 23,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Energy Beam",
+       "w": "exevo vis lux",
+       "lv": 23,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Chatterbone",
+        "Etzel"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Stalagmite Rune",
+       "w": "adori tera",
+       "lv": 24,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Find Fiend",
+       "w": "exiva moe res",
+       "lv": 25,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Heavy Magic Missile Rune",
+       "w": "adori vis",
+       "lv": 25,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Summon Creature",
+       "w": "utevo res",
+       "lv": 25,
+       "p": 2000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Ignite",
+       "w": "utori flam",
+       "lv": 26,
+       "p": 1500,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Malunga",
+        "Myra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Ultimate Light",
+       "w": "utevo vis lux",
+       "lv": 26,
+       "p": 1600,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Animate Dead Rune",
+       "w": "adana mort",
+       "lv": 27,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Fire Bomb Rune",
+       "w": "adevo mas flam",
+       "lv": 27,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Fireball Rune",
+       "w": "adori flam",
+       "lv": 27,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Soulfire Rune",
+       "w": "adevo res flam",
+       "lv": 27,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Thunderstorm Rune",
+       "w": "adori mas vis",
+       "lv": 28,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Great Energy Beam",
+       "w": "exevo gran vis lux",
+       "lv": 29,
+       "p": 1800,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Chatterbone",
+        "Etzel"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Poison Wall Rune",
+       "w": "adevo mas grav pox",
+       "lv": 29,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Great Fireball Rune",
+       "w": "adori mas flam",
+       "lv": 30,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Ultimate Healing",
+       "w": "exura vita",
+       "lv": 30,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Explosion Rune",
+       "w": "adevo mas hur",
+       "lv": 31,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Enchant Party",
+       "w": "utori mas sio",
+       "lv": 32,
+       "p": 4000,
+       "prem": true,
+       "npc": [
+        "Eliza"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Magic Wall Rune",
+       "w": "adevo grav tera",
+       "lv": 32,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Fire Wall Rune",
+       "w": "adevo mas grav flam",
+       "lv": 33,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Electrify",
+       "w": "utori vis",
+       "lv": 34,
+       "p": 2500,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Gundralph",
+        "Malunga"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "35–60",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Invisibility",
+       "w": "utana vid",
+       "lv": 35,
+       "p": 2000,
+       "prem": false,
+       "npc": [
+        "Chatterbone",
+        "Eroth",
+        "Etzel"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Energy Bomb Rune",
+       "w": "adevo mas vis",
+       "lv": 37,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Energy Wave",
+       "w": "exevo vis hur",
+       "lv": 38,
+       "p": 2500,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Chatterbone",
+        "Etzel"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Great Fire Wave",
+       "w": "exevo gran flam hur",
+       "lv": 38,
+       "p": 25000,
+       "prem": true,
+       "npc": [
+        "Barnabas Dee",
+        "Gundralph",
+        "Malunga"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Conjure Wand of Darkness",
+       "w": "exevo gran mort",
+       "lv": 41,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Energy Wall Rune",
+       "w": "adevo mas grav vis",
+       "lv": 41,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Sudden Death Rune",
+       "w": "adori gran mort",
+       "lv": 45,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Lightning",
+       "w": "exori amp vis",
+       "lv": 55,
+       "p": 5000,
+       "prem": true,
+       "npc": [
+        "Barnabas Dee",
+        "Gundralph",
+        "Malunga"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Rage of the Skies",
+       "w": "exevo gran mas vis",
+       "lv": 55,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "60–100",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Hell's Core",
+       "w": "exevo gran mas flam",
+       "lv": 60,
+       "p": 8000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Strong Flame Strike",
+       "w": "exori gran flam",
+       "lv": 70,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Barnabas Dee",
+        "Malunga",
+        "Myra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Curse",
+       "w": "utori mort",
+       "lv": 75,
+       "p": 6000,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Gundralph",
+        "Malunga"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Strong Energy Strike",
+       "w": "exori gran vis",
+       "lv": 80,
+       "p": 7500,
+       "prem": true,
+       "npc": [
+        "Barnabas Dee",
+        "Malunga",
+        "Myra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Ultimate Flame Strike",
+       "w": "exori max flam",
+       "lv": 90,
+       "p": 15000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "100–150",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Ultimate Energy Strike",
+       "w": "exori max vis",
+       "lv": 100,
+       "p": 15000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "150–200",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    },
+    {
+     "faixa": "200–300",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Summon Sorcerer Familiar",
+       "w": "utevo gran res ven",
+       "lv": 200,
+       "p": 50000,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Malunga",
+        "Myra"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Expose Weakness",
+       "w": "exori moe",
+       "lv": 275,
+       "p": 400000,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Gundralph",
+        "Malunga"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Sap Strength",
+       "w": "exori kor",
+       "lv": 275,
+       "p": 200000,
+       "prem": false,
+       "npc": [
+        "Barnabas Dee",
+        "Gundralph",
+        "Malunga"
+       ],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "300–400",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Avatar of Storm",
+       "w": "uteta res ven",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Great Death Beam",
+       "w": "exevo max mort",
+       "lv": 300,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Restoration",
+       "w": "exura max vita",
+       "lv": 300,
+       "p": 500000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "healing"
+      }
+     ]
+    },
+    {
+     "faixa": "400–500",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    },
+    {
+     "faixa": "500–600",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    }
+   ]
+  },
+  "druid": {
+   "pronta": false,
+   "resumo": null,
+   "etapas": [
+    {
+     "faixa": "8–20",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Chill Out",
+       "w": "exevo infir frigo hur",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Eroth"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Light Stone Shower Rune",
+       "w": "adori infir mas tera",
+       "lv": 1,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Lightest Missile Rune",
+       "w": "adori infir vis",
+       "lv": 1,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Magic Patch",
+       "w": "exura infir",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Mud Attack",
+       "w": "exori infir tera",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Eroth"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Apprentice's Strike",
+       "w": "exori min flam",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Find Person",
+       "w": "exiva",
+       "lv": 8,
+       "p": 80,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light",
+       "w": "utevo lux",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light Healing",
+       "w": "exura",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Magic Rope",
+       "w": "exani tera",
+       "lv": 9,
+       "p": 200,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cure Poison",
+       "w": "exana pox",
+       "lv": 10,
+       "p": 150,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Energy Strike",
+       "w": "exori vis",
+       "lv": 12,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Levitate",
+       "w": "exani hur",
+       "lv": 12,
+       "p": 500,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Great Light",
+       "w": "utevo gran lux",
+       "lv": 13,
+       "p": 500,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Terra Strike",
+       "w": "exori tera",
+       "lv": 13,
+       "p": 800,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Cancel Magic Shield",
+       "w": "exana vita",
+       "lv": 14,
+       "p": 450,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Flame Strike",
+       "w": "exori flam",
+       "lv": 14,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Food",
+       "w": "exevo pan",
+       "lv": 14,
+       "p": 300,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Faluae"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Haste",
+       "w": "utani hur",
+       "lv": 14,
+       "p": 600,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Magic Shield",
+       "w": "utamo vita",
+       "lv": 14,
+       "p": 450,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Poison Field Rune",
+       "w": "adevo grav pox",
+       "lv": 14,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cure Poison Rune",
+       "w": "adana pox",
+       "lv": 15,
+       "p": 600,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Gundralph"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Fire Field Rune",
+       "w": "adevo grav flam",
+       "lv": 15,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Ice Strike",
+       "w": "exori frigo",
+       "lv": 15,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Intense Healing Rune",
+       "w": "adura gran",
+       "lv": 15,
+       "p": 600,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Gundralph"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light Magic Missile Rune",
+       "w": "adori min vis",
+       "lv": 15,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Convince Creature Rune",
+       "w": "adeta sio",
+       "lv": 16,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Physical Strike",
+       "w": "exori moe ico",
+       "lv": 16,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Destroy Field Rune",
+       "w": "adito grav",
+       "lv": 17,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Energy Field Rune",
+       "w": "adevo grav vis",
+       "lv": 18,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Heal Friend",
+       "w": "exura sio",
+       "lv": 18,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Ice Wave",
+       "w": "exevo frigo hur",
+       "lv": 18,
+       "p": 850,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "20–35",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Blank Rune",
+       "w": "adori blank",
+       "lv": 20,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Intense Healing",
+       "w": "exura gran",
+       "lv": 20,
+       "p": 350,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Strong Haste",
+       "w": "utani gran hur",
+       "lv": 20,
+       "p": 1300,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Disintegrate Rune",
+       "w": "adito tera",
+       "lv": 21,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cure Electrification",
+       "w": "exana vis",
+       "lv": 22,
+       "p": 1000,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Gundralph"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Creature Illusion",
+       "w": "utevo res ina",
+       "lv": 23,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Stalagmite Rune",
+       "w": "adori tera",
+       "lv": 24,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Ultimate Healing Rune",
+       "w": "adura vita",
+       "lv": 24,
+       "p": 1500,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Find Fiend",
+       "w": "exiva moe res",
+       "lv": 25,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Heavy Magic Missile Rune",
+       "w": "adori vis",
+       "lv": 25,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Poison Bomb Rune",
+       "w": "adevo mas pox",
+       "lv": 25,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Summon Creature",
+       "w": "utevo res",
+       "lv": 25,
+       "p": 2000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Ultimate Light",
+       "w": "utevo vis lux",
+       "lv": 26,
+       "p": 1600,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Animate Dead Rune",
+       "w": "adana mort",
+       "lv": 27,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Chameleon Rune",
+       "w": "adevo ina",
+       "lv": 27,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Fire Bomb Rune",
+       "w": "adevo mas flam",
+       "lv": 27,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Soulfire Rune",
+       "w": "adevo res flam",
+       "lv": 27,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Wild Growth Rune",
+       "w": "adevo grav vita",
+       "lv": 27,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Icicle Rune",
+       "w": "adori frigo",
+       "lv": 28,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Stone Shower Rune",
+       "w": "adori mas tera",
+       "lv": 28,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Poison Wall Rune",
+       "w": "adevo mas grav pox",
+       "lv": 29,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Avalanche Rune",
+       "w": "adori mas frigo",
+       "lv": 30,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cure Burning",
+       "w": "exana flam",
+       "lv": 30,
+       "p": 2000,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Ultimate Healing",
+       "w": "exura vita",
+       "lv": 30,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Explosion Rune",
+       "w": "adevo mas hur",
+       "lv": 31,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Heal Party",
+       "w": "utura mas sio",
+       "lv": 32,
+       "p": 4000,
+       "prem": true,
+       "npc": [
+        "Eliza"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Fire Wall Rune",
+       "w": "adevo mas grav flam",
+       "lv": 33,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "35–60",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Invisibility",
+       "w": "utana vid",
+       "lv": 35,
+       "p": 2000,
+       "prem": false,
+       "npc": [
+        "Chatterbone",
+        "Eroth",
+        "Etzel"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Mass Healing",
+       "w": "exura gran mas res",
+       "lv": 36,
+       "p": 2200,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Gundralph"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Terra Wave",
+       "w": "exevo tera hur",
+       "lv": 38,
+       "p": 2500,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Gundralph"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Strong Ice Wave",
+       "w": "exevo gran frigo hur",
+       "lv": 40,
+       "p": 7500,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Energy Wall Rune",
+       "w": "adevo mas grav vis",
+       "lv": 41,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cure Bleeding",
+       "w": "exana kor",
+       "lv": 45,
+       "p": 2500,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Graham"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Envenom",
+       "w": "utori pox",
+       "lv": 50,
+       "p": 6000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Paralyze Rune",
+       "w": "adana ani",
+       "lv": 54,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Wrath of Nature",
+       "w": "exevo gran mas tera",
+       "lv": 55,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "60–100",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Eternal Winter",
+       "w": "exevo gran mas frigo",
+       "lv": 60,
+       "p": 8000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Strong Terra Strike",
+       "w": "exori gran tera",
+       "lv": 70,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Strong Ice Strike",
+       "w": "exori gran frigo",
+       "lv": 80,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Ultimate Terra Strike",
+       "w": "exori max tera",
+       "lv": 90,
+       "p": 15000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "100–150",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Ultimate Ice Strike",
+       "w": "exori max frigo",
+       "lv": 100,
+       "p": 15000,
+       "prem": true,
+       "npc": [
+        "Zoltan"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "150–200",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    },
+    {
+     "faixa": "200–300",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Summon Druid Familiar",
+       "w": "utevo gran res dru",
+       "lv": 200,
+       "p": 50000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Kjesse"
+       ],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "300–400",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Avatar of Nature",
+       "w": "uteta res dru",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Ice Burst",
+       "w": "exevo ulus frigo",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Nature's Embrace",
+       "w": "exura gran sio",
+       "lv": 300,
+       "p": 500000,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Charlotta",
+        "Gundralph"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Restoration",
+       "w": "exura max vita",
+       "lv": 300,
+       "p": 500000,
+       "prem": false,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Terra Burst",
+       "w": "exevo ulus tera",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "400–500",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    },
+    {
+     "faixa": "500–600",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    }
+   ]
+  },
+  "monk": {
+   "pronta": false,
+   "resumo": null,
+   "etapas": [
+    {
+     "faixa": "8–20",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Magic Patch",
+       "w": "exura infir",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Spiritual Outburst",
+       "w": "exori gran mas nia",
+       "lv": 1,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Swift Jab",
+       "w": "exori infir pug",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Tiger Clash",
+       "w": "exori infir nia",
+       "lv": 1,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Find Person",
+       "w": "exiva",
+       "lv": 8,
+       "p": 80,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light",
+       "w": "utevo lux",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Light Healing",
+       "w": "exura",
+       "lv": 8,
+       "p": 0,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "healing"
+      },
+      {
+       "n": "Magic Rope",
+       "w": "exani tera",
+       "lv": 9,
+       "p": 200,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Cure Poison",
+       "w": "exana pox",
+       "lv": 10,
+       "p": 150,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Levitate",
+       "w": "exani hur",
+       "lv": 12,
+       "p": 500,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Great Light",
+       "w": "utevo gran lux",
+       "lv": 13,
+       "p": 500,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Double Jab",
+       "w": "exori pug",
+       "lv": 14,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Haste",
+       "w": "utani hur",
+       "lv": 14,
+       "p": 600,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Destroy Field Rune",
+       "w": "adito grav",
+       "lv": 17,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Greater Tiger Clash",
+       "w": "exori nia",
+       "lv": 18,
+       "p": 6000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Restore Balance",
+       "w": "exura tio sio",
+       "lv": 18,
+       "p": 800,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "healing"
+      }
+     ]
+    },
+    {
+     "faixa": "20–35",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Intense Healing",
+       "w": "exura gran",
+       "lv": 20,
+       "p": 350,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Strong Haste",
+       "w": "utani gran hur",
+       "lv": 20,
+       "p": 1300,
+       "prem": true,
+       "npc": [
+        "Azalea",
+        "Barnabas Dee",
+        "Charlotta"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Virtue of Harmony",
+       "w": "utori virtu",
+       "lv": 20,
+       "p": 0,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Virtue of Justice",
+       "w": "utito virtu",
+       "lv": 20,
+       "p": 0,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Virtue of Sustain",
+       "w": "utura tio",
+       "lv": 20,
+       "p": 0,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Disintegrate Rune",
+       "w": "adito tera",
+       "lv": 21,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Find Fiend",
+       "w": "exiva moe res",
+       "lv": 25,
+       "p": 1000,
+       "prem": false,
+       "npc": [
+        "Asrak",
+        "Azalea",
+        "Barnabas Dee"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Mystic Repulse",
+       "w": "exori amp pug",
+       "lv": 30,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Enlighten Party",
+       "w": "utevo mas sio",
+       "lv": 32,
+       "p": 4000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "35–60",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Flurry of Blows",
+       "w": "exori mas pug",
+       "lv": 35,
+       "p": 1500,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Inflict Wound",
+       "w": "utori kor",
+       "lv": 40,
+       "p": 2500,
+       "prem": false,
+       "npc": [
+        "Graham",
+        "Ormuhn",
+        "Puffels"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "60–100",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Sweeping Takedown",
+       "w": "exori mas nia",
+       "lv": 60,
+       "p": 8000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Chained Penance",
+       "w": "exori med pug",
+       "lv": 70,
+       "p": 8000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "attack"
+      },
+      {
+       "n": "Spirit Mend",
+       "w": "exura gran tio",
+       "lv": 80,
+       "p": 9000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Greater Flurry of Blows",
+       "w": "exori gran mas pug",
+       "lv": 90,
+       "p": 11000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "100–150",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Forceful Uppercut",
+       "w": "exori gran pug",
+       "lv": 110,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "attack"
+      },
+      {
+       "n": "Devastating Knockout",
+       "w": "exori gran nia",
+       "lv": 125,
+       "p": 20000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "attack"
+      }
+     ]
+    },
+    {
+     "faixa": "150–200",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Focus Serenity",
+       "w": "utamo tio",
+       "lv": 150,
+       "p": 125000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Mass Spirit Mend",
+       "w": "exura mas nia",
+       "lv": 150,
+       "p": 20000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": true,
+       "g": "healing"
+      },
+      {
+       "n": "Mentor Other",
+       "w": "uteta tio",
+       "lv": 150,
+       "p": 175000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Balanced Brawl",
+       "w": "exori mas res",
+       "lv": 175,
+       "p": 250000,
+       "prem": true,
+       "npc": [
+        "Enpa Rudra"
+       ],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "200–300",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Monk familiar",
+       "w": "utevo gran res tio",
+       "lv": 200,
+       "p": null,
+       "prem": false,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      },
+      {
+       "n": "Focus Harmony",
+       "w": "utevo nia",
+       "lv": 275,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "300–400",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": [
+      {
+       "n": "Avatar of Balance",
+       "w": "uteta res tio",
+       "lv": 300,
+       "p": null,
+       "prem": true,
+       "npc": [],
+       "ess": false,
+       "g": "support"
+      }
+     ]
+    },
+    {
+     "faixa": "400–500",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    },
+    {
+     "faixa": "500–600",
+     "objetivo": null,
+     "treino": null,
+     "hunts": [],
+     "magias": []
+    }
+   ]
+  }
+ }
+}

@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-01",
+ "atualizado": "2026-11-04",
  "fonte": "Base de dados do Canary (OpenTibiaBR), espelho do Tibia 15.x, versão de 17/10/2026",
  "vocacoes": [
   {
@@ -161,7 +161,7 @@
       }
      ],
      "quest": null,
-     "tip": "",
+     "tip": "Se tiver gold, já compre as Zaoan Legs no market (não pede level).",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
      "id": "knight-brass-legs",
      "img": "img/itens/brass-legs.webp"
@@ -193,7 +193,7 @@
       }
      ],
      "quest": null,
-     "tip": "O Dwarf Soldier também dropa o Dwarven Shield.",
+     "tip": "Se tiver gold, já compre o Zaoan Helmet no market (não pede level).",
      "wiki": "https://tibia.fandom.com/wiki/Soldier_Helmet",
      "id": "knight-soldier-helmet",
      "img": "img/itens/soldier-helmet.webp"
@@ -314,29 +314,6 @@
     },
     {
      "tier": "20–35",
-     "slot": "Arma (Machado)",
-     "item": "Barbarian Axe",
-     "lv": 20,
-     "attr": "Ataque 28, Defesa 18, 2 slot(s) de imbuement",
-     "src": [],
-     "shop": [
-      {
-       "n": "Morpel",
-       "p": 590
-      },
-      {
-       "n": "Willard",
-       "p": 590
-      }
-     ],
-     "quest": null,
-     "tip": "Só por NPC na prática (quem dropa é monstro de level alto).",
-     "wiki": "https://tibia.fandom.com/wiki/Barbarian_Axe",
-     "id": "knight-barbarian-axe",
-     "img": "img/itens/barbarian-axe.webp"
-    },
-    {
-     "tier": "20–35",
      "slot": "Armadura",
      "item": "Plate Armor",
      "lv": null,
@@ -404,6 +381,75 @@
      "img": "img/itens/steel-helmet.webp"
     },
     {
+     "id": "knight-beastslayer-axe",
+     "tier": "20–35",
+     "slot": "Arma (Machado)",
+     "item": "Beastslayer Axe",
+     "lv": 30,
+     "attr": "Ataque 35, Defesa 12, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Retching Horror",
+       "c": 4.26
+      },
+      {
+       "m": "Glooth Bandit",
+       "c": 1.0
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "A arma de machado do lvl 30 até o 70. Compre no market: é barata e dura muito.",
+     "wiki": "https://tibia.fandom.com/wiki/Beastslayer_Axe",
+     "img": "img/itens/beastslayer-axe.webp"
+    },
+    {
+     "id": "knight-zaoan-helmet",
+     "tier": "20–35",
+     "slot": "Capacete",
+     "item": "Zaoan Helmet",
+     "lv": null,
+     "attr": "Armadura 9, 5% de proteção física, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Ethershreck",
+       "c": 13.0
+      },
+      {
+       "m": "Lizard Chosen",
+       "c": 0.14
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Compre no market assim que tiver gold. É o capacete até o lvl 230+.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
+     "img": "img/itens/zaoan-helmet.webp"
+    },
+    {
+     "id": "knight-zaoan-legs",
+     "tier": "20–35",
+     "slot": "Pernas",
+     "item": "Zaoan Legs",
+     "lv": null,
+     "attr": "Armadura 8, 2% de proteção física",
+     "src": [
+      {
+       "m": "Fazzrah",
+       "c": 6.25
+      },
+      {
+       "m": "Lizard Chosen",
+       "c": 0.94
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Compre no market junto com o Zaoan Helmet. Dura até o lvl 185 (Ornate Legs).",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+     "img": "img/itens/zaoan-legs.webp"
+    },
+    {
      "tier": "35–60",
      "slot": "Arma (Espada)",
      "item": "Wyvern Fang",
@@ -421,62 +467,6 @@
      "wiki": "https://tibia.fandom.com/wiki/Wyvern_Fang",
      "id": "knight-wyvern-fang",
      "img": "img/itens/wyvern-fang.webp"
-    },
-    {
-     "tier": "35–60",
-     "slot": "Arma (Clava, 2 mãos)",
-     "item": "War Hammer",
-     "lv": 50,
-     "attr": "Ataque 45, Defesa 10, 3 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Iks Aucar",
-       "c": 5.62
-      }
-     ],
-     "shop": [
-      {
-       "n": "Romella",
-       "p": 10000
-      },
-      {
-       "n": "Cedrik",
-       "p": 10000
-      },
-      {
-       "n": "Rock In A Hard Place",
-       "p": 10000
-      }
-     ],
-     "quest": null,
-     "tip": "Level 50. Drop bom (~5,6%) e também vende no NPC.",
-     "wiki": "https://tibia.fandom.com/wiki/War_Hammer",
-     "id": "knight-war-hammer",
-     "img": "img/itens/war-hammer.webp"
-    },
-    {
-     "tier": "35–60",
-     "slot": "Arma (Machado, 2 mãos)",
-     "item": "Zaoan Halberd",
-     "lv": 25,
-     "attr": "Ataque 37, Defesa 15, 3 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Wailing Widow",
-       "c": 2.21
-      }
-     ],
-     "shop": [
-      {
-       "n": "Esrik",
-       "p": 1200
-      }
-     ],
-     "quest": null,
-     "tip": "Duas mãos = sem escudo. Se estiver apanhando muito, fique com arma de 1 mão + escudo.",
-     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Halberd",
-     "id": "knight-zaoan-halberd",
-     "img": "img/itens/zaoan-halberd.webp"
     },
     {
      "tier": "35–60",
@@ -498,75 +488,27 @@
      "img": "img/itens/plate-legs.webp"
     },
     {
-     "tier": "60–100",
-     "slot": "Arma (Espada)",
-     "item": "Crystal Sword",
-     "lv": 25,
-     "attr": "Ataque 35, Defesa 26",
-     "src": [
-      {
-       "m": "Pirat Cutthroat",
-       "c": 19.42
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Drop alto (~19%). O mesmo monstro dropa knight armor.",
-     "wiki": "https://tibia.fandom.com/wiki/Crystal_Sword",
-     "id": "knight-crystal-sword",
-     "img": "img/itens/crystal-sword.webp"
-    },
-    {
-     "tier": "60–100",
+     "id": "knight-crystal-mace",
+     "tier": "35–60",
      "slot": "Arma (Clava)",
-     "item": "Deepling Squelcher",
-     "lv": 48,
-     "attr": "Ataque 44, Defesa 28, 2 slot(s) de imbuement",
+     "item": "Crystal Mace",
+     "lv": 35,
+     "attr": "Ataque 38, Defesa 16, 2 slot(s) de imbuement",
      "src": [
       {
-       "m": "Deepling Guard",
-       "c": 0.75
+       "m": "Zushuka",
+       "c": 14.0
+      },
+      {
+       "m": "The Baron from Below",
+       "c": 37.5
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "Level 48, de 1 mão: dá pra usar escudo.",
-     "wiki": "https://tibia.fandom.com/wiki/Deepling_Squelcher",
-     "id": "knight-deepling-squelcher",
-     "img": "img/itens/deepling-squelcher.webp"
-    },
-    {
-     "tier": "60–100",
-     "slot": "Arma (Machado, 2 mãos)",
-     "item": "Drakinata",
-     "lv": 60,
-     "attr": "Ataque 47, Defesa 20, 3 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Lizard Legionnaire",
-       "c": 0.71
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Mesma hunt dos Zaoan Shoes: dá pra montar o set inteiro em Zao.",
-     "wiki": "https://tibia.fandom.com/wiki/Drakinata",
-     "id": "knight-drakinata",
-     "img": "img/itens/drakinata.webp"
-    },
-    {
-     "tier": "60–100",
-     "slot": "Arma (Machado)",
-     "item": "Heroic Axe",
-     "lv": 60,
-     "attr": "Ataque 44, Defesa 24, 2 slot(s) de imbuement",
-     "src": [],
-     "shop": [],
-     "quest": "Arena de Svargrond (nível Scrapper)",
-     "tip": "Recompensa da Arena de Svargrond (nível Scrapper). Combina com Tower Shield.",
-     "wiki": "https://tibia.fandom.com/wiki/Heroic_Axe",
-     "id": "knight-heroic-axe",
-     "img": "img/itens/heroic-axe.webp"
+     "tip": "A clava do lvl 35 até o 70. Compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Crystal_Mace",
+     "img": "img/itens/crystal-mace.webp"
     },
     {
      "tier": "60–100",
@@ -607,164 +549,125 @@
      "img": "img/itens/zaoan-armor.webp"
     },
     {
+     "id": "knight-rift-lance",
      "tier": "60–100",
-     "slot": "Pernas",
-     "item": "Zaoan Legs",
-     "lv": null,
-     "attr": "Armadura 8",
+     "slot": "Arma (Machado, 2 mãos)",
+     "item": "Rift Lance",
+     "lv": 70,
+     "attr": "Ataque 48, Defesa 28, 3 slot(s) de imbuement, duas mãos",
      "src": [
       {
-       "m": "Lizard Zaogun",
-       "c": 1.0
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "O exemplo clássico: Zaoan Legs sai dos lizards de Zao.",
-     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
-     "id": "knight-zaoan-legs",
-     "img": "img/itens/zaoan-legs.webp"
-    },
-    {
-     "tier": "60–100",
-     "slot": "Botas",
-     "item": "Zaoan Shoes",
-     "lv": null,
-     "attr": "Armadura 1, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Lizard Zaogun",
-       "c": 1.0
+       "m": "Vexclaw",
+       "c": 1.36
       },
       {
-       "m": "Lizard Legionnaire",
-       "c": 0.46
+       "m": "Grimeleech",
+       "c": 0.58
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Shoes",
-     "id": "knight-zaoan-shoes",
-     "img": "img/itens/zaoan-shoes.webp"
+     "tip": "Primeira arma de 3 slots de imbuement: coloque crítico, life leech e mana leech. Use até ter as armas elementais.",
+     "wiki": "https://tibia.fandom.com/wiki/Rift_Lance",
+     "img": "img/itens/rift-lance.webp"
     },
     {
-     "tier": "100–150",
-     "slot": "Arma (Espada)",
-     "item": "Zaoan Sword",
-     "lv": 55,
-     "attr": "Ataque 43, Defesa 18, 2 slot(s) de imbuement",
+     "id": "knight-berserker",
+     "tier": "60–100",
+     "slot": "Arma (Espada, 2 mãos)",
+     "item": "Berserker",
+     "lv": 65,
+     "attr": "Ataque 48, Defesa 21, 3 slot(s) de imbuement, duas mãos",
      "src": [
       {
-       "m": "Draken Elite",
-       "c": 0.55
+       "m": "The Unarmored Voidborn",
+       "c": 8.92
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "Level 55. Mesma hunt do Elite Draken Mail.",
-     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Sword",
-     "id": "knight-zaoan-sword",
-     "img": "img/itens/zaoan-sword.webp"
+     "tip": "Espada de 3 slots para imbuir com crítico, life e mana. Alternativa: Demonrage Sword.",
+     "wiki": "https://tibia.fandom.com/wiki/Berserker",
+     "img": "img/itens/berserker.webp"
     },
     {
-     "tier": "100–150",
+     "id": "knight-heavy-mace",
+     "tier": "60–100",
      "slot": "Arma (Clava, 2 mãos)",
-     "item": "Abyss Hammer",
-     "lv": 60,
-     "attr": "Ataque 47, Defesa 21, 3 slot(s) de imbuement",
+     "item": "Heavy Mace",
+     "lv": 70,
+     "attr": "Ataque 49, Defesa 15, 3 slot(s) de imbuement, duas mãos",
      "src": [
       {
-       "m": "Hand of Cursed Fate",
-       "c": 0.49
+       "m": "Falcon Knight",
+       "c": 0.46
+      },
+      {
+       "m": "Annihilon",
+       "c": 25.0
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "Level 60.",
-     "wiki": "https://tibia.fandom.com/wiki/Abyss_Hammer",
-     "id": "knight-abyss-hammer",
-     "img": "img/itens/abyss-hammer.webp"
+     "tip": "Clava de 3 slots para imbuir com crítico, life e mana.",
+     "wiki": "https://tibia.fandom.com/wiki/Heavy_Mace",
+     "img": "img/itens/heavy-mace.webp"
     },
     {
-     "tier": "100–150",
-     "slot": "Arma (Machado, 2 mãos)",
-     "item": "Guardian Halberd",
-     "lv": 55,
-     "attr": "Ataque 46, Defesa 15, 3 slot(s) de imbuement",
+     "id": "knight-guardian-boots",
+     "tier": "60–100",
+     "slot": "Botas",
+     "item": "Guardian Boots",
+     "lv": 70,
+     "attr": "Armadura 3, 2% de proteção física, 1 slot(s) de imbuement",
      "src": [
       {
-       "m": "Bashmu",
-       "c": 9.16
+       "m": "Ghastly Dragon",
+       "c": 1.01
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "Drop alto (~9%) para um item desse nível.",
-     "wiki": "https://tibia.fandom.com/wiki/Guardian_Halberd",
-     "id": "knight-guardian-halberd",
-     "img": "img/itens/guardian-halberd.webp"
+     "tip": "Compre no market no lvl 70. Ficam até as Depth Calcei (150).",
+     "wiki": "https://tibia.fandom.com/wiki/Guardian_Boots",
+     "img": "img/itens/guardian-boots.webp"
     },
     {
+     "id": "knight-prismatic-armor",
      "tier": "100–150",
      "slot": "Armadura",
-     "item": "Elite Draken Mail",
+     "item": "Prismatic Armor",
+     "lv": 120,
+     "attr": "Armadura 15, 5% de proteção física, 1 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Fecha o set básico. Não dropa em monstro: compre no market. Segura até o lvl 300+.",
+     "wiki": "https://tibia.fandom.com/wiki/Prismatic_Armor",
+     "img": "img/itens/prismatic-armor.webp"
+    },
+    {
+     "id": "knight-ring-of-red-plasma",
+     "tier": "100–150",
+     "slot": "Anel",
+     "item": "Ring of Red Plasma",
      "lv": 100,
-     "attr": "Armadura 15, 2 slot(s) de imbuement",
+     "attr": "-",
      "src": [
       {
-       "m": "Draken Elite",
-       "c": 0.11
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Raro. Na mesma hunt sai o Draken Boots.",
-     "wiki": "https://tibia.fandom.com/wiki/Elite_Draken_Mail",
-     "id": "knight-elite-draken-mail",
-     "img": "img/itens/elite-draken-mail.webp"
-    },
-    {
-     "tier": "100–150",
-     "slot": "Capacete",
-     "item": "Zaoan Helmet",
-     "lv": null,
-     "attr": "Armadura 9, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Draken Abomination",
-       "c": 0.56
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
-     "id": "knight-zaoan-helmet",
-     "img": "img/itens/zaoan-helmet.webp"
-    },
-    {
-     "tier": "100–150",
-     "slot": "Botas",
-     "item": "Draken Boots",
-     "lv": 80,
-     "attr": "Armadura 3, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Draken Elite",
-       "c": 0.93
+       "m": "The Unarmored Voidborn",
+       "c": 14.54
       },
       {
-       "m": "Draken Abomination",
-       "c": 0.54
+       "m": "Maxxenius",
+       "c": 14.29
       }
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Draken_Boots",
-     "id": "knight-draken-boots",
-     "img": "img/itens/draken-boots.webp"
+     "tip": "Anel bom e barato pra usar direto. Compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Ring_of_Red_Plasma",
+     "img": "img/itens/ring-of-red-plasma.webp"
     },
     {
      "id": "knight-phantasmal-axe",
@@ -781,7 +684,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "Drop de boss com chance boa (~3,7%).",
+     "tip": "Arma de fogo. Muito boa em Grimvale (werecreatures).",
      "wiki": "https://tibia.fandom.com/wiki/Phantasmal_Axe",
      "img": "img/itens/phantasmal-axe.webp"
     },
@@ -842,7 +745,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Pernas do lvl 185 até a Stoic Iks Culet.",
      "wiki": "https://tibia.fandom.com/wiki/Ornate_Legs",
      "img": "img/itens/ornate-legs.webp"
     },
@@ -918,7 +821,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "Set Cobra: o mesmo boss dropa as 3 armas, o capacete e as botas.",
+     "tip": "Arma de gelo de uma mão. Custa algo como 1 a 2kk no market.",
      "wiki": "https://tibia.fandom.com/wiki/Cobra_Axe",
      "img": "img/itens/cobra-axe.webp"
     },
@@ -961,25 +864,6 @@
      "img": "img/itens/cobra-club.webp"
     },
     {
-     "id": "knight-ornate-chestplate",
-     "tier": "200–300",
-     "slot": "Armadura",
-     "item": "Ornate Chestplate",
-     "lv": 200,
-     "attr": "Armadura 16, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Jaul",
-       "c": 0.65
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Ornate_Chestplate",
-     "img": "img/itens/ornate-chestplate.webp"
-    },
-    {
      "id": "knight-cobra-hood",
      "tier": "200–300",
      "slot": "Capacete",
@@ -994,51 +878,9 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Capacete do set intermediário.",
      "wiki": "https://tibia.fandom.com/wiki/Cobra_Hood",
      "img": "img/itens/cobra-hood.webp"
-    },
-    {
-     "id": "knight-fabulous-legs",
-     "tier": "200–300",
-     "slot": "Pernas",
-     "item": "Fabulous Legs",
-     "lv": 225,
-     "attr": "Armadura 9",
-     "src": [
-      {
-       "m": "The Unwelcome",
-       "c": 0.15
-      },
-      {
-       "m": "The Pale Worm",
-       "c": 0.15
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Fabulous_Legs",
-     "img": "img/itens/fabulous-legs.webp"
-    },
-    {
-     "id": "knight-cobra-boots",
-     "tier": "200–300",
-     "slot": "Botas",
-     "item": "Cobra Boots",
-     "lv": 220,
-     "attr": "Armadura 3, 1 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Ugly Monster",
-       "c": 0.3
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Cobra_Boots",
-     "img": "img/itens/cobra-boots.webp"
     },
     {
      "id": "knight-gnome-shield",
@@ -1064,6 +906,86 @@
      "img": "img/itens/gnome-shield.webp"
     },
     {
+     "id": "knight-lion-axe",
+     "tier": "200–300",
+     "slot": "Arma (Machado, terra)",
+     "item": "Lion Axe",
+     "lv": 270,
+     "attr": "Ataque 8 físico + 44 de terra, Defesa 31, +3 de skill, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Ancient Lion Knight",
+       "c": 0.04
+      },
+      {
+       "m": "Drume",
+       "c": 0.3
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Arma de terra. Ter uma arma de cada elemento ajuda muito no bestiary.",
+     "wiki": "https://tibia.fandom.com/wiki/Lion_Axe",
+     "img": "img/itens/lion-axe.webp"
+    },
+    {
+     "id": "knight-gnome-sword",
+     "tier": "200–300",
+     "slot": "Arma (Espada, energia)",
+     "item": "Gnome Sword",
+     "lv": 250,
+     "attr": "Ataque 10 físico + 42 de energia, Defesa 29, +2 de skill, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "The Baron from Below",
+       "c": 4.17
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Espada de energia para as hunts fracas contra energia.",
+     "wiki": "https://tibia.fandom.com/wiki/Gnome_Sword",
+     "img": "img/itens/gnome-sword.webp"
+    },
+    {
+     "id": "knight-resizer",
+     "tier": "200–300",
+     "slot": "Arma (Clava, física)",
+     "item": "Resizer",
+     "lv": 230,
+     "attr": "Ataque 11 físico + 46 de gelo, Defesa 33, +2 de skill, 2 slot(s) de imbuement, duas mãos",
+     "src": [
+      {
+       "m": "Malofur Mangrinder",
+       "c": 2.78
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Clava física. Junte com a Cobra Club para cobrir mais hunts.",
+     "wiki": "https://tibia.fandom.com/wiki/Resizer",
+     "img": "img/itens/resizer.webp"
+    },
+    {
+     "id": "knight-stoic-iks-culet",
+     "tier": "200–300",
+     "slot": "Pernas",
+     "item": "Stoic Iks Culet",
+     "lv": 250,
+     "attr": "Armadura 9, +2 de skill, 4% de proteção física",
+     "src": [
+      {
+       "m": "Mitmah Vanguard",
+       "c": 0.36
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Aumenta em 50% a cura do Exura Med Ico. No RTC, deixe o Exura Med Ico em uns 30% de vida, junto com a supreme potion.",
+     "wiki": "https://tibia.fandom.com/wiki/Stoic_Iks_Culet",
+     "img": "img/itens/stoic-iks-culet.webp"
+    },
+    {
      "id": "knight-falcon-battleaxe",
      "tier": "300–400",
      "slot": "Arma (Machado)",
@@ -1078,28 +1000,9 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "Set Falcon: o boss dropa armas e armadura completa.",
+     "tip": "Arma de energia de duas mãos, muito forte: dano parecido com a Soulmaimer.",
      "wiki": "https://tibia.fandom.com/wiki/Falcon_Battleaxe",
      "img": "img/itens/falcon-battleaxe.webp"
-    },
-    {
-     "id": "knight-amber-axe",
-     "tier": "300–400",
-     "slot": "Arma (Machado, alternativa)",
-     "item": "Amber Axe",
-     "lv": 330,
-     "attr": "Dano 46 de gelo, Defesa 32, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "The Rootkraken",
-       "c": 20.0
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Chance de 20%: o jeito mais fácil de ter arma de level 330.",
-     "wiki": "https://tibia.fandom.com/wiki/Amber_Axe",
-     "img": "img/itens/amber-axe.webp"
     },
     {
      "id": "knight-falcon-longsword",
@@ -1140,44 +1043,6 @@
      "img": "img/itens/falcon-mace.webp"
     },
     {
-     "id": "knight-falcon-plate",
-     "tier": "300–400",
-     "slot": "Armadura",
-     "item": "Falcon Plate",
-     "lv": 300,
-     "attr": "Armadura 18, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Grand Master Oberon",
-       "c": 0.2
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Falcon_Plate",
-     "img": "img/itens/falcon-plate.webp"
-    },
-    {
-     "id": "knight-falcon-coif",
-     "tier": "300–400",
-     "slot": "Capacete",
-     "item": "Falcon Coif",
-     "lv": 300,
-     "attr": "Armadura 10, 2 slot(s) de imbuement",
-     "src": [
-      {
-       "m": "Grand Master Oberon",
-       "c": 0.35
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "",
-     "wiki": "https://tibia.fandom.com/wiki/Falcon_Coif",
-     "img": "img/itens/falcon-coif.webp"
-    },
-    {
      "id": "knight-falcon-greaves",
      "tier": "300–400",
      "slot": "Pernas",
@@ -1216,6 +1081,48 @@
      "img": "img/itens/falcon-shield.webp"
     },
     {
+     "id": "knight-dauntless-dragon-scale-armor",
+     "tier": "300–400",
+     "slot": "Armadura",
+     "item": "Dauntless Dragon Scale Armor",
+     "lv": 300,
+     "attr": "Armadura 18, +3 de skill, 8% de proteção física, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Dragon Hoard",
+       "c": 1.43
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Dá skill e ficou melhor que a Falcon Plate depois do balance. Compre no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Dauntless_Dragon_Scale_Armor",
+     "img": "img/itens/dauntless-dragon-scale-armor.webp"
+    },
+    {
+     "id": "knight-terra-helmet",
+     "tier": "300–400",
+     "slot": "Capacete",
+     "item": "Terra Helmet",
+     "lv": 230,
+     "attr": "Armadura 9, +2 de skill, 5% de proteção física, 1 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Sir Baeloc",
+       "c": 0.75
+      },
+      {
+       "m": "Earl Osam",
+       "c": 0.73
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Pegue tier 3: é barato e o proc do tier ajuda muito. Primeiro item do caminho para o BiS.",
+     "wiki": "https://tibia.fandom.com/wiki/Terra_Helmet",
+     "img": "img/itens/terra-helmet.webp"
+    },
+    {
      "id": "knight-soulbiter",
      "tier": "400–500",
      "slot": "Arma (Machado)",
@@ -1225,7 +1132,7 @@
      "src": [],
      "shop": [],
      "quest": "Soul War (boss Goshnar's Megalomania)",
-     "tip": "Soul War: as armas de alma são as melhores antes do level 600.",
+     "tip": "Se der, pule direto para uma arma de Crypt (a mais forte). Senão, a Soulbiter ajuda a farmar até ela.",
      "wiki": "https://tibia.fandom.com/wiki/Soulbiter",
      "img": "img/itens/soulbiter.webp"
     },
@@ -1272,7 +1179,7 @@
      ],
      "shop": [],
      "quest": null,
-     "tip": "",
+     "tip": "Ordem do BiS: Terra Helmet T3 → Falcon Greaves → Spiritthorn Armor → botas → anel → Sanguine Legs → Spiritthorn Helmet T3+.",
      "wiki": "https://tibia.fandom.com/wiki/Spiritthorn_Armor",
      "img": "img/itens/spiritthorn-armor.webp"
     },
@@ -5090,18 +4997,6 @@
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Armadile",
    "img": "img/monstros/armadile.gif"
   },
-  "Bashmu": {
-   "exp": 5000,
-   "hp": 8200,
-   "lvl": "150+",
-   "loc": "Kilmaresh",
-   "items": [
-    "Guardian Halberd"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Bashmu",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Bashmu",
-   "img": "img/monstros/bashmu.gif"
-  },
   "Blood Priest": {
    "exp": 900,
    "hp": 820,
@@ -5175,18 +5070,6 @@
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Dark%20Apprentice",
    "img": "img/monstros/dark-apprentice.gif"
   },
-  "Deepling Guard": {
-   "exp": 2100,
-   "hp": 1900,
-   "lvl": "80+",
-   "loc": "",
-   "items": [
-    "Deepling Squelcher"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Deepling_Guard",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Deepling%20Guard",
-   "img": "img/monstros/deepling-guard.gif"
-  },
   "Diremaw": {
    "exp": 2770,
    "hp": 3600,
@@ -5205,7 +5088,6 @@
    "lvl": "130+",
    "loc": "Zao",
    "items": [
-    "Draken Boots",
     "Zaoan Helmet"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Draken_Abomination",
@@ -5219,8 +5101,7 @@
    "loc": "Zao",
    "items": [
     "Draken Boots",
-    "Elite Draken Mail",
-    "Zaoan Sword"
+    "Elite Draken Mail"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Draken_Elite",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Draken%20Elite",
@@ -5344,23 +5225,12 @@
    "lvl": "70+",
    "loc": "Oramond (Rathleton)",
    "items": [
+    "Beastslayer Axe",
     "Rubber Cap"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Glooth_Bandit",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Glooth%20Bandit",
    "img": "img/monstros/glooth-bandit.gif"
-  },
-  "Hand of Cursed Fate": {
-   "exp": 5000,
-   "hp": 6600,
-   "lvl": "150+",
-   "loc": "",
-   "items": [
-    "Abyss Hammer"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Hand_of_Cursed_Fate",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Hand%20of%20Cursed%20Fate",
-   "img": "img/monstros/hand-of-cursed-fate.gif"
   },
   "Humongous Fungus": {
    "exp": 2900,
@@ -5373,18 +5243,6 @@
    "wiki": "https://tibia.fandom.com/wiki/Humongous_Fungus",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Humongous%20Fungus",
    "img": "img/monstros/humongous-fungus.gif"
-  },
-  "Iks Aucar": {
-   "exp": 1150,
-   "hp": 1520,
-   "lvl": "50+",
-   "loc": "Iksupan (Port Hope)",
-   "items": [
-    "War Hammer"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Iks_Aucar",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Iks%20Aucar",
-   "img": "img/monstros/iks-aucar.webp"
   },
   "Iks Pututu": {
    "exp": 980,
@@ -5416,7 +5274,9 @@
    "lvl": "90+",
    "loc": "Zao",
    "items": [
-    "Zaoan Armor"
+    "Zaoan Armor",
+    "Zaoan Helmet",
+    "Zaoan Legs"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_Chosen",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Chosen",
@@ -5445,19 +5305,6 @@
    "wiki": "https://tibia.fandom.com/wiki/Lizard_High_Guard",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20High%20Guard",
    "img": "img/monstros/lizard-high-guard.gif"
-  },
-  "Lizard Legionnaire": {
-   "exp": 1100,
-   "hp": 1400,
-   "lvl": "60+",
-   "loc": "Zao",
-   "items": [
-    "Drakinata",
-    "Zaoan Shoes"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Lizard_Legionnaire",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Legionnaire",
-   "img": "img/monstros/lizard-legionnaire.gif"
   },
   "Lizard Snakecharmer": {
    "exp": 210,
@@ -5489,8 +5336,7 @@
    "lvl": "80+",
    "loc": "Zao",
    "items": [
-    "Zaoan Legs",
-    "Zaoan Shoes"
+    "Zaoan Legs"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lizard_Zaogun",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Lizard%20Zaogun",
@@ -5643,18 +5489,6 @@
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Orc%20Warrior",
    "img": "img/monstros/orc-warrior.gif"
   },
-  "Pirat Cutthroat": {
-   "exp": 1800,
-   "hp": 2600,
-   "lvl": "70+",
-   "loc": "",
-   "items": [
-    "Crystal Sword"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Pirat_Cutthroat",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Pirat%20Cutthroat",
-   "img": "img/monstros/pirat-cutthroat.gif"
-  },
   "Poacher": {
    "exp": 70,
    "hp": 90,
@@ -5727,18 +5561,6 @@
    "wiki": "https://tibia.fandom.com/wiki/Valkyrie",
    "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Valkyrie",
    "img": "img/monstros/valkyrie.gif"
-  },
-  "Wailing Widow": {
-   "exp": 450,
-   "hp": 850,
-   "lvl": "40+",
-   "loc": "Zao",
-   "items": [
-    "Zaoan Halberd"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Wailing_Widow",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Wailing%20Widow",
-   "img": "img/monstros/wailing-widow.gif"
   },
   "Warlock": {
    "exp": 4000,
@@ -5878,7 +5700,6 @@
     "Depth Calcei",
     "Depth Claws",
     "Depth Lorica",
-    "Ornate Chestplate",
     "Ornate Legs"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Jaul",
@@ -5961,19 +5782,6 @@
    "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Pale%20Worm",
    "img": "img/monstros/the-pale-worm.gif"
   },
-  "Ugly Monster": {
-   "exp": 1000,
-   "hp": 10000,
-   "lvl": "200+",
-   "loc": "",
-   "boss": true,
-   "items": [
-    "Cobra Boots"
-   ],
-   "wiki": "https://tibia.fandom.com/wiki/Ugly_Monster",
-   "yt": "https://www.youtube.com/results?search_query=tibia%20Ugly%20Monster",
-   "img": "img/monstros/ugly-monster.gif"
-  },
   "The Count of the Core": {
    "exp": 300000,
    "hp": 350000,
@@ -6017,7 +5825,6 @@
     "Falcon Greaves",
     "Falcon Longsword",
     "Falcon Mace",
-    "Falcon Plate",
     "Falcon Rod",
     "Falcon Sai",
     "Falcon Shield",
@@ -6034,7 +5841,6 @@
    "loc": "",
    "boss": true,
    "items": [
-    "Amber Axe",
     "Amber Crossbow",
     "Amber Kusarigama"
    ],
@@ -6110,7 +5916,8 @@
    "loc": "Grave Danger",
    "boss": true,
    "items": [
-    "Embrace of Nature"
+    "Embrace of Nature",
+    "Terra Helmet"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Earl_Osam",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Earl%20Osam",
@@ -6123,7 +5930,8 @@
    "loc": "Grave Danger",
    "boss": true,
    "items": [
-    "Embrace of Nature"
+    "Embrace of Nature",
+    "Terra Helmet"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Sir_Baeloc",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Sir%20Baeloc",
@@ -6136,6 +5944,7 @@
    "loc": "The Order of the Lion",
    "boss": true,
    "items": [
+    "Lion Axe",
     "Lion Claws",
     "Lion Spangenhelm",
     "Lion Spellbook",
@@ -6166,6 +5975,7 @@
    "boss": true,
    "items": [
     "Arcane Dragon Robe",
+    "Dauntless Dragon Scale Armor",
     "Merudri Battle Mail",
     "Mystical Dragon Robe",
     "Unerring Dragon Scale Armor"
@@ -6238,7 +6048,8 @@
    "loc": "Dream Courts",
    "boss": true,
    "items": [
-    "Energized Limb"
+    "Energized Limb",
+    "Ring of Red Plasma"
    ],
    "wiki": "https://tibia.fandom.com/wiki/Maxxenius",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Maxxenius",
@@ -6309,6 +6120,190 @@
    "wiki": "https://tibia.fandom.com/wiki/Arbaziloth",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Arbaziloth",
    "img": "img/monstros/arbaziloth.webp"
+  },
+  "Retching Horror": {
+   "exp": 4100,
+   "hp": 5300,
+   "lvl": "200+",
+   "loc": "Roshamuul / Nightmare Isles",
+   "boss": false,
+   "items": [
+    "Beastslayer Axe"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Retching_Horror",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Retching%20Horror",
+   "img": "img/monstros/retching-horror.gif"
+  },
+  "Ethershreck": {
+   "exp": 5600,
+   "hp": 9500,
+   "lvl": "120+",
+   "loc": "Zao, Lizard / Dragon Hoard",
+   "boss": false,
+   "items": [
+    "Zaoan Helmet"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Ethershreck",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Ethershreck",
+   "img": "img/monstros/ethershreck.gif"
+  },
+  "Fazzrah": {
+   "exp": 2600,
+   "hp": 2955,
+   "lvl": "90+",
+   "loc": "Zao, Lizard City",
+   "boss": false,
+   "items": [
+    "Zaoan Legs"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Fazzrah",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Fazzrah",
+   "img": "img/monstros/fazzrah.gif"
+  },
+  "Zushuka": {
+   "exp": 9000,
+   "hp": 15000,
+   "lvl": "35+",
+   "loc": "boss de Svargrond (Ice Witch)",
+   "boss": true,
+   "items": [
+    "Crystal Mace"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Zushuka",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Zushuka",
+   "img": "img/monstros/zushuka.gif"
+  },
+  "The Baron from Below": {
+   "exp": 50000,
+   "hp": 350000,
+   "lvl": "35+",
+   "loc": "boss de Gnomprona",
+   "boss": true,
+   "items": [
+    "Crystal Mace",
+    "Gnome Sword"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Baron_From_Below",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Baron%20from%20Below",
+   "img": "img/monstros/the-baron-from-below.gif"
+  },
+  "Vexclaw": {
+   "exp": 6248,
+   "hp": 8500,
+   "lvl": "200+",
+   "loc": "Pits of Inferno / Roshamuul",
+   "boss": false,
+   "items": [
+    "Rift Lance"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Vexclaw",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Vexclaw",
+   "img": "img/monstros/vexclaw.gif"
+  },
+  "Grimeleech": {
+   "exp": 7216,
+   "hp": 9500,
+   "lvl": "200+",
+   "loc": "Roshamuul, Prison",
+   "boss": false,
+   "items": [
+    "Rift Lance"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Grimeleech",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Grimeleech",
+   "img": "img/monstros/grimeleech.gif"
+  },
+  "The Unarmored Voidborn": {
+   "exp": 15000,
+   "hp": 250000,
+   "lvl": "60+",
+   "loc": "boss do Dream Courts",
+   "boss": true,
+   "items": [
+    "Berserker",
+    "Ring of Red Plasma"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/The_Unarmored_Voidborn",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Unarmored%20Voidborn",
+   "img": "img/monstros/the-unarmored-voidborn.gif"
+  },
+  "Falcon Knight": {
+   "exp": 6300,
+   "hp": 9000,
+   "lvl": "300+",
+   "loc": "Falcon Bastion (Edron)",
+   "boss": false,
+   "items": [
+    "Heavy Mace"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Falcon_Knight",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Falcon%20Knight",
+   "img": "img/monstros/falcon-knight.gif"
+  },
+  "Annihilon": {
+   "exp": 15000,
+   "hp": 46500,
+   "lvl": "60+",
+   "loc": "boss do Inquisition Quest",
+   "boss": true,
+   "items": [
+    "Heavy Mace"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Annihilon",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Annihilon",
+   "img": "img/monstros/annihilon.gif"
+  },
+  "Ghastly Dragon": {
+   "exp": 4600,
+   "hp": 7800,
+   "lvl": "150+",
+   "loc": "Zao, Razachai",
+   "boss": false,
+   "items": [
+    "Guardian Boots"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Ghastly_Dragon",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Ghastly%20Dragon",
+   "img": "img/monstros/ghastly-dragon.gif"
+  },
+  "Ancient Lion Knight": {
+   "exp": 8100,
+   "hp": 9100,
+   "lvl": "300+",
+   "loc": "Bounac, Lion Sanctum",
+   "boss": false,
+   "items": [
+    "Lion Axe"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Ancient_Lion_Knight",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Ancient%20Lion%20Knight",
+   "img": "img/monstros/ancient-lion-knight.gif"
+  },
+  "Malofur Mangrinder": {
+   "exp": 55000,
+   "hp": 320000,
+   "lvl": "200+",
+   "loc": "boss do Dream Courts",
+   "boss": true,
+   "items": [
+    "Resizer"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Malofur_Mangrinder",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Malofur%20Mangrinder",
+   "img": "img/monstros/malofur-mangrinder.gif"
+  },
+  "Mitmah Vanguard": {
+   "exp": 300000,
+   "hp": 200000,
+   "lvl": "200+",
+   "loc": "boss de Iksupan",
+   "boss": true,
+   "items": [
+    "Stoic Iks Culet"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Mitmah_Vanguard",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20Mitmah%20Vanguard",
+   "img": null
   }
  }
 }

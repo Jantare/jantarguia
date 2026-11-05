@@ -186,3 +186,59 @@ a.name:hover{color:var(--gold)}
 .badge-pic{flex:none;width:64px;height:64px;display:grid;place-items:center;border-radius:6px;background:#0b0a08;box-shadow:inset 1px 1px 0 #000,inset -1px -1px 0 #3a362e}
 .badge-pic img{width:64px;height:64px;object-fit:contain;image-rendering:pixelated}
 .mount-badge em{display:block;font-style:normal;font-size:.82rem;color:#c9bfa9;margin-top:2px;line-height:1.3}
+
+/* rota passo a passo */
+.mode-switch{margin-top:-14px}
+.muted{color:var(--muted);margin:0;font-size:.92rem}
+.resumo{background:var(--panel);border:1px solid var(--gold-2);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:16px}
+.resumo-h{display:flex;flex-direction:column;gap:2px}
+.resumo-h h2{font-size:1.5rem}
+.resumo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.rbox{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:6px}
+.rbox p,.rbox ul{margin:0;font-size:.95rem}
+.rbox ul{padding-left:18px;display:flex;flex-direction:column;gap:3px}
+.linha-wrap{display:flex;flex-direction:column;gap:8px}
+.linha{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;counter-reset:l}
+.linha a{display:flex;flex-direction:column;gap:2px;height:100%;text-decoration:none;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-left:3px solid var(--gold-2);border-radius:6px;padding:8px 10px;font-size:.88rem;line-height:1.25}
+.linha a:hover{border-color:var(--gold)}
+.linha b{font-family:var(--display);color:var(--gold);font-size:1.1rem}
+.linha b::before{content:"lvl ";font-family:var(--body);font-size:.75rem;color:var(--muted);font-weight:500}
+.steps{display:flex;flex-direction:column;gap:34px}
+.step{display:flex;flex-direction:column;gap:12px;scroll-margin-top:190px}
+.step-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.step-n{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:700;background:var(--gold);color:var(--bg);flex:none}
+.step-obj{margin:0;font-size:1.08rem;font-weight:600;max-width:75ch}
+.step.is-here .step-n{background:var(--here)}
+.step-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}
+.sbox{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.how-t.t2{margin-top:6px}
+.hrow,.irow summary{display:flex;gap:10px;align-items:flex-start}
+.hrow + .hrow,.irow + .irow{border-top:1px dashed var(--line);padding-top:8px}
+.hrow-txt,.irow-txt{display:flex;flex-direction:column;gap:1px;min-width:0;flex:1}
+.hrow-txt b,.irow-txt b{font-size:1.02rem}
+.hrow-onde{font-size:.92rem}
+.hrow-nota,.irow-w{font-size:.86rem;color:var(--muted)}
+.hrow .slot,.irow .slot{width:44px;height:44px}
+.hrow .slot img,.irow .slot img{transform:none;max-width:40px;max-height:40px;width:auto;height:auto}
+.irow summary{cursor:pointer;list-style:none}
+.irow summary::-webkit-details-marker{display:none}
+.irow-more{flex:none;width:24px;height:24px;border:1px solid var(--line);border-radius:6px;display:grid;place-items:center;color:var(--muted);font-weight:700;align-self:center}
+.irow[open] .irow-more{transform:rotate(45deg);color:var(--gold);border-color:var(--gold-2)}
+.irow-body{margin-top:8px}
+.irow-body .card{background:var(--bg)}
+.srow{display:grid;grid-template-columns:2.2em 1fr auto;gap:0 10px;align-items:baseline;padding:5px 0;font-size:.93rem}
+.srow + .srow{border-top:1px dashed var(--line)}
+.srow .s-lv{font-family:var(--display);color:var(--muted);text-align:right}
+.srow .s-n{display:flex;flex-wrap:wrap;gap:0 8px;align-items:baseline;min-width:0}
+.srow code{font-family:var(--mono);font-size:.85rem;color:var(--muted);font-style:italic}
+.srow .s-p{font-size:.85rem;white-space:nowrap}
+.srow .s-npc{grid-column:2/-1;font-size:.8rem;color:var(--muted)}
+.srow.ess .s-lv{color:var(--gold)}
+.srow.ess .s-n b{color:var(--gold)}
+.more summary{cursor:pointer;color:var(--gold);font-size:.9rem;padding:6px 0}
+.q-links{display:flex;flex-wrap:wrap;gap:6px}
+.q-links .pill{text-decoration:none}
+.q-links .pill small{color:var(--muted)}
+.pill-gold{border-color:var(--gold-2);color:var(--gold)}
+.step-treino{margin:0;font-size:.95rem}
+@media (max-width:520px){.step-grid{grid-template-columns:1fr}.resumo{padding:14px}.step{scroll-margin-top:230px}}

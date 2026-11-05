@@ -9,8 +9,8 @@
   const img = (src, cls) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : "";
   const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
 
-  const st = { view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "todas", level: null, srv: "" };
-  let SITE, BASE, QUESTS, LOOK, SERVERS = {};
+  const st = { view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", vmode: "rota", level: null, srv: "" };
+  let SITE, BASE, QUESTS, LOOK, ROTAS, SERVERS = {};
 
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -24,7 +24,7 @@
   }
 
   const VOC_INFO = {
-    knight: { icon: "img/itens/heroic-axe.webp", txt: "Linha de frente. Aguenta o dano com escudo ou bate forte com arma de duas mãos. Guia separado para machado, espada e clava." },
+    knight: { icon: "img/itens/heroic-axe.webp", txt: "Linha de frente. Rota completa do Knight de machado, com hunts, magias e a ordem de compra do meta atual. Também tem espada e clava." },
     paladin: { icon: "img/itens/falcon-bow.webp", txt: "Ataca de longe com arco, besta, lança ou estrela. Dano alto e boa defesa." },
     sorcerer: { icon: "img/itens/wand-of-inferno.webp", txt: "Mago de dano. As magias mais fortes do jogo, mas com pouca vida." },
     druid: { icon: "img/itens/hailstorm-rod.webp", txt: "Mago de suporte. Cura o time e também causa bastante dano." },
@@ -84,18 +84,101 @@
       <span>${n ? `${n} item(ns) com diferença conferida neste servidor aparecem marcados.` : "Ainda não há diferenças conferidas neste servidor: os dados abaixo são os do Tibia base."}</span></div>`;
   }
 
-  function vocationView(voc) {
+  function vocItems(voc) {
     let items = voc.itens;
     if (voc.id === "knight" && st.weapon !== "todas")
-      items = items.filter(i => !i.slot.startsWith("Arma") || i.slot.includes(st.weapon));
+      items = items.filter(i => !/^Arma( |$)/.test(i.slot) || i.slot.includes(st.weapon));
+    const ord = ["Arma", "Armadura", "Capacete", "Pernas", "Botas", "Colar", "Amuleto", "Anel", "Escudo"];
+    const rank = sl => { const i = ord.findIndex(o => sl === o || sl.startsWith(o + " ")); return i < 0 ? 5 : i; };
+    return [...items].sort((x, y) => rank(x.slot) - rank(y.slot));
+  }
+
+  function modeSwitch() {
+    return `<div class="chips mode-switch"><button class="chip" type="button" data-vmode="rota" aria-pressed="${st.vmode === "rota"}">Rota passo a passo</button><button class="chip" type="button" data-vmode="itens" aria-pressed="${st.vmode === "itens"}">Só os itens</button></div>`;
+  }
+
+  function lvlNote(cur) {
+    return cur ? `<div class="filter-note"><span>Mostrando do level ${esc(cur)} em diante, para o level ${st.level}.</span><button type="button" data-clear-lvl>Ver todas as faixas</button></div>` : "";
+  }
+
+  function resumoBlock(r) {
+    if (!r) return "";
+    return `<section class="resumo">
+      <div class="resumo-h"><span class="path-kicker">Resumo</span><h2>${esc(r.titulo)}</h2></div>
+      <div class="resumo-grid">
+        <div class="rbox"><span class="how-t">Papel</span><p>${esc(r.papel)}</p></div>
+        <div class="rbox"><span class="how-t">Skills</span><p>${esc(r.skills)}</p></div>
+        <div class="rbox"><span class="how-t">Imbuements</span><ul>${r.imbuements.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+        <div class="rbox"><span class="how-t">RTC (auto-uso)</span><p>${esc(r.rtc)}</p></div>
+      </div>
+      <div class="linha-wrap"><span class="how-t">Ordem de compra resumida</span>
+        <ol class="linha">${r.linha.map(([lv, t]) => `<li><a href="#" data-jump="${esc(lv)}"><b>${esc(lv)}</b><span>${esc(t)}</span></a></li>`).join("")}</ol></div>
+      <p class="foot-note">${esc(r.fonte)}${r.video ? ` <a href="${esc(r.video)}" target="_blank" rel="noopener">Ver o vídeo</a>.` : ""}</p>
+    </section>`;
+  }
+
+  function itemRow(it) {
+    const s = it.src[0], m = s && BASE.monstros[s.m];
+    const where = s ? `${esc(s.m)}${m && m.boss ? ' <span class="boss-tag">boss</span>' : ""} · ${pct(s.c)}` :
+      it.shop.length ? `NPC ${esc(it.shop[0].n)} · ${num(it.shop[0].p)} gp` : it.quest ? "Recompensa de quest" : "Market";
+    return `<details class="irow"><summary>${slot(it.img)}<span class="irow-txt"><span class="meta">${esc(it.slot)}${it.lv ? " · lvl " + it.lv : ""}</span><b>${esc(it.item)}</b><span class="irow-w">${where}</span></span><span class="irow-more" aria-hidden="true">+</span></summary>
+      <div class="irow-body">${card(it)}</div></details>`;
+  }
+
+  function huntRow(h) {
+    return `<div class="hrow">${slot(h.img)}<div class="hrow-txt"><span class="meta">lvl ${esc(h.lv)} · ${num(h.exp)} xp · ${num(h.hp)} hp</span><b>${esc(h.m)}</b><span class="hrow-onde">${esc(h.onde)}</span>${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${srvNote("monstros", h.m)}</div></div>`;
+  }
+
+  function spellRows(list) {
+    return list.map(s => `<div class="srow${s.ess ? " ess" : ""}"><span class="s-lv">${s.lv}</span><span class="s-n"><b>${esc(s.n)}</b><code>${esc(s.w)}</code></span><span class="s-p">${s.p ? num(s.p) + " gp" : s.p === 0 ? "grátis" : "—"}</span>${s.npc.length ? `<span class="s-npc">${s.npc.map(esc).join(", ")}</span>` : ""}</div>`).join("");
+  }
+
+  function routeView(voc) {
+    const R = ROTAS.vocacoes[voc.id] || { etapas: [] };
+    const items = vocItems(voc);
     const cur = tierOf(st.level);
     const curIdx = cur ? TIERS.findIndex(t => t[0] === cur) : 0;
-    const note = cur ? `<div class="filter-note"><span>Mostrando do level ${esc(cur)} em diante, para o level ${st.level}.</span><button type="button" data-clear-lvl>Ver todas as faixas</button></div>` : "";
-    return `<div class="page-h"><h1>${esc(voc.nome)}: equipamento por level</h1>
-      <p class="intro">Só aparece o que vale trocar em cada faixa; o resto você mantém da faixa anterior. Toque no nome do item para abrir a TibiaWiki.</p></div>
+    const qlvl = {};
+    QUESTS.faixas.forEach(f => f.quests.forEach(q => qlvl[q.nome] = q));
+    return `${R.pronta ? resumoBlock(R.resumo) : `<div class="notice"><span><b>Rota em construção</b></span><span>Esta vocação já tem equipamento, magias e quests por faixa. As hunts e o resumo entram em breve; por enquanto, use o Hunt Finder do servidor para escolher onde caçar.</span></div>`}
+      ${lvlNote(cur)}
+      <div class="steps">${R.etapas.map((e, idx) => {
+        if (idx < curIdx) return "";
+        const its = items.filter(i => i.tier === e.faixa);
+        const ess = e.magias.filter(s => s.ess), rest = e.magias.filter(s => !s.ess);
+        const qs = (ROTAS.quests[e.faixa] || []);
+        return `<section class="step${cur === e.faixa ? " is-here" : ""}" id="etapa-${idx}" data-lo="${TIERS[idx][1]}">
+          <div class="step-h"><span class="step-n">${idx + 1}</span><span class="lvl-badge">Lvl ${esc(e.faixa)}</span>${cur === e.faixa ? '<span class="here">você está aqui</span>' : ""}<span class="rule"></span></div>
+          ${e.objetivo ? `<p class="step-obj">${esc(e.objetivo)}</p>` : ""}
+          <div class="step-grid">
+            <div class="sbox"><span class="how-t">Onde caçar</span>${e.hunts.length ? e.hunts.map(huntRow).join("") : `<p class="muted">Use o Hunt Finder para ver as hunts desta faixa.</p>`}</div>
+            <div class="sbox"><span class="how-t">O que comprar ou trocar${its.length ? ` (${its.length})` : ""}</span>${its.length ? its.map(itemRow).join("") : `<p class="muted">Nada novo: mantenha o equipamento da faixa anterior e junte gold.</p>`}</div>
+          </div>
+          <div class="step-grid">
+            <div class="sbox"><span class="how-t">Magias para comprar</span>${ess.length || rest.length ? `${spellRows(ess)}${rest.length ? `<details class="more"><summary>Outras magias desta faixa (${rest.length})</summary>${spellRows(rest)}</details>` : ""}` : `<p class="muted">Nenhuma magia nova nesta faixa.</p>`}</div>
+            <div class="sbox"><span class="how-t">Quests</span>${qs.length ? `<div class="q-links">${qs.map(n => `<a class="pill${qlvl[n] && (qlvl[n].outfit || qlvl[n].montaria) ? " pill-gold" : ""}" href="#quests">${esc(n)}${qlvl[n] ? ` <small>${esc(qlvl[n].lvl)}</small>` : ""}</a>`).join("")}</div>` : `<p class="muted">Sem quest essencial nesta faixa.</p>`}
+              ${e.treino ? `<span class="how-t t2">Treino</span><p class="step-treino">${esc(e.treino)}</p>` : ""}</div>
+          </div>
+        </section>`;
+      }).join("")}</div>
+      <p class="foot-note">Magias: level, palavras, preço e alguns NPCs que vendem, da base do Canary. As marcadas em dourado são as que mais fazem diferença.</p>`;
+  }
+
+  function vocationView(voc) {
+    const title = voc.id === "knight" && st.weapon === "Machado" ? "Knight de machado" : voc.nome;
+    return `<div class="page-h"><h1>${esc(title)}: rota do level 8 ao 600</h1>
+      <p class="intro">${st.vmode === "rota" ? "Cada etapa mostra onde caçar, o que comprar, quais magias pegar, as quests e o que treinar. Digite seu level no topo para pular direto para a sua etapa." : "Só aparece o que vale trocar em cada faixa; o resto você mantém da faixa anterior. Toque no nome do item para abrir a TibiaWiki."}</p></div>
       ${serverBanner()}
-      <div class="legend"><span><span class="dot common"></span> comum (5%+)</span><span><span class="dot uncommon"></span> incomum (1–5%)</span><span><span class="dot rare"></span> raro (&lt;1%)</span></div>
-      ${note}
+      ${modeSwitch()}
+      ${st.vmode === "rota" ? routeView(voc) : itemsView(voc)}`;
+  }
+
+  function itemsView(voc) {
+    const items = vocItems(voc);
+    const cur = tierOf(st.level);
+    const curIdx = cur ? TIERS.findIndex(t => t[0] === cur) : 0;
+    return `<div class="legend"><span><span class="dot common"></span> comum (5%+)</span><span><span class="dot uncommon"></span> incomum (1–5%)</span><span><span class="dot rare"></span> raro (&lt;1%)</span></div>
+      ${lvlNote(cur)}
       ${TIERS.map(([t], idx) => {
         const its = items.filter(i => i.tier === t);
         if (!its.length || idx < curIdx) return "";
@@ -203,8 +286,8 @@
       </a>`).join("");
     return `<section class="home-hero">
         <div class="home-hero-txt">
-          <h1>Qual equipamento usar em cada level, e onde ele dropa</h1>
-          <p>O que vestir do level 8 ao 600 em cada vocação, qual monstro ou boss dropa cada item, a chance de drop e qual NPC vende.</p>
+          <h1>A rota do level 8 ao 600: onde caçar, o que comprar e onde dropa</h1>
+          <p>Passo a passo por faixa de level: hunts, equipamento na ordem de compra, magias com NPC e preço, quests e treino. Com a chance de drop de cada item.</p>
         </div>
         <div class="stats">${stats}</div>
       </section>
@@ -214,7 +297,7 @@
           <button class="path" type="button" data-go-base>
             <span class="path-kicker">Guia geral</span>
             <span class="path-title">Tibia (base)</span>
-            <span class="path-txt">Equipamento por level das 5 vocações. Vale para o Tibia oficial e para qualquer servidor com o mapa do Tibia.</span>
+            <span class="path-txt">Rota e equipamento por level das 5 vocações. Vale para o Tibia oficial e para qualquer servidor com o mapa do Tibia.</span>
             <span class="path-go">Escolher vocação ↓</span>
           </button>
           ${srvCards}
@@ -268,6 +351,15 @@
     if (lk) { st.look = lk.dataset.look; st.lookCat = "todas"; render(); }
     const lc = e.target.closest("[data-lcat]");
     if (lc) { st.lookCat = lc.dataset.lcat; render(); }
+    const vm = e.target.closest("[data-vmode]");
+    if (vm) { st.vmode = vm.dataset.vmode; store.set("vmode", st.vmode); render(); }
+    const jp = e.target.closest("[data-jump]");
+    if (jp) {
+      e.preventDefault();
+      const lv = parseInt(jp.dataset.jump), idx = TIERS.findIndex(t => lv >= t[1] && lv < t[2]);
+      const el = document.getElementById("etapa-" + (idx < 0 ? TIERS.length - 1 : idx));
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
     const qf = e.target.closest("[data-q]");
     if (qf) { st.qfilter = qf.dataset.q; render(); }
     if (e.target.closest("[data-go-base]")) {
@@ -291,7 +383,7 @@
     themeLabel();
     try {
       const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
-      [SITE, BASE, QUESTS, LOOK] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json")]);
+      [SITE, BASE, QUESTS, LOOK, ROTAS] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json")]);
       const list = await Promise.all(SITE.servidores.map(id => get(`data/servidores/${id}.json`)));
       list.forEach(s => SERVERS[s.id] = s);
     } catch (e) {
@@ -301,6 +393,7 @@
     $("#criador").textContent = SITE.criador;
     $("#srv").innerHTML = `<option value="">Tibia (base)</option>` + Object.values(SERVERS).map(s => `<option value="${esc(s.id)}">${esc(s.nome)}</option>`).join("");
     const savedSrv = store.get("srv"); if (savedSrv && SERVERS[savedSrv]) { st.srv = savedSrv; $("#srv").value = savedSrv; }
+    if (store.get("vmode") === "itens") st.vmode = "itens";
     const lv = parseInt(store.get("lvl")); if (lv > 0) { st.level = lv; $("#mylvl").value = lv; }
     $("#srv").addEventListener("change", e => {
       st.srv = e.target.value; store.set("srv", st.srv);

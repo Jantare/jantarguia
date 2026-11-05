@@ -270,11 +270,12 @@
         <div class="rbox"><span class="how-t">Dicas</span><ul>${IMBU.dicas.map(d => `<li>${esc(d)}</li>`).join("")}</ul></div></div>
         <a class="hrow-yt" href="${esc(IMBU.video)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver o guia em vídeo</a>
       </section>
+      <p class="foot-note imbu-leg">Nas receitas, <span class="imbu-it novo"><b>5x</b> item</span> em dourado é o que entra de novo naquele nível; os apagados você já precisava no nível anterior.</p>
       ${groups.map(g => `<section class="tier"><div class="tier-h"><span class="lvl-badge">${esc(g)}</span><span class="rule"></span></div>
         <div class="grid">${IMBU.lista.filter(x => x.grupo === g).map(x => `<article class="card imbu">
           <div class="q-head"><span class="name">${esc(x.nome)}</span><span class="req">${esc(x.efeito)}</span></div>
           <div class="line"><b>Onde:</b> ${esc(x.onde)}</div>
-          <div class="imbu-lv">${x.niveis.map((n, i) => `<div><span class="how-t">${esc(n.n)}</span><b>${esc(n.v)}</b><span class="imbu-items">${x.itens[i].map(esc).join(" + ")}</span></div>`).join("")}</div>
+          <div class="imbu-lv">${x.niveis.map((n, i) => `<div><span class="how-t">${esc(n.n)}</span><b>${esc(n.v)}</b><span class="imbu-items">${x.itens[i].map(t => { const m = t.match(/^(\d+) (.+)$/), novo = i === 0 || !x.itens[i - 1].includes(t); return `<span class="imbu-it${novo ? " novo" : ""}"><b>${esc(m[1])}x</b> ${esc(m[2])}</span>`; }).join("")}</span></div>`).join("")}</div>
         </article>`).join("")}</div></section>`).join("")}
       <p class="foot-note">${esc(IMBU.fonte)}</p>`;
   }

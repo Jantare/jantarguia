@@ -294,3 +294,8 @@ a.name:hover{color:var(--gold)}
   .field select{max-width:none}
   .tab{padding:8px 8px 10px}
 }
+.imbu-items{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
+.imbu-it{font-size:.85rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;line-height:1.35}
+.imbu-it b{color:var(--gold);font-family:var(--display);margin-right:2px}
+.imbu-it.novo{border-color:var(--gold-2);background:var(--gold-soft)}
+.imbu-it:not(.novo){opacity:.75}

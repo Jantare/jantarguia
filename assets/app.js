@@ -36,15 +36,25 @@
     const v = [{ id: "inicio", nome: "Início" }, ...BASE.vocacoes.map(x => ({ id: x.id, nome: x.nome }))];
     v.push({ id: "quests", nome: "Quests" });
     v.push({ id: "imbuements", nome: "Imbuements" });
-    v.push({ id: "outfits", nome: "Outfits e montarias" });
+    v.push({ id: "outfits", nome: "Outfits" });
     v.push({ id: "monstros", nome: "Monstros" });
     if (st.srv) v.push({ id: st.srv, nome: SERVERS[st.srv].nome, srv: true });
     return v;
   }
 
+  const NAV_ICON = { quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/montarias/draptor.webp", monstros: "img/monstros/dragon.gif" };
   function nav() {
-    $("#tabs").innerHTML = views().map(v =>
-      `<a class="tab${v.srv ? " srv" : ""}" href="#${v.id}" ${v.id === st.view ? 'aria-current="page"' : ""}>${esc(v.nome)}</a>`).join("");
+    const tab = v => {
+      const ic = v.id === "inicio" ? `<svg class="tab-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 10.5V21h6.5v-6h5v6H21V10.5z" fill="currentColor"/></svg>`
+        : (VOC_INFO[v.id] || NAV_ICON[v.id]) ? `<img class="tab-ico" src="${esc((VOC_INFO[v.id] || {}).icon || NAV_ICON[v.id])}" alt="">` : "";
+      return `<a class="tab${v.srv ? " srv" : ""}" href="#${v.id}" ${v.id === st.view ? 'aria-current="page"' : ""}>${ic}<span>${esc(v.nome)}</span></a>`;
+    };
+    const vs = views(), vocIds = BASE.vocacoes.map(x => x.id);
+    const g1 = vs.filter(v => v.id === "inicio"), g2 = vs.filter(v => vocIds.includes(v.id)), g3 = vs.filter(v => v.id !== "inicio" && !vocIds.includes(v.id));
+    $("#tabs").innerHTML = `${g1.map(tab).join("")}<span class="tab-sep" aria-hidden="true"></span><span class="tab-group" aria-label="Vocações">${g2.map(tab).join("")}</span><span class="tab-sep" aria-hidden="true"></span>${g3.map(tab).join("")}`;
+    const act = $("#tabs [aria-current]"), tb = $("#tabs");
+    if (act) tb.scrollLeft = act.offsetLeft - (tb.clientWidth - act.offsetWidth) / 2;
+    tb.classList.toggle("over", tb.scrollWidth > tb.clientWidth + 2);
     const ch = $("#chips");
     ch.hidden = st.view !== "knight";
     ch.innerHTML = ["todas", "Machado", "Espada", "Clava"].map(w =>
@@ -419,7 +429,10 @@
   window.addEventListener("hashchange", () => { fromHash(); render(); window.scrollTo(0, 0); });
 
   function themeLabel() {
-    $("#theme").textContent = document.documentElement.dataset.theme === "light" ? "Modo escuro" : "Modo claro";
+    const light = document.documentElement.dataset.theme === "light";
+    const t = $("#theme"); t.title = t.ariaLabel = light ? "Mudar para o modo escuro" : "Mudar para o modo claro";
+    t.innerHTML = light ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="currentColor"/></svg>`
+      : `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg>`;
   }
 
   async function boot() {

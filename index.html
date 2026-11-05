@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grenze:wght@500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=202611050320">
+<link rel="stylesheet" href="assets/style.css?v=202611050400">
 </head>
 <body>
 <header class="bar"><div class="wrap">
@@ -21,13 +21,13 @@
       <span class="brand-txt"><span class="brand-name">Jantar Guia</span><span class="by">por <b id="criador">Jantar</b></span></span>
     </a>
     <div class="ctrls">
-      <button class="theme" id="theme" type="button">Modo claro</button>
-      <label class="field" for="srv">Servidor
-        <select id="srv"><option value="">Tibia (base)</option></select>
-      </label>
-      <label class="field" for="mylvl">Seu level
+      <label class="field lvl" for="mylvl"><span>Seu level</span>
         <input id="mylvl" type="number" inputmode="numeric" min="1" max="3000" placeholder="ex: 92">
       </label>
+      <label class="field" for="srv"><span class="sr">Servidor</span>
+        <select id="srv" aria-label="Servidor"><option value="">Tibia (base)</option></select>
+      </label>
+      <button class="theme" id="theme" type="button"></button>
     </div>
   </div>
   <nav class="tabs" id="tabs" aria-label="Seções"></nav>
@@ -37,6 +37,6 @@
 <main><div class="wrap" id="view"><p class="loading">Carregando o guia…</p></div></main>
 
 <footer class="foot"><div class="wrap" id="foot"></div></footer>
-<script src="assets/app.js?v=202611050320"></script>
+<script src="assets/app.js?v=202611050400"></script>
 </body>
 </html>

@@ -5,12 +5,13 @@
   const num = n => Number(n).toLocaleString("pt-BR");
   const rarity = c => c >= 5 ? "common" : c >= 1 ? "uncommon" : "rare";
   const rlabel = c => c >= 5 ? "comum" : c >= 1 ? "incomum" : "raro";
+  const norm = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   const pct = c => c.toFixed(2).replace(".", ",") + "%";
   const img = (src, cls, alt) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="${esc(alt || "")}" loading="lazy" onerror="this.remove()">` : "";
   const ytq = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
   const slot = (src, big, alt) => `<span class="slot${big ? " big" : ""}">${img(src, "", alt)}</span>`;
 
-  const st = { monF: "todos", monQ: "", imbuVoc: "knight", view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
+  const st = { monF: "todos", monQ: "", questQ: "",imbuVoc: "knight", view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
   let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, SERVERS = {};
 
   const store = {
@@ -227,11 +228,15 @@
     const only = st.qfilter === "outfit";
     return `<div class="page-h"><h1>Quests por level</h1>
       <p class="intro">As quests que os guias da comunidade mais recomendam, na ordem em que vale fazer. Cada uma mostra o que libera e quais itens do Jantar Guia vêm dela. As que dão outfit ou montaria estão destacadas em dourado, com a imagem.</p></div>
-      <div class="chips"><button class="chip" type="button" data-q="todas" aria-pressed="${!only}">Todas as quests</button><button class="chip chip-outfit" type="button" data-q="outfit" aria-pressed="${only}">Só as que dão outfit ou montaria (${nOut})</button></div>
-      ${QUESTS.faixas.map(f => ({ ...f, quests: only ? f.quests.filter(q => q.outfit || q.montaria) : f.quests })).filter(f => f.quests.length).map(f => `<section class="tier">
+      <div class="look-bar">
+        <div class="chips"><button class="chip" type="button" data-q="todas" aria-pressed="${!only}">Todas as quests</button><button class="chip chip-outfit" type="button" data-q="outfit" aria-pressed="${only}">Só as que dão outfit ou montaria (${nOut})</button></div>
+        <label class="field look-search" for="questq">Buscar <input id="questq" type="search" placeholder="ex: Djinn, Demon Hunter, Rift Runner" value="${esc(st.questQ)}" autocomplete="off"></label>
+      </div>
+      <p class="intro quest-count" hidden></p>
+      ${QUESTS.faixas.map(f => ({ ...f, quests: only ? f.quests.filter(q => q.outfit || q.montaria) : f.quests })).filter(f => f.quests.length).map(f => `<section class="tier q-tier">
         <div class="tier-h"><span class="lvl-badge">${esc(f.faixa)}</span><span class="rule"></span></div>
         <p class="intro">${esc(f.desc)}</p>
-        <div class="grid">${f.quests.map(q => `<article class="card quest${q.outfit || q.montaria ? " has-outfit" : ""}">
+        <div class="grid">${f.quests.map(q => `<article class="card quest${q.outfit || q.montaria ? " has-outfit" : ""}" data-s="${esc(norm([q.nome, q.outfit, q.montaria, ...(q.tags || []), ...(q.itens || [])].filter(Boolean).join(" ")))}">
           ${q.outfit ? `<div class="outfit-badge">${q.outfit_img ? `<span class="badge-pic">${img(q.outfit_img, "", q.outfit)}</span>` : `<span class="outfit-ico" aria-hidden="true">✦</span>`}<span><small>Dá a outfit</small><b>${esc(q.outfit)}</b></span></div>` : ""}
           ${q.montaria ? `<div class="outfit-badge mount-badge">${q.montaria_img ? `<span class="badge-pic">${img(q.montaria_img, "", q.montaria)}</span>` : ""}<span><small>Dá a montaria</small><b>${esc(q.montaria)}</b><em>${esc(q.montaria_como || "")}</em></span></div>` : ""}
           <div class="q-head"><span class="name">${esc(q.nome)}</span><span class="req">lvl ${esc(q.lvl)}</span></div>
@@ -290,6 +295,18 @@
           <div class="imbu-lv">${x.niveis.map((n, i) => `<div><span class="how-t">${esc(n.n)}</span><b>${esc(n.v)}</b><span class="imbu-items">${x.itens[i].map(t => { const m = t.match(/^(\d+) (.+)$/), novo = i === 0 || !x.itens[i - 1].includes(t); return `<span class="imbu-it${novo ? " novo" : ""}"><b>${esc(m[1])}x</b> ${esc(m[2])}</span>`; }).join("")}</span></div>`).join("")}</div>
         </article>`).join("")}</div></section>`).join("")}
       <p class="foot-note">${esc(IMBU.fonte)}</p>`;
+  }
+
+  function filterQuests() {
+    const q = norm(st.questQ.trim());
+    let n = 0;
+    document.querySelectorAll(".q-tier").forEach(sec => {
+      let k = 0;
+      sec.querySelectorAll(".card.quest").forEach(c => { const ok = !q || c.dataset.s.includes(q); c.hidden = !ok; if (ok) k++; });
+      sec.hidden = k === 0; n += k;
+    });
+    const e = $(".quest-count");
+    if (e) { e.hidden = !q; e.textContent = n ? `${n} ${n === 1 ? "quest encontrada" : "quests encontradas"} para "${st.questQ.trim()}".` : `Nenhuma quest encontrada para "${st.questQ.trim()}". Tente o nome da quest, da outfit ou da montaria.`; }
   }
 
   function filterMon() {
@@ -417,7 +434,7 @@
     const v = $("#view");
     document.body.classList.toggle("is-home", st.view === "inicio");
     if (st.view === "inicio") v.innerHTML = homeView();
-    else if (st.view === "quests") v.innerHTML = questsView();
+    else if (st.view === "quests") { v.innerHTML = questsView(); filterQuests(); }
     else if (st.view === "imbuements") v.innerHTML = imbuView();
     else if (st.view === "outfits") v.innerHTML = lookView();
     else if (st.view === "monstros") { v.innerHTML = monstersView(); filterMon(); }
@@ -511,6 +528,7 @@
     });
     document.addEventListener("input", e => {
       if (e.target.id === "monq") { st.monQ = e.target.value; filterMon(); return; }
+      if (e.target.id === "questq") { st.questQ = e.target.value; filterQuests(); return; }
       if (e.target.id !== "lookq") return;
       st.lookQ = e.target.value; const pos = e.target.selectionStart; render();
       const el = $("#lookq"); if (el) { el.focus(); el.setSelectionRange(pos, pos); }

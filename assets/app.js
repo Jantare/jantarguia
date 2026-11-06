@@ -351,6 +351,7 @@
         <ol class="promo-steps"><li>Crie sua conta pelo botão <b>Criar conta</b>.</li><li>Na hora de comprar cash, use o cupom <b class="promo-bonus">${esc(SITE.codigo_streamer)}</b>${SITE.bonus_cupom ? ` e ganhe <b class="promo-bonus">${esc(SITE.bonus_cupom)}</b>` : ""}.</li></ol></div>
       <div class="promo-act">
         ${SITE.link_cadastro ? `<a class="promo-btn" href="${esc(SITE.link_cadastro)}" target="_blank" rel="sponsored noopener">Criar conta no ${esc(SITE.servidor_parceiro)} →</a>` : ""}
+        ${SITE.discord_parceiro ? `<a class="promo-btn discord" href="${esc(SITE.discord_parceiro)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.6 19.6 0 0 0-4.9 1.5C.6 9.1-.3 13.6.2 18a19.8 19.8 0 0 0 6 3l1.3-2.1a12.8 12.8 0 0 1-2-1l.5-.4a14 14 0 0 0 12 0l.5.4c-.6.4-1.3.7-2 1l1.3 2.1a19.7 19.7 0 0 0 6-3c.5-5.1-.9-9.6-3.5-13.6zM8.3 15.3c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.2 1.1 2.1 2.4c0 1.3-.9 2.4-2.1 2.4zm7.4 0c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.2 1.1 2.1 2.4c0 1.3-.9 2.4-2.1 2.4z"/></svg>Discord do ${esc(SITE.servidor_parceiro)}</a>` : ""}
         <button class="promo-code" type="button" data-copy="${esc(SITE.codigo_streamer)}" title="Copiar cupom"><span>Cupom para cash</span><b>${esc(SITE.codigo_streamer)}</b><span class="copy-lbl">Copiar</span></button>
       </div>
     </section>`;
@@ -359,7 +360,7 @@
   function serverView(s) {
     return `<div class="page-h"><h1>${esc(s.nome)}</h1>
       <p class="intro">${esc(s.resumo)}</p></div>
-      <div class="notice"><span><b>${esc(s.status)}</b></span><span>Site oficial: <a href="${esc(s.site)}" target="_blank" rel="noopener">${esc(s.site.replace(/^https?:\/\//, ""))}</a></span></div>
+      <div class="notice"><span><b>${esc(s.status)}</b></span><span>Site oficial: <a href="${esc(s.site)}" target="_blank" rel="noopener">${esc(s.site.replace(/^https?:\/\//, ""))}</a></span>${s.discord ? `<span>Discord: <a href="${esc(s.discord)}" target="_blank" rel="noopener">${esc(s.discord.replace(/^https?:\/\//, ""))}</a></span>` : ""}</div>
       ${s.nome === SITE.servidor_parceiro ? promoBox(false) : ""}
       <h2>Sistemas próprios</h2>
       <div class="sys">${s.sistemas.map(x => `<article class="card"><span class="name">${esc(x.nome)}</span><p class="tip">${esc(x.texto)}</p></article>`).join("")}</div>`;

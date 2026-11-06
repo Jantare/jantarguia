@@ -6,9 +6,9 @@
   const rarity = c => c >= 5 ? "common" : c >= 1 ? "uncommon" : "rare";
   const rlabel = c => c >= 5 ? "comum" : c >= 1 ? "incomum" : "raro";
   const pct = c => c.toFixed(2).replace(".", ",") + "%";
-  const img = (src, cls) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+  const img = (src, cls, alt) => src ? `<img class="${cls || ""}" src="${esc(src)}" alt="${esc(alt || "")}" loading="lazy" onerror="this.remove()">` : "";
   const ytq = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
-  const slot = (src, big) => `<span class="slot${big ? " big" : ""}">${img(src)}</span>`;
+  const slot = (src, big, alt) => `<span class="slot${big ? " big" : ""}">${img(src, "", alt)}</span>`;
 
   const st = { monF: "todos", monQ: "", imbuVoc: "knight", view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
   let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, SERVERS = {};
@@ -70,7 +70,7 @@
   function card(it) {
     const srcs = it.src.map(s => {
       const m = BASE.monstros[s.m];
-      return `<div class="src">${img(m.img, "mon-ico") || "<span></span>"}<span class="m">${esc(s.m)}</span><span class="c"><span class="dot ${rarity(s.c)}" title="${rlabel(s.c)}"></span>${pct(s.c)}</span>` +
+      return `<div class="src">${img(m.img, "mon-ico", s.m) || "<span></span>"}<span class="m">${esc(s.m)}</span><span class="c"><span class="dot ${rarity(s.c)}" title="${rlabel(s.c)}"></span>${pct(s.c)}</span>` +
         `<span class="w">${m.boss ? `<span class="boss-tag">boss</span> ${m.loc ? esc(m.loc) : "veja na TibiaWiki"} · <a class="yt-mini" href="${ytq("tibia boss " + s.m)}" target="_blank" rel="noopener">vídeo do boss</a>` : `caça a partir do lvl ${esc(m.lvl)} · ${m.loc ? esc(m.loc) : "local no Hunt Finder"}`}</span></div>`;
     }).join("");
     const npc = it.shop.length ? `<div class="line"><b>NPC:</b> ${it.shop.map(s => `${esc(s.n)} (${num(s.p)} gp)`).join(", ")}</div>` : "";
@@ -78,7 +78,7 @@
     const onlyNpc = !it.src.length && it.shop.length ? `<p class="tip">Não dropa em monstro acessível: compre no NPC.</p>` :
       !it.src.length && !it.quest && !(it.tip || "").includes("market") ? `<div class="line"><b>Market:</b> não dropa de monstro comum.</div>` : "";
     return `<article class="card">
-      <div class="head">${slot(it.img)}<div class="head-txt">
+      <div class="head">${slot(it.img, false, it.item)}<div class="head-txt">
         <span class="meta">${esc(it.slot)}</span>
         <a class="name" href="${esc(it.wiki)}" target="_blank" rel="noopener">${esc(it.item)}</a>
         <div class="stats-line"><span class="req${it.lv ? "" : " none"}">${it.lv ? "lvl " + it.lv : "qualquer level"}</span><span class="attr">${esc(it.attr)}</span></div>
@@ -143,13 +143,13 @@
     const s = it.src[0], m = s && BASE.monstros[s.m];
     const where = s ? `${esc(s.m)}${m && m.boss ? ' <span class="boss-tag">boss</span>' : ""} · ${pct(s.c)}` :
       it.shop.length ? `NPC ${esc(it.shop[0].n)} · ${num(it.shop[0].p)} gp` : it.quest ? "Recompensa de quest" : "Market";
-    return `<details class="irow"><summary>${slot(it.img)}<span class="irow-txt"><span class="meta">${esc(it.slot)}${it.lv ? " · lvl " + it.lv : ""}</span><b>${esc(it.item)}</b><span class="irow-w">${where}</span></span><span class="irow-more" aria-hidden="true">+</span></summary>
+    return `<details class="irow"><summary>${slot(it.img, false, it.item)}<span class="irow-txt"><span class="meta">${esc(it.slot)}${it.lv ? " · lvl " + it.lv : ""}</span><b>${esc(it.item)}</b><span class="irow-w">${where}</span></span><span class="irow-more" aria-hidden="true">+</span></summary>
       <div class="irow-body">${card(it)}</div></details>`;
   }
 
   function huntRow(h) {
     const meta = [`lvl ${esc(h.lv)}`, h.exp ? `${num(h.exp)} xp` : "", h.hp ? `${num(h.hp)} hp` : ""].filter(Boolean).join(" · ");
-    return `<div class="hrow">${h.img ? slot(h.img) : `<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
+    return `<div class="hrow">${h.img ? slot(h.img, false, h.m || h.onde) :`<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
   }
 
   function spellRows(list) {
@@ -208,7 +208,7 @@
       </div>
       <p class="intro mon-empty" hidden>Nada encontrado com essa busca.</p>
       <div class="grid mon-grid">${ms.map(([n, m]) => `<article class="card" data-s="${esc([n, m.loc, ...m.items].join(" ").toLowerCase())}">
-        <div class="head">${slot(m.img, true)}<div class="head-txt">
+        <div class="head">${slot(m.img, true, n)}<div class="head-txt">
           <span class="name">${esc(n)}</span>
           <div class="stats-line">${m.boss ? '<span class="boss-tag">boss</span>' : `<span class="req">caçar no lvl ${esc(m.lvl)}</span>`}</div>
           <span class="attr">${num(m.exp)} xp · ${num(m.hp)} hp</span>
@@ -232,8 +232,8 @@
         <div class="tier-h"><span class="lvl-badge">${esc(f.faixa)}</span><span class="rule"></span></div>
         <p class="intro">${esc(f.desc)}</p>
         <div class="grid">${f.quests.map(q => `<article class="card quest${q.outfit || q.montaria ? " has-outfit" : ""}">
-          ${q.outfit ? `<div class="outfit-badge">${q.outfit_img ? `<span class="badge-pic">${img(q.outfit_img)}</span>` : `<span class="outfit-ico" aria-hidden="true">✦</span>`}<span><small>Dá a outfit</small><b>${esc(q.outfit)}</b></span></div>` : ""}
-          ${q.montaria ? `<div class="outfit-badge mount-badge">${q.montaria_img ? `<span class="badge-pic">${img(q.montaria_img)}</span>` : ""}<span><small>Dá a montaria</small><b>${esc(q.montaria)}</b><em>${esc(q.montaria_como || "")}</em></span></div>` : ""}
+          ${q.outfit ? `<div class="outfit-badge">${q.outfit_img ? `<span class="badge-pic">${img(q.outfit_img, "", q.outfit)}</span>` : `<span class="outfit-ico" aria-hidden="true">✦</span>`}<span><small>Dá a outfit</small><b>${esc(q.outfit)}</b></span></div>` : ""}
+          ${q.montaria ? `<div class="outfit-badge mount-badge">${q.montaria_img ? `<span class="badge-pic">${img(q.montaria_img, "", q.montaria)}</span>` : ""}<span><small>Dá a montaria</small><b>${esc(q.montaria)}</b><em>${esc(q.montaria_como || "")}</em></span></div>` : ""}
           <div class="q-head"><span class="name">${esc(q.nome)}</span><span class="req">lvl ${esc(q.lvl)}</span></div>
           <div class="path-tags">${q.tags.map(t => `<span class="pill">${esc(t)}</span>`).join("")}</div>
           <p class="q-txt">${esc(q.txt)}</p>
@@ -316,7 +316,7 @@
         <label class="field look-search" for="lookq">Buscar <input id="lookq" type="search" placeholder="${isM ? "ex: Draptor" : "ex: Norseman"}" value="${esc(st.lookQ)}"></label>
       </div>
       ${items.length ? `<div class="grid look-grid">${items.map(x => `<article class="card look">
-        <div class="head"><span class="slot big look-slot">${img(x.img)}</span><div class="head-txt">
+        <div class="head"><span class="slot big look-slot">${img(x.img, "", x.nome)}</span><div class="head-txt">
           <span class="meta">${esc(isM ? x.cat : (x.grupo === "Loja" ? "Loja" : "Outfit " + x.grupo.toLowerCase()))}${!isM && x.premium ? " · Premium" : ""}</span>
           <span class="name">${esc(x.nome)}</span>
         </div></div>
@@ -333,7 +333,7 @@
         <h2>Jogue no ${esc(SITE.servidor_parceiro)} pelo link do ${esc(SITE.criador)}</h2>
         <ol class="promo-steps"><li>Crie sua conta pelo botão <b>Criar conta</b>.</li><li>Na hora de comprar cash, use o cupom <b class="promo-bonus">${esc(SITE.codigo_streamer)}</b>${SITE.bonus_cupom ? ` e ganhe <b class="promo-bonus">${esc(SITE.bonus_cupom)}</b>` : ""}.</li></ol></div>
       <div class="promo-act">
-        ${SITE.link_cadastro ? `<a class="promo-btn" href="${esc(SITE.link_cadastro)}" target="_blank" rel="noopener">Criar conta no ${esc(SITE.servidor_parceiro)} →</a>` : ""}
+        ${SITE.link_cadastro ? `<a class="promo-btn" href="${esc(SITE.link_cadastro)}" target="_blank" rel="sponsored noopener">Criar conta no ${esc(SITE.servidor_parceiro)} →</a>` : ""}
         <button class="promo-code" type="button" data-copy="${esc(SITE.codigo_streamer)}" title="Copiar cupom"><span>Cupom para cash</span><b>${esc(SITE.codigo_streamer)}</b><span class="copy-lbl">Copiar</span></button>
       </div>
     </section>`;
@@ -394,8 +394,26 @@
       </section>`;
   }
 
+  const DEFAULT_DESC = "Guia de Tibia por vocação e level: qual equipamento usar, qual monstro dropa, chance de drop e NPC que vende. Com seções para servidores como o HeroOT.";
+  const PAGE_META = {
+    inicio: ["Jantar Guia: rota de Tibia do level 8 ao 600, hunts e drops", DEFAULT_DESC],
+    quests: ["Quests do Tibia por level: acessos, bosses e itens | Jantar Guia", "As quests do Tibia que mais valem a pena em cada faixa de level: acessos, descontos, bosses, itens, outfits e montarias."],
+    imbuements: ["Imbuements por vocação: o que imbuir em cada item | Jantar Guia", "O que imbuir em cada item de Knight, Paladin, Sorcerer, Druid e Monk, com os materiais de cada imbuement."],
+    outfits: ["Outfits e montarias do Tibia: como conseguir | Jantar Guia", "Como conseguir cada montaria e outfit do Tibia jogando, com as da loja separadas."],
+    monstros: ["Monstros e bosses do Tibia: onde ficam e o que dropam | Jantar Guia", "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um."]
+  };
+  function setMeta() {
+    let m = PAGE_META[st.view];
+    if (!m && SERVERS[st.view]) { const s = SERVERS[st.view]; m = [`${s.nome}: sistemas e guia do servidor | Jantar Guia`, `Guia do servidor ${s.nome}: sistemas, rates e o que muda em relação ao Tibia oficial.`]; }
+    if (!m) { const v = BASE.vocacoes.find(x => x.id === st.view); if (v) m = [`${v.nome} no Tibia: rota do level 8 ao 600, hunts e equipamento | Jantar Guia`, `Rota do ${v.nome} no Tibia do level 8 ao 600: onde caçar, o que comprar em cada level, magias com NPC e preço, quests e treino.`]; }
+    if (!m) m = PAGE_META.inicio;
+    document.title = m[0];
+    const d = document.querySelector('meta[name="description"]'); if (d) d.content = m[1];
+  }
+
   function render() {
     nav();
+    setMeta();
     const v = $("#view");
     document.body.classList.toggle("is-home", st.view === "inicio");
     if (st.view === "inicio") v.innerHTML = homeView();
@@ -411,7 +429,7 @@
     const parts = [`Feito por <b>${esc(SITE.criador)}</b>.`];
     if (SITE.canal) parts.push(`<a href="${esc(SITE.canal)}" target="_blank" rel="noopener">Canal do ${esc(SITE.criador)}</a>`);
     const tb = $("#topcupom");
-    if (tb && SITE.codigo_streamer) { tb.hidden = false; tb.innerHTML = `<div class="wrap"><span>Crie sua conta no <b>${esc(SITE.servidor_parceiro)}</b> pelo link do ${esc(SITE.criador)} e, ao comprar cash, use o cupom <button class="tb-code" type="button" data-copy="${esc(SITE.codigo_streamer)}">${esc(SITE.codigo_streamer)}</button>${SITE.bonus_cupom ? ` para ganhar <b>${esc(SITE.bonus_cupom)}</b>` : ""}</span>${SITE.link_cadastro ? `<a href="${esc(SITE.link_cadastro)}" target="_blank" rel="noopener">Criar conta →</a>` : ""}</div>`; }
+    if (tb && SITE.codigo_streamer) { tb.hidden = false; tb.innerHTML = `<div class="wrap"><span>Crie sua conta no <b>${esc(SITE.servidor_parceiro)}</b> pelo link do ${esc(SITE.criador)} e, ao comprar cash, use o cupom <button class="tb-code" type="button" data-copy="${esc(SITE.codigo_streamer)}">${esc(SITE.codigo_streamer)}</button>${SITE.bonus_cupom ? ` para ganhar <b>${esc(SITE.bonus_cupom)}</b>` : ""}</span>${SITE.link_cadastro ? `<a href="${esc(SITE.link_cadastro)}" target="_blank" rel="sponsored noopener">Criar conta →</a>` : ""}</div>`; }
     $("#foot").innerHTML = `<span>${parts.join(" · ")}</span>
       <span>Dados de drop, XP e NPC: ${esc(BASE.fonte)}. Servidores podem mudar drops; o que foi conferido em cada servidor aparece marcado. Atualizado em ${esc(BASE.atualizado.split("-").reverse().join("/"))}.</span>
       <span>Tibia é marca da CipSoft GmbH. Este é um site de fã, sem ligação com a CipSoft.</span>`;

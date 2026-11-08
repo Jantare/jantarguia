@@ -55,6 +55,9 @@
   ],
   "500–600": [
    "Rotten Blood Quest"
+  ],
+  "800–900": [
+   "Make Believe Quest"
   ]
  },
  "vocacoes": {
@@ -69,7 +72,7 @@
      "Botas: velocidade (Swiftness)"
     ],
     "rtc": "No RTC: Exura Med Ico com uns 30% de vida junto da supreme potion; mana potion quando a mana cair.",
-    "fonte": "Ordem de itens baseada no vídeo de Pacifista Tibiano sobre Elite Knight no RubinOT (2026), adaptada para o HeroOT.",
+    "fonte": "Ordem de itens baseada no vídeo de Pacifista Tibiano sobre Elite Knight no RubinOT (2026), adaptada para o HeroOT. Do 600 ao 1000: hunts e levels do TibiaPal, XP por hora relatada no TibiaStats e no TibiaQA (valores aproximados).",
     "video": "https://www.youtube.com/watch?v=4DM2PSFHM7s",
     "armas": {
      "Machado": {
@@ -111,6 +114,18 @@
        [
         "500",
         "Sanguine Legs"
+       ],
+       [
+        "600",
+        "Sanguine Hatchet (fogo)"
+       ],
+       [
+        "800",
+        "Moonsilver Battle Visor"
+       ],
+       [
+        "1000",
+        "Moonsilver Axe (terra)"
        ]
       ]
      },
@@ -153,6 +168,18 @@
        [
         "500",
         "Sanguine Legs"
+       ],
+       [
+        "600",
+        "Sanguine Blade (fogo)"
+       ],
+       [
+        "800",
+        "Moonsilver Battle Visor"
+       ],
+       [
+        "1000",
+        "Moonsilver Epee (terra)"
        ]
       ]
      },
@@ -195,6 +222,18 @@
        [
         "500",
         "Sanguine Legs"
+       ],
+       [
+        "600",
+        "Sanguine Cudgel (morte)"
+       ],
+       [
+        "800",
+        "Moonsilver Battle Visor"
+       ],
+       [
+        "1000",
+        "Moonsilver Crusher (terra)"
        ]
       ]
      }
@@ -1111,16 +1150,16 @@
     {
      "faixa": "500–600",
      "objetivo": {
-      "Machado": "Sanguine Legs, Sanguine Hatchet e itens com tier alto: o BiS do Knight.",
-      "Espada": "Sanguine Legs, Sanguine Blade e itens com tier alto: o BiS do Knight.",
-      "Clava": "Sanguine Legs, Sanguine Cudgel e itens com tier alto: o BiS do Knight."
+      "Machado": "Sanguine Legs no 500, tiers altos no set e gold para a arma Sanguine do 600.",
+      "Espada": "Sanguine Legs no 500, tiers altos no set e gold para a arma Sanguine do 600.",
+      "Clava": "Sanguine Legs no 500, tiers altos no set e gold para a arma Sanguine do 600."
      },
      "skill": {
       "Machado": "Axe Fighting",
       "Espada": "Sword Fighting",
       "Clava": "Club Fighting"
      },
-     "treino": "Foco em BiS: Sanguine Legs e Spiritthorn Helmet T3+. Tiers mais altos nos itens principais.",
+     "treino": "Foco nas Sanguine Legs e no Spiritthorn Helmet T3+. Tiers mais altos nos itens principais.",
      "hunts": [
       {
        "m": "Bloated Man-Maggot",
@@ -1151,6 +1190,187 @@
        "hp": 28700,
        "img": "img/monstros/oozing-corpus.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Oozing%20Corpus%20hunt%20550"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "600–700",
+     "objetivo": {
+      "Machado": "No 600: Sanguine Hatchet (fogo). Se usar duas mãos, Sanguine Battleaxe (morte).",
+      "Espada": "No 600: Sanguine Blade (fogo). Se usar duas mãos, Sanguine Razor (energia).",
+      "Clava": "No 600: Sanguine Cudgel (morte). Se usar duas mãos, Sanguine Bludgeon (terra)."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Exercise weapons todo dia em {skill}. Tenha a arma do elemento certo para cada hunt.",
+     "hunts": [
+      {
+       "onde": "Norcferatu Fortress",
+       "lv": "600+",
+       "nota": "Arma de gelo ou terra. Relatos de 8,5 kk de XP bruta por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Norcferatu%20Fortress%20hunt%20600"
+      },
+      {
+       "onde": "Summer Court",
+       "lv": "600+",
+       "nota": "Arma de gelo, proteção de fogo e físico. Relatos de 5,6 a 6,8 kk por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Summer%20Court%20hunt%20600"
+      },
+      {
+       "onde": "Azzilon Walls",
+       "lv": "600+",
+       "nota": "Arma de gelo ou energia, proteção de físico, morte e fogo. Relatos de 6 kk por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Azzilon%20Walls%20hunt%20600"
+      },
+      {
+       "onde": "Warzone 3",
+       "lv": "600+",
+       "nota": "Arma de energia. Hunt mais voltada para lucro.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Warzone%203%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "700–800",
+     "objetivo": "Manter o set, subir os tiers e juntar gold para o Moonsilver Battle Visor do 800.",
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Exercise weapons em {skill}. Invista em tier na arma e na Spiritthorn Armor.",
+     "hunts": [
+      {
+       "onde": "Azzilon Castle",
+       "lv": "700+",
+       "nota": "Arma de gelo ou energia. Relatos de 4 a 7,6 kk de XP bruta por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Azzilon%20Castle%20hunt%20700"
+      },
+      {
+       "onde": "Feru Plague Seal",
+       "lv": "700+",
+       "nota": "Arma de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Plague%20Seal%20hunt%20700"
+      },
+      {
+       "onde": "Nimmersatt's Breeding Grounds",
+       "lv": "700+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Nimmersatt%27s%20Breeding%20Grounds%20hunt%20700"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "800–900",
+     "objetivo": "No 800: Moonsilver Battle Visor. Comece a fazer a Make Believe Quest.",
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Exercise weapons em {skill}. A partir daqui, a arma com o elemento certo pesa mais na XP.",
+     "hunts": [
+      {
+       "onde": "Bulltaurs",
+       "lv": "800+",
+       "nota": "Arma de terra. Relatos de 11,5 kk de XP bruta por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bulltaurs%20hunt%20800"
+      },
+      {
+       "onde": "Bloodfire Gorge",
+       "lv": "800+",
+       "nota": "Arma física. Relatos de 8,6 a 11,8 kk por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bloodfire%20Gorge%20hunt%20800"
+      },
+      {
+       "onde": "Norcferatu Dungeons",
+       "lv": "800+",
+       "nota": "East ou West, arma de gelo, terra ou fogo. Relatos de 7,9 a 8,7 kk por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Norcferatu%20Dungeons%20hunt%20800"
+      },
+      {
+       "onde": "Cobra Bastion",
+       "lv": "800+",
+       "nota": "Qualquer elemento menos terra. Proteção de físico, morte e terra. Relatos de 6,7 a 7,7 kk por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cobra%20Bastion%20hunt%20800"
+      },
+      {
+       "onde": "Feru Pumin Seal",
+       "lv": "800+",
+       "nota": "Arma de energia. Relatos de 5,25 kk por hora, com lucro bom.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Pumin%20Seal%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "900–1000",
+     "objetivo": "Continuar nas hunts do 800+ e guardar gold para a arma Moonsilver do 1000.",
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Exercise weapons em {skill}. Deixe o Wheel of Destiny fechado para a sua hunt principal.",
+     "hunts": [
+      {
+       "onde": "Feru Way",
+       "lv": "800+",
+       "nota": "Arma de gelo.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Way%20hunt%20800"
+      },
+      {
+       "onde": "Feru Infernatil Seal",
+       "lv": "800+",
+       "nota": "Arma de gelo.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Infernatil%20Seal%20hunt%20800"
+      },
+      {
+       "onde": "Feru DT Seal",
+       "lv": "800+",
+       "nota": "Arma de gelo.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20DT%20Seal%20hunt%20800"
+      },
+      {
+       "onde": "Raubritters Castle",
+       "lv": "800+",
+       "nota": "Arma física.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Raubritters%20Castle%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "1000+",
+     "objetivo": {
+      "Machado": "No 1000: Moonsilver Axe (terra). Com duas mãos, Moonsilver Chopper (energia).",
+      "Espada": "No 1000: Moonsilver Epee (terra). Com duas mãos, Moonsilver Claymore (fogo).",
+      "Clava": "No 1000: Moonsilver Crusher (terra). Com duas mãos, Moonsilver Mace (gelo)."
+     },
+     "skill": {
+      "Machado": "Axe Fighting",
+      "Espada": "Sword Fighting",
+      "Clava": "Club Fighting"
+     },
+     "treino": "Exercise weapons em {skill}. Depois do Moonsilver, o ganho vem dos tiers e da proficiência da arma.",
+     "hunts": [
+      {
+       "onde": "True Asuras",
+       "lv": "1000+",
+       "nota": "Arma de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20True%20Asuras%20hunt%201000"
+      },
+      {
+       "onde": "Asura Citadel",
+       "lv": "1000+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Asura%20Citadel%20hunt%201000"
       }
      ],
      "magias": []

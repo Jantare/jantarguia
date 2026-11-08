@@ -1,5 +1,5 @@
 (() => {
-  const TIERS = [["8–20", 8, 20], ["20–35", 20, 35], ["35–60", 35, 60], ["60–100", 60, 100], ["100–150", 100, 150], ["150–200", 150, 200], ["200–300", 200, 300], ["300–400", 300, 400], ["400–500", 400, 500], ["500–600", 500, 600]];
+  const TIERS = [["8–20", 8, 20], ["20–35", 20, 35], ["35–60", 35, 60], ["60–100", 60, 100], ["100–150", 100, 150], ["150–200", 150, 200], ["200–300", 200, 300], ["300–400", 300, 400], ["400–500", 400, 500], ["500–600", 500, 600], ["600–700", 600, 700], ["700–800", 700, 800], ["800–900", 800, 900], ["900–1000", 900, 1000], ["1000+", 1000, 99999]];
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const num = n => Number(n).toLocaleString("pt-BR");
@@ -157,10 +157,35 @@
     return list.map(s => `<div class="srow${s.ess ? " ess" : ""}"><span class="s-lv">${s.lv}</span><span class="s-n"><b>${esc(s.n)}</b><code>${esc(s.w)}</code></span><span class="s-p">${s.p ? num(s.p) + " gp" : s.p === 0 ? "grátis" : "—"}</span>${s.npc.length ? `<span class="s-npc">${s.npc.map(esc).join(", ")}</span>` : ""}</div>`).join("");
   }
 
+  const SET_SLOTS = [["Capacete", "Capacete"], ["Armadura", "Armadura"], ["Pernas", "Pernas"], ["Botas", "Botas"], ["Escudo", "Escudo"], ["Colar", "Colar"], ["Anel", "Anel"]];
+  function setBar(items, idx) {
+    const tiers = TIERS.slice(0, idx + 1).map(t => t[0]);
+    const best = {};
+    tiers.forEach(tier => {
+      const inTier = {};
+      items.filter(i => i.tier === tier && !/alternativa|situacional/.test(i.slot)).forEach(i => {
+        const w = i.slot.match(/^Arma \((Machado|Espada|Clava)(, 2 mãos)?\)$/);
+        const key = w ? "Arma:" + w[1] : /^Arma( |$)/.test(i.slot) ? null : (SET_SLOTS.find(([s]) => i.slot === s || i.slot.startsWith(s + " ")) || [])[0];
+        if (key && (!inTier[key] || (i.lv || 0) >= (inTier[key].lv || 0))) inTier[key] = i;
+      });
+      Object.entries(inTier).forEach(([k, i]) => best[k] = { it: i, novo: tier === tiers[tiers.length - 1] });
+    });
+    const cell = (label, b, muted) => `<div class="set-slot${b && b.novo ? " novo" : ""}${b ? "" : " vazio"}"><span class="how-t">${esc(label)}</span>${b ? slot(b.it.img, false, b.it.item) : `<span class="slot"></span>`}<b>${b ? esc(b.it.item) : esc(muted || "—")}</b></div>`;
+    const armas = Object.keys(best).filter(k => k.startsWith("Arma:"));
+    const duas = armas.length > 0 && armas.every(k => best[k].it.duas);
+    return `<div class="set-bar"><span class="how-t set-t">Seu set nesta faixa</span><div class="set-row">
+      ${armas.map(k => cell(armas.length > 1 ? k.slice(5) : "Arma", best[k])).join("")}
+      ${SET_SLOTS.map(([s, l]) => s === "Escudo" && duas ? cell(l, null, "Arma de 2 mãos") : cell(l, best[s])).join("")}
+    </div></div>`;
+  }
+
+  const maxLvl = id => { const e = (ROTAS.vocacoes[id] || { etapas: [] }).etapas; return e.length ? parseInt(e[e.length - 1].faixa.split("–").pop()) : 600; };
+
   function routeView(voc) {
     const R = ROTAS.vocacoes[voc.id] || { etapas: [] };
     const items = vocItems(voc);
-    const cur = tierOf(st.level);
+    let cur = tierOf(st.level);
+    if (cur && R.etapas.length && !R.etapas.some(e => e.faixa === cur)) cur = R.etapas[R.etapas.length - 1].faixa;
     const curIdx = cur ? TIERS.findIndex(t => t[0] === cur) : 0;
     const qlvl = {};
     QUESTS.faixas.forEach(f => f.quests.forEach(q => qlvl[q.nome] = q));
@@ -174,6 +199,7 @@
         return `<section class="step${cur === e.faixa ? " is-here" : ""}" id="etapa-${idx}" data-lo="${TIERS[idx][1]}">
           <div class="step-h"><span class="step-n">${idx + 1}</span><span class="lvl-badge">Lvl ${esc(e.faixa)}</span>${cur === e.faixa ? '<span class="here">você está aqui</span>' : ""}<span class="rule"></span></div>
           ${e.objetivo ? `<p class="step-obj">${pickW(e.objetivo)}</p>` : ""}
+          ${voc.id === "knight" ? setBar(items, idx) : ""}
           <div class="step-grid">
             <div class="sbox"><span class="how-t">Onde caçar</span>${e.hunts.length ? e.hunts.map(huntRow).join("") : `<p class="muted">Use o Hunt Finder para ver as hunts desta faixa.</p>`}</div>
             <div class="sbox"><span class="how-t">O que comprar ou trocar${its.length ? ` (${its.length})` : ""}</span>${its.length ? its.map(itemRow).join("") : `<p class="muted">Nada novo: mantenha o equipamento da faixa anterior e junte gold.</p>`}</div>
@@ -190,7 +216,7 @@
 
   function vocationView(voc) {
     const title = voc.id === "knight" && st.weapon !== "todas" ? "Knight de " + st.weapon.toLowerCase() : voc.nome;
-    return `<div class="page-h"><h1>${esc(title)}: rota do level 8 ao 600</h1>
+    return `<div class="page-h"><h1>${esc(title)}: rota do level 8 ao ${maxLvl(voc.id)}</h1>
       <p class="intro">Cada etapa mostra onde caçar (com vídeos de cada hunt), o que comprar, quais magias pegar, as quests e o que treinar. Digite seu level no topo para pular direto para a sua etapa.</p></div>
       ${serverBanner()}
       ${routeView(voc)}`;
@@ -423,7 +449,7 @@
   function setMeta() {
     let m = PAGE_META[st.view];
     if (!m && SERVERS[st.view]) { const s = SERVERS[st.view]; m = [`${s.nome}: sistemas e guia do servidor | Jantar Guia`, `Guia do servidor ${s.nome}: sistemas, rates e o que muda em relação ao Tibia oficial.`]; }
-    if (!m) { const v = BASE.vocacoes.find(x => x.id === st.view); if (v) m = [`${v.nome} no Tibia: rota do level 8 ao 600, hunts e equipamento | Jantar Guia`, `Rota do ${v.nome} no Tibia do level 8 ao 600: onde caçar, o que comprar em cada level, magias com NPC e preço, quests e treino.`]; }
+    if (!m) { const v = BASE.vocacoes.find(x => x.id === st.view); if (v) m = [`${v.nome} no Tibia: rota do level 8 ao ${maxLvl(v.id)}, hunts e equipamento | Jantar Guia`, `Rota do ${v.nome} no Tibia do level 8 ao ${maxLvl(v.id)}: onde caçar, o que comprar em cada level, magias com NPC e preço, quests e treino.`]; }
     if (!m) m = PAGE_META.inicio;
     document.title = m[0];
     const d = document.querySelector('meta[name="description"]'); if (d) d.content = m[1];
@@ -471,7 +497,7 @@
     if (jp) {
       e.preventDefault();
       const lv = parseInt(jp.dataset.jump), idx = TIERS.findIndex(t => lv >= t[1] && lv < t[2]);
-      const el = document.getElementById("etapa-" + (idx < 0 ? TIERS.length - 1 : idx));
+      const el = document.getElementById("etapa-" + (idx < 0 ? TIERS.length - 1 : idx)) || [...document.querySelectorAll(".step")].pop();
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }
     const ib = e.target.closest("[data-imbu]");

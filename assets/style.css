@@ -337,3 +337,12 @@ a.name:hover{color:var(--gold)}
 .promo-steps{margin:4px 0 0;padding-left:20px;color:var(--ink);display:flex;flex-direction:column;gap:3px}
 .promo-btn.discord{background:#5865f2;color:#fff;gap:8px}
 .promo-btn.discord svg{width:20px;height:20px}
+
+/* Barra de set por faixa */
+.set-bar{display:flex;flex-direction:column;gap:8px;margin:0 0 12px}
+.set-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:8px}
+.set-slot{display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 6px;min-width:0}
+.set-slot b{font-size:.82rem;font-weight:600;line-height:1.15;overflow-wrap:anywhere}
+.set-slot.novo{border-color:var(--gold-2);background:var(--gold-soft)}
+.set-slot.vazio{opacity:.55}
+.set-slot.vazio b{font-weight:500;color:var(--muted)}

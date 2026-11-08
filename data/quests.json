@@ -805,6 +805,29 @@
      "montaria": "Spirit of Purity",
      "montaria_como": "Use 4 Spiritual Horseshoes dos bosses depois de matar o Bakragore.",
      "montaria_img": "img/montarias/spirit-of-purity.webp"
+    },
+    {
+     "nome": "Make Believe Quest",
+     "lvl": "800+",
+     "tags": [
+      "Bosses",
+      "Moonsilver"
+     ],
+     "txt": "Quest da Summer Update 2026, em Thalassara. Os bosses dão o set Moonsilver, o melhor do jogo.",
+     "det": {
+      "min": "300",
+      "rec": "800+",
+      "prem": "Sim",
+      "onde": "Venore e Thalassara",
+      "recompensa": "Set Moonsilver, que sai dos bosses. Dificuldade maior dá mais chance do melhor loot.",
+      "perigos": "Bosses Mimar Haffar, Maior Domus e Phosphorus, além das versões finais."
+     },
+     "itens": [
+      "Moonsilver Battle Visor",
+      "Moonsilver Axe",
+      "Moonsilver Epee",
+      "Moonsilver Crusher"
+     ]
     }
    ]
   }

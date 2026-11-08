@@ -36,7 +36,8 @@
      "tip": "Machado barato e fácil. Se o NPC vender, compre logo no level 8.",
      "wiki": "https://tibia.fandom.com/wiki/Battle_Axe",
      "id": "knight-battle-axe",
-     "img": "img/itens/battle-axe.webp"
+     "img": "img/itens/battle-axe.webp",
+     "duas": true
     },
     {
      "tier": "8–20",
@@ -569,7 +570,8 @@
      "quest": null,
      "tip": "Primeira arma de 3 slots de imbuement: coloque crítico, life leech e mana leech. Use até ter as armas elementais.",
      "wiki": "https://tibia.fandom.com/wiki/Rift_Lance",
-     "img": "img/itens/rift-lance.webp"
+     "img": "img/itens/rift-lance.webp",
+     "duas": true
     },
     {
      "id": "knight-berserker",
@@ -588,7 +590,8 @@
      "quest": null,
      "tip": "Espada de 3 slots para imbuir com crítico, life e mana. Alternativa: Demonrage Sword.",
      "wiki": "https://tibia.fandom.com/wiki/Berserker",
-     "img": "img/itens/berserker.webp"
+     "img": "img/itens/berserker.webp",
+     "duas": true
     },
     {
      "id": "knight-heavy-mace",
@@ -611,7 +614,8 @@
      "quest": null,
      "tip": "Clava de 3 slots para imbuir com crítico, life e mana.",
      "wiki": "https://tibia.fandom.com/wiki/Heavy_Mace",
-     "img": "img/itens/heavy-mace.webp"
+     "img": "img/itens/heavy-mace.webp",
+     "duas": true
     },
     {
      "id": "knight-guardian-boots",
@@ -686,7 +690,8 @@
      "quest": null,
      "tip": "Arma de fogo. Muito boa em Grimvale (werecreatures).",
      "wiki": "https://tibia.fandom.com/wiki/Phantasmal_Axe",
-     "img": "img/itens/phantasmal-axe.webp"
+     "img": "img/itens/phantasmal-axe.webp",
+     "duas": true
     },
     {
      "id": "knight-winterblade",
@@ -724,7 +729,8 @@
      "quest": null,
      "tip": "Clava de terra: a primeira arma elemental de quem joga de clava.",
      "wiki": "https://tibia.fandom.com/wiki/Jungle_Flail",
-     "img": "img/itens/jungle-flail.webp"
+     "img": "img/itens/jungle-flail.webp",
+     "duas": true
     },
     {
      "id": "knight-ornate-legs",
@@ -1044,7 +1050,8 @@
      "quest": null,
      "tip": "Arma de energia de duas mãos, muito forte: dano parecido com a Soulmaimer.",
      "wiki": "https://tibia.fandom.com/wiki/Falcon_Battleaxe",
-     "img": "img/itens/falcon-battleaxe.webp"
+     "img": "img/itens/falcon-battleaxe.webp",
+     "duas": true
     },
     {
      "id": "knight-falcon-longsword",
@@ -1063,7 +1070,8 @@
      "quest": null,
      "tip": "Espada de energia, muito forte. Segura até a Soulcutter.",
      "wiki": "https://tibia.fandom.com/wiki/Falcon_Longsword",
-     "img": "img/itens/falcon-longsword.webp"
+     "img": "img/itens/falcon-longsword.webp",
+     "duas": true
     },
     {
      "id": "knight-falcon-mace",
@@ -1302,7 +1310,7 @@
     },
     {
      "id": "knight-sanguine-hatchet",
-     "tier": "500–600",
+     "tier": "600–700",
      "slot": "Arma (Machado)",
      "item": "Sanguine Hatchet",
      "lv": 600,
@@ -1316,7 +1324,7 @@
     },
     {
      "id": "knight-sanguine-blade",
-     "tier": "500–600",
+     "tier": "600–700",
      "slot": "Arma (Espada)",
      "item": "Sanguine Blade",
      "lv": 600,
@@ -1330,7 +1338,7 @@
     },
     {
      "id": "knight-sanguine-cudgel",
-     "tier": "500–600",
+     "tier": "600–700",
      "slot": "Arma (Clava)",
      "item": "Sanguine Cudgel",
      "lv": 600,
@@ -1341,6 +1349,152 @@
      "tip": "Level 600.",
      "wiki": "https://tibia.fandom.com/wiki/Sanguine_Cudgel",
      "img": "img/itens/sanguine-cudgel.webp"
+    },
+    {
+     "id": "knight-sanguine-battleaxe",
+     "tier": "600–700",
+     "slot": "Arma (Machado, morte, 2 mãos)",
+     "item": "Sanguine Battleaxe",
+     "lv": 600,
+     "attr": "Ataque 8 físico + 50 de morte, duas mãos",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600. Opção de duas mãos.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Battleaxe",
+     "img": "img/itens/sanguine-battleaxe.webp",
+     "duas": true
+    },
+    {
+     "id": "knight-sanguine-razor",
+     "tier": "600–700",
+     "slot": "Arma (Espada, energia, 2 mãos)",
+     "item": "Sanguine Razor",
+     "lv": 600,
+     "attr": "Ataque 8 físico + 50 de energia, duas mãos",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600. Opção de duas mãos.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Razor",
+     "img": "img/itens/sanguine-razor.webp",
+     "duas": true
+    },
+    {
+     "id": "knight-sanguine-bludgeon",
+     "tier": "600–700",
+     "slot": "Arma (Clava, terra, 2 mãos)",
+     "item": "Sanguine Bludgeon",
+     "lv": 600,
+     "attr": "Ataque 8 físico + 50 de terra, duas mãos",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600. Opção de duas mãos.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Bludgeon",
+     "img": "img/itens/sanguine-bludgeon.webp",
+     "duas": true
+    },
+    {
+     "id": "knight-moonsilver-battle-visor",
+     "tier": "800–900",
+     "slot": "Capacete",
+     "item": "Moonsilver Battle Visor",
+     "lv": 800,
+     "attr": "Armadura 14, skills de arma +4, magic level +1, físico +8%, fogo +10%, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 800. Também sai no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Battle_Visor",
+     "img": "img/itens/moonsilver-battle-visor.webp"
+    },
+    {
+     "id": "knight-moonsilver-axe",
+     "tier": "1000+",
+     "slot": "Arma (Machado)",
+     "item": "Moonsilver Axe",
+     "lv": 1000,
+     "attr": "Ataque 6 físico + 50 de terra, Defesa 33 +3, axe fighting +6, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Axe",
+     "img": "img/itens/moonsilver-axe.webp"
+    },
+    {
+     "id": "knight-moonsilver-chopper",
+     "tier": "1000+",
+     "slot": "Arma (Machado, energia, 2 mãos)",
+     "item": "Moonsilver Chopper",
+     "lv": 1000,
+     "attr": "Ataque 6 físico + 54 de energia, Defesa 36, axe fighting +6, duas mãos",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000. Opção de duas mãos.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Chopper",
+     "img": "img/itens/moonsilver-chopper.webp",
+     "duas": true
+    },
+    {
+     "id": "knight-moonsilver-epee",
+     "tier": "1000+",
+     "slot": "Arma (Espada)",
+     "item": "Moonsilver Epee",
+     "lv": 1000,
+     "attr": "Ataque 6 físico + 50 de terra, Defesa 33 +3, sword fighting +6, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Epee",
+     "img": "img/itens/moonsilver-epee.webp"
+    },
+    {
+     "id": "knight-moonsilver-claymore",
+     "tier": "1000+",
+     "slot": "Arma (Espada, fogo, 2 mãos)",
+     "item": "Moonsilver Claymore",
+     "lv": 1000,
+     "attr": "Ataque 6 físico + 54 de fogo, duas mãos",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000. Opção de duas mãos.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Claymore",
+     "img": "img/itens/moonsilver-claymore.webp",
+     "duas": true
+    },
+    {
+     "id": "knight-moonsilver-crusher",
+     "tier": "1000+",
+     "slot": "Arma (Clava)",
+     "item": "Moonsilver Crusher",
+     "lv": 1000,
+     "attr": "Ataque 6 físico + 50 de terra, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Crusher",
+     "img": "img/itens/moonsilver-crusher.webp"
+    },
+    {
+     "id": "knight-moonsilver-mace",
+     "tier": "1000+",
+     "slot": "Arma (Clava, gelo, 2 mãos)",
+     "item": "Moonsilver Mace",
+     "lv": 1000,
+     "attr": "Ataque 6 físico + 54 de gelo, duas mãos",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000. Opção de duas mãos.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Mace",
+     "img": "img/itens/moonsilver-mace.webp",
+     "duas": true
     }
    ]
   },

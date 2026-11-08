@@ -1442,9 +1442,17 @@
      [
       "600",
       "Sanguine Bow"
+     ],
+     [
+      "800",
+      "Moonsilver Trail Hood"
+     ],
+     [
+      "1000",
+      "Moonsilver Bow"
      ]
     ],
-    "fonte": "Ordem de itens baseada no vídeo de Neutrinho TV sobre Paladin depois do balanceamento (2026), adaptada para o HeroOT.",
+    "fonte": "Ordem de itens baseada no vídeo de Neutrinho TV sobre Paladin depois do balanceamento (2026), adaptada para o HeroOT. Do 600 ao 1000: hunts, levels e XP do TibiaPal; equipamento do TibiaPal e da TibiaWiki.",
     "video": "https://www.youtube.com/watch?v=_3tDlgcTE0o"
    },
    "etapas": [
@@ -2429,7 +2437,7 @@
     },
     {
      "faixa": "500–600",
-     "objetivo": "Sanguine Greaves no 500 e Sanguine Bow no 600.",
+     "objetivo": "Sanguine Greaves no 500 e gold para o Sanguine Bow do 600.",
      "skill": null,
      "treino": "Personalize as perks do arco e foque em tier nos itens principais.",
      "hunts": [
@@ -2462,6 +2470,207 @@
        "hp": 28700,
        "img": "img/monstros/oozing-corpus.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Oozing%20Corpus%20hunt%20550"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "600–700",
+     "objetivo": "No 600: Sanguine Bow. O Sanguine Crossbow é a alternativa.",
+     "skill": null,
+     "treino": "Personalize as perks do arco e treine distance com exercise weapons.",
+     "hunts": [
+      {
+       "onde": "Upper Roshamuul (norte e sul)",
+       "lv": "600+",
+       "nota": "Diamond Arrows, Ethereal. 9 kk de XP e 1,8 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Upper%20Roshamuul%20%28norte%20e%20sul%29%20hunt%20600"
+      },
+      {
+       "onde": "Norcferatu Fortress",
+       "lv": "600+",
+       "nota": "Diamond Arrows, Ethereal. 8,6 kk de XP e 1,1 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Fortress%20hunt%20600"
+      },
+      {
+       "onde": "Azzilon Castle",
+       "lv": "600+",
+       "nota": "Diamond Arrows, Ethereal. 8,6 kk de XP e 0,8 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Castle%20hunt%20600"
+      },
+      {
+       "onde": "Nimmersatt's (-7)",
+       "lv": "600+",
+       "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 1 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Nimmersatt%27s%20%28-7%29%20hunt%20600"
+      },
+      {
+       "onde": "Cobra Bastion",
+       "lv": "600+",
+       "nota": "Diamond Arrows, Ethereal. 7,5 kk de XP e 0,8 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cobra%20Bastion%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "700–800",
+     "objetivo": "Manter o set, subir os tiers e juntar gold para o elmo do 800.",
+     "skill": null,
+     "treino": "Suba tiers no arco e nas Sanguine Greaves.",
+     "hunts": [
+      {
+       "onde": "Norcferatu Dungeons East",
+       "lv": "700+",
+       "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 0,8 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20East%20hunt%20700"
+      },
+      {
+       "onde": "Norcferatu Dungeons West",
+       "lv": "600+",
+       "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 0,8 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20West%20hunt%20600"
+      },
+      {
+       "onde": "Nimmersatt's Boss Floor (-6)",
+       "lv": "700+",
+       "nota": "Diamond Arrows, Ethereal. 8,4 kk de XP e 0,8 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20700"
+      },
+      {
+       "onde": "Deep Desert",
+       "lv": "600+",
+       "nota": "Diamond Arrows, Ethereal. 5,1 kk de XP e 1,8 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Deep%20Desert%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "800–900",
+     "objetivo": "No 800: Moonsilver Trail Hood. Comece a fazer a Make Believe Quest.",
+     "skill": null,
+     "treino": "A Make Believe começa a valer aqui: o elmo do 800 usa distance e holy.",
+     "hunts": [
+      {
+       "onde": "Venore Flimsies (-1, -2 e -3)",
+       "lv": "800+",
+       "nota": "Firestorm Arrows, Divine. 10,5 kk de XP e 2 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Venore%20Flimsies%20%28-1%2C%20-2%20e%20-3%29%20hunt%20800"
+      },
+      {
+       "onde": "Bulltaur Lair",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bulltaur%20Lair%20hunt%20800"
+      },
+      {
+       "onde": "Bloodfire Gorge",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloodfire%20Gorge%20hunt%20800"
+      },
+      {
+       "onde": "Ingol (superfície, -1 e -2)",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800"
+      },
+      {
+       "onde": "Feru Pumin",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Pumin%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "900–1000",
+     "objetivo": "Continuar nas hunts do 800+ e guardar gold para a arma Moonsilver do 1000.",
+     "skill": null,
+     "treino": "Junte gold para o arco Moonsilver do 1000.",
+     "hunts": [
+      {
+       "onde": "Ferumbras Way",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ferumbras%20Way%20hunt%20800"
+      },
+      {
+       "onde": "Feru Undead Dragons",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Undead%20Dragons%20hunt%20800"
+      },
+      {
+       "onde": "True Asuras",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20True%20Asuras%20hunt%20800"
+      },
+      {
+       "onde": "Asura Citadel",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Asura%20Citadel%20hunt%20800"
+      },
+      {
+       "onde": "Warzone 7, 8 e 9",
+       "lv": "800+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Warzone%207%2C%208%20e%209%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "1000+",
+     "objetivo": "No 1000: Moonsilver Bow. O Moonsilver Crossbow é a alternativa.",
+     "skill": null,
+     "treino": "Depois do Moonsilver, o ganho vem dos tiers e da proficiência da arma.",
+     "hunts": [
+      {
+       "onde": "Ingol (-3, -4 e -5)",
+       "lv": "1000+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28-3%2C%20-4%20e%20-5%29%20hunt%201000"
+      },
+      {
+       "onde": "Azzilon Catacombs",
+       "lv": "1000+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Catacombs%20hunt%201000"
+      },
+      {
+       "onde": "Feru DT",
+       "lv": "1000+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20DT%20hunt%201000"
+      },
+      {
+       "onde": "Podzilla Quaras",
+       "lv": "1000+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Podzilla%20Quaras%20hunt%201000"
+      },
+      {
+       "onde": "Feru Juggernauts",
+       "lv": "1000+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Juggernauts%20hunt%201000"
+      },
+      {
+       "onde": "Feru Mazoran",
+       "lv": "1000+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Mazoran%20hunt%201000"
+      },
+      {
+       "onde": "Forsaken Crypt",
+       "lv": "1000+",
+       "nota": "Diamond Arrows, Ethereal.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Forsaken%20Crypt%20hunt%201000"
       }
      ],
      "magias": []
@@ -2516,9 +2725,17 @@
      [
       "600",
       "Sanguine Coil"
+     ],
+     [
+      "800",
+      "Moonsilver Nimbus Hat"
+     ],
+     [
+      "1000",
+      "Moonsilver Channeler"
      ]
     ],
-    "fonte": "Set, RTC e hunts até o 400 baseados no vídeo de BredTibia (MS no RubinOT, 2026); hunts do 400+ dos vídeos de Miguelnutt e Doc Galaxy. Adaptado para o HeroOT.",
+    "fonte": "Set, RTC e hunts até o 400 baseados no vídeo de BredTibia (MS no RubinOT, 2026); hunts do 400+ dos vídeos de Miguelnutt e Doc Galaxy. Adaptado para o HeroOT. Do 600 ao 1000: hunts, levels e XP do TibiaPal; equipamento do TibiaPal e da TibiaWiki.",
     "video": "https://www.youtube.com/watch?v=Wk6lEBoLCz4",
     "videos": [
      [
@@ -3814,7 +4031,7 @@
     },
     {
      "faixa": "500–600",
-     "objetivo": "Sanguine Boots no 500 e Sanguine Coil no 600.",
+     "objetivo": "Sanguine Boots no 500 e gold para a Sanguine Coil do 600.",
      "skill": null,
      "treino": "Runic Mastery e Focus Mastery rendem muito nas hunts cheias. Faça bestiary e proficiência nelas.",
      "hunts": [
@@ -3870,6 +4087,183 @@
       }
      ],
      "magias": []
+    },
+    {
+     "faixa": "600–700",
+     "objetivo": "No 600: Sanguine Coil.",
+     "skill": null,
+     "treino": "Treine magic level com exercise wands e deixe a Roda fechada no Death Echo.",
+     "hunts": [
+      {
+       "onde": "Flimsy Venore (-1 e -2)",
+       "lv": "500+",
+       "nota": "Dano de fogo. 8,1 kk de XP e 1 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Flimsy%20Venore%20%28-1%20e%20-2%29%20hunt%20500"
+      },
+      {
+       "onde": "Cobra Bastion",
+       "lv": "500+",
+       "nota": "Dano de morte. 7,2 kk de XP e 1,2 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Cobra%20Bastion%20hunt%20500"
+      },
+      {
+       "onde": "Azzilon Castle",
+       "lv": "600+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Castle%20hunt%20600"
+      },
+      {
+       "onde": "Norcferatu Fortress",
+       "lv": "600+",
+       "nota": "Dano de fogo.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Fortress%20hunt%20600"
+      },
+      {
+       "onde": "Nimmersatt's (-7)",
+       "lv": "600+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20%28-7%29%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "700–800",
+     "objetivo": "Manter o set, subir os tiers e juntar gold para o elmo do 800.",
+     "skill": null,
+     "treino": "Suba tiers nas Sanguine Boots e na wand.",
+     "hunts": [
+      {
+       "onde": "Norcferatu Dungeons East e West",
+       "lv": "600+",
+       "nota": "Dano de fogo.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20600"
+      },
+      {
+       "onde": "Nimmersatt's Boss Floor (-6)",
+       "lv": "600+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600"
+      },
+      {
+       "onde": "Issavi Sphinxes e Crypt Wardens",
+       "lv": "500+",
+       "nota": "Dano de morte. 7 kk de XP e 1,2 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Issavi%20Sphinxes%20e%20Crypt%20Wardens%20hunt%20500"
+      },
+      {
+       "onde": "Warzone 3",
+       "lv": "500+",
+       "nota": "Dano de energia. 6,6 kk de XP e 2 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Warzone%203%20hunt%20500"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "800–900",
+     "objetivo": "No 800: Moonsilver Nimbus Hat. Comece a fazer a Make Believe Quest.",
+     "skill": null,
+     "treino": "O chapéu do 800 aumenta o crítico do Death Echo.",
+     "hunts": [
+      {
+       "onde": "Bulltaur Lair",
+       "lv": "800+",
+       "nota": "Dano de morte.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bulltaur%20Lair%20hunt%20800"
+      },
+      {
+       "onde": "Ingol (superfície, -1 e -2)",
+       "lv": "800+",
+       "nota": "Dano de morte.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800"
+      },
+      {
+       "onde": "Bloodfire Gorge",
+       "lv": "800+",
+       "nota": "Dano de fogo.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bloodfire%20Gorge%20hunt%20800"
+      },
+      {
+       "onde": "Azzilon Catacombs",
+       "lv": "800+",
+       "nota": "Dano de morte.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Catacombs%20hunt%20800"
+      },
+      {
+       "onde": "Feru Pumin Boss Floor",
+       "lv": "800+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Pumin%20Boss%20Floor%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "900–1000",
+     "objetivo": "Continuar nas hunts do 800+ e guardar gold para a arma Moonsilver do 1000.",
+     "skill": null,
+     "treino": "Junte gold para o Channeler do 1000.",
+     "hunts": [
+      {
+       "onde": "Feru Undead Dragons",
+       "lv": "800+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Undead%20Dragons%20hunt%20800"
+      },
+      {
+       "onde": "Feru Mazoran",
+       "lv": "800+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Mazoran%20hunt%20800"
+      },
+      {
+       "onde": "Feru Juggernauts",
+       "lv": "800+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Juggernauts%20hunt%20800"
+      },
+      {
+       "onde": "Ingol -3",
+       "lv": "800+",
+       "nota": "Dano de fogo.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20-3%20hunt%20800"
+      },
+      {
+       "onde": "Podzilla Quaras",
+       "lv": "800+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Podzilla%20Quaras%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "1000+",
+     "objetivo": "No 1000: Moonsilver Channeler.",
+     "skill": null,
+     "treino": "Depois do Moonsilver, o ganho vem dos tiers e da proficiência da arma.",
+     "hunts": [
+      {
+       "onde": "Forsaken Crypt",
+       "lv": "1000+",
+       "nota": "Dano de morte.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Forsaken%20Crypt%20hunt%201000"
+      },
+      {
+       "onde": "True Asuras",
+       "lv": "800+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20True%20Asuras%20hunt%20800"
+      },
+      {
+       "onde": "Asura Citadel",
+       "lv": "800+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Asura%20Citadel%20hunt%20800"
+      }
+     ],
+     "magias": []
     }
    ]
   },
@@ -3921,9 +4315,17 @@
      [
       "600",
       "Sanguine Rod"
+     ],
+     [
+      "800",
+      "Moonsilver Spirit Mask"
+     ],
+     [
+      "1000",
+      "Moonsilver Sceptre"
      ]
     ],
-    "fonte": "Set, RTC, Roda e hunts do 100 ao 400 baseados no vídeo de BredTibia sobre Druid no RubinOT (2026), adaptados para o HeroOT.",
+    "fonte": "Set, RTC, Roda e hunts do 100 ao 400 baseados no vídeo de BredTibia sobre Druid no RubinOT (2026), adaptados para o HeroOT. Do 600 ao 1000: hunts, levels e XP do TibiaPal; equipamento do TibiaPal e da TibiaWiki.",
     "video": "https://www.youtube.com/watch?v=pnskXEbfO6Q"
    },
    "etapas": [
@@ -5177,7 +5579,7 @@
     },
     {
      "faixa": "500–600",
-     "objetivo": "Sanguine Galoshes e Sanguine Rod.",
+     "objetivo": "Sanguine Galoshes no 500 e gold para o Sanguine Rod do 600.",
      "skill": null,
      "treino": "Foco em tier nos itens principais.",
      "hunts": [
@@ -5200,6 +5602,171 @@
        "hp": 28700,
        "img": "img/monstros/oozing-corpus.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20oozing%20corpus%20hunt"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "600–700",
+     "objetivo": "No 600: Sanguine Rod.",
+     "skill": null,
+     "treino": "Treine magic level com exercise rods e deixe a Roda nas forks.",
+     "hunts": [
+      {
+       "onde": "Norcferatu Dungeons West",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20West%20hunt%20600"
+      },
+      {
+       "onde": "Norcferatu Dungeons East",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20East%20hunt%20600"
+      },
+      {
+       "onde": "Azzilon Catacombs",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Azzilon%20Catacombs%20hunt%20600"
+      },
+      {
+       "onde": "Bulltaur Lair",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bulltaur%20Lair%20hunt%20600"
+      },
+      {
+       "onde": "Ingol Surface",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20Surface%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "700–800",
+     "objetivo": "Manter o set, subir os tiers e juntar gold para o elmo do 800.",
+     "skill": null,
+     "treino": "Suba tiers nas Sanguine Galoshes e no rod.",
+     "hunts": [
+      {
+       "onde": "Ingol -1",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-1%20hunt%20600"
+      },
+      {
+       "onde": "Ingol -2",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-2%20hunt%20600"
+      },
+      {
+       "onde": "Feru Undead Dragons",
+       "lv": "600+",
+       "nota": "Forked Glacier + Thunderstorm.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Undead%20Dragons%20hunt%20600"
+      },
+      {
+       "onde": "Feru Juggernauts",
+       "lv": "600+",
+       "nota": "Forked Glacier + Thunderstorm.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Juggernauts%20hunt%20600"
+      },
+      {
+       "onde": "Warzone 8",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%208%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "800–900",
+     "objetivo": "No 800: Moonsilver Spirit Mask. Comece a fazer a Make Believe Quest.",
+     "skill": null,
+     "treino": "A máscara do 800 aumenta o crítico do Forked Glacier.",
+     "hunts": [
+      {
+       "onde": "Ingol -3",
+       "lv": "800+",
+       "nota": "Forked Glacier + Avalanche.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-3%20hunt%20800"
+      },
+      {
+       "onde": "Bloodfire Gorge",
+       "lv": "800+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bloodfire%20Gorge%20hunt%20800"
+      },
+      {
+       "onde": "Podzilla Quaras",
+       "lv": "800+",
+       "nota": "Forked Thorns + Stoneshower.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Podzilla%20Quaras%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "900–1000",
+     "objetivo": "Continuar nas hunts do 800+ e guardar gold para a arma Moonsilver do 1000.",
+     "skill": null,
+     "treino": "Junte gold para o Sceptre do 1000.",
+     "hunts": [
+      {
+       "onde": "True Asuras",
+       "lv": "800+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800"
+      },
+      {
+       "onde": "Asura Citadel",
+       "lv": "800+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800"
+      },
+      {
+       "onde": "Feru Mazoran",
+       "lv": "600+",
+       "nota": "Forked Glacier + Avalanche.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Mazoran%20hunt%20600"
+      },
+      {
+       "onde": "Warzone 9",
+       "lv": "600+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%209%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "1000+",
+     "objetivo": "No 1000: Moonsilver Sceptre.",
+     "skill": null,
+     "treino": "Depois do Moonsilver, o ganho vem dos tiers e da proficiência da arma.",
+     "hunts": [
+      {
+       "onde": "Forsaken Crypt",
+       "lv": "1000+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Forsaken%20Crypt%20hunt%201000"
+      },
+      {
+       "onde": "True Asuras",
+       "lv": "800+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800"
+      },
+      {
+       "onde": "Asura Citadel",
+       "lv": "800+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800"
       }
      ],
      "magias": []
@@ -5258,9 +5825,17 @@
      [
       "600",
       "Sanguine Claws"
+     ],
+     [
+      "800",
+      "Moonsilver Strike Helm"
+     ],
+     [
+      "1000",
+      "Moonsilver Katar"
      ]
     ],
-    "fonte": "Itens baseados no vídeo de Keke De Patinete (Monk pós-balanceamento no RubinOT). Hunts dos vídeos de Tibia MetaGameplay (0 ao 100) e Alypaz (200 ao 600). Adaptado para o HeroOT.",
+    "fonte": "Itens baseados no vídeo de Keke De Patinete (Monk pós-balanceamento no RubinOT). Hunts dos vídeos de Tibia MetaGameplay (0 ao 100) e Alypaz (200 ao 600). Adaptado para o HeroOT. Do 600 ao 1000: hunts, levels e XP do TibiaPal; equipamento do TibiaPal e da TibiaWiki.",
     "video": "https://www.youtube.com/watch?v=AWtaSBO77zg",
     "videos": [
      [
@@ -6123,7 +6698,7 @@
     },
     {
      "faixa": "500–600",
-     "objetivo": "Sanguine Trousers no 500 e Sanguine Claws no 600.",
+     "objetivo": "Sanguine Trousers no 500 e gold para as Sanguine Claws do 600.",
      "skill": null,
      "treino": "Escolha entre Stag e Soul (botas e armadura): ataque ou defesa.",
      "hunts": [
@@ -6166,6 +6741,177 @@
        "hp": null,
        "img": null,
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20inferniarch%20hunt"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "600–700",
+     "objetivo": "No 600: Sanguine Claws.",
+     "skill": null,
+     "treino": "Treine fist fighting com exercise weapons e ajuste a corrente de harmony.",
+     "hunts": [
+      {
+       "onde": "Norcferatu Fortress",
+       "lv": "600+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Fortress%20hunt%20600"
+      },
+      {
+       "onde": "Nimmersatt's Dragons (-7)",
+       "lv": "600+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Nimmersatt%27s%20Dragons%20%28-7%29%20hunt%20600"
+      },
+      {
+       "onde": "Upper Roshamuul",
+       "lv": "600+",
+       "nota": "Arma física.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Upper%20Roshamuul%20hunt%20600"
+      },
+      {
+       "onde": "Falcons",
+       "lv": "600+",
+       "nota": "Com a Sanguine Claws (terra).",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Falcons%20hunt%20600"
+      },
+      {
+       "onde": "Feru Way",
+       "lv": "600+",
+       "nota": "Arma física.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Feru%20Way%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "700–800",
+     "objetivo": "Manter o set, subir os tiers e juntar gold para o elmo do 800.",
+     "skill": null,
+     "treino": "Suba tiers nas Sanguine Trousers e nas Claws.",
+     "hunts": [
+      {
+       "onde": "Norcferatu Dungeons East e West",
+       "lv": "700+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20700"
+      },
+      {
+       "onde": "Nimmersatt's Boss Floor (-6)",
+       "lv": "600+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600"
+      },
+      {
+       "onde": "Feru DT Seal",
+       "lv": "600+",
+       "nota": "Arma física. Andares -1 e -2.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Feru%20DT%20Seal%20hunt%20600"
+      },
+      {
+       "onde": "Prison -3",
+       "lv": "600+",
+       "nota": "Arma física.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Prison%20-3%20hunt%20600"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "800–900",
+     "objetivo": "No 800: Moonsilver Strike Helm. Comece a fazer a Make Believe Quest.",
+     "skill": null,
+     "treino": "O elmo do 800 aumenta o crítico do Thousand Fist Blows.",
+     "hunts": [
+      {
+       "onde": "Raubritters (Bloodfire Gorge)",
+       "lv": "800+",
+       "nota": "Arma física.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Raubritters%20%28Bloodfire%20Gorge%29%20hunt%20800"
+      },
+      {
+       "onde": "Raubritters (Ada Outskirts)",
+       "lv": "800+",
+       "nota": "Arma física.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Raubritters%20%28Ada%20Outskirts%29%20hunt%20800"
+      },
+      {
+       "onde": "Bulltaurs -2",
+       "lv": "800+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Bulltaurs%20-2%20hunt%20800"
+      },
+      {
+       "onde": "Ingol Surface",
+       "lv": "800+",
+       "nota": "Arma física.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20Surface%20hunt%20800"
+      },
+      {
+       "onde": "Azzilon Catacombs",
+       "lv": "800+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Azzilon%20Catacombs%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "900–1000",
+     "objetivo": "Continuar nas hunts do 800+ e guardar gold para a arma Moonsilver do 1000.",
+     "skill": null,
+     "treino": "Junte gold para o Katar do 1000.",
+     "hunts": [
+      {
+       "onde": "True Asuras",
+       "lv": "800+",
+       "nota": "Arma física, de energia ou de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20True%20Asuras%20hunt%20800"
+      },
+      {
+       "onde": "Asura Citadel",
+       "lv": "800+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Asura%20Citadel%20hunt%20800"
+      },
+      {
+       "onde": "Ingol -3",
+       "lv": "800+",
+       "nota": "Arma física.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20-3%20hunt%20800"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "1000+",
+     "objetivo": "No 1000: Moonsilver Katar.",
+     "skill": null,
+     "treino": "Depois do Moonsilver, o ganho vem dos tiers e da proficiência da arma.",
+     "hunts": [
+      {
+       "onde": "Podzilla Quaras",
+       "lv": "1000+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Podzilla%20Quaras%20hunt%201000"
+      },
+      {
+       "onde": "Energy Library",
+       "lv": "1000+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Energy%20Library%20hunt%201000"
+      },
+      {
+       "onde": "Fire Library",
+       "lv": "1000+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Fire%20Library%20hunt%201000"
+      },
+      {
+       "onde": "Ice Library",
+       "lv": "1000+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ice%20Library%20hunt%201000"
       }
      ],
      "magias": []

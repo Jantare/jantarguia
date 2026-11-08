@@ -2311,7 +2311,7 @@
     },
     {
      "id": "paladin-sanguine-bow",
-     "tier": "500–600",
+     "tier": "600–700",
      "slot": "Arma (2 mãos)",
      "item": "Sanguine Bow",
      "lv": 600,
@@ -2322,6 +2322,62 @@
      "tip": "Indispensável no 600: buffs e crítico fazem total diferença.",
      "wiki": "https://tibia.fandom.com/wiki/Sanguine_Bow",
      "img": "img/itens/sanguine-bow.webp"
+    },
+    {
+     "id": "paladin-moonsilver-trail-hood",
+     "tier": "800–900",
+     "slot": "Capacete",
+     "item": "Moonsilver Trail Hood",
+     "lv": 800,
+     "attr": "Armadura 12, distance fighting +4, holy magic level +2, físico +6%, terra +10%",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 800. Também sai no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Trail_Hood",
+     "img": "img/itens/moonsilver-trail-hood.webp"
+    },
+    {
+     "id": "paladin-moonsilver-bow",
+     "tier": "1000+",
+     "slot": "Arma (2 mãos)",
+     "item": "Moonsilver Bow",
+     "lv": 1000,
+     "attr": "Alcance 6, ataque +10, acerto +7%, distance fighting +5, proteção de fogo +7%, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Bow",
+     "img": "img/itens/moonsilver-bow.webp"
+    },
+    {
+     "id": "paladin-sanguine-crossbow",
+     "tier": "600–700",
+     "slot": "Arma (alternativa)",
+     "item": "Sanguine Crossbow",
+     "lv": 600,
+     "attr": "Alcance 6, ataque +10, acerto +7%, distance fighting +3, proteção de fogo +6%, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Rotten Blood (boss Bakragore)",
+     "tip": "Level 600. Alternativa ao arco.",
+     "wiki": "https://tibia.fandom.com/wiki/Sanguine_Crossbow",
+     "img": "img/itens/sanguine-crossbow.webp"
+    },
+    {
+     "id": "paladin-moonsilver-crossbow",
+     "tier": "1000+",
+     "slot": "Arma (alternativa)",
+     "item": "Moonsilver Crossbow",
+     "lv": 1000,
+     "attr": "Alcance 6, ataque +11, acerto +8%, distance fighting +5, proteção de sagrado +7%, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000. Alternativa ao arco.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Crossbow",
+     "img": "img/itens/moonsilver-crossbow.webp"
     }
    ]
   },
@@ -3267,7 +3323,7 @@
     },
     {
      "id": "sorcerer-sanguine-coil",
-     "tier": "500–600",
+     "tier": "600–700",
      "slot": "Arma",
      "item": "Sanguine Coil",
      "lv": 600,
@@ -3316,6 +3372,34 @@
      "tip": "Mais barato que o Gnome Helmet e com proteção de morte.",
      "wiki": "https://tibia.fandom.com/wiki/Galea_Mortis",
      "img": "img/itens/galea-mortis.webp"
+    },
+    {
+     "id": "sorcerer-moonsilver-nimbus-hat",
+     "tier": "800–900",
+     "slot": "Capacete",
+     "item": "Moonsilver Nimbus Hat",
+     "lv": 800,
+     "attr": "Armadura 10, magic level +4, físico +3%, gelo +8%. Death Echo com +8% de dano crítico",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 800. Também sai no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Nimbus_Hat",
+     "img": "img/itens/moonsilver-nimbus-hat.webp"
+    },
+    {
+     "id": "sorcerer-moonsilver-channeler",
+     "tier": "1000+",
+     "slot": "Arma",
+     "item": "Moonsilver Channeler",
+     "lv": 1000,
+     "attr": "Magic level +6, death magic level +1, proteção de energia +7%, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Channeler",
+     "img": "img/itens/moonsilver-channeler.webp"
     }
    ]
   },
@@ -4228,7 +4312,7 @@
     },
     {
      "id": "druid-sanguine-rod",
-     "tier": "500–600",
+     "tier": "600–700",
      "slot": "Arma",
      "item": "Sanguine Rod",
      "lv": 600,
@@ -4291,6 +4375,34 @@
      "tip": "+4 magic level e 3% de proteção física: a armadura do Druid solo.",
      "wiki": "https://tibia.fandom.com/wiki/Midnight_Tunic",
      "img": "img/itens/midnight-tunic.webp"
+    },
+    {
+     "id": "druid-moonsilver-spirit-mask",
+     "tier": "800–900",
+     "slot": "Capacete",
+     "item": "Moonsilver Spirit Mask",
+     "lv": 800,
+     "attr": "Armadura 10, magic level +4, físico +3%, energia +8%. Forked Glacier com +8% de dano crítico",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 800. Também sai no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Spirit_Mask",
+     "img": "img/itens/moonsilver-spirit-mask.webp"
+    },
+    {
+     "id": "druid-moonsilver-sceptre",
+     "tier": "1000+",
+     "slot": "Arma",
+     "item": "Moonsilver Sceptre",
+     "lv": 1000,
+     "attr": "Magic level +6, ice magic level +1, healing magic level +2, proteção de terra +7%, 2 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Sceptre",
+     "img": "img/itens/moonsilver-sceptre.webp"
     }
    ]
   },
@@ -4774,7 +4886,7 @@
     },
     {
      "id": "monk-sanguine-claws",
-     "tier": "500–600",
+     "tier": "600–700",
      "slot": "Arma",
      "item": "Sanguine Claws",
      "lv": 600,
@@ -5086,6 +5198,34 @@
      "tip": "Anel BiS: 4% em quase todos os elementos. Recarrega com Silver Token.",
      "wiki": "https://tibia.fandom.com/wiki/Ethereal_Ring",
      "img": "img/itens/ethereal-ring.webp"
+    },
+    {
+     "id": "monk-moonsilver-strike-helm",
+     "tier": "800–900",
+     "slot": "Capacete",
+     "item": "Moonsilver Strike Helm",
+     "lv": 800,
+     "attr": "Armadura 8, Mantra 13, fist fighting +4, magic level +3, físico +5%, terra +8%",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 800. Também sai no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Strike_Helm",
+     "img": "img/itens/moonsilver-strike-helm.webp"
+    },
+    {
+     "id": "monk-moonsilver-katar",
+     "tier": "1000+",
+     "slot": "Arma",
+     "item": "Moonsilver Katar",
+     "lv": 1000,
+     "attr": "Ataque 46, Defesa 22, fist fighting +6, magic level +2, 3 slot(s) de imbuement",
+     "src": [],
+     "shop": [],
+     "quest": "Make Believe (bosses)",
+     "tip": "Level 1000.",
+     "wiki": "https://tibia.fandom.com/wiki/Moonsilver_Katar",
+     "img": "img/itens/moonsilver-katar.webp"
     }
    ]
   }

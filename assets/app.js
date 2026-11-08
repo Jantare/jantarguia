@@ -157,15 +157,19 @@
     return list.map(s => `<div class="srow${s.ess ? " ess" : ""}"><span class="s-lv">${s.lv}</span><span class="s-n"><b>${esc(s.n)}</b><code>${esc(s.w)}</code></span><span class="s-p">${s.p ? num(s.p) + " gp" : s.p === 0 ? "grátis" : "—"}</span>${s.npc.length ? `<span class="s-npc">${s.npc.map(esc).join(", ")}</span>` : ""}</div>`).join("");
   }
 
-  const SET_SLOTS = [["Capacete", "Capacete"], ["Armadura", "Armadura"], ["Pernas", "Pernas"], ["Botas", "Botas"], ["Escudo", "Escudo"], ["Colar", "Colar"], ["Anel", "Anel"]];
-  function setBar(items, idx) {
+  const SET_BASE = [["Capacete", "Capacete"], ["Armadura", "Armadura"], ["Pernas", "Pernas"], ["Botas", "Botas"]];
+  const SET_FIM = [["Colar", "Colar"], ["Anel", "Anel"]];
+  const SET_EXTRA = { knight: [["Escudo", "Escudo"]], sorcerer: [["Escudo", "Spellbook"]], druid: [["Escudo", "Spellbook"]], paladin: [["Aljava", "Aljava"]], monk: [] };
+  function setBar(items, idx, vocId) {
+    const SET_SLOTS = [...SET_BASE, ...(SET_EXTRA[vocId] || []), ...SET_FIM];
     const tiers = TIERS.slice(0, idx + 1).map(t => t[0]);
     const best = {};
     tiers.forEach(tier => {
       const inTier = {};
-      items.filter(i => i.tier === tier && !/alternativa|situacional/.test(i.slot)).forEach(i => {
-        const w = i.slot.match(/^Arma \((Machado|Espada|Clava)(, 2 mãos)?\)$/);
-        const key = w ? "Arma:" + w[1] : /^Arma( |$)/.test(i.slot) ? null : (SET_SLOTS.find(([s]) => i.slot === s || i.slot.startsWith(s + " ")) || [])[0];
+      items.filter(i => i.tier === tier && !/alternativa|situacional|se tiver gold/.test(i.slot)).forEach(i => {
+        const w = i.slot.match(/^Arma(?: \((Machado|Espada|Clava)(?:, 2 mãos)?\)| \(2 mãos\))?$/);
+        const slotName = i.slot.replace(/^Amuleto/, "Colar");
+        const key = w ? "Arma:" + (w[1] || "") : /^Arma( |$)/.test(i.slot) ? null : (SET_SLOTS.find(([s]) => slotName === s || slotName.startsWith(s + " ")) || [])[0];
         if (key && (!inTier[key] || (i.lv || 0) >= (inTier[key].lv || 0))) inTier[key] = i;
       });
       Object.entries(inTier).forEach(([k, i]) => best[k] = { it: i, novo: tier === tiers[tiers.length - 1] });
@@ -199,7 +203,7 @@
         return `<section class="step${cur === e.faixa ? " is-here" : ""}" id="etapa-${idx}" data-lo="${TIERS[idx][1]}">
           <div class="step-h"><span class="step-n">${idx + 1}</span><span class="lvl-badge">Lvl ${esc(e.faixa)}</span>${cur === e.faixa ? '<span class="here">você está aqui</span>' : ""}<span class="rule"></span></div>
           ${e.objetivo ? `<p class="step-obj">${pickW(e.objetivo)}</p>` : ""}
-          ${voc.id === "knight" ? setBar(items, idx) : ""}
+          ${setBar(items, idx, voc.id)}
           <div class="step-grid">
             <div class="sbox"><span class="how-t">Onde caçar</span>${e.hunts.length ? e.hunts.map(huntRow).join("") : `<p class="muted">Use o Hunt Finder para ver as hunts desta faixa.</p>`}</div>
             <div class="sbox"><span class="how-t">O que comprar ou trocar${its.length ? ` (${its.length})` : ""}</span>${its.length ? its.map(itemRow).join("") : `<p class="muted">Nada novo: mantenha o equipamento da faixa anterior e junte gold.</p>`}</div>
@@ -406,7 +410,7 @@
       </a>`).join("");
     return `<section class="home-hero">
         <div class="home-hero-txt">
-          <h1>A rota do level 8 ao 600: onde caçar, o que comprar e onde dropa</h1>
+          <h1>A rota do level 8 ao 1000: onde caçar, o que comprar e onde dropa</h1>
           <p>Passo a passo por faixa de level: hunts, equipamento na ordem de compra, magias com NPC e preço, quests e treino. Com a chance de drop de cada item.</p>
         </div>
         <div class="stats">${stats}</div>
@@ -440,7 +444,7 @@
 
   const DEFAULT_DESC = "Guia de Tibia por vocação e level: qual equipamento usar, qual monstro dropa, chance de drop e NPC que vende. Com seções para servidores como o HeroOT.";
   const PAGE_META = {
-    inicio: ["Jantar Guia: rota de Tibia do level 8 ao 600, hunts e drops", DEFAULT_DESC],
+    inicio: ["Jantar Guia: rota de Tibia do level 8 ao 1000, hunts e drops", DEFAULT_DESC],
     quests: ["Quests do Tibia por level: acessos, bosses e itens | Jantar Guia", "As quests do Tibia que mais valem a pena em cada faixa de level: acessos, descontos, bosses, itens, outfits e montarias."],
     imbuements: ["Imbuements por vocação: o que imbuir em cada item | Jantar Guia", "O que imbuir em cada item de Knight, Paladin, Sorcerer, Druid e Monk, com os materiais de cada imbuement."],
     outfits: ["Outfits e montarias do Tibia: como conseguir | Jantar Guia", "Como conseguir cada montaria e outfit do Tibia jogando, com as da loja separadas."],

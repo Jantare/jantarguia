@@ -11,7 +11,7 @@
   const ytq = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
   const slot = (src, big, alt) => `<span class="slot${big ? " big" : ""}">${img(src, "", alt)}</span>`;
 
-  const st = { monF: "todos", monQ: "", questQ: "",imbuVoc: "knight", view: "inicio", qfilter: "todas", look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
+  const st = { monF: "todos", monQ: "", questQ: "",imbuVoc: "knight", view: "inicio", qfilter: "todas", loot: "", lootExtra: {}, lootOff: new Set(), look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
   let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, SERVERS = {};
 
   const store = {
@@ -41,11 +41,12 @@
     v.push({ id: "imbuements", nome: "Imbuements" });
     v.push({ id: "outfits", nome: "Outfits" });
     v.push({ id: "monstros", nome: "Monstros" });
+    v.push({ id: "lootsplit", nome: "Loot Split" });
     if (st.srv) v.push({ id: st.srv, nome: SERVERS[st.srv].nome, srv: true });
     return v;
   }
 
-  const NAV_ICON = { quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/montarias/draptor.webp", monstros: "img/monstros/dragon.gif" };
+  const NAV_ICON = { lootsplit: "img/ico-lootsplit.svg", quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/montarias/draptor.webp", monstros: "img/monstros/dragon.gif" };
   function nav() {
     const tab = v => {
       const ic = v.id === "inicio" ? `<svg class="tab-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 10.5V21h6.5v-6h5v6H21V10.5z" fill="currentColor"/></svg>`
@@ -439,9 +440,117 @@
           <a class="voc" href="quests/">${slot("img/itens/falcon-shield.webp", true)}<span class="voc-txt"><span class="name">Quests por level</span><span class="voc-desc">As quests que mais valem a pena em cada faixa: acessos, descontos, bosses e itens.</span></span></a>
           <a class="voc" href="imbuements/">${slot("img/itens/soulbiter.webp", true)}<span class="voc-txt"><span class="name">Imbuements</span><span class="voc-desc">O que imbuir em cada item da sua vocação e os materiais de cada imbuement.</span></span></a>
           <a class="voc" href="outfits/">${slot("img/montarias/draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
+          <a class="voc" href="lootsplit/">${slot("img/ico-lootsplit.svg", true)}<span class="voc-txt"><span class="name">Loot Split</span><span class="voc-desc">Cole o Party Hunt Analyser e veja quem transfere quanto para quem.</span></span></a>
           <a class="voc" href="monstros/">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
         </div>
       </section>`;
+  }
+
+  const LOOT_EXEMPLO = `Session data: From 2026-11-08, 20:00:00 to 2026-11-08, 21:00:00
+Session: 01:00h
+Loot Type: Market
+Loot: 3,600,000
+Supplies: 1,200,000
+Balance: 2,400,000
+Exemplo Knight (Leader)
+	Loot: 2,500,000
+	Supplies: 500,000
+	Balance: 2,000,000
+	Damage: 4,000,000
+	Healing: 800,000
+Exemplo Paladin
+	Loot: 700,000
+	Supplies: 300,000
+	Balance: 400,000
+	Damage: 5,000,000
+	Healing: 300,000
+Exemplo Druid
+	Loot: 400,000
+	Supplies: 400,000
+	Balance: 0
+	Damage: 2,000,000
+	Healing: 3,000,000`;
+
+  const lootNum = v => parseInt(String(v).replace(/[^\d-]/g, ""), 10) || 0;
+
+  function parseLoot(txt) {
+    const out = { sessao: "", players: [] };
+    let cur = null;
+    txt.split(/\r?\n/).map(l => l.trim()).filter(Boolean).forEach(l => {
+      const m = l.match(/^([^:]+):\s*(.*)$/);
+      if (!m) {
+        cur = { nome: l.replace(/\s*\(leader\)\s*$/i, ""), lider: /\(leader\)\s*$/i.test(l), loot: 0, sup: 0, bal: null };
+        out.players.push(cur);
+        return;
+      }
+      const k = m[1].trim().toLowerCase();
+      if (!cur) { if (k === "session") out.sessao = m[2]; return; }
+      if (k === "loot") cur.loot = lootNum(m[2]);
+      else if (k === "supplies") cur.sup = lootNum(m[2]);
+      else if (k === "balance") cur.bal = lootNum(m[2]);
+    });
+    out.players.forEach(p => { if (p.bal === null) p.bal = p.loot - p.sup; });
+    return out;
+  }
+
+  function splitLoot(players, extra, off) {
+    const ativos = players.filter(p => !off.has(p.nome)).map(p => ({ nome: p.nome, bal: p.bal - (extra[p.nome] || 0) }));
+    const total = ativos.reduce((a, p) => a + p.bal, 0);
+    const parte = ativos.length ? Math.floor(total / ativos.length) : 0;
+    const dif = ativos.map(p => ({ nome: p.nome, d: p.bal - parte }));
+    const pagam = dif.filter(p => p.d > 0).sort((a, b) => b.d - a.d);
+    const recebem = dif.filter(p => p.d < 0).sort((a, b) => a.d - b.d);
+    const transf = [];
+    let i = 0, j = 0;
+    while (i < pagam.length && j < recebem.length) {
+      const v = Math.min(pagam[i].d, -recebem[j].d);
+      if (v > 0) transf.push({ de: pagam[i].nome, para: recebem[j].nome, v });
+      pagam[i].d -= v; recebem[j].d += v;
+      if (!pagam[i].d) i++;
+      if (!recebem[j].d) j++;
+    }
+    return { n: ativos.length, total, parte, transf };
+  }
+
+  function lootView() {
+    return `<div class="page-h"><h1>Loot Split: divisão de loot da party</h1>
+      <p class="intro">No Tibia, abra o Party Hunt Analyser, clique em copiar e cole o texto aqui. O site calcula o lucro de cada jogador e quem transfere para quem.</p></div>
+      <div class="sbox loot-box">
+        <label class="how-t" for="lootxt">Texto do Party Hunt Analyser</label>
+        <textarea id="lootxt" rows="7" spellcheck="false" placeholder="Cole aqui o texto copiado do Party Hunt Analyser">${esc(st.loot)}</textarea>
+        <div class="loot-acts"><button type="button" class="loot-btn" data-loot-ex>Ver exemplo</button><button type="button" class="loot-btn" data-loot-clear>Limpar</button></div>
+      </div>
+      <div id="loot-res"></div>`;
+  }
+
+  function lootRender() {
+    const box = $("#loot-res"); if (!box) return;
+    if (!st.loot.trim()) { box.innerHTML = ""; return; }
+    const d = parseLoot(st.loot);
+    if (d.players.length < 2) { box.innerHTML = `<p class="notice">Não encontrei pelo menos 2 jogadores nesse texto. Copie de novo pelo botão de copiar do Party Hunt Analyser.</p>`; return; }
+    box.innerHTML = `<div class="sbox loot-box"><span class="how-t">Jogadores${d.sessao ? ` · sessão de ${esc(d.sessao)}` : ""}</span>
+      <div class="loot-scroll"><table class="loot-t"><thead><tr><th>Jogador</th><th>Loot</th><th>Supplies</th><th>Balance</th><th>Gasto extra</th><th>Fora</th></tr></thead><tbody>
+      ${d.players.map(p => { const fora = st.lootOff.has(p.nome); return `<tr${fora ? ' class="off"' : ""}><td>${esc(p.nome)}${p.lider ? ' <small>líder</small>' : ""}</td><td>${num(p.loot)}</td><td>${num(p.sup)}</td><td>${num(p.bal)}</td>
+        <td><input type="number" min="0" inputmode="numeric" aria-label="Gasto extra de ${esc(p.nome)}" data-loot-extra="${esc(p.nome)}" value="${st.lootExtra[p.nome] || ""}" placeholder="0"${fora ? " disabled" : ""}></td>
+        <td><input type="checkbox" aria-label="Tirar ${esc(p.nome)} da divisão" data-loot-rm="${esc(p.nome)}"${fora ? " checked" : ""}></td></tr>`; }).join("")}
+      </tbody></table></div>
+      <p class="muted">Gasto extra é o que o jogador pagou por fora, como entrada de boss ou item da hunt. Marque "Fora" para tirar alguém da divisão.</p></div>
+      <div id="loot-out"></div>`;
+    lootCalc();
+  }
+
+  function lootCalc() {
+    const out = $("#loot-out"); if (!out) return;
+    const r = splitLoot(parseLoot(st.loot).players, st.lootExtra, st.lootOff);
+    if (r.n < 2) { out.innerHTML = `<p class="notice">Deixe pelo menos 2 jogadores na divisão.</p>`; return; }
+    const cmd = t => `transfer ${t.v} to ${t.para}`;
+    const tudo = r.transf.map(t => `${t.de}: ${cmd(t)}`).join("\n");
+    out.innerHTML = `<div class="sbox loot-box">
+      <div class="loot-sum"><div><span class="how-t">Lucro total</span><b class="${r.total < 0 ? "neg" : ""}">${num(r.total)} gp</b></div><div><span class="how-t">Para cada jogador</span><b class="${r.parte < 0 ? "neg" : ""}">${num(r.parte)} gp</b></div></div>
+      <span class="how-t t2">Transferências</span>
+      ${r.transf.length ? r.transf.map(t => `<div class="loot-tr"><span><b>${esc(t.de)}</b> transfere <b>${num(t.v)} gp</b> para <b>${esc(t.para)}</b></span><button type="button" class="loot-btn" data-copy="${esc(cmd(t))}"><span class="copy-lbl">Copiar comando</span></button></div>`).join("") : `<p class="muted">Ninguém precisa transferir: já está dividido.</p>`}
+      ${r.transf.length > 1 ? `<div class="loot-acts"><button type="button" class="loot-btn" data-copy="${esc(tudo)}"><span class="copy-lbl">Copiar todas</span></button></div>` : ""}
+      <p class="muted">Fale o comando no NPC do banco, depois de depositar o gold.</p></div>`;
   }
 
   const DEFAULT_DESC = "Guia de Tibia por vocação e level: qual equipamento usar, qual monstro dropa, chance de drop e NPC que vende. Com seções para servidores como o HeroOT.";
@@ -450,6 +559,7 @@
     quests: ["Quests do Tibia por level: acessos, bosses e itens | Jantar Guia", "As quests do Tibia que mais valem a pena em cada faixa de level: acessos, descontos, bosses, itens, outfits e montarias."],
     imbuements: ["Imbuements por vocação: o que imbuir em cada item | Jantar Guia", "O que imbuir em cada item de Knight, Paladin, Sorcerer, Druid e Monk, com os materiais de cada imbuement."],
     outfits: ["Outfits e montarias do Tibia: como conseguir | Jantar Guia", "Como conseguir cada montaria e outfit do Tibia jogando, com as da loja separadas."],
+    lootsplit: ["Loot Split: divisão de loot da party no Tibia | Jantar Guia", "Cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem."],
     monstros: ["Monstros e bosses do Tibia: onde ficam e o que dropam | Jantar Guia", "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um."]
   };
   function setMeta() {
@@ -472,6 +582,7 @@
     else if (st.view === "imbuements") v.innerHTML = imbuView();
     else if (st.view === "outfits") v.innerHTML = lookView();
     else if (st.view === "monstros") { v.innerHTML = monstersView(); filterMon(); }
+    else if (st.view === "lootsplit") { v.innerHTML = lootView(); lootRender(); }
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
     else v.innerHTML = vocationView(BASE.vocacoes.find(x => x.id === st.view) || BASE.vocacoes[0]);
   }
@@ -511,6 +622,10 @@
     if (lk) { st.look = lk.dataset.look; st.lookCat = "todas"; render(); }
     const lc = e.target.closest("[data-lcat]");
     if (lc) { st.lookCat = lc.dataset.lcat; render(); }
+    if (e.target.closest("[data-loot-ex]")) { st.loot = LOOT_EXEMPLO; st.lootExtra = {}; st.lootOff = new Set(); render(); return; }
+    if (e.target.closest("[data-loot-clear]")) { st.loot = ""; st.lootExtra = {}; st.lootOff = new Set(); render(); return; }
+    const lrm = e.target.closest("[data-loot-rm]");
+    if (lrm) { if (lrm.checked) st.lootOff.add(lrm.dataset.lootRm); else st.lootOff.delete(lrm.dataset.lootRm); lootRender(); return; }
     const jp = e.target.closest("[data-jump]");
     if (jp) {
       e.preventDefault();
@@ -573,6 +688,8 @@
       render();
     });
     document.addEventListener("input", e => {
+      if (e.target.id === "lootxt") { st.loot = e.target.value; st.lootExtra = {}; st.lootOff = new Set(); lootRender(); return; }
+      if (e.target.dataset.lootExtra !== undefined) { const x = parseInt(e.target.value); if (x > 0) st.lootExtra[e.target.dataset.lootExtra] = x; else delete st.lootExtra[e.target.dataset.lootExtra]; lootCalc(); return; }
       if (e.target.id === "monq") { st.monQ = e.target.value; filterMon(); return; }
       if (e.target.id === "questq") { st.questQ = e.target.value; filterQuests(); return; }
       if (e.target.id !== "lookq") return;

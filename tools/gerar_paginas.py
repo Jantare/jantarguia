@@ -59,7 +59,7 @@ SITE, BASE, QUESTS, LOOK, ROTAS, IMBU = (
 SERVERS = [load(f"data/servidores/{i}.json") for i in SITE["servidores"]]
 VOCS = BASE["vocacoes"]
 NOMES = [("", "Início")] + [(v["id"], v["nome"]) for v in VOCS] + [
-    ("quests", "Quests"), ("imbuements", "Imbuements"), ("outfits", "Outfits"), ("monstros", "Monstros")]
+    ("quests", "Quests"), ("imbuements", "Imbuements"), ("outfits", "Outfits"), ("monstros", "Monstros"), ("lootsplit", "Loot Split")]
 
 
 def link(pid, nome):
@@ -186,6 +186,14 @@ def pag_monstros():
             + "<h2>Monstros</h2>" + ul([linha(n, m) for n, m in M if not m.get("boss")]))
 
 
+def pag_lootsplit():
+    return ("<h1>Loot Split: divisão de loot da party</h1>"
+            "<p>Ferramenta para dividir o loot de uma party hunt no Tibia. Copie o texto do Party Hunt Analyser, cole na página "
+            "e veja o lucro total, quanto fica para cada jogador e quem transfere para quem.</p>"
+            "<p>Dá para somar gastos extras de um jogador, como entrada de boss, e tirar alguém da divisão. "
+            "A ferramenta gera o comando de transferência para falar no NPC do banco.</p>")
+
+
 def pag_servidor(s):
     return (f'<h1>{e(s["nome"])}</h1><p>{e(s["resumo"])}</p>'
             + "".join(f'<h2>{e(x["nome"])}</h2><p>{e(x["texto"])}</p>' for x in s["sistemas"]))
@@ -197,7 +205,7 @@ def pag_inicio():
             "quests e treino. Com a chance de drop de cada item.</p><h2>Guias</h2>"
             + ul([link(v["id"], f'Guia de {v["nome"]}') for v in VOCS]
                  + [link("quests", "Quests por level"), link("imbuements", "Imbuements por vocação"),
-                    link("outfits", "Outfits e montarias"), link("monstros", "Monstros e bosses")]
+                    link("outfits", "Outfits e montarias"), link("monstros", "Monstros e bosses"), link("lootsplit", "Loot Split: divisão de loot da party")]
                  + [link(s["id"], s["nome"]) for s in SERVERS]))
 
 
@@ -217,6 +225,8 @@ PAGS += [
      "Como conseguir cada montaria e outfit do Tibia jogando, com as da loja separadas.", pag_outfits()),
     ("monstros", "Monstros e bosses do Tibia: onde ficam e o que dropam | Jantar Guia",
      "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um.", pag_monstros()),
+    ("lootsplit", "Loot Split: divisão de loot da party no Tibia | Jantar Guia",
+     "Cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem.", pag_lootsplit()),
 ]
 for s in SERVERS:
     PAGS.append((s["id"], f'{s["nome"]}: sistemas e guia do servidor | Jantar Guia',

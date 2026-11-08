@@ -353,3 +353,23 @@ html:not(.js) .loading { display: none; }
 .prerender { padding: 24px 0; line-height: 1.5; }
 .prerender h1, .prerender h2, .prerender h3 { margin: 1em 0 .4em; }
 .prerender ul { padding-left: 20px; }
+
+/* Loot Split */
+.loot-box{margin-top:16px}
+#lootxt{width:100%;box-sizing:border-box;resize:vertical;background:var(--panel-2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px;font:inherit}
+.loot-acts{display:flex;gap:8px;flex-wrap:wrap}
+.loot-btn{background:var(--gold-soft);color:var(--gold);border:1px solid var(--gold-2);border-radius:8px;padding:8px 12px;min-height:38px;font:inherit;font-weight:600;cursor:pointer}
+.loot-btn.copied{background:var(--here-soft);color:var(--here);border-color:var(--here)}
+.loot-scroll{overflow-x:auto}
+.loot-t{width:100%;border-collapse:collapse;min-width:560px}
+.loot-t th{text-align:right;color:var(--muted);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line)}
+.loot-t td{text-align:right;padding:6px 8px;border-bottom:1px solid var(--line)}
+.loot-t th:first-child,.loot-t td:first-child{text-align:left}
+.loot-t small{color:var(--gold)}
+.loot-t tr.off td{opacity:.45}
+.loot-t input[type=number]{width:100px;box-sizing:border-box;background:var(--panel-2);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px;font:inherit;text-align:right}
+.loot-t input[type=checkbox]{width:20px;height:20px;accent-color:var(--gold)}
+.loot-sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.loot-sum b{display:block;font-size:1.5rem;color:var(--here)}
+.loot-sum b.neg{color:var(--rare)}
+.loot-tr{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:8px 0;border-top:1px solid var(--line)}

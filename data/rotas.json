@@ -1212,25 +1212,29 @@
        "onde": "Norcferatu Fortress",
        "lv": "600+",
        "nota": "Arma de gelo ou terra. Relatos de 8,5 kk de XP bruta por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Norcferatu%20Fortress%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Norcferatu%20Fortress%20hunt%20600",
+       "img": "img/monstros/norcferatu-heartless.webp"
       },
       {
        "onde": "Summer Court",
        "lv": "600+",
        "nota": "Arma de gelo, proteção de fogo e físico. Relatos de 5,6 a 6,8 kk por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Summer%20Court%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Summer%20Court%20hunt%20600",
+       "img": "img/monstros/crazed-summer-vanguard.webp"
       },
       {
        "onde": "Azzilon Walls",
        "lv": "600+",
        "nota": "Arma de gelo ou energia, proteção de físico, morte e fogo. Relatos de 6 kk por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Azzilon%20Walls%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Azzilon%20Walls%20hunt%20600",
+       "img": "img/monstros/gorger-inferniarch.webp"
       },
       {
        "onde": "Warzone 3",
        "lv": "600+",
        "nota": "Arma de energia. Hunt mais voltada para lucro.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Warzone%203%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Warzone%203%20hunt%20600",
+       "img": "img/monstros/orewalker.webp"
       }
      ],
      "magias": []
@@ -1249,19 +1253,22 @@
        "onde": "Azzilon Castle",
        "lv": "700+",
        "nota": "Arma de gelo ou energia. Relatos de 4 a 7,6 kk de XP bruta por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Azzilon%20Castle%20hunt%20700"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Azzilon%20Castle%20hunt%20700",
+       "img": "img/monstros/sineater-inferniarch.webp"
       },
       {
        "onde": "Feru Plague Seal",
        "lv": "700+",
        "nota": "Arma de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Plague%20Seal%20hunt%20700"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Plague%20Seal%20hunt%20700",
+       "img": "img/monstros/plaguesmith.webp"
       },
       {
        "onde": "Nimmersatt's Breeding Grounds",
        "lv": "700+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Nimmersatt%27s%20Breeding%20Grounds%20hunt%20700"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Nimmersatt%27s%20Breeding%20Grounds%20hunt%20700",
+       "img": "img/monstros/mega-dragon.webp"
       }
      ],
      "magias": []
@@ -1280,31 +1287,36 @@
        "onde": "Bulltaurs",
        "lv": "800+",
        "nota": "Arma de terra. Relatos de 11,5 kk de XP bruta por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bulltaurs%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bulltaurs%20hunt%20800",
+       "img": "img/monstros/bulltaur-brute.webp"
       },
       {
        "onde": "Bloodfire Gorge",
        "lv": "800+",
        "nota": "Arma física. Relatos de 8,6 a 11,8 kk por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bloodfire%20Gorge%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bloodfire%20Gorge%20hunt%20800",
+       "img": "img/monstros/raubritter-skirmisher.webp"
       },
       {
        "onde": "Norcferatu Dungeons",
        "lv": "800+",
        "nota": "East ou West, arma de gelo, terra ou fogo. Relatos de 7,9 a 8,7 kk por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Norcferatu%20Dungeons%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Norcferatu%20Dungeons%20hunt%20800",
+       "img": "img/monstros/norcferatu-nightweaver.webp"
       },
       {
        "onde": "Cobra Bastion",
        "lv": "800+",
        "nota": "Qualquer elemento menos terra. Proteção de físico, morte e terra. Relatos de 6,7 a 7,7 kk por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cobra%20Bastion%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cobra%20Bastion%20hunt%20800",
+       "img": "img/monstros/cobra-vizier.webp"
       },
       {
        "onde": "Feru Pumin Seal",
        "lv": "800+",
        "nota": "Arma de energia. Relatos de 5,25 kk por hora, com lucro bom.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Pumin%20Seal%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Pumin%20Seal%20hunt%20800",
+       "img": "img/monstros/hand-of-cursed-fate.webp"
       }
      ],
      "magias": []
@@ -1323,25 +1335,29 @@
        "onde": "Feru Way",
        "lv": "800+",
        "nota": "Arma de gelo.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Way%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Way%20hunt%20800",
+       "img": "img/monstros/vexclaw.gif"
       },
       {
        "onde": "Feru Infernatil Seal",
        "lv": "800+",
        "nota": "Arma de gelo.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Infernatil%20Seal%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Infernatil%20Seal%20hunt%20800",
+       "img": "img/monstros/hellfire-fighter.webp"
       },
       {
        "onde": "Feru DT Seal",
        "lv": "800+",
        "nota": "Arma de gelo.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20DT%20Seal%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20DT%20Seal%20hunt%20800",
+       "img": "img/monstros/dark-torturer.webp"
       },
       {
        "onde": "Raubritters Castle",
        "lv": "800+",
        "nota": "Arma física.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Raubritters%20Castle%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Raubritters%20Castle%20hunt%20800",
+       "img": "img/monstros/raubritter-chastener.webp"
       }
      ],
      "magias": []
@@ -1364,13 +1380,15 @@
        "onde": "True Asuras",
        "lv": "1000+",
        "nota": "Arma de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20True%20Asuras%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20True%20Asuras%20hunt%201000",
+       "img": "img/monstros/true-midnight-asura.webp"
       },
       {
        "onde": "Asura Citadel",
        "lv": "1000+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Asura%20Citadel%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Asura%20Citadel%20hunt%201000",
+       "img": "img/monstros/true-frost-flower-asura.webp"
       }
      ],
      "magias": []
@@ -2245,7 +2263,7 @@
        "nota": "Também bate terra e é das melhores hunts dessa faixa.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/cave-devourer.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20warzone%205%206%20hunt"
       },
       {
@@ -2484,31 +2502,36 @@
        "onde": "Upper Roshamuul (norte e sul)",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 9 kk de XP e 1,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Upper%20Roshamuul%20%28norte%20e%20sul%29%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Upper%20Roshamuul%20%28norte%20e%20sul%29%20hunt%20600",
+       "img": "img/monstros/frazzlemaw.webp"
       },
       {
        "onde": "Norcferatu Fortress",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,6 kk de XP e 1,1 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Fortress%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Fortress%20hunt%20600",
+       "img": "img/monstros/norcferatu-heartless.webp"
       },
       {
        "onde": "Azzilon Castle",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,6 kk de XP e 0,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Castle%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Castle%20hunt%20600",
+       "img": "img/monstros/sineater-inferniarch.webp"
       },
       {
        "onde": "Nimmersatt's (-7)",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 1 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Nimmersatt%27s%20%28-7%29%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Nimmersatt%27s%20%28-7%29%20hunt%20600",
+       "img": "img/monstros/mega-dragon.webp"
       },
       {
        "onde": "Cobra Bastion",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 7,5 kk de XP e 0,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cobra%20Bastion%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cobra%20Bastion%20hunt%20600",
+       "img": "img/monstros/cobra-vizier.webp"
       }
      ],
      "magias": []
@@ -2523,25 +2546,29 @@
        "onde": "Norcferatu Dungeons East",
        "lv": "700+",
        "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 0,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20East%20hunt%20700"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20East%20hunt%20700",
+       "img": "img/monstros/norcferatu-nightweaver.webp"
       },
       {
        "onde": "Norcferatu Dungeons West",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 0,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20West%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20West%20hunt%20600",
+       "img": "img/monstros/norcferatu-nightweaver.webp"
       },
       {
        "onde": "Nimmersatt's Boss Floor (-6)",
        "lv": "700+",
        "nota": "Diamond Arrows, Ethereal. 8,4 kk de XP e 0,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20700"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20700",
+       "img": "img/monstros/wardragon.webp"
       },
       {
        "onde": "Deep Desert",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 5,1 kk de XP e 1,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Deep%20Desert%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Deep%20Desert%20hunt%20600",
+       "img": "img/monstros/skeleton-elite-warrior.webp"
       }
      ],
      "magias": []
@@ -2556,31 +2583,36 @@
        "onde": "Venore Flimsies (-1, -2 e -3)",
        "lv": "800+",
        "nota": "Firestorm Arrows, Divine. 10,5 kk de XP e 2 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Venore%20Flimsies%20%28-1%2C%20-2%20e%20-3%29%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Venore%20Flimsies%20%28-1%2C%20-2%20e%20-3%29%20hunt%20800",
+       "img": "img/monstros/flimsy-lost-soul.webp"
       },
       {
        "onde": "Bulltaur Lair",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bulltaur%20Lair%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bulltaur%20Lair%20hunt%20800",
+       "img": "img/monstros/bulltaur-brute.webp"
       },
       {
        "onde": "Bloodfire Gorge",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloodfire%20Gorge%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloodfire%20Gorge%20hunt%20800",
+       "img": "img/monstros/raubritter-skirmisher.webp"
       },
       {
        "onde": "Ingol (superfície, -1 e -2)",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800",
+       "img": "img/monstros/crape-man.webp"
       },
       {
        "onde": "Feru Pumin",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Pumin%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Pumin%20hunt%20800",
+       "img": "img/monstros/hand-of-cursed-fate.webp"
       }
      ],
      "magias": []
@@ -2595,31 +2627,36 @@
        "onde": "Ferumbras Way",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ferumbras%20Way%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ferumbras%20Way%20hunt%20800",
+       "img": "img/monstros/vexclaw.gif"
       },
       {
        "onde": "Feru Undead Dragons",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Undead%20Dragons%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Undead%20Dragons%20hunt%20800",
+       "img": "img/monstros/undead-dragon.webp"
       },
       {
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20True%20Asuras%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20True%20Asuras%20hunt%20800",
+       "img": "img/monstros/true-midnight-asura.webp"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Asura%20Citadel%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Asura%20Citadel%20hunt%20800",
+       "img": "img/monstros/true-frost-flower-asura.webp"
       },
       {
        "onde": "Warzone 7, 8 e 9",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Warzone%207%2C%208%20e%209%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Warzone%207%2C%208%20e%209%20hunt%20800",
+       "img": "img/monstros/afflicted-strider.webp"
       }
      ],
      "magias": []
@@ -2634,43 +2671,50 @@
        "onde": "Ingol (-3, -4 e -5)",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28-3%2C%20-4%20e%20-5%29%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28-3%2C%20-4%20e%20-5%29%20hunt%201000",
+       "img": "img/monstros/crape-man.webp"
       },
       {
        "onde": "Azzilon Catacombs",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Catacombs%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Catacombs%20hunt%201000",
+       "img": "img/monstros/hellhunter-inferniarch.webp"
       },
       {
        "onde": "Feru DT",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20DT%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20DT%20hunt%201000",
+       "img": "img/monstros/dark-torturer.webp"
       },
       {
        "onde": "Podzilla Quaras",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Podzilla%20Quaras%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Podzilla%20Quaras%20hunt%201000",
+       "img": "img/monstros/quara-raider.webp"
       },
       {
        "onde": "Feru Juggernauts",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Juggernauts%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Juggernauts%20hunt%201000",
+       "img": "img/monstros/juggernaut.webp"
       },
       {
        "onde": "Feru Mazoran",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Mazoran%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Mazoran%20hunt%201000",
+       "img": "img/monstros/hellfire-fighter.webp"
       },
       {
        "onde": "Forsaken Crypt",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Forsaken%20Crypt%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Forsaken%20Crypt%20hunt%201000",
+       "img": "img/monstros/roaming-dread.webp"
       }
      ],
      "magias": []
@@ -3807,7 +3851,7 @@
        "nota": "Do vídeo: alternativa grande, uns 3kk/h. Precisa se mexer bastante.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/crystalcrusher.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20spike%20kazordoon%20hunt"
       },
       {
@@ -3817,7 +3861,7 @@
        "nota": "Do vídeo: 3kk/h e mais relaxada que a Spike.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/drillworm.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%204%20hunt"
       },
       {
@@ -3899,7 +3943,7 @@
        "nota": "Do vídeo: postura de fogo, 5,6kk/h no 363. Bate muito gelo: leve proteção.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/cliff-strider.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%20crystal%20hunt"
       },
       {
@@ -3929,7 +3973,7 @@
        "nota": "Do vídeo: apanham muito de morte. 5kk/h no 368. Batem forte.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/usurper-knight.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20usurper%20drume%20hunt"
       }
      ],
@@ -4003,7 +4047,7 @@
        "nota": "Do vídeo: mais de 5kk/h. Precisa do acesso (Between the Lines).",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/burning-book.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20edron%20library%20book%20hunt"
       },
       {
@@ -4023,7 +4067,7 @@
        "nota": "Do vídeo: mais de 5kk/h. Bate energia: Void Boots ou Prismatic Ring.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/crape-man.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ingol%20hunt"
       }
      ],
@@ -4098,31 +4142,36 @@
        "onde": "Flimsy Venore (-1 e -2)",
        "lv": "500+",
        "nota": "Dano de fogo. 8,1 kk de XP e 1 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Flimsy%20Venore%20%28-1%20e%20-2%29%20hunt%20500"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Flimsy%20Venore%20%28-1%20e%20-2%29%20hunt%20500",
+       "img": "img/monstros/flimsy-lost-soul.webp"
       },
       {
        "onde": "Cobra Bastion",
        "lv": "500+",
        "nota": "Dano de morte. 7,2 kk de XP e 1,2 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Cobra%20Bastion%20hunt%20500"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Cobra%20Bastion%20hunt%20500",
+       "img": "img/monstros/cobra-vizier.webp"
       },
       {
        "onde": "Azzilon Castle",
        "lv": "600+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Castle%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Castle%20hunt%20600",
+       "img": "img/monstros/sineater-inferniarch.webp"
       },
       {
        "onde": "Norcferatu Fortress",
        "lv": "600+",
        "nota": "Dano de fogo.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Fortress%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Fortress%20hunt%20600",
+       "img": "img/monstros/norcferatu-heartless.webp"
       },
       {
        "onde": "Nimmersatt's (-7)",
        "lv": "600+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20%28-7%29%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20%28-7%29%20hunt%20600",
+       "img": "img/monstros/mega-dragon.webp"
       }
      ],
      "magias": []
@@ -4137,25 +4186,29 @@
        "onde": "Norcferatu Dungeons East e West",
        "lv": "600+",
        "nota": "Dano de fogo.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20600",
+       "img": "img/monstros/norcferatu-nightweaver.webp"
       },
       {
        "onde": "Nimmersatt's Boss Floor (-6)",
        "lv": "600+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600",
+       "img": "img/monstros/wardragon.webp"
       },
       {
        "onde": "Issavi Sphinxes e Crypt Wardens",
        "lv": "500+",
        "nota": "Dano de morte. 7 kk de XP e 1,2 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Issavi%20Sphinxes%20e%20Crypt%20Wardens%20hunt%20500"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Issavi%20Sphinxes%20e%20Crypt%20Wardens%20hunt%20500",
+       "img": "img/monstros/sphinx.webp"
       },
       {
        "onde": "Warzone 3",
        "lv": "500+",
        "nota": "Dano de energia. 6,6 kk de XP e 2 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Warzone%203%20hunt%20500"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Warzone%203%20hunt%20500",
+       "img": "img/monstros/orewalker.webp"
       }
      ],
      "magias": []
@@ -4170,31 +4223,36 @@
        "onde": "Bulltaur Lair",
        "lv": "800+",
        "nota": "Dano de morte.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bulltaur%20Lair%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bulltaur%20Lair%20hunt%20800",
+       "img": "img/monstros/bulltaur-brute.webp"
       },
       {
        "onde": "Ingol (superfície, -1 e -2)",
        "lv": "800+",
        "nota": "Dano de morte.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800",
+       "img": "img/monstros/crape-man.webp"
       },
       {
        "onde": "Bloodfire Gorge",
        "lv": "800+",
        "nota": "Dano de fogo.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bloodfire%20Gorge%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bloodfire%20Gorge%20hunt%20800",
+       "img": "img/monstros/raubritter-skirmisher.webp"
       },
       {
        "onde": "Azzilon Catacombs",
        "lv": "800+",
        "nota": "Dano de morte.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Catacombs%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Catacombs%20hunt%20800",
+       "img": "img/monstros/hellhunter-inferniarch.webp"
       },
       {
        "onde": "Feru Pumin Boss Floor",
        "lv": "800+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Pumin%20Boss%20Floor%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Pumin%20Boss%20Floor%20hunt%20800",
+       "img": "img/monstros/hand-of-cursed-fate.webp"
       }
      ],
      "magias": []
@@ -4209,31 +4267,36 @@
        "onde": "Feru Undead Dragons",
        "lv": "800+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Undead%20Dragons%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Undead%20Dragons%20hunt%20800",
+       "img": "img/monstros/undead-dragon.webp"
       },
       {
        "onde": "Feru Mazoran",
        "lv": "800+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Mazoran%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Mazoran%20hunt%20800",
+       "img": "img/monstros/hellfire-fighter.webp"
       },
       {
        "onde": "Feru Juggernauts",
        "lv": "800+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Juggernauts%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Juggernauts%20hunt%20800",
+       "img": "img/monstros/juggernaut.webp"
       },
       {
        "onde": "Ingol -3",
        "lv": "800+",
        "nota": "Dano de fogo.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20-3%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20-3%20hunt%20800",
+       "img": "img/monstros/crape-man.webp"
       },
       {
        "onde": "Podzilla Quaras",
        "lv": "800+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Podzilla%20Quaras%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Podzilla%20Quaras%20hunt%20800",
+       "img": "img/monstros/quara-raider.webp"
       }
      ],
      "magias": []
@@ -4248,19 +4311,22 @@
        "onde": "Forsaken Crypt",
        "lv": "1000+",
        "nota": "Dano de morte.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Forsaken%20Crypt%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Forsaken%20Crypt%20hunt%201000",
+       "img": "img/monstros/roaming-dread.webp"
       },
       {
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20True%20Asuras%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20True%20Asuras%20hunt%20800",
+       "img": "img/monstros/true-midnight-asura.webp"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Asura%20Citadel%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Asura%20Citadel%20hunt%20800",
+       "img": "img/monstros/true-frost-flower-asura.webp"
       }
      ],
      "magias": []
@@ -5390,7 +5456,7 @@
        "nota": "Do vídeo: vá em time e faça sempre que puder.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/lost-berserker.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%20hunt"
       }
      ],
@@ -5419,7 +5485,7 @@
        "nota": "Do vídeo: profit bom no 260, mas a fork de terra quase não bate.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/drillworm.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%204%20hunt"
       },
       {
@@ -5616,31 +5682,36 @@
        "onde": "Norcferatu Dungeons West",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20West%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20West%20hunt%20600",
+       "img": "img/monstros/norcferatu-nightweaver.webp"
       },
       {
        "onde": "Norcferatu Dungeons East",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20East%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20East%20hunt%20600",
+       "img": "img/monstros/norcferatu-nightweaver.webp"
       },
       {
        "onde": "Azzilon Catacombs",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Azzilon%20Catacombs%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Azzilon%20Catacombs%20hunt%20600",
+       "img": "img/monstros/hellhunter-inferniarch.webp"
       },
       {
        "onde": "Bulltaur Lair",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bulltaur%20Lair%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bulltaur%20Lair%20hunt%20600",
+       "img": "img/monstros/bulltaur-brute.webp"
       },
       {
        "onde": "Ingol Surface",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20Surface%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20Surface%20hunt%20600",
+       "img": "img/monstros/crape-man.webp"
       }
      ],
      "magias": []
@@ -5655,31 +5726,36 @@
        "onde": "Ingol -1",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-1%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-1%20hunt%20600",
+       "img": "img/monstros/crape-man.webp"
       },
       {
        "onde": "Ingol -2",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-2%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-2%20hunt%20600",
+       "img": "img/monstros/crape-man.webp"
       },
       {
        "onde": "Feru Undead Dragons",
        "lv": "600+",
        "nota": "Forked Glacier + Thunderstorm.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Undead%20Dragons%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Undead%20Dragons%20hunt%20600",
+       "img": "img/monstros/undead-dragon.webp"
       },
       {
        "onde": "Feru Juggernauts",
        "lv": "600+",
        "nota": "Forked Glacier + Thunderstorm.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Juggernauts%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Juggernauts%20hunt%20600",
+       "img": "img/monstros/juggernaut.webp"
       },
       {
        "onde": "Warzone 8",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%208%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%208%20hunt%20600",
+       "img": "img/monstros/afflicted-strider.webp"
       }
      ],
      "magias": []
@@ -5694,19 +5770,22 @@
        "onde": "Ingol -3",
        "lv": "800+",
        "nota": "Forked Glacier + Avalanche.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-3%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-3%20hunt%20800",
+       "img": "img/monstros/crape-man.webp"
       },
       {
        "onde": "Bloodfire Gorge",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bloodfire%20Gorge%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bloodfire%20Gorge%20hunt%20800",
+       "img": "img/monstros/raubritter-skirmisher.webp"
       },
       {
        "onde": "Podzilla Quaras",
        "lv": "800+",
        "nota": "Forked Thorns + Stoneshower.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Podzilla%20Quaras%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Podzilla%20Quaras%20hunt%20800",
+       "img": "img/monstros/quara-raider.webp"
       }
      ],
      "magias": []
@@ -5721,25 +5800,29 @@
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800",
+       "img": "img/monstros/true-midnight-asura.webp"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
+       "img": "img/monstros/true-frost-flower-asura.webp"
       },
       {
        "onde": "Feru Mazoran",
        "lv": "600+",
        "nota": "Forked Glacier + Avalanche.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Mazoran%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Mazoran%20hunt%20600",
+       "img": "img/monstros/hellfire-fighter.webp"
       },
       {
        "onde": "Warzone 9",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%209%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%209%20hunt%20600",
+       "img": "img/monstros/afflicted-strider.webp"
       }
      ],
      "magias": []
@@ -5754,19 +5837,22 @@
        "onde": "Forsaken Crypt",
        "lv": "1000+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Forsaken%20Crypt%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Forsaken%20Crypt%20hunt%201000",
+       "img": "img/monstros/roaming-dread.webp"
       },
       {
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800",
+       "img": "img/monstros/true-midnight-asura.webp"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
+       "img": "img/monstros/true-frost-flower-asura.webp"
       }
      ],
      "magias": []
@@ -6302,7 +6388,7 @@
        "nota": "Do vídeo: no 70, com a corrente, a XP dispara. Precisa do acesso de Lion's Rock.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/roaring-lion.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lions%20rock%20hunt"
       },
       {
@@ -6520,7 +6606,7 @@
        "nota": "Do vídeo: META. Depois da Cobra Bo fica muito boa e dá muito profit (Suspicious Device).",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/cave-devourer.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%205%20hunt"
       },
       {
@@ -6670,7 +6756,7 @@
        "nota": "Do vídeo: META, mas pesada. Muitos itens de weekly task.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/orewalker.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%203%20hunt"
       },
       {
@@ -6680,7 +6766,7 @@
        "nota": "Do vídeo: boa e perto do depot.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/brain-squid.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20library%20hunt"
       },
       {
@@ -6739,7 +6825,7 @@
        "nota": "Do vídeo: boa XP e três bestiaries rápidos. Adianta o acesso das Catacombs.",
        "exp": null,
        "hp": null,
-       "img": null,
+       "img": "img/monstros/sineater-inferniarch.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20inferniarch%20hunt"
       }
      ],
@@ -6755,31 +6841,36 @@
        "onde": "Norcferatu Fortress",
        "lv": "600+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Fortress%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Fortress%20hunt%20600",
+       "img": "img/monstros/norcferatu-heartless.webp"
       },
       {
        "onde": "Nimmersatt's Dragons (-7)",
        "lv": "600+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Nimmersatt%27s%20Dragons%20%28-7%29%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Nimmersatt%27s%20Dragons%20%28-7%29%20hunt%20600",
+       "img": "img/monstros/mega-dragon.webp"
       },
       {
        "onde": "Upper Roshamuul",
        "lv": "600+",
        "nota": "Arma física.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Upper%20Roshamuul%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Upper%20Roshamuul%20hunt%20600",
+       "img": "img/monstros/frazzlemaw.webp"
       },
       {
        "onde": "Falcons",
        "lv": "600+",
        "nota": "Com a Sanguine Claws (terra).",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Falcons%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Falcons%20hunt%20600",
+       "img": "img/monstros/falcon-knight.gif"
       },
       {
        "onde": "Feru Way",
        "lv": "600+",
        "nota": "Arma física.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Feru%20Way%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Feru%20Way%20hunt%20600",
+       "img": "img/monstros/vexclaw.gif"
       }
      ],
      "magias": []
@@ -6794,25 +6885,29 @@
        "onde": "Norcferatu Dungeons East e West",
        "lv": "700+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20700"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20700",
+       "img": "img/monstros/norcferatu-nightweaver.webp"
       },
       {
        "onde": "Nimmersatt's Boss Floor (-6)",
        "lv": "600+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600",
+       "img": "img/monstros/wardragon.webp"
       },
       {
        "onde": "Feru DT Seal",
        "lv": "600+",
        "nota": "Arma física. Andares -1 e -2.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Feru%20DT%20Seal%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Feru%20DT%20Seal%20hunt%20600",
+       "img": "img/monstros/dark-torturer.webp"
       },
       {
        "onde": "Prison -3",
        "lv": "600+",
        "nota": "Arma física.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Prison%20-3%20hunt%20600"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Prison%20-3%20hunt%20600",
+       "img": "img/monstros/dark-torturer.webp"
       }
      ],
      "magias": []
@@ -6827,31 +6922,36 @@
        "onde": "Raubritters (Bloodfire Gorge)",
        "lv": "800+",
        "nota": "Arma física.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Raubritters%20%28Bloodfire%20Gorge%29%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Raubritters%20%28Bloodfire%20Gorge%29%20hunt%20800",
+       "img": "img/monstros/raubritter-skirmisher.webp"
       },
       {
        "onde": "Raubritters (Ada Outskirts)",
        "lv": "800+",
        "nota": "Arma física.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Raubritters%20%28Ada%20Outskirts%29%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Raubritters%20%28Ada%20Outskirts%29%20hunt%20800",
+       "img": "img/monstros/raubritter-marksman.webp"
       },
       {
        "onde": "Bulltaurs -2",
        "lv": "800+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Bulltaurs%20-2%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Bulltaurs%20-2%20hunt%20800",
+       "img": "img/monstros/bulltaur-forgepriest.webp"
       },
       {
        "onde": "Ingol Surface",
        "lv": "800+",
        "nota": "Arma física.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20Surface%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20Surface%20hunt%20800",
+       "img": "img/monstros/crape-man.webp"
       },
       {
        "onde": "Azzilon Catacombs",
        "lv": "800+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Azzilon%20Catacombs%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Azzilon%20Catacombs%20hunt%20800",
+       "img": "img/monstros/hellhunter-inferniarch.webp"
       }
      ],
      "magias": []
@@ -6866,19 +6966,22 @@
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Arma física, de energia ou de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20True%20Asuras%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20True%20Asuras%20hunt%20800",
+       "img": "img/monstros/true-midnight-asura.webp"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Asura%20Citadel%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Asura%20Citadel%20hunt%20800",
+       "img": "img/monstros/true-frost-flower-asura.webp"
       },
       {
        "onde": "Ingol -3",
        "lv": "800+",
        "nota": "Arma física.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20-3%20hunt%20800"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20-3%20hunt%20800",
+       "img": "img/monstros/crape-man.webp"
       }
      ],
      "magias": []
@@ -6893,25 +6996,29 @@
        "onde": "Podzilla Quaras",
        "lv": "1000+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Podzilla%20Quaras%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Podzilla%20Quaras%20hunt%201000",
+       "img": "img/monstros/quara-raider.webp"
       },
       {
        "onde": "Energy Library",
        "lv": "1000+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Energy%20Library%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Energy%20Library%20hunt%201000",
+       "img": "img/monstros/energetic-book.webp"
       },
       {
        "onde": "Fire Library",
        "lv": "1000+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Fire%20Library%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Fire%20Library%20hunt%201000",
+       "img": "img/monstros/burning-book.webp"
       },
       {
        "onde": "Ice Library",
        "lv": "1000+",
        "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ice%20Library%20hunt%201000"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ice%20Library%20hunt%201000",
+       "img": "img/monstros/icecold-book.webp"
       }
      ],
      "magias": []

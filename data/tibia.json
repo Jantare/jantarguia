@@ -3878,6 +3878,33 @@
      "img": "img/itens/glacial-rod.webp"
     },
     {
+     "id": "druid-dream-blossom-staff",
+     "tier": "60–100",
+     "slot": "Arma (alternativa)",
+     "item": "Dream Blossom Staff",
+     "lv": 80,
+     "attr": "Dano 63–77 de energia, 2 slot(s) de imbuement",
+     "src": [
+      {
+       "m": "Nymph",
+       "c": 0.64
+      },
+      {
+       "m": "Pixie",
+       "c": 0.56
+      },
+      {
+       "m": "Pooka",
+       "c": 0.44
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Level 80. Dano de energia, elemento que o Druid quase não tem em rod. Só drop, em Feyrist.",
+     "wiki": "https://tibia.fandom.com/wiki/Dream_Blossom_Staff",
+     "img": "img/itens/dream-blossom-staff.webp"
+    },
+    {
      "tier": "60–100",
      "slot": "Armadura",
      "item": "Zaoan Robe",
@@ -6532,6 +6559,42 @@
    "wiki": "https://tibia.fandom.com/wiki/Orclops_Doomhauler",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Orclops%20Doomhauler",
    "img": "img/monstros/orclops-doomhauler.webp"
+  },
+  "Nymph": {
+   "exp": 850,
+   "hp": 900,
+   "lvl": "80+",
+   "loc": "Feyrist",
+   "items": [
+    "Dream Blossom Staff"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Nymph",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Nymph",
+   "img": "img/monstros/nymph.webp"
+  },
+  "Pixie": {
+   "exp": 700,
+   "hp": 770,
+   "lvl": "80+",
+   "loc": "Feyrist",
+   "items": [
+    "Dream Blossom Staff"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Pixie",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Pixie",
+   "img": "img/monstros/pixie.webp"
+  },
+  "Pooka": {
+   "exp": 500,
+   "hp": 500,
+   "lvl": "80+",
+   "loc": "Feyrist",
+   "items": [
+    "Dream Blossom Staff"
+   ],
+   "wiki": "https://tibia.fandom.com/wiki/Pooka",
+   "yt": "https://www.youtube.com/results?search_query=tibia%20hunt%20Pooka",
+   "img": "img/monstros/pooka.webp"
   }
  }
 }

@@ -346,3 +346,10 @@ a.name:hover{color:var(--gold)}
 .set-slot.novo{border-color:var(--gold-2);background:var(--gold-soft)}
 .set-slot.vazio{opacity:.55}
 .set-slot.vazio b{font-weight:500;color:var(--muted)}
+
+/* Conteúdo gerado por tools/gerar_paginas.py: aparece sem JavaScript */
+html.js .prerender { display: none; }
+html:not(.js) .loading { display: none; }
+.prerender { padding: 24px 0; line-height: 1.5; }
+.prerender h1, .prerender h2, .prerender h3 { margin: 1em 0 .4em; }
+.prerender ul { padding-left: 20px; }

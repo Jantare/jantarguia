@@ -33,6 +33,8 @@
     monk: { icon: "img/itens/jo-staff.webp", txt: "Luta corpo a corpo com punhos e bastões. A vocação mais nova do Tibia." }
   };
 
+  const pageUrl = id => id === "inicio" ? "./" : id + "/";
+
   function views() {
     const v = [{ id: "inicio", nome: "Início" }, ...BASE.vocacoes.map(x => ({ id: x.id, nome: x.nome }))];
     v.push({ id: "quests", nome: "Quests" });
@@ -48,7 +50,7 @@
     const tab = v => {
       const ic = v.id === "inicio" ? `<svg class="tab-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 10.5V21h6.5v-6h5v6H21V10.5z" fill="currentColor"/></svg>`
         : (VOC_INFO[v.id] || NAV_ICON[v.id]) ? `<img class="tab-ico" src="${esc((VOC_INFO[v.id] || {}).icon || NAV_ICON[v.id])}" alt="">` : "";
-      return `<a class="tab${v.srv ? " srv" : ""}" href="#${v.id}" ${v.id === st.view ? 'aria-current="page"' : ""}>${ic}<span>${esc(v.nome)}</span></a>`;
+      return `<a class="tab${v.srv ? " srv" : ""}" href="${pageUrl(v.id)}" ${v.id === st.view ? 'aria-current="page"' : ""}>${ic}<span>${esc(v.nome)}</span></a>`;
     };
     const vs = views(), vocIds = BASE.vocacoes.map(x => x.id);
     const g1 = vs.filter(v => v.id === "inicio"), g2 = vs.filter(v => vocIds.includes(v.id)), g3 = vs.filter(v => v.id !== "inicio" && !vocIds.includes(v.id));
@@ -210,7 +212,7 @@
           </div>
           <div class="step-grid">
             <div class="sbox"><span class="how-t">Magias para comprar</span>${ess.length || rest.length ? `${spellRows(ess)}${rest.length ? `<details class="more"><summary>Outras magias desta faixa (${rest.length})</summary>${spellRows(rest)}</details>` : ""}` : `<p class="muted">Nenhuma magia nova nesta faixa.</p>`}</div>
-            <div class="sbox"><span class="how-t">Quests</span>${qs.length ? `<div class="q-links">${qs.map(n => `<a class="pill${qlvl[n] && (qlvl[n].outfit || qlvl[n].montaria) ? " pill-gold" : ""}" href="#quests">${esc(n)}${qlvl[n] ? ` <small>${esc(qlvl[n].lvl)}</small>` : ""}</a>`).join("")}</div>` : `<p class="muted">Sem quest essencial nesta faixa.</p>`}
+            <div class="sbox"><span class="how-t">Quests</span>${qs.length ? `<div class="q-links">${qs.map(n => `<a class="pill${qlvl[n] && (qlvl[n].outfit || qlvl[n].montaria) ? " pill-gold" : ""}" href="quests/">${esc(n)}${qlvl[n] ? ` <small>${esc(qlvl[n].lvl)}</small>` : ""}</a>`).join("")}</div>` : `<p class="muted">Sem quest essencial nesta faixa.</p>`}
               ${e.treino ? `<span class="how-t t2">Treino</span><p class="step-treino">${esc(e.treino.replace(/\{skill\}/g, WSKILL[st.weapon] || "a skill da arma").replace(/(^|\. )a skill/g, "$1A skill"))}</p>` : ""}</div>
           </div>
         </section>`;
@@ -401,7 +403,7 @@
     const stats = [[BASE.vocacoes.length, "vocações"], [nItens, "itens"], [Object.keys(BASE.monstros).length, "monstros e bosses"]]
       .map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
     const srvCards = Object.values(SERVERS).map(s => `
-      <a class="path srv-path" href="#${esc(s.id)}">
+      <a class="path srv-path" href="${esc(s.id)}/">
         <span class="path-kicker">Servidor</span>
         <span class="path-title">${esc(s.nome)}</span>
         <span class="path-txt">${esc(s.resumo)}</span>
@@ -432,12 +434,12 @@
         <h2 class="block-h">Escolha sua vocação</h2>
         <div class="vocs">${BASE.vocacoes.map(v => {
           const i = VOC_INFO[v.id] || {};
-          return `<a class="voc" href="#${esc(v.id)}">${slot(i.icon, true)}<span class="voc-txt"><span class="name">${esc(v.nome)}</span><span class="voc-desc">${esc(i.txt || "")}</span></span></a>`;
+          return `<a class="voc" href="${esc(v.id)}/">${slot(i.icon, true)}<span class="voc-txt"><span class="name">${esc(v.nome)}</span><span class="voc-desc">${esc(i.txt || "")}</span></span></a>`;
         }).join("")}
-          <a class="voc" href="#quests">${slot("img/itens/falcon-shield.webp", true)}<span class="voc-txt"><span class="name">Quests por level</span><span class="voc-desc">As quests que mais valem a pena em cada faixa: acessos, descontos, bosses e itens.</span></span></a>
-          <a class="voc" href="#imbuements">${slot("img/itens/soulbiter.webp", true)}<span class="voc-txt"><span class="name">Imbuements</span><span class="voc-desc">O que imbuir em cada item da sua vocação e os materiais de cada imbuement.</span></span></a>
-          <a class="voc" href="#outfits">${slot("img/montarias/draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
-          <a class="voc" href="#monstros">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
+          <a class="voc" href="quests/">${slot("img/itens/falcon-shield.webp", true)}<span class="voc-txt"><span class="name">Quests por level</span><span class="voc-desc">As quests que mais valem a pena em cada faixa: acessos, descontos, bosses e itens.</span></span></a>
+          <a class="voc" href="imbuements/">${slot("img/itens/soulbiter.webp", true)}<span class="voc-txt"><span class="name">Imbuements</span><span class="voc-desc">O que imbuir em cada item da sua vocação e os materiais de cada imbuement.</span></span></a>
+          <a class="voc" href="outfits/">${slot("img/montarias/draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
+          <a class="voc" href="monstros/">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
         </div>
       </section>`;
   }
@@ -457,6 +459,7 @@
     if (!m) m = PAGE_META.inicio;
     document.title = m[0];
     const d = document.querySelector('meta[name="description"]'); if (d) d.content = m[1];
+    const c = document.querySelector('link[rel="canonical"]'); if (c) c.href = "https://jantarguia.com.br/" + (st.view === "inicio" ? "" : st.view + "/");
   }
 
   function render() {
@@ -483,14 +486,25 @@
       <span>Tibia é marca da CipSoft GmbH. Este é um site de fã, sem ligação com a CipSoft.</span>`;
   }
 
-  function fromHash() {
+  function fromUrl() {
     const h = location.hash.slice(1);
-    if (!h) return;
-    if (SERVERS[h]) { st.srv = h; $("#srv").value = h; store.set("srv", h); }
-    if (views().some(v => v.id === h)) st.view = h;
+    let id = location.pathname.split("/").filter(Boolean)[0] || "inicio";
+    if (h && (SERVERS[h] || views().some(v => v.id === h))) { id = h; history.replaceState(null, "", pageUrl(id)); }
+    if (SERVERS[id]) { st.srv = id; $("#srv").value = id; store.set("srv", id); }
+    st.view = views().some(v => v.id === id) ? id : "inicio";
+  }
+
+  function go(id) {
+    history.pushState(null, "", pageUrl(id));
+    fromUrl(); render(); window.scrollTo(0, 0);
   }
 
   document.addEventListener("click", e => {
+    const lnk = e.target.closest("a[href]");
+    if (lnk && !lnk.target && !lnk.getAttribute("href").startsWith("#") && lnk.origin === location.origin && !e.ctrlKey && !e.metaKey && !e.shiftKey) {
+      const id = lnk.pathname.split("/").filter(Boolean)[0] || "inicio";
+      if (id === "inicio" || SERVERS[id] || views().some(v => v.id === id)) { e.preventDefault(); go(id); return; }
+    }
     const w = e.target.closest("[data-w]");
     if (w) { st.weapon = w.dataset.w; render(); }
     const lk = e.target.closest("[data-look]");
@@ -528,7 +542,8 @@
       store.set("tema", light ? "light" : "dark"); themeLabel();
     }
   });
-  window.addEventListener("hashchange", () => { fromHash(); render(); window.scrollTo(0, 0); });
+  window.addEventListener("hashchange", () => { fromUrl(); render(); window.scrollTo(0, 0); });
+  window.addEventListener("popstate", () => { fromUrl(); render(); });
 
   function themeLabel() {
     const light = document.documentElement.dataset.theme === "light";
@@ -554,7 +569,7 @@
     const lv = parseInt(store.get("lvl")); if (lv > 0) { st.level = lv; $("#mylvl").value = lv; }
     $("#srv").addEventListener("change", e => {
       st.srv = e.target.value; store.set("srv", st.srv);
-      if (!st.srv && !views().some(v => v.id === st.view)) location.hash = "inicio";
+      if (!st.srv && !views().some(v => v.id === st.view)) { go("inicio"); return; }
       render();
     });
     document.addEventListener("input", e => {
@@ -567,7 +582,7 @@
     $("#mylvl").addEventListener("input", e => {
       const v = parseInt(e.target.value); st.level = v > 0 ? v : null; store.set("lvl", st.level || ""); render();
     });
-    fromHash();
+    fromUrl();
     footer();
     render();
   }

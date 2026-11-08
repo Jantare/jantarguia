@@ -6300,7 +6300,7 @@
    ],
    "wiki": "https://tibia.fandom.com/wiki/Mitmah_Vanguard",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Mitmah%20Vanguard",
-   "img": null
+   "img": "img/monstros/mitmah-vanguard.webp"
   },
   "Hero": {
    "exp": 1200,
@@ -6352,7 +6352,7 @@
    ],
    "wiki": "https://tibia.fandom.com/wiki/The_Dread_Maiden",
    "yt": "https://www.youtube.com/results?search_query=tibia%20The%20Dread%20Maiden",
-   "img": null
+   "img": "img/monstros/the-dread-maiden.webp"
   },
   "Lloyd": {
    "exp": 50000,
@@ -6365,7 +6365,7 @@
    ],
    "wiki": "https://tibia.fandom.com/wiki/Lloyd",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Lloyd",
-   "img": null
+   "img": "img/monstros/lloyd.webp"
   },
   "Fernfang": {
    "exp": 600,
@@ -6378,7 +6378,7 @@
    ],
    "wiki": "https://tibia.fandom.com/wiki/Fernfang",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Fernfang",
-   "img": null
+   "img": "img/monstros/fernfang.webp"
   },
   "Orclops Doomhauler": {
    "exp": 1450,
@@ -6391,7 +6391,7 @@
    ],
    "wiki": "https://tibia.fandom.com/wiki/Orclops_Doomhauler",
    "yt": "https://www.youtube.com/results?search_query=tibia%20Orclops%20Doomhauler",
-   "img": null
+   "img": "img/monstros/orclops-doomhauler.webp"
   }
  }
 }

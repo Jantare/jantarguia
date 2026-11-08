@@ -278,7 +278,7 @@
             <div class="wide"><dt>Recompensa</dt><dd>${esc(q.det.recompensa)}</dd></div>
             <div class="wide"><dt>O que você vai enfrentar</dt><dd>${esc(q.det.perigos)}</dd></div>
           </dl></details>` : ""}
-          ${q.itens && q.itens.length ? `<div class="how"><span class="how-t">Itens do guia que vêm daqui</span><div class="q-items">${q.itens.map(n => `<span class="q-item">${img(itemImg[n], "q-ico")}${esc(n)}</span>`).join("")}</div></div>` : ""}
+          ${q.itens && q.itens.length ? `<div class="how"><span class="how-t">Itens do guia que vêm daqui</span><div class="q-items">${q.itens.map(n => `<span class="q-item">${img(itemImg[n] || `img/itens/${n.toLowerCase().replace(/ /g, "-")}.webp`, "q-ico")}${esc(n)}</span>`).join("")}</div></div>` : ""}
         </article>`).join("")}</div>
       </section>`).join("")}
       <p class="foot-note">Fontes: ${QUESTS.fontes.map(esc).join(", ")}. O level do selo é o recomendado; o mínimo oficial está em "Ver detalhes da quest".</p>`;

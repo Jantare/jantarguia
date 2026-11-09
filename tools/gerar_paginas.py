@@ -105,6 +105,8 @@ def pag_vocacao(v):
                 e(" · ".join(x for x in [x_h.get("onde") or x_h.get("m"), x_h.get("m") if x_h.get("onde") else "",
                                          f'level {x_h["lv"]}' if x_h.get("lv") else "",
                                          f'{num(x_h["exp"])} de XP' if x_h.get("exp") else "",
+                                         {"solo": "solo", "pt": "em party", "ambos": "solo ou em party"}.get(x_h.get("modo"), ""),
+                                         f'cerca de {num(x_h["xph"])} de XP e {num(x_h["profit"])} gp de profit por hora (Tibia oficial)' if x_h.get("xph") else "",
                                          texto(x_h.get("nota"))] if x))
                 for x_h in et["hunts"]]))
         itens = [i for i in v["itens"] if i["tier"] == f]

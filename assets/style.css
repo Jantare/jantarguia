@@ -373,3 +373,11 @@ html:not(.js) .loading { display: none; }
 .loot-sum b{display:block;font-size:1.5rem;color:var(--here)}
 .loot-sum b.neg{color:var(--rare)}
 .loot-tr{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:8px 0;border-top:1px solid var(--line)}
+.hmode{display:inline-block;margin-left:6px;padding:0 6px;border-radius:999px;font-size:.72rem;font-weight:700;text-transform:none;letter-spacing:0;border:1px solid currentColor;vertical-align:1px}
+.hmode-solo{color:#4aa865}
+.hmode-pt{color:#d0843a}
+.hmode-ambos{color:var(--gold-2)}
+.hrow-xp{display:flex;flex-wrap:wrap;gap:2px 12px;font-size:.86rem;margin:2px 0}
+.hrow-xp .pos b{color:#4aa865}
+.hrow-xp .neg b{color:#d0564c}
+.hunt-src{font-size:.78rem;color:var(--muted);margin:10px 0 0;line-height:1.4}

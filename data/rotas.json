@@ -258,7 +258,11 @@
        "exp": 40,
        "hp": 65,
        "img": "img/monstros/rotworm.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Rotworm%20hunt%208"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Rotworm%20hunt%208",
+       "xph": 35000,
+       "profit": 5000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Troll",
@@ -268,7 +272,8 @@
        "exp": 20,
        "hp": 50,
        "img": "img/monstros/troll.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Troll%20hunt%208"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Troll%20hunt%208",
+       "modo": "solo"
       },
       {
        "m": "Minotaur",
@@ -278,7 +283,8 @@
        "exp": 50,
        "hp": 100,
        "img": "img/monstros/minotaur.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Minotaur%20hunt%2012"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Minotaur%20hunt%2012",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -460,7 +466,8 @@
        "exp": 150,
        "hp": 260,
        "img": "img/monstros/cyclops.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cyclops%20hunt%2020"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cyclops%20hunt%2020",
+       "modo": "solo"
       },
       {
        "m": "Dwarf Soldier",
@@ -470,7 +477,8 @@
        "exp": 70,
        "hp": 135,
        "img": "img/monstros/dwarf-soldier.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Dwarf%20Soldier%20hunt%2020"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Dwarf%20Soldier%20hunt%2020",
+       "modo": "solo"
       },
       {
        "m": "Orc Berserker",
@@ -480,7 +488,8 @@
        "exp": 195,
        "hp": 210,
        "img": "img/monstros/orc-berserker.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20orc%20fortress%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20orc%20fortress%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -576,7 +585,11 @@
        "exp": 700,
        "hp": 1000,
        "img": "img/monstros/dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Dragon%20hunt%2040"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Dragon%20hunt%2040",
+       "xph": 250000,
+       "profit": 20000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Ancient Scarab",
@@ -586,7 +599,11 @@
        "exp": 720,
        "hp": 1000,
        "img": "img/monstros/ancient-scarab.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Scarab%20hunt%2040"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Scarab%20hunt%2040",
+       "xph": 650000,
+       "profit": 50000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Wyvern",
@@ -596,7 +613,8 @@
        "exp": 515,
        "hp": 795,
        "img": "img/monstros/wyvern.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Wyvern%20hunt%2040"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Wyvern%20hunt%2040",
+       "modo": "solo"
       },
       {
        "m": "Bonebeast",
@@ -606,7 +624,11 @@
        "exp": 580,
        "hp": 515,
        "img": "img/monstros/bonebeast.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bonebeast%20hunt%2045"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bonebeast%20hunt%2045",
+       "xph": 450000,
+       "profit": 25000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -702,7 +724,11 @@
        "exp": 1200,
        "hp": 1400,
        "img": "img/monstros/hero.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20hero%20cave%20edron%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20hero%20cave%20edron%20hunt",
+       "xph": 1750000,
+       "profit": 300000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Mutated Tiger",
@@ -712,7 +738,11 @@
        "exp": 750,
        "hp": 1100,
        "img": "img/monstros/mutated-tiger.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mutated%20Tiger%20hunt%2060"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mutated%20Tiger%20hunt%2060",
+       "xph": 700000,
+       "profit": 300000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Lizard Legionnaire",
@@ -722,7 +752,8 @@
        "exp": 1100,
        "hp": 1400,
        "img": "img/monstros/lizard-legionnaire.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Lizard%20Legionnaire%20hunt%2070"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Lizard%20Legionnaire%20hunt%2070",
+       "modo": "solo"
       },
       {
        "m": "Werewolf",
@@ -732,7 +763,11 @@
        "exp": 1900,
        "hp": 1955,
        "img": "img/monstros/werewolf.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werewolf%20hunt%2080"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werewolf%20hunt%2080",
+       "xph": 1550000,
+       "profit": 400000,
+       "fxp": "tp",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -810,7 +845,8 @@
        "exp": 2200,
        "hp": 3050,
        "img": "img/monstros/lizard-chosen.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Lizard%20Chosen%20hunt%20100"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Lizard%20Chosen%20hunt%20100",
+       "modo": "solo"
       },
       {
        "m": "Glooth Bandit",
@@ -820,7 +856,11 @@
        "exp": 2000,
        "hp": 2600,
        "img": "img/monstros/glooth-bandit.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Glooth%20Bandit%20hunt%20100"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Glooth%20Bandit%20hunt%20100",
+       "xph": 1700000,
+       "profit": 500000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Frost Dragon",
@@ -830,7 +870,11 @@
        "exp": 2100,
        "hp": 1800,
        "img": "img/monstros/frost-dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Frost%20Dragon%20hunt%20110"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Frost%20Dragon%20hunt%20110",
+       "xph": 1500000,
+       "profit": -100000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Werebear",
@@ -840,7 +884,11 @@
        "exp": 2100,
        "hp": 2400,
        "img": "img/monstros/werebear.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werebear%20hunt%20110"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werebear%20hunt%20110",
+       "xph": 1550000,
+       "profit": 400000,
+       "fxp": "tp",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -896,7 +944,11 @@
        "exp": 2200,
        "hp": 2700,
        "img": "img/monstros/werehyaena.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werehyaena%20hunt%20150"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werehyaena%20hunt%20150",
+       "xph": 2700000,
+       "profit": 600000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Ghastly Dragon",
@@ -906,7 +958,8 @@
        "exp": 4600,
        "hp": 7800,
        "img": "img/monstros/ghastly-dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ghastly%20Dragon%20hunt%20150"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ghastly%20Dragon%20hunt%20150",
+       "modo": "solo"
       },
       {
        "m": "Dawnfire Asura",
@@ -916,7 +969,11 @@
        "exp": 4100,
        "hp": 2900,
        "img": "img/monstros/dawnfire-asura.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20asura%20palace%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20asura%20palace%20hunt",
+       "xph": 3300000,
+       "profit": 500000,
+       "fxp": "tp",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -958,7 +1015,11 @@
        "exp": 3740,
        "hp": 4100,
        "img": "img/monstros/frazzlemaw.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Frazzlemaw%20hunt%20200"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Frazzlemaw%20hunt%20200",
+       "xph": 4300000,
+       "profit": 1000000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Werelion",
@@ -968,7 +1029,11 @@
        "exp": 2200,
        "hp": 2800,
        "img": "img/monstros/werelion.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werelion%20hunt%20200"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werelion%20hunt%20200",
+       "xph": 2900000,
+       "profit": 800000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Cobra Assassin",
@@ -978,7 +1043,11 @@
        "exp": 6980,
        "hp": 8200,
        "img": "img/monstros/cobra-assassin.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20cobra%20bastion%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20cobra%20bastion%20hunt",
+       "xph": 5500000,
+       "profit": 700000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Venerable Girtablilu",
@@ -988,7 +1057,11 @@
        "exp": 5300,
        "hp": 8500,
        "img": "img/monstros/venerable-girtablilu.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Venerable%20Girtablilu%20hunt%20250"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Venerable%20Girtablilu%20hunt%20250",
+       "xph": 3700000,
+       "profit": 1400000,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -1030,7 +1103,8 @@
        "exp": 6300,
        "hp": 9000,
        "img": "img/monstros/falcon-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20falcon%20bastion%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20falcon%20bastion%20hunt",
+       "modo": "pt"
       },
       {
        "m": "Ancient Lion Knight",
@@ -1040,7 +1114,8 @@
        "exp": 8100,
        "hp": 9100,
        "img": "img/monstros/ancient-lion-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Lion%20Knight%20hunt%20300"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Lion%20Knight%20hunt%20300",
+       "modo": "solo"
       },
       {
        "m": "Hellflayer",
@@ -1050,7 +1125,8 @@
        "exp": 11720,
        "hp": 14000,
        "img": "img/monstros/hellflayer.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Hellflayer%20hunt%20350"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Hellflayer%20hunt%20350",
+       "modo": "solo"
       },
       {
        "m": "Juggernaut",
@@ -1060,7 +1136,8 @@
        "exp": 11200,
        "hp": 18000,
        "img": "img/monstros/juggernaut.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Juggernaut%20hunt%20350"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Juggernaut%20hunt%20350",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -1122,7 +1199,8 @@
        "exp": 19470,
        "hp": 24000,
        "img": "img/monstros/bony-sea-devil.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bony%20Sea%20Devil%20hunt%20400"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bony%20Sea%20Devil%20hunt%20400",
+       "modo": "pt"
       },
       {
        "m": "Cloak of Terror",
@@ -1132,7 +1210,8 @@
        "exp": 19700,
        "hp": 28000,
        "img": "img/monstros/cloak-of-terror.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cloak%20of%20Terror%20hunt%20400"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cloak%20of%20Terror%20hunt%20400",
+       "modo": "pt"
       },
       {
        "m": "Brachiodemon",
@@ -1142,7 +1221,8 @@
        "exp": 15770,
        "hp": 25000,
        "img": "img/monstros/brachiodemon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Brachiodemon%20hunt%20450"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Brachiodemon%20hunt%20450",
+       "modo": "pt"
       }
      ],
      "magias": []
@@ -1169,7 +1249,8 @@
        "exp": 21570,
        "hp": 31700,
        "img": "img/monstros/bloated-man-maggot.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bloated%20Man-Maggot%20hunt%20500"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bloated%20Man-Maggot%20hunt%20500",
+       "modo": "pt"
       },
       {
        "m": "Mycobiontic Beetle",
@@ -1179,7 +1260,8 @@
        "exp": 21175,
        "hp": 30200,
        "img": "img/monstros/mycobiontic-beetle.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mycobiontic%20Beetle%20hunt%20500"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mycobiontic%20Beetle%20hunt%20500",
+       "modo": "pt"
       },
       {
        "m": "Oozing Corpus",
@@ -1189,7 +1271,8 @@
        "exp": 20600,
        "hp": 28700,
        "img": "img/monstros/oozing-corpus.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Oozing%20Corpus%20hunt%20550"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Oozing%20Corpus%20hunt%20550",
+       "modo": "pt"
       }
      ],
      "magias": []
@@ -1213,28 +1296,44 @@
        "lv": "600+",
        "nota": "Arma de gelo ou terra. Relatos de 8,5 kk de XP bruta por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Norcferatu%20Fortress%20hunt%20600",
-       "img": "img/monstros/norcferatu-heartless.webp"
+       "img": "img/monstros/norcferatu-heartless.webp",
+       "xph": 8500000,
+       "profit": 1200000,
+       "fxp": "qa",
+       "modo": "ambos"
       },
       {
        "onde": "Summer Court",
        "lv": "600+",
        "nota": "Arma de gelo, proteção de fogo e físico. Relatos de 5,6 a 6,8 kk por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Summer%20Court%20hunt%20600",
-       "img": "img/monstros/crazed-summer-vanguard.webp"
+       "img": "img/monstros/crazed-summer-vanguard.webp",
+       "xph": 6000000,
+       "profit": 1000000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Azzilon Walls",
        "lv": "600+",
        "nota": "Arma de gelo ou energia, proteção de físico, morte e fogo. Relatos de 6 kk por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Azzilon%20Walls%20hunt%20600",
-       "img": "img/monstros/gorger-inferniarch.webp"
+       "img": "img/monstros/gorger-inferniarch.webp",
+       "xph": 6000000,
+       "profit": 1000000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Warzone 3",
        "lv": "600+",
        "nota": "Arma de energia. Hunt mais voltada para lucro.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Warzone%203%20hunt%20600",
-       "img": "img/monstros/orewalker.webp"
+       "img": "img/monstros/orewalker.webp",
+       "xph": 5500000,
+       "profit": 2000000,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -1254,21 +1353,30 @@
        "lv": "700+",
        "nota": "Arma de gelo ou energia. Relatos de 4 a 7,6 kk de XP bruta por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Azzilon%20Castle%20hunt%20700",
-       "img": "img/monstros/sineater-inferniarch.webp"
+       "img": "img/monstros/sineater-inferniarch.webp",
+       "xph": 7000000,
+       "profit": 1200000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "onde": "Feru Plague Seal",
        "lv": "700+",
        "nota": "Arma de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Plague%20Seal%20hunt%20700",
-       "img": "img/monstros/plaguesmith.webp"
+       "img": "img/monstros/plaguesmith.webp",
+       "xph": 5500000,
+       "profit": 1500000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Nimmersatt's Breeding Grounds",
        "lv": "700+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Nimmersatt%27s%20Breeding%20Grounds%20hunt%20700",
-       "img": "img/monstros/mega-dragon.webp"
+       "img": "img/monstros/mega-dragon.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -1288,35 +1396,55 @@
        "lv": "800+",
        "nota": "Arma de terra. Relatos de 11,5 kk de XP bruta por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bulltaurs%20hunt%20800",
-       "img": "img/monstros/bulltaur-brute.webp"
+       "img": "img/monstros/bulltaur-brute.webp",
+       "xph": 7000000,
+       "profit": 1600000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "onde": "Bloodfire Gorge",
        "lv": "800+",
        "nota": "Arma física. Relatos de 8,6 a 11,8 kk por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bloodfire%20Gorge%20hunt%20800",
-       "img": "img/monstros/raubritter-skirmisher.webp"
+       "img": "img/monstros/raubritter-skirmisher.webp",
+       "xph": 10000000,
+       "profit": 2300000,
+       "fxp": "qa",
+       "modo": "solo"
       },
       {
        "onde": "Norcferatu Dungeons",
        "lv": "800+",
        "nota": "East ou West, arma de gelo, terra ou fogo. Relatos de 7,9 a 8,7 kk por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Norcferatu%20Dungeons%20hunt%20800",
-       "img": "img/monstros/norcferatu-nightweaver.webp"
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "xph": 8300000,
+       "profit": 1000000,
+       "fxp": "qa",
+       "modo": "ambos"
       },
       {
        "onde": "Cobra Bastion",
        "lv": "800+",
        "nota": "Qualquer elemento menos terra. Proteção de físico, morte e terra. Relatos de 6,7 a 7,7 kk por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Cobra%20Bastion%20hunt%20800",
-       "img": "img/monstros/cobra-vizier.webp"
+       "img": "img/monstros/cobra-vizier.webp",
+       "xph": 9000000,
+       "profit": 1500000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "onde": "Feru Pumin Seal",
        "lv": "800+",
        "nota": "Arma de energia. Relatos de 5,25 kk por hora, com lucro bom.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Pumin%20Seal%20hunt%20800",
-       "img": "img/monstros/hand-of-cursed-fate.webp"
+       "img": "img/monstros/hand-of-cursed-fate.webp",
+       "xph": 7000000,
+       "profit": 1800000,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -1336,28 +1464,41 @@
        "lv": "800+",
        "nota": "Arma de gelo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Way%20hunt%20800",
-       "img": "img/monstros/vexclaw.gif"
+       "img": "img/monstros/vexclaw.gif",
+       "xph": 6500000,
+       "profit": 1500000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Feru Infernatil Seal",
        "lv": "800+",
        "nota": "Arma de gelo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20Infernatil%20Seal%20hunt%20800",
-       "img": "img/monstros/hellfire-fighter.webp"
+       "img": "img/monstros/hellfire-fighter.webp",
+       "xph": 7000000,
+       "profit": 1600000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Feru DT Seal",
        "lv": "800+",
        "nota": "Arma de gelo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Feru%20DT%20Seal%20hunt%20800",
-       "img": "img/monstros/dark-torturer.webp"
+       "img": "img/monstros/dark-torturer.webp",
+       "xph": 6000000,
+       "profit": 1500000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Raubritters Castle",
        "lv": "800+",
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Raubritters%20Castle%20hunt%20800",
-       "img": "img/monstros/raubritter-chastener.webp"
+       "img": "img/monstros/raubritter-chastener.webp",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -1381,14 +1522,19 @@
        "lv": "1000+",
        "nota": "Arma de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20True%20Asuras%20hunt%201000",
-       "img": "img/monstros/true-midnight-asura.webp"
+       "img": "img/monstros/true-midnight-asura.webp",
+       "xph": 5800000,
+       "profit": 1800000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "onde": "Asura Citadel",
        "lv": "1000+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Asura%20Citadel%20hunt%201000",
-       "img": "img/monstros/true-frost-flower-asura.webp"
+       "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -1488,7 +1634,11 @@
        "exp": 40,
        "hp": 65,
        "img": "img/monstros/rotworm.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Rotworm%20hunt%208"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Rotworm%20hunt%208",
+       "xph": 30000,
+       "profit": 4000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Amazon",
@@ -1498,7 +1648,11 @@
        "exp": 60,
        "hp": 110,
        "img": "img/monstros/amazon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Amazon%20hunt%2010"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Amazon%20hunt%2010",
+       "xph": 35000,
+       "profit": 60000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Minotaur",
@@ -1508,7 +1662,8 @@
        "exp": 50,
        "hp": 100,
        "img": "img/monstros/minotaur.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Minotaur%20hunt%2012"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Minotaur%20hunt%2012",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -1726,7 +1881,11 @@
        "exp": 150,
        "hp": 260,
        "img": "img/monstros/cyclops.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cyclops%20hunt%2020"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cyclops%20hunt%2020",
+       "xph": 50000,
+       "profit": 0,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Dwarf Soldier",
@@ -1736,7 +1895,8 @@
        "exp": 70,
        "hp": 135,
        "img": "img/monstros/dwarf-soldier.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dwarf%20Soldier%20hunt%2020"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dwarf%20Soldier%20hunt%2020",
+       "modo": "solo"
       },
       {
        "m": "Orc Berserker",
@@ -1746,7 +1906,8 @@
        "exp": 195,
        "hp": 210,
        "img": "img/monstros/orc-berserker.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Orc%20Berserker%20hunt%2030"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Orc%20Berserker%20hunt%2030",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -1898,7 +2059,11 @@
        "exp": 700,
        "hp": 1000,
        "img": "img/monstros/dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dragon%20hunt%2035"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dragon%20hunt%2035",
+       "xph": 220000,
+       "profit": 0,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Ancient Scarab",
@@ -1908,7 +2073,11 @@
        "exp": 720,
        "hp": 1000,
        "img": "img/monstros/ancient-scarab.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ancient%20Scarab%20hunt%2040"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ancient%20Scarab%20hunt%2040",
+       "xph": 700000,
+       "profit": 10000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Wyvern",
@@ -1918,7 +2087,8 @@
        "exp": 515,
        "hp": 795,
        "img": "img/monstros/wyvern.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Wyvern%20hunt%2040"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Wyvern%20hunt%2040",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -2022,7 +2192,11 @@
        "exp": 1200,
        "hp": 1400,
        "img": "img/monstros/hero.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hero%20hunt%2060"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hero%20hunt%2060",
+       "xph": 1750000,
+       "profit": 50000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Mutated Tiger",
@@ -2032,7 +2206,11 @@
        "exp": 750,
        "hp": 1100,
        "img": "img/monstros/mutated-tiger.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Mutated%20Tiger%20hunt%2060"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Mutated%20Tiger%20hunt%2060",
+       "xph": 150000,
+       "profit": 70000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Werewolf",
@@ -2042,7 +2220,11 @@
        "exp": 1900,
        "hp": 1955,
        "img": "img/monstros/werewolf.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Werewolf%20hunt%2080"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Werewolf%20hunt%2080",
+       "xph": 1300000,
+       "profit": 200000,
+       "fxp": "tp",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -2130,7 +2312,11 @@
        "exp": 2000,
        "hp": 2600,
        "img": "img/monstros/glooth-bandit.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Glooth%20Bandit%20hunt%20100"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Glooth%20Bandit%20hunt%20100",
+       "xph": 1700000,
+       "profit": 350000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Lizard Chosen",
@@ -2140,7 +2326,11 @@
        "exp": 2200,
        "hp": 3050,
        "img": "img/monstros/lizard-chosen.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Lizard%20Chosen%20hunt%20100"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Lizard%20Chosen%20hunt%20100",
+       "xph": 1400000,
+       "profit": 250000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Frost Dragon",
@@ -2150,7 +2340,11 @@
        "exp": 2100,
        "hp": 1800,
        "img": "img/monstros/frost-dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Frost%20Dragon%20hunt%20110"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Frost%20Dragon%20hunt%20110",
+       "xph": 1300000,
+       "profit": -100000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Hydra",
@@ -2160,7 +2354,11 @@
        "exp": 2100,
        "hp": 2350,
        "img": "img/monstros/hydra.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hydra%20hunt%20120"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hydra%20hunt%20120",
+       "xph": 750000,
+       "profit": 200000,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -2194,7 +2392,11 @@
        "exp": 2200,
        "hp": 2700,
        "img": "img/monstros/werehyaena.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Werehyaena%20hunt%20150"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Werehyaena%20hunt%20150",
+       "xph": 850000,
+       "profit": 10000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Dawnfire Asura",
@@ -2204,7 +2406,11 @@
        "exp": 4100,
        "hp": 2900,
        "img": "img/monstros/dawnfire-asura.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dawnfire%20Asura%20hunt%20170"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dawnfire%20Asura%20hunt%20170",
+       "xph": 3100000,
+       "profit": 100000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Ghastly Dragon",
@@ -2214,7 +2420,11 @@
        "exp": 4600,
        "hp": 7800,
        "img": "img/monstros/ghastly-dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ghastly%20Dragon%20hunt%20150"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ghastly%20Dragon%20hunt%20150",
+       "xph": 500000,
+       "profit": 200000,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -2244,7 +2454,11 @@
        "exp": 4050,
        "hp": 4500,
        "img": "img/monstros/medusa.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20medusa%20tower%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20medusa%20tower%20hunt",
+       "xph": 2600000,
+       "profit": 100000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Serpent Spawn",
@@ -2254,7 +2468,11 @@
        "exp": 3050,
        "hp": 3000,
        "img": "img/monstros/serpent-spawn.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20banuta%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20banuta%20hunt",
+       "xph": 750000,
+       "profit": 200000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": null,
@@ -2264,7 +2482,11 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/cave-devourer.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20warzone%205%206%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20warzone%205%206%20hunt",
+       "xph": 4300000,
+       "profit": 800000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Burster Spectre",
@@ -2274,7 +2496,11 @@
        "exp": 6000,
        "hp": 6500,
        "img": "img/monstros/burster-spectre.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20burster%20spectre%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20burster%20spectre%20hunt",
+       "xph": 3300000,
+       "profit": 100000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Dawnfire Asura",
@@ -2284,7 +2510,11 @@
        "exp": 4100,
        "hp": 2900,
        "img": "img/monstros/dawnfire-asura.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20asura%20palace%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20asura%20palace%20hunt",
+       "xph": 3100000,
+       "profit": 100000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Grim Reaper",
@@ -2294,7 +2524,11 @@
        "exp": 5500,
        "hp": 3900,
        "img": "img/monstros/grim-reaper.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20grim%20reaper%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20grim%20reaper%20hunt",
+       "xph": 2200000,
+       "profit": -250000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Werehyaena",
@@ -2304,7 +2538,11 @@
        "exp": 2200,
        "hp": 2700,
        "img": "img/monstros/werehyaena.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20werehyaena%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20werehyaena%20hunt",
+       "xph": 3100000,
+       "profit": 300000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -2348,7 +2586,11 @@
        "exp": 5000,
        "hp": 8200,
        "img": "img/monstros/bashmu.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20bashmu%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20bashmu%20hunt",
+       "xph": 4100000,
+       "profit": 1700000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Falcon Knight",
@@ -2358,7 +2600,11 @@
        "exp": 6300,
        "hp": 9000,
        "img": "img/monstros/falcon-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20falcon%20bastion%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20falcon%20bastion%20hunt",
+       "xph": 7000000,
+       "profit": 1800000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Cobra Assassin",
@@ -2368,7 +2614,8 @@
        "exp": 6980,
        "hp": 8200,
        "img": "img/monstros/cobra-assassin.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20cobra%20bastion%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20cobra%20bastion%20hunt",
+       "modo": "pt"
       },
       {
        "m": "Hellflayer",
@@ -2378,7 +2625,8 @@
        "exp": 11720,
        "hp": 14000,
        "img": "img/monstros/hellflayer.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20hellflayer%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20hellflayer%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -2428,7 +2676,8 @@
        "exp": 19470,
        "hp": 24000,
        "img": "img/monstros/bony-sea-devil.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bony%20Sea%20Devil%20hunt%20400"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bony%20Sea%20Devil%20hunt%20400",
+       "modo": "pt"
       },
       {
        "m": "Cloak of Terror",
@@ -2438,7 +2687,8 @@
        "exp": 19700,
        "hp": 28000,
        "img": "img/monstros/cloak-of-terror.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cloak%20of%20Terror%20hunt%20400"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cloak%20of%20Terror%20hunt%20400",
+       "modo": "pt"
       },
       {
        "m": "Brachiodemon",
@@ -2448,7 +2698,8 @@
        "exp": 15770,
        "hp": 25000,
        "img": "img/monstros/brachiodemon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Brachiodemon%20hunt%20450"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Brachiodemon%20hunt%20450",
+       "modo": "pt"
       }
      ],
      "magias": []
@@ -2467,7 +2718,8 @@
        "exp": 21570,
        "hp": 31700,
        "img": "img/monstros/bloated-man-maggot.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloated%20Man-Maggot%20hunt%20500"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloated%20Man-Maggot%20hunt%20500",
+       "modo": "pt"
       },
       {
        "m": "Mycobiontic Beetle",
@@ -2477,7 +2729,8 @@
        "exp": 21175,
        "hp": 30200,
        "img": "img/monstros/mycobiontic-beetle.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Mycobiontic%20Beetle%20hunt%20500"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Mycobiontic%20Beetle%20hunt%20500",
+       "modo": "pt"
       },
       {
        "m": "Oozing Corpus",
@@ -2487,7 +2740,8 @@
        "exp": 20600,
        "hp": 28700,
        "img": "img/monstros/oozing-corpus.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Oozing%20Corpus%20hunt%20550"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Oozing%20Corpus%20hunt%20550",
+       "modo": "pt"
       }
      ],
      "magias": []
@@ -2503,35 +2757,55 @@
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 9 kk de XP e 1,8 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Upper%20Roshamuul%20%28norte%20e%20sul%29%20hunt%20600",
-       "img": "img/monstros/frazzlemaw.webp"
+       "img": "img/monstros/frazzlemaw.webp",
+       "xph": 9000000,
+       "profit": 1800000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "onde": "Norcferatu Fortress",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,6 kk de XP e 1,1 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Fortress%20hunt%20600",
-       "img": "img/monstros/norcferatu-heartless.webp"
+       "img": "img/monstros/norcferatu-heartless.webp",
+       "xph": 8600000,
+       "profit": 1100000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "onde": "Azzilon Castle",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,6 kk de XP e 0,8 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Castle%20hunt%20600",
-       "img": "img/monstros/sineater-inferniarch.webp"
+       "img": "img/monstros/sineater-inferniarch.webp",
+       "xph": 8600000,
+       "profit": 800000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "onde": "Nimmersatt's (-7)",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 1 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Nimmersatt%27s%20%28-7%29%20hunt%20600",
-       "img": "img/monstros/mega-dragon.webp"
+       "img": "img/monstros/mega-dragon.webp",
+       "xph": 8500000,
+       "profit": 1000000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "onde": "Cobra Bastion",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 7,5 kk de XP e 0,8 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Cobra%20Bastion%20hunt%20600",
-       "img": "img/monstros/cobra-vizier.webp"
+       "img": "img/monstros/cobra-vizier.webp",
+       "xph": 7500000,
+       "profit": 800000,
+       "fxp": "tp",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -2547,28 +2821,44 @@
        "lv": "700+",
        "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 0,8 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20East%20hunt%20700",
-       "img": "img/monstros/norcferatu-nightweaver.webp"
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "xph": 8500000,
+       "profit": 800000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "onde": "Norcferatu Dungeons West",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 0,8 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20West%20hunt%20600",
-       "img": "img/monstros/norcferatu-nightweaver.webp"
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "xph": 8500000,
+       "profit": 800000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "onde": "Nimmersatt's Boss Floor (-6)",
        "lv": "700+",
        "nota": "Diamond Arrows, Ethereal. 8,4 kk de XP e 0,8 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20700",
-       "img": "img/monstros/wardragon.webp"
+       "img": "img/monstros/wardragon.webp",
+       "xph": 8400000,
+       "profit": 800000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "onde": "Deep Desert",
        "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 5,1 kk de XP e 1,8 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Deep%20Desert%20hunt%20600",
-       "img": "img/monstros/skeleton-elite-warrior.webp"
+       "img": "img/monstros/skeleton-elite-warrior.webp",
+       "xph": 5100000,
+       "profit": 1800000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -2584,35 +2874,43 @@
        "lv": "800+",
        "nota": "Firestorm Arrows, Divine. 10,5 kk de XP e 2 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Venore%20Flimsies%20%28-1%2C%20-2%20e%20-3%29%20hunt%20800",
-       "img": "img/monstros/flimsy-lost-soul.webp"
+       "img": "img/monstros/flimsy-lost-soul.webp",
+       "xph": 10500000,
+       "profit": 2000000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "onde": "Bulltaur Lair",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bulltaur%20Lair%20hunt%20800",
-       "img": "img/monstros/bulltaur-brute.webp"
+       "img": "img/monstros/bulltaur-brute.webp",
+       "modo": "solo"
       },
       {
        "onde": "Bloodfire Gorge",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloodfire%20Gorge%20hunt%20800",
-       "img": "img/monstros/raubritter-skirmisher.webp"
+       "img": "img/monstros/raubritter-skirmisher.webp",
+       "modo": "solo"
       },
       {
        "onde": "Ingol (superfície, -1 e -2)",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       },
       {
        "onde": "Feru Pumin",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Pumin%20hunt%20800",
-       "img": "img/monstros/hand-of-cursed-fate.webp"
+       "img": "img/monstros/hand-of-cursed-fate.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -2628,35 +2926,40 @@
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ferumbras%20Way%20hunt%20800",
-       "img": "img/monstros/vexclaw.gif"
+       "img": "img/monstros/vexclaw.gif",
+       "modo": "solo"
       },
       {
        "onde": "Feru Undead Dragons",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Undead%20Dragons%20hunt%20800",
-       "img": "img/monstros/undead-dragon.webp"
+       "img": "img/monstros/undead-dragon.webp",
+       "modo": "solo"
       },
       {
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20True%20Asuras%20hunt%20800",
-       "img": "img/monstros/true-midnight-asura.webp"
+       "img": "img/monstros/true-midnight-asura.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Asura%20Citadel%20hunt%20800",
-       "img": "img/monstros/true-frost-flower-asura.webp"
+       "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
       },
       {
        "onde": "Warzone 7, 8 e 9",
        "lv": "800+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Warzone%207%2C%208%20e%209%20hunt%20800",
-       "img": "img/monstros/afflicted-strider.webp"
+       "img": "img/monstros/afflicted-strider.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -2672,49 +2975,56 @@
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28-3%2C%20-4%20e%20-5%29%20hunt%201000",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       },
       {
        "onde": "Azzilon Catacombs",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Catacombs%20hunt%201000",
-       "img": "img/monstros/hellhunter-inferniarch.webp"
+       "img": "img/monstros/hellhunter-inferniarch.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Feru DT",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20DT%20hunt%201000",
-       "img": "img/monstros/dark-torturer.webp"
+       "img": "img/monstros/dark-torturer.webp",
+       "modo": "solo"
       },
       {
        "onde": "Podzilla Quaras",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Podzilla%20Quaras%20hunt%201000",
-       "img": "img/monstros/quara-raider.webp"
+       "img": "img/monstros/quara-raider.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Feru Juggernauts",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Juggernauts%20hunt%201000",
-       "img": "img/monstros/juggernaut.webp"
+       "img": "img/monstros/juggernaut.webp",
+       "modo": "solo"
       },
       {
        "onde": "Feru Mazoran",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Mazoran%20hunt%201000",
-       "img": "img/monstros/hellfire-fighter.webp"
+       "img": "img/monstros/hellfire-fighter.webp",
+       "modo": "solo"
       },
       {
        "onde": "Forsaken Crypt",
        "lv": "1000+",
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Forsaken%20Crypt%20hunt%201000",
-       "img": "img/monstros/roaming-dread.webp"
+       "img": "img/monstros/roaming-dread.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -2811,7 +3121,11 @@
        "exp": 40,
        "hp": 65,
        "img": "img/monstros/rotworm.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20rotworm%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20rotworm%20hunt",
+       "xph": 40000,
+       "profit": 0,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Troll",
@@ -2821,7 +3135,8 @@
        "exp": 20,
        "hp": 50,
        "img": "img/monstros/troll.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20troll%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20troll%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -3191,7 +3506,11 @@
        "exp": 150,
        "hp": 260,
        "img": "img/monstros/cyclops.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cyclops%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cyclops%20hunt",
+       "xph": 75000,
+       "profit": 15000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Dwarf Soldier",
@@ -3201,7 +3520,11 @@
        "exp": 70,
        "hp": 135,
        "img": "img/monstros/dwarf-soldier.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20dwarf%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20dwarf%20hunt",
+       "xph": 55000,
+       "profit": -5000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -3527,7 +3850,11 @@
        "exp": 720,
        "hp": 1000,
        "img": "img/monstros/ancient-scarab.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ancient%20scarab%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ancient%20scarab%20hunt",
+       "xph": 650000,
+       "profit": 200000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Dragon",
@@ -3537,7 +3864,8 @@
        "exp": 700,
        "hp": 1000,
        "img": "img/monstros/dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20dragon%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20dragon%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -3665,7 +3993,11 @@
        "exp": 150,
        "hp": 240,
        "img": "img/monstros/mutated-human.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20yalahar%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20yalahar%20hunt",
+       "xph": 120000,
+       "profit": -5000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Hero",
@@ -3675,7 +4007,11 @@
        "exp": 1200,
        "hp": 1400,
        "img": "img/monstros/hero.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20hero%20cave%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20hero%20cave%20hunt",
+       "xph": 1700000,
+       "profit": 100000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -3761,7 +4097,11 @@
        "exp": 2000,
        "hp": 2600,
        "img": "img/monstros/glooth-bandit.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20glooth%20bandit%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20glooth%20bandit%20hunt",
+       "xph": 1750000,
+       "profit": 400000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Lizard Chosen",
@@ -3771,7 +4111,11 @@
        "exp": 2200,
        "hp": 3050,
        "img": "img/monstros/lizard-chosen.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20lizard%20chosen%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20lizard%20chosen%20hunt",
+       "xph": 1200000,
+       "profit": 200000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -3803,7 +4147,8 @@
        "exp": 2310,
        "hp": 4300,
        "img": "img/monstros/war-golem.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20war%20golem%20oramond%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20war%20golem%20oramond%20hunt",
+       "modo": "solo"
       },
       {
        "m": "Minotaur Hunter",
@@ -3813,7 +4158,11 @@
        "exp": 1700,
        "hp": 1400,
        "img": "img/monstros/minotaur-hunter.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20minotaur%20oramond%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20minotaur%20oramond%20hunt",
+       "xph": 1100000,
+       "profit": 100000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Quara Predator",
@@ -3823,7 +4172,8 @@
        "exp": 1850,
        "hp": 2200,
        "img": "img/monstros/quara-predator.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20quara%20oramond%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20quara%20oramond%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -3842,7 +4192,11 @@
        "exp": 2500,
        "hp": 2700,
        "img": "img/monstros/elder-wyrm.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20elder%20wyrm%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20elder%20wyrm%20hunt",
+       "xph": 1400000,
+       "profit": -50000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": null,
@@ -3852,7 +4206,11 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/crystalcrusher.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20spike%20kazordoon%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20spike%20kazordoon%20hunt",
+       "xph": 3000000,
+       "profit": 1200000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": null,
@@ -3862,7 +4220,11 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/drillworm.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%204%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%204%20hunt",
+       "xph": 3700000,
+       "profit": 1400000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Grim Reaper",
@@ -3872,7 +4234,11 @@
        "exp": 5500,
        "hp": 3900,
        "img": "img/monstros/grim-reaper.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20grim%20reaper%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20grim%20reaper%20hunt",
+       "xph": 3200000,
+       "profit": -50000,
+       "fxp": "tp",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -3934,7 +4300,8 @@
        "exp": 7500,
        "hp": 8500,
        "img": "img/monstros/sphinx.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20sphinx%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20sphinx%20hunt",
+       "modo": "solo"
       },
       {
        "m": null,
@@ -3944,7 +4311,11 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/cliff-strider.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%20crystal%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%20crystal%20hunt",
+       "xph": 4000000,
+       "profit": 1600000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "True Dawnfire Asura",
@@ -3954,7 +4325,11 @@
        "exp": 7475,
        "hp": 8500,
        "img": "img/monstros/true-dawnfire-asura.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20asura%20mirror%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20asura%20mirror%20hunt",
+       "xph": 4400000,
+       "profit": 400000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "White Weretiger",
@@ -3964,7 +4339,11 @@
        "exp": 5200,
        "hp": 6100,
        "img": "img/monstros/white-weretiger.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20white%20weretiger%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20white%20weretiger%20hunt",
+       "xph": 4400000,
+       "profit": 1000000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": null,
@@ -3974,7 +4353,11 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/usurper-knight.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20usurper%20drume%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20usurper%20drume%20hunt",
+       "xph": 5600000,
+       "profit": 2000000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -4028,7 +4411,11 @@
        "exp": 5890,
        "hp": 5530,
        "img": "img/monstros/naga-warrior.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20naga%20marapur%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20naga%20marapur%20hunt",
+       "xph": 5500000,
+       "profit": 1000000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Cobra Vizier",
@@ -4038,7 +4425,11 @@
        "exp": 7650,
        "hp": 8500,
        "img": "img/monstros/cobra-vizier.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cobra%20bastion%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cobra%20bastion%20hunt",
+       "xph": 5000000,
+       "profit": 1000000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": null,
@@ -4048,7 +4439,8 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/burning-book.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20edron%20library%20book%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20edron%20library%20book%20hunt",
+       "modo": "solo"
       },
       {
        "m": "Crypt Warrior",
@@ -4058,7 +4450,11 @@
        "exp": 6050,
        "hp": 7800,
        "img": "img/monstros/crypt-warrior.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20crypt%20warrior%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20crypt%20warrior%20hunt",
+       "xph": 5400000,
+       "profit": 600000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": null,
@@ -4068,7 +4464,8 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/crape-man.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ingol%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ingol%20hunt",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -4087,7 +4484,11 @@
        "exp": 6300,
        "hp": 9000,
        "img": "img/monstros/falcon-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20falcon%20bastion%20600%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20falcon%20bastion%20600%20hunt",
+       "xph": 5900000,
+       "profit": 1500000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Cobra Vizier",
@@ -4097,7 +4498,11 @@
        "exp": 7650,
        "hp": 8500,
        "img": "img/monstros/cobra-vizier.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cobra%20bastion%20600%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20cobra%20bastion%20600%20hunt",
+       "xph": 5000000,
+       "profit": 1000000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Sphinx",
@@ -4107,7 +4512,11 @@
        "exp": 7500,
        "hp": 8500,
        "img": "img/monstros/sphinx.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20sphinx%20600%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20sphinx%20600%20hunt",
+       "xph": 7000000,
+       "profit": 1200000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Crypt Warrior",
@@ -4117,7 +4526,11 @@
        "exp": 6050,
        "hp": 7800,
        "img": "img/monstros/crypt-warrior.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20crypt%20warrior%20600%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20crypt%20warrior%20600%20hunt",
+       "xph": 5400000,
+       "profit": 600000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Mitmah Seer",
@@ -4127,7 +4540,11 @@
        "exp": 4580,
        "hp": 4620,
        "img": "img/monstros/mitmah-seer.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20mitmah%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20mitmah%20hunt",
+       "xph": 4500000,
+       "profit": 1000000,
+       "fxp": "tp",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -4143,35 +4560,46 @@
        "lv": "500+",
        "nota": "Dano de fogo. 8,1 kk de XP e 1 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Flimsy%20Venore%20%28-1%20e%20-2%29%20hunt%20500",
-       "img": "img/monstros/flimsy-lost-soul.webp"
+       "img": "img/monstros/flimsy-lost-soul.webp",
+       "xph": 8100000,
+       "profit": 1000000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "onde": "Cobra Bastion",
        "lv": "500+",
        "nota": "Dano de morte. 7,2 kk de XP e 1,2 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Cobra%20Bastion%20hunt%20500",
-       "img": "img/monstros/cobra-vizier.webp"
+       "img": "img/monstros/cobra-vizier.webp",
+       "xph": 7200000,
+       "profit": 1200000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "onde": "Azzilon Castle",
        "lv": "600+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Castle%20hunt%20600",
-       "img": "img/monstros/sineater-inferniarch.webp"
+       "img": "img/monstros/sineater-inferniarch.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Norcferatu Fortress",
        "lv": "600+",
        "nota": "Dano de fogo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Fortress%20hunt%20600",
-       "img": "img/monstros/norcferatu-heartless.webp"
+       "img": "img/monstros/norcferatu-heartless.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Nimmersatt's (-7)",
        "lv": "600+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20%28-7%29%20hunt%20600",
-       "img": "img/monstros/mega-dragon.webp"
+       "img": "img/monstros/mega-dragon.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -4187,28 +4615,38 @@
        "lv": "600+",
        "nota": "Dano de fogo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20600",
-       "img": "img/monstros/norcferatu-nightweaver.webp"
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Nimmersatt's Boss Floor (-6)",
        "lv": "600+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600",
-       "img": "img/monstros/wardragon.webp"
+       "img": "img/monstros/wardragon.webp",
+       "modo": "solo"
       },
       {
        "onde": "Issavi Sphinxes e Crypt Wardens",
        "lv": "500+",
        "nota": "Dano de morte. 7 kk de XP e 1,2 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Issavi%20Sphinxes%20e%20Crypt%20Wardens%20hunt%20500",
-       "img": "img/monstros/sphinx.webp"
+       "img": "img/monstros/sphinx.webp",
+       "xph": 7000000,
+       "profit": 1200000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "onde": "Warzone 3",
        "lv": "500+",
        "nota": "Dano de energia. 6,6 kk de XP e 2 kk de lucro por hora.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Warzone%203%20hunt%20500",
-       "img": "img/monstros/orewalker.webp"
+       "img": "img/monstros/orewalker.webp",
+       "xph": 6600000,
+       "profit": 2000000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -4224,35 +4662,40 @@
        "lv": "800+",
        "nota": "Dano de morte.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bulltaur%20Lair%20hunt%20800",
-       "img": "img/monstros/bulltaur-brute.webp"
+       "img": "img/monstros/bulltaur-brute.webp",
+       "modo": "solo"
       },
       {
        "onde": "Ingol (superfície, -1 e -2)",
        "lv": "800+",
        "nota": "Dano de morte.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       },
       {
        "onde": "Bloodfire Gorge",
        "lv": "800+",
        "nota": "Dano de fogo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bloodfire%20Gorge%20hunt%20800",
-       "img": "img/monstros/raubritter-skirmisher.webp"
+       "img": "img/monstros/raubritter-skirmisher.webp",
+       "modo": "solo"
       },
       {
        "onde": "Azzilon Catacombs",
        "lv": "800+",
        "nota": "Dano de morte.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Catacombs%20hunt%20800",
-       "img": "img/monstros/hellhunter-inferniarch.webp"
+       "img": "img/monstros/hellhunter-inferniarch.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Feru Pumin Boss Floor",
        "lv": "800+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Pumin%20Boss%20Floor%20hunt%20800",
-       "img": "img/monstros/hand-of-cursed-fate.webp"
+       "img": "img/monstros/hand-of-cursed-fate.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -4268,35 +4711,40 @@
        "lv": "800+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Undead%20Dragons%20hunt%20800",
-       "img": "img/monstros/undead-dragon.webp"
+       "img": "img/monstros/undead-dragon.webp",
+       "modo": "solo"
       },
       {
        "onde": "Feru Mazoran",
        "lv": "800+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Mazoran%20hunt%20800",
-       "img": "img/monstros/hellfire-fighter.webp"
+       "img": "img/monstros/hellfire-fighter.webp",
+       "modo": "solo"
       },
       {
        "onde": "Feru Juggernauts",
        "lv": "800+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Juggernauts%20hunt%20800",
-       "img": "img/monstros/juggernaut.webp"
+       "img": "img/monstros/juggernaut.webp",
+       "modo": "solo"
       },
       {
        "onde": "Ingol -3",
        "lv": "800+",
        "nota": "Dano de fogo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20-3%20hunt%20800",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       },
       {
        "onde": "Podzilla Quaras",
        "lv": "800+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Podzilla%20Quaras%20hunt%20800",
-       "img": "img/monstros/quara-raider.webp"
+       "img": "img/monstros/quara-raider.webp",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -4312,21 +4760,24 @@
        "lv": "1000+",
        "nota": "Dano de morte.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Forsaken%20Crypt%20hunt%201000",
-       "img": "img/monstros/roaming-dread.webp"
+       "img": "img/monstros/roaming-dread.webp",
+       "modo": "solo"
       },
       {
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20True%20Asuras%20hunt%20800",
-       "img": "img/monstros/true-midnight-asura.webp"
+       "img": "img/monstros/true-midnight-asura.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Asura%20Citadel%20hunt%20800",
-       "img": "img/monstros/true-frost-flower-asura.webp"
+       "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -4409,7 +4860,11 @@
        "exp": 40,
        "hp": 65,
        "img": "img/monstros/rotworm.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20rotworm%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20rotworm%20hunt",
+       "xph": 40000,
+       "profit": 0,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Troll",
@@ -4419,7 +4874,8 @@
        "exp": 20,
        "hp": 50,
        "img": "img/monstros/troll.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20troll%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20troll%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -4855,7 +5311,11 @@
        "exp": 150,
        "hp": 260,
        "img": "img/monstros/cyclops.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20cyclops%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20cyclops%20hunt",
+       "xph": 75000,
+       "profit": 15000,
+       "fxp": "tp",
+       "modo": "ambos"
       },
       {
        "m": "Dwarf Soldier",
@@ -4865,7 +5325,11 @@
        "exp": 70,
        "hp": 135,
        "img": "img/monstros/dwarf-soldier.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20dwarf%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20dwarf%20hunt",
+       "xph": 55000,
+       "profit": -5000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -5197,7 +5661,8 @@
        "exp": 720,
        "hp": 1000,
        "img": "img/monstros/ancient-scarab.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20ancient%20scarab%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20ancient%20scarab%20hunt",
+       "modo": "solo"
       },
       {
        "m": "Dragon",
@@ -5207,7 +5672,8 @@
        "exp": 700,
        "hp": 1000,
        "img": "img/monstros/dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20dragon%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20dragon%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -5343,7 +5809,11 @@
        "exp": 150,
        "hp": 240,
        "img": "img/monstros/mutated-human.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20yalahar%20mutated%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20yalahar%20mutated%20hunt",
+       "xph": 120000,
+       "profit": -5000,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Wyvern",
@@ -5353,7 +5823,8 @@
        "exp": 515,
        "hp": 795,
        "img": "img/monstros/wyvern.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20wyvern%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20wyvern%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -5425,7 +5896,11 @@
        "exp": 1200,
        "hp": 1400,
        "img": "img/monstros/hero.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20hero%20cave%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20hero%20cave%20hunt",
+       "xph": 1150000,
+       "profit": 0,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -5457,7 +5932,8 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/lost-berserker.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%20hunt",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -5476,7 +5952,8 @@
        "exp": 4200,
        "hp": 4500,
        "img": "img/monstros/gazer-spectre.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20gazer%20spectre%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20gazer%20spectre%20hunt",
+       "modo": "ambos"
       },
       {
        "m": null,
@@ -5486,7 +5963,8 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/drillworm.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%204%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%204%20hunt",
+       "modo": "ambos"
       },
       {
        "m": "Wyrm",
@@ -5496,7 +5974,8 @@
        "exp": 1550,
        "hp": 1825,
        "img": "img/monstros/wyrm.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20wyrm%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20wyrm%20hunt",
+       "modo": "solo"
       },
       {
        "m": "Burster Spectre",
@@ -5506,7 +5985,8 @@
        "exp": 6000,
        "hp": 6500,
        "img": "img/monstros/burster-spectre.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20burster%20spectre%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20burster%20spectre%20hunt",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -5540,7 +6020,11 @@
        "exp": 6300,
        "hp": 9000,
        "img": "img/monstros/falcon-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20falcon%20bastion%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20falcon%20bastion%20hunt",
+       "xph": 5500000,
+       "profit": 1300000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Naga Warrior",
@@ -5550,7 +6034,11 @@
        "exp": 5890,
        "hp": 5530,
        "img": "img/monstros/naga-warrior.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20naga%20marapur%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20naga%20marapur%20hunt",
+       "xph": 5500000,
+       "profit": 400000,
+       "fxp": "tpv",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -5628,7 +6116,8 @@
        "exp": 19470,
        "hp": 24000,
        "img": "img/monstros/bony-sea-devil.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20soul%20war%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20soul%20war%20hunt",
+       "modo": "pt"
       },
       {
        "m": "Cloak of Terror",
@@ -5638,7 +6127,8 @@
        "exp": 19700,
        "hp": 28000,
        "img": "img/monstros/cloak-of-terror.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20cloak%20of%20terror%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20cloak%20of%20terror%20hunt",
+       "modo": "pt"
       }
      ],
      "magias": []
@@ -5657,7 +6147,8 @@
        "exp": 21570,
        "hp": 31700,
        "img": "img/monstros/bloated-man-maggot.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20rotten%20blood%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20rotten%20blood%20hunt",
+       "modo": "pt"
       },
       {
        "m": "Oozing Corpus",
@@ -5667,7 +6158,8 @@
        "exp": 20600,
        "hp": 28700,
        "img": "img/monstros/oozing-corpus.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20oozing%20corpus%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20oozing%20corpus%20hunt",
+       "modo": "pt"
       }
      ],
      "magias": []
@@ -5683,35 +6175,40 @@
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20West%20hunt%20600",
-       "img": "img/monstros/norcferatu-nightweaver.webp"
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Norcferatu Dungeons East",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20East%20hunt%20600",
-       "img": "img/monstros/norcferatu-nightweaver.webp"
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Azzilon Catacombs",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Azzilon%20Catacombs%20hunt%20600",
-       "img": "img/monstros/hellhunter-inferniarch.webp"
+       "img": "img/monstros/hellhunter-inferniarch.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Bulltaur Lair",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bulltaur%20Lair%20hunt%20600",
-       "img": "img/monstros/bulltaur-brute.webp"
+       "img": "img/monstros/bulltaur-brute.webp",
+       "modo": "solo"
       },
       {
        "onde": "Ingol Surface",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20Surface%20hunt%20600",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -5727,35 +6224,40 @@
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-1%20hunt%20600",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       },
       {
        "onde": "Ingol -2",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-2%20hunt%20600",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       },
       {
        "onde": "Feru Undead Dragons",
        "lv": "600+",
        "nota": "Forked Glacier + Thunderstorm.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Undead%20Dragons%20hunt%20600",
-       "img": "img/monstros/undead-dragon.webp"
+       "img": "img/monstros/undead-dragon.webp",
+       "modo": "solo"
       },
       {
        "onde": "Feru Juggernauts",
        "lv": "600+",
        "nota": "Forked Glacier + Thunderstorm.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Juggernauts%20hunt%20600",
-       "img": "img/monstros/juggernaut.webp"
+       "img": "img/monstros/juggernaut.webp",
+       "modo": "solo"
       },
       {
        "onde": "Warzone 8",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%208%20hunt%20600",
-       "img": "img/monstros/afflicted-strider.webp"
+       "img": "img/monstros/afflicted-strider.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -5771,21 +6273,24 @@
        "lv": "800+",
        "nota": "Forked Glacier + Avalanche.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-3%20hunt%20800",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       },
       {
        "onde": "Bloodfire Gorge",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bloodfire%20Gorge%20hunt%20800",
-       "img": "img/monstros/raubritter-skirmisher.webp"
+       "img": "img/monstros/raubritter-skirmisher.webp",
+       "modo": "solo"
       },
       {
        "onde": "Podzilla Quaras",
        "lv": "800+",
        "nota": "Forked Thorns + Stoneshower.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Podzilla%20Quaras%20hunt%20800",
-       "img": "img/monstros/quara-raider.webp"
+       "img": "img/monstros/quara-raider.webp",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -5801,28 +6306,32 @@
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800",
-       "img": "img/monstros/true-midnight-asura.webp"
+       "img": "img/monstros/true-midnight-asura.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
-       "img": "img/monstros/true-frost-flower-asura.webp"
+       "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
       },
       {
        "onde": "Feru Mazoran",
        "lv": "600+",
        "nota": "Forked Glacier + Avalanche.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Mazoran%20hunt%20600",
-       "img": "img/monstros/hellfire-fighter.webp"
+       "img": "img/monstros/hellfire-fighter.webp",
+       "modo": "solo"
       },
       {
        "onde": "Warzone 9",
        "lv": "600+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%209%20hunt%20600",
-       "img": "img/monstros/afflicted-strider.webp"
+       "img": "img/monstros/afflicted-strider.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -5838,21 +6347,24 @@
        "lv": "1000+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Forsaken%20Crypt%20hunt%201000",
-       "img": "img/monstros/roaming-dread.webp"
+       "img": "img/monstros/roaming-dread.webp",
+       "modo": "solo"
       },
       {
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800",
-       "img": "img/monstros/true-midnight-asura.webp"
+       "img": "img/monstros/true-midnight-asura.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
-       "img": "img/monstros/true-frost-flower-asura.webp"
+       "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -5957,7 +6469,8 @@
        "exp": 40,
        "hp": 65,
        "img": "img/monstros/rotworm.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20rotworm%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20rotworm%20hunt",
+       "modo": "solo"
       },
       {
        "m": "Troll",
@@ -5967,7 +6480,8 @@
        "exp": 20,
        "hp": 50,
        "img": "img/monstros/troll.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20troll%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20troll%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -6193,7 +6707,8 @@
        "exp": 160,
        "hp": 270,
        "img": "img/monstros/stone-golem.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20stone%20golem%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20stone%20golem%20hunt",
+       "modo": "solo"
       },
       {
        "m": "Thornback Tortoise",
@@ -6203,7 +6718,8 @@
        "exp": 150,
        "hp": 300,
        "img": "img/monstros/thornback-tortoise.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20thornback%20tortoise%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20thornback%20tortoise%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -6333,7 +6849,8 @@
        "exp": 150,
        "hp": 300,
        "img": "img/monstros/thornback-tortoise.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20tortoise%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20tortoise%20hunt",
+       "modo": "solo"
       },
       {
        "m": "Water Elemental",
@@ -6343,7 +6860,11 @@
        "exp": 650,
        "hp": 550,
        "img": "img/monstros/water-elemental.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20water%20elemental%20port%20hope%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20water%20elemental%20port%20hope%20hunt",
+       "xph": 650000,
+       "profit": 200000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -6389,7 +6910,11 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/roaring-lion.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lions%20rock%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lions%20rock%20hunt",
+       "xph": 375000,
+       "profit": 0,
+       "fxp": "tp",
+       "modo": "solo"
       },
       {
        "m": "Quara Predator",
@@ -6399,7 +6924,11 @@
        "exp": 1850,
        "hp": 2200,
        "img": "img/monstros/quara-predator.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20quara%20yalahar%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20quara%20yalahar%20hunt",
+       "xph": 1400000,
+       "profit": 150000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Cult Believer",
@@ -6409,7 +6938,11 @@
        "exp": 850,
        "hp": 975,
        "img": "img/monstros/cult-believer.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cult%20carlin%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cult%20carlin%20hunt",
+       "xph": 1300000,
+       "profit": 100000,
+       "fxp": "tpv",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -6477,7 +7010,11 @@
        "exp": 1000,
        "hp": 1150,
        "img": "img/monstros/cult-enforcer.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cult%20carlin%20100%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cult%20carlin%20100%20hunt",
+       "xph": 1300000,
+       "profit": 100000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Glooth Golem",
@@ -6487,7 +7024,11 @@
        "exp": 1606,
        "hp": 2700,
        "img": "img/monstros/glooth-golem.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20glooth%20tower%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20glooth%20tower%20hunt",
+       "xph": 2100000,
+       "profit": 50000,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -6529,7 +7070,11 @@
        "exp": 2200,
        "hp": 2800,
        "img": "img/monstros/barkless-devotee.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20barkless%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20barkless%20hunt",
+       "xph": 2200000,
+       "profit": -400000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Glooth Golem",
@@ -6539,7 +7084,11 @@
        "exp": 1606,
        "hp": 2700,
        "img": "img/monstros/glooth-golem.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20glooth%20tower%20150%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20glooth%20tower%20150%20hunt",
+       "xph": 2100000,
+       "profit": 50000,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -6607,7 +7156,11 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/cave-devourer.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%205%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%205%20hunt",
+       "xph": 3700000,
+       "profit": 1000000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Grim Reaper",
@@ -6617,7 +7170,11 @@
        "exp": 5500,
        "hp": 3900,
        "img": "img/monstros/grim-reaper.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20grim%20reaper%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20grim%20reaper%20hunt",
+       "xph": 3100000,
+       "profit": -100000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Medusa",
@@ -6627,7 +7184,11 @@
        "exp": 4050,
        "hp": 4500,
        "img": "img/monstros/medusa.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20medusa%20tower%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20medusa%20tower%20hunt",
+       "xph": 2400000,
+       "profit": 500000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Fury",
@@ -6637,7 +7198,11 @@
        "exp": 3600,
        "hp": 4100,
        "img": "img/monstros/fury.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20fury%20oramond%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20fury%20oramond%20hunt",
+       "xph": 3700000,
+       "profit": 900000,
+       "fxp": "tpv",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -6677,7 +7242,11 @@
        "exp": 5200,
        "hp": 6100,
        "img": "img/monstros/white-weretiger.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20white%20weretiger%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20white%20weretiger%20hunt",
+       "xph": 3400000,
+       "profit": 750000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Dawnfire Asura",
@@ -6687,7 +7256,11 @@
        "exp": 4100,
        "hp": 2900,
        "img": "img/monstros/dawnfire-asura.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20asura%20palace%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20asura%20palace%20hunt",
+       "xph": 2800000,
+       "profit": 400000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Pirate Corsair",
@@ -6697,7 +7270,8 @@
        "exp": 350,
        "hp": 675,
        "img": "img/monstros/pirate-corsair.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20pirate%20ship%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20pirate%20ship%20hunt",
+       "modo": "solo"
       },
       {
        "m": "Burster Spectre",
@@ -6707,7 +7281,11 @@
        "exp": 6000,
        "hp": 6500,
        "img": "img/monstros/burster-spectre.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20burster%20spectre%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20burster%20spectre%20hunt",
+       "xph": 4000000,
+       "profit": 200000,
+       "fxp": "tpv",
+       "modo": "ambos"
       }
      ],
      "magias": [
@@ -6737,7 +7315,11 @@
        "exp": 7475,
        "hp": 8500,
        "img": "img/monstros/true-dawnfire-asura.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20asura%20mirror%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20asura%20mirror%20hunt",
+       "xph": 5200000,
+       "profit": 1000000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Mitmah Seer",
@@ -6747,7 +7329,11 @@
        "exp": 4580,
        "hp": 4620,
        "img": "img/monstros/mitmah-seer.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20mitmah%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20mitmah%20hunt",
+       "xph": 4200000,
+       "profit": 700000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": null,
@@ -6757,7 +7343,11 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/orewalker.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%203%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20warzone%203%20hunt",
+       "xph": 4500000,
+       "profit": 800000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": null,
@@ -6767,7 +7357,8 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/brain-squid.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20library%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20library%20hunt",
+       "modo": "pt"
       },
       {
        "m": "Ancient Lion Knight",
@@ -6777,7 +7368,8 @@
        "exp": 8100,
        "hp": 9100,
        "img": "img/monstros/ancient-lion-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lion%20sanctum%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lion%20sanctum%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -6796,7 +7388,11 @@
        "exp": 7650,
        "hp": 8500,
        "img": "img/monstros/cobra-vizier.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cobra%20bastion%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20cobra%20bastion%20hunt",
+       "xph": 6700000,
+       "profit": 700000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Frazzlemaw",
@@ -6806,7 +7402,11 @@
        "exp": 3740,
        "hp": 4100,
        "img": "img/monstros/frazzlemaw.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20roshamuul%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20roshamuul%20hunt",
+       "xph": 5500000,
+       "profit": 1100000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "m": "Dark Torturer",
@@ -6816,7 +7416,11 @@
        "exp": 4650,
        "hp": 7350,
        "img": "img/monstros/dark-torturer.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20catacombs%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20catacombs%20hunt",
+       "xph": 4600000,
+       "profit": 800000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": null,
@@ -6826,7 +7430,8 @@
        "exp": null,
        "hp": null,
        "img": "img/monstros/sineater-inferniarch.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20inferniarch%20hunt"
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20inferniarch%20hunt",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -6842,35 +7447,55 @@
        "lv": "600+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Fortress%20hunt%20600",
-       "img": "img/monstros/norcferatu-heartless.webp"
+       "img": "img/monstros/norcferatu-heartless.webp",
+       "xph": 7900000,
+       "profit": 1600000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "onde": "Nimmersatt's Dragons (-7)",
        "lv": "600+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Nimmersatt%27s%20Dragons%20%28-7%29%20hunt%20600",
-       "img": "img/monstros/mega-dragon.webp"
+       "img": "img/monstros/mega-dragon.webp",
+       "xph": 7600000,
+       "profit": 1400000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Upper Roshamuul",
        "lv": "600+",
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Upper%20Roshamuul%20hunt%20600",
-       "img": "img/monstros/frazzlemaw.webp"
+       "img": "img/monstros/frazzlemaw.webp",
+       "xph": 5500000,
+       "profit": 1100000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Falcons",
        "lv": "600+",
        "nota": "Com a Sanguine Claws (terra).",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Falcons%20hunt%20600",
-       "img": "img/monstros/falcon-knight.gif"
+       "img": "img/monstros/falcon-knight.gif",
+       "xph": 5300000,
+       "profit": 1300000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Feru Way",
        "lv": "600+",
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Feru%20Way%20hunt%20600",
-       "img": "img/monstros/vexclaw.gif"
+       "img": "img/monstros/vexclaw.gif",
+       "xph": 5900000,
+       "profit": 1600000,
+       "fxp": "tpv",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -6886,28 +7511,44 @@
        "lv": "700+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20700",
-       "img": "img/monstros/norcferatu-nightweaver.webp"
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "xph": 7900000,
+       "profit": 800000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "onde": "Nimmersatt's Boss Floor (-6)",
        "lv": "600+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600",
-       "img": "img/monstros/wardragon.webp"
+       "img": "img/monstros/wardragon.webp",
+       "xph": 7300000,
+       "profit": 1300000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Feru DT Seal",
        "lv": "600+",
        "nota": "Arma física. Andares -1 e -2.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Feru%20DT%20Seal%20hunt%20600",
-       "img": "img/monstros/dark-torturer.webp"
+       "img": "img/monstros/dark-torturer.webp",
+       "xph": 6000000,
+       "profit": 2000000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Prison -3",
        "lv": "600+",
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Prison%20-3%20hunt%20600",
-       "img": "img/monstros/dark-torturer.webp"
+       "img": "img/monstros/dark-torturer.webp",
+       "xph": 5400000,
+       "profit": 1500000,
+       "fxp": "tpv",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -6923,35 +7564,52 @@
        "lv": "800+",
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Raubritters%20%28Bloodfire%20Gorge%29%20hunt%20800",
-       "img": "img/monstros/raubritter-skirmisher.webp"
+       "img": "img/monstros/raubritter-skirmisher.webp",
+       "xph": 8000000,
+       "profit": 1500000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "onde": "Raubritters (Ada Outskirts)",
        "lv": "800+",
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Raubritters%20%28Ada%20Outskirts%29%20hunt%20800",
-       "img": "img/monstros/raubritter-marksman.webp"
+       "img": "img/monstros/raubritter-marksman.webp",
+       "xph": 7500000,
+       "profit": 1400000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Bulltaurs -2",
        "lv": "800+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Bulltaurs%20-2%20hunt%20800",
-       "img": "img/monstros/bulltaur-forgepriest.webp"
+       "img": "img/monstros/bulltaur-forgepriest.webp",
+       "xph": 6000000,
+       "profit": 1200000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Ingol Surface",
        "lv": "800+",
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20Surface%20hunt%20800",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "xph": 5300000,
+       "profit": 1500000,
+       "fxp": "tpv",
+       "modo": "solo"
       },
       {
        "onde": "Azzilon Catacombs",
        "lv": "800+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Azzilon%20Catacombs%20hunt%20800",
-       "img": "img/monstros/hellhunter-inferniarch.webp"
+       "img": "img/monstros/hellhunter-inferniarch.webp",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -6967,21 +7625,27 @@
        "lv": "800+",
        "nota": "Arma física, de energia ou de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20True%20Asuras%20hunt%20800",
-       "img": "img/monstros/true-midnight-asura.webp"
+       "img": "img/monstros/true-midnight-asura.webp",
+       "xph": 5200000,
+       "profit": 1000000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "onde": "Asura Citadel",
        "lv": "800+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Asura%20Citadel%20hunt%20800",
-       "img": "img/monstros/true-frost-flower-asura.webp"
+       "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
       },
       {
        "onde": "Ingol -3",
        "lv": "800+",
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20-3%20hunt%20800",
-       "img": "img/monstros/crape-man.webp"
+       "img": "img/monstros/crape-man.webp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -6997,28 +7661,32 @@
        "lv": "1000+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Podzilla%20Quaras%20hunt%201000",
-       "img": "img/monstros/quara-raider.webp"
+       "img": "img/monstros/quara-raider.webp",
+       "modo": "ambos"
       },
       {
        "onde": "Energy Library",
        "lv": "1000+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Energy%20Library%20hunt%201000",
-       "img": "img/monstros/energetic-book.webp"
+       "img": "img/monstros/energetic-book.webp",
+       "modo": "solo"
       },
       {
        "onde": "Fire Library",
        "lv": "1000+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Fire%20Library%20hunt%201000",
-       "img": "img/monstros/burning-book.webp"
+       "img": "img/monstros/burning-book.webp",
+       "modo": "solo"
       },
       {
        "onde": "Ice Library",
        "lv": "1000+",
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ice%20Library%20hunt%201000",
-       "img": "img/monstros/icecold-book.webp"
+       "img": "img/monstros/icecold-book.webp",
+       "modo": "solo"
       }
      ],
      "magias": []

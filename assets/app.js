@@ -151,9 +151,15 @@
       <div class="irow-body">${card(it)}</div></details>`;
   }
 
+  const MODO = { solo: ["Solo", "Dá para caçar sozinho"], pt: ["PT", "Melhor em party (time)"], ambos: ["Solo ou PT", "Dá solo e também rende em party"] };
+  const kk = n => { const a = Math.abs(n), s = n < 0 ? "-" : ""; return a >= 1e6 ? s + (a / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "kk" : a >= 1e3 ? s + Math.round(a / 1e3) + "k" : s + a; };
+  const FXP = { tp: "TibiaPal (testes de 2026)", tpv: "TibiaPal (antes do rebalance de 2026)", qa: "relatos de jogadores no TibiaQA" };
   function huntRow(h) {
     const meta = [`lvl ${esc(h.lv)}`, h.exp ? `${num(h.exp)} xp` : "", h.hp ? `${num(h.hp)} hp` : ""].filter(Boolean).join(" · ");
-    return `<div class="hrow">${h.img ? slot(h.img, false, h.m || h.onde) :`<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
+    const md = MODO[h.modo];
+    const modo = md ? `<span class="hmode hmode-${h.modo}" title="${md[1]}">${md[0]}</span>` : "";
+    const xp = h.xph ? `<span class="hrow-xp" title="Valores do Tibia oficial, por hora, XP base sem bônus. Fonte: ${FXP[h.fxp] || "TibiaPal"}."><span>XP <b>${kk(h.xph)}/h</b></span><span class="${h.profit < 0 ? "neg" : "pos"}">Profit <b>${h.profit > 0 ? "+" : ""}${kk(h.profit)}/h</b></span></span>` : "";
+    return `<div class="hrow">${h.img ? slot(h.img, false, h.m || h.onde) :`<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}${modo}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${xp}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
   }
 
   function spellRows(list) {
@@ -208,7 +214,7 @@
           ${e.objetivo ? `<p class="step-obj">${pickW(e.objetivo)}</p>` : ""}
           ${setBar(items, idx, voc.id)}
           <div class="step-grid">
-            <div class="sbox"><span class="how-t">Onde caçar</span>${e.hunts.length ? e.hunts.map(huntRow).join("") : `<p class="muted">Use o Hunt Finder para ver as hunts desta faixa.</p>`}</div>
+            <div class="sbox"><span class="how-t">Onde caçar</span>${e.hunts.length ? e.hunts.map(huntRow).join("") : `<p class="muted">Use o Hunt Finder para ver as hunts desta faixa.</p>`}${e.hunts.some(h => h.xph) ? `<p class="hunt-src">XP e profit por hora do Tibia oficial (TibiaPal), XP base sem bônus. No HeroOT os números mudam com as rates do servidor: use para comparar uma hunt com a outra.</p>` : ""}</div>
             <div class="sbox"><span class="how-t">O que comprar ou trocar${its.length ? ` (${its.length})` : ""}</span>${its.length ? its.map(itemRow).join("") : `<p class="muted">Nada novo: mantenha o equipamento da faixa anterior e junte gold.</p>`}</div>
           </div>
           <div class="step-grid">

@@ -78,7 +78,7 @@
         `<span class="w">${m.boss ? `<span class="boss-tag">boss</span> ${m.loc ? esc(m.loc) : "veja na TibiaWiki"} · <a class="yt-mini" href="${ytq("tibia boss " + s.m)}" target="_blank" rel="noopener">vídeo do boss</a>` : `caça a partir do lvl ${esc(m.lvl)} · ${m.loc ? esc(m.loc) : "local no Hunt Finder"}`}</span></div>`;
     }).join("");
     const npc = it.shop.length ? `<div class="line"><b>NPC:</b> ${it.shop.map(s => `${esc(s.n)} (${num(s.p)} gp)`).join(", ")}</div>` : "";
-    const quest = it.quest ? `<div class="line"><b>Recompensa:</b> ${esc(it.quest)}</div>` : "";
+    const quest = it.quest ? `<div class="line"><b>${/^Troca/.test(it.quest) ? "Como conseguir" : "Recompensa"}:</b> ${esc(it.quest)}</div>` : "";
     const onlyNpc = !it.src.length && it.shop.length ? `<p class="tip">Não dropa em monstro acessível: compre no NPC.</p>` :
       !it.src.length && !it.quest && !(it.tip || "").includes("market") ? `<div class="line"><b>Market:</b> não dropa de monstro comum.</div>` : "";
     return `<article class="card">
@@ -146,7 +146,7 @@
   function itemRow(it) {
     const s = it.src[0], m = s && BASE.monstros[s.m];
     const where = s ? `${esc(s.m)}${m && m.boss ? ' <span class="boss-tag">boss</span>' : ""} · ${pct(s.c)}` :
-      it.shop.length ? `NPC ${esc(it.shop[0].n)} · ${num(it.shop[0].p)} gp` : it.quest ? "Recompensa de quest" : "Market";
+      it.shop.length ? `NPC ${esc(it.shop[0].n)} · ${num(it.shop[0].p)} gp` : it.quest ? (/^Troca/.test(it.quest) ? "Troca com NPC" : "Recompensa de quest") : "Market";
     return `<details class="irow"><summary>${slot(it.img, false, it.item)}<span class="irow-txt"><span class="meta">${esc(it.slot)}${it.lv ? " · lvl " + it.lv : ""}</span><b>${esc(it.item)}</b><span class="irow-w">${where}</span></span><span class="irow-more" aria-hidden="true">+</span></summary>
       <div class="irow-body">${card(it)}</div></details>`;
   }

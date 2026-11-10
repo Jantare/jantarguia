@@ -645,8 +645,8 @@
      "attr": "Armadura 15, 5% de proteção física, 1 slot(s) de imbuement",
      "src": [],
      "shop": [],
-     "quest": null,
-     "tip": "Fecha o set básico. Não dropa em monstro: compre no market. Segura até o lvl 300+.",
+     "quest": "Troca com o NPC Gnomally (Gnomegate): 10 Major Crystalline Tokens. Cada Warzone 1, 2 ou 3 completa (Bigfoot's Burden Quest) dá 2 tokens.",
+     "tip": "Fecha o set básico e segura até o lvl 300+. Não dropa em monstro: troque os tokens com o Gnomally ou compre no market.",
      "wiki": "https://tibia.fandom.com/wiki/Prismatic_Armor",
      "img": "img/itens/prismatic-armor.webp"
     },
@@ -1988,8 +1988,8 @@
      "attr": "Armadura 15, proteção 5% física, 1 slot(s) de imbuement",
      "src": [],
      "shop": [],
-     "quest": null,
-     "tip": "Daqui em diante você caça em área e precisa de proteção física. Não dropa de monstro comum: compre no market.",
+     "quest": "Troca com o NPC Gnomally (Gnomegate): 10 Major Crystalline Tokens. Cada Warzone 1, 2 ou 3 completa (Bigfoot's Burden Quest) dá 2 tokens.",
+     "tip": "Daqui em diante você caça em área e precisa de proteção física. Não dropa em monstro: troque os tokens com o Gnomally ou compre no market.",
      "wiki": "https://tibia.fandom.com/wiki/Prismatic_Armor",
      "img": "img/itens/prismatic-armor.webp"
     },
@@ -2021,8 +2021,8 @@
      "attr": "Armadura 8, +2 distance, proteção 3% física",
      "src": [],
      "shop": [],
-     "quest": null,
-     "tip": "Upgrade que dura muito tempo. Um dos poucos itens que vale ter com tier antes do 400. Não dropa de monstro comum: compre no market.",
+     "quest": "Troca com o NPC Gnomally (Gnomegate): 10 Major Crystalline Tokens. Cada Warzone 1, 2 ou 3 completa (Bigfoot's Burden Quest) dá 2 tokens.",
+     "tip": "Upgrade que dura muito tempo. Um dos poucos itens que vale ter com tier antes do 400. Não dropa em monstro: troque os tokens com o Gnomally ou compre no market.",
      "wiki": "https://tibia.fandom.com/wiki/Prismatic_Legs",
      "img": "img/itens/prismatic-legs.webp"
     },

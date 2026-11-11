@@ -59,7 +59,7 @@ SITE, BASE, QUESTS, LOOK, ROTAS, IMBU = (
 SERVERS = [load(f"data/servidores/{i}.json") for i in SITE["servidores"]]
 VOCS = BASE["vocacoes"]
 NOMES = [("", "Início")] + [(v["id"], v["nome"]) for v in VOCS] + [
-    ("quests", "Quests"), ("imbuements", "Imbuements"), ("outfits", "Outfits"), ("monstros", "Monstros"), ("lootsplit", "Loot Split")]
+    ("quests", "Quests"), ("imbuements", "Imbuements"), ("outfits", "Outfits"), ("monstros", "Monstros"), ("lootsplit", "Loot Split"), ("calculadora", "Calculadora")]
 
 
 def link(pid, nome):
@@ -188,6 +188,14 @@ def pag_monstros():
             + "<h2>Monstros</h2>" + ul([linha(n, m) for n, m in M if not m.get("boss")]))
 
 
+def pag_calculadora():
+    return ("<h1>Calculadora de level</h1>"
+            "<p>Calcule quanta XP falta do seu level até o level que você quer e quantas horas de hunt isso dá. "
+            "A calculadora segue a rota do guia: em cada faixa usa a hunt com mais XP por hora para a sua vocação. "
+            "Também dá para escolher uma hunt só ou digitar o seu XP por hora.</p>"
+            "<p>Considera stamina verde, XP Boost da loja, prey de XP e a rate do servidor, como no HeroOT.</p>")
+
+
 def pag_lootsplit():
     return ("<h1>Loot Split: divisão de loot da party</h1>"
             "<p>Ferramenta para dividir o loot de uma party hunt no Tibia. Copie o texto do Party Hunt Analyser, cole na página "
@@ -207,7 +215,7 @@ def pag_inicio():
             "quests e treino. Com a chance de drop de cada item.</p><h2>Guias</h2>"
             + ul([link(v["id"], f'Guia de {v["nome"]}') for v in VOCS]
                  + [link("quests", "Quests por level"), link("imbuements", "Imbuements por vocação"),
-                    link("outfits", "Outfits e montarias"), link("monstros", "Monstros e bosses"), link("lootsplit", "Loot Split: divisão de loot da party")]
+                    link("outfits", "Outfits e montarias"), link("monstros", "Monstros e bosses"), link("lootsplit", "Loot Split: divisão de loot da party"), link("calculadora", "Calculadora de level")]
                  + [link(s["id"], s["nome"]) for s in SERVERS]))
 
 
@@ -229,6 +237,8 @@ PAGS += [
      "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um.", pag_monstros()),
     ("lootsplit", "Loot Split: divisão de loot da party no Tibia | Jantar Guia",
      "Cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem.", pag_lootsplit()),
+    ("calculadora", "Calculadora de level do Tibia: quanto tempo até o próximo level | Jantar Guia",
+     "Calcule quanta XP falta e quantas horas de hunt você precisa até o level que quer, seguindo a rota do guia, com stamina, XP Boost e prey.", pag_calculadora()),
 ]
 for s in SERVERS:
     PAGS.append((s["id"], f'{s["nome"]}: sistemas e guia do servidor | Jantar Guia',

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<script>document.documentElement.classList.add("js");try{if(localStorage.getItem("tema")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script>
+<head>
+<meta charset="utf-8">
+<base href="/">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Calculadora de level do Tibia: quanto tempo até o próximo level | Jantar Guia</title>
+<meta name="description" content="Calcule quanta XP falta e quantas horas de hunt você precisa até o level que quer, seguindo a rota do guia, com stamina, XP Boost e prey.">
+<link rel="canonical" href="https://jantarguia.com.br/calculadora/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#1c1b19">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jantar Guia">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://jantarguia.com.br/calculadora/">
+<meta property="og:title" content="Calculadora de level do Tibia: quanto tempo até o próximo level | Jantar Guia">
+<meta property="og:description" content="Calcule quanta XP falta e quantas horas de hunt você precisa até o level que quer, seguindo a rota do guia, com stamina, XP Boost e prey.">
+<meta property="og:image" content="https://jantarguia.com.br/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Jantar Guia: a rota do Tibia do level 8 ao 1000">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jantarguia.com.br/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://jantarguia.com.br/"},{"@type":"ListItem","position":2,"name":"Calculadora de level do Tibia","item":"https://jantarguia.com.br/calculadora/"}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grenze:wght@500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/style.css?v=202611111200">
+</head>
+<body>
+<div class="topcupom" id="topcupom" hidden></div>
+<header class="bar"><div class="wrap">
+  <div class="top">
+    <a class="brand" href="./" aria-label="Jantar Guia, página inicial">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="4" fill="#2b2a27"/><rect x="1" y="1" width="30" height="30" rx="4" fill="none" stroke="#b98a2a" stroke-width="2"/><path d="M16 6 24 9v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V9z" fill="#e3b75c"/><path d="M16 9.5 21 11.4v3.8c0 3.2-2.1 5.9-5 7.3-2.9-1.4-5-4.1-5-7.3v-3.8z" fill="#2b2a27"/></svg>
+      <span class="brand-txt"><span class="brand-name">Jantar Guia</span><span class="by">por <b id="criador">Jantar</b></span></span>
+    </a>
+    <div class="ctrls">
+      <label class="field lvl" for="mylvl"><span>Seu level</span>
+        <input id="mylvl" type="number" inputmode="numeric" min="1" max="3000" placeholder="ex: 92">
+      </label>
+      <label class="field" for="srv"><span class="sr">Servidor</span>
+        <select id="srv" aria-label="Servidor"><option value="">Tibia (base)</option></select>
+      </label>
+      <button class="theme" id="theme" type="button"></button>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs" aria-label="Seções"><a class="tab" href="./"><span>Início</span></a><a class="tab" href="knight/"><span>Knight</span></a><a class="tab" href="paladin/"><span>Paladin</span></a><a class="tab" href="sorcerer/"><span>Sorcerer</span></a><a class="tab" href="druid/"><span>Druid</span></a><a class="tab" href="monk/"><span>Monk</span></a><a class="tab" href="quests/"><span>Quests</span></a><a class="tab" href="imbuements/"><span>Imbuements</span></a><a class="tab" href="outfits/"><span>Outfits</span></a><a class="tab" href="monstros/"><span>Monstros</span></a><a class="tab" href="lootsplit/"><span>Loot Split</span></a><a class="tab" href="calculadora/"><span>Calculadora</span></a></nav>
+  <div class="chips" id="chips" hidden></div>
+</div></header>
+
+<main><div class="wrap" id="view"><p class="loading">Carregando o guia…</p><div class="prerender"><h1>Calculadora de level</h1><p>Calcule quanta XP falta do seu level até o level que você quer e quantas horas de hunt isso dá. A calculadora segue a rota do guia: em cada faixa usa a hunt com mais XP por hora para a sua vocação. Também dá para escolher uma hunt só ou digitar o seu XP por hora.</p><p>Considera stamina verde, XP Boost da loja, prey de XP e a rate do servidor, como no HeroOT.</p></div></div></main>
+
+<footer class="foot"><div class="wrap" id="foot"></div></footer>
+<script src="assets/app.js?v=202611111200"></script>
+</body>
+</html>

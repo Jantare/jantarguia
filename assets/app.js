@@ -42,11 +42,12 @@
     v.push({ id: "outfits", nome: "Outfits" });
     v.push({ id: "monstros", nome: "Monstros" });
     v.push({ id: "lootsplit", nome: "Loot Split" });
+    v.push({ id: "calculadora", nome: "Calculadora" });
     if (st.srv) v.push({ id: st.srv, nome: SERVERS[st.srv].nome, srv: true });
     return v;
   }
 
-  const NAV_ICON = { lootsplit: "img/ico-lootsplit.svg", quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/montarias/draptor.webp", monstros: "img/monstros/dragon.gif" };
+  const NAV_ICON = { calculadora: "img/ico-calc.svg", lootsplit: "img/ico-lootsplit.svg", quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/montarias/draptor.webp", monstros: "img/monstros/dragon.gif" };
   function nav() {
     const tab = v => {
       const ic = v.id === "inicio" ? `<svg class="tab-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 10.5V21h6.5v-6h5v6H21V10.5z" fill="currentColor"/></svg>`
@@ -152,7 +153,7 @@
   }
 
   const MODO = { solo: ["Solo", "Dá para caçar sozinho"], pt: ["PT", "Melhor em party (time)"], ambos: ["Solo ou PT", "Dá solo e também rende em party"] };
-  const kk = n => { const a = Math.abs(n), s = n < 0 ? "-" : ""; return a >= 1e6 ? s + (a / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "kk" : a >= 1e3 ? s + Math.round(a / 1e3) + "k" : s + a; };
+  const kk = n => { const a = Math.abs(n), s = n < 0 ? "-" : ""; return a >= 1e9 ? s + (a / 1e9).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "kkk" : a >= 1e6 ? s + (a / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "kk" : a >= 1e3 ? s + Math.round(a / 1e3) + "k" : s + a; };
   const FXP = { tp: "TibiaPal (testes de 2026)", tpv: "TibiaPal (antes do rebalance de 2026)", qa: "relatos de jogadores no TibiaQA" };
   function huntRow(h) {
     const meta = [`lvl ${esc(h.lv)}`, h.exp ? `${num(h.exp)} xp` : "", h.hp ? `${num(h.hp)} hp` : ""].filter(Boolean).join(" · ");
@@ -447,6 +448,7 @@
           <a class="voc" href="imbuements/">${slot("img/itens/soulbiter.webp", true)}<span class="voc-txt"><span class="name">Imbuements</span><span class="voc-desc">O que imbuir em cada item da sua vocação e os materiais de cada imbuement.</span></span></a>
           <a class="voc" href="outfits/">${slot("img/montarias/draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
           <a class="voc" href="lootsplit/">${slot("img/ico-lootsplit.svg", true)}<span class="voc-txt"><span class="name">Loot Split</span><span class="voc-desc">Cole o Party Hunt Analyser e veja quem transfere quanto para quem.</span></span></a>
+          <a class="voc" href="calculadora/">${slot("img/ico-calc.svg", true)}<span class="voc-txt"><span class="name">Calculadora de level</span><span class="voc-desc">Quantas horas de hunt faltam até o level que você quer, seguindo a rota do guia.</span></span></a>
           <a class="voc" href="monstros/">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
         </div>
       </section>`;
@@ -559,12 +561,122 @@ Exemplo Druid
       <p class="muted">Fale o comando no NPC do banco, depois de depositar o gold.</p></div>`;
   }
 
+
+  // ---------- Calculadora de level ----------
+  const expAt = L => { const x = L - 1; return Math.round((50 * x * x * x - 150 * x * x + 400 * x) / 3); };
+  const lvNum = s => parseInt(String(s ?? "").replace(/\D.*$/, "")) || 0;
+  function calcLoad() {
+    let c = {};
+    try { c = JSON.parse(store.get("calc") || "{}") || {}; } catch (e) { c = {}; }
+    st.calc = Object.assign({ voc: "knight", de: st.level || 100, ate: null, modo: "rota", hunt: "", xph: "", stamina: true, boost: false, prey: 0, rate: 1, horas: 3 }, c);
+    if (st.level) st.calc.de = st.level;
+    if (!st.calc.ate || st.calc.ate <= st.calc.de) st.calc.ate = st.calc.de + 50;
+  }
+  const calcSave = () => store.set("calc", JSON.stringify(st.calc));
+  function calcHunts(voc) {
+    const r = ROTAS.vocacoes[voc]; if (!r) return [];
+    const out = [];
+    r.etapas.forEach((e, ei) => e.hunts.forEach((h, hi) => { if (h.xph) out.push({ k: ei + "-" + hi, faixa: e.faixa, lv: lvNum(h.lv), nome: h.m || h.onde, onde: h.onde, xph: h.xph, profit: h.profit || 0, modo: h.modo }); }));
+    return out;
+  }
+  function calcMult(c) {
+    return (Number(c.rate) > 0 ? Number(c.rate) : 1) * (c.stamina ? 1.5 : 1) * (1 + (c.boost ? 0.5 : 0) + (Number(c.prey) > 0 ? Number(c.prey) / 100 : 0));
+  }
+  function calcRota(c) {
+    const hs = calcHunts(c.voc), mult = calcMult(c);
+    const best = L => hs.filter(h => h.lv <= L).sort((a, b) => b.xph - a.xph)[0];
+    const seg = [];
+    let L = c.de;
+    if (!hs.length) return { erro: "O guia ainda não tem XP/h das hunts dessa vocação. Use o modo \"Uma hunt só\" e digite o seu XP por hora." };
+    const primeira = [...hs].sort((a, b) => a.lv - b.lv || b.xph - a.xph)[0];
+    while (L < c.ate) {
+      const h = best(L) || primeira, cedo = !best(L);
+      const t = TIERS.find(t => L >= t[1] && L < t[2]);
+      const prox = hs.map(x => x.lv).filter(x => x > L).sort((a, b) => a - b)[0] || Infinity;
+      const fim = Math.min(c.ate, t ? t[2] : c.ate, prox);
+      const xp = expAt(fim) - expAt(L), xpH = h.xph * mult, horas = xp / xpH;
+      const velha = !!t && t[1] >= 60 && h.lv < t[1] * 0.6 && !hs.some(x => x.faixa === t[0]);
+      const last = seg[seg.length - 1];
+      if (last && last.h.k === h.k) { last.ate = fim; last.xp += xp; last.horas += horas; last.velha = last.velha || velha; last.cedo = last.cedo || cedo; }
+      else seg.push({ de: L, ate: fim, h, xp, xpH, horas, velha, cedo });
+      L = fim;
+    }
+    return { seg };
+  }
+  function calcUma(c) {
+    const mult = calcMult(c);
+    const h = c.hunt && c.hunt !== "outra" ? calcHunts(c.voc).find(x => x.k === c.hunt) : null;
+    const base = h ? h.xph : Number(c.xph) || 0;
+    if (!base) return { erro: "Escolha uma hunt ou digite o XP por hora." };
+    const xp = expAt(c.ate) - expAt(c.de), xpH = base * mult;
+    return { seg: [{ de: c.de, ate: c.ate, h: h || { nome: "XP digitado", xph: base, profit: 0 }, xp, xpH, horas: xp / xpH }] };
+  }
+  const fmtH = h => { if (h < 1) return Math.max(1, Math.round(h * 60)) + " min"; const H = Math.floor(h), M = Math.round((h - H) * 60); return M === 60 ? (H + 1) + "h" : H + "h" + (M ? String(M).padStart(2, "0") : ""); };
+
+  function calcView() {
+    if (!st.calc) calcLoad();
+    const c = st.calc, hs = calcHunts(c.voc);
+    const opt = (v, t, sel) => `<option value="${esc(v)}"${sel ? " selected" : ""}>${esc(t)}</option>`;
+    return `<div class="page-h"><h1>Calculadora de level</h1>
+      <p class="intro">Coloque seu level e o level que você quer. A calculadora soma a XP que falta e mostra quantas horas de hunt isso dá, usando o XP por hora das hunts do guia.</p></div>
+      <div class="sbox calc-box">
+        <div class="calc-grid">
+          <label><span class="how-t">Vocação</span><select data-calc="voc">${BASE.vocacoes.map(v => opt(v.id, v.nome, v.id === c.voc)).join("")}</select></label>
+          <label><span class="how-t">Level atual</span><input type="number" min="8" max="3000" inputmode="numeric" data-calc="de" value="${c.de}"></label>
+          <label><span class="how-t">Level desejado</span><input type="number" min="9" max="3000" inputmode="numeric" data-calc="ate" value="${c.ate}"></label>
+        </div>
+        <span class="how-t t2">Hunt</span>
+        <div class="seg" role="group" aria-label="Modo da calculadora">
+          <button type="button" class="seg-b" data-calc-modo="rota" aria-pressed="${c.modo === "rota"}">Seguir a rota do guia</button>
+          <button type="button" class="seg-b" data-calc-modo="hunt" aria-pressed="${c.modo === "hunt"}">Uma hunt só</button>
+        </div>
+        ${c.modo === "hunt" ? `<div class="calc-grid">
+          <label class="wide"><span class="how-t">Hunt</span><select data-calc="hunt">${opt("", "Escolha a hunt", !c.hunt)}${hs.map(h => opt(h.k, `${h.nome} · lvl ${h.lv}+ · ${kk(h.xph)}/h`, h.k === c.hunt)).join("")}${opt("outra", "Outra: digitar o XP/h", c.hunt === "outra")}</select></label>
+          ${c.hunt === "outra" ? `<label><span class="how-t">XP por hora</span><input type="number" min="0" inputmode="numeric" data-calc="xph" value="${esc(c.xph)}" placeholder="ex: 2500000"></label>` : ""}
+        </div>` : `<p class="muted">Em cada faixa de level a calculadora usa a hunt do guia com mais XP por hora que você já pode fazer.</p>`}
+        <span class="how-t t2">Bônus</span>
+        <div class="calc-grid">
+          <label class="chk"><input type="checkbox" data-calc="stamina"${c.stamina ? " checked" : ""}><span>Stamina verde (+50%)</span></label>
+          <label class="chk"><input type="checkbox" data-calc="boost"${c.boost ? " checked" : ""}><span>XP Boost da loja (+50%)</span></label>
+          <label><span class="how-t">Prey de XP (%)</span><input type="number" min="0" max="100" inputmode="numeric" data-calc="prey" value="${c.prey || ""}" placeholder="0"></label>
+          <label><span class="how-t">Rate do servidor (x)</span><input type="number" min="0.1" step="0.1" inputmode="decimal" data-calc="rate" value="${c.rate}"></label>
+          <label><span class="how-t">Horas de hunt por dia</span><input type="number" min="0.5" step="0.5" inputmode="decimal" data-calc="horas" value="${c.horas}"></label>
+        </div>
+        <p class="muted">O XP por hora das hunts é do Tibia oficial, sem bônus. No HeroOT e em outros servidores, coloque a rate de XP do seu level.</p>
+      </div>
+      <div id="calc-res"></div>`;
+  }
+
+  function calcRender() {
+    const box = $("#calc-res"); if (!box) return;
+    const c = st.calc;
+    if (!(c.de >= 1) || !(c.ate > c.de)) { box.innerHTML = `<p class="notice">O level desejado precisa ser maior que o level atual.</p>`; return; }
+    const r = c.modo === "rota" ? calcRota(c) : calcUma(c);
+    if (r.erro) { box.innerHTML = `<p class="notice">${esc(r.erro)}</p>`; return; }
+    const xp = r.seg.reduce((a, s) => a + s.xp, 0), horas = r.seg.reduce((a, s) => a + s.horas, 0);
+    const lucro = r.seg.reduce((a, s) => a + s.horas * (s.h.profit || 0), 0);
+    const temLucro = r.seg.some(s => s.h.profit);
+    const hd = Number(c.horas) > 0 ? Number(c.horas) : 0, dias = hd ? Math.ceil(horas / hd) : 0;
+    box.innerHTML = `<div class="sbox calc-box">
+      <div class="loot-sum calc-sum">
+        <div><span class="how-t">XP que falta</span><b>${num(xp)}</b></div>
+        <div><span class="how-t">Tempo de hunt</span><b>${fmtH(horas)}</b></div>
+        ${hd ? `<div><span class="how-t">Jogando ${String(hd).replace(".", ",")}h por dia</span><b>${dias} ${dias === 1 ? "dia" : "dias"}</b></div>` : ""}
+        ${temLucro ? `<div><span class="how-t">Profit no caminho</span><b class="${lucro < 0 ? "neg" : ""}">${kk(Math.round(lucro / 1e4) * 1e4)}</b></div>` : ""}
+      </div>
+      <span class="how-t t2">${c.modo === "rota" ? "Hunts no caminho" : "Hunt"}</span>
+      ${r.seg.map(s => `<div class="calc-seg"><span class="lvl-badge">Lvl ${s.de}–${s.ate}</span><span class="calc-seg-n"><b>${esc(s.h.nome)}</b>${s.h.onde && s.h.onde !== s.h.nome ? `<small>${esc(s.h.onde)}</small>` : ""}</span><span class="calc-seg-v">${kk(Math.round(s.xpH))}/h · <b>${fmtH(s.horas)}</b></span>${s.cedo ? `<span class="calc-warn">O guia não tem XP/h de hunt para esse level dessa vocação. Usei a primeira hunt com dado, que pede level mais alto: o tempo real deve ser maior.</span>` : s.velha ? `<span class="calc-warn">O guia ainda não tem XP/h das hunts dessa faixa para essa vocação. Usei a melhor hunt com dado, que é de level mais baixo: o tempo real deve ser menor.</span>` : ""}</div>`).join("")}
+      <p class="muted">Conta aproximada: o XP por hora muda com o seu set, a Roda e quantos monstros estão no respawn. Abaixo do level 50 o Tibia dá bônus de XP extra, então nesses levels vai mais rápido.</p>
+    </div>`;
+  }
+
   const DEFAULT_DESC = "Guia de Tibia por vocação e level: qual equipamento usar, qual monstro dropa, chance de drop e NPC que vende. Com seções para servidores como o HeroOT.";
   const PAGE_META = {
     inicio: ["Jantar Guia: rota de Tibia do level 8 ao 1000, hunts e drops", DEFAULT_DESC],
     quests: ["Quests do Tibia por level: acessos, bosses e itens | Jantar Guia", "As quests do Tibia que mais valem a pena em cada faixa de level: acessos, descontos, bosses, itens, outfits e montarias."],
     imbuements: ["Imbuements por vocação: o que imbuir em cada item | Jantar Guia", "O que imbuir em cada item de Knight, Paladin, Sorcerer, Druid e Monk, com os materiais de cada imbuement."],
     outfits: ["Outfits e montarias do Tibia: como conseguir | Jantar Guia", "Como conseguir cada montaria e outfit do Tibia jogando, com as da loja separadas."],
+    calculadora: ["Calculadora de level do Tibia: quanto tempo até o próximo level | Jantar Guia", "Calcule quanta XP falta e quantas horas de hunt você precisa até o level que quer, seguindo a rota do guia, com stamina, XP Boost e prey."],
     lootsplit: ["Loot Split: divisão de loot da party no Tibia | Jantar Guia", "Cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem."],
     monstros: ["Monstros e bosses do Tibia: onde ficam e o que dropam | Jantar Guia", "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um."]
   };
@@ -589,6 +701,7 @@ Exemplo Druid
     else if (st.view === "outfits") v.innerHTML = lookView();
     else if (st.view === "monstros") { v.innerHTML = monstersView(); filterMon(); }
     else if (st.view === "lootsplit") { v.innerHTML = lootView(); lootRender(); }
+    else if (st.view === "calculadora") { v.innerHTML = calcView(); calcRender(); }
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
     else v.innerHTML = vocationView(BASE.vocacoes.find(x => x.id === st.view) || BASE.vocacoes[0]);
   }
@@ -630,6 +743,8 @@ Exemplo Druid
     if (lc) { st.lookCat = lc.dataset.lcat; render(); }
     if (e.target.closest("[data-loot-ex]")) { st.loot = LOOT_EXEMPLO; st.lootExtra = {}; st.lootOff = new Set(); render(); return; }
     if (e.target.closest("[data-loot-clear]")) { st.loot = ""; st.lootExtra = {}; st.lootOff = new Set(); render(); return; }
+    const cm = e.target.closest("[data-calc-modo]");
+    if (cm) { st.calc.modo = cm.dataset.calcModo; calcSave(); render(); return; }
     const lrm = e.target.closest("[data-loot-rm]");
     if (lrm) { if (lrm.checked) st.lootOff.add(lrm.dataset.lootRm); else st.lootOff.delete(lrm.dataset.lootRm); lootRender(); return; }
     const jp = e.target.closest("[data-jump]");
@@ -696,6 +811,14 @@ Exemplo Druid
     document.addEventListener("input", e => {
       if (e.target.id === "lootxt") { st.loot = e.target.value; st.lootExtra = {}; st.lootOff = new Set(); lootRender(); return; }
       if (e.target.dataset.lootExtra !== undefined) { const x = parseInt(e.target.value); if (x > 0) st.lootExtra[e.target.dataset.lootExtra] = x; else delete st.lootExtra[e.target.dataset.lootExtra]; lootCalc(); return; }
+      if (e.target.dataset.calc !== undefined) {
+        const k = e.target.dataset.calc, c = st.calc;
+        if (e.target.type === "checkbox") c[k] = e.target.checked;
+        else if (k === "voc" || k === "hunt") { c[k] = e.target.value; if (k === "voc") c.hunt = ""; calcSave(); render(); return; }
+        else if (k === "xph") c[k] = e.target.value;
+        else c[k] = parseFloat(String(e.target.value).replace(",", ".")) || 0;
+        calcSave(); calcRender(); return;
+      }
       if (e.target.id === "monq") { st.monQ = e.target.value; filterMon(); return; }
       if (e.target.id === "questq") { st.questQ = e.target.value; filterQuests(); return; }
       if (e.target.id !== "lookq") return;

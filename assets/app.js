@@ -48,7 +48,7 @@
     return v;
   }
 
-  const NAV_ICON = { charms: "img/ico-charm.svg", calculadora: "img/ico-calc.svg", lootsplit: "img/ico-lootsplit.svg", quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/montarias/draptor.webp", monstros: "img/monstros/dragon.gif" };
+  const NAV_ICON = { charms: "img/ico-charm.svg", calculadora: "img/ico-calc.svg", lootsplit: "img/ico-lootsplit.svg", quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/ico-draptor.webp", monstros: "img/ico-dragon.webp" };
   function nav() {
     const tab = v => {
       const ic = v.id === "inicio" ? `<svg class="tab-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 10.5V21h6.5v-6h5v6H21V10.5z" fill="currentColor"/></svg>`
@@ -474,7 +474,7 @@
         }).join("")}
           <a class="voc" href="quests/">${slot("img/itens/falcon-shield.webp", true)}<span class="voc-txt"><span class="name">Quests por level</span><span class="voc-desc">As quests que mais valem a pena em cada faixa: acessos, descontos, bosses e itens.</span></span></a>
           <a class="voc" href="imbuements/">${slot("img/itens/soulbiter.webp", true)}<span class="voc-txt"><span class="name">Imbuements</span><span class="voc-desc">O que imbuir em cada item da sua vocação e os materiais de cada imbuement.</span></span></a>
-          <a class="voc" href="outfits/">${slot("img/montarias/draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
+          <a class="voc" href="outfits/">${slot("img/ico-draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
           <a class="voc" href="lootsplit/">${slot("img/ico-lootsplit.svg", true)}<span class="voc-txt"><span class="name">Loot Split</span><span class="voc-desc">Cole o Party Hunt Analyser e veja quem transfere quanto para quem.</span></span></a>
           <a class="voc" href="charms/">${slot("img/ico-charm.svg", true)}<span class="voc-txt"><span class="name">Charms</span><span class="voc-desc">Todos os charms, quanto custam e quais pegar primeiro em cada vocação.</span></span></a>
           <a class="voc" href="calculadora/">${slot("img/ico-calc.svg", true)}<span class="voc-txt"><span class="name">Calculadora de level</span><span class="voc-desc">Quantas horas de hunt faltam até o level que você quer, seguindo a rota do guia.</span></span></a>

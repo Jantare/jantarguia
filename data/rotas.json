@@ -578,34 +578,6 @@
      "treino": "{skill} chega perto de 70. Use Exori em box para treinar e matar mais rápido.",
      "hunts": [
       {
-       "m": "Dragon",
-       "onde": "Dragon lairs de Darashia e Thais",
-       "lv": "40+",
-       "nota": "A hunt do Knight nessa faixa. Use proteção de fogo.",
-       "exp": 700,
-       "hp": 1000,
-       "img": "img/monstros/dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Dragon%20hunt%2040",
-       "xph": 250000,
-       "profit": 20000,
-       "fxp": "tpv",
-       "modo": "solo"
-      },
-      {
-       "m": "Ancient Scarab",
-       "onde": "Tumbas de Ankrahmun",
-       "lv": "40+",
-       "nota": "Boa XP e pouco dano.",
-       "exp": 720,
-       "hp": 1000,
-       "img": "img/monstros/ancient-scarab.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Scarab%20hunt%2040",
-       "xph": 650000,
-       "profit": 50000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
        "m": "Wyvern",
        "onde": "Folda e Vega (Carlin), Ferngrims Gate e Drillworm Caves",
        "lv": "40+",
@@ -617,14 +589,28 @@
        "modo": "solo"
       },
       {
+       "m": "Dragon",
+       "onde": "Dragon lairs de Darashia e Thais",
+       "lv": "50+",
+       "nota": "A hunt do Knight nessa faixa. Use proteção de fogo.",
+       "exp": 700,
+       "hp": 1000,
+       "img": "img/monstros/dragon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Dragon%20hunt%2050",
+       "xph": 250000,
+       "profit": 20000,
+       "fxp": "tpv",
+       "modo": "solo"
+      },
+      {
        "m": "Bonebeast",
        "onde": "Tumbas de Ankrahmun e Lion's Rock",
-       "lv": "45+",
+       "lv": "50+",
        "nota": "Junta em box com Exori.",
        "exp": 580,
        "hp": 515,
        "img": "img/monstros/bonebeast.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bonebeast%20hunt%2045",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Bonebeast%20hunt%2050",
        "xph": 450000,
        "profit": 25000,
        "fxp": "tp",
@@ -717,28 +703,14 @@
      "treino": "Com a arma de duas mãos do 70, o Shielding para de subir caçando. Treine Shielding offline e foque {skill} nas hunts.",
      "hunts": [
       {
-       "m": "Hero",
-       "onde": "Hero Cave (Edron)",
-       "lv": "60+",
-       "nota": "Muita XP, puxe em box pequena.",
-       "exp": 1200,
-       "hp": 1400,
-       "img": "img/monstros/hero.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20hero%20cave%20edron%20hunt",
-       "xph": 1750000,
-       "profit": 300000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
        "m": "Mutated Tiger",
        "onde": "Alchemist Quarter (Yalahar)",
-       "lv": "60+",
+       "lv": "70+",
        "nota": "Rápido de matar com a arma de 3 slots do 70.",
        "exp": 750,
        "hp": 1100,
        "img": "img/monstros/mutated-tiger.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mutated%20Tiger%20hunt%2060",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Mutated%20Tiger%20hunt%2070",
        "xph": 700000,
        "profit": 300000,
        "fxp": "tp",
@@ -756,14 +728,42 @@
        "modo": "solo"
       },
       {
+       "m": "Ancient Scarab",
+       "onde": "Tumbas de Ankrahmun",
+       "lv": "70+",
+       "nota": "Boa XP e pouco dano.",
+       "exp": 720,
+       "hp": 1000,
+       "img": "img/monstros/ancient-scarab.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Scarab%20hunt%2070",
+       "xph": 650000,
+       "profit": 50000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
+       "m": "Hero",
+       "onde": "Hero Cave (Edron)",
+       "lv": "90+",
+       "nota": "Muita XP, puxe em box pequena.",
+       "exp": 1200,
+       "hp": 1400,
+       "img": "img/monstros/hero.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20hero%20cave%20edron%20hunt",
+       "xph": 1750000,
+       "profit": 300000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
        "m": "Werewolf",
        "onde": "Grimvale, Vengoth e Edron (Lycanthropes Cave)",
-       "lv": "80+",
+       "lv": "90+",
        "nota": "Ótima XP.",
        "exp": 1900,
        "hp": 1955,
        "img": "img/monstros/werewolf.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werewolf%20hunt%2080",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werewolf%20hunt%2090",
        "xph": 1550000,
        "profit": 400000,
        "fxp": "tp",
@@ -838,31 +838,6 @@
      "treino": "{skill} 80+. Comece a imbuir também a armadura (proteção do elemento da hunt).",
      "hunts": [
       {
-       "m": "Lizard Chosen",
-       "onde": "Temple of Equilibrium (Zao)",
-       "lv": "100+",
-       "nota": "Dropa Zaoan Legs e Zaoan Helmet.",
-       "exp": 2200,
-       "hp": 3050,
-       "img": "img/monstros/lizard-chosen.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Lizard%20Chosen%20hunt%20100",
-       "modo": "solo"
-      },
-      {
-       "m": "Glooth Bandit",
-       "onde": "Underground Glooth Factory (Oramond)",
-       "lv": "100+",
-       "nota": "Também dropa a Beastslayer Axe (machado).",
-       "exp": 2000,
-       "hp": 2600,
-       "img": "img/monstros/glooth-bandit.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Glooth%20Bandit%20hunt%20100",
-       "xph": 1700000,
-       "profit": 500000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
        "m": "Frost Dragon",
        "onde": "Okolnir (Svargrond)",
        "lv": "110+",
@@ -889,6 +864,31 @@
        "profit": 400000,
        "fxp": "tp",
        "modo": "ambos"
+      },
+      {
+       "m": "Lizard Chosen",
+       "onde": "Temple of Equilibrium (Zao)",
+       "lv": "130+",
+       "nota": "Dropa Zaoan Legs e Zaoan Helmet.",
+       "exp": 2200,
+       "hp": 3050,
+       "img": "img/monstros/lizard-chosen.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Lizard%20Chosen%20hunt%20130",
+       "modo": "solo"
+      },
+      {
+       "m": "Glooth Bandit",
+       "onde": "Underground Glooth Factory (Oramond)",
+       "lv": "130+",
+       "nota": "Também dropa a Beastslayer Axe (machado).",
+       "exp": 2000,
+       "hp": 2600,
+       "img": "img/monstros/glooth-bandit.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Glooth%20Bandit%20hunt%20130",
+       "xph": 1700000,
+       "profit": 500000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": [
@@ -937,20 +937,6 @@
      "treino": "Monte uma arma por elemento e imbua cada uma. Bestiary começa a dar bônus bons.",
      "hunts": [
       {
-       "m": "Werehyaena",
-       "onde": "Hyaena Lairs e Darashia Wyrm Hills (à noite)",
-       "lv": "150+",
-       "nota": "Com arma de fogo (Phantasmal Axe) rende muito.",
-       "exp": 2200,
-       "hp": 2700,
-       "img": "img/monstros/werehyaena.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werehyaena%20hunt%20150",
-       "xph": 2700000,
-       "profit": 600000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
        "m": "Ghastly Dragon",
        "onde": "Razachai (Zao)",
        "lv": "150+",
@@ -962,18 +948,32 @@
        "modo": "solo"
       },
       {
-       "m": "Dawnfire Asura",
-       "onde": "Asura Palace",
-       "lv": "170+",
-       "nota": "Box grande em time; solo, puxe aos poucos.",
-       "exp": 4100,
-       "hp": 2900,
-       "img": "img/monstros/dawnfire-asura.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20asura%20palace%20hunt",
-       "xph": 3300000,
+       "m": "Glooth Golem",
+       "onde": "Glooth Tower (Oramond)",
+       "lv": "150+",
+       "nota": "Boa XP e lucro. Arma de energia ajuda.",
+       "exp": 1606,
+       "hp": 2700,
+       "img": "img/monstros/glooth-golem.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Glooth%20Tower%20%28Oramond%29%20150",
+       "modo": "solo",
+       "xph": 2100000,
        "profit": 500000,
-       "fxp": "tp",
-       "modo": "ambos"
+       "fxp": "tp"
+      },
+      {
+       "m": "Werewolf",
+       "onde": "Edron (Werecreatures do sul)",
+       "lv": "150+",
+       "nota": "Lucro bom. Use proteção física.",
+       "exp": 1900,
+       "hp": 1955,
+       "img": "img/monstros/werewolf.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Edron%20%28Werecreatures%20do%20sul%29%20150",
+       "modo": "solo",
+       "xph": 1650000,
+       "profit": 600000,
+       "fxp": "tp"
       }
      ],
      "magias": [
@@ -1008,58 +1008,72 @@
      "treino": "{skill} 100+. Faça charms (Low Blow e Parry) e o Wheel of Destiny.",
      "hunts": [
       {
-       "m": "Frazzlemaw",
-       "onde": "Roshamuul",
+       "m": "Werehyaena",
+       "onde": "Hyaena Lairs e Darashia Wyrm Hills (à noite)",
        "lv": "200+",
-       "nota": "Junto com Silencers. Use proteção de morte.",
-       "exp": 3740,
-       "hp": 4100,
-       "img": "img/monstros/frazzlemaw.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Frazzlemaw%20hunt%20200",
-       "xph": 4300000,
-       "profit": 1000000,
-       "fxp": "tpv",
+       "nota": "Com arma de fogo (Phantasmal Axe) rende muito.",
+       "exp": 2200,
+       "hp": 2700,
+       "img": "img/monstros/werehyaena.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werehyaena%20hunt%20200",
+       "xph": 2700000,
+       "profit": 600000,
+       "fxp": "tp",
        "modo": "solo"
+      },
+      {
+       "m": "Dawnfire Asura",
+       "onde": "Asura Palace",
+       "lv": "200+",
+       "nota": "Box grande em time; solo, puxe aos poucos.",
+       "exp": 4100,
+       "hp": 2900,
+       "img": "img/monstros/dawnfire-asura.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20asura%20palace%20hunt",
+       "xph": 3300000,
+       "profit": 500000,
+       "fxp": "tp",
+       "modo": "ambos"
+      },
+      {
+       "m": "Grim Reaper",
+       "onde": "Yalahar Grim Reapers",
+       "lv": "200+",
+       "nota": "A maior XP do Knight nessa faixa. Use proteção de morte.",
+       "exp": 5500,
+       "hp": 3900,
+       "img": "img/monstros/grim-reaper.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Yalahar%20Grim%20Reapers%20200",
+       "modo": "solo",
+       "xph": 3800000,
+       "profit": 200000,
+       "fxp": "tp"
+      },
+      {
+       "m": "Medusa",
+       "onde": "Medusa Tower",
+       "lv": "200+",
+       "nota": "Use proteção de terra e um anel contra paralisia.",
+       "exp": 4050,
+       "hp": 4500,
+       "img": "img/monstros/medusa.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Medusa%20Tower%20200",
+       "modo": "solo",
+       "xph": 3000000,
+       "profit": 600000,
+       "fxp": "tp"
       },
       {
        "m": "Werelion",
        "onde": "Lion Sanctum (Bounac)",
-       "lv": "200+",
+       "lv": "250+",
        "nota": "Muito loot. Leve a arma de gelo (Cobra).",
        "exp": 2200,
        "hp": 2800,
        "img": "img/monstros/werelion.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werelion%20hunt%20200",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werelion%20hunt%20250",
        "xph": 2900000,
        "profit": 800000,
-       "fxp": "tpv",
-       "modo": "solo"
-      },
-      {
-       "m": "Cobra Assassin",
-       "onde": "Cobra Bastion",
-       "lv": "250+",
-       "nota": "Requer a quest The Order of the Cobra.",
-       "exp": 6980,
-       "hp": 8200,
-       "img": "img/monstros/cobra-assassin.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20cobra%20bastion%20hunt",
-       "xph": 5500000,
-       "profit": 700000,
-       "fxp": "tpv",
-       "modo": "solo"
-      },
-      {
-       "m": "Venerable Girtablilu",
-       "onde": "Ruins of Nuur (Kilmaresh)",
-       "lv": "250+",
-       "nota": "XP alta, dano físico e de terra.",
-       "exp": 5300,
-       "hp": 8500,
-       "img": "img/monstros/venerable-girtablilu.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Venerable%20Girtablilu%20hunt%20250",
-       "xph": 3700000,
-       "profit": 1400000,
        "fxp": "tpv",
        "modo": "solo"
       }
@@ -1096,17 +1110,6 @@
      "treino": "Hora dos tiers: Terra Helmet T3 primeiro. Mantenha {skill} subindo com exercise weapons.",
      "hunts": [
       {
-       "m": "Falcon Knight",
-       "onde": "Falcon Bastion (Edron)",
-       "lv": "300+",
-       "nota": "Dropa o set Falcon. Precisa da quest de acesso.",
-       "exp": 6300,
-       "hp": 9000,
-       "img": "img/monstros/falcon-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20falcon%20bastion%20hunt",
-       "modo": "pt"
-      },
-      {
        "m": "Ancient Lion Knight",
        "onde": "Lion Sanctum (Bounac)",
        "lv": "300+",
@@ -1115,6 +1118,20 @@
        "hp": 9100,
        "img": "img/monstros/ancient-lion-knight.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Ancient%20Lion%20Knight%20hunt%20300",
+       "modo": "solo"
+      },
+      {
+       "m": "Frazzlemaw",
+       "onde": "Roshamuul",
+       "lv": "300+",
+       "nota": "Junto com Silencers. Use proteção de morte.",
+       "exp": 3740,
+       "hp": 4100,
+       "img": "img/monstros/frazzlemaw.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Frazzlemaw%20hunt%20300",
+       "xph": 4300000,
+       "profit": 1000000,
+       "fxp": "tpv",
        "modo": "solo"
       },
       {
@@ -1138,6 +1155,17 @@
        "img": "img/monstros/juggernaut.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Juggernaut%20hunt%20350",
        "modo": "solo"
+      },
+      {
+       "m": "Falcon Knight",
+       "onde": "Falcon Bastion (Edron)",
+       "lv": "300+",
+       "nota": "Dropa o set Falcon. Precisa da quest de acesso.",
+       "exp": 6300,
+       "hp": 9000,
+       "img": "img/monstros/falcon-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20falcon%20bastion%20hunt",
+       "modo": "pt"
       }
      ],
      "magias": [
@@ -1217,20 +1245,6 @@
        "modo": "solo",
        "xph": 4300000,
        "profit": 1000000,
-       "fxp": "tpv"
-      },
-      {
-       "m": "Sphinx",
-       "onde": "Issavi Crypts (Sphinx e Crypt Wardens)",
-       "lv": "500+",
-       "nota": "A melhor XP solo do fim da faixa. Precisa da Kilmaresh Quest.",
-       "exp": 7500,
-       "hp": 8500,
-       "img": "img/monstros/sphinx.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Issavi%20Crypts%20%28Sphinx%20e%20Crypt%20Wardens%29%20solo%20500",
-       "modo": "solo",
-       "xph": 6200000,
-       "profit": 500000,
        "fxp": "tpv"
       },
       {
@@ -1430,6 +1444,20 @@
        "img": "img/monstros/orewalker.webp",
        "xph": 5500000,
        "profit": 2000000,
+       "fxp": "tpv",
+       "modo": "solo"
+      },
+      {
+       "m": "Venerable Girtablilu",
+       "onde": "Ruins of Nuur (Kilmaresh)",
+       "lv": "600+",
+       "nota": "XP alta, dano físico e de terra.",
+       "exp": 5300,
+       "hp": 8500,
+       "img": "img/monstros/venerable-girtablilu.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Venerable%20Girtablilu%20hunt%20600",
+       "xph": 3700000,
+       "profit": 1400000,
        "fxp": "tpv",
        "modo": "solo"
       }
@@ -1739,20 +1767,6 @@
        "modo": "ambos"
       },
       {
-       "m": "Amazon",
-       "onde": "Amazon Camp (Venore)",
-       "lv": "10+",
-       "nota": "Boa XP e loot para começar.",
-       "exp": 60,
-       "hp": 110,
-       "img": "img/monstros/amazon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Amazon%20hunt%2010",
-       "xph": 35000,
-       "profit": 60000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
        "m": "Minotaur",
        "onde": "Mintwallin e minotauros ao norte de Thais",
        "lv": "12+",
@@ -1761,6 +1775,20 @@
        "hp": 100,
        "img": "img/monstros/minotaur.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Minotaur%20hunt%2012",
+       "modo": "solo"
+      },
+      {
+       "m": "Amazon",
+       "onde": "Amazon Camp (Venore)",
+       "lv": "15+",
+       "nota": "Boa XP e loot para começar.",
+       "exp": 60,
+       "hp": 110,
+       "img": "img/monstros/amazon.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Amazon%20hunt%2015",
+       "xph": 35000,
+       "profit": 60000,
+       "fxp": "tp",
        "modo": "solo"
       }
      ],
@@ -2152,28 +2180,14 @@
       {
        "m": "Dragon",
        "onde": "Dragon lairs de Darashia e Thais",
-       "lv": "35+",
+       "lv": "40+",
        "nota": "A hunt clássica do Paladin nessa faixa.",
        "exp": 700,
        "hp": 1000,
        "img": "img/monstros/dragon.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dragon%20hunt%2035",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dragon%20hunt%2040",
        "xph": 220000,
        "profit": 0,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
-       "m": "Ancient Scarab",
-       "onde": "Tumbas de Ankrahmun",
-       "lv": "40+",
-       "nota": "Boa XP, leve Cure Poison.",
-       "exp": 720,
-       "hp": 1000,
-       "img": "img/monstros/ancient-scarab.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ancient%20Scarab%20hunt%2040",
-       "xph": 700000,
-       "profit": 10000,
        "fxp": "tp",
        "modo": "solo"
       },
@@ -2283,20 +2297,6 @@
      "treino": "Upe a proficiência do arco (perks de autoataque). Distance 70+.",
      "hunts": [
       {
-       "m": "Hero",
-       "onde": "Hero Cave (Edron)",
-       "lv": "60+",
-       "nota": "Ótima XP e dropa o Bow.",
-       "exp": 1200,
-       "hp": 1400,
-       "img": "img/monstros/hero.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hero%20hunt%2060",
-       "xph": 1750000,
-       "profit": 50000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
        "m": "Mutated Tiger",
        "onde": "Alchemist Quarter (Yalahar)",
        "lv": "60+",
@@ -2311,14 +2311,42 @@
        "modo": "solo"
       },
       {
+       "m": "Ancient Scarab",
+       "onde": "Tumbas de Ankrahmun",
+       "lv": "80+",
+       "nota": "Boa XP, leve Cure Poison.",
+       "exp": 720,
+       "hp": 1000,
+       "img": "img/monstros/ancient-scarab.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ancient%20Scarab%20hunt%2080",
+       "xph": 700000,
+       "profit": 10000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
+       "m": "Hero",
+       "onde": "Hero Cave (Edron)",
+       "lv": "90+",
+       "nota": "Ótima XP e dropa o Bow.",
+       "exp": 1200,
+       "hp": 1400,
+       "img": "img/monstros/hero.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hero%20hunt%2090",
+       "xph": 1750000,
+       "profit": 50000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
        "m": "Werewolf",
        "onde": "Grimvale, Vengoth e Edron (Lycanthropes Cave)",
-       "lv": "80+",
+       "lv": "90+",
        "nota": "Muita XP.",
        "exp": 1900,
        "hp": 1955,
        "img": "img/monstros/werewolf.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Werewolf%20hunt%2080",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Werewolf%20hunt%2090",
        "xph": 1300000,
        "profit": 200000,
        "fxp": "tp",
@@ -2447,12 +2475,12 @@
       {
        "m": "Hydra",
        "onde": "Hydra Mountain (Tiquanda), Forbidden Lands e Deeper Banuta",
-       "lv": "120+",
+       "lv": "130+",
        "nota": "Box grande com Divine Caldera.",
        "exp": 2100,
        "hp": 2350,
        "img": "img/monstros/hydra.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hydra%20hunt%20120",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Hydra%20hunt%20130",
        "xph": 750000,
        "profit": 200000,
        "fxp": "tpv",
@@ -2495,20 +2523,6 @@
        "profit": 10000,
        "fxp": "tp",
        "modo": "solo"
-      },
-      {
-       "m": "Dawnfire Asura",
-       "onde": "Asura Palace",
-       "lv": "170+",
-       "nota": "Bate morte. Muito boa XP.",
-       "exp": 4100,
-       "hp": 2900,
-       "img": "img/monstros/dawnfire-asura.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Dawnfire%20Asura%20hunt%20170",
-       "xph": 3100000,
-       "profit": 100000,
-       "fxp": "tp",
-       "modo": "ambos"
       },
       {
        "m": "Ghastly Dragon",
@@ -2573,37 +2587,9 @@
        "modo": "solo"
       },
       {
-       "m": null,
-       "onde": "Warzone 5 e 6 (Bigfoot's Burden)",
-       "lv": "200+",
-       "nota": "Também bate terra e é das melhores hunts dessa faixa.",
-       "exp": null,
-       "hp": null,
-       "img": "img/monstros/cave-devourer.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20warzone%205%206%20hunt",
-       "xph": 4300000,
-       "profit": 800000,
-       "fxp": "tp",
-       "modo": "ambos"
-      },
-      {
-       "m": "Burster Spectre",
-       "onde": "Haunted Tomb (oeste de Darashia)",
-       "lv": "220+",
-       "nota": "Bate gelo: use a Embrace of Nature.",
-       "exp": 6000,
-       "hp": 6500,
-       "img": "img/monstros/burster-spectre.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20burster%20spectre%20hunt",
-       "xph": 3300000,
-       "profit": 100000,
-       "fxp": "tp",
-       "modo": "ambos"
-      },
-      {
        "m": "Dawnfire Asura",
        "onde": "Asura Palace",
-       "lv": "230+",
+       "lv": "200+",
        "nota": "Bate morte: use o Bow of Cataclysm e a Ghost Chestplate de morte.",
        "exp": 4100,
        "hp": 2900,
@@ -2611,6 +2597,20 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20asura%20palace%20hunt",
        "xph": 3100000,
        "profit": 100000,
+       "fxp": "tp",
+       "modo": "ambos"
+      },
+      {
+       "m": null,
+       "onde": "Warzone 5 e 6 (Bigfoot's Burden)",
+       "lv": "230+",
+       "nota": "Também bate terra e é das melhores hunts dessa faixa.",
+       "exp": null,
+       "hp": null,
+       "img": "img/monstros/cave-devourer.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20warzone%205%206%20hunt",
+       "xph": 4300000,
+       "profit": 800000,
        "fxp": "tp",
        "modo": "ambos"
       },
@@ -2677,43 +2677,60 @@
      "treino": "Teste as duas estâncias (Sharpshooter e a defensiva de Holy). Faça charms e o Wheel.",
      "hunts": [
       {
-       "m": "Bashmu",
-       "onde": "Salt Caves (Kilmaresh)",
+       "m": "Burster Spectre",
+       "onde": "Haunted Tomb (oeste de Darashia)",
        "lv": "300+",
-       "nota": "Bate energia: com a Gnome Armor você economiza imbuement.",
-       "exp": 5000,
-       "hp": 8200,
-       "img": "img/monstros/bashmu.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20bashmu%20hunt",
-       "xph": 4100000,
-       "profit": 1700000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
-       "m": "Falcon Knight",
-       "onde": "Falcon Bastion (Edron)",
-       "lv": "300+",
-       "nota": "Dropa o set Falcon e o Falcon Bow.",
-       "exp": 6300,
-       "hp": 9000,
-       "img": "img/monstros/falcon-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20falcon%20bastion%20hunt",
-       "xph": 7000000,
-       "profit": 1800000,
+       "nota": "Bate gelo: use a Embrace of Nature.",
+       "exp": 6000,
+       "hp": 6500,
+       "img": "img/monstros/burster-spectre.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20burster%20spectre%20hunt",
+       "xph": 3300000,
+       "profit": 100000,
        "fxp": "tp",
        "modo": "ambos"
       },
       {
-       "m": "Cobra Assassin",
-       "onde": "Cobra Bastion",
+       "m": "Flimsy Lost Soul",
+       "onde": "Venore Flimsies (-1)",
        "lv": "300+",
-       "nota": "Requer a quest The Order of the Cobra.",
-       "exp": 6980,
-       "hp": 8200,
-       "img": "img/monstros/cobra-assassin.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20cobra%20bastion%20hunt",
-       "modo": "pt"
+       "nota": "A melhor XP do Paladin nessa faixa. Use Firestorm Arrows.",
+       "exp": 4500,
+       "hp": 4000,
+       "img": "img/monstros/flimsy-lost-soul.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Venore%20Flimsies%20%28-1%29%20300",
+       "modo": "solo",
+       "xph": 6000000,
+       "profit": 300000,
+       "fxp": "tp"
+      },
+      {
+       "m": "Naga Warrior",
+       "onde": "Marapur (Nagas)",
+       "lv": "300+",
+       "nota": "XP boa com lucro.",
+       "exp": 5890,
+       "hp": 5530,
+       "img": "img/monstros/naga-warrior.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Marapur%20%28Nagas%29%20300",
+       "modo": "solo",
+       "xph": 5000000,
+       "profit": 400000,
+       "fxp": "tp"
+      },
+      {
+       "m": "White Weretiger",
+       "onde": "Oskayaat (Weretigers -2)",
+       "lv": "300+",
+       "nota": "Lucro alto para a faixa.",
+       "exp": 5200,
+       "hp": 6100,
+       "img": "img/monstros/white-weretiger.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Oskayaat%20%28Weretigers%20-2%29%20300",
+       "modo": "solo",
+       "xph": 4300000,
+       "profit": 800000,
+       "fxp": "tp"
       },
       {
        "m": "Hellflayer",
@@ -2725,6 +2742,17 @@
        "img": "img/monstros/hellflayer.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20hellflayer%20hunt",
        "modo": "solo"
+      },
+      {
+       "m": "Cobra Assassin",
+       "onde": "Cobra Bastion",
+       "lv": "300+",
+       "nota": "Requer a quest The Order of the Cobra.",
+       "exp": 6980,
+       "hp": 8200,
+       "img": "img/monstros/cobra-assassin.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20cobra%20bastion%20hunt",
+       "modo": "pt"
       }
      ],
      "magias": [
@@ -2893,6 +2921,34 @@
        "fxp": "tp"
       },
       {
+       "m": "Bashmu",
+       "onde": "Salt Caves (Kilmaresh)",
+       "lv": "500+",
+       "nota": "Bate energia: com a Gnome Armor você economiza imbuement.",
+       "exp": 5000,
+       "hp": 8200,
+       "img": "img/monstros/bashmu.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20bashmu%20hunt",
+       "xph": 4100000,
+       "profit": 1700000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
+       "m": "Falcon Knight",
+       "onde": "Falcon Bastion (Edron)",
+       "lv": "500+",
+       "nota": "Dropa o set Falcon e o Falcon Bow.",
+       "exp": 6300,
+       "hp": 9000,
+       "img": "img/monstros/falcon-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20falcon%20bastion%20hunt",
+       "xph": 7000000,
+       "profit": 1800000,
+       "fxp": "tp",
+       "modo": "ambos"
+      },
+      {
        "m": "Bloated Man-Maggot",
        "onde": "Rotten Blood (Jaded Roots)",
        "lv": "500+",
@@ -2999,10 +3055,10 @@
      "treino": "Suba tiers no arco e nas Sanguine Greaves.",
      "hunts": [
       {
-       "onde": "Norcferatu Dungeons East",
-       "lv": "700+",
+       "onde": "Norcferatu Dungeons West",
+       "lv": "600+",
        "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 0,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20East%20hunt%20700",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20West%20hunt%20600",
        "img": "img/monstros/norcferatu-nightweaver.webp",
        "xph": 8500000,
        "profit": 800000,
@@ -3010,10 +3066,21 @@
        "modo": "ambos"
       },
       {
-       "onde": "Norcferatu Dungeons West",
+       "onde": "Deep Desert",
        "lv": "600+",
+       "nota": "Diamond Arrows, Ethereal. 5,1 kk de XP e 1,8 kk de lucro por hora.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Deep%20Desert%20hunt%20600",
+       "img": "img/monstros/skeleton-elite-warrior.webp",
+       "xph": 5100000,
+       "profit": 1800000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
+       "onde": "Norcferatu Dungeons East",
+       "lv": "700+",
        "nota": "Diamond Arrows, Ethereal. 8,5 kk de XP e 0,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20West%20hunt%20600",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Norcferatu%20Dungeons%20East%20hunt%20700",
        "img": "img/monstros/norcferatu-nightweaver.webp",
        "xph": 8500000,
        "profit": 800000,
@@ -3028,17 +3095,6 @@
        "img": "img/monstros/wardragon.webp",
        "xph": 8400000,
        "profit": 800000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
-       "onde": "Deep Desert",
-       "lv": "600+",
-       "nota": "Diamond Arrows, Ethereal. 5,1 kk de XP e 1,8 kk de lucro por hora.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Deep%20Desert%20hunt%20600",
-       "img": "img/monstros/skeleton-elite-warrior.webp",
-       "xph": 5100000,
-       "profit": 1800000,
        "fxp": "tp",
        "modo": "solo"
       }
@@ -4025,20 +4081,6 @@
      "treino": "GFB nas boxes. ML sobe usando mana.",
      "hunts": [
       {
-       "m": "Ancient Scarab",
-       "onde": "Tumbas de Ankrahmun",
-       "lv": "40+",
-       "nota": "Boa XP para mago.",
-       "exp": 720,
-       "hp": 1000,
-       "img": "img/monstros/ancient-scarab.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ancient%20scarab%20hunt",
-       "xph": 650000,
-       "profit": 200000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
        "m": "Dragon",
        "onde": "Dragon lairs de Darashia e Thais",
        "lv": "45+",
@@ -4047,6 +4089,20 @@
        "hp": 1000,
        "img": "img/monstros/dragon.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20dragon%20hunt",
+       "modo": "solo"
+      },
+      {
+       "m": "Ancient Scarab",
+       "onde": "Tumbas de Ankrahmun",
+       "lv": "50+",
+       "nota": "Boa XP para mago.",
+       "exp": 720,
+       "hp": 1000,
+       "img": "img/monstros/ancient-scarab.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ancient%20scarab%20hunt",
+       "xph": 650000,
+       "profit": 200000,
+       "fxp": "tp",
        "modo": "solo"
       }
      ],
@@ -4168,6 +4224,20 @@
      "treino": "Não gaste com tier nem com itens caros: o set troca rápido.",
      "hunts": [
       {
+       "m": "Water Elemental",
+       "onde": "Water Elementals (Port Hope)",
+       "lv": "55+",
+       "nota": "Use energia. Boa para começar.",
+       "exp": 650,
+       "hp": 550,
+       "img": "img/monstros/water-elemental.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Water%20Elementals%20%28Port%20Hope%29%2055",
+       "modo": "solo",
+       "xph": 670000,
+       "profit": 100000,
+       "fxp": "tp"
+      },
+      {
        "m": "Mutated Human",
        "onde": "Alchemist Quarter (Yalahar)",
        "lv": "60+",
@@ -4182,18 +4252,18 @@
        "modo": "solo"
       },
       {
-       "m": "Hero",
-       "onde": "Hero Cave (Edron)",
-       "lv": "70+",
-       "nota": "Boa XP com magias de fogo.",
-       "exp": 1200,
-       "hp": 1400,
-       "img": "img/monstros/hero.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20hero%20cave%20hunt",
-       "xph": 1700000,
-       "profit": 100000,
-       "fxp": "tp",
-       "modo": "solo"
+       "m": "Quara Predator",
+       "onde": "Quaras de Liberty Bay",
+       "lv": "80+",
+       "nota": "Ótima XP para a faixa. Use energia.",
+       "exp": 1850,
+       "hp": 2200,
+       "img": "img/monstros/quara-predator.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Quaras%20de%20Liberty%20Bay%2080",
+       "modo": "solo",
+       "xph": 975000,
+       "profit": 300000,
+       "fxp": "tp"
       }
      ],
      "magias": [
@@ -4274,7 +4344,7 @@
       {
        "m": "Glooth Bandit",
        "onde": "Underground Glooth Factory (Oramond)",
-       "lv": "100+",
+       "lv": "120+",
        "nota": "Box com GFB.",
        "exp": 2000,
        "hp": 2600,
@@ -4288,7 +4358,7 @@
       {
        "m": "Lizard Chosen",
        "onde": "Temple of Equilibrium (Zao)",
-       "lv": "100+",
+       "lv": "120+",
        "nota": "Boa XP e loot.",
        "exp": 2200,
        "hp": 3050,
@@ -4296,6 +4366,20 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20lizard%20chosen%20hunt",
        "xph": 1200000,
        "profit": 200000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
+       "m": "Hero",
+       "onde": "Hero Cave (Edron)",
+       "lv": "120+",
+       "nota": "Boa XP com magias de fogo.",
+       "exp": 1200,
+       "hp": 1400,
+       "img": "img/monstros/hero.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20hero%20cave%20hunt",
+       "xph": 1700000,
+       "profit": 100000,
        "fxp": "tp",
        "modo": "solo"
       }
@@ -4381,9 +4465,23 @@
        "modo": "solo"
       },
       {
+       "m": "Grim Reaper",
+       "onde": "Grim Reapers (Drefia e Oramond)",
+       "lv": "250+",
+       "nota": "Do vídeo: dá uns 4kk/h, mas mago rende menos que as outras vocações.",
+       "exp": 5500,
+       "hp": 3900,
+       "img": "img/monstros/grim-reaper.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20grim%20reaper%20hunt",
+       "xph": 3200000,
+       "profit": -50000,
+       "fxp": "tp",
+       "modo": "ambos"
+      },
+      {
        "m": null,
        "onde": "The Spike (Kazordoon), último andar",
-       "lv": "230+",
+       "lv": "275+",
        "nota": "Do vídeo: alternativa grande, uns 3kk/h. Precisa se mexer bastante.",
        "exp": null,
        "hp": null,
@@ -4397,7 +4495,7 @@
       {
        "m": null,
        "onde": "Warzone 4",
-       "lv": "250+",
+       "lv": "275+",
        "nota": "Do vídeo: 3kk/h e mais relaxada que a Spike.",
        "exp": null,
        "hp": null,
@@ -4405,20 +4503,6 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%204%20hunt",
        "xph": 3700000,
        "profit": 1400000,
-       "fxp": "tp",
-       "modo": "ambos"
-      },
-      {
-       "m": "Grim Reaper",
-       "onde": "Grim Reapers (Drefia e Oramond)",
-       "lv": "250+",
-       "nota": "Do vídeo: dá uns 4kk/h, mas mago rende menos que as outras vocações.",
-       "exp": 5500,
-       "hp": 3900,
-       "img": "img/monstros/grim-reaper.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20grim%20reaper%20hunt",
-       "xph": 3200000,
-       "profit": -50000,
        "fxp": "tp",
        "modo": "ambos"
       }
@@ -4486,16 +4570,16 @@
        "modo": "solo"
       },
       {
-       "m": null,
-       "onde": "Warzone (o cristal)",
-       "lv": "350+",
-       "nota": "Do vídeo: postura de fogo, 5,6kk/h no 363. Bate muito gelo: leve proteção.",
-       "exp": null,
-       "hp": null,
-       "img": "img/monstros/cliff-strider.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%20crystal%20hunt",
-       "xph": 4000000,
-       "profit": 1600000,
+       "m": "White Weretiger",
+       "onde": "Oskayaat (Marapur)",
+       "lv": "330+",
+       "nota": "Do vídeo: confortável, 4kk/h, pouco profit.",
+       "exp": 5200,
+       "hp": 6100,
+       "img": "img/monstros/white-weretiger.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20white%20weretiger%20hunt",
+       "xph": 4400000,
+       "profit": 1000000,
        "fxp": "tp",
        "modo": "solo"
       },
@@ -4512,34 +4596,6 @@
        "profit": 400000,
        "fxp": "tp",
        "modo": "ambos"
-      },
-      {
-       "m": "White Weretiger",
-       "onde": "Oskayaat (Marapur)",
-       "lv": "330+",
-       "nota": "Do vídeo: confortável, 4kk/h, pouco profit.",
-       "exp": 5200,
-       "hp": 6100,
-       "img": "img/monstros/white-weretiger.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20white%20weretiger%20hunt",
-       "xph": 4400000,
-       "profit": 1000000,
-       "fxp": "tp",
-       "modo": "solo"
-      },
-      {
-       "m": null,
-       "onde": "Usurpers na entrada do Drume (Bounac)",
-       "lv": "360+",
-       "nota": "Do vídeo: apanham muito de morte. 5kk/h no 368. Batem forte.",
-       "exp": null,
-       "hp": null,
-       "img": "img/monstros/usurper-knight.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20usurper%20drume%20hunt",
-       "xph": 5600000,
-       "profit": 2000000,
-       "fxp": "tp",
-       "modo": "solo"
       }
      ],
      "magias": [
@@ -4625,6 +4681,20 @@
        "modo": "solo"
       },
       {
+       "m": null,
+       "onde": "Warzone (o cristal)",
+       "lv": "400+",
+       "nota": "Do vídeo: postura de fogo, 5,6kk/h no 363. Bate muito gelo: leve proteção.",
+       "exp": null,
+       "hp": null,
+       "img": "img/monstros/cliff-strider.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20warzone%20crystal%20hunt",
+       "xph": 4000000,
+       "profit": 1600000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
        "m": "Crypt Warrior",
        "onde": "Crypt Warriors (acesso do Drume)",
        "lv": "420+",
@@ -4636,17 +4706,6 @@
        "xph": 5400000,
        "profit": 600000,
        "fxp": "tp",
-       "modo": "ambos"
-      },
-      {
-       "m": null,
-       "onde": "Ingol (-5)",
-       "lv": "480+",
-       "nota": "Do vídeo: mais de 5kk/h. Bate energia: Void Boots ou Prismatic Ring.",
-       "exp": null,
-       "hp": null,
-       "img": "img/monstros/crape-man.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ingol%20hunt",
        "modo": "ambos"
       }
      ],
@@ -4727,6 +4786,20 @@
        "profit": 1000000,
        "fxp": "tp",
        "modo": "ambos"
+      },
+      {
+       "m": null,
+       "onde": "Usurpers na entrada do Drume (Bounac)",
+       "lv": "500+",
+       "nota": "Do vídeo: apanham muito de morte. 5kk/h no 368. Batem forte.",
+       "exp": null,
+       "hp": null,
+       "img": "img/monstros/usurper-knight.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20usurper%20drume%20hunt",
+       "xph": 5600000,
+       "profit": 2000000,
+       "fxp": "tp",
+       "modo": "solo"
       }
      ],
      "magias": []
@@ -4782,6 +4855,17 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20%28-7%29%20hunt%20600",
        "img": "img/monstros/mega-dragon.webp",
        "modo": "solo"
+      },
+      {
+       "m": null,
+       "onde": "Ingol (-5)",
+       "lv": "600+",
+       "nota": "Do vídeo: mais de 5kk/h. Bate energia: Void Boots ou Prismatic Ring.",
+       "exp": null,
+       "hp": null,
+       "img": "img/monstros/crape-man.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ingol%20hunt",
+       "modo": "ambos"
       }
      ],
      "magias": []
@@ -4792,22 +4876,6 @@
      "skill": null,
      "treino": "Suba tiers nas Sanguine Boots e na wand.",
      "hunts": [
-      {
-       "onde": "Norcferatu Dungeons East e West",
-       "lv": "600+",
-       "nota": "Dano de fogo.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20600",
-       "img": "img/monstros/norcferatu-nightweaver.webp",
-       "modo": "ambos"
-      },
-      {
-       "onde": "Nimmersatt's Boss Floor (-6)",
-       "lv": "600+",
-       "nota": "Dano de energia.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600",
-       "img": "img/monstros/wardragon.webp",
-       "modo": "solo"
-      },
       {
        "onde": "Issavi Sphinxes e Crypt Wardens",
        "lv": "500+",
@@ -4828,6 +4896,22 @@
        "xph": 6600000,
        "profit": 2000000,
        "fxp": "tp",
+       "modo": "solo"
+      },
+      {
+       "onde": "Norcferatu Dungeons East e West",
+       "lv": "600+",
+       "nota": "Dano de fogo.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20600",
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "modo": "ambos"
+      },
+      {
+       "onde": "Nimmersatt's Boss Floor (-6)",
+       "lv": "600+",
+       "nota": "Dano de energia.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600",
+       "img": "img/monstros/wardragon.webp",
        "modo": "solo"
       }
      ],
@@ -4938,14 +5022,6 @@
      "treino": "Depois do Moonsilver, o ganho vem dos tiers e da proficiência da arma.",
      "hunts": [
       {
-       "onde": "Forsaken Crypt",
-       "lv": "1000+",
-       "nota": "Dano de morte.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Forsaken%20Crypt%20hunt%201000",
-       "img": "img/monstros/roaming-dread.webp",
-       "modo": "solo"
-      },
-      {
        "onde": "True Asuras",
        "lv": "800+",
        "nota": "Dano de energia.",
@@ -4959,6 +5035,14 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Asura%20Citadel%20hunt%20800",
        "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
+      },
+      {
+       "onde": "Forsaken Crypt",
+       "lv": "1000+",
+       "nota": "Dano de morte.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Forsaken%20Crypt%20hunt%201000",
+       "img": "img/monstros/roaming-dread.webp",
        "modo": "solo"
       }
      ],
@@ -5836,20 +5920,6 @@
      "treino": "Avalanche e Stone Shower nas boxes. ML sobe usando mana.",
      "hunts": [
       {
-       "m": "Ancient Scarab",
-       "onde": "Tumbas de Ankrahmun",
-       "lv": "40+",
-       "nota": "Boa XP para mago.",
-       "exp": 720,
-       "hp": 1000,
-       "img": "img/monstros/ancient-scarab.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20ancient%20scarab%20hunt",
-       "modo": "solo",
-       "xph": 680000,
-       "profit": -10000,
-       "fxp": "tpv"
-      },
-      {
        "m": "Dragon",
        "onde": "Dragon lairs de Darashia e Thais",
        "lv": "45+",
@@ -5859,6 +5929,20 @@
        "img": "img/monstros/dragon.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20dragon%20hunt",
        "modo": "solo"
+      },
+      {
+       "m": "Ancient Scarab",
+       "onde": "Tumbas de Ankrahmun",
+       "lv": "50+",
+       "nota": "Boa XP para mago.",
+       "exp": 720,
+       "hp": 1000,
+       "img": "img/monstros/ancient-scarab.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20ancient%20scarab%20hunt",
+       "modo": "solo",
+       "xph": 680000,
+       "profit": -10000,
+       "fxp": "tpv"
       }
      ],
      "magias": [
@@ -6110,15 +6194,32 @@
      "treino": "Gemas pequenas: vida e cap são as melhores para mago. Não gaste muito abrindo gema.",
      "hunts": [
       {
-       "m": null,
-       "onde": "Warzone (Bigfoot's Burden)",
+       "m": "Quara Predator",
+       "onde": "Oramond West (raid de Quaras)",
        "lv": "150+",
-       "nota": "Do vídeo: vá em time e faça sempre que puder.",
-       "exp": null,
-       "hp": null,
-       "img": "img/monstros/lost-berserker.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%20hunt",
-       "modo": "ambos"
+       "nota": "Rende mais quando o raid de Quaras está ativo. Valores do TibiaPal.",
+       "exp": 1850,
+       "hp": 2200,
+       "img": "img/monstros/quara-predator.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Oramond%20West%20%28raid%20de%20Quaras%29%20150",
+       "modo": "solo",
+       "xph": 2000000,
+       "profit": -100000,
+       "fxp": "tp"
+      },
+      {
+       "m": "Minotaur Hunter",
+       "onde": "Minotauros de Oramond",
+       "lv": "150+",
+       "nota": "Hunt tranquila. Valores da tabela de mago do TibiaPal.",
+       "exp": 1700,
+       "hp": 1400,
+       "img": "img/monstros/minotaur-hunter.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Minotauros%20de%20Oramond%20150",
+       "modo": "solo",
+       "xph": 1100000,
+       "profit": 100000,
+       "fxp": "tpv"
       }
      ],
      "magias": []
@@ -6130,26 +6231,18 @@
      "treino": "Asura e Grim Reaper não rendem para Druid (monstros invisíveis e terra não bate). Prefira Wyrms e Gazers.",
      "hunts": [
       {
-       "m": "Gazer Spectre",
-       "onde": "Haunted Temple",
+       "m": "Werehyaena",
+       "onde": "Werehyaenas (norte)",
        "lv": "200+",
-       "nota": "Do vídeo: hunt pequena e disputada, mas muito boa (3kk/h de XP).",
-       "exp": 4200,
-       "hp": 4500,
-       "img": "img/monstros/gazer-spectre.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20gazer%20spectre%20hunt",
-       "modo": "ambos"
-      },
-      {
-       "m": null,
-       "onde": "Warzone 4 (as minhocas)",
-       "lv": "250+",
-       "nota": "Do vídeo: profit bom no 260, mas a fork de terra quase não bate.",
-       "exp": null,
-       "hp": null,
-       "img": "img/monstros/drillworm.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%204%20hunt",
-       "modo": "ambos"
+       "nota": "Use Forked Glacier. Valores da tabela de mago do TibiaPal.",
+       "exp": 2200,
+       "hp": 2700,
+       "img": "img/monstros/werehyaena.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Werehyaenas%20%28norte%29%20200",
+       "modo": "solo",
+       "xph": 2200000,
+       "profit": 600000,
+       "fxp": "tpv"
       },
       {
        "m": "Wyrm",
@@ -6161,17 +6254,6 @@
        "img": "img/monstros/wyrm.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20wyrm%20hunt",
        "modo": "solo"
-      },
-      {
-       "m": "Burster Spectre",
-       "onde": "Haunted Tomb (oeste de Darashia)",
-       "lv": "300+",
-       "nota": "Do vídeo: dano alto e XP fraca. Só para bestiary ou bounty. Use summon para segurar dano.",
-       "exp": 6000,
-       "hp": 6500,
-       "img": "img/monstros/burster-spectre.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20burster%20spectre%20hunt",
-       "modo": "ambos"
       }
      ],
      "magias": [
@@ -6198,31 +6280,47 @@
      "treino": "Use summon (Demon Skeleton) para segurar dano e puxar monstros para perto das forks.",
      "hunts": [
       {
-       "m": "Falcon Knight",
-       "onde": "Falcon Bastion (Edron)",
-       "lv": "380+",
-       "nota": "Do vídeo: Druid caça muito bem aqui, mas no 380 ainda é arriscado. Defesa física faz falta.",
-       "exp": 6300,
-       "hp": 9000,
-       "img": "img/monstros/falcon-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20falcon%20bastion%20hunt",
-       "xph": 5500000,
-       "profit": 1300000,
-       "fxp": "tpv",
-       "modo": "solo"
+       "m": null,
+       "onde": "Warzone (Bigfoot's Burden)",
+       "lv": "300+",
+       "nota": "Do vídeo: vá em time e faça sempre que puder.",
+       "exp": null,
+       "hp": null,
+       "img": "img/monstros/lost-berserker.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%20hunt",
+       "modo": "ambos"
       },
       {
-       "m": "Naga Warrior",
-       "onde": "Temple of the Moon Goddess (Marapur)",
-       "lv": "400+",
-       "nota": "Do vídeo: 5kk/h de XP, mas muito pesada. Só a partir do 400.",
-       "exp": 5890,
-       "hp": 5530,
-       "img": "img/monstros/naga-warrior.webp",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20naga%20marapur%20hunt",
-       "xph": 5500000,
-       "profit": 400000,
-       "fxp": "tpv",
+       "m": "Gazer Spectre",
+       "onde": "Haunted Temple",
+       "lv": "300+",
+       "nota": "Do vídeo: hunt pequena e disputada, mas muito boa (3kk/h de XP).",
+       "exp": 4200,
+       "hp": 4500,
+       "img": "img/monstros/gazer-spectre.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20gazer%20spectre%20hunt",
+       "modo": "ambos"
+      },
+      {
+       "m": null,
+       "onde": "Warzone 4 (as minhocas)",
+       "lv": "300+",
+       "nota": "Do vídeo: profit bom no 260, mas a fork de terra quase não bate.",
+       "exp": null,
+       "hp": null,
+       "img": "img/monstros/drillworm.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%204%20hunt",
+       "modo": "ambos"
+      },
+      {
+       "m": "Burster Spectre",
+       "onde": "Haunted Tomb (oeste de Darashia)",
+       "lv": "300+",
+       "nota": "Do vídeo: dano alto e XP fraca. Só para bestiary ou bounty. Use summon para segurar dano.",
+       "exp": 6000,
+       "hp": 6500,
+       "img": "img/monstros/burster-spectre.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20burster%20spectre%20hunt",
        "modo": "ambos"
       }
      ],
@@ -6334,6 +6432,34 @@
        "xph": 5000000,
        "profit": 1000000,
        "fxp": "tpv"
+      },
+      {
+       "m": "Falcon Knight",
+       "onde": "Falcon Bastion (Edron)",
+       "lv": "400+",
+       "nota": "Do vídeo: Druid caça muito bem aqui, mas no 380 ainda é arriscado. Defesa física faz falta.",
+       "exp": 6300,
+       "hp": 9000,
+       "img": "img/monstros/falcon-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20falcon%20bastion%20hunt",
+       "xph": 5500000,
+       "profit": 1300000,
+       "fxp": "tpv",
+       "modo": "solo"
+      },
+      {
+       "m": "Naga Warrior",
+       "onde": "Temple of the Moon Goddess (Marapur)",
+       "lv": "400+",
+       "nota": "Do vídeo: 5kk/h de XP, mas muito pesada. Só a partir do 400.",
+       "exp": 5890,
+       "hp": 5530,
+       "img": "img/monstros/naga-warrior.webp",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20naga%20marapur%20hunt",
+       "xph": 5500000,
+       "profit": 400000,
+       "fxp": "tpv",
+       "modo": "ambos"
       },
       {
        "m": "Bony Sea Devil",
@@ -6568,22 +6694,6 @@
      "treino": "Junte gold para o Sceptre do 1000.",
      "hunts": [
       {
-       "onde": "True Asuras",
-       "lv": "800+",
-       "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800",
-       "img": "img/monstros/true-midnight-asura.webp",
-       "modo": "ambos"
-      },
-      {
-       "onde": "Asura Citadel",
-       "lv": "800+",
-       "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
-       "img": "img/monstros/true-frost-flower-asura.webp",
-       "modo": "solo"
-      },
-      {
        "onde": "Feru Mazoran",
        "lv": "600+",
        "nota": "Forked Glacier + Avalanche.",
@@ -6598,23 +6708,6 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%209%20hunt%20600",
        "img": "img/monstros/afflicted-strider.webp",
        "modo": "solo"
-      }
-     ],
-     "magias": []
-    },
-    {
-     "faixa": "1000+",
-     "objetivo": "No 1000: Moonsilver Sceptre.",
-     "skill": null,
-     "treino": "Depois do Moonsilver, o ganho vem dos tiers e da proficiência da arma.",
-     "hunts": [
-      {
-       "onde": "Forsaken Crypt",
-       "lv": "1000+",
-       "nota": "Forked Thorns + Forked Glacier.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Forsaken%20Crypt%20hunt%201000",
-       "img": "img/monstros/roaming-dread.webp",
-       "modo": "solo"
       },
       {
        "onde": "True Asuras",
@@ -6630,6 +6723,39 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
        "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
+      }
+     ],
+     "magias": []
+    },
+    {
+     "faixa": "1000+",
+     "objetivo": "No 1000: Moonsilver Sceptre.",
+     "skill": null,
+     "treino": "Depois do Moonsilver, o ganho vem dos tiers e da proficiência da arma.",
+     "hunts": [
+      {
+       "onde": "True Asuras",
+       "lv": "800+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800",
+       "img": "img/monstros/true-midnight-asura.webp",
+       "modo": "ambos"
+      },
+      {
+       "onde": "Asura Citadel",
+       "lv": "800+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
+       "img": "img/monstros/true-frost-flower-asura.webp",
+       "modo": "solo"
+      },
+      {
+       "onde": "Forsaken Crypt",
+       "lv": "1000+",
+       "nota": "Forked Thorns + Forked Glacier.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Forsaken%20Crypt%20hunt%201000",
+       "img": "img/monstros/roaming-dread.webp",
        "modo": "solo"
       }
      ],
@@ -7117,20 +7243,6 @@
        "img": "img/monstros/thornback-tortoise.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20tortoise%20hunt",
        "modo": "solo"
-      },
-      {
-       "m": "Water Elemental",
-       "onde": "Water Elementals (Port Hope, porta do lvl 50)",
-       "lv": "50+",
-       "nota": "Do vídeo: XP perto da dos leões, mas muito pesada para o level.",
-       "exp": 650,
-       "hp": 550,
-       "img": "img/monstros/water-elemental.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20water%20elemental%20port%20hope%20hunt",
-       "xph": 650000,
-       "profit": 200000,
-       "fxp": "tp",
-       "modo": "solo"
       }
      ],
      "magias": [
@@ -7169,6 +7281,20 @@
      "treino": "No 70 entra a corrente (dano em área) e no 90 a rotação completa. Use a virtude de Harmonia para fazer XP e a de Sustain para segurar dano.",
      "hunts": [
       {
+       "m": "Water Elemental",
+       "onde": "Water Elementals (Port Hope, porta do lvl 50)",
+       "lv": "60+",
+       "nota": "Do vídeo: XP perto da dos leões, mas muito pesada para o level.",
+       "exp": 650,
+       "hp": 550,
+       "img": "img/monstros/water-elemental.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20water%20elemental%20port%20hope%20hunt",
+       "xph": 650000,
+       "profit": 200000,
+       "fxp": "tp",
+       "modo": "solo"
+      },
+      {
        "m": null,
        "onde": "Lion's Rock",
        "lv": "70+",
@@ -7185,7 +7311,7 @@
       {
        "m": "Quara Predator",
        "onde": "Sunken Quarter (Yalahar)",
-       "lv": "80+",
+       "lv": "90+",
        "nota": "Do vídeo: com arma de energia, é a melhor até o 90. Use Werewolf Amulet e Dwarven Legs (o dano físico é alto).",
        "exp": 1850,
        "hp": 2200,
@@ -7281,20 +7407,6 @@
        "profit": 100000,
        "fxp": "tpv",
        "modo": "ambos"
-      },
-      {
-       "m": "Glooth Golem",
-       "onde": "Glooth Tower (Oramond)",
-       "lv": "120+",
-       "nota": "Do vídeo (Alypaz): acesso fácil, dá para vir cedo com a Drachaku (energia). Muito bestiary.",
-       "exp": 1606,
-       "hp": 2700,
-       "img": "img/monstros/glooth-golem.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20glooth%20tower%20hunt",
-       "xph": 2100000,
-       "profit": 50000,
-       "fxp": "tpv",
-       "modo": "solo"
       }
      ],
      "magias": [
@@ -7329,20 +7441,6 @@
      "treino": "Proteção física em % é rara no Monk: priorize itens com ela.",
      "hunts": [
       {
-       "m": "Barkless Devotee",
-       "onde": "Barkless Cult (embaixo de Ab'Dendriel)",
-       "lv": "180+",
-       "nota": "Do vídeo: só XP, quase sem profit. Use arma física (Destruction).",
-       "exp": 2200,
-       "hp": 2800,
-       "img": "img/monstros/barkless-devotee.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20barkless%20hunt",
-       "xph": 2200000,
-       "profit": -400000,
-       "fxp": "tpv",
-       "modo": "solo"
-      },
-      {
        "m": "Glooth Golem",
        "onde": "Glooth Tower (Oramond)",
        "lv": "150+",
@@ -7353,6 +7451,20 @@
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20glooth%20tower%20150%20hunt",
        "xph": 2100000,
        "profit": 50000,
+       "fxp": "tpv",
+       "modo": "solo"
+      },
+      {
+       "m": "Barkless Devotee",
+       "onde": "Barkless Cult (embaixo de Ab'Dendriel)",
+       "lv": "180+",
+       "nota": "Do vídeo: só XP, quase sem profit. Use arma física (Destruction).",
+       "exp": 2200,
+       "hp": 2800,
+       "img": "img/monstros/barkless-devotee.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20barkless%20hunt",
+       "xph": 2200000,
+       "profit": -400000,
        "fxp": "tpv",
        "modo": "solo"
       }
@@ -7415,9 +7527,23 @@
      "treino": "As três armas principais antes do BiS: Cobra Bo (terra), Gilded Crescent Moon (energia) e Falcon Sai (físico).",
      "hunts": [
       {
+       "m": "Medusa",
+       "onde": "Medusa Tower e Deeper Banuta",
+       "lv": "250+",
+       "nota": "Do vídeo: boa (XP, profit e bestiary). Deeper Banuta é melhor com level mais alto.",
+       "exp": 4050,
+       "hp": 4500,
+       "img": "img/monstros/medusa.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20medusa%20tower%20hunt",
+       "xph": 2400000,
+       "profit": 500000,
+       "fxp": "tpv",
+       "modo": "ambos"
+      },
+      {
        "m": null,
        "onde": "Warzone 5",
-       "lv": "250+",
+       "lv": "270+",
        "nota": "Do vídeo: META. Depois da Cobra Bo fica muito boa e dá muito profit (Suspicious Device).",
        "exp": null,
        "hp": null,
@@ -7443,23 +7569,9 @@
        "modo": "ambos"
       },
       {
-       "m": "Medusa",
-       "onde": "Medusa Tower e Deeper Banuta",
-       "lv": "250+",
-       "nota": "Do vídeo: boa (XP, profit e bestiary). Deeper Banuta é melhor com level mais alto.",
-       "exp": 4050,
-       "hp": 4500,
-       "img": "img/monstros/medusa.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20medusa%20tower%20hunt",
-       "xph": 2400000,
-       "profit": 500000,
-       "fxp": "tpv",
-       "modo": "ambos"
-      },
-      {
        "m": "Fury",
        "onde": "Furies de Oramond",
-       "lv": "250+",
+       "lv": "270+",
        "nota": "Do vídeo: boa, mas o acesso precisa de 4 pessoas. Use Lion Claws.",
        "exp": 3600,
        "hp": 4100,
@@ -7501,6 +7613,17 @@
      "treino": "Coloque tier 1 no Coned Hat: reduz recarga das magias.",
      "hunts": [
       {
+       "m": "Pirate Corsair",
+       "onde": "Nargor (no barco)",
+       "lv": "250+",
+       "nota": "Do vídeo: no barco ela fica boa. Vá logo que pegar a Cobra Bo.",
+       "exp": 350,
+       "hp": 675,
+       "img": "img/monstros/pirate-corsair.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20pirate%20ship%20hunt",
+       "modo": "solo"
+      },
+      {
        "m": "White Weretiger",
        "onde": "Oskayaat (Marapur)",
        "lv": "300+",
@@ -7527,17 +7650,6 @@
        "profit": 400000,
        "fxp": "tpv",
        "modo": "ambos"
-      },
-      {
-       "m": "Pirate Corsair",
-       "onde": "Nargor (no barco)",
-       "lv": "250+",
-       "nota": "Do vídeo: no barco ela fica boa. Vá logo que pegar a Cobra Bo.",
-       "exp": 350,
-       "hp": 675,
-       "img": "img/monstros/pirate-corsair.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20pirate%20ship%20hunt",
-       "modo": "solo"
       },
       {
        "m": "Burster Spectre",
@@ -7602,6 +7714,17 @@
        "modo": "solo"
       },
       {
+       "m": "Ancient Lion Knight",
+       "onde": "Lion Sanctum (Bounac)",
+       "lv": "400+",
+       "nota": "Do vídeo: profit bem constante.",
+       "exp": 8100,
+       "hp": 9100,
+       "img": "img/monstros/ancient-lion-knight.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lion%20sanctum%20hunt",
+       "modo": "solo"
+      },
+      {
        "m": null,
        "onde": "Warzone 3",
        "lv": "450+",
@@ -7625,17 +7748,6 @@
        "img": "img/monstros/brain-squid.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20library%20hunt",
        "modo": "pt"
-      },
-      {
-       "m": "Ancient Lion Knight",
-       "onde": "Lion Sanctum (Bounac)",
-       "lv": "400+",
-       "nota": "Do vídeo: profit bem constante.",
-       "exp": 8100,
-       "hp": 9100,
-       "img": "img/monstros/ancient-lion-knight.gif",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20lion%20sanctum%20hunt",
-       "modo": "solo"
       }
      ],
      "magias": []
@@ -7773,17 +7885,6 @@
      "treino": "Suba tiers nas Sanguine Trousers e nas Claws.",
      "hunts": [
       {
-       "onde": "Norcferatu Dungeons East e West",
-       "lv": "700+",
-       "nota": "Arma de terra.",
-       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20700",
-       "img": "img/monstros/norcferatu-nightweaver.webp",
-       "xph": 7900000,
-       "profit": 800000,
-       "fxp": "tpv",
-       "modo": "ambos"
-      },
-      {
        "onde": "Nimmersatt's Boss Floor (-6)",
        "lv": "600+",
        "nota": "Arma de terra.",
@@ -7813,6 +7914,17 @@
        "img": "img/monstros/dark-torturer.webp",
        "xph": 5400000,
        "profit": 1500000,
+       "fxp": "tpv",
+       "modo": "ambos"
+      },
+      {
+       "onde": "Norcferatu Dungeons East e West",
+       "lv": "700+",
+       "nota": "Arma de terra.",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20700",
+       "img": "img/monstros/norcferatu-nightweaver.webp",
+       "xph": 7900000,
+       "profit": 800000,
        "fxp": "tpv",
        "modo": "ambos"
       }

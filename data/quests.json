@@ -704,6 +704,64 @@
       "recompensa": "The Supreme Cube (teleporte grátis a cada 2 horas), Lightsphere, Mysterious Metal Egg e o título Planegazer.",
       "perigos": "Deeplings, wigglers, breach broods, ogros e servant replicas."
      }
+    },
+    {
+     "nome": "Kilmaresh Quest",
+     "lvl": "250+",
+     "tags": [
+      "Acesso",
+      "Bosses"
+     ],
+     "txt": "Abre os atalhos de Issavi e as hunts de Kilmaresh. Os minibosses dão o Enchanted Theurgic Amulet, o colar dos magos.",
+     "det": {
+      "min": "—",
+      "rec": "250+",
+      "prem": "Sim",
+      "onde": "Ilha de Kilmaresh (Issavi)",
+      "recompensa": "Regalia of Suon, outfit Citizen of Issavi e os atalhos entre Issavi e o sul de Kilmaresh.",
+      "perigos": "Anuma, Goannas, Ogres, Bashmu, Girtablilus e os minibosses Bragrumol, Mozradek e Xogixath, além do boss Urmahlullu."
+     },
+     "itens": [
+      "Enchanted Theurgic Amulet"
+     ]
+    },
+    {
+     "nome": "Adventures of Galthen Quest",
+     "lvl": "250+",
+     "tags": [
+      "Acesso",
+      "Outfit"
+     ],
+     "txt": "Leva a Iksupan, onde ficam as hunts de Iks e Mitmah. O boss Mitmah Vanguard dropa a Iks Footwraps do Monk.",
+     "det": {
+      "min": "—",
+      "rec": "250+",
+      "prem": "Sim",
+      "onde": "Bounac, Edron, arredores de Port Hope e Iksupan",
+      "recompensa": "Outfits Royal Bounacean Advisor e Ancient Aucar, e o acesso às áreas de Iksupan.",
+      "perigos": "Crypt Warriors, Carnisylvans, Iks, Mitmahs e o boss Mitmah Vanguard."
+     },
+     "itens": [
+      "Iks Footwraps"
+     ]
+    },
+    {
+     "nome": "The Cradle of Monsters Quest",
+     "lvl": "250+",
+     "tags": [
+      "Acesso",
+      "Montaria"
+     ],
+     "txt": "Quest de Ingol, a ilha das hunts de Ingol que aparecem no guia do 800 em diante.",
+     "det": {
+      "min": "—",
+      "rec": "250+",
+      "prem": "Sim",
+      "onde": "Cormaya e Ingol",
+      "recompensa": "Montaria Mutated Abomination.",
+      "perigos": "Rhindeers, Harpies, Carnivostriches, Crape Men, Boar Men, Liodiles, Doctor Marrow e The Monster."
+     },
+     "itens": []
     }
    ]
   },
@@ -836,6 +894,44 @@
       "Moonsilver Strike Helm",
       "Moonsilver Katar"
      ]
+    },
+    {
+     "nome": "Bloody Tusks Quest",
+     "lvl": "600+",
+     "tags": [
+      "Bosses",
+      "Montaria"
+     ],
+     "txt": "Quest de Vengoth, da Summer Update 2025. O boss final, Vladrukh, dá o set Norcferatu, e a quest deixa a hunt da fortaleza mais forte.",
+     "det": {
+      "min": "—",
+      "rec": "600+ (hunts de Norcferatu)",
+      "prem": "Sim",
+      "onde": "Vengoth",
+      "recompensa": "Montaria Gloom Maw e o uso da Mysterious Machine no último andar, que deixa a hunt mais rápida. O set Norcferatu sai do Vladrukh.",
+      "perigos": "Norcferatu Heartless, Norcferatu Nightweaver, Orclops Bloodbreaker, Varg, Norcferatu Monstrosity e o boss Vladrukh."
+     },
+     "itens": [
+      "Norcferatu Bonehood"
+     ]
+    },
+    {
+     "nome": "No Rest for the Wicked Quest",
+     "lvl": "500+",
+     "tags": [
+      "Acesso",
+      "Outfit"
+     ],
+     "txt": "Quest de Azzilon, onde ficam as hunts de Azzilon Walls, Castle e Catacombs do guia.",
+     "det": {
+      "min": "—",
+      "rec": "500+",
+      "prem": "Sim",
+      "onde": "Edron e Azzilon Castle",
+      "recompensa": "Acesso à Doomforge e outfit Fiend Slayer.",
+      "perigos": "Os Inferniarchs (Spellreaper, Hellhunter, Brinebrute, Sineater, Broodrider e Gorger) e os bosses Gralvalon, Malvaroth, Twisterror e Arbaziloth."
+     },
+     "itens": []
     }
    ]
   }

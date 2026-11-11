@@ -2,7 +2,7 @@
  "id": "heroot",
  "nome": "HeroOT",
  "site": "https://hero-ot.com",
- "status": "Beta em 06/11/2026",
+ "status": "Open beta desde 06/11/2026",
  "resumo": "Servidor com mapa do Tibia oficial e experiência por estágios: sobe rápido no começo e vai desacelerando com o level.",
  "sistemas": [
   {
@@ -10,8 +10,8 @@
    "texto": "Mostra onde caçar de acordo com o seu level. Use junto com esta página: o Hunt Finder diz onde caçar, o Jantar Guia mostra o que vestir e de onde vem cada item."
   },
   {
-   "nome": "RTC (auto-uso)",
-   "texto": "Sistema do próprio cliente que usa poção, cura e magias de forma automática. Guia de configuração por vocação em breve."
+   "nome": "Hero Tools (RTC)",
+   "texto": "Ferramenta do próprio client que usa poção, cura, magias e runas sozinha. Configura vida e mana em porcentagem, lança a magia assim que o cooldown acaba, usa runa só com um mínimo de monstros na área e treina magic level gastando mana. O Remote Training também conjura runas e munição."
   },
   {
    "nome": "Outfits com bônus",
@@ -107,5 +107,158 @@
    1.2
   ]
  ],
- "xp_estagios_fonte": "https://hero-ot.com/estagios"
+ "xp_estagios_fonte": "https://hero-ot.com/estagios",
+ "info": [
+  [
+   "Tipo de mundo",
+   "PVE"
+  ],
+  [
+   "Server save",
+   "06:00 (horário de Brasília)"
+  ],
+  [
+   "Protection level",
+   "7"
+  ],
+  [
+   "Blessing grátis",
+   "Adventurer's Blessing até o level 21"
+  ]
+ ],
+ "skill_estagios": [
+  [
+   10,
+   60,
+   15
+  ],
+  [
+   61,
+   80,
+   10
+  ],
+  [
+   81,
+   110,
+   6
+  ],
+  [
+   111,
+   125,
+   4
+  ],
+  [
+   126,
+   null,
+   2
+  ]
+ ],
+ "ml_estagios": [
+  [
+   0,
+   60,
+   10
+  ],
+  [
+   61,
+   80,
+   7
+  ],
+  [
+   81,
+   100,
+   5
+  ],
+  [
+   101,
+   110,
+   4
+  ],
+  [
+   111,
+   125,
+   3
+  ],
+  [
+   126,
+   null,
+   2
+  ]
+ ],
+ "outras_rates": [
+  [
+   "Loot",
+   "1x"
+  ],
+  [
+   "Spawn",
+   "1x"
+  ],
+  [
+   "Bestiary",
+   "2x"
+  ],
+  [
+   "Boosted Boss: kills",
+   "3x"
+  ],
+  [
+   "Boosted Boss: loot",
+   "+250%"
+  ]
+ ],
+ "party": [
+  [
+   "Mesma vocação",
+   "+20%"
+  ],
+  [
+   "2 vocações diferentes",
+   "+35%"
+  ],
+  [
+   "3 vocações diferentes",
+   "+70%"
+  ],
+  [
+   "4 vocações diferentes",
+   "+100%"
+  ]
+ ],
+ "extras": [
+  {
+   "nome": "Stamina",
+   "texto": "Regenera em zona de proteção: 1 minuto a cada 5 minutos offline na verde e a cada 1 minuto na laranja. Tem trainer de stamina: depois de 5 minutos parado lá, ganha 1 minuto por minuto."
+  },
+  {
+   "nome": "Casas",
+   "texto": "Level 100 para comprar. 1.000 gp por SQM, aluguel mensal. Quem fica 30 dias sem entrar perde a casa."
+  },
+  {
+   "nome": "Tasks",
+   "texto": "Bounty Task pede level mínimo por dificuldade: Adept 30, Expert 150 e Master 300. A XP das Bounty e Weekly Tasks não é multiplicada pelo stage."
+  }
+ ],
+ "regras": [
+  "Proibido bot, macro, hack ou qualquer programa que jogue por você. Banimento pode ser permanente.",
+  "Proibido usar mais de um client ao mesmo tempo com atividade nos dois. Personagem parado em zona de proteção ou trainer pode.",
+  "Proibido abusar de bug: reporte para a equipe.",
+  "Nomes que imitem GM ou suporte, ou nomes ofensivos, são trocados pela administração."
+ ],
+ "regras_fonte": "https://hero-ot.com/regras",
+ "novidades": [
+  {
+   "data": "09/11/2026",
+   "titulo": "Atualização 1.0.8",
+   "link": "https://hero-ot.com/noticias/atualizacao-108-sons-hero-tools-e-a-jornada-do-monk",
+   "itens": [
+    "Sons do jogo no client (magias, golpes, criaturas e ambiente).",
+    "Hero Tools: treino de mana automático, vida e mana em porcentagem, runa só com um mínimo de monstros na área.",
+    "Monk: promoção para Exalted Monk e os 14 santuários do The Way of the Monk dando pontos da Roda.",
+    "Paladin: Divine Defiance agora no level 20.",
+    "NPCs de Blue Valley, segundo Imbuement Assistant no depot de Thais e Adventurer Stone em mais templos.",
+    "Exercise weapons da Daily Reward chegam com as 14.400 cargas."
+   ]
+  }
+ ]
 }

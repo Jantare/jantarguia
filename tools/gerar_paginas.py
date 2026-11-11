@@ -59,7 +59,7 @@ SITE, BASE, QUESTS, LOOK, ROTAS, IMBU = (
 SERVERS = [load(f"data/servidores/{i}.json") for i in SITE["servidores"]]
 VOCS = BASE["vocacoes"]
 NOMES = [("", "Início")] + [(v["id"], v["nome"]) for v in VOCS] + [
-    ("quests", "Quests"), ("imbuements", "Imbuements"), ("outfits", "Outfits"), ("monstros", "Monstros"), ("lootsplit", "Loot Split"), ("calculadora", "Calculadora")]
+    ("quests", "Quests"), ("imbuements", "Imbuements"), ("outfits", "Outfits"), ("monstros", "Monstros"), ("lootsplit", "Loot Split"), ("calculadora", "Calculadora"), ("charms", "Charms")]
 
 
 def link(pid, nome):
@@ -188,6 +188,17 @@ def pag_monstros():
             + "<h2>Monstros</h2>" + ul([linha(n, m) for n, m in M if not m.get("boss")]))
 
 
+def pag_charms():
+    import json as _j, os as _o
+    c = _j.load(open(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "..", "data", "charms.json"), encoding="utf-8"))
+    nome = {v["id"]: v["nome"] for v in VOCS}
+    return ("<h1>Charms</h1><p>Charms são bônus que você liga em um monstro depois de completar o Bestiary dele.</p>"
+            "<h2>Como funciona</h2>" + ul([e(x) for x in c["como"]])
+            + "".join(f'<h2>Charms para {e(nome.get(v["id"], v["id"]))}</h2>' + ul([e(x) for x in v["dicas"]]) for v in c["vocacoes"])
+            + "<h2>Major charms</h2>" + ul([f"{e(a)} ({e(b)}): {e(x)} Custo: {e(y)} pontos." for a, b, x, y in c["major"]])
+            + "<h2>Minor charms</h2>" + ul([f"{e(a)}: {e(x)}" for a, x in c["minor"]]))
+
+
 def pag_calculadora():
     return ("<h1>Calculadora de level</h1>"
             "<p>Calcule quanta XP falta do seu level até o level que você quer e quantas horas de hunt isso dá. "
@@ -206,7 +217,14 @@ def pag_lootsplit():
 
 def pag_servidor(s):
     return (f'<h1>{e(s["nome"])}</h1><p>{e(s["resumo"])}</p>'
-            + "".join(f'<h2>{e(x["nome"])}</h2><p>{e(x["texto"])}</p>' for x in s["sistemas"]))
+            + ("<h2>Informações</h2>" + ul([f"{e(k)}: {e(v)}" for k, v in s.get("info", [])]) if s.get("info") else "")
+            + ("<h2>Estágios de experiência</h2>" + ul([f'Level {a}{"+" if b is None else "–" + str(b)}: {str(r).replace(".", ",")}x' for a, b, r in s["xp_estagios"]]) if s.get("xp_estagios") else "")
+            + ("<h2>Estágios de skill</h2>" + ul([f'Skill {a}{"+" if b is None else "–" + str(b)}: {r}x' for a, b, r in s["skill_estagios"]]) if s.get("skill_estagios") else "")
+            + ("<h2>Estágios de magic level</h2>" + ul([f'Magic level {a}{"+" if b is None else "–" + str(b)}: {r}x' for a, b, r in s["ml_estagios"]]) if s.get("ml_estagios") else "")
+            + ("<h2>Outras rates e bônus de party</h2>" + ul([f"{e(k)}: {e(v)}" for k, v in s.get("outras_rates", []) + s.get("party", [])]) if s.get("outras_rates") else "")
+            + "".join(f'<h2>{e(x["nome"])}</h2><p>{e(x["texto"])}</p>' for x in s["sistemas"] + s.get("extras", []))
+            + "".join(f'<h2>{e(n["titulo"])} ({e(n["data"])})</h2>' + ul([e(i) for i in n["itens"]]) for n in s.get("novidades", []))
+            + ("<h2>Regras principais</h2>" + ul([e(r) for r in s["regras"]]) if s.get("regras") else ""))
 
 
 def pag_inicio():
@@ -215,7 +233,7 @@ def pag_inicio():
             "quests e treino. Com a chance de drop de cada item.</p><h2>Guias</h2>"
             + ul([link(v["id"], f'Guia de {v["nome"]}') for v in VOCS]
                  + [link("quests", "Quests por level"), link("imbuements", "Imbuements por vocação"),
-                    link("outfits", "Outfits e montarias"), link("monstros", "Monstros e bosses"), link("lootsplit", "Loot Split: divisão de loot da party"), link("calculadora", "Calculadora de level")]
+                    link("outfits", "Outfits e montarias"), link("monstros", "Monstros e bosses"), link("lootsplit", "Loot Split: divisão de loot da party"), link("calculadora", "Calculadora de level"), link("charms", "Charms por vocação")]
                  + [link(s["id"], s["nome"]) for s in SERVERS]))
 
 
@@ -237,6 +255,8 @@ PAGS += [
      "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um.", pag_monstros()),
     ("lootsplit", "Loot Split: divisão de loot da party no Tibia | Jantar Guia",
      "Cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem.", pag_lootsplit()),
+    ("charms", "Charms do Tibia: quais pegar em cada vocação | Jantar Guia",
+     "Lista de todos os charms do Tibia com efeito e custo, como funcionam e quais pegar primeiro em Knight, Paladin, Sorcerer, Druid e Monk.", pag_charms()),
     ("calculadora", "Calculadora de level do Tibia: quanto tempo até o próximo level | Jantar Guia",
      "Calcule quanta XP falta e quantas horas de hunt você precisa até o level que quer, seguindo a rota do guia, com stamina, XP Boost e prey.", pag_calculadora()),
 ]

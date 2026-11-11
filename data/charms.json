@@ -1,0 +1,66 @@
+{
+ "fonte": "TibiaWiki (Charms), novembro de 2026",
+ "como": [
+  "Você ganha Charm Points completando o Bestiary: quanto mais difícil o monstro, mais pontos.",
+  "Cada charm desbloqueado é colocado em um monstro com o Bestiary completo e só funciona contra ele.",
+  "Conta premium usa até 6 charms ao mesmo tempo (free: 2). A loja vende a opção de usar todos.",
+  "Tirar um charm de um monstro custa level x 100 gold (level 300 = 30.000 gp). Colocar é grátis.",
+  "Charms de ataque e defesa têm chance de ativar a cada golpe; os passivos funcionam sempre contra o monstro escolhido.",
+  "Major charms usam Charm Points. Minor charms usam Minor Charm Echoes. Cada um tem 3 estágios: o segundo já vale muito, o terceiro é caro."
+ ],
+ "major": [
+  ["Wound", "Ataque", "5% / 10% / 11% de chance de causar 5% da vida máxima do monstro em dano físico.", "240 / 360 / 1.200"],
+  ["Poison", "Ataque", "Igual ao Wound, em dano de terra.", "240 / 360 / 1.200"],
+  ["Freeze", "Ataque", "Igual ao Wound, em dano de gelo.", "320 / 480 / 1.600"],
+  ["Zap", "Ataque", "Igual ao Wound, em dano de energia.", "320 / 480 / 1.600"],
+  ["Curse", "Ataque", "Igual ao Wound, em dano de morte.", "360 / 540 / 1.800"],
+  ["Enflame", "Ataque", "Igual ao Wound, em dano de fogo.", "400 / 600 / 2.000"],
+  ["Divine Wrath", "Ataque", "Igual ao Wound, em dano sagrado.", "600 / 900 / 3.000"],
+  ["Low Blow", "Ataque", "+4% / 8% / 9% de chance de crítico com arma que tem crítico. Vale para a área toda.", "800 / 1.200 / 4.000"],
+  ["Savage Blow", "Ataque", "+20% / 40% / 44% de dano extra no crítico, com arma que tem crítico.", "800 / 1.200 / 4.000"],
+  ["Overpower", "Ataque", "5% / 10% / 11% de chance de causar dano físico igual a 5% da sua vida máxima.", "600 / 900 / 3.000"],
+  ["Overflux", "Ataque", "5% / 10% / 11% de chance de causar dano físico igual a 2,5% da sua mana máxima.", "600 / 900 / 3.000"],
+  ["Carnage", "Ataque", "Ao matar um monstro, 10% / 20% / 22% de chance de causar 15% da vida máxima dele nos monstros em volta.", "600 / 900 / 3.000"],
+  ["Parry", "Defesa", "5% / 10% / 11% de chance de devolver o dano recebido ao atacante.", "400 / 600 / 2.000"],
+  ["Dodge", "Defesa", "5% / 10% / 11% de chance de desviar do ataque e não tomar dano.", "240 / 360 / 1.200"]
+ ],
+ "minor": [
+  ["Vampiric Embrace", "+1,6% / 2,4% / 3,2% de life leech, se você já tiver life leech no equipamento."],
+  ["Void's Call", "+0,8% / 1,2% / 1,6% de mana leech, se você já tiver mana leech no equipamento."],
+  ["Bless", "Perde 6% / 9% / 12% menos XP e skill se morrer para esse monstro."],
+  ["Adrenaline Burst", "Chance de correr mais rápido por 10 segundos depois de apanhar."],
+  ["Cleanse", "Chance de tirar um efeito negativo (veneno, paralisia) depois de apanhar."],
+  ["Fatal Hold", "Impede o monstro de fugir com pouca vida por 30 segundos."],
+  ["Cripple", "Chance de paralisar o monstro por 10 segundos."],
+  ["Numb", "Chance de paralisar o monstro por 10 segundos depois que ele ataca."],
+  ["Void Inversion", "Chance de ganhar mana em vez de perder quando o monstro drena sua mana."],
+  ["Gut", "6% / 9% / 12% mais produtos de criatura (loot de task e de quest)."],
+  ["Scavenge", "Mais chance de sucesso ao usar faca de esfolar ou dust em corpos."]
+ ],
+ "vocacoes": [
+  {"id": "knight", "dicas": [
+   "Comece com o charm do elemento fraco do monstro principal da hunt (Wound e Poison são os mais baratos).",
+   "Com arma de crítico: Low Blow e Savage Blow nos monstros que você mais caça. São os charms de dano mais fortes.",
+   "Overpower rende bem no Knight, que tem muita vida.",
+   "Defesa: Parry nos monstros que batem forte. Minor: Vampiric Embrace e Void's Call."]},
+  {"id": "paladin", "dicas": [
+   "Low Blow e Savage Blow são a prioridade: o Low Blow continua valendo para a área toda, mesmo depois do ajuste de 2026.",
+   "Antes de juntar pontos para eles, use o charm do elemento fraco do monstro.",
+   "Defesa: Dodge, que é barato. Minor: Void's Call e Vampiric Embrace."]},
+  {"id": "sorcerer", "dicas": [
+   "Overflux é o charm de dano do mago: usa a mana máxima, que é grande no Sorcerer.",
+   "Com wand de crítico (Wand of Destruction, Falcon Wand, Lion Wand e Soultainter), Low Blow e Savage Blow também valem.",
+   "Para começar: o charm do elemento fraco do monstro.",
+   "Defesa: Dodge. Minor: Void's Call, Bless em hunt perigosa e Void Inversion contra quem drena mana."]},
+  {"id": "druid", "dicas": [
+   "Overflux é o charm de dano do mago: usa a mana máxima.",
+   "Com rod de crítico (Rod of Destruction, por exemplo), Low Blow e Savage Blow também valem.",
+   "Para começar: o charm do elemento fraco do monstro (Freeze e Poison combinam com a hunt do Druid).",
+   "Defesa: Dodge. Minor: Void's Call e Bless em hunt perigosa."]},
+  {"id": "monk", "dicas": [
+   "Low Blow e Savage Blow com arma de crítico.",
+   "Overpower também rende, porque usa a vida máxima.",
+   "Para começar: o charm do elemento fraco do monstro.",
+   "Defesa: Dodge ou Parry. Minor: Vampiric Embrace e Void's Call."]}
+ ]
+}

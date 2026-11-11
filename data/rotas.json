@@ -5662,7 +5662,10 @@
        "hp": 1000,
        "img": "img/monstros/ancient-scarab.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20ancient%20scarab%20hunt",
-       "modo": "solo"
+       "modo": "solo",
+       "xph": 680000,
+       "profit": -10000,
+       "fxp": "tpv"
       },
       {
        "m": "Dragon",

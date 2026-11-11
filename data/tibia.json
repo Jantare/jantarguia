@@ -3040,6 +3040,48 @@
      "img": "img/itens/oriental-shoes.webp"
     },
     {
+     "id": "sorcerer-ring-of-green-plasma",
+     "tier": "100–150",
+     "slot": "Anel",
+     "item": "Ring of Green Plasma",
+     "lv": 100,
+     "attr": "+2 magic level, regenera vida e mana, dura 30 min",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "O anel do mago até o 400: mais magic level e mana. Dropa de vários bosses e do Brachiodemon, e é barato no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Ring_of_Green_Plasma",
+     "img": "img/itens/ring-of-green-plasma.webp"
+    },
+    {
+     "id": "sorcerer-prismatic-ring",
+     "tier": "100–150",
+     "slot": "Anel (alternativa)",
+     "item": "Prismatic Ring",
+     "lv": 120,
+     "attr": "Proteção 10% física e 8% energia, dura 60 min",
+     "src": [],
+     "shop": [],
+     "quest": "Recompensa da Bigfoot's Burden Quest (Warzone 3)",
+     "tip": "Para caçar solo, onde o dano físico pesa. Troque com o Green Plasma quando a hunt apertar.",
+     "wiki": "https://tibia.fandom.com/wiki/Prismatic_Ring",
+     "img": "img/itens/prismatic-ring.webp"
+    },
+    {
+     "id": "sorcerer-foxtail-amulet",
+     "tier": "100–150",
+     "slot": "Colar (alternativa)",
+     "item": "Foxtail Amulet",
+     "lv": 100,
+     "attr": "Armadura 2, proteção 5% física, sem carga",
+     "src": [],
+     "shop": [],
+     "quest": "Grimvale Quest (missão The Curse Spreads)",
+     "tip": "Não acaba: bom para usar sempre que não estiver com o Collar of Green Plasma.",
+     "wiki": "https://tibia.fandom.com/wiki/Foxtail_Amulet",
+     "img": "img/itens/foxtail-amulet.webp"
+    },
+    {
      "id": "sorcerer-jungle-wand",
      "tier": "150–200",
      "slot": "Arma",
@@ -3423,6 +3465,20 @@
      "img": "img/itens/arcanomancer-folio.webp"
     },
     {
+     "id": "sorcerer-arcanomancer-sigil",
+     "tier": "400–500",
+     "slot": "Anel",
+     "item": "Arcanomancer Sigil",
+     "lv": 400,
+     "attr": "Carregado: +2 magic level, +1 fire e energy magic level, proteção 4% fogo, terra, energia e gelo",
+     "src": [],
+     "shop": [],
+     "quest": "Primal Ordeal Quest (Plunder Patriarch, em Gnomprona)",
+     "tip": "O anel BiS do Sorcerer. Recarregue com o NPC Cledwyn por 5 Silver Tokens.",
+     "wiki": "https://tibia.fandom.com/wiki/Arcanomancer_Sigil",
+     "img": "img/itens/arcanomancer-sigil.webp"
+    },
+    {
      "id": "sorcerer-sanguine-boots",
      "tier": "500–600",
      "slot": "Botas",
@@ -3487,6 +3543,20 @@
      "tip": "Mais barato que o Gnome Helmet e com proteção de morte.",
      "wiki": "https://tibia.fandom.com/wiki/Galea_Mortis",
      "img": "img/itens/galea-mortis.webp"
+    },
+    {
+     "id": "sorcerer-enchanted-theurgic-amulet",
+     "tier": "200–300",
+     "slot": "Colar",
+     "item": "Enchanted Theurgic Amulet",
+     "lv": 220,
+     "attr": "+3 magic level, proteção 3% física e 14% terra, dura 2 horas",
+     "src": [],
+     "shop": [],
+     "quest": "Bosses Bragrumol, Mozradek, Xogixath e Urmahlullu the Weakened",
+     "tip": "O colar do mago do 220 em diante. Quando descarrega, recarregue com o NPC Cledwyn por 2 Silver Tokens.",
+     "wiki": "https://tibia.fandom.com/wiki/Enchanted_Theurgic_Amulet",
+     "img": "img/itens/enchanted-theurgic-amulet.webp"
     },
     {
      "id": "sorcerer-moonsilver-nimbus-hat",
@@ -4108,6 +4178,48 @@
      "img": "img/itens/oriental-shoes.webp"
     },
     {
+     "id": "druid-ring-of-green-plasma",
+     "tier": "100–150",
+     "slot": "Anel",
+     "item": "Ring of Green Plasma",
+     "lv": 100,
+     "attr": "+2 magic level, regenera vida e mana, dura 30 min",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "O anel do mago até o 400: mais magic level e mana. Dropa de vários bosses e do Brachiodemon, e é barato no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Ring_of_Green_Plasma",
+     "img": "img/itens/ring-of-green-plasma.webp"
+    },
+    {
+     "id": "druid-prismatic-ring",
+     "tier": "100–150",
+     "slot": "Anel (alternativa)",
+     "item": "Prismatic Ring",
+     "lv": 120,
+     "attr": "Proteção 10% física e 8% energia, dura 60 min",
+     "src": [],
+     "shop": [],
+     "quest": "Recompensa da Bigfoot's Burden Quest (Warzone 3)",
+     "tip": "Para caçar solo, onde o dano físico pesa. Troque com o Green Plasma quando a hunt apertar.",
+     "wiki": "https://tibia.fandom.com/wiki/Prismatic_Ring",
+     "img": "img/itens/prismatic-ring.webp"
+    },
+    {
+     "id": "druid-foxtail-amulet",
+     "tier": "100–150",
+     "slot": "Colar (alternativa)",
+     "item": "Foxtail Amulet",
+     "lv": 100,
+     "attr": "Armadura 2, proteção 5% física, sem carga",
+     "src": [],
+     "shop": [],
+     "quest": "Grimvale Quest (missão The Curse Spreads)",
+     "tip": "Não acaba: bom para usar sempre que não estiver com o Collar of Green Plasma.",
+     "wiki": "https://tibia.fandom.com/wiki/Foxtail_Amulet",
+     "img": "img/itens/foxtail-amulet.webp"
+    },
+    {
      "id": "druid-energized-limb",
      "tier": "150–200",
      "slot": "Arma",
@@ -4453,6 +4565,20 @@
      "img": "img/itens/arboreal-tome.webp"
     },
     {
+     "id": "druid-arboreal-ring",
+     "tier": "400–500",
+     "slot": "Anel",
+     "item": "Arboreal Ring",
+     "lv": 400,
+     "attr": "Carregado: +2 magic level, +2 healing magic level, proteção 4% fogo, terra, energia e gelo",
+     "src": [],
+     "shop": [],
+     "quest": "Primal Ordeal Quest (Plunder Patriarch, em Gnomprona)",
+     "tip": "O anel BiS do Druid. Recarregue com o NPC Cledwyn por 5 Silver Tokens.",
+     "wiki": "https://tibia.fandom.com/wiki/Arboreal_Ring",
+     "img": "img/itens/arboreal-ring.webp"
+    },
+    {
      "id": "druid-sanguine-galoshes",
      "tier": "500–600",
      "slot": "Botas",
@@ -4512,6 +4638,20 @@
      "tip": "Mais barato que o Gnome Helmet: +2 magic level. Coloque Void e mana nele.",
      "wiki": "https://tibia.fandom.com/wiki/Eldritch_Hood",
      "img": "img/itens/eldritch-hood.webp"
+    },
+    {
+     "id": "druid-enchanted-theurgic-amulet",
+     "tier": "200–300",
+     "slot": "Colar",
+     "item": "Enchanted Theurgic Amulet",
+     "lv": 220,
+     "attr": "+3 magic level, proteção 3% física e 14% terra, dura 2 horas",
+     "src": [],
+     "shop": [],
+     "quest": "Bosses Bragrumol, Mozradek, Xogixath e Urmahlullu the Weakened",
+     "tip": "O colar do mago do 220 em diante. Quando descarrega, recarregue com o NPC Cledwyn por 2 Silver Tokens.",
+     "wiki": "https://tibia.fandom.com/wiki/Enchanted_Theurgic_Amulet",
+     "img": "img/itens/enchanted-theurgic-amulet.webp"
     },
     {
      "id": "druid-midnight-tunic",

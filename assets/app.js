@@ -12,7 +12,7 @@
   const slot = (src, big, alt) => `<span class="slot${big ? " big" : ""}">${img(src, "", alt)}</span>`;
 
   const st = { monF: "todos", monQ: "", questQ: "",imbuVoc: "knight", view: "inicio", qfilter: "todas", loot: "", lootExtra: {}, lootOff: new Set(), look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
-  let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, SERVERS = {};
+  let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS, SERVERS = {};
 
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -41,13 +41,14 @@
     v.push({ id: "imbuements", nome: "Imbuements" });
     v.push({ id: "outfits", nome: "Outfits" });
     v.push({ id: "monstros", nome: "Monstros" });
+    v.push({ id: "charms", nome: "Charms" });
     v.push({ id: "lootsplit", nome: "Loot Split" });
     v.push({ id: "calculadora", nome: "Calculadora" });
     if (st.srv) v.push({ id: st.srv, nome: SERVERS[st.srv].nome, srv: true });
     return v;
   }
 
-  const NAV_ICON = { calculadora: "img/ico-calc.svg", lootsplit: "img/ico-lootsplit.svg", quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/montarias/draptor.webp", monstros: "img/monstros/dragon.gif" };
+  const NAV_ICON = { charms: "img/ico-charm.svg", calculadora: "img/ico-calc.svg", lootsplit: "img/ico-lootsplit.svg", quests: "img/itens/spellbook-of-enlightenment.webp", imbuements: "img/itens/ring-of-red-plasma.webp", outfits: "img/montarias/draptor.webp", monstros: "img/monstros/dragon.gif" };
   function nav() {
     const tab = v => {
       const ic = v.id === "inicio" ? `<svg class="tab-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 10.5V21h6.5v-6h5v6H21V10.5z" fill="currentColor"/></svg>`
@@ -402,8 +403,35 @@
       <p class="intro">${esc(s.resumo)}</p></div>
       <div class="notice"><span><b>${esc(s.status)}</b></span><span>Site oficial: <a href="${esc(s.site)}" target="_blank" rel="noopener">${esc(s.site.replace(/^https?:\/\//, ""))}</a></span>${s.discord ? `<span>Discord: <a href="${esc(s.discord)}" target="_blank" rel="noopener">${esc(s.discord.replace(/^https?:\/\//, ""))}</a></span>` : ""}</div>
       ${s.nome === SITE.servidor_parceiro ? promoBox(false) : ""}
+      ${s.info ? `<div class="srv-info">${s.info.map(([k, v]) => `<div class="stat"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join("")}</div>` : ""}
+      ${s.xp_estagios ? `<h2>Rates</h2><div class="srv-rates">
+        ${stageTable("Experiência", "Level", s.xp_estagios)}
+        ${s.skill_estagios ? stageTable("Skills", "Skill", s.skill_estagios) : ""}
+        ${s.ml_estagios ? stageTable("Magic level", "Magic", s.ml_estagios) : ""}
+        ${s.outras_rates ? `<div class="card"><span class="name">Outras</span><table class="st-t"><tbody>${s.outras_rates.map(([k, v]) => `<tr><td>${esc(k)}</td><td><b>${esc(v)}</b></td></tr>`).join("")}</tbody></table>${s.party ? `<span class="how-t t2">Bônus de XP em party</span><table class="st-t"><tbody>${s.party.map(([k, v]) => `<tr><td>${esc(k)}</td><td><b>${esc(v)}</b></td></tr>`).join("")}</tbody></table>` : ""}</div>` : ""}
+      </div><p class="muted">Quer saber quanto tempo falta para o seu próximo level com essas rates? Use a <a href="calculadora/">Calculadora de level</a> e escolha o ${esc(s.nome)}.</p>` : ""}
       <h2>Sistemas próprios</h2>
-      <div class="sys">${s.sistemas.map(x => `<article class="card"><span class="name">${esc(x.nome)}</span><p class="tip">${esc(x.texto)}</p></article>`).join("")}</div>`;
+      <div class="sys">${s.sistemas.map(x => `<article class="card"><span class="name">${esc(x.nome)}</span><p class="tip">${esc(x.texto)}</p></article>`).join("")}${(s.extras || []).map(x => `<article class="card"><span class="name">${esc(x.nome)}</span><p class="tip">${esc(x.texto)}</p></article>`).join("")}</div>
+      ${s.novidades ? `<h2>Últimas atualizações</h2>${s.novidades.map(n => `<article class="card srv-news"><span class="meta">${esc(n.data)}</span><span class="name">${n.link ? `<a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a>` : esc(n.titulo)}</span><ul>${n.itens.map(i => `<li>${esc(i)}</li>`).join("")}</ul></article>`).join("")}` : ""}
+      ${s.regras ? `<h2>Regras principais</h2><div class="card"><ul class="srv-rules">${s.regras.map(r => `<li>${esc(r)}</li>`).join("")}</ul>${s.regras_fonte ? `<p class="muted">Resumo. Leia as <a href="${esc(s.regras_fonte)}" target="_blank" rel="noopener">regras completas no site do ${esc(s.nome)}</a>.</p>` : ""}</div>` : ""}`;
+  }
+  function charmsView() {
+    const C = CHARMS, vn = id => (BASE.vocacoes.find(v => v.id === id) || {}).nome || id;
+    return `<div class="page-h"><h1>Charms</h1>
+      <p class="intro">Charms são bônus que você liga em um monstro depois de completar o Bestiary dele. Veja como funcionam, quanto custam e quais pegar primeiro na sua vocação.</p></div>
+      <div class="sbox"><span class="how-t">Como funciona</span><ul class="ch-list">${C.como.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      <h2>O que pegar primeiro</h2>
+      <div class="ch-vocs">${C.vocacoes.map(v => `<article class="card"><span class="name">${esc(vn(v.id))}</span><ul class="ch-list">${v.dicas.map(x => `<li>${esc(x)}</li>`).join("")}</ul></article>`).join("")}</div>
+      <h2>Major charms</h2>
+      <div class="loot-scroll"><table class="loot-t ch-t"><thead><tr><th>Charm</th><th>Tipo</th><th>Efeito</th><th>Custo (pontos)</th></tr></thead><tbody>
+      ${C.major.map(c => `<tr><td><b>${esc(c[0])}</b></td><td>${esc(c[1])}</td><td>${esc(c[2])}</td><td class="nw">${esc(c[3])}</td></tr>`).join("")}</tbody></table></div>
+      <h2>Minor charms</h2>
+      <div class="loot-scroll"><table class="loot-t ch-t"><thead><tr><th>Charm</th><th>Efeito</th></tr></thead><tbody>
+      ${C.minor.map(c => `<tr><td><b>${esc(c[0])}</b></td><td>${esc(c[1])}</td></tr>`).join("")}</tbody></table></div>
+      <p class="muted">Custos dos 3 estágios. Fonte: ${esc(C.fonte)}. As dicas por vocação são sugestão do guia; ajuste para a sua hunt.</p>`;
+  }
+  function stageTable(tit, col, rows) {
+    return `<div class="card"><span class="name">${esc(tit)}</span><table class="st-t"><thead><tr><th>${esc(col)}</th><th>Rate</th></tr></thead><tbody>${rows.map(r => `<tr><td>${r[0]}${r[1] === null ? "+" : "–" + r[1]}</td><td><b>${String(r[2]).replace(".", ",")}x</b></td></tr>`).join("")}</tbody></table></div>`;
   }
 
   function homeView() {
@@ -448,6 +476,7 @@
           <a class="voc" href="imbuements/">${slot("img/itens/soulbiter.webp", true)}<span class="voc-txt"><span class="name">Imbuements</span><span class="voc-desc">O que imbuir em cada item da sua vocação e os materiais de cada imbuement.</span></span></a>
           <a class="voc" href="outfits/">${slot("img/montarias/draptor.webp", true)}<span class="voc-txt"><span class="name">Outfits e montarias</span><span class="voc-desc">Como conseguir cada montaria e outfit jogando, com as da loja separadas.</span></span></a>
           <a class="voc" href="lootsplit/">${slot("img/ico-lootsplit.svg", true)}<span class="voc-txt"><span class="name">Loot Split</span><span class="voc-desc">Cole o Party Hunt Analyser e veja quem transfere quanto para quem.</span></span></a>
+          <a class="voc" href="charms/">${slot("img/ico-charm.svg", true)}<span class="voc-txt"><span class="name">Charms</span><span class="voc-desc">Todos os charms, quanto custam e quais pegar primeiro em cada vocação.</span></span></a>
           <a class="voc" href="calculadora/">${slot("img/ico-calc.svg", true)}<span class="voc-txt"><span class="name">Calculadora de level</span><span class="voc-desc">Quantas horas de hunt faltam até o level que você quer, seguindo a rota do guia.</span></span></a>
           <a class="voc" href="monstros/">${slot("img/monstros/grand-master-oberon.gif", true)}<span class="voc-txt"><span class="name">Monstros e bosses</span><span class="voc-desc">Todos os monstros e bosses do guia: onde ficam, o que dropam e vídeos de cada um.</span></span></a>
         </div>
@@ -684,12 +713,70 @@ Exemplo Druid
     </div>`;
   }
 
+
+  // ---------- Busca ----------
+  let BIDX = null;
+  function buscaIndex() {
+    const out = [], vn = id => (BASE.vocacoes.find(v => v.id === id) || {}).nome || id;
+    views().filter(v => v.id !== "inicio").forEach(v => out.push({ t: "Página", n: v.nome, sub: "", img: (VOC_INFO[v.id] || {}).icon || NAV_ICON[v.id] || "", a: { page: v.id } }));
+    Object.values(SERVERS).forEach(x => { if (!out.some(o => o.a.page === x.id)) out.push({ t: "Servidor", n: x.nome, sub: x.resumo, img: "", a: { page: x.id } }); });
+    BASE.vocacoes.forEach(v => v.itens.forEach(i => out.push({ t: "Item", n: i.item, sub: `${vn(v.id)} · ${i.slot}${i.lv ? " · lvl " + i.lv : ""}`, img: i.img, a: { item: i.item, voc: v.id, arma: /^Arma/.test(i.slot) } })));
+    Object.entries(BASE.monstros).forEach(([n, m]) => out.push({ t: m.boss ? "Boss" : "Monstro", n, sub: m.loc || (m.lvl ? "lvl " + m.lvl : ""), img: m.img, a: { mon: n } }));
+    const mons = new Set(Object.keys(BASE.monstros));
+    Object.entries(ROTAS.vocacoes).forEach(([vid, r]) => r.etapas.forEach((e, ei) => e.hunts.forEach(h => {
+      const n = h.m && !mons.has(h.m) ? h.m : h.m ? null : h.onde;
+      if (!n || out.some(o => o.a.hunt && o.n === n && o.a.voc === vid)) return;
+      out.push({ t: "Hunt", n, sub: `${vn(vid)} · lvl ${e.faixa}${h.m ? " · " + h.onde : ""}`, img: h.img, a: { hunt: n, voc: vid, et: ei } });
+    })));
+    QUESTS.faixas.forEach(f => f.quests.forEach(q => out.push({ t: "Quest", n: q.nome, sub: f.faixa, img: "", a: { quest: q.nome } })));
+    out.forEach(o => o.k = norm(o.n + " " + o.sub));
+    return out;
+  }
+  function buscaRender() {
+    const q = norm($("#buscaq").value.trim()), box = $("#buscares");
+    if (q.length < 2) { box.innerHTML = q ? "" : `<p class="busca-dica">Digite pelo menos 2 letras. Ex: Soulbiter, Dragon, Soul War.</p>`; return; }
+    if (!BIDX) BIDX = buscaIndex();
+    const nq = q.split(/\s+/);
+    const hits = BIDX.map((o, i) => ({ o, i, nn: norm(o.n) })).filter(x => nq.every(w => x.o.k.includes(w)))
+      .sort((a, b) => (b.nn.startsWith(q) - a.nn.startsWith(q)) || (b.nn.includes(q) - a.nn.includes(q)) || a.nn.length - b.nn.length).slice(0, 14);
+    box.innerHTML = hits.length ? hits.map((x, j) => `<button type="button" class="busca-it${j === 0 ? " on" : ""}" role="option" data-busca="${x.i}">${x.o.img ? `<span class="slot">${img(x.o.img, "", "")}</span>` : `<span class="slot busca-ico"></span>`}<span class="busca-txt"><b>${esc(x.o.n)}</b><small>${esc(x.o.t)}${x.o.sub ? " · " + esc(x.o.sub) : ""}</small></span></button>`).join("")
+      : `<p class="busca-dica">Nada encontrado para "${esc($("#buscaq").value.trim())}".</p>`;
+  }
+  function buscaAbrir(on) {
+    const b = $("#buscabox"), btn = $("#busca");
+    b.hidden = !on; btn.setAttribute("aria-expanded", on ? "true" : "false");
+    if (on) { const i = $("#buscaq"); i.focus(); i.select(); buscaRender(); }
+  }
+  function buscaIr(idx) {
+    const o = BIDX[idx]; if (!o) return;
+    buscaAbrir(false);
+    const a = o.a;
+    if (a.page) { go(a.page); return; }
+    if (a.mon) { st.monQ = a.mon; st.monF = "todos"; go("monstros"); return; }
+    if (a.quest) { st.questQ = a.quest; st.qfilter = "todas"; go("quests"); return; }
+    if (a.hunt) {
+      go(a.voc);
+      const et = document.getElementById("etapa-" + a.et);
+      const row = et && [...et.querySelectorAll(".hrow")].find(x => { const b = x.querySelector(".hrow-txt > b"); return b && b.textContent === a.hunt; });
+      const el = row || et;
+      if (el) { el.scrollIntoView({ block: "center" }); el.classList.add("busca-alvo"); setTimeout(() => el.classList.remove("busca-alvo"), 2200); }
+      return;
+    }
+    if (a.item) {
+      if (a.voc === "knight" && a.arma) st.weapon = "todas";
+      go(a.voc);
+      const d = [...document.querySelectorAll("details.irow")].find(x => { const b = x.querySelector("summary b"); return b && b.textContent === a.item; });
+      if (d) { d.open = true; d.scrollIntoView({ block: "center" }); d.classList.add("busca-alvo"); setTimeout(() => d.classList.remove("busca-alvo"), 2200); }
+    }
+  }
+
   const DEFAULT_DESC = "Guia de Tibia por vocação e level: qual equipamento usar, qual monstro dropa, chance de drop e NPC que vende. Com seções para servidores como o HeroOT.";
   const PAGE_META = {
     inicio: ["Jantar Guia: rota de Tibia do level 8 ao 1000, hunts e drops", DEFAULT_DESC],
     quests: ["Quests do Tibia por level: acessos, bosses e itens | Jantar Guia", "As quests do Tibia que mais valem a pena em cada faixa de level: acessos, descontos, bosses, itens, outfits e montarias."],
     imbuements: ["Imbuements por vocação: o que imbuir em cada item | Jantar Guia", "O que imbuir em cada item de Knight, Paladin, Sorcerer, Druid e Monk, com os materiais de cada imbuement."],
     outfits: ["Outfits e montarias do Tibia: como conseguir | Jantar Guia", "Como conseguir cada montaria e outfit do Tibia jogando, com as da loja separadas."],
+    charms: ["Charms do Tibia: quais pegar em cada vocação | Jantar Guia", "Lista de todos os charms do Tibia com efeito e custo, como funcionam e quais pegar primeiro em Knight, Paladin, Sorcerer, Druid e Monk."],
     calculadora: ["Calculadora de level do Tibia: quanto tempo até o próximo level | Jantar Guia", "Calcule quanta XP falta e quantas horas de hunt você precisa até o level que quer, seguindo a rota do guia, com stamina, XP Boost e prey."],
     lootsplit: ["Loot Split: divisão de loot da party no Tibia | Jantar Guia", "Cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem."],
     monstros: ["Monstros e bosses do Tibia: onde ficam e o que dropam | Jantar Guia", "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um."]
@@ -715,6 +802,7 @@ Exemplo Druid
     else if (st.view === "outfits") v.innerHTML = lookView();
     else if (st.view === "monstros") { v.innerHTML = monstersView(); filterMon(); }
     else if (st.view === "lootsplit") { v.innerHTML = lootView(); lootRender(); }
+    else if (st.view === "charms") v.innerHTML = charmsView();
     else if (st.view === "calculadora") { v.innerHTML = calcView(); calcRender(); }
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
     else v.innerHTML = vocationView(BASE.vocacoes.find(x => x.id === st.view) || BASE.vocacoes[0]);
@@ -757,6 +845,10 @@ Exemplo Druid
     if (lc) { st.lookCat = lc.dataset.lcat; render(); }
     if (e.target.closest("[data-loot-ex]")) { st.loot = LOOT_EXEMPLO; st.lootExtra = {}; st.lootOff = new Set(); render(); return; }
     if (e.target.closest("[data-loot-clear]")) { st.loot = ""; st.lootExtra = {}; st.lootOff = new Set(); render(); return; }
+    if (e.target.closest("#busca")) { buscaAbrir($("#buscabox").hidden); return; }
+    const bi = e.target.closest("[data-busca]");
+    if (bi) { buscaIr(+bi.dataset.busca); return; }
+    if (!$("#buscabox").hidden && !e.target.closest("#buscabox")) buscaAbrir(false);
     const cm = e.target.closest("[data-calc-modo]");
     if (cm) { st.calc.modo = cm.dataset.calcModo; calcSave(); render(); return; }
     const lrm = e.target.closest("[data-loot-rm]");
@@ -806,7 +898,7 @@ Exemplo Druid
     themeLabel();
     try {
       const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
-      [SITE, BASE, QUESTS, LOOK, ROTAS, IMBU] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json"), get("data/imbuements.json")]);
+      [SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json"), get("data/imbuements.json"), get("data/charms.json")]);
       const list = await Promise.all(SITE.servidores.map(id => get(`data/servidores/${id}.json`)));
       list.forEach(s => SERVERS[s.id] = s);
     } catch (e) {
@@ -825,6 +917,7 @@ Exemplo Druid
     document.addEventListener("input", e => {
       if (e.target.id === "lootxt") { st.loot = e.target.value; st.lootExtra = {}; st.lootOff = new Set(); lootRender(); return; }
       if (e.target.dataset.lootExtra !== undefined) { const x = parseInt(e.target.value); if (x > 0) st.lootExtra[e.target.dataset.lootExtra] = x; else delete st.lootExtra[e.target.dataset.lootExtra]; lootCalc(); return; }
+      if (e.target.id === "buscaq") { buscaRender(); return; }
       if (e.target.dataset.calc !== undefined) {
         const k = e.target.dataset.calc, c = st.calc;
         if (e.target.type === "checkbox") c[k] = e.target.checked;
@@ -839,6 +932,17 @@ Exemplo Druid
       st.lookQ = e.target.value; const pos = e.target.selectionStart; render();
       const el = $("#lookq"); if (el) { el.focus(); el.setSelectionRange(pos, pos); }
     });
+    $("#buscaq").addEventListener("keydown", e => {
+      const its = [...document.querySelectorAll(".busca-it")], cur = its.findIndex(x => x.classList.contains("on"));
+      if (e.key === "Escape") { buscaAbrir(false); $("#busca").focus(); return; }
+      if (e.key === "Enter") { e.preventDefault(); const it = its[cur < 0 ? 0 : cur]; if (it) buscaIr(+it.dataset.busca); return; }
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault(); if (!its.length) return;
+        const nx = (cur + (e.key === "ArrowDown" ? 1 : -1) + its.length) % its.length;
+        its.forEach((x, i) => x.classList.toggle("on", i === nx)); its[nx].scrollIntoView({ block: "nearest" });
+      }
+    });
+    document.addEventListener("keydown", e => { if (e.key === "/" && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); buscaAbrir(true); } });
     $("#mylvl").addEventListener("input", e => {
       const v = parseInt(e.target.value); st.level = v > 0 ? v : null; store.set("lvl", st.level || ""); render();
     });

@@ -453,3 +453,13 @@ b.forte,.fraq-el.forte b{color:#4aa865}
 .fraq-el.resiste b{color:#d0843a}
 b.imune,.fraq-el.imune b{color:#d0564c}
 .fraq-nota{margin:6px 0 0;font-size:.76rem;color:var(--muted)}
+.fraq-tab-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fraq-tab{border-collapse:collapse;width:100%;font-size:.8rem;font-variant-numeric:tabular-nums}
+.fraq-tab th{font-weight:600;color:var(--muted);font-size:.72rem;padding:2px 3px;text-align:center}
+.fraq-tab th:first-child,.fraq-tab td:first-child{text-align:left;padding-right:6px;white-space:nowrap;max-width:9.5em;overflow:hidden;text-overflow:ellipsis}
+.fraq-tab td{padding:3px;text-align:center;border-top:1px solid var(--line)}
+.fraq-tab td.forte{color:#4aa865;font-weight:700;background:rgb(74 168 101 / .12)}
+.fraq-tab td.resiste{color:#d0843a}
+.fraq-tab td.imune{color:#d0564c;font-weight:700;background:rgb(208 86 76 / .12)}
+.hrow .fraq{margin-left:-56px}
+@media (max-width:480px){.fraq-tab{font-size:.74rem}.fraq-tab td,.fraq-tab th{padding:2px 1px}.fraq-tab th:first-child,.fraq-tab td:first-child{max-width:6.2em}}

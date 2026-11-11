@@ -1412,7 +1412,13 @@
        "xph": 8500000,
        "profit": 1200000,
        "fxp": "qa",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Summer Court",
@@ -1423,7 +1429,13 @@
        "xph": 6000000,
        "profit": 1000000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Crazed Summer Vanguard",
+        "Crazed Summer Rearguard",
+        "Insane Siren",
+        "Thanatursus"
+       ]
       },
       {
        "onde": "Azzilon Walls",
@@ -1434,7 +1446,13 @@
        "xph": 6000000,
        "profit": 1000000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Gorger Inferniarch",
+        "Brinebrute Inferniarch",
+        "Broodrider Inferniarch",
+        "Sineater Inferniarch"
+       ]
       },
       {
        "onde": "Warzone 3",
@@ -1445,7 +1463,13 @@
        "xph": 5500000,
        "profit": 2000000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Ironblight",
+        "Cliff Strider",
+        "Orewalker",
+        "Lost Berserker"
+       ]
       },
       {
        "m": "Venerable Girtablilu",
@@ -1483,7 +1507,13 @@
        "xph": 7000000,
        "profit": 1200000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Gorger Inferniarch",
+        "Brinebrute Inferniarch",
+        "Broodrider Inferniarch",
+        "Sineater Inferniarch"
+       ]
       },
       {
        "onde": "Feru Plague Seal",
@@ -1502,7 +1532,12 @@
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Nimmersatt%27s%20Breeding%20Grounds%20hunt%20700",
        "img": "img/monstros/mega-dragon.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dragolisk",
+        "Wardragon",
+        "Mega Dragon"
+       ]
       }
      ],
      "magias": []
@@ -1526,7 +1561,12 @@
        "xph": 7000000,
        "profit": 1600000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Bulltaur Alchemist",
+        "Bulltaur Brute",
+        "Bulltaur Forgepriest"
+       ]
       },
       {
        "onde": "Bloodfire Gorge",
@@ -1537,7 +1577,12 @@
        "xph": 10000000,
        "profit": 2300000,
        "fxp": "qa",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Raubritter Skirmisher",
+        "Raubritter Marksman",
+        "Raubritter Chastener"
+       ]
       },
       {
        "onde": "Norcferatu Dungeons",
@@ -1548,7 +1593,13 @@
        "xph": 8300000,
        "profit": 1000000,
        "fxp": "qa",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Cobra Bastion",
@@ -1559,7 +1610,12 @@
        "xph": 9000000,
        "profit": 1500000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Cobra Assassin",
+        "Cobra Scout",
+        "Cobra Vizier"
+       ]
       },
       {
        "onde": "Feru Pumin Seal",
@@ -1605,7 +1661,13 @@
        "xph": 7000000,
        "profit": 1600000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Hellfire Fighter",
+        "Fury"
+       ]
       },
       {
        "onde": "Feru DT Seal",
@@ -1616,7 +1678,10 @@
        "xph": 6000000,
        "profit": 1500000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dark Torturer"
+       ]
       },
       {
        "onde": "Raubritters Castle",
@@ -1624,7 +1689,12 @@
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Raubritters%20Castle%20hunt%20800",
        "img": "img/monstros/raubritter-chastener.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Raubritter Skirmisher",
+        "Raubritter Marksman",
+        "Raubritter Chastener"
+       ]
       }
      ],
      "magias": []
@@ -1652,7 +1722,12 @@
        "xph": 5800000,
        "profit": 1800000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "True Dawnfire Asura",
+        "True Midnight Asura",
+        "True Frost Flower Asura"
+       ]
       },
       {
        "onde": "Asura Citadel",
@@ -1660,7 +1735,14 @@
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Asura%20Citadel%20hunt%201000",
        "img": "img/monstros/true-frost-flower-asura.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "True Midnight Asura",
+        "True Frost Flower Asura",
+        "Iceplume Strider",
+        "Silverfrost Sentinel",
+        "Winged Jaracal"
+       ]
       }
      ],
      "magias": []
@@ -2612,7 +2694,13 @@
        "xph": 4300000,
        "profit": 800000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "High Voltage Elemental",
+        "Cave Devourer",
+        "Tunnel Tyrant",
+        "Diremaw"
+       ]
       },
       {
        "m": "Grim Reaper",
@@ -2999,7 +3087,13 @@
        "xph": 9000000,
        "profit": 1800000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Frazzlemaw",
+        "Guzzlemaw",
+        "Retching Horror",
+        "Choking Fear"
+       ]
       },
       {
        "onde": "Norcferatu Fortress",
@@ -3010,7 +3104,13 @@
        "xph": 8600000,
        "profit": 1100000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Azzilon Castle",
@@ -3021,7 +3121,13 @@
        "xph": 8600000,
        "profit": 800000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Gorger Inferniarch",
+        "Brinebrute Inferniarch",
+        "Broodrider Inferniarch",
+        "Sineater Inferniarch"
+       ]
       },
       {
        "onde": "Nimmersatt's (-7)",
@@ -3032,7 +3138,12 @@
        "xph": 8500000,
        "profit": 1000000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dragolisk",
+        "Wardragon",
+        "Mega Dragon"
+       ]
       },
       {
        "onde": "Cobra Bastion",
@@ -3043,7 +3154,12 @@
        "xph": 7500000,
        "profit": 800000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Cobra Assassin",
+        "Cobra Scout",
+        "Cobra Vizier"
+       ]
       }
      ],
      "magias": []
@@ -3063,7 +3179,13 @@
        "xph": 8500000,
        "profit": 800000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Deep Desert",
@@ -3074,7 +3196,11 @@
        "xph": 5100000,
        "profit": 1800000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Undead Elite Gladiator",
+        "Skeleton Elite Warrior"
+       ]
       },
       {
        "onde": "Norcferatu Dungeons East",
@@ -3085,7 +3211,13 @@
        "xph": 8500000,
        "profit": 800000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Nimmersatt's Boss Floor (-6)",
@@ -3096,7 +3228,12 @@
        "xph": 8400000,
        "profit": 800000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dragolisk",
+        "Wardragon",
+        "Mega Dragon"
+       ]
       }
      ],
      "magias": []
@@ -3116,7 +3253,12 @@
        "xph": 10500000,
        "profit": 2000000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Flimsy Lost Soul",
+        "Mean Lost Soul",
+        "Freakish Lost Soul"
+       ]
       },
       {
        "onde": "Bulltaur Lair",
@@ -3124,7 +3266,12 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bulltaur%20Lair%20hunt%20800",
        "img": "img/monstros/bulltaur-brute.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Bulltaur Alchemist",
+        "Bulltaur Brute",
+        "Bulltaur Forgepriest"
+       ]
       },
       {
        "onde": "Bloodfire Gorge",
@@ -3132,7 +3279,12 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Bloodfire%20Gorge%20hunt%20800",
        "img": "img/monstros/raubritter-skirmisher.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Raubritter Skirmisher",
+        "Raubritter Marksman",
+        "Raubritter Chastener"
+       ]
       },
       {
        "onde": "Ingol (superfície, -1 e -2)",
@@ -3140,7 +3292,15 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       },
       {
        "onde": "Feru Pumin",
@@ -3173,7 +3333,10 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Undead%20Dragons%20hunt%20800",
        "img": "img/monstros/undead-dragon.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Undead Dragon"
+       ]
       },
       {
        "onde": "True Asuras",
@@ -3181,7 +3344,12 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20True%20Asuras%20hunt%20800",
        "img": "img/monstros/true-midnight-asura.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "True Dawnfire Asura",
+        "True Midnight Asura",
+        "True Frost Flower Asura"
+       ]
       },
       {
        "onde": "Asura Citadel",
@@ -3189,7 +3357,14 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Asura%20Citadel%20hunt%20800",
        "img": "img/monstros/true-frost-flower-asura.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "True Midnight Asura",
+        "True Frost Flower Asura",
+        "Iceplume Strider",
+        "Silverfrost Sentinel",
+        "Winged Jaracal"
+       ]
       },
       {
        "onde": "Warzone 7, 8 e 9",
@@ -3214,7 +3389,15 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ingol%20%28-3%2C%20-4%20e%20-5%29%20hunt%201000",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       },
       {
        "onde": "Azzilon Catacombs",
@@ -3222,7 +3405,11 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Azzilon%20Catacombs%20hunt%201000",
        "img": "img/monstros/hellhunter-inferniarch.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Spellreaper Inferniarch",
+        "Hellhunter Inferniarch"
+       ]
       },
       {
        "onde": "Feru DT",
@@ -3230,7 +3417,10 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20DT%20hunt%201000",
        "img": "img/monstros/dark-torturer.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dark Torturer"
+       ]
       },
       {
        "onde": "Podzilla Quaras",
@@ -3246,7 +3436,10 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Juggernauts%20hunt%201000",
        "img": "img/monstros/juggernaut.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Juggernaut"
+       ]
       },
       {
        "onde": "Feru Mazoran",
@@ -3254,7 +3447,13 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Mazoran%20hunt%201000",
        "img": "img/monstros/hellfire-fighter.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Hellfire Fighter",
+        "Fury"
+       ]
       },
       {
        "onde": "Forsaken Crypt",
@@ -3262,7 +3461,12 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Forsaken%20Crypt%20hunt%201000",
        "img": "img/monstros/roaming-dread.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Crypt Mage",
+        "Cyclursus",
+        "Roaming Dread"
+       ]
       }
      ],
      "magias": []
@@ -4490,7 +4694,12 @@
        "xph": 3000000,
        "profit": 1200000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Lost Basher",
+        "Lost Husher",
+        "Lost Thrower"
+       ]
       },
       {
        "m": null,
@@ -4504,7 +4713,12 @@
        "xph": 3700000,
        "profit": 1400000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Chasm Spawn",
+        "Drillworm",
+        "Elder Wyrm"
+       ]
       }
      ],
      "magias": [
@@ -4678,7 +4892,16 @@
        "hp": null,
        "img": "img/monstros/burning-book.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20edron%20library%20book%20hunt",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Energetic Book",
+        "Burning Book",
+        "Icecold Book",
+        "Brain Squid",
+        "Rage Squid",
+        "Squid Warden",
+        "Cursed Book"
+       ]
       },
       {
        "m": null,
@@ -4692,7 +4915,13 @@
        "xph": 4000000,
        "profit": 1600000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Armadile",
+        "Humongous Fungus",
+        "Hideous Fungus",
+        "Stone Devourer"
+       ]
       },
       {
        "m": "Crypt Warrior",
@@ -4799,7 +5028,12 @@
        "xph": 5600000,
        "profit": 2000000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Usurper Knight",
+        "Usurper Archer",
+        "Usurper Warlock"
+       ]
       }
      ],
      "magias": []
@@ -4819,7 +5053,12 @@
        "xph": 8100000,
        "profit": 1000000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Flimsy Lost Soul",
+        "Mean Lost Soul",
+        "Freakish Lost Soul"
+       ]
       },
       {
        "onde": "Cobra Bastion",
@@ -4830,7 +5069,12 @@
        "xph": 7200000,
        "profit": 1200000,
        "fxp": "tp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Cobra Assassin",
+        "Cobra Scout",
+        "Cobra Vizier"
+       ]
       },
       {
        "onde": "Azzilon Castle",
@@ -4838,7 +5082,13 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Castle%20hunt%20600",
        "img": "img/monstros/sineater-inferniarch.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Gorger Inferniarch",
+        "Brinebrute Inferniarch",
+        "Broodrider Inferniarch",
+        "Sineater Inferniarch"
+       ]
       },
       {
        "onde": "Norcferatu Fortress",
@@ -4846,7 +5096,13 @@
        "nota": "Dano de fogo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Fortress%20hunt%20600",
        "img": "img/monstros/norcferatu-heartless.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Nimmersatt's (-7)",
@@ -4854,7 +5110,12 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20%28-7%29%20hunt%20600",
        "img": "img/monstros/mega-dragon.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dragolisk",
+        "Wardragon",
+        "Mega Dragon"
+       ]
       },
       {
        "m": null,
@@ -4865,7 +5126,15 @@
        "hp": null,
        "img": "img/monstros/crape-man.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20ingol%20hunt",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       }
      ],
      "magias": []
@@ -4885,7 +5154,12 @@
        "xph": 7000000,
        "profit": 1200000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Sphinx",
+        "Crypt Warden",
+        "Feral Sphinx"
+       ]
       },
       {
        "onde": "Warzone 3",
@@ -4896,7 +5170,13 @@
        "xph": 6600000,
        "profit": 2000000,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Ironblight",
+        "Cliff Strider",
+        "Orewalker",
+        "Lost Berserker"
+       ]
       },
       {
        "onde": "Norcferatu Dungeons East e West",
@@ -4904,7 +5184,13 @@
        "nota": "Dano de fogo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Norcferatu%20Dungeons%20East%20e%20West%20hunt%20600",
        "img": "img/monstros/norcferatu-nightweaver.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Nimmersatt's Boss Floor (-6)",
@@ -4912,7 +5198,12 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Nimmersatt%27s%20Boss%20Floor%20%28-6%29%20hunt%20600",
        "img": "img/monstros/wardragon.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dragolisk",
+        "Wardragon",
+        "Mega Dragon"
+       ]
       }
      ],
      "magias": []
@@ -4929,7 +5220,12 @@
        "nota": "Dano de morte.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bulltaur%20Lair%20hunt%20800",
        "img": "img/monstros/bulltaur-brute.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Bulltaur Alchemist",
+        "Bulltaur Brute",
+        "Bulltaur Forgepriest"
+       ]
       },
       {
        "onde": "Ingol (superfície, -1 e -2)",
@@ -4937,7 +5233,15 @@
        "nota": "Dano de morte.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20%28superf%C3%ADcie%2C%20-1%20e%20-2%29%20hunt%20800",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       },
       {
        "onde": "Bloodfire Gorge",
@@ -4945,7 +5249,12 @@
        "nota": "Dano de fogo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Bloodfire%20Gorge%20hunt%20800",
        "img": "img/monstros/raubritter-skirmisher.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Raubritter Skirmisher",
+        "Raubritter Marksman",
+        "Raubritter Chastener"
+       ]
       },
       {
        "onde": "Azzilon Catacombs",
@@ -4953,7 +5262,11 @@
        "nota": "Dano de morte.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Azzilon%20Catacombs%20hunt%20800",
        "img": "img/monstros/hellhunter-inferniarch.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Spellreaper Inferniarch",
+        "Hellhunter Inferniarch"
+       ]
       },
       {
        "onde": "Feru Pumin Boss Floor",
@@ -4978,7 +5291,10 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Undead%20Dragons%20hunt%20800",
        "img": "img/monstros/undead-dragon.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Undead Dragon"
+       ]
       },
       {
        "onde": "Feru Mazoran",
@@ -4986,7 +5302,13 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Mazoran%20hunt%20800",
        "img": "img/monstros/hellfire-fighter.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Hellfire Fighter",
+        "Fury"
+       ]
       },
       {
        "onde": "Feru Juggernauts",
@@ -4994,7 +5316,10 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Juggernauts%20hunt%20800",
        "img": "img/monstros/juggernaut.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Juggernaut"
+       ]
       },
       {
        "onde": "Ingol -3",
@@ -5002,7 +5327,15 @@
        "nota": "Dano de fogo.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Ingol%20-3%20hunt%20800",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       },
       {
        "onde": "Podzilla Quaras",
@@ -5027,7 +5360,12 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20True%20Asuras%20hunt%20800",
        "img": "img/monstros/true-midnight-asura.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "True Dawnfire Asura",
+        "True Midnight Asura",
+        "True Frost Flower Asura"
+       ]
       },
       {
        "onde": "Asura Citadel",
@@ -5035,7 +5373,14 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Asura%20Citadel%20hunt%20800",
        "img": "img/monstros/true-frost-flower-asura.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "True Midnight Asura",
+        "True Frost Flower Asura",
+        "Iceplume Strider",
+        "Silverfrost Sentinel",
+        "Winged Jaracal"
+       ]
       },
       {
        "onde": "Forsaken Crypt",
@@ -5043,7 +5388,12 @@
        "nota": "Dano de morte.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Forsaken%20Crypt%20hunt%201000",
        "img": "img/monstros/roaming-dread.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Crypt Mage",
+        "Cyclursus",
+        "Roaming Dread"
+       ]
       }
      ],
      "magias": []
@@ -6288,7 +6638,12 @@
        "hp": null,
        "img": "img/monstros/lost-berserker.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%20hunt",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Chasm Spawn",
+        "Drillworm",
+        "Elder Wyrm"
+       ]
       },
       {
        "m": "Gazer Spectre",
@@ -6310,7 +6665,12 @@
        "hp": null,
        "img": "img/monstros/drillworm.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20warzone%204%20hunt",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Chasm Spawn",
+        "Drillworm",
+        "Elder Wyrm"
+       ]
       },
       {
        "m": "Burster Spectre",
@@ -6568,7 +6928,13 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20West%20hunt%20600",
        "img": "img/monstros/norcferatu-nightweaver.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Norcferatu Dungeons East",
@@ -6576,7 +6942,13 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Norcferatu%20Dungeons%20East%20hunt%20600",
        "img": "img/monstros/norcferatu-nightweaver.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Azzilon Catacombs",
@@ -6584,7 +6956,11 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Azzilon%20Catacombs%20hunt%20600",
        "img": "img/monstros/hellhunter-inferniarch.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Spellreaper Inferniarch",
+        "Hellhunter Inferniarch"
+       ]
       },
       {
        "onde": "Bulltaur Lair",
@@ -6592,7 +6968,12 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bulltaur%20Lair%20hunt%20600",
        "img": "img/monstros/bulltaur-brute.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Bulltaur Alchemist",
+        "Bulltaur Brute",
+        "Bulltaur Forgepriest"
+       ]
       },
       {
        "onde": "Ingol Surface",
@@ -6600,7 +6981,15 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20Surface%20hunt%20600",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       }
      ],
      "magias": []
@@ -6617,7 +7006,15 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-1%20hunt%20600",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       },
       {
        "onde": "Ingol -2",
@@ -6625,7 +7022,15 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-2%20hunt%20600",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       },
       {
        "onde": "Feru Undead Dragons",
@@ -6633,7 +7038,10 @@
        "nota": "Forked Glacier + Thunderstorm.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Undead%20Dragons%20hunt%20600",
        "img": "img/monstros/undead-dragon.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Undead Dragon"
+       ]
       },
       {
        "onde": "Feru Juggernauts",
@@ -6641,7 +7049,10 @@
        "nota": "Forked Glacier + Thunderstorm.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Juggernauts%20hunt%20600",
        "img": "img/monstros/juggernaut.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Juggernaut"
+       ]
       },
       {
        "onde": "Warzone 8",
@@ -6666,7 +7077,15 @@
        "nota": "Forked Glacier + Avalanche.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Ingol%20-3%20hunt%20800",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       },
       {
        "onde": "Bloodfire Gorge",
@@ -6674,7 +7093,12 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Bloodfire%20Gorge%20hunt%20800",
        "img": "img/monstros/raubritter-skirmisher.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Raubritter Skirmisher",
+        "Raubritter Marksman",
+        "Raubritter Chastener"
+       ]
       },
       {
        "onde": "Podzilla Quaras",
@@ -6699,7 +7123,13 @@
        "nota": "Forked Glacier + Avalanche.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Feru%20Mazoran%20hunt%20600",
        "img": "img/monstros/hellfire-fighter.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Hellfire Fighter",
+        "Fury"
+       ]
       },
       {
        "onde": "Warzone 9",
@@ -6715,7 +7145,12 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800",
        "img": "img/monstros/true-midnight-asura.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "True Dawnfire Asura",
+        "True Midnight Asura",
+        "True Frost Flower Asura"
+       ]
       },
       {
        "onde": "Asura Citadel",
@@ -6723,7 +7158,14 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
        "img": "img/monstros/true-frost-flower-asura.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "True Midnight Asura",
+        "True Frost Flower Asura",
+        "Iceplume Strider",
+        "Silverfrost Sentinel",
+        "Winged Jaracal"
+       ]
       }
      ],
      "magias": []
@@ -6740,7 +7182,12 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20True%20Asuras%20hunt%20800",
        "img": "img/monstros/true-midnight-asura.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "True Dawnfire Asura",
+        "True Midnight Asura",
+        "True Frost Flower Asura"
+       ]
       },
       {
        "onde": "Asura Citadel",
@@ -6748,7 +7195,14 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Asura%20Citadel%20hunt%20800",
        "img": "img/monstros/true-frost-flower-asura.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "True Midnight Asura",
+        "True Frost Flower Asura",
+        "Iceplume Strider",
+        "Silverfrost Sentinel",
+        "Winged Jaracal"
+       ]
       },
       {
        "onde": "Forsaken Crypt",
@@ -6756,7 +7210,12 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Forsaken%20Crypt%20hunt%201000",
        "img": "img/monstros/roaming-dread.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Crypt Mage",
+        "Cyclursus",
+        "Roaming Dread"
+       ]
       }
      ],
      "magias": []
@@ -7306,7 +7765,13 @@
        "xph": 375000,
        "profit": 0,
        "fxp": "tp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Ancient Scarab",
+        "Bonebeast",
+        "Mummy",
+        "Crypt Shambler"
+       ]
       },
       {
        "m": "Quara Predator",
@@ -7552,7 +8017,12 @@
        "xph": 3700000,
        "profit": 1000000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "High Voltage Elemental",
+        "Cave Devourer",
+        "Tunnel Tyrant"
+       ]
       },
       {
        "m": "Grim Reaper",
@@ -7736,7 +8206,13 @@
        "xph": 4500000,
        "profit": 800000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Ironblight",
+        "Cliff Strider",
+        "Orewalker",
+        "Lost Berserker"
+       ]
       },
       {
        "m": null,
@@ -7747,7 +8223,16 @@
        "hp": null,
        "img": "img/monstros/brain-squid.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20library%20hunt",
-       "modo": "pt"
+       "modo": "pt",
+       "mobs": [
+        "Energetic Book",
+        "Burning Book",
+        "Icecold Book",
+        "Brain Squid",
+        "Rage Squid",
+        "Squid Warden",
+        "Cursed Book"
+       ]
       }
      ],
      "magias": []
@@ -7809,7 +8294,15 @@
        "hp": null,
        "img": "img/monstros/sineater-inferniarch.webp",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20inferniarch%20hunt",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Gorger Inferniarch",
+        "Brinebrute Inferniarch",
+        "Broodrider Inferniarch",
+        "Sineater Inferniarch",
+        "Spellreaper Inferniarch",
+        "Hellhunter Inferniarch"
+       ]
       }
      ],
      "magias": []
@@ -7829,7 +8322,13 @@
        "xph": 7900000,
        "profit": 1600000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       },
       {
        "onde": "Nimmersatt's Dragons (-7)",
@@ -7840,7 +8339,12 @@
        "xph": 7600000,
        "profit": 1400000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dragolisk",
+        "Wardragon",
+        "Mega Dragon"
+       ]
       },
       {
        "onde": "Upper Roshamuul",
@@ -7851,7 +8355,13 @@
        "xph": 5500000,
        "profit": 1100000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Frazzlemaw",
+        "Guzzlemaw",
+        "Retching Horror",
+        "Choking Fear"
+       ]
       },
       {
        "onde": "Falcons",
@@ -7862,7 +8372,11 @@
        "xph": 5300000,
        "profit": 1300000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Falcon Knight",
+        "Falcon Paladin"
+       ]
       },
       {
        "onde": "Feru Way",
@@ -7893,7 +8407,12 @@
        "xph": 7300000,
        "profit": 1300000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dragolisk",
+        "Wardragon",
+        "Mega Dragon"
+       ]
       },
       {
        "onde": "Feru DT Seal",
@@ -7904,7 +8423,10 @@
        "xph": 6000000,
        "profit": 2000000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Dark Torturer"
+       ]
       },
       {
        "onde": "Prison -3",
@@ -7915,7 +8437,14 @@
        "xph": 5400000,
        "profit": 1500000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Dark Torturer",
+        "Juggernaut",
+        "Blightwalker",
+        "Plaguesmith",
+        "Hellhound"
+       ]
       },
       {
        "onde": "Norcferatu Dungeons East e West",
@@ -7926,7 +8455,13 @@
        "xph": 7900000,
        "profit": 800000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Norcferatu Heartless",
+        "Norcferatu Nightweaver",
+        "Orclops Bloodbreaker",
+        "Varg"
+       ]
       }
      ],
      "magias": []
@@ -7946,7 +8481,12 @@
        "xph": 8000000,
        "profit": 1500000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Raubritter Skirmisher",
+        "Raubritter Marksman",
+        "Raubritter Chastener"
+       ]
       },
       {
        "onde": "Raubritters (Ada Outskirts)",
@@ -7957,7 +8497,12 @@
        "xph": 7500000,
        "profit": 1400000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Raubritter Skirmisher",
+        "Raubritter Marksman",
+        "Raubritter Chastener"
+       ]
       },
       {
        "onde": "Bulltaurs -2",
@@ -7968,7 +8513,12 @@
        "xph": 6000000,
        "profit": 1200000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Bulltaur Alchemist",
+        "Bulltaur Brute",
+        "Bulltaur Forgepriest"
+       ]
       },
       {
        "onde": "Ingol Surface",
@@ -7979,7 +8529,15 @@
        "xph": 5300000,
        "profit": 1500000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       },
       {
        "onde": "Azzilon Catacombs",
@@ -7987,7 +8545,11 @@
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Azzilon%20Catacombs%20hunt%20800",
        "img": "img/monstros/hellhunter-inferniarch.webp",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "Spellreaper Inferniarch",
+        "Hellhunter Inferniarch"
+       ]
       }
      ],
      "magias": []
@@ -8007,7 +8569,12 @@
        "xph": 5200000,
        "profit": 1000000,
        "fxp": "tpv",
-       "modo": "ambos"
+       "modo": "ambos",
+       "mobs": [
+        "True Dawnfire Asura",
+        "True Midnight Asura",
+        "True Frost Flower Asura"
+       ]
       },
       {
        "onde": "Asura Citadel",
@@ -8015,7 +8582,14 @@
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Asura%20Citadel%20hunt%20800",
        "img": "img/monstros/true-frost-flower-asura.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "True Midnight Asura",
+        "True Frost Flower Asura",
+        "Iceplume Strider",
+        "Silverfrost Sentinel",
+        "Winged Jaracal"
+       ]
       },
       {
        "onde": "Ingol -3",
@@ -8023,7 +8597,15 @@
        "nota": "Arma física.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ingol%20-3%20hunt%20800",
        "img": "img/monstros/crape-man.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Rhindeer",
+        "Harpy",
+        "Carnivostrich",
+        "Crape Man",
+        "Boar Man",
+        "Liodile"
+       ]
       }
      ],
      "magias": []
@@ -8048,7 +8630,11 @@
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Energy%20Library%20hunt%201000",
        "img": "img/monstros/energetic-book.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Energetic Book",
+        "Brain Squid"
+       ]
       },
       {
        "onde": "Fire Library",
@@ -8056,7 +8642,11 @@
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Fire%20Library%20hunt%201000",
        "img": "img/monstros/burning-book.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Burning Book",
+        "Rage Squid"
+       ]
       },
       {
        "onde": "Ice Library",
@@ -8064,7 +8654,11 @@
        "nota": "Arma de terra.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20monk%20Ice%20Library%20hunt%201000",
        "img": "img/monstros/icecold-book.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Icecold Book",
+        "Squid Warden"
+       ]
       }
      ],
      "magias": []

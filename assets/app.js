@@ -167,14 +167,26 @@
       <div class="fraq-els">${els.map(e => `<span class="fraq-el ${cls(e.p)}"><span>${e.n}</span><b>${txt(e.p)}</b></span>`).join("")}</div>
       <p class="fraq-nota">Quanto do dano de cada elemento ele recebe. Acima de 100% é fraqueza; abaixo, resistência. Fonte: TibiaWiki.</p>`;
   }
+  const ELEM_C = { fisico: "Fís", fogo: "Fogo", gelo: "Gelo", energia: "Ener", terra: "Terra", morte: "Morte", sagrado: "Sagr" };
+  function fraqTabela(mobs) {
+    const O = FRAQ.ordem, cls = p => p === 0 ? "imune" : p > 100 ? "forte" : p < 100 ? "resiste" : "neutro";
+    const media = O.map((k, i) => ({ k, n: ELEM[k], p: Math.round(mobs.reduce((a, m) => a + FRAQ.monstros[m][i], 0) / mobs.length) })).sort((a, b) => b.p - a.p);
+    const imunes = O.map((k, i) => ({ n: ELEM[k], q: mobs.filter(m => FRAQ.monstros[m][i] === 0) })).filter(x => x.q.length);
+    return `<p class="fraq-sum"><span>Melhor para o lugar: <b class="forte">${media[0].n} (média ${media[0].p}%)</b>${media[1] && media[1].p === media[0].p ? ` ou <b class="forte">${media[1].n}</b>` : ""}</span>${imunes.length ? `<span>Cuidado: <b class="imune">${imunes.map(x => x.n + " (" + x.q.length + " imune" + (x.q.length > 1 ? "s" : "") + ")").join(", ")}</b></span>` : ""}</p>
+      <div class="fraq-tab-wrap"><table class="fraq-tab"><thead><tr><th>Monstro</th>${O.map(k => `<th>${ELEM_C[k]}</th>`).join("")}</tr></thead><tbody>
+      ${mobs.map(m => `<tr><td title="${esc(m)}">${esc(m)}</td>${FRAQ.monstros[m].map(p => `<td class="${cls(p)}">${p === 0 ? "0" : p}</td>`).join("")}</tr>`).join("")}
+      </tbody></table></div>
+      <p class="fraq-nota">% do dano de cada elemento que o monstro recebe. Verde é fraqueza, laranja resiste, vermelho é imune. Monstros principais do lugar, segundo a TibiaWiki.</p>`;
+  }
   function huntRow(h) {
     const meta = [`lvl ${esc(h.lv)}`, h.exp ? `${num(h.exp)} xp` : "", h.hp ? `${num(h.hp)} hp` : ""].filter(Boolean).join(" · ");
     const md = MODO[h.modo];
     const modo = md ? `<span class="hmode hmode-${h.modo}" title="${md[1]}">${md[0]}</span>` : "";
     const xp = h.xph ? `<span class="hrow-xp" title="Valores do Tibia oficial, por hora, XP base sem bônus. Fonte: ${FXP[h.fxp] || "TibiaPal"}."><span>XP <b>${kk(h.xph)}/h</b></span><span class="${h.profit < 0 ? "neg" : "pos"}">Profit <b>${h.profit > 0 ? "+" : ""}${kk(h.profit)}/h</b></span></span>` : "";
-    const fq = h.m && FRAQ && FRAQ.monstros[h.m];
+    const mobs = !FRAQ ? [] : h.m ? (FRAQ.monstros[h.m] ? [h.m] : []) : (h.mobs || []).filter(n => FRAQ.monstros[n]);
+    const fq = mobs.length > 0;
     const pic = h.img ? slot(h.img, false, h.m || h.onde) : "";
-    return `<div class="hrow">${h.img ? (fq ? `<button type="button" class="fraq-pic" data-fraq aria-label="Ver o dano por elemento do ${esc(h.m)}">${pic}</button>` : pic) :`<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}${modo}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${xp}${fq ? `<button type="button" class="fraq-btn" data-fraq aria-expanded="false">Dano por elemento <span aria-hidden="true">▾</span></button><div class="fraq" hidden>${fraqPainel(fq)}</div>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
+    return `<div class="hrow">${h.img ? (fq ? `<button type="button" class="fraq-pic" data-fraq aria-label="Ver o dano por elemento de ${esc(h.m || h.onde)}">${pic}</button>` : pic) :`<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}${modo}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${xp}${fq ? `<button type="button" class="fraq-btn" data-fraq aria-expanded="false">Dano por elemento <span aria-hidden="true">▾</span></button><div class="fraq" hidden>${mobs.length === 1 ? fraqPainel(FRAQ.monstros[mobs[0]]) : fraqTabela(mobs)}</div>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
   }
 
   function spellRows(list) {

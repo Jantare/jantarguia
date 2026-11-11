@@ -568,7 +568,8 @@ Exemplo Druid
   function calcLoad() {
     let c = {};
     try { c = JSON.parse(store.get("calc") || "{}") || {}; } catch (e) { c = {}; }
-    st.calc = Object.assign({ voc: "knight", de: st.level || 100, ate: null, modo: "rota", hunt: "", xph: "", stamina: true, boost: false, prey: 0, rate: 1, horas: 3 }, c);
+    st.calc = Object.assign({ voc: "knight", de: st.level || 100, ate: null, modo: "rota", hunt: "", xph: "", stamina: true, boost: false, prey: 0, rate: 1, horas: 3, srv: st.srv || "" }, c);
+    if (st.calc.srv && !SERVERS[st.calc.srv]) st.calc.srv = "";
     if (st.level) st.calc.de = st.level;
     if (!st.calc.ate || st.calc.ate <= st.calc.de) st.calc.ate = st.calc.de + 50;
   }
@@ -579,11 +580,23 @@ Exemplo Druid
     r.etapas.forEach((e, ei) => e.hunts.forEach((h, hi) => { if (h.xph) out.push({ k: ei + "-" + hi, faixa: e.faixa, lv: lvNum(h.lv), nome: h.m || h.onde, onde: h.onde, xph: h.xph, profit: h.profit || 0, modo: h.modo }); }));
     return out;
   }
-  function calcMult(c) {
-    return (Number(c.rate) > 0 ? Number(c.rate) : 1) * (c.stamina ? 1.5 : 1) * (1 + (c.boost ? 0.5 : 0) + (Number(c.prey) > 0 ? Number(c.prey) / 100 : 0));
+  const calcStages = c => (c.srv && SERVERS[c.srv] && SERVERS[c.srv].xp_estagios) || null;
+  function rateAt(c, L) {
+    const sg = calcStages(c);
+    if (!sg) return Number(c.rate) > 0 ? Number(c.rate) : 1;
+    const x = sg.find(e => L >= e[0] && (e[1] === null || L <= e[1]));
+    return x ? x[2] : sg[sg.length - 1][2];
+  }
+  const calcBonus = c => (c.stamina ? 1.5 : 1) * (1 + (c.boost ? 0.5 : 0) + (Number(c.prey) > 0 ? Number(c.prey) / 100 : 0));
+  function horasEntre(c, a, b, base) {
+    const k = base * calcBonus(c);
+    if (!calcStages(c)) return (expAt(b) - expAt(a)) / (k * rateAt(c, a));
+    let h = 0;
+    for (let L = a; L < b; L++) h += (expAt(L + 1) - expAt(L)) / (k * rateAt(c, L));
+    return h;
   }
   function calcRota(c) {
-    const hs = calcHunts(c.voc), mult = calcMult(c);
+    const hs = calcHunts(c.voc);
     const best = L => hs.filter(h => h.lv <= L).sort((a, b) => b.xph - a.xph)[0];
     const seg = [];
     let L = c.de;
@@ -594,7 +607,7 @@ Exemplo Druid
       const t = TIERS.find(t => L >= t[1] && L < t[2]);
       const prox = hs.map(x => x.lv).filter(x => x > L).sort((a, b) => a - b)[0] || Infinity;
       const fim = Math.min(c.ate, t ? t[2] : c.ate, prox);
-      const xp = expAt(fim) - expAt(L), xpH = h.xph * mult, horas = xp / xpH;
+      const xp = expAt(fim) - expAt(L), xpH = h.xph * calcBonus(c) * rateAt(c, L), horas = horasEntre(c, L, fim, h.xph);
       const velha = !!t && t[1] >= 60 && h.lv < t[1] * 0.6 && !hs.some(x => x.faixa === t[0]);
       const last = seg[seg.length - 1];
       if (last && last.h.k === h.k) { last.ate = fim; last.xp += xp; last.horas += horas; last.velha = last.velha || velha; last.cedo = last.cedo || cedo; }
@@ -604,12 +617,11 @@ Exemplo Druid
     return { seg };
   }
   function calcUma(c) {
-    const mult = calcMult(c);
     const h = c.hunt && c.hunt !== "outra" ? calcHunts(c.voc).find(x => x.k === c.hunt) : null;
     const base = h ? h.xph : Number(c.xph) || 0;
     if (!base) return { erro: "Escolha uma hunt ou digite o XP por hora." };
-    const xp = expAt(c.ate) - expAt(c.de), xpH = base * mult;
-    return { seg: [{ de: c.de, ate: c.ate, h: h || { nome: "XP digitado", xph: base, profit: 0 }, xp, xpH, horas: xp / xpH }] };
+    const xp = expAt(c.ate) - expAt(c.de), xpH = base * calcBonus(c) * rateAt(c, c.de);
+    return { seg: [{ de: c.de, ate: c.ate, h: h || { nome: "XP digitado", xph: base, profit: 0 }, xp, xpH, horas: horasEntre(c, c.de, c.ate, base) }] };
   }
   const fmtH = h => { if (h < 1) return Math.max(1, Math.round(h * 60)) + " min"; const H = Math.floor(h), M = Math.round((h - H) * 60); return M === 60 ? (H + 1) + "h" : H + "h" + (M ? String(M).padStart(2, "0") : ""); };
 
@@ -621,6 +633,7 @@ Exemplo Druid
       <p class="intro">Coloque seu level e o level que você quer. A calculadora soma a XP que falta e mostra quantas horas de hunt isso dá, usando o XP por hora das hunts do guia.</p></div>
       <div class="sbox calc-box">
         <div class="calc-grid">
+          <label><span class="how-t">Servidor</span><select data-calc="srv">${opt("", "Tibia (base)", !c.srv)}${Object.values(SERVERS).map(x => opt(x.id, x.nome, x.id === c.srv)).join("")}</select></label>
           <label><span class="how-t">Vocação</span><select data-calc="voc">${BASE.vocacoes.map(v => opt(v.id, v.nome, v.id === c.voc)).join("")}</select></label>
           <label><span class="how-t">Level atual</span><input type="number" min="8" max="3000" inputmode="numeric" data-calc="de" value="${c.de}"></label>
           <label><span class="how-t">Level desejado</span><input type="number" min="9" max="3000" inputmode="numeric" data-calc="ate" value="${c.ate}"></label>
@@ -639,10 +652,10 @@ Exemplo Druid
           <label class="chk"><input type="checkbox" data-calc="stamina"${c.stamina ? " checked" : ""}><span>Stamina verde (+50%)</span></label>
           <label class="chk"><input type="checkbox" data-calc="boost"${c.boost ? " checked" : ""}><span>XP Boost da loja (+50%)</span></label>
           <label><span class="how-t">Prey de XP (%)</span><input type="number" min="0" max="100" inputmode="numeric" data-calc="prey" value="${c.prey || ""}" placeholder="0"></label>
-          <label><span class="how-t">Rate do servidor (x)</span><input type="number" min="0.1" step="0.1" inputmode="decimal" data-calc="rate" value="${c.rate}"></label>
+          ${calcStages(c) ? "" : `<label><span class="how-t">Rate do servidor (x)</span><input type="number" min="0.1" step="0.1" inputmode="decimal" data-calc="rate" value="${c.rate}"></label>`}
           <label><span class="how-t">Horas de hunt por dia</span><input type="number" min="0.5" step="0.5" inputmode="decimal" data-calc="horas" value="${c.horas}"></label>
         </div>
-        <p class="muted">O XP por hora das hunts é do Tibia oficial, sem bônus. No HeroOT e em outros servidores, coloque a rate de XP do seu level.</p>
+        <p class="muted">${calcStages(c) ? `A rate de XP é preenchida sozinha com os <a href="${esc(SERVERS[c.srv].xp_estagios_fonte || SERVERS[c.srv].site)}" target="_blank" rel="noopener">estágios de XP do ${esc(SERVERS[c.srv].nome)}</a>: muda conforme o level sobe. O XP por hora das hunts é o do Tibia oficial, multiplicado pela rate.` : "O XP por hora das hunts é do Tibia oficial, sem bônus. Em servidor com rate, coloque a rate de XP do seu level, ou escolha o servidor acima se ele estiver na lista."}</p>
       </div>
       <div id="calc-res"></div>`;
   }
@@ -664,6 +677,7 @@ Exemplo Druid
         ${hd ? `<div><span class="how-t">Jogando ${String(hd).replace(".", ",")}h por dia</span><b>${dias} ${dias === 1 ? "dia" : "dias"}</b></div>` : ""}
         ${temLucro ? `<div><span class="how-t">Profit no caminho</span><b class="${lucro < 0 ? "neg" : ""}">${kk(Math.round(lucro / 1e4) * 1e4)}</b></div>` : ""}
       </div>
+      ${calcStages(c) ? (() => { const us = calcStages(c).filter(e => (e[1] === null || e[1] >= c.de) && e[0] < c.ate); return `<p class="calc-rate">Rate do ${esc(SERVERS[c.srv].nome)} no caminho: ${us.map(e => { const a = Math.max(e[0], c.de), b = e[1] === null ? c.ate : Math.min(e[1], c.ate); return `<b>${String(e[2]).replace(".", ",")}x</b> (lvl ${a === b ? a : a + "–" + b})`; }).join(" · ")}</p>`; })() : ""}
       <span class="how-t t2">${c.modo === "rota" ? "Hunts no caminho" : "Hunt"}</span>
       ${r.seg.map(s => `<div class="calc-seg"><span class="lvl-badge">Lvl ${s.de}–${s.ate}</span><span class="calc-seg-n"><b>${esc(s.h.nome)}</b>${s.h.onde && s.h.onde !== s.h.nome ? `<small>${esc(s.h.onde)}</small>` : ""}</span><span class="calc-seg-v">${kk(Math.round(s.xpH))}/h · <b>${fmtH(s.horas)}</b></span>${s.cedo ? `<span class="calc-warn">O guia não tem XP/h de hunt para esse level dessa vocação. Usei a primeira hunt com dado, que pede level mais alto: o tempo real deve ser maior.</span>` : s.velha ? `<span class="calc-warn">O guia ainda não tem XP/h das hunts dessa faixa para essa vocação. Usei a melhor hunt com dado, que é de level mais baixo: o tempo real deve ser menor.</span>` : ""}</div>`).join("")}
       <p class="muted">Conta aproximada: o XP por hora muda com o seu set, a Roda e quantos monstros estão no respawn. Abaixo do level 50 o Tibia dá bônus de XP extra, então nesses levels vai mais rápido.</p>
@@ -814,7 +828,7 @@ Exemplo Druid
       if (e.target.dataset.calc !== undefined) {
         const k = e.target.dataset.calc, c = st.calc;
         if (e.target.type === "checkbox") c[k] = e.target.checked;
-        else if (k === "voc" || k === "hunt") { c[k] = e.target.value; if (k === "voc") c.hunt = ""; calcSave(); render(); return; }
+        else if (k === "voc" || k === "hunt" || k === "srv") { c[k] = e.target.value; if (k === "voc") c.hunt = ""; calcSave(); render(); return; }
         else if (k === "xph") c[k] = e.target.value;
         else c[k] = parseFloat(String(e.target.value).replace(",", ".")) || 0;
         calcSave(); calcRender(); return;

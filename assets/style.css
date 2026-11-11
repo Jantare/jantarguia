@@ -400,3 +400,4 @@ html:not(.js) .loading { display: none; }
 .calc-seg-v{font-size:.92rem;color:var(--muted);white-space:nowrap}
 .calc-seg-v b{color:var(--ink)}
 .calc-warn{flex-basis:100%;font-size:.82rem;color:var(--srv);background:var(--srv-soft);border-radius:6px;padding:6px 8px}
+.calc-rate{font-size:.88rem;margin:4px 0 0;line-height:1.5}

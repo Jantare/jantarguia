@@ -12,7 +12,7 @@
   const slot = (src, big, alt) => `<span class="slot${big ? " big" : ""}">${img(src, "", alt)}</span>`;
 
   const st = { monF: "todos", monQ: "", questQ: "",imbuVoc: "knight", view: "inicio", qfilter: "todas", loot: "", lootExtra: {}, lootOff: new Set(), look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
-  let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS, SERVERS = {};
+  let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS, FRAQ, SERVERS = {};
 
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -156,12 +156,25 @@
   const MODO = { solo: ["Solo", "Dá para caçar sozinho"], pt: ["PT", "Melhor em party (time)"], ambos: ["Solo ou PT", "Dá solo e também rende em party"] };
   const kk = n => { const a = Math.abs(n), s = n < 0 ? "-" : ""; return a >= 1e9 ? s + (a / 1e9).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "kkk" : a >= 1e6 ? s + (a / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "kk" : a >= 1e3 ? s + Math.round(a / 1e3) + "k" : s + a; };
   const FXP = { tp: "TibiaPal (testes de 2026)", tpv: "TibiaPal (antes do rebalance de 2026)", qa: "relatos de jogadores no TibiaQA" };
+  const ELEM = { fisico: "Físico", fogo: "Fogo", gelo: "Gelo", energia: "Energia", terra: "Terra", morte: "Morte", sagrado: "Sagrado" };
+  function fraqPainel(v) {
+    const els = FRAQ.ordem.map((k, i) => ({ k, n: ELEM[k], p: v[i] })).sort((a, b) => b.p - a.p);
+    const top = els[0].p, melhor = els.filter(e => e.p === top && top > 100);
+    const ruins = els.filter(e => e.p <= 50).sort((a, b) => a.p - b.p);
+    const cls = p => p === 0 ? "imune" : p > 100 ? "forte" : p < 100 ? "resiste" : "neutro";
+    const txt = p => p === 0 ? "imune" : p + "%";
+    return `<p class="fraq-sum">${melhor.length ? `<span>Melhor: <b class="forte">${melhor.map(e => e.n + " " + e.p + "%").join(", ")}</b></span>` : `<span>Sem fraqueza: tudo dá no máximo 100%.</span>`}${ruins.length ? `<span>Evite: <b class="imune">${ruins.map(e => e.n + " (" + txt(e.p) + ")").join(", ")}</b></span>` : ""}</p>
+      <div class="fraq-els">${els.map(e => `<span class="fraq-el ${cls(e.p)}"><span>${e.n}</span><b>${txt(e.p)}</b></span>`).join("")}</div>
+      <p class="fraq-nota">Quanto do dano de cada elemento ele recebe. Acima de 100% é fraqueza; abaixo, resistência. Fonte: TibiaWiki.</p>`;
+  }
   function huntRow(h) {
     const meta = [`lvl ${esc(h.lv)}`, h.exp ? `${num(h.exp)} xp` : "", h.hp ? `${num(h.hp)} hp` : ""].filter(Boolean).join(" · ");
     const md = MODO[h.modo];
     const modo = md ? `<span class="hmode hmode-${h.modo}" title="${md[1]}">${md[0]}</span>` : "";
     const xp = h.xph ? `<span class="hrow-xp" title="Valores do Tibia oficial, por hora, XP base sem bônus. Fonte: ${FXP[h.fxp] || "TibiaPal"}."><span>XP <b>${kk(h.xph)}/h</b></span><span class="${h.profit < 0 ? "neg" : "pos"}">Profit <b>${h.profit > 0 ? "+" : ""}${kk(h.profit)}/h</b></span></span>` : "";
-    return `<div class="hrow">${h.img ? slot(h.img, false, h.m || h.onde) :`<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}${modo}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${xp}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
+    const fq = h.m && FRAQ && FRAQ.monstros[h.m];
+    const pic = h.img ? slot(h.img, false, h.m || h.onde) : "";
+    return `<div class="hrow">${h.img ? (fq ? `<button type="button" class="fraq-pic" data-fraq aria-label="Ver o dano por elemento do ${esc(h.m)}">${pic}</button>` : pic) :`<span class="slot place"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span>`}<div class="hrow-txt"><span class="meta">${meta}${modo}</span><b>${esc(h.m || h.onde)}</b>${h.m ? `<span class="hrow-onde">${esc(h.onde)}</span>` : ""}${xp}${fq ? `<button type="button" class="fraq-btn" data-fraq aria-expanded="false">Dano por elemento <span aria-hidden="true">▾</span></button><div class="fraq" hidden>${fraqPainel(fq)}</div>` : ""}${h.nota ? `<span class="hrow-nota">${esc(h.nota)}</span>` : ""}${h.yt ? `<a class="hrow-yt" href="${esc(h.yt)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Ver vídeos dessa hunt</a>` : ""}${h.m ? srvNote("monstros", h.m) : ""}</div></div>`;
   }
 
   function spellRows(list) {
@@ -851,6 +864,12 @@ Exemplo Druid
     const bi = e.target.closest("[data-busca]");
     if (bi) { buscaIr(+bi.dataset.busca); return; }
     if (!$("#buscabox").hidden && !e.target.closest("#buscabox")) buscaAbrir(false);
+    const fb = e.target.closest("[data-fraq]");
+    if (fb) {
+      const row = fb.closest(".hrow"), pn = row && row.querySelector(".fraq"), bt = row && row.querySelector(".fraq-btn");
+      if (pn) { pn.hidden = !pn.hidden; if (bt) bt.setAttribute("aria-expanded", String(!pn.hidden)); }
+      return;
+    }
     const cm = e.target.closest("[data-calc-modo]");
     if (cm) { st.calc.modo = cm.dataset.calcModo; calcSave(); render(); return; }
     const lrm = e.target.closest("[data-loot-rm]");
@@ -900,7 +919,7 @@ Exemplo Druid
     themeLabel();
     try {
       const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
-      [SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json"), get("data/imbuements.json"), get("data/charms.json")]);
+      [SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS, FRAQ] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json"), get("data/imbuements.json"), get("data/charms.json"), get("data/fraquezas.json")]);
       const list = await Promise.all(SITE.servidores.map(id => get(`data/servidores/${id}.json`)));
       list.forEach(s => SERVERS[s.id] = s);
     } catch (e) {

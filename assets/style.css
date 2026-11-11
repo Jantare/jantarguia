@@ -438,3 +438,18 @@ main{min-height:100vh}
 .calc-hunt b{text-decoration:underline;text-decoration-color:var(--gold-2);text-underline-offset:3px}
 .calc-hunt span{color:var(--gold)}
 .calc-hunt:hover b{color:var(--gold)}
+.fraq-pic{all:unset;cursor:pointer;border-radius:8px;flex:none}
+.fraq-pic:focus-visible{outline:2px solid var(--gold-2);outline-offset:2px}
+.fraq-btn{align-self:flex-start;font:inherit;font-size:.82rem;font-weight:600;color:var(--gold);background:none;border:1px solid var(--gold-2);border-radius:999px;padding:4px 10px;min-height:30px;margin:4px 0 2px;cursor:pointer}
+.fraq-btn[aria-expanded=true] span{display:inline-block;transform:rotate(180deg)}
+.fraq{border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin:4px 0;background:var(--bg)}
+.fraq-sum{display:flex;flex-wrap:wrap;gap:2px 14px;margin:0 0 6px;font-size:.88rem}
+.fraq-els{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:6px}
+.fraq-el{display:flex;justify-content:space-between;gap:6px;padding:4px 8px;border-radius:6px;font-size:.85rem;border:1px solid var(--line)}
+.fraq-el.forte{border-color:#4aa865;background:rgb(74 168 101 / .14)}
+.fraq-el.resiste{border-color:#d0843a;background:rgb(208 132 58 / .12)}
+.fraq-el.imune{border-color:#d0564c;background:rgb(208 86 76 / .14)}
+b.forte,.fraq-el.forte b{color:#4aa865}
+.fraq-el.resiste b{color:#d0843a}
+b.imune,.fraq-el.imune b{color:#d0564c}
+.fraq-nota{margin:6px 0 0;font-size:.76rem;color:var(--muted)}

@@ -276,6 +276,23 @@ with open(os.path.join(ROOT, "index.html"), encoding="utf-8") as f:
 NAV = "".join(f'<a class="tab" href="{i + "/" if i else "./"}"><span>{e(n)}</span></a>' for i, n in NOMES)
 
 
+def _cupom():
+    import json as _j, os as _o
+    s = _j.load(open(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "..", "data", "site.json"), encoding="utf-8"))
+    if not s.get("codigo_streamer"):
+        return '<div class="topcupom" id="topcupom" hidden></div>'
+    q = lambda x: e(str(x))
+    cod = q(s["codigo_streamer"])
+    txt = (f'<span>Crie sua conta no <b>{q(s["servidor_parceiro"])}</b> pelo link do {q(s["criador"])} e, ao comprar cash, use o cupom '
+           f'<button class="tb-code" type="button" data-copy="{cod}">{cod}</button>'
+           + (f' para ganhar <b>{q(s["bonus_cupom"])}</b>' if s.get("bonus_cupom") else "") + "</span>"
+           + (f'<a href="{q(s["link_cadastro"])}" target="_blank" rel="sponsored noopener">Criar conta →</a>' if s.get("link_cadastro") else ""))
+    return f'<div class="topcupom" id="topcupom"><div class="wrap">{txt}</div></div>'
+
+
+CUPOM = _cupom()
+
+
 def montar(pid, titulo, desc, corpo):
     url = SITE_URL + (pid + "/" if pid else "")
     t = TEMPLATE
@@ -292,6 +309,7 @@ def montar(pid, titulo, desc, corpo):
               {"@type": "ListItem", "position": 2, "name": titulo.split(":")[0].split(" |")[0], "item": url}]})
     t = sub(r'<script type="application/ld\+json">.*?</script>',
             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>', t)
+    t = sub(r'<div class="topcupom" id="topcupom"[^>]*>.*?</div>(?=\s*<header)', CUPOM, t)
     t = sub(r'<nav class="tabs" id="tabs" aria-label="Seções">.*?</nav>',
             f'<nav class="tabs" id="tabs" aria-label="Seções">{NAV}</nav>', t)
     t = sub(r'<main><div class="wrap" id="view">.*?</div></main>',

@@ -550,7 +550,7 @@ Exemplo Druid
   }
 
   function lootView() {
-    return `<div class="page-h"><h1>Loot Split: divisão de loot da party</h1>
+    return `<div class="page-h"><h1>Loot Split: divisão do party loot</h1>
       <p class="intro">No Tibia, abra o Party Hunt Analyser, clique em copiar e cole o texto aqui. O site calcula o lucro de cada jogador e quem transfere para quem.</p></div>
       <div class="sbox loot-box">
         <label class="how-t" for="lootxt">Texto do Party Hunt Analyser</label>
@@ -778,12 +778,12 @@ Exemplo Druid
     outfits: ["Outfits e montarias do Tibia: como conseguir | Jantar Guia", "Como conseguir cada montaria e outfit do Tibia jogando, com as da loja separadas."],
     charms: ["Charms do Tibia: quais pegar em cada vocação | Jantar Guia", "Lista de todos os charms do Tibia com efeito e custo, como funcionam e quais pegar primeiro em Knight, Paladin, Sorcerer, Druid e Monk."],
     calculadora: ["Calculadora de level do Tibia: quanto tempo até o próximo level | Jantar Guia", "Calcule quanta XP falta e quantas horas de hunt você precisa até o level que quer, seguindo a rota do guia, com stamina, XP Boost e prey."],
-    lootsplit: ["Loot Split: divisão de loot da party no Tibia | Jantar Guia", "Cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem."],
+    lootsplit: ["Loot Split: dividir o party loot no Tibia | Jantar Guia", "Divida o party loot da hunt: cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem."],
     monstros: ["Monstros e bosses do Tibia: onde ficam e o que dropam | Jantar Guia", "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um."]
   };
   function setMeta() {
     let m = PAGE_META[st.view];
-    if (!m && SERVERS[st.view]) { const s = SERVERS[st.view]; m = [`${s.nome}: sistemas e guia do servidor | Jantar Guia`, `Guia do servidor ${s.nome}: sistemas, rates e o que muda em relação ao Tibia oficial.`]; }
+    if (!m && SERVERS[st.view]) { const s = SERVERS[st.view]; m = [s.titulo_seo || `${s.nome}: sistemas e guia do servidor | Jantar Guia`, s.desc_seo || `Guia do servidor ${s.nome}: sistemas, rates e o que muda em relação ao Tibia oficial.`]; }
     if (!m) { const v = BASE.vocacoes.find(x => x.id === st.view); if (v) m = [`${v.nome} no Tibia: rota do level 8 ao ${maxLvl(v.id)}, hunts e equipamento | Jantar Guia`, `Rota do ${v.nome} no Tibia do level 8 ao ${maxLvl(v.id)}: onde caçar, o que comprar em cada level, magias com NPC e preço, quests e treino.`]; }
     if (!m) m = PAGE_META.inicio;
     document.title = m[0];

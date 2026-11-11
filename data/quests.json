@@ -523,6 +523,24 @@
    "desc": "Os bosses que dão os sets das faixas 200–400 do guia.",
    "quests": [
     {
+     "nome": "The Way of the Monk Quest",
+     "lvl": "275+",
+     "tags": [
+      "Monk",
+      "Promoção"
+     ],
+     "txt": "A quest do Monk: siga o caminho dos Merudri pelos santuários espalhados pelo mapa. Para o Monk, aumenta o dano do ataque básico e ensina magias novas. Qualquer vocação pode fazer pelos pontos de promoção e pela XP.",
+     "det": {
+      "min": "275 para completar",
+      "rec": "275+",
+      "prem": "Sim",
+      "onde": "Começa em Blue Valley. Santuários em Targuna, Thais, Tyrsung, Ab'Dendriel, Maze of Lost Souls, Port Hope, Pits of Inferno, Zao, Corruption Hole e Kilmaresh.",
+      "recompensa": "10 Promotion Points e cerca de 848 mil de XP ao tocar todos os santuários. Para o Monk: +25% de dano no ataque básico (+50% em estado Sereno) e as magias Forceful Uppercut e Mystic Repulse. No HeroOT, a atualização 1.0.8 liberou os 14 santuários, que dão pontos da Roda.",
+      "perigos": "Pede várias quests antes: Ice Islands (Nibelor 2), Pits of Inferno (até The Levers), The New Frontier, 8 Tomes of Knowledge e parte do Cults of Tibia. Leve rope, shovel e machete, e Levitate."
+     },
+     "itens": []
+    },
+    {
      "nome": "Feaster of Souls",
      "lvl": "250+",
      "tags": [

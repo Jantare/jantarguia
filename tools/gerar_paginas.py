@@ -208,7 +208,7 @@ def pag_calculadora():
 
 
 def pag_lootsplit():
-    return ("<h1>Loot Split: divisão de loot da party</h1>"
+    return ("<h1>Loot Split: divisão do party loot</h1>"
             "<p>Ferramenta para dividir o loot de uma party hunt no Tibia. Copie o texto do Party Hunt Analyser, cole na página "
             "e veja o lucro total, quanto fica para cada jogador e quem transfere para quem.</p>"
             "<p>Dá para somar gastos extras de um jogador, como entrada de boss, e tirar alguém da divisão. "
@@ -253,16 +253,16 @@ PAGS += [
      "Como conseguir cada montaria e outfit do Tibia jogando, com as da loja separadas.", pag_outfits()),
     ("monstros", "Monstros e bosses do Tibia: onde ficam e o que dropam | Jantar Guia",
      "Monstros e bosses do Tibia: onde ficam, level para caçar, o que dropam com a chance de drop e vídeos de cada um.", pag_monstros()),
-    ("lootsplit", "Loot Split: divisão de loot da party no Tibia | Jantar Guia",
-     "Cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem.", pag_lootsplit()),
+    ("lootsplit", "Loot Split: dividir o party loot no Tibia | Jantar Guia",
+     "Divida o party loot da hunt: cole o texto do Party Hunt Analyser do Tibia e veja quanto cada jogador recebe e quem transfere para quem.", pag_lootsplit()),
     ("charms", "Charms do Tibia: quais pegar em cada vocação | Jantar Guia",
      "Lista de todos os charms do Tibia com efeito e custo, como funcionam e quais pegar primeiro em Knight, Paladin, Sorcerer, Druid e Monk.", pag_charms()),
     ("calculadora", "Calculadora de level do Tibia: quanto tempo até o próximo level | Jantar Guia",
      "Calcule quanta XP falta e quantas horas de hunt você precisa até o level que quer, seguindo a rota do guia, com stamina, XP Boost e prey.", pag_calculadora()),
 ]
 for s in SERVERS:
-    PAGS.append((s["id"], f'{s["nome"]}: sistemas e guia do servidor | Jantar Guia',
-                 f'Guia do servidor {s["nome"]}: sistemas, rates e o que muda em relação ao Tibia oficial.', pag_servidor(s)))
+    PAGS.append((s["id"], s.get("titulo_seo") or f'{s["nome"]}: sistemas e guia do servidor | Jantar Guia',
+                 s.get("desc_seo") or f'Guia do servidor {s["nome"]}: sistemas, rates e o que muda em relação ao Tibia oficial.', pag_servidor(s)))
 
 
 def sub(pat, rep, txt):

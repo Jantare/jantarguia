@@ -291,6 +291,10 @@ def _cupom():
 
 
 CUPOM = _cupom()
+_css = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "style.css"), encoding="utf-8").read()
+_css = re.sub(r"/\*.*?\*/", "", _css, flags=re.S)
+_css = re.sub(r"\s*\n\s*", " ", _css).strip()
+CSS_INLINE = '<style id="css">' + _css + "</style>"
 
 
 def montar(pid, titulo, desc, corpo):
@@ -310,6 +314,7 @@ def montar(pid, titulo, desc, corpo):
     t = sub(r'<script type="application/ld\+json">.*?</script>',
             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>', t)
     t = sub(r'<div class="topcupom" id="topcupom"[^>]*>.*?</div>(?=\s*<header)', CUPOM, t)
+    t = sub(r'<link rel="stylesheet" href="assets/style\.css\?v=[^"]*">|<style id="css">.*?</style>', CSS_INLINE, t)
     t = sub(r'<nav class="tabs" id="tabs" aria-label="Seções">.*?</nav>',
             f'<nav class="tabs" id="tabs" aria-label="Seções">{NAV}</nav>', t)
     t = sub(r'<main><div class="wrap" id="view">.*?</div></main>',

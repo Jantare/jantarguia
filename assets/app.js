@@ -708,7 +708,7 @@ Exemplo Druid
       </div>
       ${calcStages(c) ? (() => { const us = calcStages(c).filter(e => (e[1] === null || e[1] >= c.de) && e[0] < c.ate); return `<p class="calc-rate">Rate do ${esc(SERVERS[c.srv].nome)} no caminho: ${us.map(e => { const a = Math.max(e[0], c.de), b = e[1] === null ? c.ate : Math.min(e[1], c.ate); return `<b>${String(e[2]).replace(".", ",")}x</b> (lvl ${a === b ? a : a + "–" + b})`; }).join(" · ")}</p>`; })() : ""}
       <span class="how-t t2">${c.modo === "rota" ? "Hunts no caminho" : "Hunt"}</span>
-      ${r.seg.map(s => `<div class="calc-seg"><span class="lvl-badge">Lvl ${s.de}–${s.ate}</span><span class="calc-seg-n"><b>${esc(s.h.nome)}</b>${s.h.onde && s.h.onde !== s.h.nome ? `<small>${esc(s.h.onde)}</small>` : ""}</span><span class="calc-seg-v">${kk(Math.round(s.xpH))}/h · <b>${fmtH(s.horas)}</b></span>${s.cedo ? `<span class="calc-warn">O guia não tem XP/h de hunt para esse level dessa vocação. Usei a primeira hunt com dado, que pede level mais alto: o tempo real deve ser maior.</span>` : s.velha ? `<span class="calc-warn">O guia ainda não tem XP/h das hunts dessa faixa para essa vocação. Usei a melhor hunt com dado, que é de level mais baixo: o tempo real deve ser menor.</span>` : ""}</div>`).join("")}
+      ${r.seg.map(s => `<div class="calc-seg"><span class="lvl-badge">Lvl ${s.de}–${s.ate}</span><span class="calc-seg-n">${s.h.k ? `<a class="calc-hunt" href="${esc(c.voc)}/" data-calc-ir="${esc(c.voc + "|" + s.h.k + "|" + s.h.nome)}" title="Ver essa hunt no guia de ${esc((BASE.vocacoes.find(v => v.id === c.voc) || {}).nome || c.voc)}"><b>${esc(s.h.nome)}</b><span aria-hidden="true"> →</span></a>` : `<b>${esc(s.h.nome)}</b>`}${s.h.onde && s.h.onde !== s.h.nome ? `<small>${esc(s.h.onde)}</small>` : ""}</span><span class="calc-seg-v">${kk(Math.round(s.xpH))}/h · <b>${fmtH(s.horas)}</b></span>${s.cedo ? `<span class="calc-warn">O guia não tem XP/h de hunt para esse level dessa vocação. Usei a primeira hunt com dado, que pede level mais alto: o tempo real deve ser maior.</span>` : s.velha ? `<span class="calc-warn">O guia ainda não tem XP/h das hunts dessa faixa para essa vocação. Usei a melhor hunt com dado, que é de level mais baixo: o tempo real deve ser menor.</span>` : ""}</div>`).join("")}
       <p class="muted">Conta aproximada: o XP por hora muda com o seu set, a Roda e quantos monstros estão no respawn. Abaixo do level 50 o Tibia dá bônus de XP extra, então nesses levels vai mais rápido.</p>
     </div>`;
   }
@@ -747,6 +747,13 @@ Exemplo Druid
     b.hidden = !on; btn.setAttribute("aria-expanded", on ? "true" : "false");
     if (on) { const i = $("#buscaq"); i.focus(); i.select(); buscaRender(); }
   }
+  function irHunt(voc, et, nome) {
+    go(voc);
+    const sec = document.getElementById("etapa-" + et);
+    const row = sec && [...sec.querySelectorAll(".hrow")].find(x => { const b = x.querySelector(".hrow-txt > b"); return b && b.textContent === nome; });
+    const el = row || sec;
+    if (el) { el.scrollIntoView({ block: "center" }); el.classList.add("busca-alvo"); setTimeout(() => el.classList.remove("busca-alvo"), 2200); }
+  }
   function buscaIr(idx) {
     const o = BIDX[idx]; if (!o) return;
     buscaAbrir(false);
@@ -754,14 +761,7 @@ Exemplo Druid
     if (a.page) { go(a.page); return; }
     if (a.mon) { st.monQ = a.mon; st.monF = "todos"; go("monstros"); return; }
     if (a.quest) { st.questQ = a.quest; st.qfilter = "todas"; go("quests"); return; }
-    if (a.hunt) {
-      go(a.voc);
-      const et = document.getElementById("etapa-" + a.et);
-      const row = et && [...et.querySelectorAll(".hrow")].find(x => { const b = x.querySelector(".hrow-txt > b"); return b && b.textContent === a.hunt; });
-      const el = row || et;
-      if (el) { el.scrollIntoView({ block: "center" }); el.classList.add("busca-alvo"); setTimeout(() => el.classList.remove("busca-alvo"), 2200); }
-      return;
-    }
+    if (a.hunt) { irHunt(a.voc, a.et, a.hunt); return; }
     if (a.item) {
       if (a.voc === "knight" && a.arma) st.weapon = "todas";
       go(a.voc);
@@ -832,6 +832,8 @@ Exemplo Druid
   }
 
   document.addEventListener("click", e => {
+    const ci = e.target.closest("[data-calc-ir]");
+    if (ci && !e.ctrlKey && !e.metaKey && !e.shiftKey) { e.preventDefault(); const [v, k, ...n] = ci.dataset.calcIr.split("|"); irHunt(v, +k.split("-")[0], n.join("|")); return; }
     const lnk = e.target.closest("a[href]");
     if (lnk && !lnk.target && !lnk.getAttribute("href").startsWith("#") && lnk.origin === location.origin && !e.ctrlKey && !e.metaKey && !e.shiftKey) {
       const id = lnk.pathname.split("/").filter(Boolean)[0] || "inicio";

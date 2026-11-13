@@ -674,6 +674,34 @@
      "img": "img/itens/ring-of-red-plasma.webp"
     },
     {
+     "id": "knight-prismatic-ring",
+     "tier": "100–150",
+     "slot": "Anel (alternativa)",
+     "item": "Prismatic Ring",
+     "lv": 120,
+     "attr": "Proteção 10% física e 8% energia, dura 60 min",
+     "src": [],
+     "shop": [],
+     "quest": "Recompensa da Bigfoot's Burden Quest (Warzone 3)",
+     "tip": "Para hunts onde o dano físico pesa. Troque com o anel de Plasma quando a hunt apertar.",
+     "wiki": "https://tibia.fandom.com/wiki/Prismatic_Ring",
+     "img": "img/itens/prismatic-ring.webp"
+    },
+    {
+     "id": "knight-foxtail-amulet",
+     "tier": "100–150",
+     "slot": "Colar (alternativa)",
+     "item": "Foxtail Amulet",
+     "lv": 100,
+     "attr": "Armadura 2, proteção 5% física, sem carga",
+     "src": [],
+     "shop": [],
+     "quest": "Grimvale Quest (missão The Curse Spreads)",
+     "tip": "Não acaba: bom para usar sempre que não estiver com o colar de Plasma.",
+     "wiki": "https://tibia.fandom.com/wiki/Foxtail_Amulet",
+     "img": "img/itens/foxtail-amulet.webp"
+    },
+    {
      "id": "knight-phantasmal-axe",
      "tier": "150–200",
      "slot": "Arma (Machado)",
@@ -2013,6 +2041,48 @@
      "img": "img/itens/guardian-boots.webp"
     },
     {
+     "id": "paladin-ring-of-blue-plasma",
+     "tier": "100–150",
+     "slot": "Anel",
+     "item": "Ring of Blue Plasma",
+     "lv": 100,
+     "attr": "+3 distance fighting, +1 magic level, dura 30 min",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "O anel do Paladin até o Alicorn Ring. Dropa de vários bosses e é barato no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Ring_of_Blue_Plasma",
+     "img": "img/itens/ring-of-blue-plasma.webp"
+    },
+    {
+     "id": "paladin-prismatic-ring",
+     "tier": "100–150",
+     "slot": "Anel (alternativa)",
+     "item": "Prismatic Ring",
+     "lv": 120,
+     "attr": "Proteção 10% física e 8% energia, dura 60 min",
+     "src": [],
+     "shop": [],
+     "quest": "Recompensa da Bigfoot's Burden Quest (Warzone 3)",
+     "tip": "Para hunts onde o dano físico pesa. Troque com o anel de Plasma quando a hunt apertar.",
+     "wiki": "https://tibia.fandom.com/wiki/Prismatic_Ring",
+     "img": "img/itens/prismatic-ring.webp"
+    },
+    {
+     "id": "paladin-foxtail-amulet",
+     "tier": "100–150",
+     "slot": "Colar (alternativa)",
+     "item": "Foxtail Amulet",
+     "lv": 100,
+     "attr": "Armadura 2, proteção 5% física, sem carga",
+     "src": [],
+     "shop": [],
+     "quest": "Grimvale Quest (missão The Curse Spreads)",
+     "tip": "Não acaba: bom para usar sempre que não estiver com o colar de Plasma.",
+     "wiki": "https://tibia.fandom.com/wiki/Foxtail_Amulet",
+     "img": "img/itens/foxtail-amulet.webp"
+    },
+    {
      "id": "paladin-prismatic-legs",
      "tier": "150–200",
      "slot": "Pernas",
@@ -2039,6 +2109,20 @@
      "tip": "Um dos itens mais roubados do Paladin: 24% de terra, 7% física e +3 distance. Custa pouco e carrega com Silver Tokens. Muito bom do 200 em diante.",
      "wiki": "https://tibia.fandom.com/wiki/Sleep_Shawl",
      "img": "img/itens/sleep-shawl.webp"
+    },
+    {
+     "id": "paladin-collar-of-blue-plasma",
+     "tier": "150–200",
+     "slot": "Colar (alternativa)",
+     "item": "Collar of Blue Plasma",
+     "lv": 150,
+     "attr": "+4 distance fighting, +2 magic level, dura 30 min",
+     "src": [],
+     "shop": [],
+     "quest": null,
+     "tip": "Mais dano que o Sleep Shawl; use o Shawl quando precisar de proteção. Dropa de vários bosses e é barato no market.",
+     "wiki": "https://tibia.fandom.com/wiki/Collar_of_Blue_Plasma",
+     "img": "img/itens/collar-of-blue-plasma.webp"
     },
     {
      "id": "paladin-crossbow-of-destruction",

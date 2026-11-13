@@ -1524,7 +1524,12 @@
        "xph": 5500000,
        "profit": 1500000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Grimeleech",
+        "Plaguesmith",
+        "Blightwalker"
+       ]
       },
       {
        "onde": "Nimmersatt's Breeding Grounds",
@@ -1626,7 +1631,15 @@
        "xph": 7000000,
        "profit": 1800000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Grimeleech",
+        "Plaguesmith",
+        "Juggernaut",
+        "Blightwalker"
+       ]
       }
      ],
      "magias": []
@@ -1650,7 +1663,15 @@
        "xph": 6500000,
        "profit": 1500000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Grimeleech",
+        "Plaguesmith",
+        "Juggernaut",
+        "Blightwalker"
+       ]
       },
       {
        "onde": "Feru Infernatil Seal",
@@ -3308,7 +3329,15 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Feru%20Pumin%20hunt%20800",
        "img": "img/monstros/hand-of-cursed-fate.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Grimeleech",
+        "Plaguesmith",
+        "Juggernaut",
+        "Blightwalker"
+       ]
       }
      ],
      "magias": []
@@ -3325,7 +3354,15 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Ferumbras%20Way%20hunt%20800",
        "img": "img/monstros/vexclaw.gif",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Grimeleech",
+        "Plaguesmith",
+        "Juggernaut",
+        "Blightwalker"
+       ]
       },
       {
        "onde": "Feru Undead Dragons",
@@ -3372,7 +3409,18 @@
        "nota": "Diamond Arrows, Ethereal.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20paladin%20Warzone%207%2C%208%20e%209%20hunt%20800",
        "img": "img/monstros/afflicted-strider.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Afflicted Strider",
+        "Blemished Spawn",
+        "Eyeless Devourer",
+        "Lavafungus",
+        "Lavaworm",
+        "Streaked Devourer",
+        "Cave Chimera",
+        "Tremendous Tyrant",
+        "Varnished Diremaw"
+       ]
       }
      ],
      "magias": []
@@ -5274,7 +5322,15 @@
        "nota": "Dano de energia.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20sorcerer%20Feru%20Pumin%20Boss%20Floor%20hunt%20800",
        "img": "img/monstros/hand-of-cursed-fate.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Grimeleech",
+        "Plaguesmith",
+        "Juggernaut",
+        "Blightwalker"
+       ]
       }
      ],
      "magias": []
@@ -5491,7 +5547,10 @@
        "hp": 50,
        "img": "img/monstros/troll.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20troll%20hunt",
-       "modo": "solo"
+       "modo": "solo",
+       "xph": 30000,
+       "profit": 50000,
+       "fxp": "tp"
       }
      ],
      "magias": [
@@ -6598,12 +6657,15 @@
        "m": "Wyrm",
        "onde": "Drefia Wyrm Lair e Vandura",
        "lv": "260+",
-       "nota": "Do vídeo: hunt excelente para Druid. Fork de gelo principal, avalanche para 10+ monstros, depois a fork de terra.",
+       "nota": "Do vídeo: hunt excelente para Druid. Fork de gelo principal, avalanche para 10+ monstros, depois a fork de terra. XP/h estimado pelo valor do Sorcerer no TibiaPal.",
        "exp": 1550,
        "hp": 1825,
        "img": "img/monstros/wyrm.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20wyrm%20hunt",
-       "modo": "solo"
+       "modo": "solo",
+       "xph": 1400000,
+       "profit": -50000,
+       "fxp": "sorc"
       }
      ],
      "magias": [
@@ -6633,7 +6695,7 @@
        "m": null,
        "onde": "Warzone (Bigfoot's Burden)",
        "lv": "300+",
-       "nota": "Do vídeo: vá em time e faça sempre que puder.",
+       "nota": "Do vídeo: vá em time e faça sempre que puder. XP/h estimado pelo valor do Sorcerer no TibiaPal.",
        "exp": null,
        "hp": null,
        "img": "img/monstros/lost-berserker.webp",
@@ -6643,24 +6705,30 @@
         "Chasm Spawn",
         "Drillworm",
         "Elder Wyrm"
-       ]
+       ],
+       "xph": 3700000,
+       "profit": 1400000,
+       "fxp": "sorc"
       },
       {
        "m": "Gazer Spectre",
        "onde": "Haunted Temple",
        "lv": "300+",
-       "nota": "Do vídeo: hunt pequena e disputada, mas muito boa (3kk/h de XP).",
+       "nota": "Do vídeo: hunt pequena e disputada, mas muito boa (3kk/h de XP). XP/h estimado pelo valor do Sorcerer no TibiaPal.",
        "exp": 4200,
        "hp": 4500,
        "img": "img/monstros/gazer-spectre.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20gazer%20spectre%20hunt",
-       "modo": "ambos"
+       "modo": "ambos",
+       "xph": 3200000,
+       "profit": 600000,
+       "fxp": "sorc"
       },
       {
        "m": null,
        "onde": "Warzone 4 (as minhocas)",
        "lv": "300+",
-       "nota": "Do vídeo: profit bom no 260, mas a fork de terra quase não bate.",
+       "nota": "Do vídeo: profit bom no 260, mas a fork de terra quase não bate. XP/h estimado pelo valor do Sorcerer no TibiaPal.",
        "exp": null,
        "hp": null,
        "img": "img/monstros/drillworm.webp",
@@ -6670,18 +6738,24 @@
         "Chasm Spawn",
         "Drillworm",
         "Elder Wyrm"
-       ]
+       ],
+       "xph": 3700000,
+       "profit": 1400000,
+       "fxp": "sorc"
       },
       {
        "m": "Burster Spectre",
        "onde": "Haunted Tomb (oeste de Darashia)",
        "lv": "300+",
-       "nota": "Do vídeo: dano alto e XP fraca. Só para bestiary ou bounty. Use summon para segurar dano.",
+       "nota": "Do vídeo: dano alto e XP fraca. Só para bestiary ou bounty. Use summon para segurar dano. XP/h estimado pelo valor do Sorcerer no TibiaPal.",
        "exp": 6000,
        "hp": 6500,
        "img": "img/monstros/burster-spectre.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20burster%20spectre%20hunt",
-       "modo": "ambos"
+       "modo": "ambos",
+       "xph": 4000000,
+       "profit": 300000,
+       "fxp": "sorc"
       }
      ],
      "magias": [
@@ -6884,12 +6958,15 @@
        "m": "Frazzlemaw",
        "onde": "Upper Roshamuul",
        "lv": "500+",
-       "nota": "Hunt solo do Druid na lista do TibiaPal (sem XP/h medida ainda).",
+       "nota": "Hunt solo do Druid na lista do TibiaPal (sem XP/h medida ainda). XP/h estimado pelo valor do Sorcerer no TibiaPal.",
        "exp": 3740,
        "hp": 4100,
        "img": "img/monstros/frazzlemaw.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Upper%20Roshamuul%20solo%20500",
-       "modo": "solo"
+       "modo": "solo",
+       "xph": 6300000,
+       "profit": 1300000,
+       "fxp": "sorc"
       },
       {
        "m": "Bloated Man-Maggot",
@@ -7060,7 +7137,12 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%208%20hunt%20600",
        "img": "img/monstros/afflicted-strider.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Lavafungus",
+        "Lavaworm",
+        "Streaked Devourer"
+       ]
       }
      ],
      "magias": []
@@ -7137,7 +7219,12 @@
        "nota": "Forked Thorns + Forked Glacier.",
        "yt": "https://www.youtube.com/results?search_query=tibia%20druid%20Warzone%209%20hunt%20600",
        "img": "img/monstros/afflicted-strider.webp",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Cave Chimera",
+        "Tremendous Tyrant",
+        "Varnished Diremaw"
+       ]
       },
       {
        "onde": "True Asuras",
@@ -8387,7 +8474,15 @@
        "xph": 5900000,
        "profit": 1600000,
        "fxp": "tpv",
-       "modo": "solo"
+       "modo": "solo",
+       "mobs": [
+        "Vexclaw",
+        "Hellflayer",
+        "Grimeleech",
+        "Plaguesmith",
+        "Juggernaut",
+        "Blightwalker"
+       ]
       }
      ],
      "magias": []

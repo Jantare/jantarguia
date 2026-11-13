@@ -155,7 +155,7 @@
 
   const MODO = { solo: ["Solo", "Dá para caçar sozinho"], pt: ["PT", "Melhor em party (time)"], ambos: ["Solo ou PT", "Dá solo e também rende em party"] };
   const kk = n => { const a = Math.abs(n), s = n < 0 ? "-" : ""; return a >= 1e9 ? s + (a / 1e9).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "kkk" : a >= 1e6 ? s + (a / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "kk" : a >= 1e3 ? s + Math.round(a / 1e3) + "k" : s + a; };
-  const FXP = { tp: "TibiaPal (testes de 2026)", tpv: "TibiaPal (antes do rebalance de 2026)", qa: "relatos de jogadores no TibiaQA" };
+  const FXP = { tp: "TibiaPal (testes de 2026)", tpv: "TibiaPal (antes do rebalance de 2026)", qa: "relatos de jogadores no TibiaQA", sorc: "TibiaPal, valor do Sorcerer no mesmo lugar (estimativa: o TibiaPal ainda não testou o Druid aqui)" };
   const ELEM = { fisico: "Físico", fogo: "Fogo", gelo: "Gelo", energia: "Energia", terra: "Terra", morte: "Morte", sagrado: "Sagrado" };
   function fraqPainel(v) {
     const els = FRAQ.ordem.map((k, i) => ({ k, n: ELEM[k], p: v[i] })).sort((a, b) => b.p - a.p);
@@ -182,7 +182,7 @@
     const meta = [`lvl ${esc(h.lv)}`, h.exp ? `${num(h.exp)} xp` : "", h.hp ? `${num(h.hp)} hp` : ""].filter(Boolean).join(" · ");
     const md = MODO[h.modo];
     const modo = md ? `<span class="hmode hmode-${h.modo}" title="${md[1]}">${md[0]}</span>` : "";
-    const xp = h.xph ? `<span class="hrow-xp" title="Valores do Tibia oficial, por hora, XP base sem bônus. Fonte: ${FXP[h.fxp] || "TibiaPal"}."><span>XP <b>${kk(h.xph)}/h</b></span><span class="${h.profit < 0 ? "neg" : "pos"}">Profit <b>${h.profit > 0 ? "+" : ""}${kk(h.profit)}/h</b></span></span>` : "";
+    const xp = h.xph ? `<span class="hrow-xp" title="Valores do Tibia oficial, por hora, XP base sem bônus. Fonte: ${FXP[h.fxp] || "TibiaPal"}."><span>XP <b>${h.fxp === "sorc" ? "~" : ""}${kk(h.xph)}/h</b></span><span class="${h.profit < 0 ? "neg" : "pos"}">Profit <b>${h.profit > 0 ? "+" : ""}${kk(h.profit)}/h</b></span></span>` : "";
     const mobs = !FRAQ ? [] : h.m ? (FRAQ.monstros[h.m] ? [h.m] : []) : (h.mobs || []).filter(n => FRAQ.monstros[n]);
     const fq = mobs.length > 0;
     const pic = h.img ? slot(h.img, false, h.m || h.onde) : "";

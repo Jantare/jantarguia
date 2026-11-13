@@ -12,7 +12,7 @@
   const slot = (src, big, alt) => `<span class="slot${big ? " big" : ""}">${img(src, "", alt)}</span>`;
 
   const st = { monF: "todos", monQ: "", questQ: "",imbuVoc: "knight", view: "inicio", qfilter: "todas", loot: "", lootExtra: {}, lootOff: new Set(), look: "montarias", lookCat: "todas", lookQ: "", weapon: "Machado", level: null, srv: "" };
-  let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS, FRAQ, SERVERS = {};
+  let SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS, FRAQ, LSPLIT, SERVERS = {};
 
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -546,7 +546,7 @@ Exemplo Druid
         return;
       }
       const k = m[1].trim().toLowerCase();
-      if (!cur) { if (k === "session") out.sessao = m[2]; return; }
+      if (!cur) { if (k === "session") { out.sessao = m[2]; const hm = m[2].match(/(\d+):(\d+)/); if (hm) out.horas = +hm[1] + hm[2] / 60; } return; }
       if (k === "loot") cur.loot = lootNum(m[2]);
       else if (k === "supplies") cur.sup = lootNum(m[2]);
       else if (k === "balance") cur.bal = lootNum(m[2]);
@@ -582,7 +582,37 @@ Exemplo Druid
         <textarea id="lootxt" rows="7" spellcheck="false" placeholder="Cole aqui o texto copiado do Party Hunt Analyser">${esc(st.loot)}</textarea>
         <div class="loot-acts"><button type="button" class="loot-btn" data-loot-ex>Ver exemplo</button><button type="button" class="loot-btn" data-loot-clear>Limpar</button></div>
       </div>
-      <div id="loot-res"></div>`;
+      <div id="loot-res"></div>
+      <div id="loot-hist">${lootHistHtml()}</div>
+      ${LSPLIT ? `<section class="loot-guia"><h2>Como usar o Loot Split</h2><ol class="loot-passos">${LSPLIT.passos.map(x => `<li>${esc(x)}</li>`).join("")}</ol>
+      <h2>Perguntas frequentes sobre party loot</h2>${LSPLIT.faq.map(([q, a]) => `<details class="loot-faq"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>` : ""}`;
+  }
+  // ---------- histórico e compartilhamento ----------
+  const lootHist = () => { try { return JSON.parse(store.get("lootHist") || "[]") || []; } catch (e) { return []; } };
+  function lootHistHtml() {
+    const h = lootHist(); if (!h.length) return "";
+    return `<div class="sbox loot-box"><span class="how-t">Últimas sessões neste navegador</span>
+      ${h.map((x, i) => `<div class="loot-tr"><span><b>${esc(x.quando)}</b> · ${x.n} jogadores · lucro <b class="${x.total < 0 ? "neg" : ""}">${num(x.total)} gp</b></span><span class="loot-hacts"><button type="button" class="loot-btn" data-loot-hist="${i}">Abrir</button><button type="button" class="loot-btn" data-loot-hdel="${i}" aria-label="Apagar sessão">×</button></span></div>`).join("")}
+      <p class="muted">Fica salvo só neste navegador, para conferir depois quem pagou quem.</p></div>`;
+  }
+  let lootSaveT = null;
+  function lootSalvar(r) {
+    clearTimeout(lootSaveT);
+    lootSaveT = setTimeout(() => {
+      const h = lootHist().filter(x => x.txt !== st.loot);
+      const d = new Date(), z = n => String(n).padStart(2, "0");
+      h.unshift({ txt: st.loot, extra: st.lootExtra, off: [...st.lootOff], total: r.total, n: r.n, quando: `${z(d.getDate())}/${z(d.getMonth() + 1)} ${z(d.getHours())}:${z(d.getMinutes())}` });
+      store.set("lootHist", JSON.stringify(h.slice(0, 5)));
+      const el = $("#loot-hist"); if (el) el.innerHTML = lootHistHtml();
+    }, 2500);
+  }
+  const b64e = s => btoa(unescape(encodeURIComponent(s))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  const b64d = s => decodeURIComponent(escape(atob(s.replace(/-/g, "+").replace(/_/g, "/"))));
+  const lootLink = () => location.origin + "/lootsplit/#s=" + b64e(JSON.stringify({ t: st.loot, e: st.lootExtra, o: [...st.lootOff] }));
+  function lootDoLink() {
+    const m = location.hash.match(/^#s=([\w-]+)/); if (!m) return;
+    try { const o = JSON.parse(b64d(m[1])); st.loot = o.t || ""; st.lootExtra = o.e || {}; st.lootOff = new Set(o.o || []); } catch (e) { }
+    history.replaceState(null, "", location.pathname);
   }
 
   function lootRender() {
@@ -603,16 +633,22 @@ Exemplo Druid
 
   function lootCalc() {
     const out = $("#loot-out"); if (!out) return;
-    const r = splitLoot(parseLoot(st.loot).players, st.lootExtra, st.lootOff);
+    const d = parseLoot(st.loot), r = splitLoot(d.players, st.lootExtra, st.lootOff);
     if (r.n < 2) { out.innerHTML = `<p class="notice">Deixe pelo menos 2 jogadores na divisão.</p>`; return; }
+    const ph = d.horas > 0 ? v => num(Math.round(v / d.horas)) : null;
+    const resumo = `Loot Split${d.sessao ? " (" + d.sessao + ")" : ""}: lucro ${num(r.total)} gp, ${num(r.parte)} gp para cada${ph ? " (" + ph(r.parte) + "/h)" : ""}.` + (r.transf.length ? " " + r.transf.map(t => `${t.de} -> ${t.para}: ${num(t.v)}`).join(" | ") : " Ninguém precisa transferir.");
+    lootSalvar(r);
     const cmd = t => `transfer ${t.v} to ${t.para}`;
     const tudo = r.transf.map(t => `${t.de}: ${cmd(t)}`).join("\n");
     out.innerHTML = `<div class="sbox loot-box">
-      <div class="loot-sum"><div><span class="how-t">Lucro total</span><b class="${r.total < 0 ? "neg" : ""}">${num(r.total)} gp</b></div><div><span class="how-t">Para cada jogador</span><b class="${r.parte < 0 ? "neg" : ""}">${num(r.parte)} gp</b></div></div>
+      <div class="loot-sum"><div><span class="how-t">Lucro total</span><b class="${r.total < 0 ? "neg" : ""}">${num(r.total)} gp</b></div><div><span class="how-t">Para cada jogador</span><b class="${r.parte < 0 ? "neg" : ""}">${num(r.parte)} gp</b></div>${ph ? `<div><span class="how-t">Por hora (cada um)</span><b class="${r.parte < 0 ? "neg" : ""}">${ph(r.parte)} gp/h</b></div>` : ""}</div>
       <span class="how-t t2">Transferências</span>
       ${r.transf.length ? r.transf.map(t => `<div class="loot-tr"><span><b>${esc(t.de)}</b> transfere <b>${num(t.v)} gp</b> para <b>${esc(t.para)}</b></span><button type="button" class="loot-btn" data-copy="${esc(cmd(t))}"><span class="copy-lbl">Copiar comando</span></button></div>`).join("") : `<p class="muted">Ninguém precisa transferir: já está dividido.</p>`}
       ${r.transf.length > 1 ? `<div class="loot-acts"><button type="button" class="loot-btn" data-copy="${esc(tudo)}"><span class="copy-lbl">Copiar todas</span></button></div>` : ""}
-      <p class="muted">Fale o comando no NPC do banco, depois de depositar o gold.</p></div>`;
+      <p class="muted">Fale o comando no NPC do banco, depois de depositar o gold.</p>
+      <span class="how-t t2">Mandar para a party</span>
+      <div class="loot-acts"><button type="button" class="loot-btn" data-copy="${esc(resumo)}"><span class="copy-lbl">Copiar resumo para o chat</span></button><button type="button" class="loot-btn" data-copy="${esc(lootLink())}"><span class="copy-lbl">Copiar link da divisão</span></button></div>
+      <p class="muted">O link abre esta mesma divisão para quem receber, com os gastos extras e quem ficou de fora.</p></div>`;
   }
 
 
@@ -826,7 +862,7 @@ Exemplo Druid
     else if (st.view === "imbuements") v.innerHTML = imbuView();
     else if (st.view === "outfits") v.innerHTML = lookView();
     else if (st.view === "monstros") { v.innerHTML = monstersView(); filterMon(); }
-    else if (st.view === "lootsplit") { v.innerHTML = lootView(); lootRender(); }
+    else if (st.view === "lootsplit") { lootDoLink(); v.innerHTML = lootView(); lootRender(); }
     else if (st.view === "charms") v.innerHTML = charmsView();
     else if (st.view === "calculadora") { v.innerHTML = calcView(); calcRender(); }
     else if (SERVERS[st.view]) v.innerHTML = serverView(SERVERS[st.view]);
@@ -870,6 +906,10 @@ Exemplo Druid
     if (lk) { st.look = lk.dataset.look; st.lookCat = "todas"; render(); }
     const lc = e.target.closest("[data-lcat]");
     if (lc) { st.lookCat = lc.dataset.lcat; render(); }
+    const lh = e.target.closest("[data-loot-hist]");
+    if (lh) { const x = lootHist()[+lh.dataset.lootHist]; if (x) { st.loot = x.txt; st.lootExtra = x.extra || {}; st.lootOff = new Set(x.off || []); render(); window.scrollTo(0, 0); } return; }
+    const ld = e.target.closest("[data-loot-hdel]");
+    if (ld) { const h = lootHist(); h.splice(+ld.dataset.lootHdel, 1); store.set("lootHist", JSON.stringify(h)); const el = $("#loot-hist"); if (el) el.innerHTML = lootHistHtml(); return; }
     if (e.target.closest("[data-loot-ex]")) { st.loot = LOOT_EXEMPLO; st.lootExtra = {}; st.lootOff = new Set(); render(); return; }
     if (e.target.closest("[data-loot-clear]")) { st.loot = ""; st.lootExtra = {}; st.lootOff = new Set(); render(); return; }
     if (e.target.closest("#busca")) { buscaAbrir($("#buscabox").hidden); return; }
@@ -931,7 +971,7 @@ Exemplo Druid
     themeLabel();
     try {
       const get = p => fetch(p, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(p); return r.json(); });
-      [SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS, FRAQ] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json"), get("data/imbuements.json"), get("data/charms.json"), get("data/fraquezas.json")]);
+      [SITE, BASE, QUESTS, LOOK, ROTAS, IMBU, CHARMS, FRAQ, LSPLIT] = await Promise.all([get("data/site.json"), get("data/tibia.json"), get("data/quests.json"), get("data/outfits-montarias.json"), get("data/rotas.json"), get("data/imbuements.json"), get("data/charms.json"), get("data/fraquezas.json"), get("data/lootsplit.json")]);
       const list = await Promise.all(SITE.servidores.map(id => get(`data/servidores/${id}.json`)));
       list.forEach(s => SERVERS[s.id] = s);
     } catch (e) {

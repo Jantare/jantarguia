@@ -1,0 +1,17 @@
+{
+ "passos": [
+  "No Tibia, abra o Party Hunt Analyser: no client, em Analytics, ou pelo botão da janela de party.",
+  "No fim da hunt, clique no botão de copiar do analyser (o ícone de copiar no canto da janela).",
+  "Cole o texto no campo acima. O site lê o loot, os supplies e o balance de cada jogador.",
+  "Se alguém pagou algo por fora, como entrada de boss ou poções extras, coloque em Gasto extra. Marque Fora para quem não entra na divisão.",
+  "Cada jogador que precisa pagar copia o comando de transferência e fala no NPC do banco, depois de depositar o gold."
+ ],
+ "faq": [
+  ["Como dividir o loot da party no Tibia?", "Copie o texto do Party Hunt Analyser no fim da hunt e cole no Loot Split. O site soma o balance de todos (loot menos supplies), divide igual entre os jogadores e mostra quem transfere quanto para quem, já com o comando pronto."],
+  ["O que é o Balance do Party Hunt Analyser?", "É o lucro de cada jogador na hunt: o valor do loot que ficou com ele menos o que ele gastou de supplies (poções, runas, munição). O Loot Split usa o balance para dividir o lucro igual entre todos."],
+  ["Como fazer a transferência de gold no Tibia?", "Deposite o gold no banco e fale com qualquer NPC de banco: diga hi, depois o comando transfer, o valor e o nome do jogador (por exemplo: transfer 400000 to Nome). Confirme com yes."],
+  ["E se alguém pagou a entrada do boss ou um item da hunt?", "Coloque o valor em Gasto extra na linha desse jogador. O site desconta esse gasto antes de dividir, e quem pagou recebe de volta na divisão."],
+  ["Como tirar um jogador da divisão?", "Marque a caixa Fora na linha dele. O lucro é dividido só entre quem ficou, e o que ele tiver de balance entra na conta de quem transfere."],
+  ["O Loot Split funciona no HeroOT e em outros servidores?", "Sim. Funciona em qualquer servidor que tenha o Party Hunt Analyser do client do Tibia, como o HeroOT. Se o texto copiado vier diferente, mande para o Jantar que o site é ajustado."]
+ ]
+}

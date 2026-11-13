@@ -463,3 +463,10 @@ b.imune,.fraq-el.imune b{color:#d0564c}
 .fraq-tab td.imune{color:#d0564c;font-weight:700;background:rgb(208 86 76 / .12)}
 .hrow .fraq{margin-left:-56px}
 @media (max-width:480px){.fraq-tab{font-size:.74rem}.fraq-tab td,.fraq-tab th{padding:2px 1px}.fraq-tab th:first-child,.fraq-tab td:first-child{max-width:6.2em}}
+.loot-hacts{display:flex;gap:6px;flex:none}
+.loot-guia{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.loot-guia h2{font-size:1.25rem}
+.loot-passos{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;line-height:1.5}
+.loot-faq{border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:var(--panel)}
+.loot-faq summary{cursor:pointer;font-weight:600;min-height:24px}
+.loot-faq p{margin:8px 0 0;line-height:1.5;color:var(--ink)}

@@ -207,12 +207,19 @@ def pag_calculadora():
             "<p>Considera stamina verde, XP Boost da loja, prey de XP e a rate do servidor, como no HeroOT.</p>")
 
 
+LSPLIT = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "lootsplit.json"), encoding="utf-8"))
+
+
 def pag_lootsplit():
     return ("<h1>Loot Split: divisão do party loot</h1>"
             "<p>Ferramenta para dividir o loot de uma party hunt no Tibia. Copie o texto do Party Hunt Analyser, cole na página "
             "e veja o lucro total, quanto fica para cada jogador e quem transfere para quem.</p>"
             "<p>Dá para somar gastos extras de um jogador, como entrada de boss, e tirar alguém da divisão. "
-            "A ferramenta gera o comando de transferência para falar no NPC do banco.</p>")
+            "A ferramenta gera o comando de transferência para falar no NPC do banco, mostra o lucro por hora, "
+            "copia um resumo para o chat da party e gera um link para compartilhar a divisão.</p>"
+            "<h2>Como usar o Loot Split</h2><ol>" + "".join(f"<li>{e(x)}</li>" for x in LSPLIT["passos"]) + "</ol>"
+            "<h2>Perguntas frequentes sobre party loot</h2>"
+            + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in LSPLIT["faq"]))
 
 
 def pag_servidor(s):
@@ -311,6 +318,9 @@ def montar(pid, titulo, desc, corpo):
           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
               {"@type": "ListItem", "position": 1, "name": "Início", "item": SITE_URL},
               {"@type": "ListItem", "position": 2, "name": titulo.split(":")[0].split(" |")[0], "item": url}]})
+    if pid == "lootsplit":
+        ld = {"@context": "https://schema.org", "@graph": [{k: v for k, v in ld.items() if k != "@context"},
+              {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in LSPLIT["faq"]]}]}
     t = sub(r'<script type="application/ld\+json">.*?</script>',
             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>', t)
     t = sub(r'<div class="topcupom" id="topcupom"[^>]*>.*?</div>(?=\s*<header)', CUPOM, t)

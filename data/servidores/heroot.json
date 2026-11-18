@@ -248,6 +248,19 @@
  "regras_fonte": "https://hero-ot.com/regras",
  "novidades": [
   {
+   "data": "12/11/2026",
+   "titulo": "Desempenho do client, Mount Box e Market novo",
+   "link": "https://hero-ot.com/noticias/atualizacao-desempenho-do-client-mount-box-e-market-novo",
+   "itens": [
+    "Fim do lag em hunts longas: o client usa bem menos memória (no Modo HD, de 8,8 GB para 5,4 GB no pico).",
+    "FPS padrão agora é 144 (60 com a janela sem foco), para não pesar no processador.",
+    "Mount Box mostra o tier e o bônus de cada montaria. O Market ganhou visual novo.",
+    "Hero Tools: o Exori só sai com monstro colado, e a tecla Tab volta a ligar e desligar.",
+    "Weapon Proficiency: não precisa mais de Reset para subir de nível, e todas as armas deixam escolher perks.",
+    "Wereboar, Werebear e Werebadger foram rebalanceados conforme o Tibia oficial."
+   ]
+  },
+  {
    "data": "09/11/2026",
    "titulo": "Atualização 1.0.8",
    "link": "https://hero-ot.com/noticias/atualizacao-108-sons-hero-tools-e-a-jornada-do-monk",
@@ -261,6 +274,6 @@
    ]
   }
  ],
- "titulo_seo": "HeroOT (Hero OT): rates, estágios de XP e guia do servidor | Jantar Guia",
- "desc_seo": "Guia do HeroOT (Hero OT): estágios de XP, rates de skill e magic level, bônus de party, Hero Tools, regras e novidades do servidor."
+ "titulo_seo": "HeroOT (Hero OT): guia, rates e cupom de 10% de bônus | Jantar Guia",
+ "desc_seo": "Guia do HeroOT (Hero OT): estágios de XP, rates, Hero Tools e novidades do servidor, mais o cupom JANTAR10 que dá 10% de bônus em cash ao criar a conta pelo link do Jantar."
 }

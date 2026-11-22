@@ -1072,10 +1072,38 @@
        "hp": 2800,
        "img": "img/monstros/werelion.gif",
        "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Werelion%20hunt%20250",
-       "xph": 2900000,
+       "xph": 3400000,
        "profit": 800000,
-       "fxp": "tpv",
+       "fxp": "tp",
        "modo": "solo"
+      },
+      {
+       "m": "True Dawnfire Asura",
+       "onde": "Asura Mirror",
+       "lv": "250+",
+       "nota": "A maior XP do Knight nessa faixa. Use arma de energia ou gelo e proteção de fogo.",
+       "exp": 8100,
+       "hp": 8500,
+       "img": "img/monstros/true-dawnfire-asura.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Asura%20Mirror%20250",
+       "modo": "solo",
+       "xph": 4800000,
+       "profit": 500000,
+       "fxp": "tp"
+      },
+      {
+       "m": "Fury",
+       "onde": "Oramond Fury Dungeon",
+       "lv": "250+",
+       "nota": "Boa XP e lucro. Use arma de energia e proteção de fogo.",
+       "exp": 4000,
+       "hp": 4100,
+       "img": "img/monstros/fury.gif",
+       "yt": "https://www.youtube.com/results?search_query=tibia%20knight%20Oramond%20Fury%20Dungeon%20250",
+       "modo": "solo",
+       "xph": 3700000,
+       "profit": 800000,
+       "fxp": "tp"
       }
      ],
      "magias": [

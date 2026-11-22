@@ -136,8 +136,31 @@
      "img": "img/itens/brass-armor.webp"
     },
     {
+     "id": "knight-zaoan-legs",
      "tier": "8–20",
      "slot": "Pernas",
+     "item": "Zaoan Legs",
+     "lv": null,
+     "attr": "Armadura 8, 2% de proteção física",
+     "src": [
+      {
+       "m": "Fazzrah",
+       "c": 6.25
+      },
+      {
+       "m": "Lizard Chosen",
+       "c": 0.94
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Não pede level e serve para todas as vocações: armadura 8 e 2% de proteção física. Compre no market (uns 14 a 20k) ou drope de Lizard Chosen e Draken. Dura até o lvl 185 (Ornate Legs).",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+     "img": "img/itens/zaoan-legs.webp"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Pernas (alternativa)",
      "item": "Brass Legs",
      "lv": null,
      "attr": "Armadura 5",
@@ -162,7 +185,7 @@
       }
      ],
      "quest": null,
-     "tip": "Se tiver gold, já compre as Zaoan Legs no market (não pede level).",
+     "tip": "Só se ainda não tiver gold para a Zaoan Legs: compre no NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
      "id": "knight-brass-legs",
      "img": "img/itens/brass-legs.webp"
@@ -428,29 +451,6 @@
      "img": "img/itens/zaoan-helmet.webp"
     },
     {
-     "id": "knight-zaoan-legs",
-     "tier": "20–35",
-     "slot": "Pernas",
-     "item": "Zaoan Legs",
-     "lv": null,
-     "attr": "Armadura 8, 2% de proteção física",
-     "src": [
-      {
-       "m": "Fazzrah",
-       "c": 6.25
-      },
-      {
-       "m": "Lizard Chosen",
-       "c": 0.94
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Compre no market junto com o Zaoan Helmet. Dura até o lvl 185 (Ornate Legs).",
-     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
-     "img": "img/itens/zaoan-legs.webp"
-    },
-    {
      "tier": "35–60",
      "slot": "Arma (Espada)",
      "item": "Wyvern Fang",
@@ -468,25 +468,6 @@
      "wiki": "https://tibia.fandom.com/wiki/Wyvern_Fang",
      "id": "knight-wyvern-fang",
      "img": "img/itens/wyvern-fang.webp"
-    },
-    {
-     "tier": "35–60",
-     "slot": "Pernas",
-     "item": "Plate Legs",
-     "lv": null,
-     "attr": "Armadura 7",
-     "src": [
-      {
-       "m": "Orc Warlord",
-       "c": 4.28
-      }
-     ],
-     "shop": [],
-     "quest": null,
-     "tip": "Orc Warlord também dropa plate armor e dark helmet.",
-     "wiki": "https://tibia.fandom.com/wiki/Plate_Legs",
-     "id": "knight-plate-legs",
-     "img": "img/itens/plate-legs.webp"
     },
     {
      "id": "knight-crystal-mace",
@@ -2649,8 +2630,31 @@
      "img": "img/itens/spirit-cloak.webp"
     },
     {
+     "id": "sorcerer-zaoan-legs",
      "tier": "8–20",
      "slot": "Pernas",
+     "item": "Zaoan Legs",
+     "lv": null,
+     "attr": "Armadura 8, proteção 2% física",
+     "src": [
+      {
+       "m": "Fazzrah",
+       "c": 6.25
+      },
+      {
+       "m": "Lizard Chosen",
+       "c": 0.94
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Não pede level e serve para todas as vocações: armadura 8 e 2% de proteção física. Compre no market (uns 14 a 20k) ou drope de Lizard Chosen e Draken.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+     "img": "img/itens/zaoan-legs.webp"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Pernas (alternativa)",
      "item": "Brass Legs",
      "lv": null,
      "attr": "Armadura 5",
@@ -2675,7 +2679,7 @@
       }
      ],
      "quest": null,
-     "tip": "",
+     "tip": "Só se ainda não tiver gold para a Zaoan Legs: compre no NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
      "id": "sorcerer-brass-legs",
      "img": "img/itens/brass-legs.webp"
@@ -3750,8 +3754,31 @@
      "img": "img/itens/spirit-cloak.webp"
     },
     {
+     "id": "druid-zaoan-legs",
      "tier": "8–20",
      "slot": "Pernas",
+     "item": "Zaoan Legs",
+     "lv": null,
+     "attr": "Armadura 8, proteção 2% física",
+     "src": [
+      {
+       "m": "Fazzrah",
+       "c": 6.25
+      },
+      {
+       "m": "Lizard Chosen",
+       "c": 0.94
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Não pede level e serve para todas as vocações: armadura 8 e 2% de proteção física. Compre no market (uns 14 a 20k) ou drope de Lizard Chosen e Draken.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+     "img": "img/itens/zaoan-legs.webp"
+    },
+    {
+     "tier": "8–20",
+     "slot": "Pernas (alternativa)",
      "item": "Brass Legs",
      "lv": null,
      "attr": "Armadura 5",
@@ -3776,7 +3803,7 @@
       }
      ],
      "quest": null,
-     "tip": "",
+     "tip": "Só se ainda não tiver gold para a Zaoan Legs: compre no NPC.",
      "wiki": "https://tibia.fandom.com/wiki/Brass_Legs",
      "id": "druid-brass-legs",
      "img": "img/itens/brass-legs.webp"
@@ -4909,7 +4936,7 @@
      "slot": "Pernas",
      "item": "Legs of Enlightenment",
      "lv": 40,
-     "attr": "Armadura 4",
+     "attr": "Armadura 4, +1 fist fighting, Mantra 4, proteção 3% terra, +12% de dano no Double Jab",
      "src": [],
      "shop": [
       {
@@ -4918,7 +4945,7 @@
       }
      ],
      "quest": null,
-     "tip": "Level 40.",
+     "tip": "Level 40. Troca defesa por dano: menos armadura que a Zaoan Legs, mas +1 fist e mais dano no Double Jab. Se estiver apanhando muito, fique com a Zaoan Legs.",
      "wiki": "https://tibia.fandom.com/wiki/Legs_of_Enlightenment",
      "id": "monk-legs-of-enlightenment",
      "img": "img/itens/legs-of-enlightenment.webp"
@@ -5366,6 +5393,29 @@
      "tip": "+6 fist fighting: ajuda muito a subir skill no começo.",
      "wiki": "https://tibia.fandom.com/wiki/Power_Ring",
      "img": "img/itens/power-ring.webp"
+    },
+    {
+     "id": "monk-zaoan-legs",
+     "tier": "8–20",
+     "slot": "Pernas",
+     "item": "Zaoan Legs",
+     "lv": null,
+     "attr": "Armadura 8, proteção 2% física",
+     "src": [
+      {
+       "m": "Fazzrah",
+       "c": 6.25
+      },
+      {
+       "m": "Lizard Chosen",
+       "c": 0.94
+      }
+     ],
+     "shop": [],
+     "quest": null,
+     "tip": "Não pede level e serve para todas as vocações: armadura 8 e 2% de proteção física. Compre no market (uns 14 a 20k) ou drope de Lizard Chosen e Draken.",
+     "wiki": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+     "img": "img/itens/zaoan-legs.webp"
     },
     {
      "id": "monk-pair-of-iron-fists",
